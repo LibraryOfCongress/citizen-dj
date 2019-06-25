@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Citizen DJ App</title>
+  <meta name="description" content="Public domain beats">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png"> -->
+
+  <link rel="stylesheet" href="css/vendor/normalize.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <header>
+    <h1>Citizen DJ</h1>
+    <nav aria-label="Toolbar" class="toolbar">
+      <ul>
+        <li><a href="#save">Save</a></li>
+        <li><a href="#export">Export</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="sequencer">
+      <div class="row">
+        <div class="audio-select"></div>
+        <div class="steps">
+          <div class="beat">
+            <a href="#"><span>1/4</span></a>
+            <a href="#"><span>2/4</span></a>
+            <a href="#"><span>3/4</span></a>
+            <a href="#"><span>4/4</span></a>
+          </div>
+          <div class="beat">
+            <a href="#"><span>1/4</span></a>
+            <a href="#"><span>2/4</span></a>
+            <a href="#"><span>3/4</span></a>
+            <a href="#"><span>4/4</span></a>
+          </div>
+          <div class="beat">
+            <a href="#"><span>1/4</span></a>
+            <a href="#"><span>2/4</span></a>
+            <a href="#"><span>3/4</span></a>
+            <a href="#"><span>4/4</span></a>
+          </div>
+          <div class="beat">
+            <a href="#"><span>1/4</span></a>
+            <a href="#"><span>2/4</span></a>
+            <a href="#"><span>3/4</span></a>
+            <a href="#"><span>4/4</span></a>
+          </div>
+        </div>
+        <div class="step-select"></div>
+        <div class="volume-control"></div>
+      </div>
+    </div>
+    <nav aria-label="Controls" class="controls">
+      <ul>
+        <li><a href="#repeat">Repeat</a></li>
+        <li><a href="#play">Play</a></li>
+      </ul>
+    </nav>
+  </main>
+  <footer role="contentinfo">
+    <nav>
+      <ul>
+        <li>By <a href="http://brianfoo.com">Brian Foo</a></li>
+        <li><a href="about.html">About this project</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script src="js/vendor/jquery-3.4.1.min.js"></script>
+  <script src="js/vendor/Tone.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "citizendj-app",
+  "description": "Public domain beats",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
