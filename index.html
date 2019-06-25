@@ -19,49 +19,65 @@
     <h1>Citizen DJ</h1>
     <nav aria-label="Toolbar" class="toolbar">
       <ul>
-        <li><a href="#save">Save</a></li>
-        <li><a href="#export">Export</a></li>
+        <li><button>Save</button></li>
+        <li><button>Export</button></li>
       </ul>
     </nav>
   </header>
   <main>
     <div class="sequencer">
-      <div class="row">
-        <div class="audio-select"></div>
-        <div class="steps">
-          <div class="beat">
-            <a href="#"><span>1/4</span></a>
-            <a href="#"><span>2/4</span></a>
-            <a href="#"><span>3/4</span></a>
-            <a href="#"><span>4/4</span></a>
+      <div class="rows">
+        <div class="row">
+          <div class="audio-select">
+            <select>
+              <option value="-1">Select a sample</option>
+            </select>
           </div>
-          <div class="beat">
-            <a href="#"><span>1/4</span></a>
-            <a href="#"><span>2/4</span></a>
-            <a href="#"><span>3/4</span></a>
-            <a href="#"><span>4/4</span></a>
+          <div class="steps">
+            <div class="beat">
+              <a href="#" class="active"><span>1/4</span></a>
+              <a href="#"><span>2/4</span></a>
+              <a href="#"><span>3/4</span></a>
+              <a href="#"><span>4/4</span></a>
+            </div>
+            <div class="beat">
+              <a href="#"><span>1/4</span></a>
+              <a href="#" class="active"><span>2/4</span></a>
+              <a href="#"><span>3/4</span></a>
+              <a href="#"><span>4/4</span></a>
+            </div>
+            <div class="beat">
+              <a href="#"><span>1/4</span></a>
+              <a href="#"><span>2/4</span></a>
+              <a href="#"><span>3/4</span></a>
+              <a href="#"><span>4/4</span></a>
+            </div>
+            <div class="beat">
+              <a href="#"><span>1/4</span></a>
+              <a href="#"><span>2/4</span></a>
+              <a href="#"><span>3/4</span></a>
+              <a href="#"><span>4/4</span></a>
+            </div>
           </div>
-          <div class="beat">
-            <a href="#"><span>1/4</span></a>
-            <a href="#"><span>2/4</span></a>
-            <a href="#"><span>3/4</span></a>
-            <a href="#"><span>4/4</span></a>
+          <div class="step-select">
+            <label><input type="radio" name="subbeats" value="3" /> <span>3</span></label>
+            <label><input type="radio" name="subbeats" value="4" checked /> <span>4</span></label>
+            <label><input type="radio" name="subbeats" value="6" /> <span>6</span></label>
+            <label><input type="radio" name="subbeats" value="8" /> <span>8</span></label>
           </div>
-          <div class="beat">
-            <a href="#"><span>1/4</span></a>
-            <a href="#"><span>2/4</span></a>
-            <a href="#"><span>3/4</span></a>
-            <a href="#"><span>4/4</span></a>
+          <div class="volume-control">
+            <input type="range" min="1" max="100" value="50" class="slider" />
+            <button>Toggle sound</button>
           </div>
         </div>
-        <div class="step-select"></div>
-        <div class="volume-control"></div>
       </div>
     </div>
     <nav aria-label="Controls" class="controls">
       <ul>
-        <li><a href="#repeat">Repeat</a></li>
-        <li><a href="#play">Play</a></li>
+        <li><label for="tempo">Tempo</label> <input id="tempo" type="range" min="10" max="160" value="120" class="slider" name="tempo" /></li>
+        <li><button>Randomize</button></li>
+        <li><button>Repeat</button></li>
+        <li><button>Play</button></li>
       </ul>
     </nav>
   </main>

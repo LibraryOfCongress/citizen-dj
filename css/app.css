@@ -1,0 +1,148 @@
+:root {
+  --darker-color: #17223b;
+  --dark-color: #263859;
+  --light-color: #6b778d;
+  --lighter-color: #eeeeee;
+  --secondary-color: #ff6768;
+  --header-height: 60px;
+  --controls-height: 60px;
+  --footer-height: 30px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  background: var(--darker-color);
+  color: var(--lighter-color);
+  overflow: hidden;
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--lighter-color);
+}
+button {
+  background: var(--secondary-color);
+  color: var(--darker-color);
+  border: none;
+  font-size: 1.2rem;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 1rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+}
+button:hover {
+  background: var(--lighter-color);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: var(--header-height);
+  line-height: var(--header-height);
+}
+header::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+header h1 {
+  float: left;
+  margin: 0;
+  height: 60px;
+  margin-left: 1rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+header nav {
+  float: right;
+  margin-right: 1rem;
+}
+main {
+  background: var(--dark-color);
+  height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+footer {
+  height: var(--footer-height);
+  line-height: var(--footer-height);
+}
+footer nav ul {
+  margin-left: 1rem;
+}
+footer nav ul li {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.sequencer {
+  height: calc(100vh - var(--header-height) - var(--footer-height) - var(--controls-height));
+}
+.rows {
+  padding: 0.5rem;
+}
+.row {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+.row > div {
+  padding: 0 0.2rem;
+}
+.steps {
+  flex-grow: 1;
+  display: flex;
+}
+.beat {
+  display: flex;
+}
+.beat a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: var(--light-color);
+  margin: 1px;
+  border: 1px solid transparent;
+}
+.beat a.active {
+  background: var(--secondary-color);
+}
+.beat a:hover {
+  border-color: var(--lighter-color);
+}
+.step-select,
+.volume-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.controls {
+  text-align: center;
+  height: var(--controls-height);
+  line-height: var(--controls-height);
+}
+
+.beat a span {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
