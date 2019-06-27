@@ -39,13 +39,36 @@ button:hover {
   background: var(--lighter-color);
 }
 
+.radio-button {
+
+}
+.radio-button input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+}
+.radio-button span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 1rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: var(--darker-color);
+}
+.radio-button input[type=radio]:checked ~ span {
+  background: var(--darker-color);
+  color: var(--secondary-color);
+}
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
 nav ul li {
-  display: inline-block;
   margin: 0;
   padding: 0;
 }
@@ -53,22 +76,17 @@ nav ul li {
 header {
   height: var(--header-height);
   line-height: var(--header-height);
-}
-header::after {
-  content: "";
-  clear: both;
-  display: table;
+  display: flex;
+  justify-content: space-between;
 }
 header h1 {
-  float: left;
   margin: 0;
   height: 60px;
   margin-left: 1rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   letter-spacing: 0.1rem;
 }
 header nav {
-  float: right;
   margin-right: 1rem;
 }
 main {
@@ -134,9 +152,14 @@ footer nav ul li {
   flex-wrap: nowrap;
 }
 .controls {
-  text-align: center;
   height: var(--controls-height);
   line-height: var(--controls-height);
+}
+.controls ul {
+  justify-content: center;
+}
+.controls ul li {
+  margin: 0 0.2rem;
 }
 
 .beat a span {
@@ -145,4 +168,84 @@ footer nav ul li {
   overflow: hidden;
   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
+
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 120px;
+  margin: 13.8px 0;
+  background: transparent;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: var(--darker-color);
+  border: 1px solid #000;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  border-color: var(--secondary-color);
+}
+input[type=range]::-webkit-slider-thumb {
+  border: none;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: var(--lighter-color);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: var(--darker-color);
+  border: 1px solid #000;
+}
+input[type=range]:focus::-moz-range-track {
+  border-color: var(--secondary-color);
+  outline: none;
+}
+input[type=range]::-moz-range-thumb {
+  border: 1px solid #000000;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: var(--lighter-color);
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #2a6495;
+  border: 1px solid #000;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-fill-upper {
+  background: var(--darker-color);
+  border: 1px solid #000;
+  border-radius: 2.6px;
+}
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 36px;
+  width: 16px;
+  border-radius: 3px;
+  background: var(--lighter-color);
+  cursor: pointer;
+  height: 8.4px;
 }
