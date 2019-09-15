@@ -1,0 +1,225 @@
+artist,title,year,category,bpm,bar,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16
+Marva Whitney,Unwind Yourself,1969,1,126,1,"ka,h",,h,,"sa,h",,h,sg,h,sg,"k,h",,"sa,h",,"k,h",
+Marva Whitney,Unwind Yourself,1969,1,126,2,"ka,h",,h,,"sa,h",,h,sg,h,sg,"k,h",,"sa,h",,"k,h",
+Marva Whitney,Unwind Yourself,1969,1,126,3,"ka,h",,h,,"sa,h",,h,sg,h,sg,"k,h",,"sa,h",,"kg,h",
+Marva Whitney,Unwind Yourself,1969,1,126,4,"ka,h",,h,,"sa,h",,h,sg,h,sg,"k,h",,"sa,h",,"k,h",
+A Tribe Called Quest,Youthful Expression,1990,1,109,1,"k,h",,"k,h",,"sa,h",,h,sg,"kg,h",,"k,h",,"sa,h",,h,sg
+A Tribe Called Quest,Youthful Expression,1990,1,109,2,"k,h",,"k,h",,"sa,h",,h,sg,h,,"k,h",,"sa,h",,h,sg
+A Tribe Called Quest,Youthful Expression,1990,1,109,3,"k,h",,h,,"sa,h",,h,sg,h,,"k,h",,"sa,h",,h,sg
+A Tribe Called Quest,Youthful Expression,1990,1,109,4,"k,h",,"k,h",,"sa,h",,h,sg,h,,"k,h",,"sa,h",,"k,h",sg
+The Roots,Don't Say Nuthin,2004,2,99,1,"k,h",,h,,"sa,h",,h,,h,,"k,h",,"sa,h",k,h,
+The Roots,Don't Say Nuthin,2004,2,99,2,"k,h",,h,,"sa,h",,h,,h,,h,,"sa,h",k,h,
+Average White Band,School Boy Crush,1975,2,88,1,"k,h",,h,,"sa,h",,ha,k,ha,k,ha,,"sa,h",,ha,
+Average White Band,School Boy Crush,1975,2,88,2,"k,ha",,h,,"sa,h",,ha,k,ha,k,ha,,"sa,h",,ha,
+Average White Band,School Boy Crush,1975,2,88,3,"k,h",,h,,"sa,h",,ha,k,ha,k,ha,,"sa,h",,ha,
+Average White Band,School Boy Crush,1975,2,88,4,"k,ha",,h,,"sa,h",,ha,k,ha,k,ha,,"sa,h",,sa,sa
+Minnie Riperton,Baby This Love I Have,1975,2,82,1,ha,,h,,"h,r",k,h,,ha,,h,,"h,r",,h,
+Minnie Riperton,Baby This Love I Have,1975,2,82,2,ha,,h,,"h,r",k,ha,,"k,ha",,h,,"h,r",,h,
+Bob James,Take Me to the Mardi Gras,1975,3,104,1,"k,ha",,h,k,"sa,h",,"sg,h",sg,ha,sg,"k,h",,"sa,h",k,"sg,h",sg
+Bob James,Take Me to the Mardi Gras,1975,3,104,2,"k,ha",,h,k,"sa,h",,h,sa,ha,sg,"k,h",,"sa,h",,ho,
+Bob James,Take Me to the Mardi Gras,1975,3,104,3,"k,hac",,h,k,"sa,h",,h,sa,ha,sg,"k,h",,"sa,h",,"sg,h",sg
+Bob James,Take Me to the Mardi Gras,1975,3,104,4,"k,ha",sg,h,k,"sa,h",,h,sa,ha,sg,"k,h",sg,sa,sa,t,sg
+Lyn Collins,Think (About It),1972,3,113,1,"k,h",,h,,"sa,h",,h,sg,h,sg,"sg,h",,"sa,h",,h,
+Lyn Collins,Think (About It),1972,3,113,2,"k,ho",,,,"sa,hc",,h,sg,h,sg,"sg,h",,sa,,h,
+Duke Williams and the Extremes,Chinese Chicken,1973,3,116,1,"k,h",sg,h,,"sa,h",sg,ha,sa,"k,ha",,"k,ha",,"sa,h",,h,sg
+Duke Williams and the Extremes,Chinese Chicken,1973,3,116,2,"k,ha",sg,ha,k,"sa,h",,ha,sa,"k,ha",,"k,ha",,"sa,h",sg,ho,sg
+Duke Williams and the Extremes,Chinese Chicken,1973,3,116,3,"k,hac",sg,ha,k,"sa,h",,ha,sa,"k,ha",,"k,ha",,"sa,h",,ha,
+Duke Williams and the Extremes,Chinese Chicken,1973,3,116,4,"sa,h",,ha,,"sa,h",sg,ha,sa,"kg,h",sa,sa,sa,sa,sa,sa,sa
+Tower of Power,Squib Cakes,1974,3,112,1,"k,c",sg,"k,sg,h",k,"sa,h",,"sg,h",sg,h,sg,ho,sg,"sa,ho",,"sg,h",sg
+Tower of Power,Squib Cakes,1974,3,112,2,k,sg,"sg,h",k,"sa,h",,"sg,h",sg,h,sg,"k,ho",sg,"sa,ho",,"sg,hc",sg
+Tower of Power,Squib Cakes,1974,3,112,3,"k,h",sg,"sg,h",k,"sa,h",,"sa,h",sg,h,sg,sa,h,sa,h,k,h
+Tower of Power,Squib Cakes,1974,3,112,4,k,"k,h",h,sa,sg,ho,s,h,ho,sg,h,sg,sa,sa,t,sg
+Sharon Jones and the Dap Kings,Ain't It Hard,2002,3,113,1,"k,h",,h,,"sa,h",,h,,"sa,h",,"k,h",,"h,r",,"sa,h",sg
+Sharon Jones and the Dap Kings,Ain't It Hard,2002,3,113,2,h,sg,"k,h",sg,"sa,h",sg,"k,h",sg,h,sg,"k,h",,"sa,h",sg,"k,h",sg
+Sharon Jones and the Dap Kings,Ain't It Hard,2002,3,113,3,"k,h",,"k,h",,"sa,h",,h,sa,h,s,"k,h",,"sa,h",,h,
+Sharon Jones and the Dap Kings,Ain't It Hard,2002,3,113,4,"k,c",,,,"k,c",,,,c,,s,s,t,t,ttt,ttt
+James Brown,Mother Popcorn,1969,3,117,1,"k,h",,k,,"sa,h",,,,h,sg,k,,h,,sa,
+James Brown,Mother Popcorn,1969,3,117,2,h,sg,k,sg,h,sg,k,sg,"k,h",sa,k,sg,"sa,h",sg,k,sg
+Gary Numan,Films,1979,4,99,1,"k,c",k,h,k,"sa,h",,h,,"k,h",k,h,k,"sa,h",,h,
+Gary Numan,Films,1979,4,99,2,k,k,h,k,"sa,h",,h,,"k,h",k,h,sa,sa,sa,k,k
+Gary Numan,Films,1979,4,99,3,"k,c",k,h,k,"sa,h",,h,,"k,h",k,h,k,"sa,h",,h,
+Gary Numan,Films,1979,4,99,4,k,k,h,k,"sa,h",,h,,"k,h",k,h,sa,sa,sa,k,k
+James Brown,Funky President,1974,4,99,1,"k,h",,h,k,"sa,h",,h,k,h,k,"k,ho",,"sa,hc",,"sg,h",sg
+James Brown,Funky President,1974,4,99,2,"k,h",sg,h,k,"sa,h",,h,k,h,k,"k,ho",,"sa,hc",,"sg,h",sb
+James Brown,Funky President,1974,4,99,3,"k,h",sg,h,k,"sa,h",,h,k,h,k,"k,ho",,"sa,hc",,"sg,h",sg
+James Brown,Funky President,1974,4,99,4,"k,h",,h,k,"sa,h",,h,k,h,k,"k,ho",,"sa,hc",,"sg,h",sg
+The Skull Snaps,It's a New Day,1973,4,95,1,"k,ha",,"k,h",,"s,h",,ha,,ha,,"k,h",k,"s,h",,ha,k
+Lee Dorsey,"Get Out of My Life, Woman",1966,4,89,1,"k,h",,ha,,"sa,ha",,ha,k,"k,h",,"k,ha",,"sa,ha",,ha,k
+Gang Starr,Above the Clouds,1998,4,86,1,"k,h",,h,,"sa,h",,h,k,"k,h",,h,,"sa,h",,h,k
+Gang Starr,Above the Clouds,1998,4,86,2,"k,h",,h,,"sa,h",,h,k,"k,h",,"k,h",,"sa,h",,h,k
+Gang Starr,Above the Clouds,1998,4,86,3,"k,h",,h,,"sa,h",,h,k,"k,h",,h,,"sa,h",,h,k
+Gang Starr,Above the Clouds,1998,4,86,4,"k,h",,"k,h",,"sa,h",,h,k,"k,h",,"k,h",,"sa,h",,h,k
+Leon Haywood,I Want'a Do Something Freaky to You,1975,5,94,1,"k,h",,h,,"r,h",,"k,h",,"k,h",,h,,"r,h",,"k,h",
+Leon Haywood,I Want'a Do Something Freaky to You,1975,5,94,2,"k,h",,h,,"r,h",,"k,h",,"k,h",,"k,ho",,"r,hc",,"k,h",
+The Honeydrippers,Impeach the President,1973,5,97,1,"k,h",,h,,"sa,h",,h,"k,h","k,h",,"k,ho",,"sa,hc",,"k,h",
+Aretha Franklin,Rocksteady,1972,5,105,1,"k,h",sg,"k,h",k,"sa,h",,"sa,h",sg,h,s,"k,h",k,"sa,h",,"sa,h",sg
+Aretha Franklin,Rocksteady,1972,5,105,2,"k,h",sg,"k,h","k,h","sa,h",,"sa,h",sg,"k,h",s,"k,h",k,"sa,h",,"sa,h",sg
+Aretha Franklin,Rocksteady,1972,5,105,3,"k,h",sg,"k,h",k,"sa,h",,"sa,h",sg,"k,h",s,"k,h",k,"sa,h",s,"k,h",s
+Aretha Franklin,Rocksteady,1972,5,105,4,"sa,h",k,h,s,"k,h","k,h","sa,h",,sa,"k,ho",,"k,ho",,"k,ho",,s
+Lauryn Hill,Lost Ones,1998,6,95,1,k,,h,,"sa,h",,h,,k,,"sa,h",,,,h,
+Lauryn Hill,Lost Ones,1998,6,95,2,k,,h,,"sa,h",,h,,k,,"sa,h",,,,k,
+James Brown,Cold Sweat (Pt. 1),1967,6,111,1,"k,ha",,h,,"sa,ha",,h,sg,"k,ha",,"k,ho",,h,,"sa,h",
+James Brown,Cold Sweat (Pt. 1),1967,6,111,2,h,sg,"k,ho",,"sa,hc",,h,sg,"k,h",sg,"k,ho",,"sa,hc",,"k,h",
+James Brown,Cold Sweat (Pt. 2),1967,6,114,1,"k,c",,h,,"sa,h",,h,s,"k,h",,"k,h",,h,,"sa,h",
+James Brown,Cold Sweat (Pt. 2),1967,6,114,2,h,s,"k,h",,"sa,h",,"k,h",ta,h,ta,"k,h",,"ta,h",,"k,h",
+James Brown,Cold Sweat (Pt. 2),1967,6,114,3,"k,c",,h,,"sa,h",,h,s,"k,h",sg,"k,h",,"sg,h",,"sb,h",
+James Brown,Cold Sweat (Pt. 2),1967,6,114,4,h,s,"k,h",,"sa,h",,"k,h",sg,h,sa,"k,h",,"ta,h",,"k,h",
+The Roots,75 Bars,2008,6,108,1,"k,hc",,"k,h",,"sa,ho",,,s,"k,hc",,"k,h",,"sa,ho",,,s
+The Roots,75 Bars,2008,6,108,2,"k,h",,"k,h",,"s,h",,"sa,h",,"k,hc",s,k,,"sa,h",,hc,s
+Mos Def,UMI Says,1999,6,121,1,"k,h",,h,,"sa,h",,h,,"sa,h",,"k,h",,h,,"sa,h",
+Mos Def,UMI Says,1999,6,121,2,h,sg,"k,h",,"sa,h",,h,sg,"k,h",sg,"k,h",,"sa,h",,h,
+Mos Def,UMI Says,1999,6,121,3,"k,h",,h,,"sa,h",,h,,"sa,h",,"k,h",,h,,"sa,h",
+Mos Def,UMI Says,1999,6,121,4,h,sg,"k,h",,"sa,h",,h,sg,"k,h",sg,"k,h",,"sa,h",sg,h,sg
+Kool and the Gang,Chocolate Buttermilk,1969,7,113,1,"k,h",s,"k,h",k,"sa,h",sb,k,s,"k,h",sa,k,k,"sa,h","k,sb",h,sb
+Kool and the Gang,Chocolate Buttermilk,1969,7,113,2,"k,h",s,"k,h",k,"sa,h",sb,k,sa,"k,h",sa,"k,h",k,"sa,h",sb,"k,h",tb
+Paul Simon,50 Ways to Leave Your Lover,1975,7,102,1,k,h,sa,,h,sa,h,k,"k,ttt",,,,sb,s,s,s
+Paul Simon,50 Ways to Leave Your Lover,1975,7,102,2,k,h,sa,,h,sa,h,k,k,,,,ttt,,sb,sb
+Isaac Hayes,Breakthrough,1974,8,84,1,"k,ha",h,ha,h,"s,h",h,ha,"k,h",ha,"k,h","k,ha",h,"s,h",h,ha,h
+Isaac Hayes,Breakthrough,1974,8,84,2,"k,ha",h,ha,h,"s,h",h,ha,"k,h",ha,"k,h","k,ha",h,"s,h",h,ha,h
+Isaac Hayes,Breakthrough,1974,8,84,3,"k,ha",h,ha,h,"s,h",h,ha,"k,h",ha,"k,h","k,ha",h,"s,h",h,ha,h
+Isaac Hayes,Breakthrough,1974,8,84,4,"k,ha",h,ha,h,"s,h",h,ha,"k,h",ha,"k,h","k,ha",h,"s,h",h,ho,
+Outkast,SpottieOttieDopaliscious,1998,8,63,1,"k,h",h,"k,h",h,"r,h",h,h,"k,h","k,h",h,"k,h",h,"r,h",h,h,ho
+Outkast,SpottieOttieDopaliscious,1998,8,63,2,"k,hc",h,"k,h",h,"r,h",h,h,"k,h","k,h",h,"k,h",h,"r,h","r,h3",h,r
+A Tribe Called Quest,Footprints,1990,9,100,1,"k,h",,h,,sa,,h,h,h,h,"k,ho",,sa,,h,h
+A Tribe Called Quest,Footprints,1990,9,100,2,"k,h",,h,,sa,,h,h,h,h,"k,ho",,sa,k,h,h
+The Isley Brothers,Footsteps in the Dark,1977,9,81,1,"k,h",,h,,"s,h",,h,h,k,h,h,,"s,h",,h,h
+The Isley Brothers,Footsteps in the Dark,1977,9,81,2,"k,ha",,h,,"kg,s,h",,h,h,k,h,h,,"s,h",,ho,
+Tower of Power,Ebony Jam,1975,9,113,1,"k,c",,h,,sa,,h,,"k,ha",,h,,sa,ha,sg,"k,h"
+Tower of Power,Ebony Jam,1975,9,113,2,ha,sg,"sg,ha",k,sa,,h,,"k,ha",,h,,sa,ha,sg,"k,h"
+The Meters,Cissy Strut,1969,9,88,1,k,h,ha,k,sa,k,,ha,k,"k,h",ha,k,sa,,"sa,h",
+The Meters,Cissy Strut,1969,9,88,2,k,h,ha,k,sa,k,,ha,k,"k,h",ha,k,sa,k,"sa,h",
+Melvin Bliss,Synthetic Substitution,1973,10,93,1,"k,h",,"k,h",,"sa,h",,h,k,h,k,"k,h",k,"sa,h",,h,k
+Melvin Bliss,Synthetic Substitution,1973,10,93,2,"k,h",,"k,ho",,"sa,hc",,h,k,h,k,"k,h",k,"sa,h",,h,k
+Public Enemy,Night of the Living Baseheads,1988,10,106,1,"k,h",,h,,"sa,h",,"kg,h",k,h,k,"k,h",,"sa,h",,"kg,h",kg
+Public Enemy,Night of the Living Baseheads,1988,10,106,2,h,,"k,h",,"sa,h",,h,k,"k,h",k,"k,h",k,"sa,h",k,"k,h",
+The Roots,Ain't Sayin Nothin New,1999,10,93,1,"k,h",k,"k,h",k,"sa,h",,h,,"k,h",,"k,h",,"sa,h",,h,
+Carleen and the Groovers,Can We Rap,2004,11,117,1,"k,y",,k3,k,sa,,y,sb,"k,y",,k3,k,sa,,y,s
+Carleen and the Groovers,Can We Rap,2004,11,117,2,"k,y",,y,,"sa,h",,y,s,"k,y",s,"k,y",k,"sa,y",,y,sb
+Carleen and the Groovers,Can We Rap,2004,11,117,3,"k,y",,k3,k,sa,,y,sb,"k,y",,"k,y",,"sa,y",,y,sb
+Carleen and the Groovers,Can We Rap,2004,11,117,4,"k,y",s,,y,sa,"k,y",s,s,"k,y",s,"k,yl","k,yl",sa,"k,yl",s,s
+The Meters,Look-ka Py Py,1969,12,87,1,"k,h",,hg,k,"sa,h",,h,sa,h,k,"k,s,ha",,,k,"sa,h",k
+The Meters,Look-ka Py Py,1969,12,87,2,h,"k,s","k,h",k,h,"k,h",sa,"k,h","k,ho",,"k,s,ho",,,k,"k,sa,h",
+24 Carat Black,Foodstamps,1973,12,94,1,"k,ha",r,h,k,"r,h",,"k,ra,ha",,,,h,,h,h,h,
+25 Carat Black,Foodstamps,1973,12,94,2,"k,ha",r,hc,k,"r,h",,"k,ra,ha",,,,hc,,h,h,h,
+Kool and the Gang,Give it Up,1969,13,98,1,"k,h",sg,h,k,"sg,h",,"sa,h",sgb,h,sg,"k,ho",,"sa,hc",k,h,sa
+Kool and the Gang,Give it Up,1969,13,98,2,h,sg,"k,h",,"sa,h",,"sa,hc",sgb,h,sa,"k,c",k,"sg,h",k,"sa,h",k
+Kool and the Gang,Give it Up,1969,13,98,3,"k,c",,h,k,"sa,h",,h,sa,h,s,"k,ho",,"sa,hc",k,h,k
+Kool and the Gang,Give it Up,1969,13,98,4,"k,c",,"sa,h",k,h,sa,"k,c",,"sa,h",k,h,"k,sa",h,k,"k,h",sgb
+Dennis Coffey and the Detroit Guitar Band,Scorpio,1971,break,118,1,k,,k,,,,,,k,,k,,,,,k
+Dennis Coffey and the Detroit Guitar Band,Scorpio,1971,fill,118,2,k,,k,,,,,,k,,k,,sa,s,t,sg
+Dennis Coffey and the Detroit Guitar Band,Scorpio,1971,break,118,3,"k,ha",,h,,"sa,ha",,h,sg,ha,sg,"k,h",,ha,,"sa,h",
+Dennis Coffey and the Detroit Guitar Band,Scorpio,1971,fill,118,4,ha,sg,"k,h",,"sa,ha",sg,h,sa,ha,sa,"k,h",s,"sa,ha",s,t,s
+Dennis Coffey and the Detroit Guitar Band,Scorpio,1971,break,118,5,"k,ha",,h,,"sa,ha",,h,sg,ha,sg,"k,h",,ha,,"sa,h",
+Dennis Coffey and the Detroit Guitar Band,Scorpio,1971,fill,118,6,ha,sg,"k,h",,"sa,ha",,h,sb,"sa,h",sa,,sb,"sa,ha",sa,sa,sa
+Kool and the Gang,Love the Life You Live,1972,break,126,1,"k,ho",,hc,k,"sa,h",,h,sg,h,sg,"k,h",k,h,k,"sa,h",
+Kool and the Gang,Love the Life You Live,1972,break,126,2,"k,ho",,hc,k,"sa,h",,h,sg,"kg,h",sa,"k,hc",k,"sa,h",,hc,k
+Kool and the Gang,Love the Life You Live,1972,fill,126,3,sad,k,k,tad,k,k,ttad,k,k,tttad,k,k,"ttta,s",k,"k,ttt,s",
+The Headhunters,God Made Me Funky,1975,break,95,1,"k,h",,h,,"sa,h",,h,k,h,,ho,,"sa,hc",h,h,
+The Headhunters,God Made Me Funky,1975,break,95,2,"k,h",,h,,"sa,h",,h,k,h,,ho,,"sa,hc",h,h,k
+The Headhunters,God Made Me Funky,1975,break,95,3,"k,h",,h,,"sa,h",,h,k,h,,ho,,"sa,hc",,h,k
+The Headhunters,God Made Me Funky,1975,break,95,4,"k,h",,h,,"sab,h",,h,k,h,,ho,,"sa,hc",h,h,k
+James Brown,Funky Drummer,1970,groove,97,1,h,h,"k,h",h,"s,h","k,h",h,"sa,h",h,h,"k,h",h,"s,h","k,h",h,"sa,h"
+James Brown,Funky Drummer,1970,break,101,2,"k,h",h,"k,h",h,"sa,h",h,h,"sg,ho",hc,"sg,h","k,h","sg,h","sa,h","k,ho","sg,hc","sg,h"
+James Brown,Funky Drummer,1970,break,101,3,"k,h",h,"k,h",h,"sa,h",ho,hc,"sg,h","kg,h","sg,h","k,h","sg,h","sa,h","k,ho","sg,hc","sg,h"
+James Brown,Funky Drummer,1970,break,101,4,"k,h",h,"k,h",h,"sa,h",h,h,"sg,h","k,h","sg,h","k,h","s,h","sa,h","k,ho","sg,hc","sg,h"
+James Brown,Funky Drummer,1970,break,101,5,"k,h",h,"k,h",h,"sa,h","k,ho",hc,"sb,h","kg,h","sg,h","k,h","sg,h","sa,h","k,ha",ha,"k,sg,h"
+The Winstons,"Amen, Brother",1969,groove,129,1,"k,y",,"k,y",k,"sa,y",,y,s,y,s,"k,y",k,"sa,y",k,y,k
+The Winstons,"Amen, Brother",1969,groove,129,2,"k,y",,"k,y",k,"sa,y",,y,k,y,s,"k,y",k,"sa,y",k,y,k
+The Winstons,"Amen, Brother",1969,break,137,3,"k,y",,"k,y",,"sa,y",,y,s,y,s,"k,y",k,"sa,y",,y,s
+The Winstons,"Amen, Brother",1969,break,137,4,"k,y",,"k,y",,"sa,y",,y,s,y,s,"k,y",k,"sa,y",,y,s
+The Winstons,"Amen, Brother",1969,break,137,5,"k,y",,"k,y",,"sa,y",,y,s,y,s,"k,y",,y,,"sa,y",
+The Winstons,"Amen, Brother",1969,break,137,6,y,s,"k,y",k,"sa,y",,y,s,y,s,"k,c",,yg,,"sa,y",
+James Brown,Soul Pride,1969,groove,121,1,"k,h",,k,,"sa,h",,,sg,h,sg,k,sg,"sg,h",,sa,
+James Brown,Soul Pride,1969,break,132,2,"k,h",s,"k,h",s,"k,sa",s,"k,h",s,"k,h",s,"k,h",s,"k,sa",s,"k,h",s
+James Brown,Soul Pride,1969,break,132,3,"k,h",s,"k,h",s,"k,sa",s,"k,h",s,"k,h",s,"k,h",s,"k,sa",s,"k,h",sa
+James Brown,Soul Pride,1969,break,132,4,"k,h",s,"k,sa",s,"k,h",sa,"k,h",s,"k,sa",s,"k,h",sa,"k,h",s,"k,sa",s
+James Brown,Soul Pride,1969,break,132,5,"k,h",sb,"k,h",s,"k,sa",s,"k,h",sa,"k,h",s,"k,h",s,"k,h",s,"k,h",s
+James Brown,Soul Pride,1969,break,132,6,"ka,c",,k,"sa,h",,h,s,,h,sb,"ka,h",,h,,"sa,h",
+James Brown,Soul Pride,1969,break,132,7,h,s,"ka,h",,"sa,h",,"k,h",sg,"k,h",s,sa,s,"k,h",s,"k,sb",sb
+James Brown,Soul Pride,1969,break,132,8,"ka,c",,"k,cg",,"sa,h",,h,s,h,sb,"ka,h",,h,,"sa,h",
+James Brown,Soul Pride,1969,break,132,9,h,sg,"k,h",sg,"sa,h",,"k,h",s,"k,h",s,sa,sg,"k,h",sg,"k,sb",sb
+James Brown,Soul Pride,1969,break,132,10,"ka,h",,h,,"sa,h",,h,s,h,s,"ka,sg,h",,h,,"sa,h",
+James Brown,Soul Pride,1969,break,132,11,h,sg,"k,h",sg,"sa,h",sg,"k,h",,"k,h",s,sa,s,"k,h",sg,"k,sb",sb
+James Brown,Soul Pride,1969,break,132,12,"k,h",sg,"k,h",,"sa,h",,"sa,h",,h,sa,"ka,s,h",,h,,"sa,h",
+James Brown,Soul Pride,1969,break,132,13,h,s,"ka,h",,h,,"sa,h",,h,s,"ka,h",s,sa,s,"k,sa",s
+James Brown,Soul Pride,1969,break,132,14,"ka,h",s,"ka,h",s,"sa,h",,"sa,h",,h,s,ka,,h,,"ka,h",
+James Brown,Soul Pride,1969,break,132,15,h,sg,"k,h",,"sab,h",,"k,h",,"ka,sg,h",,"sa,h",,"k,h",s,k,s
+James Brown,Soul Pride,1969,break,132,16,"ka,c",,"k,c",,"sa,h",,h,s,h,sb,"ka,h",,h,,"sa,h",
+James Brown,Soul Pride,1969,break,132,17,h,s,"k,h",s,sa,s,"k,h",s,"k,h",s,sa,s,"k,h",sg,"k,sb",sb
+James Brown,Soul Pride,1969,break,132,18,"k,ttt",,"k,c",,"sa,h",,h,s,h,sb,"ka,h",,h,,"sa,h",
+James Brown,Soul Pride,1969,break,132,19,h,sg,"k,h",,"sa,h",sg,"k,h",s,"k,h",s,sa,s,"k,h",s,"k,sa",s
+Michael Viner's Incredible Bongo Band,Apache,1973,break,116,1,"k,h",,h,,"sa,h",,h,,h,s,"k,h",,"sa,h",,h,s
+Michael Viner's Incredible Bongo Band,Apache,1973,break,116,2,"k,h",,"k,h",,"sa,h",,h,,h,s,"k,h",,"sa,h",,h,s
+Archie Bell and the Drells,Tighten Up,1968,groove,127,1,"k,h",s,"k,ho",,"sa,hc",,"k,h",s,h,s,"k,ho",,"sa,hc",,h,s
+Archie Bell and the Drells,Tighten Up,1968,break,133,2,"k,y",s,"k,y",,"sa,yg",s,"k,y",t,"k,y",s,"k,y",,"sa,yg",s,"k,y",ta
+Archie Bell and the Drells,Tighten Up,1968,break,133,3,"k,y",s,"k,y",,"sa,yg",s,"k,y",ta,"k,s",s,t,t,s,s,t,s
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,groove,92,1,"k,hc",h,h,"k,h","sa,h",h,h,"sg,h","k,h","sa,h",h,"k,h","sa,h",h,ho,
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,2,"k,h",hc,h,"k,h","sa,h",h,ha,"sg,h","k,h","sa,h",ha,"k,s,h","sa,h",h,"k,ha","sg,h"
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,3,"k,h","sa,h",ha,"k,h","sa,h",h,ha,"k,h","sa,h","k,h",ha,"s,h","k,h",h,"sa,h",h
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,4,"k,h",hc,h,"k,h","sa,h",h,ha,"s,h","k,h","sa,h",h,"k,h","sa,h","k,h",ha,"sa,h"
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,5,h,"k,h",h,"sa,h","k,h","s,h","s,h","k,h",ha,"sa,h","k,h","s,h","sa,h","k,h",h,"sb,h"
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,6,"k,h",hc,h,"k,h","sa,h",h,"sa,h",h,ha,"k,h",h,"sa,h",h,"k,h",ha,"sa,h"
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,7,h,"k,h",ha,"sa,h","k,h",h,"sa,h","k,h",ha,"sa,h","k,h","k,h","sa,h","k,h",ha,sb
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,8,"k,ha",h,h,"k,h","sa,h",h,ha,"sb,h","k,h",k,,k,"sa,h",h,ha,sb
+Charles Wright and The Watts 103rd Street Rhythm Band,Express Yourself,1970,break,94,9,"k,h",h,"k,h",h,"k,h",h,"k,h",h,"k,s,t","s,t","k,s,t","s,t","k,s,t","s,t","k,s,t","s,t"
+Bill Withers,Use Me,1972,groove,78,1,"k,h",h,"k,h",h,"r,h","k,h",h,"k,r,h","k,h","r,h","k,h","k,h","r,h","k,h",h,"k,r,h"
+Bill Withers,Use Me,1972,groove,78,2,"k,h",h,"k,h",h,"r,h","k,h",h,"r,h","k,h","k,ho",hc,"k,ho",hc,"k,ho",hc,"k,r,h"
+Bill Withers,Use Me,1972,break,77,3,"k,h",h,"k,h",h,"r,h","k,h",h,"k,r,h","k,h","r,h","k,h","k,h","r,h","k,h",h,"k,r,h"
+Bill Withers,Use Me,1972,break,77,4,"k,h",h,"k,h",h,"r,h","k,h",h,"r,h","k,h","k,h",h,"k,h","r,h",h,"k,ho",hc
+Bill Withers,Use Me,1972,break,77,5,"k,h",h,"k,h",h,"r,h","k,h",h,"k,r,h","k,h","r,h","k,h","k,h","r,h",h,"k,h","r,hc"
+Bill Withers,Use Me,1972,break,77,6,"k,h",h,"k,h",h,"r,h","k,h",h,"r,h","k,h","k,ho",hc,"k,ho",hc,"k,ho",hc,"r,h"
+Parliament,Come in Out of the Rain,1990,break,84,1,k,,ho,,,k,"k,ho",,,,"k,h",,"sa,h",,h,k
+Parliament,Come in Out of the Rain,1990,break,84,2,"k,h",,ho,,sa,hg,ho,,hc,k,"k,h",,"sa,ha",hg,ha,"k,hg"
+Parliament,Come in Out of the Rain,1990,break,84,3,"k,ha",hg,ho,,sa,hg,ho,,,k,"k,h",,"sa,ha",hg,ha,"k,hg"
+Parliament,Come in Out of the Rain,1990,break,84,4,"k,ha",hg,ho,,sa,hg,ho,,,k,"k,h",,"sa,ha",hg,ha,"k,hg"
+Eumir Deodato,September 13th,1972,break,97,1,"k,h",,ha,k,"sa,h",k,ha,,"k,h",,ho,,"sa,hc",,ha,s
+Eumir Deodato,September 13th,1972,break,97,2,"k,h",sg,ha,k,"sa,h",k,ha,,"k,h",,ho,,"sa,hc",,ha,
+The Meters,Here Comes the Meterman,1969,groove,89,1,"k,ya",,yl,k,"sa,yl",k,yl,sa,"k,y",k,yl,k,"sa,yl",k,"sa,yl",
+The Meters,Here Comes the Meterman,1969,groove,89,2,"k,y",sa,yl,k,"sa,yl",k,yl,sa,"k,y",k,yl,k,"k,sa,yl",,"k,sa,yl",
+The Meters,Here Comes the Meterman,1969,break,91,3,"k,c",,,,"sa,yl",,,sa,yl,k,y,k,"sa,yl",,sa,
+The Meters,Here Comes the Meterman,1969,break,91,4,"k,yl",sa,,k,"sa,yl","k,sa,yl",,k,"sa,yl",k,"k,yl",sa,k,k,"sa,yl",
+The Meters,Here Comes the Meterman,1969,break,91,5,"k,yl",,,k,"sa,yl",k,,"sa,yl",,k,"sa,yl",k,k,"sa,yl",k,k
+The Meters,Here Comes the Meterman,1969,break,91,6,"sa,yl","k,sa,yl",,k,"k,yl",sa,"k,y","k,y","sa,yl",k,"k,s,yl",s,"k,sa,y",,"k,sa,ho",
+The Meters,Here Comes the Meterman,1969,break,91,7,"k,y",,,k,"sa,ya","k,sa,h",,k,"k,sa,yl",,y,k,"sa,yl",k,"k,sa,yl",
+The Meters,Here Comes the Meterman,1969,break,91,8,"k,yl",sa,y,k,"sa,yl","k,y",,k,"sb,yl",k,"k,ya",sa,ya,k,"sa,ya",
+The Meters,Here Comes the Meterman,1969,break,91,9,"k,y",sa,y,k,"sa,yl","k,sa,yl",,k,"k,sa,yl",,yl,k,"sa,yl",k,"sa,yl",
+The Meters,Here Comes the Meterman,1969,break,91,10,"k,y",k,yl,k,"sa,yl",k,"k,sa,yl",,"k,sb",,"k,sb",,"k,sb",,"k,sb",
+Rufus Thomas,Do the Funky Penguin,1971,break,101,1,"k,h",,"k,h",,"sa,h",,h,k,h,k,"k,h",,"sa,h",,ho,
+Rufus Thomas,Do the Funky Penguin,1971,break,101,2,"k,hc",,h,k,"sa,h",,h,k,h,sa,"k,h",k,"sa,h",,ho,
+Rufus Thomas,Do the Funky Penguin,1971,break,101,3,"k,hc",,"k,h",,"sa,h",,h,k,h,sa,"k,h",k,"sa,h",,h,sb
+Rufus Thomas,Do the Funky Penguin,1971,break,101,4,"k,h",sa,h,k,"sa,h",,"sa,h","k,ho",,sa,"k,ho",sb,sa,sa,sa,sa
+Al Green,I'm Glad You're Mine,1972,break,81,1,"k,h",,h,,"r,h",,h,r,h,r,h,k,"r,h",r,h,r
+Al Green,I'm Glad You're Mine,1972,break,81,2,h,,"r,h",,"k,h",r,h,k,"r,h",r,ho,,,,ta,
+Al Green,I'm Glad You're Mine,1972,break,81,3,"k,hc",,h,k,"r,h",,h,r,"k,h",r,h,k,"r,h",r,h,r
+Al Green,I'm Glad You're Mine,1972,break,81,4,h,k,h,,"r,h",,h,r,h,rg,ho,,,,ta,
+The Pharcyde,Runnin,1995,break,94,1,"k,h",,h,,"sa,h",,h,,"k,h",k,h,k,"sa,h",,h,
+The Pharcyde,Runnin,1995,break,94,2,"k,h",,"k,h",,"sa,h",,h,,h,k,h,k,"sa,h",,h,
+The Pharcyde,Runnin,1995,break,94,3,"k,h",,h,,"sa,h",,h,,h,k,h,k,"sa,h",,h,
+The Pharcyde,Runnin,1995,break,94,4,h,,"h,k",,"sa,h",,h,k,h,k,h,k,"sa,h",,h,
+The Pharcyde,Runnin,1995,break,94,5,"k,h",,h,,"sa,h",,h,k,"k,h",k,h,,"sa,h",,h,k
+The Pharcyde,Runnin,1995,break,94,6,"k,h",,h,,"sa,h",,h,k,h,k,h,,"sa,h",,h,
+The Pharcyde,Runnin,1995,break,94,7,"k,h",k,h,,"sa,h",k,h,k,"k,h",,h,k,"sa,h",,h,k
+The Pharcyde,Runnin,1995,break,94,8,"k,h",,"k,h",,"sa,h",k,h,k,h,,h,k,"sa,h",,h,k
+DJ Shadow,Organ Donor,1997,break,110,1,k,,,,k,,,,k,,sa,,sa,,k,sa
+DJ Shadow,Organ Donor,1997,break,110,2,"k,h",,h,,"sa,h",,h,k,"k,h",,"k,h",,"sa,h",,h,
+DJ Shadow,Organ Donor,1997,break,110,3,"k,h",,h,,"sa,h",,k,sa,h,sa,"k,h",,"sa,h",,h,
+DJ Shadow,Organ Donor,1997,break,110,4,"k,h",,h,,"sa,h",,h,k,"k,h",,"k,h",,"sa,h",,h,
+DJ Shadow,Organ Donor,1997,break,110,5,"k,h",,"sa,h",,"sa,h",,"k,h",sa,h,sa,"k,h",,"sa,h",,h,
+DJ Shadow,Organ Donor,1997,break,110,6,"k,h",,h,,"sa,h",,h,k,"k,h",,"k,h",,"sa,h",,h,k
+DJ Shadow,Organ Donor,1997,break,110,7,"sa,h",sa,"k,h",,"sa,h",,h,k,"sa,h",sa,"k,h",,"sa,h",,"sa,h",
+DJ Shadow,Organ Donor,1997,break,110,8,"k,h",,h,,"sa,h",,h,k,"k,h",,h,,"sa,h",,h,
+DJ Shadow,Organ Donor,1997,break,110,9,"k,h",,"k,h",,h,k,"sa,h",,"sa,h",,"k,h",sa,h,k,"k,h",sa
+DJ Shadow,Organ Donor,1997,break,110,10,"k,h",,"k,h",,"sa,h",,h,sa,h,sa,"k,h",,"sa,h",,h,
+DJ Shadow,Organ Donor,1997,break,110,11,h,sa,"k,h",,"sa,h",,h,k,h,k,"k,h",,"sa,h",,"sa,h",sa
+DJ Shadow,Organ Donor,1997,break,110,12,"k,h",,h,,"sa,h",,h,k,"k,h",sg,"k,h",,"sa,h",,h,sg
+DJ Shadow,Organ Donor,1997,break,110,13,"k,h",,h,,"sa,h",,"k,h",sa,h,sa,"k,h",,"sa,h",,h,sg
+DJ Shadow,Organ Donor,1997,break,110,14,"k,h",,"k,h",,"sa,h",,h,k,"k,h",sg,"k,h",,"sa,h",,h,sg
+DJ Shadow,Organ Donor,1997,break,110,15,"k,h",,"k,h",,"sa,h",,h,kg,"k,h",,"k,h",sa,h,kg,"k,h",sa
+DJ Shadow,Organ Donor,1997,break,110,16,"k,h",,"k,h",,"sa,h",,"k,h",,"k,h",sg,"k,h",,"sa,h",,h,k
+DJ Shadow,Organ Donor,1997,break,110,17,"k,h",,"k,h",sa,"k,h",,h,k,h,sa,"k,h",,"sa,h",,h,sg
+DJ Shadow,Organ Donor,1997,break,110,18,h,sa,"k,h",,h,k,"k,h",s,"k,h",sg,"kg,h",,"sa,h",,h,sg
+DJ Shadow,Organ Donor,1997,break,110,19,"sa,h",sa,"k,h",,"sa,h",sa,"k,h",,"sa,h",sa,sa,"k,h",h,sa,"k,h",sa
+The Roots,You Got Me,1999,groove,81,1,"k,ha",h,ha,h,"sa,h",h,ha,"k,h",ha,"k,h",ha,h,"sa,h",h,ha,h
+The Roots,You Got Me,1999,groove,81,2,"k,ha",h,ha,h,"sa,h",h,ha,h,ha,"k,h","k,ha",h,"sa,h",h,ha,"k,h"
+The Roots,You Got Me,1999,groove,81,3,"k,ha",h,ha,h,"sa,h",h,ha,"k,h",ha,"k,h",ha,h,"sa,h",h,ha,h
+The Roots,You Got Me,1999,groove,81,4,ha,h,"k,h",h,"sa,h","k,h",ha,h,"k,h",h,"k,h",h,"sa,h","k,h",ha,h
