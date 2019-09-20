@@ -30,37 +30,15 @@
             <button class="beat"></button><button class="beat"></button><button class="beat"></button><button class="beat"></button>
           </div>
           <div class="modifiers">
-            <fieldset class="effect-modifiers">
-              <div class="input">
-                <label>Reverb</label>
-                <input type="range" min="1" max="100" value="0" class="reverb slider" />
-              </div>
-              <div class="input">
-                <label>Pitch</label>
-                <input type="range" min="-12" max="12" value="0" class="pitch slider" />
-              </div>
-              <div class="input">
-                <label>Lowpass</label>
-                <input type="range" min="0" max="350" value="350" class="lowpass slider" />
-              </div>
-            </fieldset>
-            <fieldset class="volume-modifiers">
-              <div class="input">
-                <label>Volume</label>
-                <input type="range" min="1" max="100" value="50" class="volume slider" />
-              </div>
-              <div class="input">
-                <button>
-                  <svg viewBox="0 0 75 75" aria-hidden="true" focusable="false" class="svg-icon volume-icon">
-                    <polygon points="39.389,13.769 22.235,28.606 6,28.606 6,47.699 21.989,47.699 39.389,62.75 39.389,13.769" />
-                    <path d="M 48.128,49.03 C 50.057,45.934 51.19,42.291 51.19,38.377 C 51.19,34.399 50.026,30.703 48.043,27.577" />
-                    <path d="M 55.082,20.537 C 58.777,25.523 60.966,31.694 60.966,38.377 C 60.966,44.998 58.815,51.115 55.178,56.076" />
-                    <path d="M 61.71,62.611 C 66.977,55.945 70.128,47.531 70.128,38.378 C 70.128,29.161 66.936,20.696 61.609,14.01" />
-                  </svg>
-                  <span class="visually-hidden">Toggle sound for this track</span>
-                </button>
-              </div>
-            </fieldset>
+            <button>
+              <svg viewBox="0 0 75 75" aria-hidden="true" focusable="false" class="svg-icon volume-icon">
+                <polygon points="39.389,13.769 22.235,28.606 6,28.606 6,47.699 21.989,47.699 39.389,62.75 39.389,13.769" />
+                <path d="M 48.128,49.03 C 50.057,45.934 51.19,42.291 51.19,38.377 C 51.19,34.399 50.026,30.703 48.043,27.577" />
+                <path d="M 55.082,20.537 C 58.777,25.523 60.966,31.694 60.966,38.377 C 60.966,44.998 58.815,51.115 55.178,56.076" />
+                <path d="M 61.71,62.611 C 66.977,55.945 70.128,47.531 70.128,38.378 C 70.128,29.161 66.936,20.696 61.609,14.01" />
+              </svg>
+              <span class="visually-hidden">Toggle sound for this track</span>
+            </button>
           </div>
         </div>
       </div>
@@ -73,10 +51,28 @@
       </nav>
     </div>
   </main>
+
+  <div id="modal-modifiers" class="modal">
+    <form class="form-modifiers">
+      <label>Volume</label>
+      <input type="range" min="1" max="100" value="50" class="volume slider" />
+
+      <label>Reverb</label>
+      <input type="range" min="1" max="100" value="0" class="reverb slider" />
+
+      <label>Pitch</label>
+      <input type="range" min="-12" max="12" value="0" class="pitch slider" />
+
+      <label>Lowpass</label>
+      <input type="range" min="0" max="350" value="350" class="lowpass slider" />
+    </form>
+  </div>
+
   <script src="js/vendor/jquery-3.4.1.min.js"></script>
+  <script src="js/vendor/underscore-1.9.1.min.js"></script>
   <script src="js/vendor/papaparse-5.0.2.min.js"></script>
   <script src="js/vendor/tone-13.8.25.min.js"></script>
-  <script src="js/drums.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
