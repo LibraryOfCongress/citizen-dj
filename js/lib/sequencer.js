@@ -13,6 +13,7 @@ var Sequencer = (function() {
       "patternOptions": {},
       "subdivision": 16,
       "bpm": 120,
+      "reverb": 0.2,
       "playerGain": 0,
       "playerFadeOut": "64n"
     };
@@ -28,16 +29,18 @@ var Sequencer = (function() {
     this.subdArr = _.times(this.opt.subdivision, function(n){ return n; });
     this.playing = false;
 
+    this.reverb = new Tone.Freeverb(this.opt.reverb);
     this.keys = new Tone.Players(this.opt.keyUrls, {
       "volume": this.opt.playerGain,
       "fadeOut": this.opt.playerFadeOut,
       "onload": function(){ _this.onPlayersLoad(); }
-    }).toMaster();
+    }).chain(this.reverb, Tone.Master);
     this.keyNames = _.keys(this.opt.keyUrls);
 
     this.pattern = new Pattern(this.opt.patternOptions);
 
     this.loadUI();
+    this.setReverb(this.opt.reverb);
     this.setBPM(this.opt.bpm);
 
     this.loop = new Tone.Sequence(function(time, col){
@@ -61,12 +64,21 @@ var Sequencer = (function() {
         _this.setBPM(parseInt($(this).val()), true);
       });
     }
+
+    // change reverb
+    if (this.$reverbInput.length) {
+      this.$reverbInput.on("input", function(e){
+        _this.setReverb(parseFloat($(this).val()), true);
+      });
+    }
   };
 
   Sequencer.prototype.loadUI = function(){
     this.$toggleButton = this.$el.find(".toggle-play");
     this.$bpmInput = this.$el.find(".bpm-input");
     this.$bpmText = this.$el.find(".bpm-text");
+    this.$reverbInput = this.$el.find(".reverb-input");
+    this.$reverbText = this.$el.find(".reverb-text");
   };
 
   Sequencer.prototype.onPlayersLoad = function(){
@@ -91,6 +103,12 @@ var Sequencer = (function() {
     Tone.Transport.bpm.value = bpm;
     this.$bpmText.text(bpm);
     if (!fromUser) this.$bpmInput.val(bpm);
+  };
+
+  Sequencer.prototype.setReverb = function(roomSize, fromUser){
+    this.reverb.roomSize.value = roomSize;
+    this.$reverbText.text(roomSize);
+    if (!fromUser) this.$reverbInput.val(roomSize);
   };
 
   Sequencer.prototype.start = function(){
