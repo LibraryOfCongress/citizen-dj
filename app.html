@@ -9,19 +9,28 @@
 
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/drums.css">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
+  <header>
+    <h1>Citizen DJ</h1>
+    <nav aria-label="Toolbar" class="toolbar">
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="#settings">Settings</a></li>
+      </ul>
+    </nav>
+  </header>
   <main id="sequencer">
     <div class="container">
+      <div class="sequences">
+        <a href="#1" class="sequence-link">1</a>
+      </div>
       <div class="sequence">
         <div class="track template">
-          <div class="selects">
-            <fieldset class="select-fields">
-              <select class="select-collection"></select>
-              <select class="select-sample"></select>
-            </fieldset>
+          <div class="item">
+            <a href="#item">Item title</a>
           </div>
           <div class="beats">
             <button class="beat"></button><button class="beat"></button><button class="beat"></button><button class="beat"></button>
@@ -30,7 +39,8 @@
             <button class="beat"></button><button class="beat"></button><button class="beat"></button><button class="beat"></button>
           </div>
           <div class="modifiers">
-            <button>
+            <input type="range" min="0" max="2" value="1" step="0.01" class="slider volume-input" aria-label="Change track volume" title="Track volume" />
+            <button class="svg-button">
               <svg viewBox="0 0 75 75" aria-hidden="true" focusable="false" class="svg-icon volume-icon">
                 <polygon points="39.389,13.769 22.235,28.606 6,28.606 6,47.699 21.989,47.699 39.389,62.75 39.389,13.769" />
                 <path d="M 48.128,49.03 C 50.057,45.934 51.19,42.291 51.19,38.377 C 51.19,34.399 50.026,30.703 48.043,27.577" />
@@ -44,34 +54,25 @@
       </div>
       <nav aria-label="Controls" class="controls">
         <ul>
-          <li><label for="pattern">Pattern</label> <select id="pattern" class="pattern"></select></li>
-          <li><label for="tempo"><span class="bpm-text">120</span> bpm</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /></li>
+          <li><label for="tempo">BPM: <span class="bpm-text">120</span></label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /></li>
           <li><label for="reverb">Reverb: <span class="reverb-text">0.7</span></label> <input id="reverb" type="range" min="0" max="1" value="0.2" step="0.1" class="slider reverb-input" /></li>
           <li><button class="toggle-play">Play</button></li>
+          <li><button class="record">Record</button></li>
         </ul>
       </nav>
     </div>
   </main>
-
-  <div id="modal-modifiers" class="modal">
-    <form class="form-modifiers">
-      <label>Volume</label>
-      <input type="range" min="1" max="100" value="50" class="volume slider" />
-
-      <label>Reverb</label>
-      <input type="range" min="1" max="100" value="0" class="reverb slider" />
-
-      <label>Pitch</label>
-      <input type="range" min="-12" max="12" value="0" class="pitch slider" />
-
-      <label>Lowpass</label>
-      <input type="range" min="0" max="350" value="350" class="lowpass slider" />
-    </form>
-  </div>
+  <footer role="contentinfo">
+    <nav>
+      <ul>
+        <li>By <a href="http://brianfoo.com">Brian Foo</a></li>
+        <li><a href="about.html">About this project</a></li>
+      </ul>
+    </nav>
+  </footer>
 
   <script src="js/vendor/jquery-3.4.1.min.js"></script>
   <script src="js/vendor/underscore-1.9.1.min.js"></script>
-  <script src="js/vendor/papaparse-5.0.2.min.js"></script>
   <script src="js/vendor/tone-13.8.25.min.js"></script>
   <script src="js/lib/pattern.js"></script>
   <script src="js/lib/sequencer.js"></script>

@@ -12,101 +12,10 @@
 
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
-  <header>
-    <h1>Citizen DJ</h1>
-    <nav aria-label="Toolbar" class="toolbar">
-      <ul>
-        <li><button>Save</button></li>
-        <li><button>Export</button></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="sequences">
-      <a href="#1" class="sequence">1</a>
-    </div>
-    <div class="sequencer">
-      <div class="rows">
-        <div class="row">
-          <div class="audio-select">
-            <select>
-              <option value="-1">Select a sample</option>
-            </select>
-          </div>
-          <div class="steps">
-            <div class="beat">
-              <a href="#" class="active"><span>1/4</span></a>
-              <a href="#"><span>2/4</span></a>
-              <a href="#"><span>3/4</span></a>
-              <a href="#"><span>4/4</span></a>
-            </div>
-            <div class="beat">
-              <a href="#"><span>1/4</span></a>
-              <a href="#" class="active"><span>2/4</span></a>
-              <a href="#"><span>3/4</span></a>
-              <a href="#"><span>4/4</span></a>
-            </div>
-            <div class="beat">
-              <a href="#"><span>1/4</span></a>
-              <a href="#"><span>2/4</span></a>
-              <a href="#"><span>3/4</span></a>
-              <a href="#"><span>4/4</span></a>
-            </div>
-            <div class="beat">
-              <a href="#"><span>1/4</span></a>
-              <a href="#"><span>2/4</span></a>
-              <a href="#"><span>3/4</span></a>
-              <a href="#"><span>4/4</span></a>
-            </div>
-          </div>
-          <fieldset class="step-select">
-            <legend>Beat subdivisions</legend>
-            <label class="radio-button"><input type="radio" name="subbeats" value="3" /> <span>3</span></label>
-            <label class="radio-button"><input type="radio" name="subbeats" value="4" checked /> <span>4</span></label>
-            <label class="radio-button"><input type="radio" name="subbeats" value="6" /> <span>6</span></label>
-            <label class="radio-button"><input type="radio" name="subbeats" value="8" /> <span>8</span></label>
-          </fieldset>
-          <fieldset class="volume-control">
-            <legend>Volume</legend>
-            <input type="range" min="1" max="100" value="50" class="slider" />
-            <button>
-              <svg viewBox="0 0 75 75" aria-hidden="true" focusable="false" class="svg-icon volume-icon">
-                <polygon points="39.389,13.769 22.235,28.606 6,28.606 6,47.699 21.989,47.699 39.389,62.75 39.389,13.769" />
-                <path d="M 48.128,49.03 C 50.057,45.934 51.19,42.291 51.19,38.377 C 51.19,34.399 50.026,30.703 48.043,27.577" />
-                <path d="M 55.082,20.537 C 58.777,25.523 60.966,31.694 60.966,38.377 C 60.966,44.998 58.815,51.115 55.178,56.076" />
-                <path d="M 61.71,62.611 C 66.977,55.945 70.128,47.531 70.128,38.378 C 70.128,29.161 66.936,20.696 61.609,14.01" />
-              </svg>
-              <span class="visually-hidden">Toggle sound for this track</span>
-            </button>
-          </fieldset>
-        </div>
-      </div>
-    </div>
-    <nav aria-label="Controls" class="controls">
-      <ul>
-        <li><label for="tempo">120 bpm</label> <input id="tempo" type="range" min="10" max="160" value="120" class="slider" name="tempo" /></li>
-        <li><button>Randomize</button></li>
-        <li><button>Repeat</button></li>
-        <li><button>Play</button></li>
-      </ul>
-    </nav>
-  </main>
-  <footer role="contentinfo">
-    <nav>
-      <ul>
-        <li>By <a href="http://brianfoo.com">Brian Foo</a></li>
-        <li><a href="about.html">About this project</a></li>
-      </ul>
-    </nav>
-  </footer>
 
-  <script src="js/vendor/jquery-3.4.1.min.js"></script>
-  <script src="js/vendor/Tone.js"></script>
-  <script src="js/app.js"></script>
 </body>
 
 </html>

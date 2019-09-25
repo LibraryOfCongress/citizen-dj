@@ -97,7 +97,8 @@ footer {
 footer nav ul {
   margin-left: 1rem;
 }
-footer nav ul li {
+footer nav ul li,
+header nav ul li {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
@@ -176,4 +177,48 @@ input[type=range]::-ms-thumb {
   background: var(--lighter-color);
   cursor: pointer;
   height: 8.4px;
+}
+
+.radio-button input[type=radio] {
+  position: absolute;
+  visibility: hidden;
+}
+.radio-button span {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 1rem;
+  margin: 0;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: var(--darker-color);
+  border-left: 2px solid var(--darker-color);
+}
+.radio-button input[type=radio]:checked ~ span {
+  background: var(--darker-color);
+  color: var(--secondary-color);
+}
+.radio-button:first-child span {
+  border-left: none;
+}
+
+.svg-button {
+  padding: 0 0.3rem;
+}
+.svg-button svg {
+  margin-top: 5px;
+}
+.svg-icon {
+  width: 30px;
+  height: 30px;
+}
+.svg-icon polygon,
+.svg-icon path {
+  fill: var(--darker-color);
+  stroke: var(--darker-color);
+  stroke-width: 3;
+  stroke-linejoin:round;
+}
+.volume-icon path {
+  fill: none;
 }
