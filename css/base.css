@@ -44,6 +44,10 @@ button {
 button:hover {
   background: var(--lighter-color);
 }
+button.active {
+  background: var(--darker-color);
+  color: var(--light-color);
+}
 
 .visually-hidden {
   position: absolute;

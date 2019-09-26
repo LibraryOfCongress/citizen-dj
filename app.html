@@ -25,8 +25,8 @@
   <main id="sequencer">
     <div class="container">
       <div class="sequences">
-        <a href="#1" class="sequence-link active">sequence 1</a>
-        <a href="#add" class="add-sequence-link">+</a>
+        <button class="sequence-select active">beat 1</button>
+        <button class="sequence-add">add beat</button>
       </div>
       <div class="sequence">
         <div class="track template">
@@ -58,6 +58,8 @@
           <li><label for="tempo">BPM: <span class="bpm-text">120</span></label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /></li>
           <li><label for="reverb">Reverb: <span class="reverb-text">0.7</span></label> <input id="reverb" type="range" min="0" max="1" value="0.2" step="0.1" class="slider reverb-input" /></li>
           <li><button class="toggle-play">Play</button></li>
+          <li><button class="toggle-play-full">Play current</button></li>
+          <li><button class="toggle-repeat">Don't repeat</button></li>
           <li><button class="record">Record</button></li>
         </ul>
       </nav>
