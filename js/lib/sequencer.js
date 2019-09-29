@@ -5,17 +5,9 @@ var Sequencer = (function() {
   function Sequencer(config) {
     var defaults = {
       "el": "#sequencer",
-      "keyUrls": {
-        "k" : "./audio/drum_machines/Roland_Tr-808_full__36kick.mp3",
-        "s" : "./audio/drum_machines/Roland_Tr-808_full__40snare.mp3",
-        "h" : "./audio/drum_machines/Roland_Tr-808_full__42hat_closed.mp3"
-      },
-      "patternOptions": {},
+      "tracks": {},
       "subdivision": 16,
-      "bpm": 120,
-      "reverb": 0.2,
-      "playerGain": 0,
-      "playerFadeOut": "64n"
+      "bpm": 120
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -29,23 +21,39 @@ var Sequencer = (function() {
     this.subdArr = _.times(this.opt.subdivision, function(n){ return n; });
     this.playing = false;
 
-    this.reverb = new Tone.Freeverb(this.opt.reverb);
-    this.keys = new Tone.Players(this.opt.keyUrls, {
-      "volume": this.opt.playerGain,
-      "fadeOut": this.opt.playerFadeOut,
-      "onload": function(){ _this.onPlayersLoad(); }
-    }).chain(this.reverb, Tone.Master);
-    this.keyNames = _.keys(this.opt.keyUrls);
-
-    this.pattern = new Pattern(this.opt.patternOptions);
-
     this.loadUI();
-    this.setReverb(this.opt.reverb);
-    this.setBPM(this.opt.bpm);
 
+    // init tracks
+    this.tracks = {};
+    this.trackIds = [];
+    this.$tracks = this.$el.find('.sequence').first();
+
+    _.each(this.opt.tracks, function(props, key) {
+      _this.addTrack(key, props);
+    });
+    this.trackIds = _.keys(this.tracks);
+
+    // start the loop
+    this.setBPM(this.opt.bpm);
     this.loop = new Tone.Sequence(function(time, col){
       _this.onStep(time, col);
     }, this.subdArr, this.subdStr).start(0);
+
+    this.loadListeners();
+  };
+
+  Sequencer.prototype.addTrack = function(id, track){
+    track.id = id;
+    track.template = this.trackTemplate;
+    track.$parent = this.$tracks;
+
+    if (_.contains(this.trackIds, id)) {
+      this.tracks[id].destroy();
+      this.tracks[id] = new Track(track);
+    } else {
+      this.tracks[id] = new Track(track);
+      this.trackIds.push(id);
+    }
   };
 
   Sequencer.prototype.loadListeners = function(){
@@ -64,38 +72,27 @@ var Sequencer = (function() {
         _this.setBPM(parseInt($(this).val()), true);
       });
     }
-
-    // change reverb
-    if (this.$reverbInput.length) {
-      this.$reverbInput.on("input", function(e){
-        _this.setReverb(parseFloat($(this).val()), true);
-      });
-    }
   };
 
   Sequencer.prototype.loadUI = function(){
     this.$toggleButton = this.$el.find(".toggle-play");
     this.$bpmInput = this.$el.find(".bpm-input");
     this.$bpmText = this.$el.find(".bpm-text");
-    this.$reverbInput = this.$el.find(".reverb-input");
-    this.$reverbText = this.$el.find(".reverb-text");
-  };
 
-  Sequencer.prototype.onPlayersLoad = function(){
-    console.log("All players loaded");
-    this.loadListeners();
+    // init track template
+    var $trackTemplate = $('.track.template').first().clone();
+    $trackTemplate.removeClass('template');
+    var beatString = _.times(this.opt.subdivision, function(i){
+      return '<button class="beat beat-'+i+'"></button>';
+    }).join('');
+    $trackTemplate.find('.beats').append($(beatString));
+    this.trackTemplate = _.template('<div class="track">'+$trackTemplate.html()+'</div>');
+
   };
 
   Sequencer.prototype.onStep = function(time, col){
-    var keys = this.keys;
-    var pat = this.pattern.matrix;
-    _.each(this.keyNames, function(key){
-      if (pat[key][col] > 0) {
-        //slightly randomized velocities
-        // var vel = Math.random() * 0.5 + 0.5;
-        // keys.get(key).start(time, 0, "16n", 0, vel);
-        keys.get(key).start(time);
-      }
+    _.each(this.tracks, function(track, key){
+      track.play(time, col);
     })
   };
 
@@ -103,12 +100,6 @@ var Sequencer = (function() {
     Tone.Transport.bpm.value = bpm;
     this.$bpmText.text(bpm);
     if (!fromUser) this.$bpmInput.val(bpm);
-  };
-
-  Sequencer.prototype.setReverb = function(roomSize, fromUser){
-    this.reverb.roomSize.value = roomSize;
-    this.$reverbText.text(roomSize);
-    if (!fromUser) this.$reverbInput.val(roomSize);
   };
 
   Sequencer.prototype.start = function(){

@@ -1,5 +1,5 @@
 .container,
-.sequences,
+.bars,
 .sequence,
 .controls ul,
 .track,
@@ -10,6 +10,7 @@ fieldset,
   display: flex;
 }
 
+legend,
 label {
   display: block;
   font-size: 0.8rem;
@@ -51,6 +52,7 @@ label {
 
 .track {
   justify-content: center;
+  margin-bottom: 0.5rem;
 }
 .selects {
 
@@ -71,8 +73,8 @@ label {
 .beats {
   justify-content: center;
 }
-.modifiers .toggle-volume-button {
-  margin-left: 0.5rem;
+.modifiers input {
+  margin-right: 0.5rem;
 }
 
 .beat:nth-child(4n) {
@@ -84,4 +86,9 @@ label {
 }
 fieldset .input {
 
+}
+
+.templates,
+.template {
+  display: none;
 }
