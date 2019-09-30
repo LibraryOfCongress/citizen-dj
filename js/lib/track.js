@@ -50,8 +50,14 @@ var Track = (function() {
 
   Track.prototype.loadUI = function(){
     var _this = this;
-    var html = this.opt.template(this.opt);
-    this.opt.$parent.append($(html));
+    var $html = $(this.opt.template(this.opt));
+    $html.attr('data-track', this.opt.id);
+    // highlight beats
+    var pattern = this.pattern;
+    $html.find('.beat').each(function(i){
+      if (pattern[i] > 0) $(this).addClass('active');
+    });
+    this.opt.$parent.append($html);
   };
 
   Track.prototype.onPlayerLoad = function(){
@@ -71,6 +77,10 @@ var Track = (function() {
     // this.reverb.roomSize.value = roomSize;
     // this.$reverbText.text(roomSize);
     // if (!fromUser) this.$reverbInput.val(roomSize);
+  };
+
+  Track.prototype.updatePatternCol = function(col, value) {
+    this.pattern[col] = value;
   };
 
   return Track;

@@ -72,6 +72,11 @@ var Sequencer = (function() {
         _this.setBPM(parseInt($(this).val()), true);
       });
     }
+
+    // update pattern
+    this.$tracks.on('click', '.beat', function(e){
+      _this.onClickBeat($(this));
+    });
   };
 
   Sequencer.prototype.loadUI = function(){
@@ -83,17 +88,32 @@ var Sequencer = (function() {
     var $trackTemplate = $('.track.template').first().clone();
     $trackTemplate.removeClass('template');
     var beatString = _.times(this.opt.subdivision, function(i){
-      return '<button class="beat beat-'+i+'"></button>';
+      return '<button class="beat beat-'+i+'" data-col="'+i+'"></button>';
     }).join('');
     $trackTemplate.find('.beats').append($(beatString));
     this.trackTemplate = _.template('<div class="track">'+$trackTemplate.html()+'</div>');
 
   };
 
+  Sequencer.prototype.onClickBeat = function($button){
+    $button.toggleClass('active');
+    var value = $button.hasClass('active') ? 1 : 0;
+    var trackId = $button.closest('.track').attr('data-track');
+    var col = parseInt($button.attr('data-col'));
+    this.updateTrackPattern(trackId, col, value);
+  };
+
   Sequencer.prototype.onStep = function(time, col){
+    var _this = this;
+
     _.each(this.tracks, function(track, key){
       track.play(time, col);
-    })
+    });
+
+    //set the columne on the correct draw frame
+    Tone.Draw.schedule(function(){
+      _this.$tracks.attr('data-col', col);
+    }, time);
   };
 
   Sequencer.prototype.setBPM = function(bpm, fromUser){
@@ -117,6 +137,10 @@ var Sequencer = (function() {
     this.playing = !this.playing;
     if (this.playing) this.start();
     else this.stop();
+  };
+
+  Sequencer.prototype.updateTrackPattern = function(trackId, col, value) {
+    this.tracks[trackId].updatePatternCol(col, value);
   };
 
   return Sequencer;

@@ -77,6 +77,13 @@ label {
   margin-right: 0.5rem;
 }
 
+.beat {
+  transition: transform 0.2s ease-in-out;
+}
+button.beat.active {
+  color: var(--darker-color);
+  background: var(--lighter-color);
+}
 .beat:nth-child(4n) {
   margin-right: 1rem;
 }
@@ -86,6 +93,45 @@ label {
 }
 fieldset .input {
 
+}
+
+.sequence[data-col="0"] .beat:first-child,
+.sequence[data-col="1"] .beat:nth-child(2),
+.sequence[data-col="2"] .beat:nth-child(3),
+.sequence[data-col="3"] .beat:nth-child(4),
+.sequence[data-col="4"] .beat:nth-child(5),
+.sequence[data-col="5"] .beat:nth-child(6),
+.sequence[data-col="6"] .beat:nth-child(7),
+.sequence[data-col="7"] .beat:nth-child(8),
+.sequence[data-col="8"] .beat:nth-child(9),
+.sequence[data-col="9"] .beat:nth-child(10),
+.sequence[data-col="10"] .beat:nth-child(11),
+.sequence[data-col="11"] .beat:nth-child(12),
+.sequence[data-col="12"] .beat:nth-child(13),
+.sequence[data-col="13"] .beat:nth-child(14),
+.sequence[data-col="14"] .beat:nth-child(15),
+.sequence[data-col="15"] .beat:nth-child(16) {
+  background: var(--secondary-light-color);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.sequence[data-col="0"] .beat.active:first-child,
+.sequence[data-col="1"] .beat.active:nth-child(2),
+.sequence[data-col="2"] .beat.active:nth-child(3),
+.sequence[data-col="3"] .beat.active:nth-child(4),
+.sequence[data-col="4"] .beat.active:nth-child(5),
+.sequence[data-col="5"] .beat.active:nth-child(6),
+.sequence[data-col="6"] .beat.active:nth-child(7),
+.sequence[data-col="7"] .beat.active:nth-child(8),
+.sequence[data-col="8"] .beat.active:nth-child(9),
+.sequence[data-col="9"] .beat.active:nth-child(10),
+.sequence[data-col="10"] .beat.active:nth-child(11),
+.sequence[data-col="11"] .beat.active:nth-child(12),
+.sequence[data-col="12"] .beat.active:nth-child(13),
+.sequence[data-col="13"] .beat.active:nth-child(14),
+.sequence[data-col="14"] .beat.active:nth-child(15),
+.sequence[data-col="15"] .beat.active:nth-child(16) {
+  background: white;
 }
 
 .templates,
