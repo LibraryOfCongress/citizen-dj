@@ -14,49 +14,34 @@
 
 <body>
   <header>
-    <h1>Citizen DJ</h1>
+    <h1><a href="/">Citizen DJ</a></h1>
     <nav aria-label="Toolbar" class="toolbar">
       <ul>
         <li><a href="/about.html">About</a></li>
-        <li><a href="#settings">Settings</a></li>
       </ul>
     </nav>
   </header>
   <main id="sequencer">
     <div class="container">
-      <div class="bars">
-        <button class="bar-select active">beat 1</button>
-        <button class="bar-add">add beat</button>
-      </div>
       <div class="sequence">
       </div>
       <nav aria-label="Controls" class="controls">
         <ul>
           <li><label for="tempo">BPM: <span class="bpm-text">120</span></label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /></li>
-          <li>
-            <fieldset class="radio-set">
-              <legend>Loop:</legend>
-              <div class="radio-buttons">
-                <label class="radio-button"><input type="radio" name="loop" value="2" checked /> <span>all</span></label>
-                <label class="radio-button"><input type="radio" name="loop" value="1" /> <span>one</span></label>
-                <label class="radio-button"><input type="radio" name="loop" value="0" /> <span>none</span></label>
-              </div>
-            </fieldset>
-          </li>
           <li><button class="toggle-play">Play</button></li>
           <li><button class="record">Record</button></li>
         </ul>
       </nav>
     </div>
   </main>
-  <footer role="contentinfo">
+  <!-- <footer role="contentinfo">
     <nav>
       <ul>
         <li>By <a href="http://brianfoo.com">Brian Foo</a></li>
         <li><a href="about.html">About this project</a></li>
       </ul>
     </nav>
-  </footer>
+  </footer> -->
 
   <div class="templates">
     <!-- track template -->
@@ -66,7 +51,7 @@
       </div>
       <div class="beats"></div>
       <div class="modifiers">
-        <input type="range" min="-10" max="10" value="{{ gain }}" step="0.01" class="slider gain-input" aria-label="Change track volume gain" title="Track volume gain" />
+        <button class="svg-button toggle-solo-button">solo</button>
         <button class="svg-button toggle-mute-button">mute</button>
       </div>
     </div>

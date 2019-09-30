@@ -5,8 +5,8 @@
   --lighter-color: #eeeeee;
   --secondary-color: #ff6768;
   --secondary-light-color: #ff999a;
-  --header-height: 60px;
-  --controls-height: 60px;
+  --header-height: 30px;
+  --controls-height: 50px;
   --footer-height: 30px;
 }
 
@@ -87,7 +87,7 @@ header h1 {
   margin: 0;
   height: 60px;
   margin-left: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
 }
 header nav {
