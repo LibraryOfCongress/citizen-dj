@@ -60,8 +60,14 @@ label {
 
 .item {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  width: 200px;
+  /* white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left; */
+  font-size: 0.8rem;
 }
 .item a {
   display: inline-block;
@@ -112,7 +118,6 @@ fieldset .input {
 .sequence[data-col="14"] .beat:nth-child(15),
 .sequence[data-col="15"] .beat:nth-child(16) {
   background: var(--secondary-light-color);
-  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .sequence[data-col="0"] .beat.active:first-child,
@@ -132,6 +137,7 @@ fieldset .input {
 .sequence[data-col="14"] .beat.active:nth-child(15),
 .sequence[data-col="15"] .beat.active:nth-child(16) {
   background: white;
+  transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .templates,
