@@ -47,12 +47,15 @@
     <!-- track template -->
     <div class="track template">
       <div class="item">
-        <a href="#item">{{ title }}</a>
+        <button class="track-source-button" title="{{ title }}">{{ title }}</button>
       </div>
       <div class="beats"></div>
       <div class="modifiers">
-        <button class="toggle-solo-button">solo</button>
-        <button class="toggle-mute-button">mute</button>
+        <button class="svg-button settings-button" title="track settings" aria-label="track settings">
+          <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>track settings</title><path d="M53,47.46V18H47V47.46a10,10,0,0,0,0,19.08V82h6V66.54a10,10,0,0,0,0-19.08ZM50,61a4,4,0,1,1,4-4A4,4,0,0,1,50,61Z"/><path d="M26,32.46V18H20V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM23,46a4,4,0,1,1,4-4A4,4,0,0,1,23,46Z"/><path d="M80,32.46V18H74V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM77,46a4,4,0,1,1,4-4A4,4,0,0,1,77,46Z"/></svg>
+        </button>
+        <button class="solo-button">solo</button>
+        <button class="mute-button">mute</button>
       </div>
     </div>
   </div>

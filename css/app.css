@@ -26,7 +26,7 @@ label {
 }
 
 .sequence {
-  background: var(--darker-color);
+  /* background: var(--darker-color); */
   padding: 1rem;
   box-sizing: border-box;
   flex-direction: column;
@@ -59,11 +59,8 @@ label {
 .sequence.has-solo .modifiers button {
   visibility: hidden;
 }
-.sequence.has-solo .track.solo .modifiers button.toggle-solo-button {
+.sequence.has-solo .track.solo .modifiers button.solo-button {
   visibility: visible;
-}
-.selects {
-
 }
 
 .item {
@@ -71,21 +68,14 @@ label {
   justify-content: flex-start;
   align-items: center;
   width: 200px;
-  /* white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  text-align: left; */
-  font-size: 0.8rem;
-}
-.item a {
-  display: inline-block;
-  padding-right: 0.5rem;
 }
 .select-fields {
   justify-content: flex-end;
 }
 .beats {
   justify-content: center;
+  align-items: center;
+  margin-left: 6px;
 }
 .modifiers input {
   margin-right: 0.5rem;
@@ -93,20 +83,46 @@ label {
 
 .beat {
   transition: transform 0.2s ease-in-out;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0 2px 0 0;
+  background: var(--light-color);
+  border-color: var(--light-color);
 }
 button.beat.active {
   color: var(--darker-color);
-  background: var(--lighter-color);
+  background: var(--lightest-color);
+  border-color: var(--lightest-color);
 }
 .beat:nth-child(4n) {
-  margin-right: 1rem;
+  margin-right: 5px;
 }
 
-.modifiers fieldset {
-  justify-content: center;
+.modifiers {
+  margin-left: 4px;
 }
-fieldset .input {
-
+.modifiers button,
+.item button {
+  height: 30px;
+  line-height: 26px;
+  padding: 0 0.2rem;
+  margin: 0 2px 0 0;
+  font-size: 1rem;
+}
+.modifiers button:last-child {
+  margin-right: 0;
+}
+.modifiers button.svg-button {
+  padding: 0;
+}
+.modifiers button.svg-button svg {
+  margin-top: 2px;
+}
+.item button {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .sequence[data-col="0"] .beat:first-child,
@@ -125,7 +141,8 @@ fieldset .input {
 .sequence[data-col="13"] .beat:nth-child(14),
 .sequence[data-col="14"] .beat:nth-child(15),
 .sequence[data-col="15"] .beat:nth-child(16) {
-  background: var(--secondary-light-color);
+  background: var(--lighter-color);
+  border-color: var(--lighter-color);
 }
 
 .sequence[data-col="0"] .beat.active:first-child,
@@ -144,7 +161,9 @@ fieldset .input {
 .sequence[data-col="13"] .beat.active:nth-child(14),
 .sequence[data-col="14"] .beat.active:nth-child(15),
 .sequence[data-col="15"] .beat.active:nth-child(16) {
+  opacity: 1;
   background: white;
+  border-color: white;
   transform: scale3d(1.1, 1.1, 1.1);
 }
 

@@ -79,13 +79,18 @@ var Sequencer = (function() {
     });
 
     // mute track
-    this.$tracks.on('click', '.toggle-mute-button', function(e){
+    this.$tracks.on('click', '.mute-button', function(e){
       _this.onClickMute($(this));
     });
 
     // solo track
-    this.$tracks.on('click', '.toggle-solo-button', function(e){
+    this.$tracks.on('click', '.solo-button', function(e){
       _this.onClickSolo($(this));
+    });
+
+    // invoke settings for track track
+    this.$tracks.on('click', '.settings-button', function(e){
+      _this.onClickSettings($(this));
     });
   };
 
@@ -116,6 +121,11 @@ var Sequencer = (function() {
   Sequencer.prototype.onClickMute = function($button) {
     var trackId = $button.closest('.track').attr('data-track');
     this.tracks[trackId].toggleMute();
+  };
+
+  Sequencer.prototype.onClickSettings = function($button) {
+    var trackId = $button.closest('.track').attr('data-track');
+    this.tracks[trackId].showSettings();
   };
 
   Sequencer.prototype.onClickSolo = function($button) {

@@ -2,7 +2,8 @@
   --darker-color: #17223b;
   --dark-color: #263859;
   --light-color: #6b778d;
-  --lighter-color: #eeeeee;
+  --lighter-color: #97a2b8;
+  --lightest-color: #eeeeee;
   --secondary-color: #ff6768;
   --secondary-light-color: #ff999a;
   --header-height: 30px;
@@ -14,7 +15,7 @@ body {
   font-family: sans-serif;
   font-size: 18px;
   background: var(--darker-color);
-  color: var(--lighter-color);
+  color: var(--lightest-color);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -35,24 +36,27 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--lighter-color);
+  color: var(--lightest-color);
 }
 button {
   background: var(--secondary-color);
   color: var(--darker-color);
-  border: none;
+  border: 2px solid var(--secondary-color);
+  box-sizing: border-box;
   font-size: 1.2rem;
   height: 40px;
-  line-height: 40px;
+  line-height: 36px;
   padding: 0 1rem;
   margin: 0 0.25rem;
   cursor: pointer;
+  border-radius: 2px;
 }
 button:hover {
-  background: var(--lighter-color);
+  background: var(--lightest-color);
 }
 button.active {
   background: var(--darker-color);
+  border-color: var(--light-color);
   color: var(--light-color);
 }
 
@@ -82,6 +86,7 @@ header {
   line-height: var(--header-height);
   display: flex;
   justify-content: space-between;
+  background: var(--dark-color);
 }
 header h1 {
   margin: 0;
@@ -94,7 +99,6 @@ header nav {
   margin-right: 1rem;
 }
 main {
-  background: var(--dark-color);
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -104,6 +108,7 @@ main {
 footer {
   height: var(--footer-height);
   line-height: var(--footer-height);
+  background: var(--dark-color);
 }
 footer nav ul {
   margin-left: 1rem;
@@ -138,7 +143,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 36px;
   width: 16px;
   border-radius: 3px;
-  background: var(--lighter-color);
+  background: var(--lightest-color);
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -14px;
@@ -159,7 +164,7 @@ input[type=range]::-moz-range-thumb {
   height: 36px;
   width: 16px;
   border-radius: 3px;
-  background: var(--lighter-color);
+  background: var(--lightest-color);
   cursor: pointer;
 }
 input[type=range]::-ms-track {
@@ -185,7 +190,7 @@ input[type=range]::-ms-thumb {
   height: 36px;
   width: 16px;
   border-radius: 3px;
-  background: var(--lighter-color);
+  background: var(--lightest-color);
   cursor: pointer;
   height: 8.4px;
 }

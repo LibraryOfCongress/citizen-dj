@@ -61,8 +61,8 @@ var Track = (function() {
     });
     this.opt.$parent.append($html);
     this.$el = $html;
-    this.$muteButton = $html.find('.toggle-mute-button');
-    this.$soloButton = $html.find('.toggle-solo-button');
+    this.$muteButton = $html.find('.mute-button');
+    this.$soloButton = $html.find('.solo-button');
   };
 
   Track.prototype.mute = function(){
@@ -90,6 +90,10 @@ var Track = (function() {
     // this.reverb.roomSize.value = roomSize;
     // this.$reverbText.text(roomSize);
     // if (!fromUser) this.$reverbInput.val(roomSize);
+  };
+
+  Track.prototype.showSettings = function(){
+    
   };
 
   Track.prototype.solo = function(){
