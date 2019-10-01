@@ -53,6 +53,9 @@ label {
   justify-content: center;
   margin-bottom: 0.5rem;
 }
+.track.muted {
+  filter: saturate(0);
+}
 .selects {
 
 }

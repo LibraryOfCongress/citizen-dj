@@ -24,6 +24,7 @@ var Track = (function() {
     if (!this.opt.title) this.opt.title = opt.url.substring(opt.url.lastIndexOf('/')+1);
 
     this.loaded = false;
+    this.isMuted = false;
     this.pattern = this.opt.pattern;
 
     this.loadPlayer();
@@ -58,6 +59,13 @@ var Track = (function() {
       if (pattern[i] > 0) $(this).addClass('active');
     });
     this.opt.$parent.append($html);
+    this.$el = $html;
+  };
+
+  Track.prototype.mute = function(){
+    this.isMuted = true;
+    this.$el.addClass('muted');
+    this.player.mute = true;
   };
 
   Track.prototype.onPlayerLoad = function(){
@@ -71,12 +79,18 @@ var Track = (function() {
 
     // this.player.start(time, 0, "16n", 0);
     this.player.start(time);
-  }
+  };
 
   Track.prototype.setReverb = function(roomSize, fromUser){
     // this.reverb.roomSize.value = roomSize;
     // this.$reverbText.text(roomSize);
     // if (!fromUser) this.$reverbInput.val(roomSize);
+  };
+
+  Track.prototype.unmute = function(){
+    this.isMuted = false;
+    this.$el.removeClass('muted');
+    this.player.mute = false;
   };
 
   Track.prototype.updatePatternCol = function(col, value) {

@@ -77,6 +77,16 @@ var Sequencer = (function() {
     this.$tracks.on('click', '.beat', function(e){
       _this.onClickBeat($(this));
     });
+
+    // mute track
+    this.$tracks.on('click', '.toggle-mute-button', function(e){
+      _this.onClickMute($(this));
+    });
+
+    // solo track
+    this.$tracks.on('click', '.toggle-solo-button', function(e){
+      _this.onClickSolo($(this));
+    });
   };
 
   Sequencer.prototype.loadUI = function(){
@@ -101,6 +111,26 @@ var Sequencer = (function() {
     var trackId = $button.closest('.track').attr('data-track');
     var col = parseInt($button.attr('data-col'));
     this.updateTrackPattern(trackId, col, value);
+  };
+
+  Sequencer.prototype.onClickMute = function($button) {
+    $button.toggleClass('active');
+    var isMuted = $button.hasClass('active');
+    var trackId = $button.closest('.track').attr('data-track');
+    if (isMuted) this.tracks[trackId].mute();
+    else this.tracks[trackId].unmute();
+  };
+
+  Sequencer.prototype.onClickSolo = function($button) {
+    // $button.toggleClass('active');
+    // var isSolo = $button.hasClass('active');
+    // var trackId = $button.closest('.track').attr('data-track');
+    // _.each(this.tracks, function(track, key){
+    //   if (key===trackId && isSolo) track.solo();
+    //   else if (key===trackId && !isSolo) track.unsolo();
+    //   else if (isSolo) track.quiet();
+    //   else track.unquiet();
+    // });
   };
 
   Sequencer.prototype.onStep = function(time, col){
