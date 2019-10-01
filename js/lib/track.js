@@ -25,6 +25,7 @@ var Track = (function() {
 
     this.loaded = false;
     this.isMuted = false;
+    this.isSolo = false;
     this.pattern = this.opt.pattern;
 
     this.loadPlayer();
@@ -60,12 +61,16 @@ var Track = (function() {
     });
     this.opt.$parent.append($html);
     this.$el = $html;
+    this.$muteButton = $html.find('.toggle-mute-button');
+    this.$soloButton = $html.find('.toggle-solo-button');
   };
 
   Track.prototype.mute = function(){
     this.isMuted = true;
     this.$el.addClass('muted');
     this.player.mute = true;
+    this.$muteButton.addClass('active');
+    // console.log('mute', this.opt.id, this.player.mute, this.player.state);
   };
 
   Track.prototype.onPlayerLoad = function(){
@@ -74,7 +79,7 @@ var Track = (function() {
   };
 
   Track.prototype.play = function(time, i){
-    if (!this.loaded) return;
+    if (!this.loaded || this.isMuted) return;
     if (this.pattern[i] <= 0) return;
 
     // this.player.start(time, 0, "16n", 0);
@@ -87,10 +92,38 @@ var Track = (function() {
     // if (!fromUser) this.$reverbInput.val(roomSize);
   };
 
+  Track.prototype.solo = function(){
+    this.isSolo = true;
+    this.$el.addClass('solo');
+    this.$soloButton.addClass('active');
+    this.unmute();
+  };
+
+  Track.prototype.toggleMute = function(){
+    if (this.isMuted) this.unmute();
+    else this.mute();
+    return this.isMuted;
+  };
+
+  Track.prototype.toggleSolo = function(){
+    if (this.isSolo) this.unsolo();
+    else this.solo();
+    return this.isSolo;
+  };
+
   Track.prototype.unmute = function(){
     this.isMuted = false;
     this.$el.removeClass('muted');
     this.player.mute = false;
+    // if (this.player.state === 'stopped') this.player.start();
+    this.$muteButton.removeClass('active');
+    // console.log('unmute', this.opt.id, this.player.mute, this.player.state);
+  };
+
+  Track.prototype.unsolo = function(){
+    this.isSolo = false;
+    this.$el.removeClass('solo');
+    this.$soloButton.removeClass('active');
   };
 
   Track.prototype.updatePatternCol = function(col, value) {

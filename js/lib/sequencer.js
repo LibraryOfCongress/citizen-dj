@@ -114,23 +114,21 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.onClickMute = function($button) {
-    $button.toggleClass('active');
-    var isMuted = $button.hasClass('active');
     var trackId = $button.closest('.track').attr('data-track');
-    if (isMuted) this.tracks[trackId].mute();
-    else this.tracks[trackId].unmute();
+    this.tracks[trackId].toggleMute();
   };
 
   Sequencer.prototype.onClickSolo = function($button) {
-    // $button.toggleClass('active');
-    // var isSolo = $button.hasClass('active');
-    // var trackId = $button.closest('.track').attr('data-track');
-    // _.each(this.tracks, function(track, key){
-    //   if (key===trackId && isSolo) track.solo();
-    //   else if (key===trackId && !isSolo) track.unsolo();
-    //   else if (isSolo) track.quiet();
-    //   else track.unquiet();
-    // });
+    var trackId = $button.closest('.track').attr('data-track');
+    var isSolo = this.tracks[trackId].toggleSolo();
+    if (isSolo) this.$tracks.addClass('has-solo');
+    else this.$tracks.removeClass('has-solo');
+    _.each(this.tracks, function(track, key){
+      if (key!==trackId) {
+        if (isSolo) track.mute();
+        else track.unmute();
+      }
+    });
   };
 
   Sequencer.prototype.onStep = function(time, col){

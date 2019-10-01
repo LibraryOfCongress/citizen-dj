@@ -56,6 +56,12 @@ label {
 .track.muted {
   filter: saturate(0);
 }
+.sequence.has-solo .modifiers button {
+  visibility: hidden;
+}
+.sequence.has-solo .track.solo .modifiers button.toggle-solo-button {
+  visibility: visible;
+}
 .selects {
 
 }
