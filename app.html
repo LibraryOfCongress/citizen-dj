@@ -43,7 +43,47 @@
     </nav>
   </footer> -->
 
+  <div id="modal-track-settings" class="dialog-wrapper">
+    <div role="dialog" class="dialog" aria-labelledby="modal-track-settings-label" aria-modal="true">
+
+    </div>
+  </div>
+
   <div class="templates">
+    <!-- dialog template -->
+    <div class="dialog template">
+      <h2 id="modal-track-settings-label">
+        Track settings for {{ title }}
+      </h2>
+      <div class="dialog-form">
+        <div class="input-row">
+          <label for="track-volume">Volume:</label>
+          <input id="track-volume" type="range" min="-10" max="10" value="{{ volume }}" class="slider volume-input" />
+          <span class="volume-text">{{ volume }}</span>
+        </div>
+
+        <div class="input-row">
+          <label for="track-duration">Clip duration:</label>
+          <input id="track-duration" type="range" min="0" max="{{ maxDuration }}" value="{{ duration }}" class="slider duration-input" />
+          <span class="duration-text">{{ duration }}</span>
+        </div>
+
+        <div class="input-row">
+          <label for="track-offset">Offset:</label>
+          <input id="track-offset" type="range" min="0" max="{{ maxOffset }}" value="{{ offset }}" class="slider offset-input" />
+          <span class="offset-text">{{ offset }}</span>
+        </div>
+
+        <div class="input-row">
+          <label for="track-reverb">Reverb:</label>
+          <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.1" class="slider reverb-input" />
+          <span class="reverb-text">{{ reverb }}</span>
+        </div>
+      </div>
+      <div class="dialog-form-actions">
+        <button class="dialog-close-button">Close</button>
+      </div>
+    </div>
     <!-- track template -->
     <div class="track template">
       <div class="item">
@@ -59,6 +99,8 @@
       </div>
     </div>
   </div>
+
+
 
   <script src="js/vendor/jquery-3.4.1.min.js"></script>
   <script src="js/vendor/underscore-1.9.1.min.js"></script>

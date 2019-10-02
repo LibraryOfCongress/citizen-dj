@@ -68,9 +68,8 @@ var Track = (function() {
   Track.prototype.mute = function(){
     this.isMuted = true;
     this.$el.addClass('muted');
-    this.player.mute = true;
+    // this.player.mute = true;
     this.$muteButton.addClass('active');
-    // console.log('mute', this.opt.id, this.player.mute, this.player.state);
   };
 
   Track.prototype.onPlayerLoad = function(){
@@ -93,7 +92,7 @@ var Track = (function() {
   };
 
   Track.prototype.showSettings = function(){
-    
+
   };
 
   Track.prototype.solo = function(){
@@ -118,10 +117,8 @@ var Track = (function() {
   Track.prototype.unmute = function(){
     this.isMuted = false;
     this.$el.removeClass('muted');
-    this.player.mute = false;
-    // if (this.player.state === 'stopped') this.player.start();
+    // this.player.mute = false;
     this.$muteButton.removeClass('active');
-    // console.log('unmute', this.opt.id, this.player.mute, this.player.state);
   };
 
   Track.prototype.unsolo = function(){

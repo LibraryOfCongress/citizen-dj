@@ -59,7 +59,8 @@ label {
 .sequence.has-solo .modifiers button {
   visibility: hidden;
 }
-.sequence.has-solo .track.solo .modifiers button.solo-button {
+.sequence.has-solo .track.solo .modifiers button.solo-button,
+.sequence.has-solo .track.solo .modifiers button.settings-button {
   visibility: visible;
 }
 

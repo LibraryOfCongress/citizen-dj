@@ -244,6 +244,46 @@ input[type=range]::-ms-thumb {
   stroke-width: 3;
   stroke-linejoin:round;
 }
-.volume-icon path {
-  fill: none;
+
+.dialog-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: rgba(0,0,0,0.8);
+}
+.dialog {
+  box-sizing: border-box;
+  padding: 2rem;
+  border: 2px solid var(--lightest-color);
+  background-color: var(--darker-color);
+  position: absolute;
+  top: 2rem;
+  left: 50vw;
+  transform: translateX(-50%);
+  min-height: auto;
+  max-width: 100%;
+}
+.dialog h2 {
+  margin: 0 0 1rem;
+}
+.dialog .input-row {
+  margin-top: 2rem;
+}
+.dialog .input-row label {
+  font-size: 1.2rem;
+  width: 120px;
+}
+.dialog .input-row input {
+  margin-right: 1rem;
+}
+.dialog .input-row {
+  display: flex;
+  align-items: center;
+}
+.dialog-form-actions {
+  margin-top: 2rem;
+  text-align: right;
 }
