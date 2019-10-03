@@ -54,7 +54,7 @@
         Track settings for {{ title }}
       </h2>
       <div class="dialog-form">
-        <div class="input-row">
+        <div class="input-row track-only">
           <label for="track-gain">Volume:</label>
           <input id="track-gain" type="range" min="-16" max="10" value="{{ gain }}" step="0.1" class="slider track-input gain-input" data-property="gain" data-target="#gain-text" />
           <span id="gain-text" class="value-text">{{ gain }}</span>
@@ -64,7 +64,7 @@
           <input id="track-duration" type="range" min="0" max="{{ duration }}" step="0.001" value="{{ clipEnd }}" class="slider track-input duration-input" data-property="clipEnd" data-target="#duration-text" />
           <span id="duration-text" class="value-text">{{ clipEnd }}</span>
         </div>
-        <div class="input-row">
+        <div class="input-row track-only">
           <label for="track-reverb">Reverb:</label>
           <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.01" class="slider track-input reverb-input" data-property="reverb" data-target="#reverb-text" />
           <span id="reverb-text" class="value-text">{{ reverb }}</span>

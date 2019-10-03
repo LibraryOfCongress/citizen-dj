@@ -20,6 +20,8 @@ var Sequencer = (function() {
     this.subdStr = this.opt.subdivision + "n";
     this.subdArr = _.times(this.opt.subdivision, function(n){ return n; });
     this.playing = false;
+    this.currentTrack = false;
+    this.currentTrackCol = false;
 
     this.loadUI();
 
@@ -77,7 +79,13 @@ var Sequencer = (function() {
 
     // update pattern
     this.$tracks.on('click', '.beat', function(e){
+      e.preventDefault();
       _this.onClickBeat($(this));
+    });
+
+    this.$tracks.on('contextmenu', '.beat', function(e){
+      e.preventDefault();
+      _this.onRightClickBeat($(this));
     });
 
     // mute track
@@ -97,7 +105,7 @@ var Sequencer = (function() {
 
     // close dialogs
     $('body').on('click', '.dialog-close-button', function(e){
-      $('.dialog-wrapper').removeClass('active');
+      _this.onDialogClose();
     });
 
     // track on settings input
@@ -126,15 +134,23 @@ var Sequencer = (function() {
     var property = $input.attr('data-property');
     var value = parseFloat($input.val());
     var $target = $($input.attr('data-target'));
-    this.tracks[this.currentTrack].updateSetting(property, value, $target);
+    this.tracks[this.currentTrack].updateSetting(property, value, $target, this.currentTrackCol);
   };
 
   Sequencer.prototype.onClickBeat = function($button){
-    $button.toggleClass('active');
-    var value = $button.hasClass('active') ? 1 : 0;
     var trackId = $button.closest('.track').attr('data-track');
     var col = parseInt($button.attr('data-col'));
+    $button.toggleClass('active');
+    var value = $button.hasClass('active') ? 1 : 0;
     this.updateTrackPattern(trackId, col, value);
+  };
+
+  Sequencer.prototype.onRightClickBeat = function($button){
+    var trackId = $button.closest('.track').attr('data-track');
+    var col = parseInt($button.attr('data-col'));
+    this.currentTrack = trackId;
+    this.currentTrackCol = col;
+    this.tracks[trackId].showSettings(col);
   };
 
   Sequencer.prototype.onClickMute = function($button) {
@@ -159,6 +175,12 @@ var Sequencer = (function() {
         else track.unmute();
       }
     });
+  };
+
+  Sequencer.prototype.onDialogClose = function(){
+    $('.dialog-wrapper').removeClass('active');
+    this.currentTrack = false;
+    this.currentTrackCol = false;
   };
 
   Sequencer.prototype.onStep = function(time, col){
