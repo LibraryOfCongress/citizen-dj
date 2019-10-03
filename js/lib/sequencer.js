@@ -99,6 +99,11 @@ var Sequencer = (function() {
     $('body').on('click', '.dialog-close-button', function(e){
       $('.dialog-wrapper').removeClass('active');
     });
+
+    // track on settings input
+    $('body').on('input', '.track-input', function(e){
+      _this.onChangeTrackSettings($(this));
+    });
   };
 
   Sequencer.prototype.loadTemplate = function(el, className){
@@ -115,6 +120,13 @@ var Sequencer = (function() {
     // init templates
     this.trackTemplate = this.loadTemplate("#track-template");
     this.settingsTemplate = this.loadTemplate("#settings-template");
+  };
+
+  Sequencer.prototype.onChangeTrackSettings = function($input){
+    var property = $input.attr('data-property');
+    var value = parseFloat($input.val());
+    var $target = $($input.attr('data-target'));
+    this.tracks[this.currentTrack].updateSetting(property, value, $target);
   };
 
   Sequencer.prototype.onClickBeat = function($button){

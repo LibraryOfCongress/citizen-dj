@@ -6,7 +6,7 @@ var Track = (function() {
     var defaults = {
       "id": "k",
       "url": "./audio/drum_machines/Roland_Tr-808_full__36kick.mp3",
-      "gain": 0,
+      "gain": -10,
       "fadeOut": "64n",
       "reverb": 0.5,
       "pattern": [1,0,0,0, 0,0,0,0, 1,1,0,1, 0,0,0,0],
@@ -74,7 +74,6 @@ var Track = (function() {
   Track.prototype.mute = function(){
     this.isMuted = true;
     this.$el.addClass('muted');
-    // this.player.mute = true;
     this.$muteButton.addClass('active');
   };
 
@@ -91,14 +90,17 @@ var Track = (function() {
     if (!this.loaded || this.isMuted) return;
     if (this.pattern[i] <= 0) return;
 
-    // this.player.start(time, 0, "16n", 0);
-    this.player.start(time);
+    var dur = this.opt.clipEnd > 0 ? this.opt.clipEnd : "32n";
+    if (Math.abs(dur-this.opt.duration) <= 0.001) this.player.start(time);
+    else this.player.start(time, 0, dur, 0);
   };
 
-  Track.prototype.setReverb = function(roomSize, fromUser){
-    // this.reverb.roomSize.value = roomSize;
-    // this.$reverbText.text(roomSize);
-    // if (!fromUser) this.$reverbInput.val(roomSize);
+  Track.prototype.setGain = function(db){
+    this.player.volume.value = db;
+  };
+
+  Track.prototype.setReverb = function(roomSize){
+    this.reverb.roomSize.value = roomSize;
   };
 
   Track.prototype.showSettings = function(){
@@ -141,6 +143,14 @@ var Track = (function() {
 
   Track.prototype.updatePatternCol = function(col, value) {
     this.pattern[col] = value;
+  };
+
+  Track.prototype.updateSetting = function(property, value, $target) {
+    // console.log("update", property, value);
+    this.opt[property] = value;
+    $target.text(value);
+    if (property==="gain") this.setGain(value);
+    else if (property==="reverb") this.setReverb(value);
   };
 
   return Track;

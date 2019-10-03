@@ -56,7 +56,7 @@
       <div class="dialog-form">
         <div class="input-row">
           <label for="track-gain">Volume:</label>
-          <input id="track-gain" type="range" min="-10" max="10" value="{{ gain }}" class="slider track-input gain-input" data-property="gain" data-target="#gain-text" />
+          <input id="track-gain" type="range" min="-16" max="10" value="{{ gain }}" step="0.1" class="slider track-input gain-input" data-property="gain" data-target="#gain-text" />
           <span id="gain-text" class="value-text">{{ gain }}</span>
         </div>
         <div class="input-row">
@@ -66,7 +66,7 @@
         </div>
         <div class="input-row">
           <label for="track-reverb">Reverb:</label>
-          <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.1" class="slider track-input reverb-input" data-property="reverb" data-target="#reverb-text" />
+          <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.01" class="slider track-input reverb-input" data-property="reverb" data-target="#reverb-text" />
           <span id="reverb-text" class="value-text">{{ reverb }}</span>
         </div>
       </div>
