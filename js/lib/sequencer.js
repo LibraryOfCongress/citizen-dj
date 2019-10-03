@@ -45,7 +45,9 @@ var Sequencer = (function() {
   Sequencer.prototype.addTrack = function(id, track){
     track.id = id;
     track.template = this.trackTemplate;
+    track.settingsTemplate = this.settingsTemplate;
     track.$parent = this.$tracks;
+    track.$settingsParent = this.$settings;
 
     if (_.contains(this.trackIds, id)) {
       this.tracks[id].destroy();
@@ -92,22 +94,27 @@ var Sequencer = (function() {
     this.$tracks.on('click', '.settings-button', function(e){
       _this.onClickSettings($(this));
     });
+
+    // close dialogs
+    $('body').on('click', '.dialog-close-button', function(e){
+      $('.dialog-wrapper').removeClass('active');
+    });
+  };
+
+  Sequencer.prototype.loadTemplate = function(el, className){
+    var $template = $(el).first().clone();
+    return _.template($template.html());
   };
 
   Sequencer.prototype.loadUI = function(){
     this.$toggleButton = this.$el.find(".toggle-play");
     this.$bpmInput = this.$el.find(".bpm-input");
     this.$bpmText = this.$el.find(".bpm-text");
+    this.$settings = $('#modal-track-settings');
 
-    // init track template
-    var $trackTemplate = $('.track.template').first().clone();
-    $trackTemplate.removeClass('template');
-    var beatString = _.times(this.opt.subdivision, function(i){
-      return '<button class="beat beat-'+i+'" data-col="'+i+'"></button>';
-    }).join('');
-    $trackTemplate.find('.beats').append($(beatString));
-    this.trackTemplate = _.template('<div class="track">'+$trackTemplate.html()+'</div>');
-
+    // init templates
+    this.trackTemplate = this.loadTemplate("#track-template");
+    this.settingsTemplate = this.loadTemplate("#settings-template");
   };
 
   Sequencer.prototype.onClickBeat = function($button){
@@ -125,6 +132,7 @@ var Sequencer = (function() {
 
   Sequencer.prototype.onClickSettings = function($button) {
     var trackId = $button.closest('.track').attr('data-track');
+    this.currentTrack = trackId;
     this.tracks[trackId].showSettings();
   };
 

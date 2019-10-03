@@ -253,11 +253,14 @@ input[type=range]::-ms-thumb {
   left: 0;
   z-index: 10;
   background: rgba(0,0,0,0.8);
+  display: none;
+}
+.dialog-wrapper.active {
+  display: block;
 }
 .dialog {
   box-sizing: border-box;
-  padding: 2rem;
-  border: 2px solid var(--lightest-color);
+  border: 4px solid var(--lighter-color);
   background-color: var(--darker-color);
   position: absolute;
   top: 2rem;
@@ -265,12 +268,21 @@ input[type=range]::-ms-thumb {
   transform: translateX(-50%);
   min-height: auto;
   max-width: 100%;
+  border-radius: 2px;
+}
+.dialog > * {
+  padding: 1rem 2rem;
 }
 .dialog h2 {
-  margin: 0 0 1rem;
+  margin: 0;
+  display: block;
+  background-color: var(--dark-color);
 }
 .dialog .input-row {
   margin-top: 2rem;
+}
+.dialog .input-row:first-child {
+  margin-top: 1rem;
 }
 .dialog .input-row label {
   font-size: 1.2rem;
@@ -279,11 +291,21 @@ input[type=range]::-ms-thumb {
 .dialog .input-row input {
   margin-right: 1rem;
 }
+.dialog .input-row input[type=range] {
+  width: 200px;
+}
 .dialog .input-row {
   display: flex;
   align-items: center;
 }
+.dialog .input-row .value-text {
+  background: black;
+  padding: 0.2rem 0.4rem;
+  color: var(--light-color);
+  cursor: default;
+}
 .dialog-form-actions {
-  margin-top: 2rem;
   text-align: right;
+  background-color: var(--dark-color);
+  margin-top: 1rem;
 }

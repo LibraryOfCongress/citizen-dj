@@ -21,7 +21,9 @@ var Track = (function() {
     var _this = this;
     var opt = this.opt;
 
-    if (!this.opt.title) this.opt.title = opt.url.substring(opt.url.lastIndexOf('/')+1);
+    this.opt.title = opt.title || opt.url.substring(opt.url.lastIndexOf('/')+1);
+    this.opt.clipEnd = opt.clipEnd || 0;
+    this.opt.duration = opt.duration || 0;
 
     this.loaded = false;
     this.isMuted = false;
@@ -63,6 +65,10 @@ var Track = (function() {
     this.$el = $html;
     this.$muteButton = $html.find('.mute-button');
     this.$soloButton = $html.find('.solo-button');
+
+    this.$settingsParent = this.opt.$settingsParent;
+    this.$settingsDialog = this.$settingsParent.find('.dialog');
+
   };
 
   Track.prototype.mute = function(){
@@ -75,6 +81,10 @@ var Track = (function() {
   Track.prototype.onPlayerLoad = function(){
     console.log("Loaded", this.opt.url)
     this.loaded = true;
+
+    var dur = this.player.buffer.duration;
+    this.opt.duration = dur;
+    this.opt.clipEnd = +dur.toFixed(3);
   };
 
   Track.prototype.play = function(time, i){
@@ -92,7 +102,9 @@ var Track = (function() {
   };
 
   Track.prototype.showSettings = function(){
-
+    var html = this.opt.settingsTemplate(_.extend({}, this.opt));
+    this.$settingsDialog.html(html);
+    this.$settingsParent.addClass('active');
   };
 
   Track.prototype.solo = function(){

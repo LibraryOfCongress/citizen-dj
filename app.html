@@ -44,40 +44,30 @@
   </footer> -->
 
   <div id="modal-track-settings" class="dialog-wrapper">
-    <div role="dialog" class="dialog" aria-labelledby="modal-track-settings-label" aria-modal="true">
-
-    </div>
+    <div role="dialog" class="dialog" aria-labelledby="modal-track-settings-label" aria-modal="true"></div>
   </div>
 
   <div class="templates">
     <!-- dialog template -->
-    <div class="dialog template">
+    <div id="settings-template" class="template">
       <h2 id="modal-track-settings-label">
         Track settings for {{ title }}
       </h2>
       <div class="dialog-form">
         <div class="input-row">
-          <label for="track-volume">Volume:</label>
-          <input id="track-volume" type="range" min="-10" max="10" value="{{ volume }}" class="slider volume-input" />
-          <span class="volume-text">{{ volume }}</span>
+          <label for="track-gain">Volume:</label>
+          <input id="track-gain" type="range" min="-10" max="10" value="{{ gain }}" class="slider track-input gain-input" data-property="gain" data-target="#gain-text" />
+          <span id="gain-text" class="value-text">{{ gain }}</span>
         </div>
-
         <div class="input-row">
           <label for="track-duration">Clip duration:</label>
-          <input id="track-duration" type="range" min="0" max="{{ maxDuration }}" value="{{ duration }}" class="slider duration-input" />
-          <span class="duration-text">{{ duration }}</span>
+          <input id="track-duration" type="range" min="0" max="{{ duration }}" step="0.001" value="{{ clipEnd }}" class="slider track-input duration-input" data-property="clipEnd" data-target="#duration-text" />
+          <span id="duration-text" class="value-text">{{ clipEnd }}</span>
         </div>
-
-        <div class="input-row">
-          <label for="track-offset">Offset:</label>
-          <input id="track-offset" type="range" min="0" max="{{ maxOffset }}" value="{{ offset }}" class="slider offset-input" />
-          <span class="offset-text">{{ offset }}</span>
-        </div>
-
         <div class="input-row">
           <label for="track-reverb">Reverb:</label>
-          <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.1" class="slider reverb-input" />
-          <span class="reverb-text">{{ reverb }}</span>
+          <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.1" class="slider track-input reverb-input" data-property="reverb" data-target="#reverb-text" />
+          <span id="reverb-text" class="value-text">{{ reverb }}</span>
         </div>
       </div>
       <div class="dialog-form-actions">
@@ -85,22 +75,31 @@
       </div>
     </div>
     <!-- track template -->
-    <div class="track template">
-      <div class="item">
-        <button class="track-source-button" title="{{ title }}">{{ title }}</button>
-      </div>
-      <div class="beats"></div>
-      <div class="modifiers">
-        <button class="svg-button settings-button" title="track settings" aria-label="track settings">
-          <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>track settings</title><path d="M53,47.46V18H47V47.46a10,10,0,0,0,0,19.08V82h6V66.54a10,10,0,0,0,0-19.08ZM50,61a4,4,0,1,1,4-4A4,4,0,0,1,50,61Z"/><path d="M26,32.46V18H20V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM23,46a4,4,0,1,1,4-4A4,4,0,0,1,23,46Z"/><path d="M80,32.46V18H74V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM77,46a4,4,0,1,1,4-4A4,4,0,0,1,77,46Z"/></svg>
-        </button>
-        <button class="solo-button">solo</button>
-        <button class="mute-button">mute</button>
+    <div id="track-template" class="template">
+      <div class="track">
+        <div class="item">
+          <button class="track-source-button" title="{{ title }}">{{ title }}</button>
+        </div>
+        <div class="beats">
+          <button class="beat beat-0" data-col="0"></button><button class="beat beat-1" data-col="1"></button>
+          <button class="beat beat-2" data-col="2"></button><button class="beat beat-3" data-col="3"></button>
+          <button class="beat beat-4" data-col="4"></button><button class="beat beat-5" data-col="5"></button>
+          <button class="beat beat-6" data-col="6"></button><button class="beat beat-7" data-col="7"></button>
+          <button class="beat beat-8" data-col="8"></button><button class="beat beat-9" data-col="9"></button>
+          <button class="beat beat-10" data-col="10"></button><button class="beat beat-11" data-col="11"></button>
+          <button class="beat beat-12" data-col="12"></button><button class="beat beat-13" data-col="13"></button>
+          <button class="beat beat-14" data-col="14"></button><button class="beat beat-15" data-col="15"></button>
+        </div>
+        <div class="modifiers">
+          <button class="svg-button settings-button" title="track settings" aria-label="track settings">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>track settings</title><path d="M53,47.46V18H47V47.46a10,10,0,0,0,0,19.08V82h6V66.54a10,10,0,0,0,0-19.08ZM50,61a4,4,0,1,1,4-4A4,4,0,0,1,50,61Z"/><path d="M26,32.46V18H20V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM23,46a4,4,0,1,1,4-4A4,4,0,0,1,23,46Z"/><path d="M80,32.46V18H74V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM77,46a4,4,0,1,1,4-4A4,4,0,0,1,77,46Z"/></svg>
+          </button>
+          <button class="solo-button">solo</button>
+          <button class="mute-button">mute</button>
+        </div>
       </div>
     </div>
   </div>
-
-
 
   <script src="js/vendor/jquery-3.4.1.min.js"></script>
   <script src="js/vendor/underscore-1.9.1.min.js"></script>
