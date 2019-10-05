@@ -6,7 +6,7 @@ var Track = (function() {
     var defaults = {
       "id": "k",
       "url": "./audio/drum_machines/Roland_Tr-808_full__36kick.mp3",
-      "gain": -10,
+      "gain": -6,
       "fadeOut": "64n",
       "reverb": 0.5,
       "pattern": [1,0,0,0, 0,0,0,0, 1,1,0,1, 0,0,0,0],
