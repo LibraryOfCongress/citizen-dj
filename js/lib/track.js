@@ -10,7 +10,6 @@ var Track = (function() {
       "fadeOut": "64n",
       "reverb": 0.5,
       "pattern": [1,0,0,0, 0,0,0,0, 1,1,0,1, 0,0,0,0],
-      "patternProps": false,
       "template": "",
       "$parent": ""
     };
@@ -30,11 +29,6 @@ var Track = (function() {
     this.isMuted = false;
     this.isSolo = false;
     this.pattern = this.opt.pattern;
-
-    this.patternProps = this.opt.patternProps;
-    if (this.patternProps === false) {
-      this.patternProps = _.map(this.pattern, function(v){ return {}; });
-    }
 
     this.loadPlayer();
     this.loadUI();
@@ -97,9 +91,8 @@ var Track = (function() {
     if (this.pattern[i] <= 0) return;
 
     var dur = this.opt.clipEnd > 0 ? this.opt.clipEnd : "32n";
-    if (this.patternProps[i].clipEnd) dur = this.patternProps[i].clipEnd;
     if (Math.abs(dur-this.opt.duration) <= 0.001) this.player.start(time);
-    else this.player.start(time, 0, dur);
+    else this.player.start(time, 0, dur, 0);
   };
 
   Track.prototype.setGain = function(db){
@@ -110,17 +103,9 @@ var Track = (function() {
     this.reverb.roomSize.value = roomSize;
   };
 
-  Track.prototype.showSettings = function(col){
-    // check if this is a setting for a particular column in the pattern
-    var isCol = (col !== undefined && col !== false);
-    var colProps = {};
-    if (isCol) {
-      colProps = this.patternProps[col];
-      colProps.title = this.opt.title + " (" + (col+1) + "/16)";
-    }
-    var html = this.opt.settingsTemplate(_.extend({}, this.opt, colProps));
+  Track.prototype.showSettings = function(){
+    var html = this.opt.settingsTemplate(_.extend({}, this.opt));
     this.$settingsDialog.html(html);
-    if (isCol) this.$settingsDialog.find('.track-only').css("display", "none");
     this.$settingsParent.addClass('active');
   };
 
@@ -160,15 +145,10 @@ var Track = (function() {
     this.pattern[col] = value;
   };
 
-  Track.prototype.updateSetting = function(property, value, $target, col) {
-    // console.log("update", property, value, col);
-    if (col !== false) {
-      this.patternProps[col][property] = value;
-    } else {
-      this.opt[property] = value;
-    }
+  Track.prototype.updateSetting = function(property, value, $target) {
+    // console.log("update", property, value);
+    this.opt[property] = value;
     $target.text(value);
-    if (col===false) return;
     if (property==="gain") this.setGain(value);
     else if (property==="reverb") this.setReverb(value);
   };
