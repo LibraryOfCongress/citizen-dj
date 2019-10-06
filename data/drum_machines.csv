@@ -210,8 +210,8 @@ Roland_Tr-808_full__73_bass.mp3,1000,0,Roland TR-808,bass,k,,3.76
 Roland_Tr-808_full__35kick.mp3,1000,0,Roland TR-808,kick,k,2,2.26
 Roland_Tr-808_full__36kick.mp3,1772,0,Roland TR-808,kick,k,1,12.65
 Roland_Tr-808_full__37rim.mp3,16,0,Roland TR-808,rim,r,,6.24
-Roland_Tr-808_full__38snare.mp3,92,0,Roland TR-808,snare,s,1,7.03
-Roland_Tr-808_full__40snare.mp3,80,0,Roland TR-808,snare,s,,7.05
+Roland_Tr-808_full__38snare.mp3,92,0,Roland TR-808,snare,s,0,7.03
+Roland_Tr-808_full__40snare.mp3,80,0,Roland TR-808,snare,s,1,7.05
 Roland_Tr-808_full__48tom_higher.mp3,139,0,Roland TR-808,tom_higher,t,,10.76
 Roland_Tr-808_full__50tom_highest.mp3,125,0,Roland TR-808,tom_highest,t,1,10.5
 Roland_Tr-808_full__47tom_high.mp3,237,0,Roland TR-808,tom_high,tt,,10.16
@@ -219,7 +219,7 @@ Roland_Tr-808_full__45tom_low.mp3,141,0,Roland TR-808,tom_low,tt,1,9.99
 Roland_Tr-808_full__43tom_lowest.mp3,179,0,Roland TR-808,tom_lowest,ttt,,9.93
 Roland_Tr-808_full__41tom_floor.mp3,261,0,Roland TR-808,tom_floor,ttt,1,9.36
 Roland_Tr-808_full__51ride.mp3,2217,0,Roland TR-808,ride,y,,3.21
-Roland_Tr-808_full__53ridebell.mp3,1172,0,Roland TR-808,ridebell,yl,,1.79
+Roland_Tr-808_full__53ridebell.mp3,1172,0,Roland TR-808,ridebell,yl,1,1.79
 Roland_Tr-808_full__59_electricbell.mp3,1500,0,Roland TR-808,electricbell,yl,,0.81
 Roland_Tr-808_full__79_conga_note.mp3,500,0,Roland TR-808,conga_note,,,4.28
 Roland_Tr-808_full__63conga_high.mp3,226,0,Roland TR-808,conga_high,,,10.36
