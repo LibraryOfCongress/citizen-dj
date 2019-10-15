@@ -45,6 +45,7 @@ var Track = (function() {
 
     // init player
     this.reverb = new Tone.Freeverb(this.opt.reverb);
+    // this.volume = new Tone.Volume();
     this.playerUrl = this.opt.url;
     this.player = new Tone.Player({
       "url": this.opt.url,
@@ -92,9 +93,18 @@ var Track = (function() {
     if (!this.loaded || this.isMuted) return;
     if (this.pattern[i] <= 0) return;
 
+    // randomize play time
+    var _this = this;
+    var rtime = time + (Math.random() * 0.01 - 0.005);
+
+    // randomize volume
+    // Tone.Transport.scheduleOnce(function(){
+    //   _this.volume.volume.value = _.random(-6, 0);
+    // }, rtime-0.001);
+
     var dur = this.opt.clipEnd > 0 ? this.opt.clipEnd : "32n";
-    if (Math.abs(dur-this.opt.duration) <= 0.001) this.player.start(time);
-    else this.player.start(time, 0, dur, 0);
+    if (Math.abs(dur-this.opt.duration) <= 0.001) this.player.start(rtime);
+    else this.player.start(rtime, 0, dur, 0);
   };
 
   Track.prototype.setGain = function(db){
