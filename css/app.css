@@ -48,6 +48,13 @@ label {
   margin: 0;
   padding: 0 0.5rem;
 }
+.controls .select-label {
+  margin: -4px 0 4px;
+}
+.controls select {
+  height: 30px;
+  line-height: 26px;
+}
 
 .track {
   justify-content: center;

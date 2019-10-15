@@ -31,7 +31,6 @@ var Sequencer = (function() {
     _.each(this.opt.tracks, function(props, key) {
       _this.addTrack(key, props);
     });
-    this.trackIds = _.keys(this.tracks);
 
     // start the loop
     this.setBPM(this.opt.bpm);
@@ -50,8 +49,7 @@ var Sequencer = (function() {
     track.$settingsParent = this.$settings;
 
     if (_.contains(this.trackIds, id)) {
-      this.tracks[id].destroy();
-      this.tracks[id] = new Track(track);
+      this.tracks[id].update(track);
     } else {
       this.tracks[id] = new Track(track);
       this.trackIds.push(id);
@@ -174,6 +172,12 @@ var Sequencer = (function() {
     }, time);
   };
 
+  Sequencer.prototype.removeTrack = function(key){
+    this.trackIds = _.without(this.trackIds, key);
+    this.tracks[key].destroy();
+    delete this.tracks[key];
+  };
+
   Sequencer.prototype.setBPM = function(bpm, fromUser){
     Tone.Transport.bpm.value = bpm;
     this.$bpmText.text(bpm);
@@ -195,6 +199,17 @@ var Sequencer = (function() {
     this.playing = !this.playing;
     if (this.playing) this.start();
     else this.stop();
+  };
+
+  Sequencer.prototype.update = function(tracks){
+    var _this = this;
+    var removeIds = _.difference(this.trackIds, _.keys(tracks));
+    _.each(removeIds, function(id){
+      _this.removeTrack(id);
+    });
+    _.each(tracks, function(props, key) {
+      _this.addTrack(key, props);
+    });
   };
 
   Sequencer.prototype.updateTrackPattern = function(trackId, col, value) {

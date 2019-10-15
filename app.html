@@ -27,6 +27,8 @@
       </div>
       <nav aria-label="Controls" class="controls">
         <ul>
+          <li><label class="select-label" for="drum-select">Drum machine:</label> <select id="drum-select" class="drum-select"><option value="-1">Loading...</option></select></li>
+          <li><label class="select-label" for="pattern-select">Drum pattern:</label> <select id="pattern-select" class="pattern-select"><option value="-1">Loading...</option></select></li>
           <li><label for="tempo">BPM: <span class="bpm-text">120</span></label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /></li>
           <li><button class="toggle-play">Play</button></li>
           <li><button class="record">Record</button></li>

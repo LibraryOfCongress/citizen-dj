@@ -37,6 +37,7 @@ var Track = (function() {
 
   Track.prototype.destroy = function(){
     this.player.dispose();
+    this.$el.remove();
   };
 
   Track.prototype.loadPlayer = function(){
@@ -44,6 +45,7 @@ var Track = (function() {
 
     // init player
     this.reverb = new Tone.Freeverb(this.opt.reverb);
+    this.playerUrl = this.opt.url;
     this.player = new Tone.Player({
       "url": this.opt.url,
       "volume": this.opt.gain,
@@ -139,6 +141,30 @@ var Track = (function() {
     this.isSolo = false;
     this.$el.removeClass('solo');
     this.$soloButton.removeClass('active');
+  };
+
+  Track.prototype.update = function(track){
+    var _this = this;
+    // change url
+    if (track.url && track.url !== this.playerUrl) {
+      this.playerUrl = track.url;
+      this.loaded = false;
+      this.player.load(track.url, function(){
+        _this.onPlayerLoad();
+      });
+    }
+    if (track.pattern) {
+      this.pattern = track.pattern;
+      this.$el.find('.beat').each(function(i){
+        if (track.pattern[i] > 0) $(this).addClass('active');
+        else $(this).removeClass('active');
+      });
+    }
+    if (track.title) {
+      var $title = this.$el.find('.track-source-button');
+      $title.text(track.title);
+      $title.attr('title', track.title);
+    }
   };
 
   Track.prototype.updatePatternCol = function(col, value) {
