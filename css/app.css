@@ -74,15 +74,22 @@ label {
 .item {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
   width: 200px;
+}
+.item button {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  text-align: left;
 }
 .select-fields {
   justify-content: flex-end;
 }
 .beats {
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   margin-left: 6px;
 }
 .modifiers input {
@@ -91,8 +98,10 @@ label {
 
 .beat {
   transition: transform 0.2s ease-in-out;
-  width: 30px;
-  height: 30px;
+  width: 5vmin;
+  height: auto;
+  min-width: 30px;
+  min-height: 30px;
   padding: 0;
   margin: 0 2px 0 0;
   background: var(--light-color);
@@ -112,8 +121,8 @@ button.beat.active {
 }
 .modifiers button,
 .item button {
-  height: 30px;
-  line-height: 26px;
+  height: auto;
+  line-height: normal;
   padding: 0 0.2rem;
   margin: 0 2px 0 0;
   font-size: 1rem;
@@ -123,14 +132,6 @@ button.beat.active {
 }
 .modifiers button.svg-button {
   padding: 0;
-}
-.modifiers button.svg-button svg {
-  margin-top: 2px;
-}
-.item button {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
 }
 
 .sequence[data-col="0"] .beat:first-child,
