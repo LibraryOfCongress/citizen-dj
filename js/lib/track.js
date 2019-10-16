@@ -81,7 +81,7 @@ var Track = (function() {
   };
 
   Track.prototype.onPlayerLoad = function(){
-    console.log("Loaded", this.opt.url)
+    console.log("Loaded", this.playerUrl)
     this.loaded = true;
 
     var dur = this.player.buffer.duration;

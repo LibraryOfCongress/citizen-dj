@@ -7,7 +7,7 @@ var Sequencer = (function() {
       "el": "#sequencer",
       "tracks": {},
       "subdivision": 16,
-      "bpm": 120
+      "bpm": 90
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
