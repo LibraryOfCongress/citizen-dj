@@ -3,19 +3,136 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Citizen DJ App</title>
-  <meta name="description" content="Public domain beats">
+  <title>Citizen DJ Serendipity Engine</title>
+  <meta name="description" content="Make beats using public audio and moving image materials">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png"> -->
 
   <link rel="stylesheet" href="css/vendor/normalize.css">
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
+  <div class="container">
+    <header>
+      <h1>The <a href="/">Citizen DJ</a> Hip Hop Serendipity Engine</h1>
+    </header>
+    <main id="sequencer">
 
+      <div class="selectors">
+        What does it sound like if you mix a random sample from the <span class="item-medium">film</span>
+        <label for="select-title" class="visually-hidden">Select an item title</label>
+        <select id="select-title" class="select-title"><option value="0">Library of Congress</option></select>
+        from the collection
+        <label for="select-collection" class="visually-hidden">Select a collection title</label>
+        <select id="select-collection" class="select-collection"><option value="0">National Archives and Records Administration</option></select>
+        with the drum pattern from
+        <label for="select-pattern" class="visually-hidden">Select a drum pattern</label>
+        <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
+         using drum machine
+        <label for="select-drum" class="visually-hidden">Select a drum machine</label>
+        <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>?
+      </div>
+
+      <hr />
+
+      <nav aria-label="Controls" class="controls">
+        <ul>
+          <li><button class="toggle-play">Play</button></li>
+          <!-- <li><button class="record">Record</button></li> -->
+          <li><label for="tempo">BPM:</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /> <span class="bpm-text value-text">120</span></li>
+        </ul>
+      </nav>
+
+      <div class="sequence">
+      </div>
+
+      <hr />
+
+      <h2>Where do these sounds come from?</h2>
+
+      <p>Coming soon...</p>
+
+      <h2>How can I use these sounds?</h2>
+
+      <p>Coming soon...</p>
+
+    </main>
+    <footer>
+      <p>A <a href="http://citizendj.brianfoo.com">project</a> by <a href="http://brianfoo.com">Brian Foo</a> as part of the 2020 <a href="https://labs.loc.gov/people/innovator-in-residence-program">Innovator-in-Residence Program</a> at the <a href="https://www.loc.gov/">Library of Congress</a>.</p>
+    </footer>
+  </div>
+
+  <div id="modal-track-settings" class="dialog-wrapper">
+    <div role="dialog" class="dialog" aria-labelledby="modal-track-settings-label" aria-modal="true"></div>
+  </div>
+
+  <div class="templates">
+    <!-- dialog template -->
+    <div id="settings-template" class="template">
+      <h2 id="modal-track-settings-label">
+        Track settings for {{ title }}
+      </h2>
+      <div class="dialog-form">
+        <div class="input-row">
+          <label for="track-gain">Volume:</label>
+          <input id="track-gain" type="range" min="-16" max="10" value="{{ gain }}" step="0.1" class="slider track-input gain-input" data-property="gain" data-target="#gain-text" />
+          <span id="gain-text" class="value-text">{{ gain }}</span>
+        </div>
+        <div class="input-row">
+          <label for="track-duration">Clip duration:</label>
+          <input id="track-duration" type="range" min="0" max="{{ duration }}" step="0.001" value="{{ clipEnd }}" class="slider track-input duration-input" data-property="clipEnd" data-target="#duration-text" />
+          <span id="duration-text" class="value-text">{{ clipEnd }}</span>
+        </div>
+        <div class="input-row">
+          <label for="track-reverb">Reverb:</label>
+          <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.01" class="slider track-input reverb-input" data-property="reverb" data-target="#reverb-text" />
+          <span id="reverb-text" class="value-text">{{ reverb }}</span>
+        </div>
+      </div>
+      <div class="dialog-form-actions">
+        <button class="dialog-close-button">Close</button>
+      </div>
+    </div>
+    <!-- track template -->
+    <div id="track-template" class="template">
+      <div class="track">
+        <div class="track-info"><h3 class="track-title-text">{{ title }}</h3></div>
+        <div class="track-controls">
+          <div class="beats">
+            <button class="beat beat-0" data-col="0"></button><button class="beat beat-1" data-col="1"></button>
+            <button class="beat beat-2" data-col="2"></button><button class="beat beat-3" data-col="3"></button>
+            <button class="beat beat-4" data-col="4"></button><button class="beat beat-5" data-col="5"></button>
+            <button class="beat beat-6" data-col="6"></button><button class="beat beat-7" data-col="7"></button>
+            <button class="beat beat-8" data-col="8"></button><button class="beat beat-9" data-col="9"></button>
+            <button class="beat beat-10" data-col="10"></button><button class="beat beat-11" data-col="11"></button>
+            <button class="beat beat-12" data-col="12"></button><button class="beat beat-13" data-col="13"></button>
+            <button class="beat beat-14" data-col="14"></button><button class="beat beat-15" data-col="15"></button>
+          </div>
+          <div class="modifiers">
+            <button class="svg-button settings-button" title="track settings" aria-label="track settings">
+              <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>track settings</title><path d="M53,47.46V18H47V47.46a10,10,0,0,0,0,19.08V82h6V66.54a10,10,0,0,0,0-19.08ZM50,61a4,4,0,1,1,4-4A4,4,0,0,1,50,61Z"/><path d="M26,32.46V18H20V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM23,46a4,4,0,1,1,4-4A4,4,0,0,1,23,46Z"/><path d="M80,32.46V18H74V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM77,46a4,4,0,1,1,4-4A4,4,0,0,1,77,46Z"/></svg>
+            </button>
+            <button class="solo-button">solo</button>
+            <button class="mute-button">mute</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery-3.4.1.min.js"></script>
+  <script src="js/vendor/underscore-1.9.1.min.js"></script>
+  <script>
+    _.templateSettings = {
+      interpolate: /\{\{(.+?)\}\}/g
+    };
+  </script>
+  <script src="js/vendor/tone-13.8.25.min.js"></script>
+  <script src="js/lib/drums.js"></script>
+  <script src="js/lib/track.js"></script>
+  <script src="js/lib/sequencer.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>

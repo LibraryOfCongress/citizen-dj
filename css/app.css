@@ -1,67 +1,64 @@
-.container,
 .sequence,
 .controls ul,
-.track,
-.select-fields,
+.track-controls,
 .beats,
-fieldset,
 .modifiers {
   display: flex;
 }
 
-legend,
-label {
-  display: block;
-  font-size: 0.8rem;
-}
-
 .container {
-  display: flex;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
   padding: 1rem;
   box-sizing: border-box;
-  flex-direction: column;
-  flex-grow: 1;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .sequence {
-  /* background: var(--darker-color); */
-  padding: 1rem;
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
-  flex-grow: 1;
+}
+
+.selectors {
+  font-size: 1.4rem;
+  line-height: 2.4;
 }
 
 .controls {
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 .controls ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .controls li {
   margin: 0;
-  padding: 0 0.5rem;
+  padding: 0;
 }
-.controls .select-label {
-  margin: -4px 0 4px;
+.controls li:first-child button {
+  margin-left: 0;
 }
-.controls select {
-  height: 30px;
-  line-height: 26px;
+.controls label {
+  margin-left: 1rem;
 }
 
 .track {
-  justify-content: center;
   margin-bottom: 0.5rem;
 }
+.track h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: none;
+}
 .track.muted {
-  filter: saturate(0);
+  opacity: 0.5;
+}
+.track-controls {
+  justify-content: center;
+  justify-content: flex-start;
 }
 .sequence.has-solo .modifiers button {
   visibility: hidden;
@@ -71,56 +68,39 @@ label {
   visibility: visible;
 }
 
-.item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: stretch;
-  width: 200px;
-}
-.item button {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  width: 100%;
-  text-align: left;
-}
-.select-fields {
-  justify-content: flex-end;
-}
 .beats {
   justify-content: center;
   align-items: stretch;
-  margin-left: 6px;
-}
-.modifiers input {
-  margin-right: 0.5rem;
 }
 
-.beat {
+button.beat {
   transition: transform 0.2s ease-in-out;
-  width: 5vmin;
-  height: auto;
-  min-width: 30px;
-  min-height: 30px;
+  width: 44px;
+  height: 44px;
   padding: 0;
-  margin: 0 2px 0 0;
+  margin: 0 4px 0 0;
   background: var(--light-color);
   border-color: var(--light-color);
 }
+button.beat:hover {
+  background: var(--light-color);
+  border-color: var(--darkest-color);
+}
 button.beat.active {
-  color: var(--darker-color);
-  background: var(--lightest-color);
-  border-color: var(--lightest-color);
+  background: var(--darkest-color);
+  border-color: var(--darkest-color);
+}
+button.beat.active:hover {
+  background: var(--light-color);
 }
 .beat:nth-child(4n) {
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .modifiers {
-  margin-left: 4px;
+  margin-left: 8px;
 }
-.modifiers button,
-.item button {
+.modifiers button {
   height: auto;
   line-height: normal;
   padding: 0 0.2rem;
@@ -171,9 +151,8 @@ button.beat.active {
 .sequence[data-col="14"] .beat.active:nth-child(15),
 .sequence[data-col="15"] .beat.active:nth-child(16) {
   opacity: 1;
-  background: white;
-  border-color: white;
-  transform: scale3d(1.1, 1.1, 1.1);
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .templates,

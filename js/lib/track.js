@@ -171,7 +171,7 @@ var Track = (function() {
       });
     }
     if (track.title) {
-      var $title = this.$el.find('.track-source-button');
+      var $title = this.$el.find('.track-title-text');
       $title.text(track.title);
       $title.attr('title', track.title);
     }

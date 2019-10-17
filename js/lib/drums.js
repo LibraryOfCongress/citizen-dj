@@ -86,7 +86,7 @@ var Drums = (function() {
     this.$el = $(this.opt.el);
 
     // load drum select
-    var $drumSelect = this.$el.find(".drum-select");
+    var $drumSelect = this.$el.find(".select-drum");
     $drumSelect.empty();
     var html = '';
     _.each(this.drums, function(drum, index){
@@ -98,7 +98,7 @@ var Drums = (function() {
     this.$drumSelect = $drumSelect;
 
     // load pattern select
-    var $patternSelect = this.$el.find(".pattern-select");
+    var $patternSelect = this.$el.find(".select-pattern");
     $patternSelect.empty();
     html = '';
     _.each(this.patterns, function(pattern, index){
