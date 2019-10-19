@@ -11,7 +11,8 @@ var Track = (function() {
       "reverb": 0.5,
       "pattern": [1,0,0,0, 0,0,0,0, 1,1,0,1, 0,0,0,0],
       "template": "",
-      "$parent": ""
+      "$parent": "",
+      "pitchShift": 0
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -45,6 +46,7 @@ var Track = (function() {
 
     // init player
     this.reverb = new Tone.Freeverb(this.opt.reverb);
+    this.pitchShift = new Tone.PitchShift(this.opt.pitchShift);
     // this.volume = new Tone.Volume();
     this.playerUrl = this.opt.url;
     this.player = new Tone.Player({
@@ -52,7 +54,7 @@ var Track = (function() {
       "volume": this.opt.gain,
       "fadeOut": this.opt.fadeOut,
       "onload": function(){ _this.onPlayerLoad(); }
-    }).chain(this.reverb, Tone.Master);
+    }).chain(this.pitchShift, this.reverb, Tone.Master);
   };
 
   Track.prototype.loadUI = function(){
@@ -109,6 +111,10 @@ var Track = (function() {
 
   Track.prototype.setGain = function(db){
     this.player.volume.value = db;
+  };
+
+  Track.prototype.setPitchShift = function(pitch){
+    this.pitchShift.pitch = pitch;
   };
 
   Track.prototype.setReverb = function(roomSize){
@@ -187,6 +193,7 @@ var Track = (function() {
     $target.text(value);
     if (property==="gain") this.setGain(value);
     else if (property==="reverb") this.setReverb(value);
+    else if (property==="pitchShift") this.setPitchShift(value);
   };
 
   return Track;

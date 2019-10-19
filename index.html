@@ -89,6 +89,11 @@
           <input id="track-reverb" type="range" min="0" max="1" value="{{ reverb }}" step="0.01" class="slider track-input reverb-input" data-property="reverb" data-target="#reverb-text" />
           <span id="reverb-text" class="value-text">{{ reverb }}</span>
         </div>
+        <div class="input-row">
+          <label for="track-pitchShift">Pitch shift:</label>
+          <input id="track-pitchShift" type="range" min="-24" max="24" value="{{ pitchShift }}" step="1" class="slider track-input pitchshift-input" data-property="pitchShift" data-target="#pitchShift-text" />
+          <span id="pitchShift-text" class="value-text">{{ pitchShift }}</span>
+        </div>
       </div>
       <div class="dialog-form-actions">
         <button class="dialog-close-button">Close</button>
