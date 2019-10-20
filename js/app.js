@@ -35,10 +35,11 @@ var App = (function() {
 
   App.prototype.loadSequencer = function(){
     var _this = this;
+    var tracks = _.extend({}, this.drums.tracks, this.collections.tracks);
 
     this.sequencer = new Sequencer({
       "el": _this.opt.el,
-      "tracks": _this.drums.tracks
+      "tracks": tracks
     });
   };
 

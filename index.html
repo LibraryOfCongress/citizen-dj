@@ -20,16 +20,18 @@
     <main id="sequencer">
 
       <div class="selectors">
-        What does it sound like if you mix random sounds from
-        <label for="select-item" class="visually-hidden">Select an item title</label>
-        <select id="select-item" class="select-item"><option value="0">a random film</option></select>
-        in the <strong>Library of Congress</strong>
-        with the beat pattern from
-        <label for="select-pattern" class="visually-hidden">Select a beat pattern</label>
-        <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
-         using drum machine
-        <label for="select-drum" class="visually-hidden">Select a drum machine</label>
-        <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>?
+        <div>
+          <label for="select-item">Choose a public domain film or audio recording: </label>
+          <select id="select-item" class="select-item"><option value="-1">Loading...</option></select>
+        </div>
+        <div>
+          <label for="select-pattern">and a beat pattern from: </label>
+          <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
+        </div>
+        <div>
+          <label for="select-drum">and a drum machine: </label>
+          <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>?
+        </div>
       </div>
 
       <hr />
@@ -132,6 +134,7 @@
     };
   </script>
   <script src="js/vendor/tone-13.8.25.min.js"></script>
+  <script src="js/lib/math.js"></script>
   <script src="js/lib/collections.js"></script>
   <script src="js/lib/drums.js"></script>
   <script src="js/lib/track.js"></script>

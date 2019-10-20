@@ -8,6 +8,7 @@ var Drums = (function() {
       "drumsFile": "/data/drum_machines.json",
       "patternsFile": "/data/drum_patterns.json",
       "audioDir": "./audio/drum_machines/",
+      "gain": -9,
       "onChange": function(){},
       "onDataLoaded": function(){}
     };
@@ -79,7 +80,13 @@ var Drums = (function() {
             pattern[col] = 1;
             var url = _this.opt.audioDir + bestInstrument.filename;
             var title = _this.patternKey[bestInstrument.instrument] + " / " + drum.name;
-            tracks[instrument] = { "pattern": pattern, "url": url, "title": title };
+            tracks[instrument] = {
+              "pattern": pattern,
+              "url": url,
+              "title": title,
+              "type": "drum",
+              "gain": _this.opt.gain
+            };
           }
         }
       });
