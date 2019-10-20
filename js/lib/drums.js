@@ -25,7 +25,12 @@ var Drums = (function() {
   };
 
   Drums.prototype.init = function(){
+
+  };
+
+  Drums.prototype.load = function(){
     var _this = this;
+    var deferred = $.Deferred();
 
     $.when(
       $.getJSON(this.opt.drumsFile),
@@ -37,7 +42,10 @@ var Drums = (function() {
 
       console.log('Drum and pattern data loaded.');
       _this.onDataLoaded(drumData, patternData);
+      deferred.resolve();
     });
+
+    return deferred;
   };
 
   Drums.prototype.loadListeners = function(){
