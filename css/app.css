@@ -25,6 +25,15 @@
   font-size: 1.4rem;
   line-height: 2.4;
 }
+select.select-item {
+  border-color: var(--collection-color);
+  outline-color: var(--collection-color);
+}
+select.select-pattern,
+select.select-drum {
+  border-color: var(--drum-color);
+  outline-color: var(--drum-color);
+}
 
 .controls {
   margin: 1rem 0;
@@ -48,6 +57,16 @@
 
 .track {
   margin-bottom: 0.5rem;
+  border-left: 4px solid black;
+  padding-left: 4px;
+}
+.track.track-collection {
+  order: 1;
+  border-color: var(--collection-color);
+}
+.track.track-drum {
+  order: 2;
+  border-color: var(--drum-color);
 }
 .track h3 {
   margin: 0;
@@ -76,8 +95,8 @@
 
 button.beat {
   transition: transform 0.2s ease-in-out;
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   padding: 0;
   margin: 0 4px 0 0;
   background: var(--light-color);
