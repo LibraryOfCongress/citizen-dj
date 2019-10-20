@@ -48,15 +48,15 @@ var App = (function() {
   };
 
   App.prototype.onChangeDrums = function(){
-    this.updateSequencer();
+    this.updateSequencer(this.drums.tracks, "drum");
   };
 
   App.prototype.onChangeCollections = function(){
-    this.updateSequencer();
+    this.updateSequencer(this.collections.tracks, "collection");
   };
 
-  App.prototype.updateSequencer = function(){
-    this.sequencer.update(this.drums.tracks);
+  App.prototype.updateSequencer = function(tracks, type){
+    this.sequencer.update(tracks, type);
   };
 
   return App;

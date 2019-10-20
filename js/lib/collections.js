@@ -23,7 +23,7 @@ var Collections = (function() {
     // subdivision in milliseconds
     this.beatMs = 1000;
     this.subdivision = this.beatMs / 16.0;
-    this.maxSubdivisions = 8;
+    this.maxSubdivisions = 4;
     this.minSubdivisions = 1;
   };
 
@@ -108,14 +108,23 @@ var Collections = (function() {
     this.loadListeners();
   };
 
-  Collections.onItemChange = function(index){};
+  Collections.prototype.onItemChange = function(index){
+    this.itemIndex = index;
+    this.item = this.items[this.itemIndex];
+    this.sampleIndex = _.random(0, this.item.samples.length-1);
+    this.loadTrackData();
+    this.opt.onChange();
+  };
 
   Collections.prototype.parseData = function(metadata, sampledata){
     // parse samples
     var _this = this;
     var sampleHeadings = sampledata.itemHeadings;
+    var sampleCount = ""+sampledata.items.length;
+    var padLength = sampleCount.length;
     var samples = _.map(sampledata.items, function(sample){
       var sampleObj = _.object(sampleHeadings, sample);
+      if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
       sampleObj.title = MathUtil.secondsToString(sampleObj.sourceStart/1000.0);
       sampleObj.url = _this.opt.audioDir + _this.opt.collectionId + '/' + sampleObj.id + '.mp3';
       return sampleObj;

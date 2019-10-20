@@ -13,6 +13,7 @@ var Track = (function() {
       "template": "",
       "$parent": "",
       "pitchShift": 0,
+      "type": "collection",
       "swing": 0.1 // between -0.5 and 0.5
     };
     this.opt = _.extend({}, defaults, config);
@@ -31,6 +32,7 @@ var Track = (function() {
     this.isMuted = false;
     this.isSolo = false;
     this.pattern = this.opt.pattern;
+    this.type = this.opt.type;
 
     this.loadPlayer();
     this.loadUI();

@@ -41,18 +41,20 @@ var Sequencer = (function() {
     this.loadListeners();
   };
 
-  Sequencer.prototype.addTrack = function(id, track){
+  Sequencer.prototype.addTrack = function(id, track, type){
     track.id = id;
     track.template = this.trackTemplate;
     track.settingsTemplate = this.settingsTemplate;
     track.$parent = this.$tracks;
     track.$settingsParent = this.$settings;
+    type = type || track.type;
+    if (!_.has(this.trackIds, type)) this.trackIds[type] = [];
 
-    if (_.contains(this.trackIds, id)) {
+    if (_.contains(this.trackIds[type], id)) {
       this.tracks[id].update(track);
     } else {
       this.tracks[id] = new Track(track);
-      this.trackIds.push(id);
+      this.trackIds[type].push(id);
     }
   };
 
@@ -172,8 +174,8 @@ var Sequencer = (function() {
     }, time);
   };
 
-  Sequencer.prototype.removeTrack = function(key){
-    this.trackIds = _.without(this.trackIds, key);
+  Sequencer.prototype.removeTrack = function(key, type){
+    this.trackIds[type] = _.without(this.trackIds[type], key);
     this.tracks[key].destroy();
     delete this.tracks[key];
   };
@@ -201,14 +203,16 @@ var Sequencer = (function() {
     else this.stop();
   };
 
-  Sequencer.prototype.update = function(tracks){
+  Sequencer.prototype.update = function(tracks, type, isUnion){
     var _this = this;
-    var removeIds = _.difference(this.trackIds, _.keys(tracks));
-    _.each(removeIds, function(id){
-      _this.removeTrack(id);
-    });
+    if (!isUnion) {
+      var removeIds = _.difference(this.trackIds[type], _.keys(tracks));
+      _.each(removeIds, function(id){
+        _this.removeTrack(id, type);
+      });
+    }
     _.each(tracks, function(props, key) {
-      _this.addTrack(key, props);
+      _this.addTrack(key, props, type);
     });
   };
 
