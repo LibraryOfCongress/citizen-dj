@@ -35,7 +35,7 @@ var Sequencer = (function() {
     // start the loop
     this.setBPM(this.opt.bpm);
     this.loop = new Tone.Sequence(function(time, col){
-      _this.onStep(time, col);
+      _this.onStep(time, col, this.subdivision);
     }, this.subdArr, this.subdStr).start(0);
 
     this.loadListeners();
@@ -159,11 +159,11 @@ var Sequencer = (function() {
     });
   };
 
-  Sequencer.prototype.onStep = function(time, col){
+  Sequencer.prototype.onStep = function(time, col, subdivision){
     var _this = this;
 
     _.each(this.tracks, function(track, key){
-      track.play(time, col);
+      track.play(time, col, subdivision);
     });
 
     //set the columne on the correct draw frame

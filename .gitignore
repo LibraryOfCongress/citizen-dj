@@ -2,3 +2,6 @@
 .DS_Store
 node_modules/
 package-lock.json
+audio/collections/*
+data/sampledata/*
+data/metadata/*
