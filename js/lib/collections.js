@@ -119,6 +119,7 @@ var Collections = (function() {
   Collections.prototype.parseData = function(metadata, sampledata){
     // parse samples
     var _this = this;
+
     var sampleHeadings = sampledata.itemHeadings;
     var sampleCount = ""+sampledata.items.length;
     var padLength = sampleCount.length;
@@ -127,6 +128,11 @@ var Collections = (function() {
       if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
       sampleObj.title = MathUtil.secondsToString(sampleObj.sourceStart/1000.0);
       sampleObj.url = _this.opt.audioDir + _this.opt.collectionId + '/' + sampleObj.id + '.mp3';
+      if (sampledata.groups) {
+        _.each(sampledata.groups, function(groupList, key){
+          sampleObj[key] = groupList[sampleObj[key]];
+        });
+      }
       return sampleObj;
     });
     // create a lookup table
@@ -139,6 +145,11 @@ var Collections = (function() {
       var itemKey = ''+itemObj[_this.opt.itemKey];
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       itemObj.samples = _.has(sampleLookup, itemKey) ? _.sortBy(sampleLookup[itemKey], 'sourceStart') : [];
+      if (metadata.groups) {
+        _.each(metadata.groups, function(groupList, key){
+          itemObj[key] = groupList[itemObj[key]];
+        });
+      }
       return itemObj;
     });
     items = _.filter(items, function(item){ return item.samples && item.samples.length > 1; });
