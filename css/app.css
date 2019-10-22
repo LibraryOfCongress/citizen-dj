@@ -2,7 +2,8 @@
 .controls ul,
 .track-controls,
 .beats,
-.modifiers {
+.modifiers,
+.sequence-modifiers {
   display: flex;
 }
 
@@ -18,7 +19,7 @@
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 3rem 0 4rem;
+  margin: 3rem 0 2rem;
 }
 
 .selectors {
@@ -132,6 +133,36 @@ button.beat.active:hover {
 }
 .modifiers button.svg-button {
   padding: 0;
+}
+
+.sequence-modifiers {
+  margin-bottom: 4rem;
+}
+.sequence-modifiers .nav-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+}
+.sequence-modifiers .nav-group:last-child {
+  margin-right: 0;
+}
+.sequence-modifiers h4 {
+  margin: -1.2rem 0 0 0;
+}
+.sequence-modifiers h4 span {
+  background: var(--lightest-color);
+}
+.sequence-modifiers p {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+.sequence-modifiers button {
+  margin: 0 0.25rem 0.25rem 0;
+  font-size: 1rem;
+  padding: 0 0.5rem;
 }
 
 .sequence[data-col="0"] .beat:first-child,
