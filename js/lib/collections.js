@@ -53,9 +53,38 @@ var Collections = (function() {
     this.$itemSelect.on('change', function(e){
       _this.onItemChange(parseInt($(this).val()));
     });
+
+    $('.randomize-collection').on('click', function(e){
+      _this.randomizeItem();
+    });
+
+    $('.randomize-item').on('click', function(e){
+      _this.randomizePhrase();
+    });
+
+    $('.randomize-phrase').on('click', function(e){
+      _this.randomizeSample();
+    });
+
+    $('.prev-item').on('click', function(e){
+      _this.stepPhrase(-1);
+    });
+
+    $('.next-item').on('click', function(e){
+      _this.stepPhrase(1);
+    });
+
+    $('.prev-phrase').on('click', function(e){
+      _this.stepSample(-1);
+    });
+
+    $('.next-phrase').on('click', function(e){
+      _this.stepSample(1);
+    });
   };
 
   Collections.prototype.loadTrackData = function(){
+    // console.log(this.sampleIndex);
     var _this = this;
     var tracks = {};
     var sampleIndex = this.sampleIndex;
@@ -149,20 +178,67 @@ var Collections = (function() {
       var itemKey = ''+itemObj[_this.opt.itemKey];
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       itemObj.samples = _.has(sampleLookup, itemKey) ? _.sortBy(sampleLookup[itemKey], 'sourceStart') : [];
+      itemObj.samples = _.map(itemObj.samples, function(s, j){
+        s.index = j;
+        return s;
+      })
       if (metadata.groups) {
         _.each(metadata.groups, function(groupList, key){
           itemObj[key] = groupList[itemObj[key]];
         });
       }
+      itemObj.phrases = _.uniq(_.pluck(itemObj.samples, 'phrase'));
+      itemObj.phrases.sort();
       return itemObj;
     });
+
     items = _.filter(items, function(item){ return item.samples && item.samples.length > 1; });
     items = _.sortBy(items, 'title');
     this.items = items;
     this.itemIndex = _.random(0, this.items.length-1);
     this.item = this.items[this.itemIndex];
+    // console.log(this.item.phrases)
     this.sampleIndex = _.random(0, this.item.samples.length-1);
     // console.log(this.item.samples)
+  };
+
+  Collections.prototype.randomizeItem = function(){
+    var itemIndex = _.random(0, this.items.length-1);
+    this.$itemSelect.val(""+itemIndex).trigger('change');
+  };
+
+  Collections.prototype.randomizePhrase = function(){
+    var sample = this.item.samples[this.sampleIndex];
+    var phrases = this.item.phrases;
+    if (phrases.length <= 1) {
+      console.log('Only one phrase available');
+      return;
+    }
+
+    var phraseCandidates = _.without(phrases, sample.phrase);
+    var newPhrase = _.sample(phraseCandidates);
+    var sampleCandidates = _.where(this.item.samples, {phrase: newPhrase});
+    if (sampleCandidates.length < 1) {
+      console.log('No samples in this phrase '+newPhrase);
+      return;
+    }
+
+    var newSample = _.sample(sampleCandidates);
+    this.sampleIndex = newSample.index;
+    this.loadTrackData();
+    this.updateSource();
+    this.opt.onChange();
+  };
+
+  Collections.prototype.randomizeSample = function(){
+    var sample = this.item.samples[this.sampleIndex];
+    var sampleCandidates = _.where(this.item.samples, {phrase: sample.phrase});
+
+    var newSample = _.sample(sampleCandidates);
+    this.sampleIndex = newSample.index;
+    this.loadTrackData();
+    this.updateSource();
+    this.opt.onChange();
   };
 
   Collections.prototype.renderSource = function(){
@@ -173,10 +249,62 @@ var Collections = (function() {
     html += '<div class="source">';
       html += '<h3>'+ item.title +'</h3>';
       html += '<p>This film was created by <a href="'+ item.creator_url +'">'+ item.creator + '</a> and is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction.</p>';
-      html += '<p>You can <a href="'+ item.url +'">view the entire source film on the Internet Archive</a> which is also embedded below (the sample you hear starts at '+startTimeF+'):</p>';
+      html += '<p>You can <a href="'+ item.url +'">view the entire source film on the Internet Archive</a> which is also embedded below (the sample you hear starts at <span class="phrase-start-time">'+startTimeF+'</span>):</p>';
       html += '<iframe src="'+ item.embed_url +'" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>';
     html += '</div>';
     this.$itemSource.html(html);
+  };
+
+  // step through the phrases of the current item
+  Collections.prototype.stepPhrase = function(amount){
+    var sample = this.item.samples[this.sampleIndex];
+    var phrases = this.item.phrases;
+    var phraseIndex = _.indexOf(phrases, sample.phrase);
+    if (phraseIndex < 0) {
+      console.log('Could not find phrase '+sample.phrase);
+      return;
+    }
+
+    phraseIndex += amount;
+    phraseIndex = MathUtil.wrap(phraseIndex, 0, phrases.length-1);
+    var newPhrase = phrases[phraseIndex];
+    var sampleCandidates = _.where(this.item.samples, {phrase: newPhrase});
+    if (sampleCandidates.length < 1) {
+      console.log('Could not find samples with phrase '+newPhrase);
+      return;
+    }
+
+    var newSample = _.sample(sampleCandidates);
+    this.sampleIndex = newSample.index;
+    this.loadTrackData();
+    this.updateSource();
+    this.opt.onChange();
+  };
+
+  // step through the samples of the current phrase
+  Collections.prototype.stepSample = function(amount){
+    var sample = this.item.samples[this.sampleIndex];
+    var sampleCandidates = _.where(this.item.samples, {phrase: sample.phrase});
+
+    var indexInPhrase = _.findIndex(sampleCandidates, function(s){ return s.index===sample.index; });
+    if (indexInPhrase < 0) {
+      console.log('Could not find current sample');
+      return;
+    }
+    indexInPhrase += amount;
+    indexInPhrase = MathUtil.wrap(indexInPhrase, 0, sampleCandidates.length-1);
+
+    var newSample = sampleCandidates[indexInPhrase];
+    this.sampleIndex = newSample.index;
+    this.loadTrackData();
+    this.updateSource();
+    this.opt.onChange();
+  };
+
+  Collections.prototype.updateSource = function(){
+    var startTime = this.item.samples[this.sampleIndex].sourceStart;
+    var startTimeF = MathUtil.secondsToString(startTime/1000.0);
+    this.$el.find('.phrase-start-time').text(startTimeF);
   };
 
   return Collections;

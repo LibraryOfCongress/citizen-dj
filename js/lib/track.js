@@ -40,6 +40,7 @@ var Track = (function() {
   };
 
   Track.prototype.destroy = function(){
+    this.loaded = false;
     this.player.dispose();
     this.$el.remove();
   };
@@ -102,7 +103,7 @@ var Track = (function() {
     var _this = this;
     var randomizeMagnitude = 0.1; // increase to make more random
     var randAmount = randomizeMagnitude * subdivision;
-    var randDelta = (Math.random() * randAmount - randAmount/2);
+    var randDelta = Math.random() * randAmount;
 
     // add swing to every 2nd and 4th beat
     var swingDelta = 0;
