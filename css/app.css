@@ -142,9 +142,15 @@ button.beat.active:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
+}
+.sequence-modifiers .nav-group-collection {
+  border-color: var(--collection-color);
+}
+.sequence-modifiers .nav-group-drum {
+  border-color: var(--drum-color);
 }
 .sequence-modifiers .nav-group:last-child {
   margin-right: 0;
