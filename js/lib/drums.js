@@ -59,6 +59,18 @@ var Drums = (function() {
     this.$patternSelect.on('change', function(e){
       _this.onChangePattern(parseInt($(this).val()));
     });
+
+    $('.randomize-drum').on('click', function(e){
+      _this.randomize();
+    });
+
+    $('.prev-drum').on('click', function(e){
+      _this.step(-1);
+    });
+
+    $('.next-drum').on('click', function(e){
+      _this.step(1);
+    });
   };
 
   Drums.prototype.loadTrackData = function(){
@@ -163,17 +175,40 @@ var Drums = (function() {
     // parse patterns
     var patternItemHeadings = patternData.itemHeadings;
     var patterns = [];
-    _.each(patternData.patterns, function(p){
+    _.each(patternData.patterns, function(p, i){
       var meta = _.object(patternItemHeadings, p);
       var bars = meta.bars;
       meta = _.omit(meta, 'bars');
-      _.each(bars, function(pattern, i){
-        patterns.push(_.extend({}, meta, {pattern: pattern, bar: (i+1)}));
+      _.each(bars, function(pattern, j){
+        patterns.push(_.extend({}, meta, {groupIndex: i, pattern: pattern, bar: (j+1), index: patterns.length}));
       });
     });
     this.patterns = patterns;
+    // break patterns up into groups
+    var patternGroupsLookup = _.groupBy(patterns, 'groupIndex');
+    var patternGroups = [];
+    _.times(patternData.patterns.length, function(i){
+      var gpatterns = _.sortBy(patternGroupsLookup[i], 'bar');
+      patternGroups.push(gpatterns);
+    });
     this.patternKey = patternData.patternKey;
     this.patternIndex = _.random(0, this.patterns.length-1);
+    this.patternGroups = patternGroups;
+  };
+
+  Drums.prototype.randomize = function(){
+    var patternIndex = _.random(0, this.patterns.length-1);
+    this.$patternSelect.val(""+patternIndex).trigger('change');
+  };
+
+  // step through the bars of the current pattern group
+  Drums.prototype.step = function(amount){
+    var pattern = this.patterns[this.patternIndex];
+    var patternGroup = this.patternGroups[pattern.groupIndex];
+    var barIndex = pattern.bar - 1 + amount;
+    barIndex = MathUtil.wrap(barIndex, 0, patternGroup.length-1);
+    var newPattern = patternGroup[barIndex];
+    this.$patternSelect.val(""+newPattern.index).trigger('change');
   };
 
   return Drums;

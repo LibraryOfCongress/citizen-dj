@@ -65,4 +65,10 @@
     return true;
   };
 
+  MathUtil.wrap = function(num, min, max) {
+    var delta = max - min;
+    var remainder = num % delta;
+    return remainder + min;
+  };
+
 })();
