@@ -98,6 +98,8 @@ var Collections = (function() {
     });
     $itemSelect.html(html);
     this.$itemSelect = $itemSelect;
+
+    this.$itemSource = $('#item-source');
   };
 
   Collections.prototype.onDataLoaded = function(metadata, sampledata){
@@ -105,6 +107,7 @@ var Collections = (function() {
     this.loadTrackData();
     this.opt.onDataLoaded();
     this.loadUI();
+    this.renderSource();
     this.loadListeners();
   };
 
@@ -113,6 +116,7 @@ var Collections = (function() {
     this.item = this.items[this.itemIndex];
     this.sampleIndex = _.random(0, this.item.samples.length-1);
     this.loadTrackData();
+    this.renderSource();
     this.opt.onChange();
   };
 
@@ -159,6 +163,20 @@ var Collections = (function() {
     this.item = this.items[this.itemIndex];
     this.sampleIndex = _.random(0, this.item.samples.length-1);
     // console.log(this.item.samples)
+  };
+
+  Collections.prototype.renderSource = function(){
+    var item = this.item;
+    var startTime = this.item.samples[this.sampleIndex].sourceStart;
+    var startTimeF = MathUtil.secondsToString(startTime/1000.0);
+    var html = '';
+    html += '<div class="source">';
+      html += '<h3>'+ item.title +'</h3>';
+      html += '<p>This film was created by <a href="'+ item.creator_url +'">'+ item.creator + '</a> and is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction.</p>';
+      html += '<p>You can <a href="'+ item.url +'">view the entire source film on the Internet Archive</a> which is also embedded below (the sample you hear starts at '+startTimeF+'):</p>';
+      html += '<iframe src="'+ item.embed_url +'" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>';
+    html += '</div>';
+    this.$itemSource.html(html);
   };
 
   return Collections;
