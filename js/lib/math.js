@@ -20,6 +20,10 @@
     return (1.0*b - a) * percent + a;
   };
 
+  MathUtil.mod = function(n, m) {
+    return ((n % m) + m) % m;
+  }
+
   MathUtil.norm = function(value, a, b){
     var denom = (b - a);
     if (denom > 0 || denom < 0) {
@@ -66,9 +70,12 @@
   };
 
   MathUtil.wrap = function(num, min, max) {
-    var delta = max - min;
-    var remainder = num % delta;
-    return remainder + min;
+    if (num >= min && num <= max) return num;
+    else if (num < min) return max;
+    else return min;
+    // var delta = max - min;
+    // if (delta < 1) return 0;
+    // return ((num-min) % delta) + min;
   };
 
 })();

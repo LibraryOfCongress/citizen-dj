@@ -205,6 +205,10 @@ var Drums = (function() {
   Drums.prototype.step = function(amount){
     var pattern = this.patterns[this.patternIndex];
     var patternGroup = this.patternGroups[pattern.groupIndex];
+    if (patternGroup.length < 2) {
+      console.log('Only one pattern in this group');
+      return;
+    }
     var barIndex = pattern.bar - 1 + amount;
     barIndex = MathUtil.wrap(barIndex, 0, patternGroup.length-1);
     var newPattern = patternGroup[barIndex];
