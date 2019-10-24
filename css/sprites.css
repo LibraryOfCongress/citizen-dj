@@ -1,0 +1,30 @@
+body {
+  background: black;
+  color: white;
+}
+
+.image {
+  position: relative;
+  /* width: 99vw;
+  height: 99vw; */
+}
+
+.image img,
+.overlay,
+.touch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.image .overlay {
+  z-index: 2;
+}
+.image .label {
+  position: absolute;
+  border: 2px solid red;
+  box-sizing: border-box;
+  z-index: 3;
+}

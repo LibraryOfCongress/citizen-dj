@@ -3,5 +3,14 @@
 node_modules/
 package-lock.json
 audio/collections/*
+!audio/collections/.keep
+audio/sprites/*
+!audio/sprites/.keep
 data/sampledata/*
+!data/sampledata/.keep
 data/metadata/*
+!data/metadata/.keep
+data/spritedata/*
+!data/spritedata/.keep
+img/sprites/*
+!img/sprites/.keep
