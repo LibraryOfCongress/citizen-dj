@@ -24,7 +24,7 @@ var Collections = (function() {
     this.beatMs = 1000;
     this.subdivision = this.beatMs / 16.0;
     this.maxSubdivisions = 4;
-    this.minSubdivisions = 1;
+    this.minSubdivisions = 4;
   };
 
   Collections.prototype.load = function(){
@@ -248,9 +248,11 @@ var Collections = (function() {
     var html = '';
     html += '<div class="source">';
       html += '<h3>'+ item.title +'</h3>';
-      html += '<p>This film was created by <a href="'+ item.creator_url +'">'+ item.creator + '</a> and is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction.</p>';
-      html += '<p>You can <a href="'+ item.url +'">view the entire source film on the Internet Archive</a> which is also embedded below (the sample you hear starts at <span class="phrase-start-time">'+startTimeF+'</span>):</p>';
-      html += '<iframe src="'+ item.embed_url +'" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>';
+      html += '<p>This item was created by <a href="'+ item.creator_url +'">'+ item.creator + '</a> and is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction.</p>';
+      if (item.embed_url.length) {
+        html += '<p>You can <a href="'+ item.url +'">view the entire source film on the Internet Archive</a> which is also embedded below (the sample you hear starts at <span class="phrase-start-time">'+startTimeF+'</span>):</p>';
+        html += '<iframe src="'+ item.embed_url +'" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>';
+      }
     html += '</div>';
     this.$itemSource.html(html);
   };
