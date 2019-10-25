@@ -139,12 +139,15 @@ button.beat.active:hover {
   margin-bottom: 4rem;
 }
 .sequence-modifiers .nav-group {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   border: 2px solid black;
   padding: 0.25rem 0.5rem;
   margin-right: 0.5rem;
+}
+.sequence-modifiers .nav-group.active {
+  display: flex;
 }
 .sequence-modifiers .nav-group-collection {
   border-color: var(--collection-color);

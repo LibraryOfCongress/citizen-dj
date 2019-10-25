@@ -110,6 +110,10 @@ var Collections = (function() {
 
     // console.log(tracks)
     this.tracks = tracks;
+
+    var phraseCount = this.item.phrases.length;
+    if (phraseCount > 1) $('.nav-group-collection-item').addClass('active');
+    else $('.nav-group-collection-item').removeClass('active');
   };
 
   Collections.prototype.loadUI = function(){
