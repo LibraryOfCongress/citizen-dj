@@ -33,16 +33,19 @@ var Track = (function() {
     this.isSolo = false;
     this.pattern = this.opt.pattern;
     this.type = this.opt.type;
-
-    this.loadPlayer();
-    this.loadUI();
-
   };
 
   Track.prototype.destroy = function(){
     this.loaded = false;
     this.player.dispose();
     this.$el.remove();
+  };
+
+  Track.prototype.load = function(){
+    this.loadPromise = $.Deferred();
+    this.loadPlayer();
+    this.loadUI();
+    return this.loadPromise;
   };
 
   Track.prototype.loadPlayer = function(){
@@ -89,10 +92,10 @@ var Track = (function() {
   Track.prototype.onPlayerLoad = function(){
     console.log("Loaded", this.playerUrl)
     this.loaded = true;
-
     var dur = this.player.buffer.duration;
     this.opt.duration = dur;
     this.opt.clipEnd = +dur.toFixed(3);
+    this.loadPromise.resolve();
   };
 
   Track.prototype.play = function(time, i, subdivision){
@@ -175,8 +178,10 @@ var Track = (function() {
 
   Track.prototype.update = function(track){
     var _this = this;
+
     // change url
     if (track.url && track.url !== this.playerUrl) {
+      this.loadPromise = $.Deferred();
       this.playerUrl = track.url;
       this.loaded = false;
       this.player.load(track.url, function(){
@@ -195,6 +200,7 @@ var Track = (function() {
       $title.text(track.title);
       $title.attr('title', track.title);
     }
+    return this.loadPromise;
   };
 
   Track.prototype.updatePatternCol = function(col, value) {

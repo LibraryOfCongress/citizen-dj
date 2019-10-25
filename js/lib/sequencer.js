@@ -42,6 +42,7 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.addTrack = function(id, track, type){
+    var promise;
     track.id = id;
     track.template = this.trackTemplate;
     track.settingsTemplate = this.settingsTemplate;
@@ -51,11 +52,13 @@ var Sequencer = (function() {
     if (!_.has(this.trackIds, type)) this.trackIds[type] = [];
 
     if (_.contains(this.trackIds[type], id)) {
-      this.tracks[id].update(track);
+      promise = this.tracks[id].update(track);
     } else {
       this.tracks[id] = new Track(track);
+      promise = this.tracks[id].load();
       this.trackIds[type].push(id);
     }
+    return promise;
   };
 
   Sequencer.prototype.loadListeners = function(){
@@ -174,6 +177,14 @@ var Sequencer = (function() {
     }, time);
   };
 
+  Sequencer.prototype.onTrackUpdateLoaded = function(){
+    if (!this.playing) return;
+    Tone.Transport.pause();
+    setTimeout(function(){
+      Tone.Transport.start();
+    }, 10);
+  };
+
   Sequencer.prototype.removeTrack = function(key, type){
     this.trackIds[type] = _.without(this.trackIds[type], key);
     this.tracks[key].destroy();
@@ -211,8 +222,13 @@ var Sequencer = (function() {
         _this.removeTrack(id, type);
       });
     }
+
+    var promises = [];
     _.each(tracks, function(props, key) {
-      _this.addTrack(key, props, type);
+      promises.push(_this.addTrack(key, props, type));
+    });
+    $.when.apply(null, promises).done(function() {
+      _this.onTrackUpdateLoaded();
     });
   };
 
