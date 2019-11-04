@@ -7,7 +7,8 @@ var Sequencer = (function() {
       "el": "#sequencer",
       "tracks": {},
       "subdivision": 16,
-      "bpm": 90
+      "bpm": 90,
+      "swing": 0.5 // between -0.5 and 0.5
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -35,7 +36,7 @@ var Sequencer = (function() {
     // start the loop
     this.setBPM(this.opt.bpm);
     this.loop = new Tone.Sequence(function(time, col){
-      _this.onStep(time, col, this.subdivision);
+      _this.onStep(time, col);
     }, this.subdArr, this.subdStr).start(0);
 
     this.loadListeners();
@@ -167,8 +168,14 @@ var Sequencer = (function() {
   Sequencer.prototype.onStep = function(time, col, subdivision){
     var _this = this;
 
+    var secondsPerSubd = this.secondsPerSubd;
+
+    // swing every second subdivision
+    var swing = this.swing;
+    if (col % 2 < 1) swing = 0;
+
     _.each(this.tracks, function(track, key){
-      track.play(time, col, subdivision);
+      track.play(time+swing, col, secondsPerSubd);
     });
 
     //set the columne on the correct draw frame
@@ -192,6 +199,8 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.setBPM = function(bpm, fromUser){
+    this.secondsPerSubd = 60.0 / bpm / this.opt.subdivision;
+    this.swing = this.secondsPerSubd * this.opt.swing;
     Tone.Transport.bpm.value = bpm;
     this.$bpmText.text(bpm);
     if (!fromUser) this.$bpmInput.val(bpm);

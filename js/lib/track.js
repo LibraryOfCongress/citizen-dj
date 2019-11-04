@@ -13,8 +13,7 @@ var Track = (function() {
       "template": "",
       "$parent": "",
       "pitchShift": 0,
-      "type": "collection",
-      "swing": 0.1 // between -0.5 and 0.5
+      "type": "collection"
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -98,23 +97,16 @@ var Track = (function() {
     this.loadPromise.resolve();
   };
 
-  Track.prototype.play = function(time, i, subdivision){
+  Track.prototype.play = function(time, i, secondsPerSubd){
     if (!this.loaded || this.isMuted) return;
     if (this.pattern[i] <= 0) return;
 
     // randomize play time
     var _this = this;
     var randomizeMagnitude = 0.1; // increase to make more random
-    var randAmount = randomizeMagnitude * subdivision;
+    var randAmount = randomizeMagnitude * secondsPerSubd;
     var randDelta = Math.random() * randAmount;
-
-    // add swing to every 2nd and 4th beat
-    var swingDelta = 0;
-    if (this.opt.swing !== 0 && (i===4 || i===12)) {
-      swingDelta = subdivision * this.opt.swing;
-    }
-
-    var rtime = time + randDelta + swingDelta;
+    var rtime = time + randDelta;
 
     // randomize volume
     // Tone.Transport.scheduleOnce(function(){
