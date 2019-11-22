@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }} / {{ page.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.image %}
+  <meta property="og:image" content="{{ site.canonical_url }}{{ page.image }}" />
+  <meta name="image_src" content="{{ site.canonical_url }}{{ page.image }}">
+  {% else %}
+  <meta property="og:image" content="{{ site.canonical_url }}/img/citzen_dj_keep_your_sounds_free.jpg" />
+  <meta name="image_src" content="{{ site.canonical_url }}/img/citzen_dj_keep_your_sounds_free.jpg">
+  {% endif %}
+
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+  <div class="container {{ page.id }}">
+    <!-- <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/posts/">Updates</a></li>
+        </ul>
+      </nav>
+    </header> -->
+
+    <main>
+      {{ content }}
+    </main>
+
+    <!-- <footer>
+      <nav>
+        <ul>
+          <li>&copy; 2019 <a href="http://brianfoo.com">Brian Foo</a></li>
+        </ul>
+      </nav>
+    </footer> -->
+  </div>
+</body>
+
+</html>
