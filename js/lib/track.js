@@ -50,9 +50,9 @@ var Track = (function() {
   Track.prototype.loadPlayer = function(){
     var _this = this;
 
-    // init player
-    this.reverb = new Tone.Freeverb(this.opt.reverb);
-    this.pitchShift = new Tone.PitchShift(this.opt.pitchShift);
+    // // init player
+    // this.reverb = new Tone.Freeverb(this.opt.reverb);
+    // this.pitchShift = new Tone.PitchShift(this.opt.pitchShift);
     // this.volume = new Tone.Volume();
     this.playerUrl = this.opt.url;
     this.player = new Tone.Player({
@@ -60,7 +60,8 @@ var Track = (function() {
       "volume": this.opt.gain,
       "fadeOut": this.opt.fadeOut,
       "onload": function(){ _this.onPlayerLoad(); }
-    }).chain(this.pitchShift, this.reverb, Tone.Master);
+    }).chain(Tone.Master);
+    // }).chain(this.pitchShift, this.reverb, Tone.Master);
   };
 
   Track.prototype.loadUI = function(){
@@ -123,11 +124,11 @@ var Track = (function() {
   };
 
   Track.prototype.setPitchShift = function(pitch){
-    this.pitchShift.pitch = pitch;
+    if (this.pitchShift) this.pitchShift.pitch = pitch;
   };
 
   Track.prototype.setReverb = function(roomSize){
-    this.reverb.roomSize.value = roomSize;
+    if (this.reverb) this.reverb.roomSize.value = roomSize;
   };
 
   Track.prototype.showSettings = function(){

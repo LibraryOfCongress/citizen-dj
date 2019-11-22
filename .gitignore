@@ -14,3 +14,6 @@ data/spritedata/*
 !data/spritedata/.keep
 img/sprites/*
 !img/sprites/.keep
+.sass-cache
+.jekyll-metadata
+Gemfile.lock

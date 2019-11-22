@@ -4,7 +4,7 @@ var SpritesApp = (function() {
 
   function SpritesApp(config) {
     var defaults = {
-      "uid": "ia_fedflixnara_us_information_agency",
+      "uid": "loc_john-and-ruby-lomax",
       "audioDir": "audio/sprites/",
       "dataDir": "data/spritedata/",
       "imageDir": "img/sprites/"
