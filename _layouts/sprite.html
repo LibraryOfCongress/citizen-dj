@@ -1,0 +1,31 @@
+{% include head.html %}
+
+<div class="container sprite {{ page.id }}">
+
+  {% include header.html %}
+
+  <main>
+    <div id="app" class="app">
+      <div id="image" class="image">
+        <div id="overlay" class="overlay"></div>
+        <div id="label" class="label"></div>
+      </div>
+      <div class="touch"></div>
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+</div>
+
+<script src="js/vendor/jquery-3.4.1.min.js"></script>
+<script src="js/vendor/underscore-1.9.1.min.js"></script>
+<script src="js/vendor/howler.js-2.1.2.min.js"></script>
+<script>
+var CONFIG = {
+  'uid': '{{ page.uid }}'
+};
+</script>
+<script src="js/sprites.js"></script>
+
+{% include foot.html %}
