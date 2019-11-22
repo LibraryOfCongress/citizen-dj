@@ -13,6 +13,8 @@ var App = (function() {
   App.prototype.init = function(){
     var _this = this;
 
+    // Tone.context.latencyHint = 'playback'; // prioritize sustained feedback; https://github.com/Tonejs/Tone.js/wiki/Performance
+
     this.drums = new Drums({
       "el": _this.opt.el,
       "onChange": function(){ _this.onChangeDrums(); }
