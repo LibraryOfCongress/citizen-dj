@@ -5,14 +5,16 @@ var Drums = (function() {
   function Drums(config) {
     var defaults = {
       "el": "#sequencer",
+      "baseUrl": "",
       "drumsFile": "/data/drum_machines.json",
       "patternsFile": "/data/drum_patterns.json",
-      "audioDir": "./audio/drum_machines/",
+      "audioDir": "/audio/drum_machines/",
       "gain": -9,
       "onChange": function(){},
       "onDataLoaded": function(){}
     };
-    this.opt = _.extend({}, defaults, config);
+    var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
+    this.opt = _.extend({}, defaults, config, globalConfig);
     this.init();
   }
 
@@ -34,8 +36,8 @@ var Drums = (function() {
     var deferred = $.Deferred();
 
     $.when(
-      $.getJSON(this.opt.drumsFile),
-      $.getJSON(this.opt.patternsFile)
+      $.getJSON(this.opt.baseUrl + this.opt.drumsFile),
+      $.getJSON(this.opt.baseUrl + this.opt.patternsFile)
 
     ).done(function(drumData, patternData){
       drumData = drumData[0];
@@ -90,13 +92,13 @@ var Drums = (function() {
           if (bestInstrument !== false) {
             var pattern = _.times(16, function(n){ return 0; });
             pattern[col] = 1;
-            var url = _this.opt.audioDir + bestInstrument.filename;
+            var url = _this.opt.baseUrl + _this.opt.audioDir + bestInstrument.filename;
             var title = _this.patternKey[bestInstrument.instrument] + " / " + drum.name;
             tracks[instrument] = {
               "pattern": pattern,
               "url": url,
               "title": title,
-              "type": "drum",
+              "trackType": "drum",
               "gain": _this.opt.gain
             };
           }

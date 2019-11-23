@@ -13,7 +13,7 @@ var Track = (function() {
       "template": "",
       "$parent": "",
       "pitchShift": 0,
-      "type": "collection"
+      "trackType": "collection"
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -31,7 +31,7 @@ var Track = (function() {
     this.isMuted = false;
     this.isSolo = false;
     this.pattern = this.opt.pattern;
-    this.type = this.opt.type;
+    this.trackType = this.opt.trackType;
   };
 
   Track.prototype.destroy = function(){
@@ -67,6 +67,7 @@ var Track = (function() {
   Track.prototype.loadUI = function(){
     var _this = this;
     var $html = $(this.opt.template(this.opt));
+
     $html.attr('data-track', this.opt.id);
     // highlight beats
     var pattern = this.pattern;
@@ -188,6 +189,7 @@ var Track = (function() {
         else $(this).removeClass('active');
       });
     }
+
     if (track.title) {
       var $title = this.$el.find('.track-title-text');
       $title.text(track.title);

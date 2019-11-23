@@ -5,17 +5,19 @@ var Collections = (function() {
   function Collections(config) {
     var defaults = {
       "el": "#sequencer",
-      "collectionId": "ia_fedflixnara_us_information_agency",
+      "uid": "ia_fedflixnara_us_information_agency",
+      "baseUrl": "",
       "metadataDir": "/data/metadata/",
       "sampledataDir": "/data/sampledata/",
-      "audioDir": "./audio/collections/",
+      "audioDir": "/audio/collections/",
       "sampleItemKey": "sourceFilename",
       "itemKey": "filename",
       "gain": -3,
       "onChange": function(){},
       "onDataLoaded": function(){}
     };
-    this.opt = _.extend({}, defaults, config);
+    var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
+    this.opt = _.extend({}, defaults, config, globalConfig);
     this.init();
   }
 
@@ -32,8 +34,8 @@ var Collections = (function() {
     var deferred = $.Deferred();
 
     $.when(
-      $.getJSON(this.opt.metadataDir + this.opt.collectionId + '.json'),
-      $.getJSON(this.opt.sampledataDir + this.opt.collectionId + '.json')
+      $.getJSON(this.opt.baseUrl + this.opt.metadataDir + this.opt.uid + '.json'),
+      $.getJSON(this.opt.baseUrl + this.opt.sampledataDir + this.opt.uid + '.json')
 
     ).done(function(metadata, sampledata){
       metadata = metadata[0];
@@ -98,7 +100,7 @@ var Collections = (function() {
         "pattern": pattern,
         "url": sample["url"],
         "title": this.item.title + ' (' + sample.title + ')',
-        "type": "collection",
+        "trackType": "collection",
         "gain": _this.opt.gain
       };
       var nearestSubdivisions = Math.floor(sample.dur / this.subdivision);
@@ -164,7 +166,7 @@ var Collections = (function() {
       var sampleObj = _.object(sampleHeadings, sample);
       if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
       sampleObj.title = MathUtil.secondsToString(sampleObj.sourceStart/1000.0);
-      sampleObj.url = _this.opt.audioDir + _this.opt.collectionId + '/' + sampleObj.id + '.mp3';
+      sampleObj.url = _this.opt.baseUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.mp3';
       if (sampledata.groups) {
         _.each(sampledata.groups, function(groupList, key){
           sampleObj[key] = groupList[sampleObj[key]];

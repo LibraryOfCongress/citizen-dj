@@ -5,12 +5,14 @@ var SpritesApp = (function() {
   function SpritesApp(config) {
     var defaults = {
       "uid": "loc_john-and-ruby-lomax",
-      "audioDir": "audio/sprites/",
-      "dataDir": "data/spritedata/",
-      "imageDir": "img/sprites/"
+      "baseUrl": "",
+      "audioDir": "/audio/sprites/",
+      "dataDir": "/data/spritedata/",
+      "imageDir": "/img/sprites/"
     };
+    var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = queryParams();
-    this.opt = _.extend({}, defaults, config, q);
+    this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
   }
 
@@ -67,7 +69,7 @@ var SpritesApp = (function() {
     this.audioSpriteFiles = options.audioSpriteFiles;
 
     _.each(options.audioSpriteFiles, function(fn, i){
-      var audioFilename = opt.audioDir + uid + "/" + fn;
+      var audioFilename = opt.baseUrl + opt.audioDir + uid + "/" + fn;
       var sprites = _.filter(allSprites, function(s){ return s.fileIndex===i; });
       sprites = _.map(sprites, function(s, i){ return [""+s.id, s.audioPosition]; });
       sprites = _.object(sprites);
@@ -94,7 +96,7 @@ var SpritesApp = (function() {
   SpritesApp.prototype.loadData = function(){
     var _this = this;
     var uid = this.opt.uid;
-    var url = this.opt.dataDir + uid + ".json";
+    var url = this.opt.baseUrl + this.opt.dataDir + uid + ".json";
     var deferred = $.Deferred();
     $.getJSON(url, function(data) {
       console.log("Loaded data with "+data.sprites.length+" sprites")
@@ -122,7 +124,7 @@ var SpritesApp = (function() {
     this.cellNW = options.cellW / options.width;
     this.cellNH = options.cellH / options.height;
 
-    var imageUrl = this.opt.imageDir + options.image;
+    var imageUrl = this.opt.baseUrl + this.opt.imageDir + options.image;
 
     this.$image = $('<img src="'+imageUrl+'" alt="Matrix of scenes from video" />');
     this.$imageWrapper = $('#image');

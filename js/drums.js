@@ -1,8 +1,8 @@
 'use strict';
 
-var App = (function() {
+var DrumsApp = (function() {
 
-  function App(config) {
+  function DrumsApp(config) {
     var defaults = {
       "el": "#sequencer"
     };
@@ -10,7 +10,7 @@ var App = (function() {
     this.init();
   }
 
-  App.prototype.init = function(){
+  DrumsApp.prototype.init = function(){
     var _this = this;
 
     // Tone.context.latencyHint = 'playback'; // prioritize sustained feedback; https://github.com/Tonejs/Tone.js/wiki/Performance
@@ -35,7 +35,7 @@ var App = (function() {
     });
   };
 
-  App.prototype.loadSequencer = function(){
+  DrumsApp.prototype.loadSequencer = function(){
     var _this = this;
     var tracks = _.extend({}, this.drums.tracks, this.collections.tracks);
 
@@ -45,26 +45,26 @@ var App = (function() {
     });
   };
 
-  App.prototype.onLoad = function(){
+  DrumsApp.prototype.onLoad = function(){
     this.loadSequencer();
   };
 
-  App.prototype.onChangeDrums = function(){
+  DrumsApp.prototype.onChangeDrums = function(){
     this.updateSequencer(this.drums.tracks, "drum");
   };
 
-  App.prototype.onChangeCollections = function(){
+  DrumsApp.prototype.onChangeCollections = function(){
     this.updateSequencer(this.collections.tracks, "collection");
   };
 
-  App.prototype.updateSequencer = function(tracks, type){
+  DrumsApp.prototype.updateSequencer = function(tracks, type){
     this.sequencer.update(tracks, type);
   };
 
-  return App;
+  return DrumsApp;
 
 })();
 
 $(function() {
-  var app = new App({});
+  var app = new DrumsApp({});
 });

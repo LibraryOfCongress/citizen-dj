@@ -88,6 +88,7 @@
   <div role="dialog" class="dialog" aria-labelledby="modal-track-settings-label" aria-modal="true"></div>
 </div>
 
+{% raw %}
 <div class="templates">
   <!-- dialog template -->
   <div id="settings-template" class="template">
@@ -122,7 +123,7 @@
   </div>
   <!-- track template -->
   <div id="track-template" class="template">
-    <div class="track track-{{ type }}">
+    <div class="track track-{{ trackType }}">
       <div class="track-info"><h3 class="track-title-text">{{ title }}</h3></div>
       <div class="track-controls">
         <div class="beats">
@@ -146,25 +147,27 @@
     </div>
   </div>
 </div>
+{% endraw %}
 
-<script src="js/vendor/jquery-3.4.1.min.js"></script>
-<script src="js/vendor/underscore-1.9.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/underscore-1.9.1.min.js"></script>
 <script>
   _.templateSettings = {
     interpolate: /\{\{(.+?)\}\}/g
   };
 </script>
-<script src="js/vendor/tone-13.8.25.min.js"></script>
-<script src="js/lib/math.js"></script>
-<script src="js/lib/collections.js"></script>
-<script src="js/lib/drums.js"></script>
-<script src="js/lib/track.js"></script>
-<script src="js/lib/sequencer.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/tone-13.8.25.min.js"></script>
+<script src="{{ site.baseurl }}/js/lib/math.js"></script>
+<script src="{{ site.baseurl }}/js/lib/collections.js"></script>
+<script src="{{ site.baseurl }}/js/lib/drums.js"></script>
+<script src="{{ site.baseurl }}/js/lib/track.js"></script>
+<script src="{{ site.baseurl }}/js/lib/sequencer.js"></script>
 <script>
   var CONFIG = {
+    'baseUrl': '{{ site.baseurl }}',
     'uid': '{{ page.uid }}'
   };
 </script>
-<script src="js/app.js"></script>
+<script src="{{ site.baseurl }}/js/drums.js"></script>
 
 {% include foot.html %}

@@ -18,14 +18,15 @@
 
 </div>
 
-<script src="js/vendor/jquery-3.4.1.min.js"></script>
-<script src="js/vendor/underscore-1.9.1.min.js"></script>
-<script src="js/vendor/howler.js-2.1.2.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/underscore-1.9.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/howler.js-2.1.2.min.js"></script>
 <script>
 var CONFIG = {
+  'baseUrl': '{{ site.baseurl }}',
   'uid': '{{ page.uid }}'
 };
 </script>
-<script src="js/sprites.js"></script>
+<script src="{{ site.baseurl }}/js/sprites.js"></script>
 
 {% include foot.html %}

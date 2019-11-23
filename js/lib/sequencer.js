@@ -49,7 +49,7 @@ var Sequencer = (function() {
     track.settingsTemplate = this.settingsTemplate;
     track.$parent = this.$tracks;
     track.$settingsParent = this.$settings;
-    type = type || track.type;
+    type = type || track.trackType;
     if (!_.has(this.trackIds, type)) this.trackIds[type] = [];
 
     if (_.contains(this.trackIds[type], id)) {
