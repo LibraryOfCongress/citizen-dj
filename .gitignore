@@ -6,8 +6,6 @@ audio/collections/*
 !audio/collections/.keep
 audio/sprites/*
 !audio/sprites/.keep
-img/sprites/*
-!img/sprites/.keep
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
