@@ -4,14 +4,46 @@ id: home
 title: Homepage
 ---
 
+<h1>Citizen DJ</h1>
+
+<p class="tagline">
+  Make hip hop music using the public audio and video collections
+</p>
+
+<hr />
+
+<p class="align-center"><em>This is a project by <a href="http://brianfoo.com">Brian Foo</a> as part of the 2020 <a href="https://labs.loc.gov/people/innovator-in-residence-program" class="nowrap">Innovator-in-Residence Program</a> <span class="nowrap">at the <a href="https://www.loc.gov/">Library of Congress</a></span>.</em></p>
+
+<div class="steps">
+  <div class="step">
+    <p><img src="{{ site.baseurl }}/img/steps_1_explore.svg" alt="A magnifying glass hovering over a grid of sound clips" /></p>
+    <p>Explore free-to-use sounds from the Library of Congress</p>
+  </div>
+  <div class="step">
+    <p><img src="{{ site.baseurl }}/img/steps_2_make.svg" alt="A cursor clicking the buttons of a drum machine" /></p>
+    <p>Remix and combine with beats right in your browser</p>
+  </div>
+  <div class="step">
+    <p><img src="{{ site.baseurl }}/img/steps_3_use.svg" alt="An arrow pointing downward towards a laptop" /></p>
+    <p>Download and use sounds with your favorite software</p>
+  </div>
+</div>
+
+<h2>Select a collection to start</h2>
+
 {% assign pages = site.collections | sort:"sequence" %}
-<ul>
+<div class="collections">
   {% for p in pages %}
-    <li>
-      <a href="{{ p.url }}">
+    <div class="collection">
+      <h3><a href="{{ p.url }}">
         {{ p.title }}
-      </a><br />
-      {{ p.description }}
-    </li>
+      </a></h3>
+      <p>{{ p.description }}</p>
+      <p>
+        <a href="{{ p.url }}explore/" class="button">Explore sounds</a>
+        <a href="{{ p.url }}remix/" class="button">Remix sounds</a>
+        <a href="{{ p.url }}use/" class="button">Download and use sounds</a>
+      </p>
+    </div>
   {% endfor %}
-</ul>
+</div>

@@ -3,3 +3,109 @@
 
 @import 'normalize';
 @import 'base';
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem 0 0;
+}
+h2 {
+  font-size: 2.4rem;
+  margin-top: 4rem;
+}
+h3 {
+  margin: 4rem 0 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+h2 ~ p {
+  margin-top: 0;
+}
+
+a {
+  font-weight: bold;
+}
+
+.button {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+hr {
+  display: block;
+  height: 6px;
+  border: 2px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  margin: 2rem 0 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 20px auto;
+}
+
+.caption {
+  font-size: 1rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.tagline {
+  font-size: 1.667rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.align-center {
+  text-align: center;
+}
+
+.collection {
+  border-bottom: 2px solid black;
+}
+.collection:last-child {
+  border: none;
+}
+.collection:first-child h3 {
+  margin-top: 0;
+}
+
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.step {
+  width: 33.333333%;
+  flex-grow: 1;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.step img {
+  width: 66.67%;
+  height: auto;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .step p {
+    font-size: 1rem;
+  }
+  .step img {
+    width: 100%;
+  }
+}
