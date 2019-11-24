@@ -10,3 +10,4 @@ audio/sprites/*
 .jekyll-metadata
 Gemfile.lock
 _site/
+s3_website.yml

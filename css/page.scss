@@ -59,11 +59,16 @@ hr {
   text-align: right;
 }
 
+.banner-image {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 760px;
+}
 .tagline {
   font-size: 1.667rem;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .nowrap {
   white-space: nowrap;
