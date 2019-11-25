@@ -1,0 +1,67 @@
+
+$collectionHeight: 44px;
+
+.wrapper {
+  padding-top: $headerHeight + $collectionHeight + 30px;
+}
+
+.collection-header {
+  height: $collectionHeight;
+  line-height: $collectionHeight;
+  background: white;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  top: $headerHeight;
+  left: 0;
+  box-sizing: border-box;
+}
+
+.collection-header button,
+.collection-header button:hover,
+.collection-header button.active {
+  margin: 0;
+  color: var(--darkest-color);
+  background: none;
+  border: none;
+  white-space: nowrap;
+}
+
+.collection-header nav ul {
+  justify-content: space-between;
+}
+.collection-header nav ul li:first-child {
+  padding-left: 1rem;
+}
+.collection-header nav ul li:last-child {
+  padding-right: 1rem;
+}
+.collection-header nav ul li {
+  border-bottom: 2px solid var(--darkest-color);
+  box-sizing: border-box;
+  height: $collectionHeight - 4px;
+  line-height: $collectionHeight - 4px;
+  margin-top: 4px;
+}
+.collection-header a.tab {
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.collection-header a.tab:hover {
+  text-decoration: underline;
+}
+.collection-header nav ul li.active {
+  border: 2px solid var(--darkest-color);
+  border-bottom-color: var(--lightest-color);
+}
+.collection-header a.tab.active:hover {
+  cursor: default;
+  text-decoration: none;
+}
+
+.collection-header .label {
+  padding-right: 0.5rem;
+}
+.collection-header .spacer {
+  flex-grow: 1;
+}

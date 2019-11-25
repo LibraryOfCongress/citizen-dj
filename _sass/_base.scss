@@ -14,6 +14,8 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+$headerHeight: 30px;
+
 :root {
   --darkest-color: black;
   --darker-color: #222222;
@@ -41,6 +43,9 @@ a {
 }
 a:hover {
   color: var(--darker-color);
+}
+a:focus {
+  outline: 3px solid var(--drum-color);
 }
 a.button {
   display: inline-block;
@@ -93,15 +98,40 @@ nav ul li {
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  height: $headerHeight;
+  line-height: $headerHeight;
+  background: var(--darkest-color);
+  color: var(--lightest-color);
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+header a,
+header a:hover,
+header a.active,
+header a.active:hover {
+  color: var(--lightest-color);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
 header h1 {
-  font-size: 2rem;
-  line-height: 1;
+  margin: 0;
+  font-size: 1.1rem;
   letter-spacing: 0.1rem;
+}
+header nav ul li {
+  padding-left: 1rem;
 }
 
 footer {
   padding: 0.5rem 0 2rem;
-  border-top: 3px solid black;
+  border-top: 3px solid var(--darkest-color);
 }
 footer p {
   font-size: 1rem;

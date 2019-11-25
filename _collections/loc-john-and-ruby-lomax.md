@@ -6,6 +6,6 @@ description: "This recording trip is an ethnographic field collection that inclu
 permalink: "/loc-john-and-ruby-lomax/"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/john-and-ruby-lomax/"
-uid: "loc_john-and-ruby-lomax"
+uid: "loc-john-and-ruby-lomax"
 sequence: 1
 ---

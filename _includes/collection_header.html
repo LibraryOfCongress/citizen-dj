@@ -1,0 +1,23 @@
+
+{% assign siteCollections = site.collections | sort:"sequence" %}
+
+<div class="collection-header">
+  <nav>
+    <ul>
+      <li class="label">Collection: </li>
+      <li class="active">
+        <button class="tab submenu-link" aria-expanded="false" aria-controls="collection-select"><span>{{ page.title }}</span> ▼</button>
+        <!-- <ul id="collection-select" class="submenu">
+          {% for c in siteCollections %}
+            <li><a href="{{ c.url }}" {% if page.id == c.id %}class="active"{% endif %}>{{ c.title }}</a></li>
+          {% endfor %}
+        </ul> -->
+      </li>
+      <li class="spacer">&nbsp;</li>
+      <li{% if page.layout == 'collection' %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ page.uid }}/" class="tab{% if page.layout == 'collection' %} active{% endif %}">About</a></li>
+      <li{% if page.layout == 'sprite' %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ page.uid }}/explore/" class="tab{% if page.layout == 'sprite' %} active{% endif %}">Explore</a></li>
+      <li{% if page.layout == 'drum' %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ page.uid }}/remix/" class="tab{% if page.layout == 'drum' %} active{% endif %}">Remix</a></li>
+      <li{% if page.layout == 'use' %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ page.uid }}/use/" class="tab{% if page.layout == 'use' %} active{% endif %}">Download and use</a></li>
+    </ul>
+  </nav>
+</div>
