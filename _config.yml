@@ -26,9 +26,9 @@ github_username:  beefoo
 collections:
   collections:
     output: true
-  drums:
+  explore:
     output: true
-  sprites:
+  remix:
     output: true
 
 # Build settings

@@ -1,8 +1,8 @@
 'use strict';
 
-var SpritesApp = (function() {
+var ExploreApp = (function() {
 
-  function SpritesApp(config) {
+  function ExploreApp(config) {
     var defaults = {
       "uid": "loc_john-and-ruby-lomax",
       "baseUrl": "",
@@ -30,7 +30,7 @@ var SpritesApp = (function() {
     return {};
   }
 
-  SpritesApp.prototype.init = function(){
+  ExploreApp.prototype.init = function(){
     var _this = this;
 
     this.currentCell = -1;
@@ -46,7 +46,7 @@ var SpritesApp = (function() {
     });
   };
 
-  SpritesApp.prototype.loadAudio = function(options){
+  ExploreApp.prototype.loadAudio = function(options){
     var deferred = $.Deferred();
     var opt = this.opt;
 
@@ -93,7 +93,7 @@ var SpritesApp = (function() {
     return deferred.promise();
   };
 
-  SpritesApp.prototype.loadData = function(){
+  ExploreApp.prototype.loadData = function(){
     var _this = this;
     var uid = this.opt.uid;
     var url = this.opt.baseUrl + this.opt.dataDir + uid + ".json";
@@ -105,7 +105,7 @@ var SpritesApp = (function() {
     return deferred.promise();
   };
 
-  SpritesApp.prototype.loadListeners = function(){
+  ExploreApp.prototype.loadListeners = function(){
     var _this = this;
 
     $(window).on("resize", function(){ _this.onResize(); });
@@ -118,7 +118,7 @@ var SpritesApp = (function() {
     $(document).on("click", function(e){ _this.play(e, true); })
   };
 
-  SpritesApp.prototype.loadUI = function(options){
+  ExploreApp.prototype.loadUI = function(options){
     this.imageW = options.width;
     this.imageH = options.height;
     this.cellNW = options.cellW / options.width;
@@ -141,13 +141,13 @@ var SpritesApp = (function() {
     this.onResize();
   };
 
-  SpritesApp.prototype.onReady = function(){
+  ExploreApp.prototype.onReady = function(){
     console.log("Ready.");
 
     this.loadListeners();
   };
 
-  SpritesApp.prototype.onResize = function(){
+  ExploreApp.prototype.onResize = function(){
     var _this = this;
 
     this.width = this.$imageWrapper.width();
@@ -166,7 +166,7 @@ var SpritesApp = (function() {
     });
   };
 
-  SpritesApp.prototype.play = function(e, forcePlay){
+  ExploreApp.prototype.play = function(e, forcePlay){
     var _this = this;
     var parentOffset = this.imageOffset;
     var x = e.pageX - parentOffset.left;
@@ -197,10 +197,10 @@ var SpritesApp = (function() {
     }
   };
 
-  return SpritesApp;
+  return ExploreApp;
 
 })();
 
 $(function() {
-  var app = new SpritesApp({});
+  var app = new ExploreApp({});
 });
