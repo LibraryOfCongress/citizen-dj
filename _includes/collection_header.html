@@ -6,12 +6,12 @@
     <ul>
       <li class="label">Collection: </li>
       <li class="active">
-        <button class="tab submenu-link" aria-expanded="false" aria-controls="collection-select"><span>{{ page.title }}</span> ▼</button>
-        <!-- <ul id="collection-select" class="submenu">
+        <button class="tab submenu-link" aria-haspopup="true" aria-expanded="false" aria-controls="collection-select"><span>{{ page.title }}</span> ▼</button>
+        <ul id="collection-select" class="submenu">
           {% for c in siteCollections %}
             <li><a href="{{ c.url }}" {% if page.id == c.id %}class="active"{% endif %}>{{ c.title }}</a></li>
           {% endfor %}
-        </ul> -->
+        </ul>
       </li>
       <li class="spacer">&nbsp;</li>
       <li{% if page.layout == 'collection' %} class="active"{% endif %}><a href="{{ site.baseurl }}/{{ page.uid }}/" class="tab{% if page.layout == 'collection' %} active{% endif %}">About</a></li>

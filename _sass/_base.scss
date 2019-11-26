@@ -44,7 +44,8 @@ a {
 a:hover {
   color: var(--darker-color);
 }
-a:focus {
+a:focus,
+button:focus {
   outline: 3px solid var(--drum-color);
 }
 a.button {

@@ -1,5 +1,6 @@
 
 $collectionHeight: 44px;
+$collectionTabHeight: $collectionHeight - 4px;
 
 .wrapper {
   padding-top: $headerHeight + $collectionHeight + 30px;
@@ -27,21 +28,22 @@ $collectionHeight: 44px;
   white-space: nowrap;
 }
 
-.collection-header nav ul {
+.collection-header nav > ul {
   justify-content: space-between;
 }
-.collection-header nav ul li:first-child {
+.collection-header nav > ul > li:first-child {
   padding-left: 1rem;
 }
-.collection-header nav ul li:last-child {
+.collection-header nav > ul > li:last-child {
   padding-right: 1rem;
 }
-.collection-header nav ul li {
+.collection-header nav > ul > li {
   border-bottom: 2px solid var(--darkest-color);
   box-sizing: border-box;
-  height: $collectionHeight - 4px;
-  line-height: $collectionHeight - 4px;
+  height: $collectionTabHeight;
+  line-height: $collectionTabHeight;
   margin-top: 4px;
+  position: relative;
 }
 .collection-header a.tab {
   padding: 0 1rem;
@@ -50,7 +52,7 @@ $collectionHeight: 44px;
 .collection-header a.tab:hover {
   text-decoration: underline;
 }
-.collection-header nav ul li.active {
+.collection-header nav > ul > li.active {
   border: 2px solid var(--darkest-color);
   border-bottom-color: var(--lightest-color);
 }
@@ -64,4 +66,39 @@ $collectionHeight: 44px;
 }
 .collection-header .spacer {
   flex-grow: 1;
+}
+
+.submenu-link[aria-expanded="true"] ~ .submenu {
+  display: block;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: $collectionTabHeight - 4px;
+  left: 0;
+  max-height: 80vh;
+  overflow: hidden;
+  overflow-y: auto;
+  background: var(--lightest-color);
+  border: 2px solid var(--darkest-color);
+  line-height: auto;
+  height: auto;
+  z-index: 100;
+}
+
+.submenu li,
+.submenu a {
+  line-height: normal;
+}
+.submenu a {
+  border-top: 1px solid var(--darkest-color);
+  padding: 0.5rem 0.25rem;
+  display: block;
+  text-decoration: none;
+}
+.submenu a:hover {
+  text-decoration: underline;
+}
+.submenu li:first-child a {
+  border: none;
 }
