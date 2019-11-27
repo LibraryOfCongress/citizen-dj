@@ -60,29 +60,29 @@ var Collections = (function() {
       _this.randomizeItem();
     });
 
-    $('.randomize-item').on('click', function(e){
-      _this.randomizePhrase();
-    });
-
-    $('.randomize-phrase').on('click', function(e){
-      _this.randomizeSample();
-    });
+    // $('.randomize-item').on('click', function(e){
+    //   _this.randomizePhrase();
+    // });
+    //
+    // $('.randomize-phrase').on('click', function(e){
+    //   _this.randomizeSample();
+    // });
 
     $('.prev-item').on('click', function(e){
-      _this.stepPhrase(-1);
-    });
-
-    $('.next-item').on('click', function(e){
-      _this.stepPhrase(1);
-    });
-
-    $('.prev-phrase').on('click', function(e){
       _this.stepSample(-1);
     });
 
-    $('.next-phrase').on('click', function(e){
+    $('.next-item').on('click', function(e){
       _this.stepSample(1);
     });
+
+    // $('.prev-phrase').on('click', function(e){
+    //   _this.stepPhraseSample(-1);
+    // });
+    //
+    // $('.next-phrase').on('click', function(e){
+    //   _this.stepPhraseSample(1);
+    // });
   };
 
   Collections.prototype.loadTrackData = function(){
@@ -290,7 +290,7 @@ var Collections = (function() {
   };
 
   // step through the samples of the current phrase
-  Collections.prototype.stepSample = function(amount){
+  Collections.prototype.stepPhraseSample = function(amount){
     var sample = this.item.samples[this.sampleIndex];
     var sampleCandidates = _.where(this.item.samples, {phrase: sample.phrase});
 
@@ -304,6 +304,20 @@ var Collections = (function() {
 
     var newSample = sampleCandidates[indexInPhrase];
     this.sampleIndex = newSample.index;
+    this.loadTrackData();
+    this.updateSource();
+    this.opt.onChange();
+  };
+
+  // step through the samples of the current item
+  Collections.prototype.stepSample = function(amount){
+    var sample = this.item.samples[this.sampleIndex];
+    var sampleCandidates = this.item.samples;
+
+    var newIndex = this.sampleIndex + amount;
+    newIndex = MathUtil.wrap(newIndex, 0, this.item.samples.length-1);
+
+    this.sampleIndex = newIndex;
     this.loadTrackData();
     this.updateSource();
     this.opt.onChange();

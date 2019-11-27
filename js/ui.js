@@ -15,7 +15,7 @@ var UI = (function() {
 
   UI.prototype.loadListeners = function(){
     $('.submenu-link').on('click', function(){
-      console.log($(this).attr('aria-expanded'))
+      // console.log($(this).attr('aria-expanded'))
       var expanded = $(this).attr('aria-expanded') === 'true';
       if (expanded) $(this).attr('aria-expanded', 'false');
       else $(this).attr('aria-expanded', 'true');

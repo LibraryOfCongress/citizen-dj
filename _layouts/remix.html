@@ -7,77 +7,58 @@
 
   <main id="sequencer">
 
-    <div class="selectors">
-      <div>
-        <label for="select-item">Choose a public domain film or audio recording: </label>
-        <select id="select-item" class="select-item"><option value="-1">Loading...</option></select>
-      </div>
-      <div>
-        <label for="select-pattern">and a beat pattern from: </label>
-        <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
-      </div>
-      <div>
-        <label for="select-drum">and a drum machine: </label>
-        <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>?
-      </div>
-    </div>
+    <nav aria-label="Sequence controls and modifiers" class="sequence-controls-nav sticky-scroll">
 
-    <hr />
+      <div class="selectors">
+        <div>
+          <label for="select-item">Choose an item:</label>
+          <select id="select-item" class="select-item"><option value="-1">Loading...</option></select>
+          <div class="button-group">
+            <button class="small inverted randomize-collection" title="Choose a random item in this collection">Randomize</button>
+          </div>
+        </div>
+        <div>
+          <label for="select-pattern">and a beat pattern:</label>
+          <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
+          <div class="button-group">
+            <button class="small inverted prev-drum" title="Step to previous bar within current song's drum pattern">Prev</button>
+            <button class="small inverted randomize-drum" title="Choose a random drum pattern">Randomize</button>
+            <button class="small inverted next-drum" title="Step to next bar within current song's drum pattern">Next</button>
+          </div>
+        </div>
+        <div>
+          <label for="select-drum">and a drum machine:</label>
+          <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>
+        </div>
+      </div>
 
-    <nav aria-label="Controls" class="controls">
-      <ul>
+      <ul class="controls">
         <li><button class="toggle-play">Play</button></li>
         <!-- <li><button class="record">Record</button></li> -->
-        <li><label for="tempo">BPM:</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /> <span class="bpm-text value-text">120</span></li>
+        <li class="slider-item"><label for="tempo">BPM:</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /> <span class="bpm-text value-text">120</span></li>
+        <li><button class="small prev-item" title="Cycle backward through the samples within the current item to slightly vary the current pattern">Cycle previous</button></li>
+        <li><button class="small next-item" title="Cycle forward through the samples within the current item to slightly vary the current pattern">Cycle Next</button></li>
       </ul>
+
     </nav>
 
     <div class="sequence">
     </div>
 
-    <nav aria-label="Sequence modifiers" class="sequence-modifiers">
-      <div class="nav-group nav-group-collection active" role="group" title="Applies to all items in this collection">
-        <h4><span>Item</span></h4>
-        <div class="button-group">
-          <button class="randomize-collection" title="Choose a random item in this collection">Randomize</button>
-        </div>
-      </div>
-      <div class="nav-group nav-group-collection nav-group-collection-item active" role="group" title="Applies to just the phrases within the current item selected">
-        <h4><span>Within current item</span></h4>
-        <div class="button-group">
-          <button class="prev-item" title="Choose the previous phrase within this item">Prev</button>
-          <button class="randomize-item" title="Choose a random phrase within this item">Randomize</button>
-          <button class="next-item" title="Choose the next phrase within this item">Next</button>
-        </div>
-      </div>
-      <div class="nav-group nav-group-collection nav-group-collection-phrase active" role="group" title="Applies to just the current phrase within the current item selected">
-        <h4><span>Within current item phrase</span></h4>
-        <div class="button-group">
-          <button class="prev-phrase" title="Step to previous sample within current phrase">Prev</button>
-          <button class="randomize-phrase" title="Randomize the current phrase">Randomize</button>
-          <button class="next-phrase" title="Step to next sample within current phrase">Next</button>
-        </div>
-      </div>
-      <div class="nav-group nav-group-drum active" role="group">
-        <h4><span>Drum pattern</span></h4>
-        <div class="button-group">
-          <button class="prev-drum" title="Step to previous bar within current song's drum pattern">Prev</button>
-          <button class="randomize-drum" title="Choose a random drum pattern">Randomize</button>
-          <button class="next-drum" title="Step to next bar within current song's drum pattern">Next</button>
-        </div>
-      </div>
-    </nav>
+    <div class="container">
 
-    <hr />
+      <hr />
 
-    <h2>Where do these sounds come from and how can I use them?</h2>
+      <h2><a name="sources"></a>Where do these sounds come from and how can I use them?</h2>
 
-    <div class="sources">
-      <div id="item-source"></div>
-      <div class="source">
-        <h3>Drum machine sounds</h3>
-        <p>All drum machine sounds were generated from drumkits provided by <a href="http://slackermedia.info/downloads/">Slackermedia</a> Multimedia Sprint v2 and were made available under a <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-ShareAlike 3.0 license</a>. The audio files that I derived from the drumkits can be <a href="https://github.com/beefoo/citizendj/tree/master/audio/drum_machines">downloaded from Github</a> and is available under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a>, which means you can (1) copy and redistribute the files in any medium or format, and (2) remix, transform, and build upon the material for any purpose, even commercially as long as you give appropriate credit and distribute under the same license.</p>
+      <div class="sources">
+        <div id="item-source"></div>
+        <div class="source">
+          <h3>Drum machine sounds</h3>
+          <p>All drum machine sounds were generated from drumkits provided by <a href="http://slackermedia.info/downloads/">Slackermedia</a> Multimedia Sprint v2 and were made available under a <a href="https://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-ShareAlike 3.0 license</a>. The audio files that I derived from the drumkits can be <a href="https://github.com/beefoo/citizendj/tree/master/audio/drum_machines">downloaded from Github</a> and is available under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a>, which means you can (1) copy and redistribute the files in any medium or format, and (2) remix, transform, and build upon the material for any purpose, even commercially as long as you give appropriate credit and distribute under the same license.</p>
+        </div>
       </div>
+
     </div>
 
   </main>
@@ -125,7 +106,7 @@
   <!-- track template -->
   <div id="track-template" class="template">
     <div class="track track-{{ trackType }}">
-      <div class="track-info"><h3 class="track-title-text">{{ title }}</h3></div>
+      <div class="track-info"><h3 class="track-title-text"><a href="#sources">{{ title }}</a></h3></div>
       <div class="track-controls">
         <div class="beats">
           <button class="beat beat-0" data-col="0"></button><button class="beat beat-1" data-col="1"></button>

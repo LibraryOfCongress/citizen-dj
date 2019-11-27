@@ -6,8 +6,12 @@
 @import 'collection';
 @import 'ui';
 
+// .wrapper {
+//   padding-top: $headerHeight + $collectionHeight + 130px;
+// }
+
 .sequence,
-.controls ul,
+.controls,
 .track-controls,
 .beats,
 .modifiers,
@@ -18,7 +22,7 @@
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0;
   padding: 1rem;
   box-sizing: border-box;
 }
@@ -28,11 +32,29 @@
   flex-direction: column;
   justify-content: flex-start;
   margin: 3rem 0 2rem;
+  padding: 0 1rem;
 }
-
+.sequence-controls-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 .selectors {
-  font-size: 1.4rem;
-  line-height: 2.4;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0.2rem 0.75rem;
+  background: var(--dark-color);
+  color: var(--lightest-color);
+}
+.selectors label {
+  display: block;
+  color: var(--lightest-color);
+}
+.selectors > div {
+  padding: 0 0.25rem;
 }
 select.select-item {
   border-color: var(--collection-color);
@@ -45,23 +67,23 @@ select.select-drum {
 }
 
 .controls {
-  margin: 1rem 0;
-}
-.controls ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem 1rem;
   justify-content: flex-start;
+  align-items: flex-end;
+  background: var(--lightest-color);
 }
 .controls li {
   margin: 0;
-  padding: 0;
+  padding: 0 0.25rem 0 0;
+  white-space: nowrap;
+}
+.controls li.slider-item {
+  padding-right: 1rem;
 }
 .controls li:first-child button {
   margin-left: 0;
-}
-.controls label {
-  margin-left: 1rem;
 }
 
 .track {

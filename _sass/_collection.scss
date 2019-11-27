@@ -3,19 +3,21 @@ $collectionHeight: 44px;
 $collectionTabHeight: $collectionHeight - 4px;
 
 .wrapper {
-  padding-top: $headerHeight + $collectionHeight + 30px;
+  // padding-top: $headerHeight + $collectionHeight + 12px;
+  // padding-top: $headerHeight + 6px;
 }
 
 .collection-header {
   height: $collectionHeight;
   line-height: $collectionHeight;
   background: white;
-  padding: 0;
-  position: fixed;
-  width: 100%;
-  top: $headerHeight;
-  left: 0;
-  box-sizing: border-box;
+  padding: 6px 0 0 0;
+  margin-bottom: 10px;
+  // position: fixed;
+  // width: 100%;
+  // top: $headerHeight;
+  // left: 0;
+  // box-sizing: border-box;
 }
 
 .collection-header button,
@@ -101,4 +103,8 @@ $collectionTabHeight: $collectionHeight - 4px;
 }
 .submenu li:first-child a {
   border: none;
+}
+
+footer {
+  padding-left: 1rem;
 }
