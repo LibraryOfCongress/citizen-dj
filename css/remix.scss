@@ -10,6 +10,10 @@
 //   padding-top: $headerHeight + $collectionHeight + 130px;
 // }
 
+footer {
+  padding-bottom: 100px;
+}
+
 .sequence,
 .controls,
 .track-controls,
@@ -45,7 +49,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0.2rem 0.75rem;
+  padding: 0.2rem 0.75rem 0.5rem;
   background: var(--dark-color);
   color: var(--lightest-color);
 }
@@ -166,7 +170,17 @@ button.beat.active:hover {
 }
 
 .sequence-modifiers {
-  margin-bottom: 4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--lightest-color);
+  padding: 0.5rem 1rem 0.25rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  // border-top: 2px solid var(--darkest-color);
 }
 .sequence-modifiers .nav-group {
   display: none;
@@ -179,8 +193,12 @@ button.beat.active:hover {
 .sequence-modifiers .nav-group.active {
   display: flex;
 }
-.sequence-modifiers .nav-group-collection {
+.sequence-modifiers .nav-group-item {
   border-color: var(--collection-color);
+}
+.sequence-modifiers .nav-group-collection {
+  padding-top: 0.5rem;
+  border-color: var(--lightest-color);
 }
 .sequence-modifiers .nav-group-drum {
   border-color: var(--drum-color);
@@ -202,6 +220,9 @@ button.beat.active:hover {
   margin: 0 0.25rem 0.25rem 0;
   font-size: 1rem;
   padding: 0 0.5rem;
+}
+.sequence-modifiers button:last-child {
+  margin-right: 0;
 }
 
 .sequence[data-col="0"] .beat:first-child,

@@ -60,13 +60,13 @@ var Collections = (function() {
       _this.randomizeItem();
     });
 
-    // $('.randomize-item').on('click', function(e){
-    //   _this.randomizePhrase();
-    // });
-    //
     // $('.randomize-phrase').on('click', function(e){
-    //   _this.randomizeSample();
+    //   _this.randomizePhraseItem();
     // });
+
+    $('.randomize-item').on('click', function(e){
+      _this.randomizeSample();
+    });
 
     $('.prev-item').on('click', function(e){
       _this.stepSample(-1);
@@ -236,12 +236,19 @@ var Collections = (function() {
     this.opt.onChange();
   };
 
-  Collections.prototype.randomizeSample = function(){
+  Collections.prototype.randomizePhraseSample = function(){
     var sample = this.item.samples[this.sampleIndex];
     var sampleCandidates = _.where(this.item.samples, {phrase: sample.phrase});
 
     var newSample = _.sample(sampleCandidates);
     this.sampleIndex = newSample.index;
+    this.loadTrackData();
+    this.updateSource();
+    this.opt.onChange();
+  };
+
+  Collections.prototype.randomizeSample = function(){
+    this.sampleIndex = _.random(this.item.samples.length-1);
     this.loadTrackData();
     this.updateSource();
     this.opt.onChange();
