@@ -183,7 +183,6 @@ var Collections = (function() {
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
-      if (!itemObj.provider) itemObj.provider = 'the Internet Archive';
       itemObj.samples = _.has(sampleLookup, itemKey) ? _.sortBy(sampleLookup[itemKey], 'sourceStart') : [];
       itemObj.samples = _.map(itemObj.samples, function(s, j){
         s.index = j;
@@ -194,6 +193,8 @@ var Collections = (function() {
           itemObj[key] = groupList[itemObj[key]];
         });
       }
+      if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
+      if (!_.has(itemObj, 'creator')) itemObj.creator = itemObj.contributor;
       itemObj.phrases = _.uniq(_.pluck(itemObj.samples, 'phrase'));
       itemObj.phrases.sort();
       return itemObj;
@@ -274,10 +275,11 @@ var Collections = (function() {
       html += '<dt>How can it be accessed?</dt>';
       html += '<dd>You find more details about this item as well as access and download the entire source media file on ' + item.provider + '. <a href="'+ item.url +'" class="button" target="_blank">Click here to view on ' + item.provider + '</a></dd>';
       if (item.embed_url && item.embed_url.length) {
-        html += '<dd>You also access in the player embedded below. The sample you hear starts at <span class="phrase-start-time">'+startTimeF+'</span>):';
-        html += '<iframe src="'+ item.embed_url +'" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></dd>';
+        html += '<dd>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
+        var iframeHeight = item.hasVideo > 0 ? '480' : '280';
+        html += '<iframe src="'+ item.embed_url +'" width="640" height="'+iframeHeight+'" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></dd>';
       } else {
-        html += '<dd>The sample you hear starts at <span class="phrase-start-time">'+startTimeF+'</span></dd>';
+        html += '<dd>The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong></dd>';
       }
     html += '</div>';
     this.$itemSource.html(html);
