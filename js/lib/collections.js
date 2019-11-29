@@ -5,7 +5,7 @@ var Collections = (function() {
   function Collections(config) {
     var defaults = {
       "el": "#sequencer",
-      "uid": "ia_fedflixnara_us_information_agency",
+      "uid": "loc-john-and-ruby-lomax",
       "baseUrl": "",
       "metadataDir": "/data/metadata/",
       "sampledataDir": "/data/sampledata/",
@@ -194,7 +194,8 @@ var Collections = (function() {
         });
       }
       if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
-      if (!_.has(itemObj, 'creator')) itemObj.creator = itemObj.contributor;
+      if (!_.has(itemObj, 'contributors')) itemObj.contributors = itemObj.creator;
+      itemObj.contributors = itemObj.contributors.split(" | ");
       itemObj.phrases = _.uniq(_.pluck(itemObj.samples, 'phrase'));
       itemObj.phrases.sort();
       return itemObj;
@@ -264,8 +265,10 @@ var Collections = (function() {
     html += '<div class="source">';
       html += '<dt>Title</dt>';
       html += '<dd><a href="'+ item.url +'" target="_blank">'+ item.title +'</a></dd>';
-      html += '<dt>Contributor name</dt>';
-      html += '<dd>'+ item.creator +'</dd>';
+      html += '<dt>Contributors</dt>';
+      _.each(item.contributors, function(contributor) {
+        html += '<dd>'+ contributor +'</dd>';
+      });
       if (item.year !== '') {
         html += '<dt>Date created/published</dt>';
         html += '<dd>'+ item.year +'</dd>';
