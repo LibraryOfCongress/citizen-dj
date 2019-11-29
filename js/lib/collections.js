@@ -274,7 +274,7 @@ var Collections = (function() {
         html += '<dd>'+ item.year +'</dd>';
       }
       html += '<dt>How can it be used?</dt>';
-      html += '<dd>This item is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction.</dd>';
+      html += '<dd>This item is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction. However, please also see this <a href="{{ site.baseurl }}/guide/">detailed guide</a> covering the copyright and ethical considerations of digital sampling of audio and video materials.</dd>';
       html += '<dt>How can it be accessed?</dt>';
       html += '<dd>You find more details about this item as well as access and download the entire source media file on ' + item.provider + '. <a href="'+ item.url +'" class="button" target="_blank">Click here to view on ' + item.provider + '</a></dd>';
       if (item.embed_url && item.embed_url.length) {
