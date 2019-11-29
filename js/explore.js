@@ -4,7 +4,7 @@ var ExploreApp = (function() {
 
   function ExploreApp(config) {
     var defaults = {
-      "uid": "loc_john-and-ruby-lomax",
+      "uid": "loc-john-and-ruby-lomax",
       "baseUrl": "",
       "audioDir": "/audio/sprites/",
       "dataDir": "/data/spritedata/",

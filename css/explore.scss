@@ -3,10 +3,31 @@
 
 @import 'normalize';
 @import 'base';
+@import 'collection';
+@import 'ui';
 
-body {
-  background: black;
-  color: white;
+// body {
+//   background: black;
+//   color: white;
+// }
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  flex-grow: 1;
+  position: relative;
+}
+.app {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
 
 .image {
