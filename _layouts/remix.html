@@ -64,6 +64,8 @@
       <h2><a name="sources"></a>Where do these sounds come from and how can I use them?</h2>
 
       <div class="sources">
+        <dt>Part of collection:</dt>
+        <dd><a href="{{ page.source_url }}" target="_blank">{{ page.title }}</a></dd>
         <div id="item-source"></div>
         <!-- <div class="source">
           <h3>Drum machine sounds</h3>
@@ -118,7 +120,7 @@
   <!-- track template -->
   <div id="track-template" class="template">
     <div class="track track-{{ trackType }}">
-      <div class="track-info"><h3 class="track-title-text"><a href="#sources">{{ title }}</a></h3></div>
+      <div class="track-info"><h3 class="track-title-text">{{ title }}</h3></div>
       <div class="track-controls">
         <div class="beats">
           <button class="beat beat-0" data-col="0"></button><button class="beat beat-1" data-col="1"></button>
