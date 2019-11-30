@@ -60,11 +60,20 @@ main {
 }
 
 .item-info {
-  height: 60px;
-  line-height: 60px;
   width: 100%;
   box-sizing: border-box;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
   background: var(--darkest-color);
   border-top: 2px solid var(--lightest-color);
+  color: var(--lightest-color);
+  position: relative;
+}
+.item-details h2,
+.item-details p {
+  margin: 0;
+}
+.item-info .button {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
 }

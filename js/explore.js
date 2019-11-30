@@ -8,7 +8,9 @@ var ExploreApp = (function() {
       "baseUrl": "",
       "audioDir": "/audio/sprites/",
       "dataDir": "/data/spritedata/",
-      "imageDir": "/img/sprites/"
+      "metadataDir": "/data/metadata/",
+      "imageDir": "/img/sprites/",
+      "itemKey": "filename"
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = queryParams();
@@ -36,6 +38,7 @@ var ExploreApp = (function() {
     this.currentCell = -1;
     this.currentFileIndex = -1;
     this.firstPlay = true;
+    this.itemLookup = false;
 
     var dataPromise = this.loadData();
     $.when(dataPromise).done(function(results){
@@ -103,6 +106,13 @@ var ExploreApp = (function() {
       console.log("Loaded data with "+data.sprites.length+" sprites")
       deferred.resolve(data);
     });
+
+    var metadataUrl = this.opt.baseUrl + this.opt.metadataDir + uid + ".json";
+    $.getJSON(metadataUrl, function(data) {
+      console.log("Loaded metadata with "+data.items.length+" items")
+      _this.onMetadataLoaded(data);
+    });
+
     return deferred.promise();
   };
 
@@ -168,7 +178,29 @@ var ExploreApp = (function() {
       "height": (this.cellNH * 100) + "%"
     });
 
+    this.$itemInfo = $('#item-info');
+
     this.onResize();
+  };
+
+  ExploreApp.prototype.onMetadataLoaded = function(metadata){
+    var _this = this;
+    var itemHeadings = metadata.itemHeadings;
+    var items = _.map(metadata.items, function(item){
+      var itemObj = _.object(itemHeadings, item);
+      var itemKey = ''+itemObj[_this.opt.itemKey];
+      if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
+      if (metadata.groups) {
+        _.each(metadata.groups, function(groupList, key){
+          itemObj[key] = groupList[itemObj[key]];
+        });
+      }
+      if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
+      if (!_.has(itemObj, 'contributors')) itemObj.contributors = itemObj.creator;
+      // itemObj.contributors = itemObj.contributors.split(" | ");
+      return [itemKey, itemObj];
+    });
+    this.itemLookup = _.object(items);
   };
 
   ExploreApp.prototype.onReady = function(){
@@ -222,14 +254,33 @@ var ExploreApp = (function() {
 
     // update cell
     if (this.currentCell !== id) {
-      this.$label.attr("title", first.label);
+      // this.$label.attr("title", first.label);
       this.currentCell = id;
       // play sound
       this.sounds[first.fileIndex].play(""+id);
+      this.renderItem(first);
     } else if (forcePlay) {
       // play sound
       this.sounds[first.fileIndex].play(""+id);
     }
+  };
+
+  ExploreApp.prototype.renderItem = function(spriteItem){
+    if (this.itemLookup === false || this.$itemInfo === undefined || !this.$itemInfo.length) return;
+    var id = spriteItem.label;
+    // console.log(this.itemLookup, id)
+    var startTimeF = MathUtil.secondsToString(spriteItem.audioPosition[0]/1000.0);
+    var html = '';
+    if (_.has(this.itemLookup, id)) {
+      var item = this.itemLookup[id];
+      html += '<div class="item-details">';
+        html += '<h2>' + item.title + ' at '+startTimeF+'</h2>';
+        if (item.contributors.length)
+          html += '<p>' + item.contributors + '</p>';
+      html += '</div>';
+      html += '<a href="'+item.url+'" target="_blank" class="button inverted">View on '+item.provider+'</a>';
+    }
+    this.$itemInfo.html(html);
   };
 
   return ExploreApp;
