@@ -64,9 +64,7 @@ var ExploreApp = (function() {
         "id": i,
         "fileIndex": s[0],
         "audioPosition": [s[1], s[2]],
-        "nx": s[3],
-        "ny": s[4],
-        "label": s[5]
+        "label": s[3]
       }
     });
     this.sprites = allSprites;
@@ -159,14 +157,17 @@ var ExploreApp = (function() {
   };
 
   ExploreApp.prototype.loadUI = function(options){
+    var _this = this;
     this.imageW = options.width;
     this.imageH = options.height;
-    this.cellNW = options.cellW / options.width;
-    this.cellNH = options.cellH / options.height;
+    this.cellW = options.cellW;
+    this.cellH = options.cellH;
+    this.cols = Math.floor(options.width / options.cellW);
+    this.rows = Math.floor(options.height / options.cellH);
 
     var imageUrl = this.opt.baseUrl + this.opt.imageDir + options.image;
 
-    this.$image = $('<img src="'+imageUrl+'" alt="Matrix of scenes from video" />');
+    this.$image = $('<img src="'+imageUrl+'" alt="Matrix of audio clips that show their spectrograms" />');
     this.$imageWrapper = $('#image');
     this.$imageWrapper.width(this.imageW);
     this.$imageWrapper.height(this.imageH);
@@ -174,13 +175,20 @@ var ExploreApp = (function() {
 
     this.$label = $("#label");
     this.$label.css({
-      "width": (this.cellNW * 100) + "%",
-      "height": (this.cellNH * 100) + "%"
+      "width": this.cellW + "px",
+      "height": this.cellH + "px"
     });
 
     this.$itemInfo = $('#item-info');
+    var imageOffset = this.$imageWrapper.offset();
+    this.offsetX = imageOffset.left;
+    this.offsetY = imageOffset.top;
 
-    this.onResize();
+    this.scale = 1.0;
+    this.scaledW = this.imageW;
+    this.scaledH = this.imageH;
+    this.translateX = 0;
+    this.translateY = 0;
   };
 
   ExploreApp.prototype.onMetadataLoaded = function(metadata){
@@ -212,40 +220,32 @@ var ExploreApp = (function() {
   ExploreApp.prototype.onResize = function(){
     var _this = this;
 
-    this.width = this.$imageWrapper.width();
-    this.height = this.$imageWrapper.height();
-    this.imageRW = this.width;
-    this.imageRH = this.height;
-    this.imageOffset = this.$imageWrapper.offset();
 
-    var cellNW = this.cellNW;
-    var cellNH = this.cellNH;
-    _.each(this.sprites, function(s, i){
-      _this.sprites[i]["cx"] = (s["nx"] + cellNW * 0.5) * _this.imageRW;
-      _this.sprites[i]["cy"] = (s["ny"] + cellNH * 0.5) * _this.imageRH;
-      _this.sprites[i]["x"] = s["nx"] * _this.imageRW;
-      _this.sprites[i]["y"] = s["ny"] * _this.imageRH;
-    });
   };
 
   ExploreApp.prototype.play = function(evx, evy, forcePlay){
     var _this = this;
-    var parentOffset = this.imageOffset;
-    var x = evx - parentOffset.left;
-    var y = evy - parentOffset.top;
-    var imgW = this.imageRW;
-    var imgH = this.imageRH;
+    var offsetX = this.offsetX + this.translateX;
+    var offsetY = this.offsetY + this.translateY;
+    var imgW = this.scaledW;
+    var imgH = this.scaledH;
 
-    // check for out of bounds
-    if (x < 0 || y < 0 || x >= imgW || y >= imgH) return;
+    var x = evx - offsetX; // the position within the parent
+    var y = evy - offsetY;
+    x = MathUtil.clamp(x, 0, imgW-1);
+    y = MathUtil.clamp(y, 0, imgH-1);
+    var nx = x / imgW;
+    var ny = y / imgH;
 
-    var sorted = _.sortBy(this.sprites, function(s){ return distance(s.cx, s.cy, x, y); });
-    var first = sorted[0];
-    var id = first.id;
-    var cx = first.x;
-    var cy = first.y;
-
+    var col = Math.floor(nx * this.cols);
+    var row = Math.floor(ny * this.rows);
+    var cx = this.cellW * col;
+    var cy = this.cellH * row;
     this.$label.css("transform", "translate3d("+cx+"px, "+cy+"px, 0)");
+
+    var spriteIndex = row * this.cols + col;
+    var sprite = this.sprites[spriteIndex];
+    var id = sprite.id;
 
     if (this.firstPlay) {
       this.firstPlay = false;
@@ -257,11 +257,11 @@ var ExploreApp = (function() {
       // this.$label.attr("title", first.label);
       this.currentCell = id;
       // play sound
-      this.sounds[first.fileIndex].play(""+id);
-      this.renderItem(first);
+      this.sounds[sprite.fileIndex].play(""+id);
+      this.renderItem(sprite);
     } else if (forcePlay) {
       // play sound
-      this.sounds[first.fileIndex].play(""+id);
+      this.sounds[sprite.fileIndex].play(""+id);
     }
   };
 
