@@ -284,6 +284,13 @@ var Collections = (function() {
       } else {
         html += '<dd>The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong></dd>';
       }
+      html += '<dt>Samples used</dt>';
+      html += '<dd>The following are the '+_.keys(this.tracks).length+' samples used in this sequence:</dd>';
+      html += '<dd><ul>';
+      _.each(this.tracks, function(track, id){
+        html += '<li><a href="'+track.url+'" download>'+track.title+'</a></li>';
+      });
+      html += '</ul></dd>';
     html += '</div>';
     this.$itemSource.html(html);
   };
