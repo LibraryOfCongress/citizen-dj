@@ -35,6 +35,7 @@ var ExploreApp = (function() {
 
     this.currentCell = -1;
     this.currentFileIndex = -1;
+    this.firstPlay = true;
 
     var dataPromise = this.loadData();
     $.when(dataPromise).done(function(results){
@@ -111,11 +112,40 @@ var ExploreApp = (function() {
     $(window).on("resize", function(){ _this.onResize(); });
 
     var listening = false;
-    $(document).on("mousedown", function(e){ e.preventDefault(); listening = true; });
-    $(document).on("mouseup", function(e){ listening = false; });
-    $(document).on("mousemove", function(e){ if (listening) { _this.play(e); } });
+    var touching = false;
+    var $touch = $('#touch');
+    var touchHandler = new Hammer($touch[0]);
+    touchHandler.get('pinch').set({ enable: true });
+    touchHandler.add( new Hammer.Pan({ direction: Hammer.DIRECTION_ALL, threshold: 0 }) );
 
-    $(document).on("click", function(e){ _this.play(e, true); })
+    // listen to events...
+    touchHandler.on("pan pinchin pinchout tap", function(e) {
+      touching = true;
+      if (e.type === 'pan') {
+        _this.play(e.center.x, e.center.y);
+      } else if (e.type === 'tap') {
+        _this.play(e.center.x, e.center.y, true);
+      }
+    });
+
+    var $doc = $(document);
+    $doc.on("mousedown", function(e){
+      if (touching) return;
+      e.preventDefault();
+      listening = true;
+    });
+    $doc.on("mouseup", function(e){
+      if (touching) return;
+      listening = false;
+    });
+    $doc.on("mousemove", function(e){
+      if (touching) return;
+      if (listening) _this.play(e.pageX, e.pageY);
+    });
+    $doc.on("click", function(e){
+      if (touching) return;
+      _this.play(e.pageX, e.pageY, true);
+    });
   };
 
   ExploreApp.prototype.loadUI = function(options){
@@ -166,11 +196,11 @@ var ExploreApp = (function() {
     });
   };
 
-  ExploreApp.prototype.play = function(e, forcePlay){
+  ExploreApp.prototype.play = function(evx, evy, forcePlay){
     var _this = this;
     var parentOffset = this.imageOffset;
-    var x = e.pageX - parentOffset.left;
-    var y = e.pageY - parentOffset.top;
+    var x = evx - parentOffset.left;
+    var y = evy - parentOffset.top;
     var imgW = this.imageRW;
     var imgH = this.imageRH;
 
@@ -184,6 +214,11 @@ var ExploreApp = (function() {
     var cy = first.y;
 
     this.$label.css("transform", "translate3d("+cx+"px, "+cy+"px, 0)");
+
+    if (this.firstPlay) {
+      this.firstPlay = false;
+      Howler.ctx.resume();
+    }
 
     // update cell
     if (this.currentCell !== id) {

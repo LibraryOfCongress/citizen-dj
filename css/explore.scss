@@ -46,6 +46,9 @@ main {
   height: 100%;
   overflow: hidden;
 }
+.touch {
+  z-index: 100;
+}
 .image .overlay {
   z-index: 2;
 }
@@ -54,4 +57,14 @@ main {
   border: 2px solid red;
   box-sizing: border-box;
   z-index: 3;
+}
+
+.item-info {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  background: var(--darkest-color);
+  border-top: 2px solid var(--lightest-color);
 }
