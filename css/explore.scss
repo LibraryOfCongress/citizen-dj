@@ -67,10 +67,12 @@ main {
   border-top: 2px solid var(--lightest-color);
   color: var(--lightest-color);
   position: relative;
+  overflow: hidden;
 }
 .item-details h2,
 .item-details p {
   margin: 0;
+  white-space: nowrap;
 }
 .item-info .button {
   position: absolute;

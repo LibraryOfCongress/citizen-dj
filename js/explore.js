@@ -10,7 +10,8 @@ var ExploreApp = (function() {
       "dataDir": "/data/spritedata/",
       "metadataDir": "/data/metadata/",
       "imageDir": "/img/sprites/",
-      "itemKey": "filename"
+      "itemKey": "filename",
+      "maxPxPerFrame": 3
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = queryParams();
@@ -39,6 +40,9 @@ var ExploreApp = (function() {
     this.currentFileIndex = -1;
     this.firstPlay = true;
     this.itemLookup = false;
+    this.listening = false;
+    this.pointerX = 0;
+    this.pointerY = 0;
 
     var dataPromise = this.loadData();
     $.when(dataPromise).done(function(results){
@@ -119,7 +123,7 @@ var ExploreApp = (function() {
 
     $(window).on("resize", function(){ _this.onResize(); });
 
-    var listening = false;
+    this.listening = false;
     var touching = false;
     var $touch = $('#touch');
     var touchHandler = new Hammer($touch[0]);
@@ -127,9 +131,15 @@ var ExploreApp = (function() {
     touchHandler.add( new Hammer.Pan({ direction: Hammer.DIRECTION_ALL, threshold: 0 }) );
 
     // listen to events...
-    touchHandler.on("pan pinchin pinchout tap", function(e) {
+    touchHandler.on("panstart panmove panend pinchin pinchout tap", function(e) {
       touching = true;
-      if (e.type === 'pan') {
+      if (e.type === 'panstart') {
+        _this.listening = true;
+      } else if (e.type === 'panend') {
+        _this.listening = false;
+      } else if (e.type === 'panmove') {
+        _this.pointerX = e.center.x;
+        _this.pointerY = e.center.y;
         _this.play(e.center.x, e.center.y);
       } else if (e.type === 'tap') {
         _this.play(e.center.x, e.center.y, true);
@@ -140,15 +150,19 @@ var ExploreApp = (function() {
     $doc.on("mousedown", function(e){
       if (touching) return;
       e.preventDefault();
-      listening = true;
+      _this.listening = true;
     });
     $doc.on("mouseup", function(e){
       if (touching) return;
-      listening = false;
+      _this.listening = false;
     });
     $doc.on("mousemove", function(e){
       if (touching) return;
-      if (listening) _this.play(e.pageX, e.pageY);
+      if (_this.listening) {
+        _this.pointerX = e.pageX;
+        _this.pointerY = e.pageY;
+        _this.play(e.pageX, e.pageY);
+      }
     });
     $doc.on("click", function(e){
       if (touching) return;
@@ -184,11 +198,36 @@ var ExploreApp = (function() {
     this.offsetX = imageOffset.left;
     this.offsetY = imageOffset.top;
 
-    this.scale = 1.0;
+    this.scale = 1;
     this.scaledW = this.imageW;
     this.scaledH = this.imageH;
     this.translateX = 0;
     this.translateY = 0;
+
+    this.$wrapper = $('#app');
+    this.onResize();
+  };
+
+  ExploreApp.prototype.move = function(evx, evy){
+    var _this = this;
+
+    var x = evx - this.offsetX; // the position within the parent
+    var y = evy - this.offsetY;
+
+    // position within app window
+    var nwx = x / this.wrapperW;
+    var nwy = y / this.wrapperH;
+    nwx = MathUtil.clamp(nwx, 0, 1);
+    nwy = MathUtil.clamp(nwy, 0, 1);
+
+    var ntx = MathUtil.lerp(1, -1, MathUtil.ease(nwx));
+    var nty = MathUtil.lerp(1, -1, MathUtil.ease(nwy));
+    var translateX = this.opt.maxPxPerFrame * ntx;
+    var translateY = this.opt.maxPxPerFrame * nty;
+
+    this.translateX = MathUtil.clamp(this.translateX + translateX, this.minTranslateX, this.maxTranslateX);
+    this.translateY = MathUtil.clamp(this.translateY + translateY, this.minTranslateY, this.maxTranslateY);
+    this.$imageWrapper.css('transform', 'translate3d('+this.translateX+'px, '+this.translateY+'px, 0) scale3d('+this.scale+', '+this.scale+', '+this.scale+')');
   };
 
   ExploreApp.prototype.onMetadataLoaded = function(metadata){
@@ -215,12 +254,22 @@ var ExploreApp = (function() {
     console.log("Ready.");
 
     this.loadListeners();
+    this.render();
   };
 
   ExploreApp.prototype.onResize = function(){
-    var _this = this;
+    this.wrapperW = this.$wrapper.width();
+    this.wrapperH = this.$wrapper.height();
+    this.minTranslateX = 0;
+    this.minTranslateY = 0;
+    this.maxTranslateX = 0;
+    this.maxTranslateY = 0;
 
+    if (this.imageW > this.wrapperW) this.minTranslateX = -(this.imageW - this.wrapperW);
+    if (this.imageH > this.wrapperH) this.minTranslateY = -(this.imageH - this.wrapperH);
 
+    this.translateX = MathUtil.clamp(this.translateX, this.minTranslateX, this.maxTranslateX);
+    this.translateY = MathUtil.clamp(this.translateY, this.minTranslateY, this.maxTranslateY);
   };
 
   ExploreApp.prototype.play = function(evx, evy, forcePlay){
@@ -263,6 +312,14 @@ var ExploreApp = (function() {
       // play sound
       this.sounds[sprite.fileIndex].play(""+id);
     }
+  };
+
+  ExploreApp.prototype.render = function(){
+    var _this = this;
+
+    if (this.listening) this.move(this.pointerX, this.pointerY);
+
+    requestAnimationFrame(function(){ _this.render(); });
   };
 
   ExploreApp.prototype.renderItem = function(spriteItem){

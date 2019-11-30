@@ -12,6 +12,10 @@
     return value;
   };
 
+  MathUtil.ease = function(n){
+    return (Math.sin((n+1.5)*Math.PI)+1.0) / 2.0;
+  };
+
   MathUtil.floorToNearest = function(value, nearest) {
     return Math.floor(value / nearest) * nearest;
   };
