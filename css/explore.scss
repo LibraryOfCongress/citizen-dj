@@ -28,10 +28,12 @@ main {
   top: 0;
   left: 0;
   overflow: hidden;
+  background: var(--darkest-color);
 }
 
 .image {
   position: relative;
+  transform-origin: 0 0;
   /* width: 99vw;
   height: 99vw; */
 }

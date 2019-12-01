@@ -51,6 +51,12 @@
     return Math.round(value / nearest) * nearest;
   };
 
+  MathUtil.scaleAroundAnchor = function(originalValue, scaleAmount, anchor) {
+    var distance = originalValue - anchor;
+    var sdistance = distance * scaleAmount;
+    return (anchor + sdistance);
+  };
+
   MathUtil.secondsToString = function(seconds){
     if (!seconds || seconds <= 0) return "0:00";
     var d = new Date(null);

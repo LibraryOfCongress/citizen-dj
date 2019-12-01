@@ -11,7 +11,9 @@ var ExploreApp = (function() {
       "metadataDir": "/data/metadata/",
       "imageDir": "/img/sprites/",
       "itemKey": "filename",
-      "maxPxPerFrame": 3
+      "maxPxPerFrame": 3,
+      "scaleStep": 0.05,
+      "minScale": 0.333
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = queryParams();
@@ -41,6 +43,8 @@ var ExploreApp = (function() {
     this.firstPlay = true;
     this.itemLookup = false;
     this.listening = false;
+    this.anchorX = false;
+    this.anchorY = false;
     this.pointerX = 0;
     this.pointerY = 0;
 
@@ -142,21 +146,32 @@ var ExploreApp = (function() {
         _this.pointerY = e.center.y;
       } else if (e.type === 'tap') {
         _this.play(e.center.x, e.center.y, true);
+      } else if (e.type === 'pinchin') {
+        _this.onScale(-1, e.center.x, e.center.y);
+      } else if (e.type === 'pinchout') {
+        _this.onScale(1, e.center.x, e.center.y);
       }
     });
 
+    // listen for mouse events
     var $doc = $(document);
+    var mousedown = false;
     $doc.on("mousedown", function(e){
       if (touching) return;
       e.preventDefault();
-      _this.listening = true;
+      mousedown = true;
+      // _this.listening = true;
     });
     $doc.on("mouseup", function(e){
       if (touching) return;
+      mousedown = false;
       _this.listening = false;
     });
     $doc.on("mousemove", function(e){
       if (touching) return;
+      this.anchorX = e.pageX;
+      this.anchorY = e.pageY;
+      if (mousedown) _this.listening = true;
       if (_this.listening) {
         _this.pointerX = e.pageX;
         _this.pointerY = e.pageY;
@@ -165,6 +180,13 @@ var ExploreApp = (function() {
     $doc.on("click", function(e){
       if (touching) return;
       _this.play(e.pageX, e.pageY, true);
+    });
+
+    // listen to mousewheel
+    $(window).on('wheel', function(e){
+      var direction = e.originalEvent.deltaY < 0 ? 1 : -1;
+      // console.log(e.originalEvent.deltaY)
+      _this.onScale(direction, e.pageX, e.pageY);
     });
   };
 
@@ -199,6 +221,8 @@ var ExploreApp = (function() {
     this.$wrapper = $('#app');
     this.wrapperW = this.$wrapper.width();
     this.wrapperH = this.$wrapper.height();
+    this.pointerX = this.wrapperW * 0.5;
+    this.pointerY = this.wrapperH * 0.5;
     // start centered
     this.scale = 1;
     this.scaledW = this.imageW;
@@ -267,13 +291,41 @@ var ExploreApp = (function() {
     this.maxTranslateX = 0;
     this.maxTranslateY = 0;
 
-    if (this.imageW > this.wrapperW) this.minTranslateX = -(this.imageW - this.wrapperW);
-    if (this.imageH > this.wrapperH) this.minTranslateY = -(this.imageH - this.wrapperH);
-    if (this.wrapperW > this.imageW) { this.maxTranslateX = (this.wrapperW - this.imageW) * 0.5; this.minTranslateX = this.maxTranslateX; }
-    if (this.wrapperH > this.imageH) { this.maxTranslateY = (this.wrapperH - this.imageH) * 0.5; this.minTranslateY = this.maxTranslateY; }
+    if (this.scaledW > this.wrapperW) this.minTranslateX = -(this.scaledW - this.wrapperW);
+    if (this.scaledH > this.wrapperH) this.minTranslateY = -(this.scaledH - this.wrapperH);
+    if (this.wrapperW > this.scaledW) { this.maxTranslateX = (this.wrapperW - this.scaledW) * 0.5; this.minTranslateX = this.maxTranslateX; }
+    if (this.wrapperH > this.scaledH) { this.maxTranslateY = (this.wrapperH - this.scaledH) * 0.5; this.minTranslateY = this.maxTranslateY; }
 
     this.translateX = MathUtil.clamp(this.translateX, this.minTranslateX, this.maxTranslateX);
     this.translateY = MathUtil.clamp(this.translateY, this.minTranslateY, this.maxTranslateY);
+  };
+
+  ExploreApp.prototype.onScale = function(direction, evx, evy){
+    var oldScale = this.scale;
+    this.scale = oldScale + direction * this.opt.scaleStep;
+    this.scale = MathUtil.clamp(this.scale, this.opt.minScale, 1);
+
+    if (oldScale === this.scale) return;
+
+    // determine where the anchor is within the image
+    var offsetX = this.offsetX + this.translateX;
+    var offsetY = this.offsetY + this.translateY;
+    var x = evx - offsetX; // the position within the parent
+    var y = evy - offsetY;
+    var anchorX = MathUtil.clamp(x, 0, this.scaledW-1);
+    var anchorY = MathUtil.clamp(y, 0, this.scaledH-1);
+
+    this.scaledW = this.imageW * this.scale;
+    this.scaledH = this.imageH * this.scale;
+    this.translateX = MathUtil.scaleAroundAnchor(this.translateX, this.scale / oldScale, anchorX);
+    this.translateY = MathUtil.scaleAroundAnchor(this.translateY, this.scale / oldScale, anchorY);
+    this.translateX = MathUtil.clamp(this.translateX, this.minTranslateX, this.maxTranslateX);
+    this.translateY = MathUtil.clamp(this.translateY, this.minTranslateY, this.maxTranslateY);
+
+    this.onResize();
+
+    this.$imageWrapper.css('transform', 'translate3d('+this.translateX+'px, '+this.translateY+'px, 0) scale3d('+this.scale+', '+this.scale+', '+this.scale+')');
+
   };
 
   ExploreApp.prototype.play = function(evx, evy, forcePlay){
