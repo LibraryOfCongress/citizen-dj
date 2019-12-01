@@ -134,6 +134,10 @@ var ExploreApp = (function() {
     touchHandler.get('pinch').set({ enable: true });
     touchHandler.add( new Hammer.Pan({ direction: Hammer.DIRECTION_ALL, threshold: 0 }) );
 
+    $touch.one('mousedown touchstart', function(){
+      $('#instructions').css('display', 'none');
+    });
+
     // listen for touch events...
     touchHandler.on("panstart panmove panend pinchin pinchout tap", function(e) {
       touching = true;
@@ -142,6 +146,7 @@ var ExploreApp = (function() {
       } else if (e.type === 'panend') {
         _this.listening = false;
       } else if (e.type === 'panmove') {
+        _this.listening = true;
         _this.pointerX = e.center.x;
         _this.pointerY = e.center.y;
       } else if (e.type === 'tap') {
@@ -278,6 +283,8 @@ var ExploreApp = (function() {
 
   ExploreApp.prototype.onReady = function(){
     console.log("Ready.");
+
+    $('#instructions-text').text('Drag your cursor to browse sounds');
 
     this.loadListeners();
     this.render();

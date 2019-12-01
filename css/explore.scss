@@ -40,7 +40,8 @@ main {
 
 .image img,
 .overlay,
-.touch {
+.touch,
+.instructions {
   position: absolute;
   top: 0;
   left: 0;
@@ -80,4 +81,18 @@ main {
   position: absolute;
   top: 0.5rem;
   right: 1rem;
+}
+
+.instructions {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 50;
+  color: var(--lightest-color);
+  text-align: center;
+}
+.instructions p {
+  position: relative;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  margin: 0;
 }
