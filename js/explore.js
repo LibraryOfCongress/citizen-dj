@@ -140,7 +140,6 @@ var ExploreApp = (function() {
       } else if (e.type === 'panmove') {
         _this.pointerX = e.center.x;
         _this.pointerY = e.center.y;
-        _this.play(e.center.x, e.center.y);
       } else if (e.type === 'tap') {
         _this.play(e.center.x, e.center.y, true);
       }
@@ -161,7 +160,6 @@ var ExploreApp = (function() {
       if (_this.listening) {
         _this.pointerX = e.pageX;
         _this.pointerY = e.pageY;
-        _this.play(e.pageX, e.pageY);
       }
     });
     $doc.on("click", function(e){
@@ -317,7 +315,10 @@ var ExploreApp = (function() {
   ExploreApp.prototype.render = function(){
     var _this = this;
 
-    if (this.listening) this.move(this.pointerX, this.pointerY);
+    if (this.listening) {
+      this.move(this.pointerX, this.pointerY);
+      this.play(this.pointerX, this.pointerY);
+    }
 
     requestAnimationFrame(function(){ _this.render(); });
   };
