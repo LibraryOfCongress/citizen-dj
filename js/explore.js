@@ -130,7 +130,7 @@ var ExploreApp = (function() {
     touchHandler.get('pinch').set({ enable: true });
     touchHandler.add( new Hammer.Pan({ direction: Hammer.DIRECTION_ALL, threshold: 0 }) );
 
-    // listen to events...
+    // listen for touch events...
     touchHandler.on("panstart panmove panend pinchin pinchout tap", function(e) {
       touching = true;
       if (e.type === 'panstart') {
@@ -196,13 +196,17 @@ var ExploreApp = (function() {
     this.offsetX = imageOffset.left;
     this.offsetY = imageOffset.top;
 
+    this.$wrapper = $('#app');
+    this.wrapperW = this.$wrapper.width();
+    this.wrapperH = this.$wrapper.height();
+    // start centered
     this.scale = 1;
     this.scaledW = this.imageW;
     this.scaledH = this.imageH;
-    this.translateX = 0;
-    this.translateY = 0;
+    this.translateX = (this.imageW - this.wrapperW) * -0.5;
+    this.translateY = (this.imageH - this.wrapperH) * -0.5;
+    this.$imageWrapper.css('transform', 'translate3d('+this.translateX+'px, '+this.translateY+'px, 0) scale3d('+this.scale+', '+this.scale+', '+this.scale+')');
 
-    this.$wrapper = $('#app');
     this.onResize();
   };
 
@@ -265,6 +269,8 @@ var ExploreApp = (function() {
 
     if (this.imageW > this.wrapperW) this.minTranslateX = -(this.imageW - this.wrapperW);
     if (this.imageH > this.wrapperH) this.minTranslateY = -(this.imageH - this.wrapperH);
+    if (this.wrapperW > this.imageW) { this.maxTranslateX = (this.wrapperW - this.imageW) * 0.5; this.minTranslateX = this.maxTranslateX; }
+    if (this.wrapperH > this.imageH) { this.maxTranslateY = (this.wrapperH - this.imageH) * 0.5; this.minTranslateY = this.maxTranslateY; }
 
     this.translateX = MathUtil.clamp(this.translateX, this.minTranslateX, this.maxTranslateX);
     this.translateY = MathUtil.clamp(this.translateY, this.minTranslateY, this.maxTranslateY);
