@@ -4,6 +4,10 @@ id: home
 title: Homepage
 ---
 
+<div class="notice">
+  <p>This website is actively under construction and available for review &amp; feedback only. Please contact me at <a href="mailto:hello@brianfoo.com">hello@brianfoo.com</a> before sharing publicly.</p>
+</div>
+
 <h1><img src="{{ site.baseurl }}/img/citzen_dj_banner.jpg" class="banner-image" alt="Citizen DJ" /></h1>
 
 <p class="tagline">
@@ -31,18 +35,16 @@ title: Homepage
 
 <h2>Select a collection to start</h2>
 
-{% assign pages = site.collections | sort:"sequence" %}
+{% assign pages = site.use | sort:"sequence" %}
 <div class="collections">
   {% for p in pages %}
     <div class="collection">
-      <h3><a href="{{ p.url }}">
-        {{ p.title }}
-      </a></h3>
+      <h3>{{ p.title }}</h3>
       <p>{{ p.description }}</p>
-      <p>
-        <a href="{{ p.url }}explore/" class="button">Explore sounds</a>
-        <a href="{{ p.url }}remix/" class="button">Remix sounds</a>
-        <a href="{{ p.url }}use/" class="button">Download and use sounds</a>
+      <p class="collection-buttons">
+        <a href="{{ p.collection_base_url }}explore/" class="button">Explore sounds</a>
+        <a href="{{ p.collection_base_url }}remix/" class="button">Remix sounds</a>
+        <a href="{{ p.collection_base_url }}use/" class="button">Learn more about &amp; use sounds</a>
       </p>
     </div>
   {% endfor %}

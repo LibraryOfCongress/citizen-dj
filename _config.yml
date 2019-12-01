@@ -24,11 +24,11 @@ twitter_username: beefoo
 github_username:  beefoo
 
 collections:
-  collections:
-    output: true
   explore:
     output: true
   remix:
+    output: true
+  use:
     output: true
 
 # Build settings
