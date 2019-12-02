@@ -134,7 +134,8 @@ var Collections = (function() {
     $itemSelect.html(html);
     this.$itemSelect = $itemSelect;
 
-    this.$itemSource = $('#item-source');
+    this.$itemMeta = $('#item-meta');
+    this.$itemAccess = $('#item-access');
   };
 
   Collections.prototype.onDataLoaded = function(metadata, sampledata){
@@ -273,8 +274,9 @@ var Collections = (function() {
         html += '<dt>Date created/published</dt>';
         html += '<dd>'+ item.year +'</dd>';
       }
-      html += '<dt>How can it be used?</dt>';
-      html += '<dd>This item is in the <a href="https://creativecommons.org/publicdomain/mark/1.0/" target="_blank">Public Domain</a> which means that is free of known copyright restrictions and therefore you are free to use this material without restriction. However, please also see this <a href="{{ site.baseurl }}/guide/">detailed guide</a> covering the copyright and ethical considerations of digital sampling of audio and video materials.</dd>';
+    html += '</div>';
+    this.$itemMeta.html(html);
+    html = '';
       html += '<dt>How can it be accessed?</dt>';
       html += '<dd>You find more details about this item as well as access and download the entire source media file on ' + item.provider + '. <a href="'+ item.url +'" class="button" target="_blank">Click here to view on ' + item.provider + '</a></dd>';
       if (item.embed_url && item.embed_url.length) {
@@ -292,7 +294,8 @@ var Collections = (function() {
       });
       html += '</ul></dd>';
     html += '</div>';
-    this.$itemSource.html(html);
+    this.$itemAccess.html(html);
+
   };
 
   // step through the phrases of the current item
