@@ -12,11 +12,14 @@
 
       <h3>Download files in bulk</h3>
 
-      <p>A set of <strong>5,000 audio samples</strong> have been automatically generated from this collection for use in your favorite music production software. It contains <strong>100 audio segments</strong> and <strong>4,096 one-shot audio clips</strong>, ideal for use in samplers.</p>
+      {% assign package = site.data[page.uid] %}
+
+      <p>A set of <strong>{{ package.totalCount }} audio samples</strong> have been automatically generated from this collection for use in your favorite music production software. It contains <strong>{{ package.segmentCount }} audio segments</strong> and <strong>{{ package.oneshotCount }} one-shot audio clips</strong>, ideal for use in samplers.</p>
 
       <ul>
-        <li><a href="#">Download in 192 Kbps .mp3 format</a> (100mb) - Ideal if you would just like to preview and browse this collection</li>
-        <li><a href="#">Download in 32-bit .wav format</a> (800mb) - Ideal for production</li>
+        {% for pfile in package.packages %}
+        <li><a href="{{ site.baseurl }}/samplepacks/{{ pfile.filename }}" download>{{ pfile.label }}</a> ({{ pfile.size }}) - {{ pfile.comment }}</li>
+        {% endfor %}
       </ul>
 
       <h3>Rights and access</h3>
@@ -30,10 +33,34 @@
       <h3>Preview files</h3>
 
       <p>Click the files below to preview the audio segments:</p>
+
+      <ul class="preview-list">
+        {% for clip in package.clips %}
+        <li>{{ clip.title }} (at {{ clip.timestamp }})
+          <div class="button-group">
+            <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}" class="button small toggle-play">play</a>
+            <a href="{{ clip.url }}" target="_blank" class="button small">view original</a>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
     </main>
 
     {% include footer.html %}
 
   </div>
+
+<script src="{{ site.baseurl }}/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/underscore-1.9.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/howler.js-2.1.2.min.js"></script>
+<script src="{{ site.baseurl }}/js/lib/player.js"></script>
+<script>
+  var CONFIG = {
+    'baseUrl': '{{ site.baseurl }}',
+    'uid': '{{ page.uid }}'
+  };
+</script>
+<script src="{{ site.baseurl }}/js/ui.js"></script>
+<script src="{{ site.baseurl }}/js/use.js"></script>
 
 {% include foot.html %}

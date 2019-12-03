@@ -12,3 +12,22 @@
   box-sizing: border-box;
   margin: 1rem;
 }
+
+.preview-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.preview-list li {
+  margin: 0;
+  padding: 0.5rem 1rem 0.5rem 0;
+  display: inline-block;
+  width: 360px;
+  vertical-align: top;
+  border-bottom: 1px solid var(--darkest-color);
+}
+.button.small {
+  padding: 0.25rem 0.5rem;
+  height: auto;
+  line-height: normal;
+}
