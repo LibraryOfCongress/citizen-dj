@@ -59,6 +59,7 @@ var Player = (function() {
       this.sound.on('end', function(){
         $link.removeClass('playing');
         $link.text('Play');
+        _this.playing = false;
         _this.sound.stop();
       })
     } else if (this.playing) {
