@@ -48,8 +48,11 @@ $collectionTabHeight: $collectionHeight - 4px;
   position: relative;
 }
 .collection-header a.tab {
+  height: $collectionTabHeight;
+  line-height: $collectionTabHeight;
   padding: 0 1rem;
   text-decoration: none;
+  display: block;
 }
 .collection-header a.tab:hover {
   text-decoration: underline;
