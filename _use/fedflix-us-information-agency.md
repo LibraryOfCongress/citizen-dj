@@ -8,7 +8,7 @@ credit: "United States Information Agency"
 collection_base_url: "/fedflix-us-information-agency/"
 permalink: "/fedflix-us-information-agency/use/"
 source: "Fedflix"
-source_url: "https://archive.org/details/FedFlix"
+source_url: "https://archive.org/details/FedFlix?and[]=U.S.+Information+Agency"
 uid: "fedflix-us-information-agency"
 sequence: 1001
 ---

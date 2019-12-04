@@ -8,7 +8,7 @@ credit: "John and Ruby Lomax 1939 southern states recording trip (AFC 1939/001),
 collection_base_url: "/loc-john-and-ruby-lomax/"
 permalink: "/loc-john-and-ruby-lomax/use/"
 source: "Library of Congress"
-source_url: "https://www.loc.gov/collections/john-and-ruby-lomax/"
+source_url: "https://www.loc.gov/collections/john-and-ruby-lomax/about-this-collection/"
 uid: "loc-john-and-ruby-lomax"
 sequence: 1
 ---
