@@ -268,18 +268,24 @@ var ExploreApp = (function() {
   ExploreApp.prototype.onMetadataLoaded = function(metadata){
     var _this = this;
     var itemHeadings = metadata.itemHeadings;
+    var itemLists = metadata.lists;
     var items = _.map(metadata.items, function(item){
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       if (metadata.groups) {
         _.each(metadata.groups, function(groupList, key){
-          itemObj[key] = groupList[itemObj[key]];
+          // this is a list
+          if (_.indexOf(itemLists, key) >= 0) {
+            itemObj[key] = _.map(itemObj[key], function(groupIndex){ return groupList[groupIndex]; });
+          } else {
+            itemObj[key] = groupList[itemObj[key]];
+          }
         });
       }
       if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
-      if (!_.has(itemObj, 'contributors')) itemObj.contributors = itemObj.creator;
-      // itemObj.contributors = itemObj.contributors.split(" | ");
+      if (!_.has(itemObj, 'contributors')) itemObj.contributors = [itemObj.creator];
+      itemObj.contributors = itemObj.contributors.join(" | ");
       return [itemKey, itemObj];
     });
     this.itemLookup = _.object(items);

@@ -180,6 +180,7 @@ var Collections = (function() {
 
     // parse items
     var itemHeadings = metadata.itemHeadings;
+    var itemLists = metadata.lists;
     var items = _.map(metadata.items, function(item){
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
@@ -191,12 +192,16 @@ var Collections = (function() {
       })
       if (metadata.groups) {
         _.each(metadata.groups, function(groupList, key){
-          itemObj[key] = groupList[itemObj[key]];
+          // this is a list
+          if (_.indexOf(itemLists, key) >= 0) {
+            itemObj[key] = _.map(itemObj[key], function(groupIndex){ return groupList[groupIndex]; });
+          } else {
+            itemObj[key] = groupList[itemObj[key]];
+          }
         });
       }
       if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
-      if (!_.has(itemObj, 'contributors')) itemObj.contributors = itemObj.creator;
-      itemObj.contributors = itemObj.contributors.split(" | ");
+      if (!_.has(itemObj, 'contributors')) itemObj.contributors = [itemObj.creator];
       itemObj.phrases = _.uniq(_.pluck(itemObj.samples, 'phrase'));
       itemObj.phrases.sort();
       return itemObj;
