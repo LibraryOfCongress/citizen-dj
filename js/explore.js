@@ -66,13 +66,17 @@ var ExploreApp = (function() {
     var sounds = [];
     var spritePromises = [];
     var cols = options.cols;
+    var filenames = options.filenames;
+    var notes = options.notes;
 
     var allSprites = _.map(options.sprites, function(s, i){
       return {
         "id": i,
         "fileIndex": s[0],
         "audioPosition": [s[1], s[2]],
-        "label": s[3]
+        "label": filenames[s[3]],
+        "pitch": s[4],
+        "note": notes[s[5]]
       }
     });
     this.sprites = allSprites;
