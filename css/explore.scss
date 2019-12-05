@@ -91,28 +91,25 @@ main {
 
 .filters {
   position: absolute;
-  top: 0;
+  bottom: 100%;
   left: 0;
   transition: top 0.5s ease-in-out;
 }
 .filters-controls {
-  height: 0;
+  max-height: 0;
   background: var(--lightest-color);
   border: 2px solid var(--darkest-color);
   border-bottom: none;
-  padding: 1rem;
+  padding: 0;
   opacity: 0;
-  box-sizing: border-box;
   color: var(--darkest-color);
   overflow: hidden;
-  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-}
-.filters.active {
-  top: -362px;
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 .filters.active .filters-controls {
-  height: 360px;
+  max-height: 100vh;
   opacity: 1;
+  padding: 1rem;
 }
 .item-info .toggle-filters {
   top: -40px;
