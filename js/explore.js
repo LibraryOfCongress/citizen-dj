@@ -58,6 +58,21 @@ var ExploreApp = (function() {
     });
   };
 
+  ExploreApp.prototype.clearFilters = function(){
+    this.filters = {
+      'pitch': [this.minPitch, this.maxPitch],
+      'subjectIndex': -1,
+      'noteIndex': -1
+    };
+
+    this.$selectSubject.val(this.filters.subjectIndex);
+    this.$selectNote.val(this.filters.noteIndex);
+    this.$rangePitchMin.val(this.filters.pitch[0]);
+    this.$rangePitchMinText.text(this.filters.pitch[0]);
+    this.$rangePitchMax.val(this.filters.pitch[1]);
+    this.$rangePitchMaxText.text(this.filters.pitch[1]);
+  };
+
   ExploreApp.prototype.loadAudio = function(options){
     var deferred = $.Deferred();
     var opt = this.opt;
@@ -68,22 +83,35 @@ var ExploreApp = (function() {
     var cols = options.cols;
     var filenames = options.filenames;
     var notes = options.notes;
+    var itemLookup = this.itemLookup;
+    var hasSubjects = this.subjects.length > 0;
     this.notes = notes;
 
     var allSprites = _.map(options.sprites, function(s, i){
+      var itemId = filenames[s[3]];
+      var subjects = [];
+      if (hasSubjects) {
+        var item = itemLookup[itemId];
+        subjects = item.subjectsIndex;
+      }
       return {
         "id": i,
         "fileIndex": s[0],
         "audioPosition": [s[1], s[2]],
-        "label": filenames[s[3]],
+        "itemId": itemId,
         "pitch": s[4],
-        "note": notes[s[5]]
+        "note": notes[s[5]],
+        "noteIndex": s[5],
+        "subjects": subjects,
+        "active": true
       }
     });
     this.minPitch = _.min(allSprites, function(sprite){ return sprite.pitch; }).pitch;
     this.maxPitch = _.max(allSprites, function(sprite){ return sprite.pitch; }).pitch;
     this.sprites = allSprites;
     this.audioSpriteFiles = options.audioSpriteFiles;
+
+    // console.log(this.sprites);
 
     _.each(options.audioSpriteFiles, function(fn, i){
       var audioFilename = opt.baseUrl + opt.audioDir + uid + "/" + fn;
@@ -114,22 +142,28 @@ var ExploreApp = (function() {
     var _this = this;
     var uid = this.opt.uid;
     var url = this.opt.baseUrl + this.opt.dataDir + uid + ".json";
-    var deferred = $.Deferred();
-    $.getJSON(url, function(data) {
-      console.log("Loaded data with "+data.sprites.length+" sprites")
-      deferred.resolve(data);
-    });
-
     var metadataUrl = this.opt.baseUrl + this.opt.metadataDir + uid + ".json";
-    $.getJSON(metadataUrl, function(data) {
-      console.log("Loaded metadata with "+data.items.length+" items")
-      _this.onMetadataLoaded(data);
+    var deferred = $.Deferred();
+
+    $.when(
+      $.getJSON(url),
+      $.getJSON(metadataUrl)
+
+    ).done(function(spritedata, metadata){
+      spritedata = spritedata[0];
+      metadata = metadata[0];
+
+      console.log("Loaded metadata with "+metadata.items.length+" items")
+      _this.onMetadataLoaded(metadata);
+      console.log("Loaded data with "+spritedata.sprites.length+" sprites")
+      deferred.resolve(spritedata);
     });
 
     return deferred.promise();
   };
 
   ExploreApp.prototype.loadFilters = function(data){
+    var _this = this;
     var $filters = $('#filters');
     $('.toggle-filters').on('click', function(e){
       $filters.toggleClass('active');
@@ -153,6 +187,28 @@ var ExploreApp = (function() {
     $('#range-pitch-max').attr({ 'min': this.minPitch, 'max': this.maxPitch, 'value': this.maxPitch })
     $('#range-pitch-max-text').text(this.maxPitch);
 
+    this.$selectSubject = $('#select-subject');
+    this.$selectNote = $('#select-note');
+    this.$rangePitchMin = $('#range-pitch-min');
+    this.$rangePitchMinText = $('#range-pitch-min-text');
+    this.$rangePitchMax = $('#range-pitch-max');
+    this.$rangePitchMaxText = $('#range-pitch-max-text');
+    this.clearFilters();
+
+    $('.filter-select').on('change', function(e){ _this.onFilter(); });
+    $('.slider').on('input', function(e){ _this.onFilter(); });
+    $('.clear-filters').on('click', function(e){
+      _this.clearFilters();
+      _this.onFilter();
+    });
+
+    var $canvas = $('#filter-canvas');
+    var canvas = $canvas[0];
+    canvas.width = this.cols;
+    canvas.height = this.rows;
+    this.filterCtx = canvas.getContext('2d');
+    this.filterImData = this.filterCtx.createImageData(this.cols, this.rows);
+    this.filterData = this.filterImData.data;
   };
 
   ExploreApp.prototype.loadListeners = function(){
@@ -295,6 +351,40 @@ var ExploreApp = (function() {
     this.$imageWrapper.css('transform', 'translate3d('+this.translateX+'px, '+this.translateY+'px, 0) scale3d('+this.scale+', '+this.scale+', '+this.scale+')');
   };
 
+  ExploreApp.prototype.onFilter = function(){
+    var hasSubjects = this.subjects.length > 0;
+    var subjectIndex = hasSubjects ? parseInt(this.$selectSubject.val()) : -1;
+    var noteIndex = parseInt(this.$selectNote.val());
+    var minPitch = parseFloat(this.$rangePitchMin.val());
+    var maxPitch = parseFloat(this.$rangePitchMax.val());
+
+    // set filters
+    this.filters.subjectIndex = subjectIndex;
+    this.filters.noteIndex = noteIndex;
+
+    // min pitch changed
+    if (minPitch !== this.filters.pitch[0]) {
+      if (minPitch > this.filters.pitch[1]) {
+        minPitch = this.filters.pitch[1];
+        this.$rangePitchMin.val(minPitch);
+      }
+      this.filters.pitch[0] = minPitch;
+      this.$rangePitchMinText.text(minPitch);
+    }
+
+    // max pitch changed
+    if (maxPitch !== this.filters.pitch[1]) {
+      if (maxPitch < this.filters.pitch[0]) {
+        maxPitch = this.filters.pitch[0];
+        this.$rangePitchMax.val(maxPitch);
+      }
+      this.filters.pitch[1] = maxPitch;
+      this.$rangePitchMaxText.text(maxPitch);
+    }
+
+    this.setFilters(this.filters);
+  };
+
   ExploreApp.prototype.onMetadataLoaded = function(metadata){
     var _this = this;
     var itemHeadings = metadata.itemHeadings;
@@ -305,6 +395,7 @@ var ExploreApp = (function() {
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       if (metadata.groups) {
         _.each(metadata.groups, function(groupList, key){
+          itemObj[key+'Index'] = itemObj[key];
           // this is a list
           if (_.indexOf(itemLists, key) >= 0) {
             itemObj[key] = _.map(itemObj[key], function(groupIndex){ return groupList[groupIndex]; });
@@ -414,11 +505,11 @@ var ExploreApp = (function() {
       // this.$label.attr("title", first.label);
       this.currentCell = id;
       // play sound
-      this.sounds[sprite.fileIndex].play(""+id);
+      if (sprite.active) this.sounds[sprite.fileIndex].play(""+id);
       this.renderItem(sprite);
     } else if (forcePlay) {
       // play sound
-      this.sounds[sprite.fileIndex].play(""+id);
+      if (sprite.active) this.sounds[sprite.fileIndex].play(""+id);
     }
   };
 
@@ -435,7 +526,7 @@ var ExploreApp = (function() {
 
   ExploreApp.prototype.renderItem = function(spriteItem){
     if (this.itemLookup === false || this.$itemInfo === undefined || !this.$itemInfo.length) return;
-    var id = spriteItem.label;
+    var id = spriteItem.itemId;
     // console.log(this.itemLookup, id)
     var startTimeF = MathUtil.secondsToString(spriteItem.audioPosition[0]/1000.0);
     var html = '';
@@ -449,6 +540,25 @@ var ExploreApp = (function() {
       html += '<a href="'+item.url+'" target="_blank" class="button inverted">View on '+item.provider+'</a>';
     }
     this.$itemInfo.html(html);
+  };
+
+  ExploreApp.prototype.setFilters = function(filters){
+    var _this = this;
+    var filterData = this.filterData;
+
+    _.each(this.sprites, function(sprite, i){
+      var a = 0;
+      filterData[i*4] = 0;
+      filterData[i*4+1] = 0;
+      filterData[i*4+2] = 0;
+      if (filters.subjectIndex >= 0 && sprite.subjects.indexOf(filters.subjectIndex) < 0) a = 255;
+      if (filters.noteIndex >= 0 && sprite.noteIndex !== filters.noteIndex) a = 255;
+      if (sprite.pitch < filters.pitch[0] || sprite.pitch > filters.pitch[1]) a = 255;
+      filterData[i*4+3] = a;
+      _this.sprites[i].active = (a <= 0);
+    });
+
+    this.filterCtx.putImageData(this.filterImData, 0, 0);
   };
 
   return ExploreApp;
