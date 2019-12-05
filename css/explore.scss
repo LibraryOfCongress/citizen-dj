@@ -70,6 +70,12 @@ main {
   border-top: 2px solid var(--lightest-color);
   color: var(--lightest-color);
   position: relative;
+  z-index: 10000;
+  // overflow: hidden;
+  // overflow-y: visible;
+  display: none;
+}
+#item-info {
   overflow: hidden;
 }
 .item-details h2,
@@ -81,6 +87,52 @@ main {
   position: absolute;
   top: 0.5rem;
   right: 1rem;
+}
+
+.filters {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: top 0.5s ease-in-out;
+}
+.filters-controls {
+  height: 0;
+  background: var(--lightest-color);
+  border: 2px solid var(--darkest-color);
+  border-bottom: none;
+  padding: 1rem;
+  opacity: 0;
+  box-sizing: border-box;
+  color: var(--darkest-color);
+  overflow: hidden;
+  transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.filters.active {
+  top: -362px;
+}
+.filters.active .filters-controls {
+  height: 360px;
+  opacity: 1;
+}
+.item-info .toggle-filters {
+  top: -40px;
+  right: auto;
+  left: 0;
+  font-weight: bold;
+}
+.item-info .clear-filters {
+  position: relative;
+  top: auto;
+  right: auto;
+  margin-top: 0.5rem;
+}
+.filters select,
+.filters label {
+  display: block;
+  color: var(--darkest-color);
+}
+.filters .range-wrapper {
+  white-space: nowrap;
 }
 
 .instructions {

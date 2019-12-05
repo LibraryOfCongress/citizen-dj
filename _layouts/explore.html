@@ -16,8 +16,26 @@
     </div>
   </main>
 
-  <div id="item-info" class="item-info">
-
+  <div class="item-info">
+    <div id="filters" class="filters">
+      <button class="button inverted toggle-filters">Filters</button>
+      <div class="filters-controls">
+        <label for="select-subject">Subject</label>
+        <select id="select-subject" class="filter-select"></select>
+        <label for="select-note">Musical note</label>
+        <select id="select-note" class="filter-select"></select>
+        <label for="range-pitch-min">Minimum pitch</label>
+        <div class="range-wrapper">
+          <input id="range-pitch-min" type="range" min="0" max="100" value="0" step="0.1" class="slider" data-value="#range-pitch-min-text" /> <span id="range-pitch-min-text" class="value-text">0</span>
+        </div>
+        <div class="range-wrapper">
+          <label for="range-pitch-max">Maximum pitch</label>
+          <input id="range-pitch-max" type="range" min="0" max="100" value="100" step="0.1" class="slider" data-value="#range-pitch-max-text" /> <span id="range-pitch-max-text" class="value-text">100</span>
+        </div>
+        <button class="button clear-filters">Clear filters</button>
+      </div>
+    </div>
+    <div id="item-info"></div>
   </div>
 
 </div>

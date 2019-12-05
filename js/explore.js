@@ -68,6 +68,7 @@ var ExploreApp = (function() {
     var cols = options.cols;
     var filenames = options.filenames;
     var notes = options.notes;
+    this.notes = notes;
 
     var allSprites = _.map(options.sprites, function(s, i){
       return {
@@ -79,6 +80,8 @@ var ExploreApp = (function() {
         "note": notes[s[5]]
       }
     });
+    this.minPitch = _.min(allSprites, function(sprite){ return sprite.pitch; }).pitch;
+    this.maxPitch = _.max(allSprites, function(sprite){ return sprite.pitch; }).pitch;
     this.sprites = allSprites;
     this.audioSpriteFiles = options.audioSpriteFiles;
 
@@ -126,6 +129,32 @@ var ExploreApp = (function() {
     return deferred.promise();
   };
 
+  ExploreApp.prototype.loadFilters = function(data){
+    var $filters = $('#filters');
+    $('.toggle-filters').on('click', function(e){
+      $filters.toggleClass('active');
+    });
+
+    if (this.subjects.length <= 0) {
+      $('#select-subject').css('display', 'none');
+      $('label[for="select-subject"]').css('display', 'none');
+    } else {
+      var subjectHTML = _.map(this.subjects, function(subject, i){ return '<option value="'+i+'">'+subject+'</option>'; });
+      subjectHTML = '<option value="-1">all</option>' + subjectHTML.join('');
+      $('#select-subject').html(subjectHTML);
+    }
+
+    var notesHTML = _.map(this.notes, function(note, i){ return '<option value="'+i+'">'+note+'</option>'; });
+    notesHTML = '<option value="-1">all</option>' + notesHTML.join('');
+    $('#select-note').html(notesHTML);
+
+    $('#range-pitch-min').attr({ 'min': this.minPitch, 'max': this.maxPitch, 'value': this.minPitch })
+    $('#range-pitch-min-text').text(this.minPitch);
+    $('#range-pitch-max').attr({ 'min': this.minPitch, 'max': this.maxPitch, 'value': this.maxPitch })
+    $('#range-pitch-max-text').text(this.maxPitch);
+
+  };
+
   ExploreApp.prototype.loadListeners = function(){
     var _this = this;
 
@@ -140,6 +169,7 @@ var ExploreApp = (function() {
 
     $touch.one('mousedown touchstart', function(){
       $('#instructions').css('display', 'none');
+      $('.item-info').css('display', 'block');
     });
 
     // listen for touch events...
@@ -288,6 +318,10 @@ var ExploreApp = (function() {
       itemObj.contributors = itemObj.contributors.join(" | ");
       return [itemKey, itemObj];
     });
+    this.subjects = [];
+    if (_.has(metadata.groups, 'subjects')) {
+      this.subjects = metadata.groups.subjects;
+    }
     this.itemLookup = _.object(items);
   };
 
@@ -297,6 +331,7 @@ var ExploreApp = (function() {
     $('#instructions-text').text('Drag your cursor to browse sounds');
 
     this.loadListeners();
+    this.loadFilters();
     this.render();
   };
 
