@@ -3,13 +3,13 @@
         {
             "filename": "loc.gov_variety-stage-sound-recordings-and-motion-pictures_mp3.zip",
             "label": "Download in 192 Kbps .mp3 format",
-            "size": "88.7mb",
+            "size": "88.5mb",
             "comment": "Ideal if you would just like to preview and browse this collection"
         },
         {
             "filename": "loc.gov_variety-stage-sound-recordings-and-motion-pictures_wav.zip",
             "label": "Download in 32-bit .wav format",
-            "size": "433.7mb",
+            "size": "432.4mb",
             "comment": "Ideal for production"
         }
     ],
@@ -61,30 +61,6 @@
             "title": "A study in mimicry : vaudeville sketch",
             "timestamp": "03:21",
             "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "Birth-of-the-pearl_96520051_001_00-00-00.mp3",
-            "title": "Birth of the pearl",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/96520051/"
-        },
-        {
-            "filename": "Birth-of-the-pearl_96520051_002_00-01-14.mp3",
-            "title": "Birth of the pearl",
-            "timestamp": "01:14",
-            "url": "https://www.loc.gov/item/96520051/"
-        },
-        {
-            "filename": "Dancing-darkey-boy_96519344_001_00-00-00.mp3",
-            "title": "Dancing darkey boy",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/96519344/"
-        },
-        {
-            "filename": "Dancing-darkey-boy_96519344_002_00-00-58.mp3",
-            "title": "Dancing darkey boy",
-            "timestamp": "00:58",
-            "url": "https://www.loc.gov/item/96519344/"
         },
         {
             "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_001_00-00-00.mp3",
@@ -357,6 +333,12 @@
             "url": "https://www.loc.gov/item/2018620416/"
         },
         {
+            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_007_00-03-06.mp3",
+            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
+            "timestamp": "03:06",
+            "url": "https://www.loc.gov/item/2018620416/"
+        },
+        {
             "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_001_00-00-01.mp3",
             "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
             "timestamp": "00:01",
@@ -495,7 +477,7 @@
             "url": "https://www.loc.gov/item/2018620415/"
         }
     ],
-    "segmentCount": 80,
+    "segmentCount": 77,
     "oneshotCount": 4096,
-    "totalCount": 4176
+    "totalCount": 4173
 }
