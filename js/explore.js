@@ -404,7 +404,7 @@ var ExploreApp = (function() {
           }
         });
       }
-      if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
+      if (!_.has(itemObj, 'provider')) itemObj.provider = _this.opt.provider;
       if (!_.has(itemObj, 'contributors')) itemObj.contributors = [itemObj.creator];
       itemObj.contributors = itemObj.contributors.join(" | ");
       return [itemKey, itemObj];
