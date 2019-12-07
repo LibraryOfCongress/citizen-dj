@@ -200,7 +200,7 @@ var Collections = (function() {
           }
         });
       }
-      if (!_.has(itemObj, 'provider')) itemObj.provider = 'the Internet Archive';
+      if (!_.has(itemObj, 'provider')) itemObj.provider = _this.opt.provider;
       if (!_.has(itemObj, 'contributors')) itemObj.contributors = [itemObj.creator];
       itemObj.phrases = _.uniq(_.pluck(itemObj.samples, 'phrase'));
       itemObj.phrases.sort();

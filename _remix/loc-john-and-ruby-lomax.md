@@ -7,5 +7,6 @@ rights: "The Library of Congress is not aware of any U.S. copyright protection (
 permalink: "/loc-john-and-ruby-lomax/remix/"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/john-and-ruby-lomax/"
+provider: "loc.gov"
 uid: "loc-john-and-ruby-lomax"
 ---

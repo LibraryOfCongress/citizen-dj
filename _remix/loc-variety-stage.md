@@ -8,5 +8,6 @@ credit: "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound D
 permalink: "/loc-variety-stage/remix/"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/about-this-collection/"
+provider: "loc.gov"
 uid: "loc-variety-stage"
 ---
