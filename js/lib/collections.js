@@ -91,24 +91,39 @@ var Collections = (function() {
     var tracks = {};
     var sampleIndex = this.sampleIndex;
     var samples = this.item.samples;
-    var col = 0;
-    while(col < 16) {
+
+    var trackPatterns = [
+      [1,0,0,0, 0,0,0,0, 0,0,1,0, 0,0,0,0],
+      [0,0,0,0, 1,0,0,0, 0,0,0,0, 0,0,1,0],
+      [0,0,1,0, 0,0,0,0, 1,0,0,0, 0,0,0,0],
+      [0,0,0,0, 0,0,1,0, 0,0,0,0, 1,0,0,0]
+    ];
+
+    var trackSamples = [];
+    _.times(4, function(i){
       var sample = samples[sampleIndex];
-      var pattern = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
-      pattern[col] = 1;
       tracks[sample.id] = {
-        "pattern": pattern,
+        "pattern": trackPatterns[i],
         "url": sample["url"],
-        "title": this.item.title + ' (' + sample.title + ')',
+        "title": _this.item.title + ' (' + sample.title + ')',
         "trackType": "collection",
         "gain": _this.opt.gain
       };
-      var nearestSubdivisions = Math.floor(sample.dur / this.subdivision);
-      nearestSubdivisions = MathUtil.clamp(nearestSubdivisions, this.minSubdivisions, this.maxSubdivisions);
-      col += nearestSubdivisions;
+      trackSamples.push(sample);
       sampleIndex += 1;
       if (sampleIndex >= samples.length) sampleIndex = 0;
-    }
+    });
+
+    // manually uncheck pattern columns if previous beat is too long
+    _.each(trackSamples, function(sample, i){
+      var nearestSubdivisions = Math.floor(sample.dur / _this.subdivision);
+      if (nearestSubdivisions > 3) {
+        if (i===0) tracks[trackSamples[2].id].pattern[2] = 0;
+        else if (i===1) tracks[trackSamples[3].id].pattern[6] = 0;
+        else if (i===2) tracks[trackSamples[0].id].pattern[10] = 0;
+        else tracks[trackSamples[1].id].pattern[14] = 0;
+      }
+    });
 
     // console.log(tracks)
     this.tracks = tracks;
