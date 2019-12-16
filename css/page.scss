@@ -37,6 +37,12 @@ a {
   margin: 0 0.5rem 0.5rem 0;
 }
 
+p.caption {
+  font-size: 0.9rem;
+  margin-top: 0;
+  text-align: center;
+}
+
 hr {
   display: block;
   height: 6px;
@@ -54,12 +60,6 @@ hr {
   margin: 20px auto;
 }
 
-.caption {
-  font-size: 1rem;
-  font-style: italic;
-  text-align: right;
-}
-
 .banner-image {
   width: 100%;
   display: block;
@@ -67,9 +67,10 @@ hr {
   max-width: 760px;
 }
 .tagline {
-  font-size: 1.667rem;
+  font-size: 2rem;
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0 1rem;
+  line-height: 1.4;
 }
 .nowrap {
   white-space: nowrap;
