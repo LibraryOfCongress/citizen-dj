@@ -1,4 +1,19 @@
 // Utility functions
+
+(function() {
+  window.Util = {};
+
+  Util.queryParams = function(){
+    if (location.search.length) {
+      var search = location.search.substring(1);
+      return JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) });
+    }
+    return {};
+  }
+
+})();
+
+
 (function() {
   window.MathUtil = {};
 

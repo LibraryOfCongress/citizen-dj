@@ -16,23 +16,9 @@ var ExploreApp = (function() {
       "minScale": 0.333
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
-    var q = queryParams();
+    var q = Util.queryParams();
     this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
-  }
-
-  function distance(x1, y1, x2, y2){
-    var dx = x2 - x1;
-    var dy = y2 - y1;
-    return Math.sqrt(dx*dx + dy*dy);
-  }
-
-  function queryParams(){
-    if (location.search.length) {
-      var search = location.search.substring(1);
-      return JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) });
-    }
-    return {};
   }
 
   ExploreApp.prototype.init = function(){
@@ -88,7 +74,7 @@ var ExploreApp = (function() {
     this.notes = notes;
 
     var allSprites = _.map(options.sprites, function(s, i){
-      var itemId = filenames[s[3]];
+      var itemId = filenames[s[4]];
       var subjects = [];
       if (hasSubjects) {
         var item = itemLookup[itemId];
@@ -97,11 +83,12 @@ var ExploreApp = (function() {
       return {
         "id": i,
         "fileIndex": s[0],
-        "audioPosition": [s[1], s[2]],
+        "sourceStart": s[2],
+        "audioPosition": [s[1], s[3]],
         "itemId": itemId,
-        "pitch": s[4],
-        "note": notes[s[5]],
-        "noteIndex": s[5],
+        "pitch": s[5],
+        "note": notes[s[6]],
+        "noteIndex": s[6],
         "subjects": subjects,
         "active": true
       }
@@ -392,6 +379,7 @@ var ExploreApp = (function() {
     var items = _.map(metadata.items, function(item){
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
+      itemObj.itemId = itemKey.split('.')[0];
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       if (metadata.groups) {
         _.each(metadata.groups, function(groupList, key){
@@ -528,16 +516,20 @@ var ExploreApp = (function() {
     if (this.itemLookup === false || this.$itemInfo === undefined || !this.$itemInfo.length) return;
     var id = spriteItem.itemId;
     // console.log(this.itemLookup, id)
-    var startTimeF = MathUtil.secondsToString(spriteItem.audioPosition[0]/1000.0);
+    var startTimeF = MathUtil.secondsToString(spriteItem.sourceStart/1000.0);
     var html = '';
     if (_.has(this.itemLookup, id)) {
       var item = this.itemLookup[id];
       html += '<div class="item-details">';
-        html += '<h2>' + item.title + ' at '+startTimeF+'</h2>';
+        html += '<h2>' + item.title + ' starting at '+startTimeF+'</h2>';
         if (item.contributors.length)
           html += '<p>' + item.contributors + '</p>';
       html += '</div>';
-      html += '<a href="'+item.url+'" target="_blank" class="button inverted">View on '+item.provider+'</a>';
+      var remixUrl = this.opt.baseUrl + '/' + this.opt.uid + '/remix/?itemId=' + item.itemId + '&itemStart=' + spriteItem.sourceStart;
+      html += '<div class="item-buttons">';
+        html += '<a href="'+remixUrl+'" class="button inverted">Remix this</a>';
+        html += '<a href="'+item.url+'" target="_blank" class="button inverted">View on '+item.provider+'</a>';
+      html += '</div>';
     }
     this.$itemInfo.html(html);
   };

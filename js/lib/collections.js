@@ -14,10 +14,13 @@ var Collections = (function() {
       "itemKey": "filename",
       "gain": -3,
       "onChange": function(){},
-      "onDataLoaded": function(){}
+      "onDataLoaded": function(){},
+      "itemId": false,
+      "itemStart": false
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
-    this.opt = _.extend({}, defaults, config, globalConfig);
+    var q = Util.queryParams();
+    this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
   }
 
@@ -181,7 +184,7 @@ var Collections = (function() {
     var samples = _.map(sampledata.items, function(sample){
       var sampleObj = _.object(sampleHeadings, sample);
       if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
-      sampleObj.title = MathUtil.secondsToString(sampleObj.sourceStart/1000.0);
+      sampleObj.title = 'starting at ' + MathUtil.secondsToString(sampleObj.sourceStart/1000.0);
       sampleObj.url = _this.opt.baseUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.mp3';
       if (sampledata.groups) {
         _.each(sampledata.groups, function(groupList, key){
@@ -196,9 +199,10 @@ var Collections = (function() {
     // parse items
     var itemHeadings = metadata.itemHeadings;
     var itemLists = metadata.lists;
-    var items = _.map(metadata.items, function(item){
+    var items = _.map(metadata.items, function(item, index){
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
+      itemObj.itemId = itemKey.split('.')[0];
       if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       itemObj.samples = _.has(sampleLookup, itemKey) ? _.sortBy(sampleLookup[itemKey], 'sourceStart') : [];
       itemObj.samples = _.map(itemObj.samples, function(s, j){
@@ -225,10 +229,26 @@ var Collections = (function() {
     items = _.filter(items, function(item){ return item.samples && item.samples.length > 1; });
     items = _.sortBy(items, 'title');
     this.items = items;
-    this.itemIndex = _.random(0, this.items.length-1);
+
+    var itemIndex = _.random(0, this.items.length-1);
+    if (this.opt.itemId !== false) {
+      var foundIndex = _.findIndex(items, function(item){ return (item.itemId === _this.opt.itemId); });
+      if (foundIndex >= 0) itemIndex = foundIndex;
+    }
+
+    this.itemIndex = itemIndex;
     this.item = this.items[this.itemIndex];
+
+    var sampleIndex = _.random(0, this.item.samples.length-1);
+    if (this.opt.itemStart !== false) {
+      var itemStart = parseInt(""+this.opt.itemStart);
+      var foundSampleIndex = _.findIndex(this.item.samples, function(s){ return (s.sourceStart <= itemStart && itemStart < (s.sourceStart + s.dur)); });
+      console.log(foundSampleIndex)
+      if (foundSampleIndex >= 0) sampleIndex = foundSampleIndex;
+    }
+    this.sampleIndex = sampleIndex;
+
     // console.log(this.item.phrases)
-    this.sampleIndex = _.random(0, this.item.samples.length-1);
     // console.log(this.item.samples)
   };
 

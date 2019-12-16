@@ -172,7 +172,8 @@ var Drums = (function() {
       return drum;
     });
     this.drums = drums;
-    this.drumIndex = _.random(0, this.drums.length-1);
+    // this.drumIndex = _.random(0, this.drums.length-1);
+    this.drumIndex = 0;
 
     // parse patterns
     var patternItemHeadings = patternData.itemHeadings;
