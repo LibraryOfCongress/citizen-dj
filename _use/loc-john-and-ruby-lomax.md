@@ -11,4 +11,5 @@ source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/john-and-ruby-lomax/about-this-collection/"
 uid: "loc-john-and-ruby-lomax"
 sequence: 1
+active: 1
 ---

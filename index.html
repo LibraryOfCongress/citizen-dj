@@ -35,6 +35,7 @@ title: Homepage
 {% assign pages = site.use | sort:"sequence" %}
 <div class="collections">
   {% for p in pages %}
+    {% if p.active > 0 %}
     <div class="collection">
       <h3>{{ p.title }}</h3>
       <p>{{ p.description }}</p>
@@ -44,5 +45,6 @@ title: Homepage
         <a href="{{ p.collection_base_url }}use/" class="button">Learn more about &amp; use sounds</a>
       </p>
     </div>
+    {% endif %}
   {% endfor %}
 </div>

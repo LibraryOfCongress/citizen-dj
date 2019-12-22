@@ -9,7 +9,9 @@
         <button class="tab submenu-link" aria-haspopup="true" aria-expanded="false" aria-controls="collection-select"><span>{{ page.title }}</span> ▼</button>
         <ul id="collection-select" class="submenu">
           {% for c in siteCollections %}
+            {% if c.active > 0 %}
             <li><a href="{{ c.collection_base_url }}{{ page.layout }}/" {% if page.id == c.id %}class="active"{% endif %}>{{ c.title }}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
       </li>
