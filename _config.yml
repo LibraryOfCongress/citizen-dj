@@ -16,7 +16,7 @@
 title: Citizen DJ
 email: hello@brianfoo.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Citizen DJ invites the public to make hip hop music using public audio and video collections. By embedding these materials in hip hop music, listeners can discover items in the library's vast collections that they likely would never have known existed.
+  Citizen DJ invites the public to make hip hop music using free-to-use audio and video collections. By embedding these materials in hip hop music, listeners can discover items in the library's vast collections that they likely would never have known existed.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 canonical_url: "https://citizendj.brianfoo.com"
