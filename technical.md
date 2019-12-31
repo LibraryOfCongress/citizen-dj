@@ -17,8 +17,35 @@ The app is a very simple front-end web application built with Javascript, HTML, 
 4. The audio files are not included in this repository; to download them:
     - Download the zipped audio files here _(coming soon)_
     - Unzip and copy the files to the `./citizendj/` folder
-5. To run the app locally, run: `bundle exec jekyll serve`, then visit [localhost:4000](http://localhost:4000/)
+5. To run the app locally, run:
+
+    ```
+    cd citizendj
+    bundle exec jekyll serve
+    ```
+
 6. This generates a folder called `_site/`, which contains the app's static files that can be uploaded to a server
 7. Any change you make to the app should automatically be updated in `_site/`
+8. Visit [localhost:4000](http://localhost:4000/)
 
 ### Processing new content
+
+These scripts are maintained in a [separate code repository](https://github.com/beefoo/media-tools). To set this up:
+
+- [Install requirements](https://github.com/beefoo/media-tools#requirements). To complete the full workflow, you will need:
+    - [Python](https://www.python.org/) 3.6+
+    - [SciPy](https://www.scipy.org/) for math functions (probably already installed)
+    - [FFmpeg and FFprobe](https://www.ffmpeg.org/) for working with media files
+    - [LibROSA](https://librosa.github.io/librosa/) for audio analysis
+    - [Pydub](http://pydub.com/) for audio manipulation
+    - [scikit-learn](https://scikit-learn.org/stable/) for statistics and machine learning features (e.g. TSNE, clustering, classification)
+    - [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) for faster TSNE
+    - [RasterFairy](https://github.com/Quasimondo/RasterFairy) for transforming point cloud to grid
+    - [Requests](http://docs.python-requests.org/en/master/) for making remote web requests for scraping metadata
+    - [Curl](https://curl.haxx.se/) for binary downloads
+- Clone the repository:
+
+   ```
+   git clone https://github.com/beefoo/media-tools.git`
+   cd media-tools
+   ```
