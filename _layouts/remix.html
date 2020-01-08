@@ -125,7 +125,10 @@
   <!-- track template -->
   <div id="track-template" class="template">
     <div class="track track-{{ trackType }}">
-      <div class="track-info"><h3 class="track-title-text">{{ title }}</h3></div>
+      <div class="track-info"><h3><span class="track-title-text">{{ title }}</span>
+        <a href="{{ url }}" class="download-audio" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a>
+        <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
+      </h3></div>
       <div class="track-controls">
         <div class="beats">
           <button class="beat beat-0" data-col="0"></button><button class="beat beat-1" data-col="1"></button>

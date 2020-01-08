@@ -111,6 +111,13 @@ select.select-drum {
 .track.muted {
   opacity: 0.5;
 }
+.track-info img {
+  display: inline-block;
+  height: 1rem;
+  width: auto;
+  vertical-align: middle;
+  margin-left: 0.2rem;
+}
 .track-controls {
   justify-content: center;
   justify-content: flex-start;
@@ -278,4 +285,11 @@ button.beat.active:hover {
 .sources dd {
   margin-left: 1rem;
   margin-bottom: 0.5rem;
+}
+.sources li img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1rem;
+  width: auto;
+  margin-left: 0.5rem;
 }

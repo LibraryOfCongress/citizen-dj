@@ -195,6 +195,10 @@ var Track = (function() {
       $title.text(track.title);
       $title.attr('title', track.title);
     }
+
+    if (track.url) {
+      this.$el.find('.play-audio, .download-audio').attr('href', track.url);
+    }
     return this.loadPromise;
   };
 

@@ -79,6 +79,10 @@ var Collections = (function() {
       _this.stepSample(1);
     });
 
+    $('.next-item').on('click', function(e){
+      _this.stepSample(1);
+    });
+
     // $('.prev-phrase').on('click', function(e){
     //   _this.stepPhraseSample(-1);
     // });
@@ -86,6 +90,8 @@ var Collections = (function() {
     // $('.next-phrase').on('click', function(e){
     //   _this.stepPhraseSample(1);
     // });
+
+
   };
 
   Collections.prototype.loadTrackData = function(){
@@ -330,7 +336,7 @@ var Collections = (function() {
       html += '<dd>The following are the '+_.keys(this.tracks).length+' samples used in this sequence:</dd>';
       html += '<dd><ul>';
       _.each(this.tracks, function(track, id){
-        html += '<li><a href="'+track.url+'" download>'+track.title+'</a></li>';
+        html += '<li><a href="'+track.url+'" download>'+track.title+'</a> <a href="'+track.url+'" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a> <a href="'+track.url+'" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a></li>';
       });
       html += '</ul></dd>';
     html += '</div>';

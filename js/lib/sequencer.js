@@ -101,6 +101,11 @@ var Sequencer = (function() {
       _this.onClickSettings($(this));
     });
 
+    $('main').on('click', '.play-audio', function(e){
+      e.preventDefault();
+      _this.playAudio($(this).attr('href'));
+    });
+
     // close dialogs
     $('body').on('click', '.dialog-close-button', function(e){
       $('.dialog-wrapper').removeClass('active');
@@ -192,6 +197,17 @@ var Sequencer = (function() {
     setTimeout(function(){
       Tone.Transport.start();
     }, 10);
+  };
+
+  Sequencer.prototype.playAudio = function(url){
+    if (url !== this.currentPlayerUrl) {
+      this.currentPlayerUrl = url;
+      this.currentPlayer = new Tone.Player(url).toMaster();
+      //play as soon as the buffer is loaded
+      this.currentPlayer.autostart = true;
+    } else {
+      this.currentPlayer.start();
+    }
   };
 
   Sequencer.prototype.removeTrack = function(key, type){
