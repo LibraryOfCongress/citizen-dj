@@ -8,7 +8,8 @@ var Sequencer = (function() {
       "tracks": {},
       "subdivision": 16,
       "bpm": 90,
-      "swing": 0.5 // between -0.5 and 0.5
+      "swing": 0.5, // between -0.5 and 0.5
+      "onChange": function(){}
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -82,6 +83,7 @@ var Sequencer = (function() {
     // update pattern
     this.$tracks.on('click', '.beat', function(e){
       _this.onClickBeat($(this));
+      _this.opt.onChange();
     });
 
     // mute track

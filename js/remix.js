@@ -41,12 +41,14 @@ var RemixApp = (function() {
 
     this.sequencer = new Sequencer({
       "el": _this.opt.el,
-      "tracks": tracks
+      "tracks": tracks,
+      "onChange": function(){ _this.updateURL(); }
     });
   };
 
   RemixApp.prototype.onLoad = function(){
     this.loadSequencer();
+    this.updateURL();
   };
 
   RemixApp.prototype.onChangeDrums = function(){
@@ -59,6 +61,19 @@ var RemixApp = (function() {
 
   RemixApp.prototype.updateSequencer = function(tracks, type){
     this.sequencer.update(tracks, type);
+    this.updateURL();
+  };
+
+  RemixApp.prototype.updateURL = function(){
+    var data = _.extend({}, this.collections.toJSON(), this.drums.toJSON());
+
+    var urlEncoded = $.param(data);
+    // console.log(urlEncoded);
+
+    if (window.history.pushState) {
+      var url = window.location.href.split('?')[0] + '?' + urlEncoded;
+      window.history.pushState(data, '', url);
+    }
   };
 
   return RemixApp;

@@ -398,6 +398,13 @@ var Collections = (function() {
     this.opt.onChange();
   };
 
+  Collections.prototype.toJSON = function(){
+    return {
+      "itemId": this.item.itemId,
+      "itemStart": this.item.samples[this.sampleIndex].sourceStart
+    }
+  };
+
   Collections.prototype.updateSource = function(){
     var startTime = this.item.samples[this.sampleIndex].sourceStart;
     var startTimeF = MathUtil.secondsToString(startTime/1000.0);

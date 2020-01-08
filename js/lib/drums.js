@@ -11,10 +11,13 @@ var Drums = (function() {
       "audioDir": "/audio/drum_machines/",
       "gain": -9,
       "onChange": function(){},
-      "onDataLoaded": function(){}
+      "onDataLoaded": function(){},
+      "drumName": false,
+      "patternName": false
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
-    this.opt = _.extend({}, defaults, config, globalConfig);
+    var q = Util.queryParams();
+    this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
   }
 
@@ -133,10 +136,7 @@ var Drums = (function() {
     _.each(this.patterns, function(pattern, index){
       var selected = '';
       if (index === _this.patternIndex) selected = ' selected';
-      var name = pattern.artist + ' - ' + pattern.title + ' (' + pattern.year + ') [';
-      if (!Number.isInteger(pattern.category)) name += pattern.category + " ";
-      name += pattern.bar + ']';
-      html += '<option value="'+index+'"'+selected+'>'+name+'</option>';
+      html += '<option value="'+index+'"'+selected+'>'+pattern.name+'</option>';
     });
     $patternSelect.html(html);
     this.$patternSelect = $patternSelect;
@@ -163,6 +163,8 @@ var Drums = (function() {
   };
 
   Drums.prototype.parseData = function(drumData, patternData){
+    var _this = this;
+    
     // parse drums
     var drumItemHeadings = drumData.itemHeadings;
     var drums = _.map(drumData.drums, function(drum){
@@ -175,6 +177,11 @@ var Drums = (function() {
     // this.drumIndex = _.random(0, this.drums.length-1);
     this.drumIndex = 0;
 
+    if (this.opt.drumName !== false) {
+      var foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === _this.opt.drumName); });
+      if (foundIndex >= 0) this.drumIndex = foundIndex;
+    }
+
     // parse patterns
     var patternItemHeadings = patternData.itemHeadings;
     var patterns = [];
@@ -185,6 +192,13 @@ var Drums = (function() {
       _.each(bars, function(pattern, j){
         patterns.push(_.extend({}, meta, {groupIndex: i, pattern: pattern, bar: (j+1), index: patterns.length}));
       });
+    });
+    patterns = _.map(patterns, function(pattern){
+      var name = pattern.artist + ' - ' + pattern.title + ' (' + pattern.year + ') [';
+      if (!Number.isInteger(pattern.category)) name += pattern.category + " ";
+      name += pattern.bar + ']';
+      pattern.name = name;
+      return pattern;
     });
     this.patterns = patterns;
     // break patterns up into groups
@@ -197,6 +211,11 @@ var Drums = (function() {
     this.patternKey = patternData.patternKey;
     this.patternIndex = _.random(0, this.patterns.length-1);
     this.patternGroups = patternGroups;
+
+    if (this.opt.patternName !== false) {
+      var foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === _this.opt.patternName); });
+      if (foundPIndex >= 0) this.patternIndex = foundPIndex;
+    }
   };
 
   Drums.prototype.randomize = function(){
@@ -216,6 +235,13 @@ var Drums = (function() {
     barIndex = MathUtil.wrap(barIndex, 0, patternGroup.length-1);
     var newPattern = patternGroup[barIndex];
     this.$patternSelect.val(""+newPattern.index).trigger('change');
+  };
+
+  Drums.prototype.toJSON = function(){
+    return {
+      "drumName": this.drums[this.drumIndex].name,
+      "patternName": this.patterns[this.patternIndex].name
+    }
   };
 
   return Drums;
