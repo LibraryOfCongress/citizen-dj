@@ -76,14 +76,14 @@ This project will run for one year from September 2019 to September 2020.
 
 You can follow the instructions on the [feedback page]({{ site.baseurl }}/feedback/) for sending feedback for this project.
 
-For press inquiries and collaborations, please contact me at [hello@brianfoo.com](mailto:hello@brianfoo.com).
+For press inquiries and collaborations, please contact me at {{ site.email }}.
 
 ### Can I share my music through your project?
 
-Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email me at [hello@brianfoo.com](mailto:hello@brianfoo.com) or you can share via social media listed below.
+Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email me at {{ site.email }} or you can share via social media listed below.
 
 ### How can I follow along?
 
-You can follow me on [Twitter](https://twitter.com/beefoo) or [Soundcloud](https://soundcloud.com/functionfoo) or sign up for my [newsletter](https://tinyletter.com/brianfoo).
+You can follow the [Library of Congress Labs](https://labs.loc.gov/) on [Twitter](https://twitter.com/lc_labs?lang=en) or sign up for their [newsletter](https://listserv.loc.gov/cgi-bin/wa?SUBED1=LC-LABS&A=1).
 
-You can also follow the [Library of Congress Labs](https://labs.loc.gov/) on [Twitter](https://twitter.com/lc_labs?lang=en) or sign up for their [newsletter](https://listserv.loc.gov/cgi-bin/wa?SUBED1=LC-LABS&A=1).  
+You can also follow me on [Twitter](https://twitter.com/beefoo) or [Soundcloud](https://soundcloud.com/functionfoo) or sign up for my [newsletter](https://tinyletter.com/brianfoo).

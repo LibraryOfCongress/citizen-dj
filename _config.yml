@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Citizen DJ
-email: hello@brianfoo.com
+email: bfoo@loc.gov
 description: >- # this means to ignore newlines until "baseurl:"
   Citizen DJ invites the public to make hip hop music using free-to-use audio and video collections. By embedding these materials in hip hop music, listeners can discover items in the library's vast collections that they likely would never have known existed.
 baseurl: "" # the subpath of your site, e.g. /blog
