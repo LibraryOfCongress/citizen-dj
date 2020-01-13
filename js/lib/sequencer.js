@@ -9,7 +9,8 @@ var Sequencer = (function() {
       "subdivision": 16,
       "bpm": 90,
       "swing": 0.5, // between -0.5 and 0.5
-      "onChange": function(){}
+      "onChange": function(){},
+      "recordingStreamDestination": false
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -50,6 +51,7 @@ var Sequencer = (function() {
     track.settingsTemplate = this.settingsTemplate;
     track.$parent = this.$tracks;
     track.$settingsParent = this.$settings;
+    track.recordingStreamDestination = this.opt.recordingStreamDestination;
     type = type || track.trackType;
     if (!_.has(this.trackIds, type)) this.trackIds[type] = [];
 

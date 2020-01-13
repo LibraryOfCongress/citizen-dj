@@ -13,7 +13,8 @@ var Track = (function() {
       "template": "",
       "$parent": "",
       "pitchShift": 0,
-      "trackType": "collection"
+      "trackType": "collection",
+      "recordingStreamDestination": false
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -32,6 +33,7 @@ var Track = (function() {
     this.isSolo = false;
     this.pattern = this.opt.pattern;
     this.trackType = this.opt.trackType;
+    this.recordingStreamDestination = this.opt.recordingStreamDestination;
   };
 
   Track.prototype.destroy = function(){
@@ -60,7 +62,10 @@ var Track = (function() {
       "volume": this.opt.gain,
       "fadeOut": this.opt.fadeOut,
       "onload": function(){ _this.onPlayerLoad(); }
-    }).chain(Tone.Master);
+    });
+
+    if (this.recordingStreamDestination !== false) this.player.connect(this.recordingStreamDestination);
+    this.player.toMaster()
     // }).chain(this.pitchShift, this.reverb, Tone.Master);
   };
 
