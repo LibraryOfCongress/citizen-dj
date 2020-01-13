@@ -249,7 +249,7 @@ var Collections = (function() {
     if (this.opt.itemStart !== false) {
       var itemStart = parseInt(""+this.opt.itemStart);
       var foundSampleIndex = _.findIndex(this.item.samples, function(s){ return (s.sourceStart <= itemStart && itemStart < (s.sourceStart + s.dur)); });
-      console.log(foundSampleIndex)
+      // console.log(foundSampleIndex)
       if (foundSampleIndex >= 0) sampleIndex = foundSampleIndex;
     }
     this.sampleIndex = sampleIndex;

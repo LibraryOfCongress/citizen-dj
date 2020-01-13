@@ -89,6 +89,10 @@ select.select-drum {
 .controls li:first-child button {
   margin-left: 0;
 }
+.record-audio.active {
+  background: #c75262;
+  color: white;
+}
 
 .track {
   margin-bottom: 0.5rem;

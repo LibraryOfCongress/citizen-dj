@@ -35,6 +35,12 @@ var RemixApp = (function() {
     });
   };
 
+  RemixApp.prototype.loadRecorder = function(){
+    var _this = this;
+
+    this.recorder = new AudioRecorder({});
+  };
+
   RemixApp.prototype.loadSequencer = function(){
     var _this = this;
     var tracks = _.extend({}, this.drums.tracks, this.collections.tracks);
@@ -48,6 +54,7 @@ var RemixApp = (function() {
 
   RemixApp.prototype.onLoad = function(){
     this.loadSequencer();
+    this.loadRecorder();
     this.updateURL();
   };
 
