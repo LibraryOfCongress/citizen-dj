@@ -64,6 +64,15 @@ Lastly, a large focus of this project will be to provide [an accessible and user
 
 In addition to providing a guide to copyright law as it relates to digital sampling for music production, I will also provide a [guide to the ethics]({{ site.baseurl }}/guide/#ethics) of digital sampling from cultural materials. This is particularly relevant to materials such as field recordings and oral histories where the performers or subjects in the source material would benefit from attribution, compensation, context, and a generally respectful approach to creative re-use.
 
+### How do you select/create the audio clips?
+
+For each collection, I use custom computer algorithms that:
+
+1. Cut up the audio files into short clips that are usually under one second, using [onset detection](https://en.wikipedia.org/wiki/Onset_(audio)).
+2. Each of those clips are analyzed for their music-making potential, with preferences with those clips that are sufficiently loud, have less noise, and have a clear musical pitch.
+
+All of my custom software and computer scripts that do this are free and open source. You can find them and documentation in [this project's code repository](https://github.com/LibraryOfCongress/citizen-dj).
+
 ### Who are you?
 
 My name is [Brian Foo](https://brianfoo.com/) and I have worked in libraries and museums for nearly a decade, specializing in the visualization of large collections of media for the public. I am a [2020 innovator-in-residence](https://labs.loc.gov/people/innovator-in-residence-program) at the Library of Congress and a data visualization artist at the [American Museum of Natural History](https://www.amnh.org/).
@@ -78,9 +87,29 @@ You can follow the instructions on the [feedback page]({{ site.baseurl }}/feedba
 
 For press inquiries and collaborations, please contact me at {{ site.email }}.
 
+### How can I save music created on this website?
+
+This website is primarily an audio discovery tool, so the music production functions are limited. The typical use of this website will be to discover new audio, then download that audio for use in your own music production software.
+
+That said, there are a few ways to save and download audio that you find on this website:
+
+1. When "remixing" a collection, a unique URL will be generated when you select a new sequence. You can save that URL for future reference
+2. Also on the "remix" page, there is a "record" button that allows you to record the current sequence until you stop recording. A .wav file will automatically be saved to your computer.
+3. All the sounds that you here can be directly downloaded to your computer. This includes individual clips (downloadable via the download icon) and bulk downloads if you click on the "Learn more & use sounds" button for any given collection.
+
 ### Can I share my music through your project?
 
 Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email me at {{ site.email }} or you can share via social media listed below.
+
+### If I make new music using sounds from this website, what can I do with it?
+
+All the sounds that are available on this website are free and available for unrestricted use for creating new music. This means whatever new music that you create, it is yours and can do whatever you like with it, including selling and making money from it!
+
+For uses beyond creating new music, please refer to the "How can I use these sounds" section for each collection of audio.
+
+### How can I use your software and app?
+
+All the code that powers this website is in the Public Domain unless otherwise noted. You can use, extend, and adapt this app and underlying software however you like. More details can be found in [this project's code repository](https://github.com/LibraryOfCongress/citizen-dj).
 
 ### How can I follow along?
 
