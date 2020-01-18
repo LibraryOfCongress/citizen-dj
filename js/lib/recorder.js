@@ -13,22 +13,27 @@ var AudioRecorder = (function() {
     this.$recordButtons = $('.record-audio');
     this.isSaving = false;
     this.destination = this.opt.destination;
+    this.prevUrl = false;
+
+    this.recorder = new MediaRecorder(this.destination.stream);
 
     this.loadListeners();
   };
 
   AudioRecorder.prototype.exportWavData = function(blob){
     var urlLib = (window.URL || window.webkitURL);
+
+    if (this.prevUrl !== false) {
+      urlLib.revokeObjectURL(this.prevUrl);
+    }
+
     var url = urlLib.createObjectURL(blob);
-    var $a = $('<a>');
-    $a.attr('href', url);
-    $a.attr('download', 'output.wav');
-    // $a.css('display', 'none');
-    $('body').append($a);
+    var a = $('a.record-download-link')[0];
+    a.href = url;
+    a.download = 'output-' + _.last(url.split('/')) + '.wav';
+    this.prevUrl = url;
 
-    $a[0].click();
-
-    urlLib.revokeObjectURL(url);
+    a.click();
   };
 
   AudioRecorder.prototype.loadListeners = function(){
@@ -51,7 +56,6 @@ var AudioRecorder = (function() {
     this.$recordButtons.text('Stop recording');
 
     var _this = this;
-    this.recorder = new MediaRecorder(this.destination.stream);
     this.chunks = [];
     this.recorder.ondataavailable = function(e){
       _this.chunks.push(e.data);

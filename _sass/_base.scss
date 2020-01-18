@@ -165,6 +165,10 @@ footer p {
   font-size: 1rem;
 }
 
+.visually-hidden {
+  @include visuallyHidden;
+}
+
 @font-face {
   font-family: 'Alegreya';
   src: url('../fonts/Alegreya/alegreya-regular-webfont.woff2') format('woff2');

@@ -75,6 +75,11 @@ var Sequencer = (function() {
       });
     }
 
+    // record audio
+    $('.record-audio').on('click', function(e){
+      _this.onClickRecord($(this));
+    });
+
     // change tempo
     if (this.$bpmInput.length) {
       this.$bpmInput.on("input", function(e){
@@ -155,6 +160,15 @@ var Sequencer = (function() {
     this.tracks[trackId].toggleMute();
   };
 
+  Sequencer.prototype.onClickRecord = function($button){
+    var isActive = $button.hasClass('active');
+
+    if (isActive && this.playing) {
+      this.playing = false;
+      this.stop();
+    }
+  };
+
   Sequencer.prototype.onClickSettings = function($button) {
     var trackId = $button.closest('.track').attr('data-track');
     this.currentTrack = trackId;
@@ -174,7 +188,7 @@ var Sequencer = (function() {
     });
   };
 
-  Sequencer.prototype.onStep = function(time, col, subdivision){
+  Sequencer.prototype.onStep = function(time, col){
     var _this = this;
 
     var secondsPerSubd = this.secondsPerSubd;

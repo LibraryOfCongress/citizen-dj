@@ -1,0 +1,139 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Recording test</title>
+  <meta name="description" content="Citizen DJ invites the public to make hip hop music using free-to-use audio and video collections. By embedding these materials in hip hop music, listeners can discover items in the library's vast collections that they likely would never have known existed." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+
+  <style type="text/css">
+
+  </style>
+
+</head>
+<body>
+
+  <button class="play">Play</button>
+  <button class="record">Record</button>
+  <button class="stop">Stop</button>
+
+  <audio controls></audio>
+
+  <a href="" download="output.wav"></a>
+
+<script src="/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="/js/vendor/underscore-1.9.1.min.js"></script>
+<script src="/js/vendor/tone-13.8.25.min.js"></script>
+
+
+<script>
+  'use strict';
+
+  var App = (function() {
+
+    function App(config) { this.init(); }
+
+    App.prototype.init = function(){
+      var _this = this;
+
+      this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
+      this.recorder = new MediaRecorder(this.recordingStreamDestination.stream);
+
+      this.loadSequence();
+      $('.play').on('click', function(e){ _this.Play(); });
+      $('.record').on('click', function(e){ _this.Record(); });
+      $('.stop').on('click', function(e){ _this.Stop(); });
+    };
+
+    App.prototype.loadSequence = function(){
+      var _this = this;
+
+      Tone.Transport.bpm.value = 90;
+
+      var tracks = [
+        {
+          "player": new Tone.Player({
+            "url": "/audio/drum_machines/Roland_Tr-808_full__36kick.mp3",
+            "volume": -6,
+            "fadeOut": "64n",
+            "onload": function(){ console.log('Loaded Kick'); }
+          }).connect(this.recordingStreamDestination).toMaster(),
+          "pattern": [1,0,0,0, 0,0,0,0, 1,1,0,1, 0,0,0,0]
+        },{
+          "player": new Tone.Player({
+            "url": "/audio/drum_machines/Roland_Tr-808_full__38snare.mp3",
+            "volume": -6,
+            "fadeOut": "64n",
+            "onload": function(){ console.log('Loaded Snare'); }
+          }).connect(this.recordingStreamDestination).toMaster(),
+          "pattern": [0,0,0,0, 1,0,0,0, 0,0,0,0, 1,0,0,0]
+        },{
+          "player": new Tone.Player({
+            "url": "/audio/drum_machines/Roland_Tr-808_full__42hat_closed.mp3",
+            "volume": -6,
+            "fadeOut": "64n",
+            "onload": function(){ console.log('Loaded Hat'); }
+          }).connect(this.recordingStreamDestination).toMaster(),
+          "pattern": [1,0,1,0, 1,0,1,0, 1,0,1,0, 1,0,1,0]
+        }
+      ];
+
+      this.loop = new Tone.Sequence(function(time, col){
+        //console.log(time, col);
+        _.each(tracks, function(track){
+          if (!track.player.loaded) return;
+
+          var playTrack = (track.pattern[col] > 0);
+          if (!playTrack) return;
+
+          track.player.start(time);
+        });
+      }, [0,1,2,3, 4,5,6,7, 8,9,10,11, 12,13,14,15], '16n').start(0);
+    };
+
+    App.prototype.Play = function(){
+      if (Tone.context.state !== 'running') Tone.context.resume();
+      Tone.Transport.start();
+
+    };
+
+    App.prototype.Record = function(){
+      this.recorder.start();
+
+      var chunks = [];
+      var audio = $('audio').first()[0];
+      var link = $('a').first()[0];
+
+      this.recorder.ondataavailable = function(e){
+        chunks.push(e.data)
+      };
+
+      this.recorder.onstop = function(e){
+        let blob = new Blob(chunks, { type: 'audio/wav' });
+        // audio.src = URL.createObjectURL(blob);
+        link.href = URL.createObjectURL(blob);
+        link.click();
+      };
+    };
+
+    App.prototype.Stop = function(){
+      this.recorder.stop();
+      Tone.Transport.stop();
+
+
+    };
+
+    return App;
+
+  })();
+
+  $(function() {
+    var app = new App({});
+  });
+
+</script>
+
+</body>
+</html>
