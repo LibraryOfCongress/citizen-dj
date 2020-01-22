@@ -11,6 +11,15 @@
     return {};
   }
 
+  Util.scrollTo = function(el, offset){
+    offset = offset || 0;
+    // $(el)[0].scrollIntoView();
+
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(el).offset().top + offset
+    }, 1000);
+  }
+
 })();
 
 

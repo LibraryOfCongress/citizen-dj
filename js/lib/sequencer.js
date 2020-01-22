@@ -113,6 +113,12 @@ var Sequencer = (function() {
       _this.playAudio($(this).attr('href'));
     });
 
+    $('main').on('click', '.scroll-to', function(e){
+      var offset = $('.sequence-controls-nav').first().height();
+      e.preventDefault();
+      Util.scrollTo($(this).attr('href'), -offset);
+    });
+
     // close dialogs
     $('body').on('click', '.dialog-close-button', function(e){
       $('.dialog-wrapper').removeClass('active');
