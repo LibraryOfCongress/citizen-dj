@@ -165,7 +165,7 @@ python3 phrases_subset.py \
   -in "output/variety-stage/items.csv" \
   -pdir "output/variety-stage/phrasedata/" \
   -sdir "output/variety-stage/sampledata/" \
-  -out "output/variety-stage/items_subset.csv" \
+  -out "output/variety-stage/samples.csv" \
   -sort "clarity=desc" \
   -lim 4096 \
   -limp 8 \
@@ -178,8 +178,176 @@ The following steps now branch based on the specific interface you are building 
 
 ### For the "Explore" collection interface
 
+The previous step might have resulted in more than 4096 samples, so make sure there are exactly 4096 samples; take the samples with the highest musical quality (`clarity`):
+
+```
+python3 filter_csv.py \
+  -in "output/variety-stage/samples.csv" \
+  -sort "clarity=desc" \
+  -limit 4096 \
+  -out "output/variety-stage/samples_grid.csv"
+```
+
+To determine the position (x, y) of each clip, first we need to extract a set of audible features from each clip using [strategies](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum) common in speech recognition software. These set of features are then reduced to just two features using a machine learning algorithm called [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding). This will add two columns (`tsne` and `tsne2`) which will be later used to calculate `x` and `y` respectively. Tweak `-angle` and `-rate` (learning rate) to achieve results that best fit your audio. You can [read more about these parameters here](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html).
+
+```
+python3 samples_to_tsne.py \
+  -in "output/variety-stage/samples_grid.csv" \
+  -dir "output/variety-stage/media/" \
+  -components 2 \
+  -angle 0.1 \
+  -cache "tmp/variety-stage_features.p" \
+  -threads 4 \
+  -rate 50
+```
+
+We're going to repeat the step above to determine the color for each clip, but use 3 dimensions (for RGB) instead of 2. This should be much faster since we cached the features in the previous step. This will add three columns: `color`, `color2`, `color3`
+
+```
+python3 samples_to_tsne.py \
+  -in "output/variety-stage/samples_grid.csv" \
+  -dir "output/variety-stage/media/" \
+  -components 3 \
+  -prefix "color" \
+  -angle 0.1 \
+  -cache "tmp/variety-stage_features.p" \
+  -threads 4 \
+  -rate 50
+```
+
+Now we're going to convert the `tsne` and `tsne2` columns into fixed grid positions. This uses the [Raster Fairy library](https://github.com/Quasimondo/RasterFairy) which only supports Python 2, unfortunately, so be sure you run using Python 2.7+.
+
+```
+python samples_to_grid.py \
+  -in "output/variety-stage/samples_grid.csv" \
+  -grid "64x64"
+```
+
+Next we will generate visual "fingerprints" for each clip as a visual representation of the audio.
+
+```
+python3 samples_to_fingerprints.py \
+  -in "output/variety-stage/samples_grid.csv" \
+  -dir "output/variety-stage/media/" \
+  -out "tmp/variety-stage_fingerprints.p" \
+  -log
+```
+
+Finally we will add the appropriate assets (images, audio files, data files) to the [Citizen DJ App](https://github.com/LibraryOfCongress/citizen-dj).
+
+```
+python3 samples_to_sprite.py \
+  -in "output/variety-stage/samples_grid.csv" \
+  -dir "output/variety-stage/media/" \
+  -id "variety-stage" \
+  -outaud "/full/path/to/citizendj/audio/sprites/{uid}/{uid}.mp3" \
+  -outdat "/full/path/to/citizendj/data/spritedata/{uid}.json" \
+  -outimg "/full/path/to/citizendj/img/sprites/{uid}.png" \
+  -fingerprints "tmp/variety-stage_fingerprints.p" \
+  -colorful
+```
 
 ### For the "Remix" collection interface
 
+First, generate individual audio clip files for each sample with a max duration of 1 second.
 
-### For the "Use" collection interface
+```
+python3 samples_to_files.py \
+  -in "output/variety-stage/samples.csv" \
+  -dir "output/variety-stage/media/" \
+  -out "output/variety-stage/clips/%s.wav" \
+  -dout "output/variety-stage/samples_clips.csv" \
+  -maxd 1000 \
+  -threads 3
+```
+
+Normalize audio so that no clip is significantly louder than another.
+
+```
+python3 normalize_audio.py \
+  -in "output/variety-stage/samples_clips.csv" \
+  -dir "output/variety-stage/clips/" \
+  -out "output/variety-stage/clips_normalized/" \
+  -group "sourceFilename"
+```
+
+Convert audio to .mp3 and move to the [Citizen DJ App](https://github.com/LibraryOfCongress/citizen-dj).
+
+```
+python3 convert_audio.py \
+  -in "output/variety-stage/clips_normalized/*.wav" \
+  -out "/full/path/to/citizendj/audio/collections/variety-stage/%s.mp3" \
+  -overwrite
+```
+
+Generate data for each clip for use in the app:
+
+```
+python3 csv_to_json.py \
+  -in "output/variety-stage/samples_clips.csv" \
+  -props "id,sourceFilename,sourceStart,phrase" \
+  -groups "sourceFilename" \
+  -out "/full/path/to/citizendj/data/sampledata/variety-stage.json" \
+  -light
+```
+
+Next we will add some item-level metadata for display in the app. Generate "year" column based on an item's date:
+
+```
+python3 meta_to_meta.py \
+  -in "output/variety-stage/items.csv" \
+  -key "date" \
+  -pattern "([12][0-9]{3}).*" \
+  -features "year"
+```
+
+Create an embed url based on the item url:
+
+```
+python3 update_meta.py \
+  -in "output/variety-stage/items.csv" \
+  -key "url" \
+  -rkey "embed_url" \
+  -find "(.*)" \
+  -repl "\1/?embed=resources"
+```
+
+Add item-level metadata to the app:
+
+```
+python3 csv_to_json.py \
+  -in "output/variety-stage/items.csv" \
+  -props "title,filename,year,contributors,subjects,url,embed_url" \
+  -out "/full/path/to/citizendj/data/metadata/variety-stage.json" \
+  -filter "phrases>0" \
+  -lists "contributors,subjects" \
+  -light
+```
+
+### For the "Use" collection interface (sample packs)
+
+Generate a sample pack.
+
+```
+python3 make_sample_pack.py \
+  -basedir "output/variety-stage/" \
+  -dir "output/variety-stage/media/" \
+  -idata "items.csv" \
+  -pdata "phrasedata/%s.csv" \
+  -sdata "samples.csv" \
+  -id "id" \
+  -provider "loc.gov" \
+  -cid "variety-stage-sound-recordings-and-motion-pictures" \
+  -out "output/samplepack_variety-stage/"
+```
+
+Move the sample pack and metadata to app.
+
+```
+python3 sample_pack_to_json.py \
+  -idata "output/variety-stage/items.csv" \
+  -bout "/full/path/to/citizendj/" \
+  -sdir "output/samplepack_variety-stage/" \
+  -id "id" \
+  -cid "variety-stage"
+```
