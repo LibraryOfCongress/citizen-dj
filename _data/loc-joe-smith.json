@@ -1,0 +1,2289 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_joe-smith_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "88.1mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_joe-smith_wav.zip",
+            "label": "Download in 32-bit .wav format",
+            "size": "484.5mb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [
+        {
+            "filename": "Off-the-record-interview-with-Abe-Somer-1986-07-31_jsmith000001_001_00-34-33.mp3",
+            "title": "Off the record interview with Abe Somer, 1986-07-31",
+            "timestamp": "34:33",
+            "url": "http://www.loc.gov/item/jsmith000001/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Abe-Somer-1986-07-31_jsmith000001_002_00-34-40.mp3",
+            "title": "Off the record interview with Abe Somer, 1986-07-31",
+            "timestamp": "34:40",
+            "url": "http://www.loc.gov/item/jsmith000001/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Aerosmith-circa-1986-1988_jsmith000002_001_00-04-15.mp3",
+            "title": "Off the record interview with Aerosmith, circa 1986-1988",
+            "timestamp": "04:15",
+            "url": "http://www.loc.gov/item/jsmith000002/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Aerosmith-circa-1986-1988_jsmith000002_002_00-35-21.mp3",
+            "title": "Off the record interview with Aerosmith, circa 1986-1988",
+            "timestamp": "35:21",
+            "url": "http://www.loc.gov/item/jsmith000002/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ahmet-Ertegun-1986-1988-12-04_jsmith000003_001_01-06-15.mp3",
+            "title": "Off the record interview with Ahmet Ertegun, [1986-1988?]-12-04",
+            "timestamp": "01:06:15",
+            "url": "http://www.loc.gov/item/jsmith000003/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ahmet-Ertegun-1986-1988-12-04_jsmith000003_002_01-09-33.mp3",
+            "title": "Off the record interview with Ahmet Ertegun, [1986-1988?]-12-04",
+            "timestamp": "01:09:33",
+            "url": "http://www.loc.gov/item/jsmith000003/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Bennett-1986-1988-06-03_jsmith000004_001_00-39-55.mp3",
+            "title": "Off the record interview with Al Bennett, [1986-1988?]-06-03",
+            "timestamp": "39:55",
+            "url": "http://www.loc.gov/item/jsmith000004/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Bennett-1986-1988-06-03_jsmith000004_002_01-07-09.mp3",
+            "title": "Off the record interview with Al Bennett, [1986-1988?]-06-03",
+            "timestamp": "01:07:09",
+            "url": "http://www.loc.gov/item/jsmith000004/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Gallico-1986-1988-02-13_jsmith000005_001_00-34-27.mp3",
+            "title": "Off the record interview with Al Gallico, [1986-1988?]-02-13",
+            "timestamp": "34:27",
+            "url": "http://www.loc.gov/item/jsmith000005/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Gallico-1986-1988-02-13_jsmith000005_002_00-42-09.mp3",
+            "title": "Off the record interview with Al Gallico, [1986-1988?]-02-13",
+            "timestamp": "42:09",
+            "url": "http://www.loc.gov/item/jsmith000005/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Green-1986-1988-08-19_jsmith000006_001_00-01-49.mp3",
+            "title": "Off the record interview with Al Green, [1986-1988?]-08-19",
+            "timestamp": "01:49",
+            "url": "http://www.loc.gov/item/jsmith000006/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Green-1986-1988-08-19_jsmith000006_002_00-03-10.mp3",
+            "title": "Off the record interview with Al Green, [1986-1988?]-08-19",
+            "timestamp": "03:10",
+            "url": "http://www.loc.gov/item/jsmith000006/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Jarreau-1986-1988-05-29_jsmith000008_001_00-04-40.mp3",
+            "title": "Off the record interview with Al Jarreau, [1986-1988?]-05-29",
+            "timestamp": "04:40",
+            "url": "http://www.loc.gov/item/jsmith000008/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Al-Jarreau-1986-1988-05-29_jsmith000008_002_00-13-45.mp3",
+            "title": "Off the record interview with Al Jarreau, [1986-1988?]-05-29",
+            "timestamp": "13:45",
+            "url": "http://www.loc.gov/item/jsmith000008/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Alice-Cooper-1986-1988-04-25_jsmith000007_001_00-43-05.mp3",
+            "title": "Off the record interview with Alice Cooper, [1986-1988?]-04-25",
+            "timestamp": "43:05",
+            "url": "http://www.loc.gov/item/jsmith000007/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Alice-Cooper-1986-1988-04-25_jsmith000007_002_00-59-53.mp3",
+            "title": "Off the record interview with Alice Cooper, [1986-1988?]-04-25",
+            "timestamp": "59:53",
+            "url": "http://www.loc.gov/item/jsmith000007/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Anita-Pointer-1988-01-27_jsmith000012_001_00-13-59.mp3",
+            "title": "Off the record interview with Anita Pointer, 1988-01-27",
+            "timestamp": "13:59",
+            "url": "http://www.loc.gov/item/jsmith000012/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Anita-Pointer-1988-01-27_jsmith000012_002_00-14-36.mp3",
+            "title": "Off the record interview with Anita Pointer, 1988-01-27",
+            "timestamp": "14:36",
+            "url": "http://www.loc.gov/item/jsmith000012/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Art-Lund-1986-1988-05-29_jsmith000016_001_00-20-03.mp3",
+            "title": "Off the record interview with Art Lund, [1986-1988?]-05-29",
+            "timestamp": "20:03",
+            "url": "http://www.loc.gov/item/jsmith000016/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Art-Lund-1986-1988-05-29_jsmith000016_002_00-40-16.mp3",
+            "title": "Off the record interview with Art Lund, [1986-1988?]-05-29",
+            "timestamp": "40:16",
+            "url": "http://www.loc.gov/item/jsmith000016/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Artie-Ripp-1986-03-14_jsmith000013_001_01-11-19.mp3",
+            "title": "Off the record interview with Artie Ripp, 1986-03-14",
+            "timestamp": "01:11:19",
+            "url": "http://www.loc.gov/item/jsmith000013/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Artie-Ripp-1986-03-14_jsmith000013_002_01-26-24.mp3",
+            "title": "Off the record interview with Artie Ripp, 1986-03-14",
+            "timestamp": "01:26:24",
+            "url": "http://www.loc.gov/item/jsmith000013/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Artie-Shaw-1986-07-01_jsmith000014_001_00-07-38.mp3",
+            "title": "Off the record interview with Artie Shaw, 1986-07-01",
+            "timestamp": "07:38",
+            "url": "http://www.loc.gov/item/jsmith000014/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Artie-Shaw-1986-07-01_jsmith000014_002_00-26-02.mp3",
+            "title": "Off the record interview with Artie Shaw, 1986-07-01",
+            "timestamp": "26:02",
+            "url": "http://www.loc.gov/item/jsmith000014/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ashford-and-Simpson-1986-1988-08-04_jsmith000017_001_00-10-23.mp3",
+            "title": "Off the record interview with Ashford and Simpson, [1986-1988?]-08-04",
+            "timestamp": "10:23",
+            "url": "http://www.loc.gov/item/jsmith000017/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ashford-and-Simpson-1986-1988-08-04_jsmith000017_002_00-41-24.mp3",
+            "title": "Off the record interview with Ashford and Simpson, [1986-1988?]-08-04",
+            "timestamp": "41:24",
+            "url": "http://www.loc.gov/item/jsmith000017/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-B-B-King-1986-1988-09-05_jsmith000022_001_00-06-45.mp3",
+            "title": "Off the record interview with B. B. King, [1986-1988?]-09-05",
+            "timestamp": "06:45",
+            "url": "http://www.loc.gov/item/jsmith000022/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-B-B-King-1986-1988-09-05_jsmith000022_002_00-37-27.mp3",
+            "title": "Off the record interview with B. B. King, [1986-1988?]-09-05",
+            "timestamp": "37:27",
+            "url": "http://www.loc.gov/item/jsmith000022/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Badfinger-1986-1988_jsmith000018_001_00-00-22.mp3",
+            "title": "Off the record interview with Badfinger, [1986-1988?]",
+            "timestamp": "00:22",
+            "url": "http://www.loc.gov/item/jsmith000018/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Badfinger-1986-1988_jsmith000018_002_00-03-54.mp3",
+            "title": "Off the record interview with Badfinger, [1986-1988?]",
+            "timestamp": "03:54",
+            "url": "http://www.loc.gov/item/jsmith000018/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Barry-Mann-1986-03-19_jsmith000020_001_00-49-13.mp3",
+            "title": "Off the record interview with Barry Mann, 1986-03-19",
+            "timestamp": "49:13",
+            "url": "http://www.loc.gov/item/jsmith000020/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Barry-Mann-1986-03-19_jsmith000020_002_00-57-18.mp3",
+            "title": "Off the record interview with Barry Mann, 1986-03-19",
+            "timestamp": "57:18",
+            "url": "http://www.loc.gov/item/jsmith000020/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Barry-White-1987-04-03_jsmith000021_001_00-31-29.mp3",
+            "title": "Off the record interview with Barry White, 1987-04-03",
+            "timestamp": "31:29",
+            "url": "http://www.loc.gov/item/jsmith000021/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Barry-White-1987-04-03_jsmith000021_002_00-54-52.mp3",
+            "title": "Off the record interview with Barry White, 1987-04-03",
+            "timestamp": "54:52",
+            "url": "http://www.loc.gov/item/jsmith000021/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ben-E-King-1986-1988-08-09_jsmith000023_001_00-01-04.mp3",
+            "title": "Off the record interview with Ben E. King, [1986-1988?]-08-09",
+            "timestamp": "01:04",
+            "url": "http://www.loc.gov/item/jsmith000023/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ben-E-King-1986-1988-08-09_jsmith000023_002_00-01-23.mp3",
+            "title": "Off the record interview with Ben E. King, [1986-1988?]-08-09",
+            "timestamp": "01:23",
+            "url": "http://www.loc.gov/item/jsmith000023/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bill-Graham-1988-05-09_jsmith000024_001_00-08-22.mp3",
+            "title": "Off the record interview with Bill Graham, 1988-05-09",
+            "timestamp": "08:22",
+            "url": "http://www.loc.gov/item/jsmith000024/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bill-Graham-1988-05-09_jsmith000024_002_00-51-06.mp3",
+            "title": "Off the record interview with Bill Graham, 1988-05-09",
+            "timestamp": "51:06",
+            "url": "http://www.loc.gov/item/jsmith000024/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bill-Medley-1986-04-21_jsmith000026_001_00-13-27.mp3",
+            "title": "Off the record interview with Bill Medley, 1986-04-21",
+            "timestamp": "13:27",
+            "url": "http://www.loc.gov/item/jsmith000026/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bill-Medley-1986-04-21_jsmith000026_002_00-39-02.mp3",
+            "title": "Off the record interview with Bill Medley, 1986-04-21",
+            "timestamp": "39:02",
+            "url": "http://www.loc.gov/item/jsmith000026/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Billy-Joel-1988-03-03_jsmith000027_001_00-28-15.mp3",
+            "title": "Off the record interview with Billy Joel, 1988-03-03",
+            "timestamp": "28:15",
+            "url": "http://www.loc.gov/item/jsmith000027/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Billy-Joel-1988-03-03_jsmith000027_002_00-28-58.mp3",
+            "title": "Off the record interview with Billy Joel, 1988-03-03",
+            "timestamp": "28:58",
+            "url": "http://www.loc.gov/item/jsmith000027/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Billy-May-1986-1988-04-17_jsmith000028_001_00-06-08.mp3",
+            "title": "Off the record interview with Billy May, [1986-1988?]-04-17",
+            "timestamp": "06:08",
+            "url": "http://www.loc.gov/item/jsmith000028/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Billy-May-1986-1988-04-17_jsmith000028_002_00-17-41.mp3",
+            "title": "Off the record interview with Billy May, [1986-1988?]-04-17",
+            "timestamp": "17:41",
+            "url": "http://www.loc.gov/item/jsmith000028/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bo-Diddley-1986-1988-04-28_jsmith000036_001_00-19-41.mp3",
+            "title": "Off the record interview with Bo Diddley, [1986-1988?]-04-28",
+            "timestamp": "19:41",
+            "url": "http://www.loc.gov/item/jsmith000036/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bo-Diddley-1986-1988-04-28_jsmith000036_002_00-27-07.mp3",
+            "title": "Off the record interview with Bo Diddley, [1986-1988?]-04-28",
+            "timestamp": "27:07",
+            "url": "http://www.loc.gov/item/jsmith000036/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Crewe-1986-1988-03-11_jsmith000031_001_00-21-20.mp3",
+            "title": "Off the record interview with Bob Crewe, [1986-1988?]-03-11",
+            "timestamp": "21:20",
+            "url": "http://www.loc.gov/item/jsmith000031/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Crewe-1986-1988-03-11_jsmith000031_002_00-28-30.mp3",
+            "title": "Off the record interview with Bob Crewe, [1986-1988?]-03-11",
+            "timestamp": "28:30",
+            "url": "http://www.loc.gov/item/jsmith000031/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Marcucci-1986-1988-03-26_jsmith000033_001_00-23-51.mp3",
+            "title": "Off the record interview with Bob Marcucci, [1986-1988?]-03-26",
+            "timestamp": "23:51",
+            "url": "http://www.loc.gov/item/jsmith000033/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Marcucci-1986-1988-03-26_jsmith000033_002_00-45-25.mp3",
+            "title": "Off the record interview with Bob Marcucci, [1986-1988?]-03-26",
+            "timestamp": "45:25",
+            "url": "http://www.loc.gov/item/jsmith000033/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Seger-1988-02-23_jsmith000034_001_00-02-28.mp3",
+            "title": "Off the record interview with Bob Seger, 1988-02-23",
+            "timestamp": "02:28",
+            "url": "http://www.loc.gov/item/jsmith000034/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Seger-1988-02-23_jsmith000034_002_00-24-06.mp3",
+            "title": "Off the record interview with Bob Seger, 1988-02-23",
+            "timestamp": "24:06",
+            "url": "http://www.loc.gov/item/jsmith000034/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Thiele-1986-1988-06-09_jsmith000035_001_00-28-02.mp3",
+            "title": "Off the record interview with Bob Thiele, [1986-1988?]-06-09",
+            "timestamp": "28:02",
+            "url": "http://www.loc.gov/item/jsmith000035/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bob-Thiele-1986-1988-06-09_jsmith000035_002_00-54-16.mp3",
+            "title": "Off the record interview with Bob Thiele, [1986-1988?]-06-09",
+            "timestamp": "54:16",
+            "url": "http://www.loc.gov/item/jsmith000035/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bobby-Vinton-1986-1988-11-12_jsmith000029_001_00-12-24.mp3",
+            "title": "Off the record interview with Bobby Vinton, [1986-1988?]-11-12",
+            "timestamp": "12:24",
+            "url": "http://www.loc.gov/item/jsmith000029/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Bobby-Vinton-1986-1988-11-12_jsmith000029_002_00-20-21.mp3",
+            "title": "Off the record interview with Bobby Vinton, [1986-1988?]-11-12",
+            "timestamp": "20:21",
+            "url": "http://www.loc.gov/item/jsmith000029/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Booker-T-Jones-1986-1988-09-02_jsmith000038_001_00-10-27.mp3",
+            "title": "Off the record interview with Booker T. Jones, [1986-1988?]-09-02",
+            "timestamp": "10:27",
+            "url": "http://www.loc.gov/item/jsmith000038/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Booker-T-Jones-1986-1988-09-02_jsmith000038_002_00-20-35.mp3",
+            "title": "Off the record interview with Booker T. Jones, [1986-1988?]-09-02",
+            "timestamp": "20:35",
+            "url": "http://www.loc.gov/item/jsmith000038/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Boz-Scaggs-1986-1988-09-19_jsmith000039_001_00-18-31.mp3",
+            "title": "Off the record interview with Boz Scaggs, [1986-1988?]-09-19",
+            "timestamp": "18:31",
+            "url": "http://www.loc.gov/item/jsmith000039/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Boz-Scaggs-1986-1988-09-19_jsmith000039_002_00-32-14.mp3",
+            "title": "Off the record interview with Boz Scaggs, [1986-1988?]-09-19",
+            "timestamp": "32:14",
+            "url": "http://www.loc.gov/item/jsmith000039/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Brian-Lane-1986-10-20_jsmith000040_001_00-00-09.mp3",
+            "title": "Off the record interview with Brian Lane, 1986-10-20",
+            "timestamp": "00:09",
+            "url": "http://www.loc.gov/item/jsmith000040/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Brian-Lane-1986-10-20_jsmith000040_002_00-00-50.mp3",
+            "title": "Off the record interview with Brian Lane, 1986-10-20",
+            "timestamp": "00:50",
+            "url": "http://www.loc.gov/item/jsmith000040/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Brooks-Arthur-1986-1988-03-25_jsmith000041_001_00-00-20.mp3",
+            "title": "Off the record interview with Brooks Arthur, [1986-1988?]-03-25",
+            "timestamp": "00:20",
+            "url": "http://www.loc.gov/item/jsmith000041/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Brooks-Arthur-1986-1988-03-25_jsmith000041_002_00-47-26.mp3",
+            "title": "Off the record interview with Brooks Arthur, [1986-1988?]-03-25",
+            "timestamp": "47:26",
+            "url": "http://www.loc.gov/item/jsmith000041/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Buddy-Rich-1986-08-28_jsmith000042_001_00-06-03.mp3",
+            "title": "Off the record interview with Buddy Rich, 1986-08-28",
+            "timestamp": "06:03",
+            "url": "http://www.loc.gov/item/jsmith000042/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Buddy-Rich-1986-08-28_jsmith000042_002_00-38-06.mp3",
+            "title": "Off the record interview with Buddy Rich, 1986-08-28",
+            "timestamp": "38:06",
+            "url": "http://www.loc.gov/item/jsmith000042/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Burt-Bacharach-1986-03-21_jsmith000043_001_00-46-15.mp3",
+            "title": "Off the record interview with Burt Bacharach, 1986-03-21",
+            "timestamp": "46:15",
+            "url": "http://www.loc.gov/item/jsmith000043/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Burt-Bacharach-1986-03-21_jsmith000043_002_00-59-25.mp3",
+            "title": "Off the record interview with Burt Bacharach, 1986-03-21",
+            "timestamp": "59:25",
+            "url": "http://www.loc.gov/item/jsmith000043/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Carmen-McRae-1986-09-29_jsmith000046_001_00-23-04.mp3",
+            "title": "Off the record interview with Carmen McRae, 1986-09-29",
+            "timestamp": "23:04",
+            "url": "http://www.loc.gov/item/jsmith000046/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Carmen-McRae-1986-09-29_jsmith000046_002_00-42-06.mp3",
+            "title": "Off the record interview with Carmen McRae, 1986-09-29",
+            "timestamp": "42:06",
+            "url": "http://www.loc.gov/item/jsmith000046/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Charlie-Barnet-1986-11-24_jsmith000047_001_00-07-42.mp3",
+            "title": "Off the record interview with Charlie Barnet, 1986-11-24",
+            "timestamp": "07:42",
+            "url": "http://www.loc.gov/item/jsmith000047/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Charlie-Barnet-1986-11-24_jsmith000047_002_00-09-01.mp3",
+            "title": "Off the record interview with Charlie Barnet, 1986-11-24",
+            "timestamp": "09:01",
+            "url": "http://www.loc.gov/item/jsmith000047/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Chris-Squire-1986-11-04_jsmith000048_001_00-28-16.mp3",
+            "title": "Off the record interview with Chris Squire, 1986-11-04",
+            "timestamp": "28:16",
+            "url": "http://www.loc.gov/item/jsmith000048/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Chris-Squire-1986-11-04_jsmith000048_002_00-34-13.mp3",
+            "title": "Off the record interview with Chris Squire, 1986-11-04",
+            "timestamp": "34:13",
+            "url": "http://www.loc.gov/item/jsmith000048/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Chris-Wright-1986-1988-10-23_jsmith000050_001_00-34-58.mp3",
+            "title": "Off the record interview with Chris Wright, [1986-1988?]-10-23",
+            "timestamp": "34:58",
+            "url": "http://www.loc.gov/item/jsmith000050/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Chris-Wright-1986-1988-10-23_jsmith000050_002_00-40-32.mp3",
+            "title": "Off the record interview with Chris Wright, [1986-1988?]-10-23",
+            "timestamp": "40:32",
+            "url": "http://www.loc.gov/item/jsmith000050/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Christine-McVie-1986-12-04_jsmith000049_001_00-22-20.mp3",
+            "title": "Off the record interview with Christine McVie, 1986-12-04",
+            "timestamp": "22:20",
+            "url": "http://www.loc.gov/item/jsmith000049/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Christine-McVie-1986-12-04_jsmith000049_002_00-49-48.mp3",
+            "title": "Off the record interview with Christine McVie, 1986-12-04",
+            "timestamp": "49:48",
+            "url": "http://www.loc.gov/item/jsmith000049/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Chubby-Checker-1986-11-06_jsmith000051_001_00-37-02.mp3",
+            "title": "Off the record interview with Chubby Checker, 1986-11-06",
+            "timestamp": "37:02",
+            "url": "http://www.loc.gov/item/jsmith000051/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Chubby-Checker-1986-11-06_jsmith000051_002_00-37-46.mp3",
+            "title": "Off the record interview with Chubby Checker, 1986-11-06",
+            "timestamp": "37:46",
+            "url": "http://www.loc.gov/item/jsmith000051/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Cliff-Richard-1986-10-24_jsmith000052_001_00-06-24.mp3",
+            "title": "Off the record interview with Cliff Richard, 1986-10-24",
+            "timestamp": "06:24",
+            "url": "http://www.loc.gov/item/jsmith000052/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Cliff-Richard-1986-10-24_jsmith000052_002_00-07-12.mp3",
+            "title": "Off the record interview with Cliff Richard, 1986-10-24",
+            "timestamp": "07:12",
+            "url": "http://www.loc.gov/item/jsmith000052/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Clive-Davis-1986-06-11_jsmith000053_001_00-52-57.mp3",
+            "title": "Off the record interview with Clive Davis, 1986-06-11",
+            "timestamp": "52:57",
+            "url": "http://www.loc.gov/item/jsmith000053/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Clive-Davis-1986-06-11_jsmith000053_002_01-07-30.mp3",
+            "title": "Off the record interview with Clive Davis, 1986-06-11",
+            "timestamp": "01:07:30",
+            "url": "http://www.loc.gov/item/jsmith000053/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Country-Joe-McDonald-1986-08-13_jsmith000054_001_00-04-35.mp3",
+            "title": "Off the record interview with Country Joe McDonald, 1986-08-13",
+            "timestamp": "04:35",
+            "url": "http://www.loc.gov/item/jsmith000054/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Country-Joe-McDonald-1986-08-13_jsmith000054_002_00-04-53.mp3",
+            "title": "Off the record interview with Country Joe McDonald, 1986-08-13",
+            "timestamp": "04:53",
+            "url": "http://www.loc.gov/item/jsmith000054/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dan-Fogelberg-1986-12-04_jsmith000055_001_00-30-16.mp3",
+            "title": "Off the record interview with Dan Fogelberg, 1986-12-04",
+            "timestamp": "30:16",
+            "url": "http://www.loc.gov/item/jsmith000055/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dan-Fogelberg-1986-12-04_jsmith000055_002_00-37-58.mp3",
+            "title": "Off the record interview with Dan Fogelberg, 1986-12-04",
+            "timestamp": "37:58",
+            "url": "http://www.loc.gov/item/jsmith000055/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dave-Brubeck-1986-08-07_jsmith000056_001_00-17-37.mp3",
+            "title": "Off the record interview with Dave Brubeck, 1986-08-07",
+            "timestamp": "17:37",
+            "url": "http://www.loc.gov/item/jsmith000056/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dave-Brubeck-1986-08-07_jsmith000056_002_01-17-36.mp3",
+            "title": "Off the record interview with Dave Brubeck, 1986-08-07",
+            "timestamp": "01:17:36",
+            "url": "http://www.loc.gov/item/jsmith000056/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dave-Clark-1986-10-16_jsmith000057_001_00-04-46.mp3",
+            "title": "Off the record interview with Dave Clark, 1986-10-16",
+            "timestamp": "04:46",
+            "url": "http://www.loc.gov/item/jsmith000057/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dave-Clark-1986-10-16_jsmith000057_002_00-19-13.mp3",
+            "title": "Off the record interview with Dave Clark, 1986-10-16",
+            "timestamp": "19:13",
+            "url": "http://www.loc.gov/item/jsmith000057/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Bowie-1988-04-19_jsmith000058_001_00-04-17.mp3",
+            "title": "Off the record interview with David Bowie, 1988-04-19",
+            "timestamp": "04:17",
+            "url": "http://www.loc.gov/item/jsmith000058/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Bowie-1988-04-19_jsmith000058_002_00-36-26.mp3",
+            "title": "Off the record interview with David Bowie, 1988-04-19",
+            "timestamp": "36:26",
+            "url": "http://www.loc.gov/item/jsmith000058/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Gates-1986-10-05_jsmith000059_001_00-04-27.mp3",
+            "title": "Off the record interview with David Gates, 1986-10-05",
+            "timestamp": "04:27",
+            "url": "http://www.loc.gov/item/jsmith000059/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Gates-1986-10-05_jsmith000059_002_00-08-42.mp3",
+            "title": "Off the record interview with David Gates, 1986-10-05",
+            "timestamp": "08:42",
+            "url": "http://www.loc.gov/item/jsmith000059/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Geffen-1986-1988-02-13_jsmith000061_001_00-16-35.mp3",
+            "title": "Off the record interview with David Geffen, [1986-1988?]-02-13",
+            "timestamp": "16:35",
+            "url": "http://www.loc.gov/item/jsmith000061/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Geffen-1986-1988-02-13_jsmith000061_002_00-35-14.mp3",
+            "title": "Off the record interview with David Geffen, [1986-1988?]-02-13",
+            "timestamp": "35:14",
+            "url": "http://www.loc.gov/item/jsmith000061/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Lee-Roth-1987-05-14_jsmith000063_001_00-02-44.mp3",
+            "title": "Off the record interview with David Lee Roth, 1987-05-14",
+            "timestamp": "02:44",
+            "url": "http://www.loc.gov/item/jsmith000063/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-David-Lee-Roth-1987-05-14_jsmith000063_002_00-36-14.mp3",
+            "title": "Off the record interview with David Lee Roth, 1987-05-14",
+            "timestamp": "36:14",
+            "url": "http://www.loc.gov/item/jsmith000063/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dean-Torrence-1986-1988-03-04_jsmith000064_001_00-04-50.mp3",
+            "title": "Off the record interview with Dean Torrence, [1986-1988?]-03-04",
+            "timestamp": "04:50",
+            "url": "http://www.loc.gov/item/jsmith000064/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dean-Torrence-1986-1988-03-04_jsmith000064_002_01-03-44.mp3",
+            "title": "Off the record interview with Dean Torrence, [1986-1988?]-03-04",
+            "timestamp": "01:03:44",
+            "url": "http://www.loc.gov/item/jsmith000064/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dee-Snyder-1986-1988-08-04_jsmith000065_001_00-14-22.mp3",
+            "title": "Off the record interview with Dee Snyder, [1986-1988?]-08-04",
+            "timestamp": "14:22",
+            "url": "http://www.loc.gov/item/jsmith000065/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dee-Snyder-1986-1988-08-04_jsmith000065_002_00-22-37.mp3",
+            "title": "Off the record interview with Dee Snyder, [1986-1988?]-08-04",
+            "timestamp": "22:37",
+            "url": "http://www.loc.gov/item/jsmith000065/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Del-Shannon-1986-1988-06-26_jsmith000066_001_00-00-19.mp3",
+            "title": "Off the record interview with Del Shannon, [1986-1988?]-06-26",
+            "timestamp": "00:19",
+            "url": "http://www.loc.gov/item/jsmith000066/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Del-Shannon-1986-1988-06-26_jsmith000066_002_00-29-19.mp3",
+            "title": "Off the record interview with Del Shannon, [1986-1988?]-06-26",
+            "timestamp": "29:19",
+            "url": "http://www.loc.gov/item/jsmith000066/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dick-Clark-1986-02-14_jsmith000067_001_00-02-09.mp3",
+            "title": "Off the record interview with Dick Clark, 1986-02-14",
+            "timestamp": "02:09",
+            "url": "http://www.loc.gov/item/jsmith000067/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dick-Clark-1986-02-14_jsmith000067_002_00-24-39.mp3",
+            "title": "Off the record interview with Dick Clark, 1986-02-14",
+            "timestamp": "24:39",
+            "url": "http://www.loc.gov/item/jsmith000067/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dion-1987-03_jsmith000068_001_00-04-01.mp3",
+            "title": "Off the record interview with Dion, 1987-03",
+            "timestamp": "04:01",
+            "url": "http://www.loc.gov/item/jsmith000068/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Dion-1987-03_jsmith000068_002_00-11-03.mp3",
+            "title": "Off the record interview with Dion, 1987-03",
+            "timestamp": "11:03",
+            "url": "http://www.loc.gov/item/jsmith000068/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Don-Henley-1986-1988-04-11_jsmith000070_001_00-35-10.mp3",
+            "title": "Off the record interview with Don Henley, [1986-1988?]-04-11",
+            "timestamp": "35:10",
+            "url": "http://www.loc.gov/item/jsmith000070/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Don-Henley-1986-1988-04-11_jsmith000070_002_01-01-18.mp3",
+            "title": "Off the record interview with Don Henley, [1986-1988?]-04-11",
+            "timestamp": "01:01:18",
+            "url": "http://www.loc.gov/item/jsmith000070/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Don-McLean-1986-1988-08-03_jsmith000071_001_00-08-21.mp3",
+            "title": "Off the record interview with Don McLean, [1986-1988?]-08-03",
+            "timestamp": "08:21",
+            "url": "http://www.loc.gov/item/jsmith000071/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Don-McLean-1986-1988-08-03_jsmith000071_002_00-36-22.mp3",
+            "title": "Off the record interview with Don McLean, [1986-1988?]-08-03",
+            "timestamp": "36:22",
+            "url": "http://www.loc.gov/item/jsmith000071/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Donovan-1986-1988-08-15_jsmith000072_001_00-03-00.mp3",
+            "title": "Off the record interview with Donovan, [1986-1988?]-08-15",
+            "timestamp": "03:00",
+            "url": "http://www.loc.gov/item/jsmith000072/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Donovan-1986-1988-08-15_jsmith000072_002_00-19-40.mp3",
+            "title": "Off the record interview with Donovan, [1986-1988?]-08-15",
+            "timestamp": "19:40",
+            "url": "http://www.loc.gov/item/jsmith000072/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Duane-Eddy-1987-08-18_jsmith000073_001_00-02-34.mp3",
+            "title": "Off the record interview with Duane Eddy, 1987-08-18",
+            "timestamp": "02:34",
+            "url": "http://www.loc.gov/item/jsmith000073/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Duane-Eddy-1987-08-18_jsmith000073_002_00-14-34.mp3",
+            "title": "Off the record interview with Duane Eddy, 1987-08-18",
+            "timestamp": "14:34",
+            "url": "http://www.loc.gov/item/jsmith000073/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ed-Ames-1986-1988-05-30_jsmith000074_001_00-12-21.mp3",
+            "title": "Off the record interview with Ed Ames, [1986-1988?]-05-30",
+            "timestamp": "12:21",
+            "url": "http://www.loc.gov/item/jsmith000074/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ed-Ames-1986-1988-05-30_jsmith000074_002_00-15-27.mp3",
+            "title": "Off the record interview with Ed Ames, [1986-1988?]-05-30",
+            "timestamp": "15:27",
+            "url": "http://www.loc.gov/item/jsmith000074/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Eddie-Kendricks-1987-06-30_jsmith000076_001_00-06-23.mp3",
+            "title": "Off the record interview with Eddie Kendricks, 1987-06-30",
+            "timestamp": "06:23",
+            "url": "http://www.loc.gov/item/jsmith000076/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Eddie-Kendricks-1987-06-30_jsmith000076_002_00-16-24.mp3",
+            "title": "Off the record interview with Eddie Kendricks, 1987-06-30",
+            "timestamp": "16:24",
+            "url": "http://www.loc.gov/item/jsmith000076/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ellie-Greenwich-1986-04-02_jsmith000077_001_00-36-28.mp3",
+            "title": "Off the record interview with Ellie Greenwich, 1986-04-02",
+            "timestamp": "36:28",
+            "url": "http://www.loc.gov/item/jsmith000077/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ellie-Greenwich-1986-04-02_jsmith000077_002_00-44-58.mp3",
+            "title": "Off the record interview with Ellie Greenwich, 1986-04-02",
+            "timestamp": "44:58",
+            "url": "http://www.loc.gov/item/jsmith000077/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Elton-John-1986-10-19_jsmith000078_001_00-03-46.mp3",
+            "title": "Off the record interview with Elton John, 1986-10-19",
+            "timestamp": "03:46",
+            "url": "http://www.loc.gov/item/jsmith000078/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Elton-John-1986-10-19_jsmith000078_002_00-06-59.mp3",
+            "title": "Off the record interview with Elton John, 1986-10-19",
+            "timestamp": "06:59",
+            "url": "http://www.loc.gov/item/jsmith000078/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Fabian-1986-1988-05-22_jsmith000079_001_00-19-59.mp3",
+            "title": "Off the record interview with Fabian, [1986-1988?]-05-22",
+            "timestamp": "19:59",
+            "url": "http://www.loc.gov/item/jsmith000079/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Fabian-1986-1988-05-22_jsmith000079_002_00-43-49.mp3",
+            "title": "Off the record interview with Fabian, [1986-1988?]-05-22",
+            "timestamp": "43:49",
+            "url": "http://www.loc.gov/item/jsmith000079/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Frankie-Laine-1986-1988-05-19_jsmith000080_001_01-14-59.mp3",
+            "title": "Off the record interview with Frankie Laine, [1986-1988?]-05-19",
+            "timestamp": "01:14:59",
+            "url": "http://www.loc.gov/item/jsmith000080/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Frankie-Laine-1986-1988-05-19_jsmith000080_002_01-22-35.mp3",
+            "title": "Off the record interview with Frankie Laine, [1986-1988?]-05-19",
+            "timestamp": "01:22:35",
+            "url": "http://www.loc.gov/item/jsmith000080/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Frankie-Valli-1986-1988-02-07_jsmith000081_001_00-03-17.mp3",
+            "title": "Off the record interview with Frankie Valli, [1986-1988?]-02-07",
+            "timestamp": "03:17",
+            "url": "http://www.loc.gov/item/jsmith000081/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Frankie-Valli-1986-1988-02-07_jsmith000081_002_00-03-30.mp3",
+            "title": "Off the record interview with Frankie Valli, [1986-1988?]-02-07",
+            "timestamp": "03:30",
+            "url": "http://www.loc.gov/item/jsmith000081/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Gene-Simmons-1986-08-21_jsmith000082_001_00-32-38.mp3",
+            "title": "Off the record interview with Gene Simmons, 1986-08-21",
+            "timestamp": "32:38",
+            "url": "http://www.loc.gov/item/jsmith000082/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Gene-Simmons-1986-08-21_jsmith000082_002_00-45-31.mp3",
+            "title": "Off the record interview with Gene Simmons, 1986-08-21",
+            "timestamp": "45:31",
+            "url": "http://www.loc.gov/item/jsmith000082/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-George-Harrison-1988-02-12_jsmith000084_001_00-01-08.mp3",
+            "title": "Off the record interview with George Harrison, 1988-02-12",
+            "timestamp": "01:08",
+            "url": "http://www.loc.gov/item/jsmith000084/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-George-Harrison-1988-02-12_jsmith000084_002_00-03-25.mp3",
+            "title": "Off the record interview with George Harrison, 1988-02-12",
+            "timestamp": "03:25",
+            "url": "http://www.loc.gov/item/jsmith000084/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-George-Martin-1986-10-22_jsmith000085_001_00-30-47.mp3",
+            "title": "Off the record interview with George Martin, 1986-10-22",
+            "timestamp": "30:47",
+            "url": "http://www.loc.gov/item/jsmith000085/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-George-Martin-1986-10-22_jsmith000085_002_00-33-45.mp3",
+            "title": "Off the record interview with George Martin, 1986-10-22",
+            "timestamp": "33:45",
+            "url": "http://www.loc.gov/item/jsmith000085/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-George-Michael-1986-11-10_jsmith000086_001_00-16-03.mp3",
+            "title": "Off the record interview with George Michael, 1986-11-10",
+            "timestamp": "16:03",
+            "url": "http://www.loc.gov/item/jsmith000086/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-George-Michael-1986-11-10_jsmith000086_002_00-31-08.mp3",
+            "title": "Off the record interview with George Michael, 1986-11-10",
+            "timestamp": "31:08",
+            "url": "http://www.loc.gov/item/jsmith000086/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Gerry-Goffin-1986-03-21_jsmith000087_001_00-05-51.mp3",
+            "title": "Off the record interview with Gerry Goffin, 1986-03-21",
+            "timestamp": "05:51",
+            "url": "http://www.loc.gov/item/jsmith000087/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Gerry-Goffin-1986-03-21_jsmith000087_002_00-12-34.mp3",
+            "title": "Off the record interview with Gerry Goffin, 1986-03-21",
+            "timestamp": "12:34",
+            "url": "http://www.loc.gov/item/jsmith000087/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Glenn-Frey-1986-1988-01-29_jsmith000088_001_00-26-05.mp3",
+            "title": "Off the record interview with Glenn Frey, [1986-1988?]-01-29",
+            "timestamp": "26:05",
+            "url": "http://www.loc.gov/item/jsmith000088/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Glenn-Frey-1986-1988-01-29_jsmith000088_002_00-30-25.mp3",
+            "title": "Off the record interview with Glenn Frey, [1986-1988?]-01-29",
+            "timestamp": "30:25",
+            "url": "http://www.loc.gov/item/jsmith000088/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Graham-Nash-1986-1988-05-09_jsmith000089_001_00-55-27.mp3",
+            "title": "Off the record interview with Graham Nash, [1986-1988?]-05-09",
+            "timestamp": "55:27",
+            "url": "http://www.loc.gov/item/jsmith000089/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Graham-Nash-1986-1988-05-09_jsmith000089_002_00-56-48.mp3",
+            "title": "Off the record interview with Graham Nash, [1986-1988?]-05-09",
+            "timestamp": "56:48",
+            "url": "http://www.loc.gov/item/jsmith000089/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Harold-Leventhal-1986-1988-06-10_jsmith000092_001_00-16-18.mp3",
+            "title": "Off the record interview with Harold Leventhal, [1986-1988?]-06-10",
+            "timestamp": "16:18",
+            "url": "http://www.loc.gov/item/jsmith000092/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Harold-Leventhal-1986-1988-06-10_jsmith000092_002_00-39-30.mp3",
+            "title": "Off the record interview with Harold Leventhal, [1986-1988?]-06-10",
+            "timestamp": "39:30",
+            "url": "http://www.loc.gov/item/jsmith000092/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Henry-Mancini-1986-1988-05-14_jsmith000094_001_00-05-36.mp3",
+            "title": "Off the record interview with Henry Mancini, [1986-1988?]-05-14",
+            "timestamp": "05:36",
+            "url": "http://www.loc.gov/item/jsmith000094/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Henry-Mancini-1986-1988-05-14_jsmith000094_002_00-14-51.mp3",
+            "title": "Off the record interview with Henry Mancini, [1986-1988?]-05-14",
+            "timestamp": "14:51",
+            "url": "http://www.loc.gov/item/jsmith000094/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Herb-Alpert-1987-02-12_jsmith000095_001_00-11-29.mp3",
+            "title": "Off the record interview with Herb Alpert, 1987-02-12",
+            "timestamp": "11:29",
+            "url": "http://www.loc.gov/item/jsmith000095/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Herb-Alpert-1987-02-12_jsmith000095_002_00-46-17.mp3",
+            "title": "Off the record interview with Herb Alpert, 1987-02-12",
+            "timestamp": "46:17",
+            "url": "http://www.loc.gov/item/jsmith000095/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Herb-Jeffries-1986-1988-05-15_jsmith000097_001_00-59-58.mp3",
+            "title": "Off the record interview with Herb Jeffries, [1986-1988?]-05-15",
+            "timestamp": "59:58",
+            "url": "http://www.loc.gov/item/jsmith000097/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Herb-Jeffries-1986-1988-05-15_jsmith000097_002_01-02-42.mp3",
+            "title": "Off the record interview with Herb Jeffries, [1986-1988?]-05-15",
+            "timestamp": "01:02:42",
+            "url": "http://www.loc.gov/item/jsmith000097/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Herbie-Hancock-1986-1988-04-17_jsmith000096_001_01-25-12.mp3",
+            "title": "Off the record interview with Herbie Hancock, [1986-1988?]-04-17",
+            "timestamp": "01:25:12",
+            "url": "http://www.loc.gov/item/jsmith000096/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Herbie-Hancock-1986-1988-04-17_jsmith000096_002_01-33-04.mp3",
+            "title": "Off the record interview with Herbie Hancock, [1986-1988?]-04-17",
+            "timestamp": "01:33:04",
+            "url": "http://www.loc.gov/item/jsmith000096/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ian-Anderson-1986-10-17_jsmith000098_001_00-01-27.mp3",
+            "title": "Off the record interview with Ian Anderson, 1986-10-17",
+            "timestamp": "01:27",
+            "url": "http://www.loc.gov/item/jsmith000098/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ian-Anderson-1986-10-17_jsmith000098_002_00-01-34.mp3",
+            "title": "Off the record interview with Ian Anderson, 1986-10-17",
+            "timestamp": "01:34",
+            "url": "http://www.loc.gov/item/jsmith000098/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Isaac-Hayes-1987-08-19_jsmith000099_001_00-09-29.mp3",
+            "title": "Off the record interview with Isaac Hayes, 1987-08-19",
+            "timestamp": "09:29",
+            "url": "http://www.loc.gov/item/jsmith000099/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Isaac-Hayes-1987-08-19_jsmith000099_002_00-15-20.mp3",
+            "title": "Off the record interview with Isaac Hayes, 1987-08-19",
+            "timestamp": "15:20",
+            "url": "http://www.loc.gov/item/jsmith000099/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jack-Leonard-1986-1988-05-15_jsmith000101_001_00-47-14.mp3",
+            "title": "Off the record interview with Jack Leonard, [1986-1988?]-05-15",
+            "timestamp": "47:14",
+            "url": "http://www.loc.gov/item/jsmith000101/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jack-Leonard-1986-1988-05-15_jsmith000101_002_00-48-03.mp3",
+            "title": "Off the record interview with Jack Leonard, [1986-1988?]-05-15",
+            "timestamp": "48:03",
+            "url": "http://www.loc.gov/item/jsmith000101/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-James-Taylor-1988-01-19_jsmith000104_001_00-22-44.mp3",
+            "title": "Off the record interview with James Taylor, 1988-01-19",
+            "timestamp": "22:44",
+            "url": "http://www.loc.gov/item/jsmith000104/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jan-Wenner-1986-1988-12-08_jsmith000106_001_00-21-41.mp3",
+            "title": "Off the record interview with Jan Wenner, [1986-1988?]-12-08",
+            "timestamp": "21:41",
+            "url": "http://www.loc.gov/item/jsmith000106/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jan-Wenner-1986-1988-12-08_jsmith000106_002_00-55-19.mp3",
+            "title": "Off the record interview with Jan Wenner, [1986-1988?]-12-08",
+            "timestamp": "55:19",
+            "url": "http://www.loc.gov/item/jsmith000106/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jeff-Barry-1986-1988-03-14_jsmith000107_001_00-03-53.mp3",
+            "title": "Off the record interview with Jeff Barry, [1986-1988?]-03-14",
+            "timestamp": "03:53",
+            "url": "http://www.loc.gov/item/jsmith000107/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jeff-Barry-1986-1988-03-14_jsmith000107_002_01-04-49.mp3",
+            "title": "Off the record interview with Jeff Barry, [1986-1988?]-03-14",
+            "timestamp": "01:04:49",
+            "url": "http://www.loc.gov/item/jsmith000107/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Lee-Lewis-1987-12-13_jsmith000109_001_00-01-28.mp3",
+            "title": "Off the record interview with Jerry Lee Lewis, 1987-12-13",
+            "timestamp": "01:28",
+            "url": "http://www.loc.gov/item/jsmith000109/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Lee-Lewis-1987-12-13_jsmith000109_002_00-07-12.mp3",
+            "title": "Off the record interview with Jerry Lee Lewis, 1987-12-13",
+            "timestamp": "07:12",
+            "url": "http://www.loc.gov/item/jsmith000109/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Leiber-1986-1988-08-20_jsmith000110_001_00-21-41.mp3",
+            "title": "Off the record interview with Jerry Leiber, [1986-1988?]-08-20",
+            "timestamp": "21:41",
+            "url": "http://www.loc.gov/item/jsmith000110/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Leiber-1986-1988-08-20_jsmith000110_002_00-35-04.mp3",
+            "title": "Off the record interview with Jerry Leiber, [1986-1988?]-08-20",
+            "timestamp": "35:04",
+            "url": "http://www.loc.gov/item/jsmith000110/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Ragavoy-1986-04-02_jsmith000111_001_00-37-47.mp3",
+            "title": "Off the record interview with Jerry Ragavoy, 1986-04-02",
+            "timestamp": "37:47",
+            "url": "http://www.loc.gov/item/jsmith000111/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Ragavoy-1986-04-02_jsmith000111_002_00-41-57.mp3",
+            "title": "Off the record interview with Jerry Ragavoy, 1986-04-02",
+            "timestamp": "41:57",
+            "url": "http://www.loc.gov/item/jsmith000111/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Wexler-1986-1988-03-13_jsmith000112_001_00-33-52.mp3",
+            "title": "Off the record interview with Jerry Wexler, [1986-1988?]-03-13",
+            "timestamp": "33:52",
+            "url": "http://www.loc.gov/item/jsmith000112/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Wexler-1986-1988-03-13_jsmith000112_002_00-39-24.mp3",
+            "title": "Off the record interview with Jerry Wexler, [1986-1988?]-03-13",
+            "timestamp": "39:24",
+            "url": "http://www.loc.gov/item/jsmith000112/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jimmie-Haskell-1986-1988-07-02_jsmith000113_001_00-05-57.mp3",
+            "title": "Off the record interview with Jimmie Haskell, [1986-1988?]-07-02",
+            "timestamp": "05:57",
+            "url": "http://www.loc.gov/item/jsmith000113/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jimmie-Haskell-1986-1988-07-02_jsmith000113_002_00-41-13.mp3",
+            "title": "Off the record interview with Jimmie Haskell, [1986-1988?]-07-02",
+            "timestamp": "41:13",
+            "url": "http://www.loc.gov/item/jsmith000113/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jimmy-Webb-1986-08-18_jsmith000114_001_00-04-45.mp3",
+            "title": "Off the record interview with Jimmy Webb, 1986-08-18",
+            "timestamp": "04:45",
+            "url": "http://www.loc.gov/item/jsmith000114/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jimmy-Webb-1986-08-18_jsmith000114_002_00-09-45.mp3",
+            "title": "Off the record interview with Jimmy Webb, 1986-08-18",
+            "timestamp": "09:45",
+            "url": "http://www.loc.gov/item/jsmith000114/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jo-Stafford-1986-1988-03-25_jsmith000127_001_00-10-28.mp3",
+            "title": "Off the record interview with Jo Stafford, [1986-1988?]-03-25",
+            "timestamp": "10:28",
+            "url": "http://www.loc.gov/item/jsmith000127/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jo-Stafford-1986-1988-03-25_jsmith000127_002_00-30-01.mp3",
+            "title": "Off the record interview with Jo Stafford, [1986-1988?]-03-25",
+            "timestamp": "30:01",
+            "url": "http://www.loc.gov/item/jsmith000127/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Joan-Baez-1988-02-14_jsmith000115_001_00-11-34.mp3",
+            "title": "Off the record interview with Joan Baez, 1988-02-14",
+            "timestamp": "11:34",
+            "url": "http://www.loc.gov/item/jsmith000115/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Joe-Cocker-1986-09-29_jsmith000116_001_00-03-10.mp3",
+            "title": "Off the record interview with Joe Cocker, 1986-09-29",
+            "timestamp": "03:10",
+            "url": "http://www.loc.gov/item/jsmith000116/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Joe-Cocker-1986-09-29_jsmith000116_002_00-16-43.mp3",
+            "title": "Off the record interview with Joe Cocker, 1986-09-29",
+            "timestamp": "16:43",
+            "url": "http://www.loc.gov/item/jsmith000116/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Cougar-Mellencamp-1986-12-17_jsmith000118_001_00-07-12.mp3",
+            "title": "Off the record interview with John Cougar Mellencamp, 1986-12-17",
+            "timestamp": "07:12",
+            "url": "http://www.loc.gov/item/jsmith000118/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Cougar-Mellencamp-1986-12-17_jsmith000118_002_00-20-32.mp3",
+            "title": "Off the record interview with John Cougar Mellencamp, 1986-12-17",
+            "timestamp": "20:32",
+            "url": "http://www.loc.gov/item/jsmith000118/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Fogerty-1986-1988-02-13_jsmith000119_001_00-30-42.mp3",
+            "title": "Off the record interview with John Fogerty, [1986-1988?]-02-13",
+            "timestamp": "30:42",
+            "url": "http://www.loc.gov/item/jsmith000119/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Fogerty-1986-1988-02-13_jsmith000119_002_00-44-57.mp3",
+            "title": "Off the record interview with John Fogerty, [1986-1988?]-02-13",
+            "timestamp": "44:57",
+            "url": "http://www.loc.gov/item/jsmith000119/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Sebastian-1986-12-16_jsmith000123_001_00-12-01.mp3",
+            "title": "Off the record interview with John Sebastian, 1986-12-16",
+            "timestamp": "12:01",
+            "url": "http://www.loc.gov/item/jsmith000123/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Sebastian-1986-12-16_jsmith000123_002_00-43-01.mp3",
+            "title": "Off the record interview with John Sebastian, 1986-12-16",
+            "timestamp": "43:01",
+            "url": "http://www.loc.gov/item/jsmith000123/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Stewart-1986-1988-05-12_jsmith000124_001_00-31-58.mp3",
+            "title": "Off the record interview with John Stewart, [1986-1988?]-05-12",
+            "timestamp": "31:58",
+            "url": "http://www.loc.gov/item/jsmith000124/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-John-Stewart-1986-1988-05-12_jsmith000124_002_00-40-19.mp3",
+            "title": "Off the record interview with John Stewart, [1986-1988?]-05-12",
+            "timestamp": "40:19",
+            "url": "http://www.loc.gov/item/jsmith000124/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Johnnie-Ray-1988-02-06_jsmith000121_001_00-04-48.mp3",
+            "title": "Off the record interview with Johnnie Ray, 1988-02-06",
+            "timestamp": "04:48",
+            "url": "http://www.loc.gov/item/jsmith000121/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Johnnie-Ray-1988-02-06_jsmith000121_002_00-29-24.mp3",
+            "title": "Off the record interview with Johnnie Ray, 1988-02-06",
+            "timestamp": "29:24",
+            "url": "http://www.loc.gov/item/jsmith000121/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Johnny-Rivers-1986-1988-11-10_jsmith000122_001_00-03-50.mp3",
+            "title": "Off the record interview with Johnny Rivers, [1986-1988?]-11-10",
+            "timestamp": "03:50",
+            "url": "http://www.loc.gov/item/jsmith000122/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Johnny-Rivers-1986-1988-11-10_jsmith000122_002_00-10-36.mp3",
+            "title": "Off the record interview with Johnny Rivers, [1986-1988?]-11-10",
+            "timestamp": "10:36",
+            "url": "http://www.loc.gov/item/jsmith000122/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jon-Anderson-1986-10-07_jsmith000125_001_00-09-25.mp3",
+            "title": "Off the record interview with Jon Anderson, 1986-10-07",
+            "timestamp": "09:25",
+            "url": "http://www.loc.gov/item/jsmith000125/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jon-Anderson-1986-10-07_jsmith000125_002_00-40-29.mp3",
+            "title": "Off the record interview with Jon Anderson, 1986-10-07",
+            "timestamp": "40:29",
+            "url": "http://www.loc.gov/item/jsmith000125/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Joni-Mitchell-1986-1988-11-03_jsmith000126_001_00-13-36.mp3",
+            "title": "Off the record interview with Joni Mitchell, [1986-1988?]-11-03",
+            "timestamp": "13:36",
+            "url": "http://www.loc.gov/item/jsmith000126/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Joni-Mitchell-1986-1988-11-03_jsmith000126_002_00-13-41.mp3",
+            "title": "Off the record interview with Joni Mitchell, [1986-1988?]-11-03",
+            "timestamp": "13:41",
+            "url": "http://www.loc.gov/item/jsmith000126/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Judy-Collins-1986-10-06_jsmith000128_001_00-03-42.mp3",
+            "title": "Off the record interview with Judy Collins, 1986-10-06",
+            "timestamp": "03:42",
+            "url": "http://www.loc.gov/item/jsmith000128/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Judy-Collins-1986-10-06_jsmith000128_002_00-33-18.mp3",
+            "title": "Off the record interview with Judy Collins, 1986-10-06",
+            "timestamp": "33:18",
+            "url": "http://www.loc.gov/item/jsmith000128/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Justin-Hayward-1988-01-15_jsmith000129_001_00-09-13.mp3",
+            "title": "Off the record interview with Justin Hayward, 1988-01-15",
+            "timestamp": "09:13",
+            "url": "http://www.loc.gov/item/jsmith000129/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Justin-Hayward-1988-01-15_jsmith000129_002_00-16-06.mp3",
+            "title": "Off the record interview with Justin Hayward, 1988-01-15",
+            "timestamp": "16:06",
+            "url": "http://www.loc.gov/item/jsmith000129/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Kenny-Gamble-1987-08-20_jsmith000130_001_00-43-28.mp3",
+            "title": "Off the record interview with Kenny Gamble, 1987-08-20",
+            "timestamp": "43:28",
+            "url": "http://www.loc.gov/item/jsmith000130/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Kenny-Gamble-1987-08-20_jsmith000130_002_00-46-36.mp3",
+            "title": "Off the record interview with Kenny Gamble, 1987-08-20",
+            "timestamp": "46:36",
+            "url": "http://www.loc.gov/item/jsmith000130/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Kenny-Rogers-1986-1988-08-01_jsmith000131_001_00-24-09.mp3",
+            "title": "Off the record interview with Kenny Rogers, [1986-1988?]-08-01",
+            "timestamp": "24:09",
+            "url": "http://www.loc.gov/item/jsmith000131/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Kenny-Rogers-1986-1988-08-01_jsmith000131_002_00-26-57.mp3",
+            "title": "Off the record interview with Kenny Rogers, [1986-1988?]-08-01",
+            "timestamp": "26:57",
+            "url": "http://www.loc.gov/item/jsmith000131/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lamont-Dozier-1986-05-20_jsmith000132_001_00-17-39.mp3",
+            "title": "Off the record interview with Lamont Dozier, 1986-05-20",
+            "timestamp": "17:39",
+            "url": "http://www.loc.gov/item/jsmith000132/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lamont-Dozier-1986-05-20_jsmith000132_002_00-20-27.mp3",
+            "title": "Off the record interview with Lamont Dozier, 1986-05-20",
+            "timestamp": "20:27",
+            "url": "http://www.loc.gov/item/jsmith000132/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Leo-Sayer-1986-10-16_jsmith000133_001_00-12-19.mp3",
+            "title": "Off the record interview with Leo Sayer, 1986-10-16",
+            "timestamp": "12:19",
+            "url": "http://www.loc.gov/item/jsmith000133/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Leo-Sayer-1986-10-16_jsmith000133_002_00-39-12.mp3",
+            "title": "Off the record interview with Leo Sayer, 1986-10-16",
+            "timestamp": "39:12",
+            "url": "http://www.loc.gov/item/jsmith000133/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Les-Baxter-1986-1988-05-20_jsmith000134_001_00-18-52.mp3",
+            "title": "Off the record interview with Les Baxter, [1986-1988?]-05-20",
+            "timestamp": "18:52",
+            "url": "http://www.loc.gov/item/jsmith000134/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Les-Baxter-1986-1988-05-20_jsmith000134_002_00-38-08.mp3",
+            "title": "Off the record interview with Les Baxter, [1986-1988?]-05-20",
+            "timestamp": "38:08",
+            "url": "http://www.loc.gov/item/jsmith000134/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Les-Paul-1987-12-05_jsmith000137_001_00-36-04.mp3",
+            "title": "Off the record interview with Les Paul, 1987-12-05",
+            "timestamp": "36:04",
+            "url": "http://www.loc.gov/item/jsmith000137/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Les-Paul-1987-12-05_jsmith000137_002_01-30-56.mp3",
+            "title": "Off the record interview with Les Paul, 1987-12-05",
+            "timestamp": "01:30:56",
+            "url": "http://www.loc.gov/item/jsmith000137/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lester-Sill-1986-03-13_jsmith000138_001_00-12-46.mp3",
+            "title": "Off the record interview with Lester Sill, 1986-03-13",
+            "timestamp": "12:46",
+            "url": "http://www.loc.gov/item/jsmith000138/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lester-Sill-1986-03-13_jsmith000138_002_01-07-51.mp3",
+            "title": "Off the record interview with Lester Sill, 1986-03-13",
+            "timestamp": "01:07:51",
+            "url": "http://www.loc.gov/item/jsmith000138/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Levi-Stubbs-1987-08-10_jsmith000139_001_00-07-48.mp3",
+            "title": "Off the record interview with Levi Stubbs, 1987-08-10",
+            "timestamp": "07:48",
+            "url": "http://www.loc.gov/item/jsmith000139/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Levi-Stubbs-1987-08-10_jsmith000139_002_00-10-20.mp3",
+            "title": "Off the record interview with Levi Stubbs, 1987-08-10",
+            "timestamp": "10:20",
+            "url": "http://www.loc.gov/item/jsmith000139/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Linda-Ronstadt-1986-04-23_jsmith000140_001_00-11-27.mp3",
+            "title": "Off the record interview with Linda Ronstadt, 1986-04-23",
+            "timestamp": "11:27",
+            "url": "http://www.loc.gov/item/jsmith000140/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Linda-Ronstadt-1986-04-23_jsmith000140_002_00-16-02.mp3",
+            "title": "Off the record interview with Linda Ronstadt, 1986-04-23",
+            "timestamp": "16:02",
+            "url": "http://www.loc.gov/item/jsmith000140/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lindsey-Buckingham-1986-09-09_jsmith000141_001_00-02-45.mp3",
+            "title": "Off the record interview with Lindsey Buckingham, 1986-09-09",
+            "timestamp": "02:45",
+            "url": "http://www.loc.gov/item/jsmith000141/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lindsey-Buckingham-1986-09-09_jsmith000141_002_00-14-33.mp3",
+            "title": "Off the record interview with Lindsey Buckingham, 1986-09-09",
+            "timestamp": "14:33",
+            "url": "http://www.loc.gov/item/jsmith000141/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lionel-Hampton-1986-1988-04-03_jsmith000142_001_00-49-11.mp3",
+            "title": "Off the record interview with Lionel Hampton, [1986-1988?]-04-03",
+            "timestamp": "49:11",
+            "url": "http://www.loc.gov/item/jsmith000142/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lionel-Hampton-1986-1988-04-03_jsmith000142_002_01-07-26.mp3",
+            "title": "Off the record interview with Lionel Hampton, [1986-1988?]-04-03",
+            "timestamp": "01:07:26",
+            "url": "http://www.loc.gov/item/jsmith000142/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lionel-Richie-1987-12-09_jsmith000143_001_00-01-11.mp3",
+            "title": "Off the record interview with Lionel Richie, 1987-12-09",
+            "timestamp": "01:11",
+            "url": "http://www.loc.gov/item/jsmith000143/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lionel-Richie-1987-12-09_jsmith000143_002_00-20-35.mp3",
+            "title": "Off the record interview with Lionel Richie, 1987-12-09",
+            "timestamp": "20:35",
+            "url": "http://www.loc.gov/item/jsmith000143/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Little-Anthony-1986-12-02_jsmith000144_001_00-27-44.mp3",
+            "title": "Off the record interview with Little Anthony, 1986-12-02",
+            "timestamp": "27:44",
+            "url": "http://www.loc.gov/item/jsmith000144/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Little-Anthony-1986-12-02_jsmith000144_002_00-40-45.mp3",
+            "title": "Off the record interview with Little Anthony, 1986-12-02",
+            "timestamp": "40:45",
+            "url": "http://www.loc.gov/item/jsmith000144/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Little-Richard-1984-09-17_jsmith000145_001_00-19-48.mp3",
+            "title": "Off the record interview with Little Richard, 1984-09-17",
+            "timestamp": "19:48",
+            "url": "http://www.loc.gov/item/jsmith000145/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Little-Richard-1984-09-17_jsmith000145_002_00-23-49.mp3",
+            "title": "Off the record interview with Little Richard, 1984-09-17",
+            "timestamp": "23:49",
+            "url": "http://www.loc.gov/item/jsmith000145/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Adler-1986-1988-02-25_jsmith000147_001_00-24-51.mp3",
+            "title": "Off the record interview with Lou Adler, [1986-1988?]-02-25",
+            "timestamp": "24:51",
+            "url": "http://www.loc.gov/item/jsmith000147/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Adler-1986-1988-02-25_jsmith000147_002_00-50-37.mp3",
+            "title": "Off the record interview with Lou Adler, [1986-1988?]-02-25",
+            "timestamp": "50:37",
+            "url": "http://www.loc.gov/item/jsmith000147/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Levy-1986-1988-04-03_jsmith000148_001_00-46-13.mp3",
+            "title": "Off the record interview with Lou Levy, [1986-1988?]-04-03",
+            "timestamp": "46:13",
+            "url": "http://www.loc.gov/item/jsmith000148/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Levy-1986-1988-04-03_jsmith000148_002_00-53-08.mp3",
+            "title": "Off the record interview with Lou Levy, [1986-1988?]-04-03",
+            "timestamp": "53:08",
+            "url": "http://www.loc.gov/item/jsmith000148/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Rawls-1986-1988-03-16_jsmith000149_001_00-07-57.mp3",
+            "title": "Off the record interview with Lou Rawls, [1986-1988?]-03-16",
+            "timestamp": "07:57",
+            "url": "http://www.loc.gov/item/jsmith000149/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Rawls-1986-1988-03-16_jsmith000149_002_00-34-43.mp3",
+            "title": "Off the record interview with Lou Rawls, [1986-1988?]-03-16",
+            "timestamp": "34:43",
+            "url": "http://www.loc.gov/item/jsmith000149/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Reed-1987-03-20_jsmith000151_001_00-06-36.mp3",
+            "title": "Off the record interview with Lou Reed, 1987-03-20",
+            "timestamp": "06:36",
+            "url": "http://www.loc.gov/item/jsmith000151/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Lou-Reed-1987-03-20_jsmith000151_002_00-50-45.mp3",
+            "title": "Off the record interview with Lou Reed, 1987-03-20",
+            "timestamp": "50:45",
+            "url": "http://www.loc.gov/item/jsmith000151/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Margaret-Whiting-1986-04-01_jsmith000152_001_00-07-47.mp3",
+            "title": "Off the record interview with Margaret Whiting, 1986-04-01",
+            "timestamp": "07:47",
+            "url": "http://www.loc.gov/item/jsmith000152/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Margaret-Whiting-1986-04-01_jsmith000152_002_00-49-07.mp3",
+            "title": "Off the record interview with Margaret Whiting, 1986-04-01",
+            "timestamp": "49:07",
+            "url": "http://www.loc.gov/item/jsmith000152/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mark-Lindsay-1986-12-29_jsmith000153_001_00-00-40.mp3",
+            "title": "Off the record interview with Mark Lindsay, 1986-12-29",
+            "timestamp": "00:40",
+            "url": "http://www.loc.gov/item/jsmith000153/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mark-Lindsay-1986-12-29_jsmith000153_002_00-06-10.mp3",
+            "title": "Off the record interview with Mark Lindsay, 1986-12-29",
+            "timestamp": "06:10",
+            "url": "http://www.loc.gov/item/jsmith000153/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Marshall-Chess-1986-07-24_jsmith000154_001_00-12-39.mp3",
+            "title": "Off the record interview with Marshall Chess, 1986-07-24",
+            "timestamp": "12:39",
+            "url": "http://www.loc.gov/item/jsmith000154/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Marshall-Chess-1986-07-24_jsmith000154_002_00-26-32.mp3",
+            "title": "Off the record interview with Marshall Chess, 1986-07-24",
+            "timestamp": "26:32",
+            "url": "http://www.loc.gov/item/jsmith000154/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mary-Wilson-1987-01-30_jsmith000157_001_00-10-13.mp3",
+            "title": "Off the record interview with Mary Wilson, 1987-01-30",
+            "timestamp": "10:13",
+            "url": "http://www.loc.gov/item/jsmith000157/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mary-Wilson-1987-01-30_jsmith000157_002_00-29-18.mp3",
+            "title": "Off the record interview with Mary Wilson, 1987-01-30",
+            "timestamp": "29:18",
+            "url": "http://www.loc.gov/item/jsmith000157/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Maxene-Andrews-1986-07-03_jsmith000158_001_00-47-49.mp3",
+            "title": "Off the record interview with Maxene Andrews, 1986-07-03",
+            "timestamp": "47:49",
+            "url": "http://www.loc.gov/item/jsmith000158/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Maxene-Andrews-1986-07-03_jsmith000158_002_00-59-48.mp3",
+            "title": "Off the record interview with Maxene Andrews, 1986-07-03",
+            "timestamp": "59:48",
+            "url": "http://www.loc.gov/item/jsmith000158/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Michael-McDonald-1987-08-11_jsmith000159_001_00-03-04.mp3",
+            "title": "Off the record interview with Michael McDonald, 1987-08-11",
+            "timestamp": "03:04",
+            "url": "http://www.loc.gov/item/jsmith000159/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Michael-McDonald-1987-08-11_jsmith000159_002_00-37-32.mp3",
+            "title": "Off the record interview with Michael McDonald, 1987-08-11",
+            "timestamp": "37:32",
+            "url": "http://www.loc.gov/item/jsmith000159/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Michael-Nesmith-1986-02-19_jsmith000160_001_00-12-22.mp3",
+            "title": "Off the record interview with Michael Nesmith, 1986-02-19",
+            "timestamp": "12:22",
+            "url": "http://www.loc.gov/item/jsmith000160/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Michael-Nesmith-1986-02-19_jsmith000160_002_00-46-59.mp3",
+            "title": "Off the record interview with Michael Nesmith, 1986-02-19",
+            "timestamp": "46:59",
+            "url": "http://www.loc.gov/item/jsmith000160/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Michelle-Myer-1986-11-05_jsmith000161_001_00-00-22.mp3",
+            "title": "Off the record interview with Michelle Myer, 1986-11-05",
+            "timestamp": "00:22",
+            "url": "http://www.loc.gov/item/jsmith000161/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Michelle-Myer-1986-11-05_jsmith000161_002_00-14-25.mp3",
+            "title": "Off the record interview with Michelle Myer, 1986-11-05",
+            "timestamp": "14:25",
+            "url": "http://www.loc.gov/item/jsmith000161/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mick-Jagger-1986-07-18_jsmith000164_001_00-35-17.mp3",
+            "title": "Off the record interview with Mick Jagger, 1986-07-18",
+            "timestamp": "35:17",
+            "url": "http://www.loc.gov/item/jsmith000164/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mick-Jagger-1986-07-18_jsmith000164_002_00-51-15.mp3",
+            "title": "Off the record interview with Mick Jagger, 1986-07-18",
+            "timestamp": "51:15",
+            "url": "http://www.loc.gov/item/jsmith000164/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mickey-Hart-1986-08-14_jsmith000162_001_00-48-05.mp3",
+            "title": "Off the record interview with Mickey Hart, 1986-08-14",
+            "timestamp": "48:05",
+            "url": "http://www.loc.gov/item/jsmith000162/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mickey-Hart-1986-08-14_jsmith000162_002_00-53-26.mp3",
+            "title": "Off the record interview with Mickey Hart, 1986-08-14",
+            "timestamp": "53:26",
+            "url": "http://www.loc.gov/item/jsmith000162/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mickie-Most-1986-07-14_jsmith000163_001_00-36-30.mp3",
+            "title": "Off the record interview with Mickie Most, 1986-07-14",
+            "timestamp": "36:30",
+            "url": "http://www.loc.gov/item/jsmith000163/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mickie-Most-1986-07-14_jsmith000163_002_00-50-00.mp3",
+            "title": "Off the record interview with Mickie Most, 1986-07-14",
+            "timestamp": "50:00",
+            "url": "http://www.loc.gov/item/jsmith000163/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mike-Love-1987-01-13_jsmith000167_001_00-07-37.mp3",
+            "title": "Off the record interview with Mike Love, 1987-01-13",
+            "timestamp": "07:37",
+            "url": "http://www.loc.gov/item/jsmith000167/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mike-Love-1987-01-13_jsmith000167_002_00-53-03.mp3",
+            "title": "Off the record interview with Mike Love, 1987-01-13",
+            "timestamp": "53:03",
+            "url": "http://www.loc.gov/item/jsmith000167/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mike-Stoller-1986-08-20_jsmith000168_001_00-56-47.mp3",
+            "title": "Off the record interview with Mike Stoller, 1986-08-20",
+            "timestamp": "56:47",
+            "url": "http://www.loc.gov/item/jsmith000168/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mike-Stoller-1986-08-20_jsmith000168_002_01-04-12.mp3",
+            "title": "Off the record interview with Mike Stoller, 1986-08-20",
+            "timestamp": "01:04:12",
+            "url": "http://www.loc.gov/item/jsmith000168/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Milt-Gabler-1986-1988-06-09_jsmith000169_001_00-20-33.mp3",
+            "title": "Off the record interview with Milt Gabler, [1986-1988?]-06-09",
+            "timestamp": "20:33",
+            "url": "http://www.loc.gov/item/jsmith000169/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Milt-Gabler-1986-1988-06-09_jsmith000169_002_01-04-18.mp3",
+            "title": "Off the record interview with Milt Gabler, [1986-1988?]-06-09",
+            "timestamp": "01:04:18",
+            "url": "http://www.loc.gov/item/jsmith000169/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mitch-Miller-1986-1988-04-03_jsmith000170_001_00-26-30.mp3",
+            "title": "Off the record interview with Mitch Miller, [1986-1988?]-04-03",
+            "timestamp": "26:30",
+            "url": "http://www.loc.gov/item/jsmith000170/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Mitch-Miller-1986-1988-04-03_jsmith000170_002_01-06-55.mp3",
+            "title": "Off the record interview with Mitch Miller, [1986-1988?]-04-03",
+            "timestamp": "01:06:55",
+            "url": "http://www.loc.gov/item/jsmith000170/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Natalie-Cole-1987-08-21_jsmith000172_001_00-24-55.mp3",
+            "title": "Off the record interview with Natalie Cole, 1987-08-21",
+            "timestamp": "24:55",
+            "url": "http://www.loc.gov/item/jsmith000172/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Natalie-Cole-1987-08-21_jsmith000172_002_00-25-16.mp3",
+            "title": "Off the record interview with Natalie Cole, 1987-08-21",
+            "timestamp": "25:16",
+            "url": "http://www.loc.gov/item/jsmith000172/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Neil-Diamond-1986-06-25_jsmith000173_001_00-00-09.mp3",
+            "title": "Off the record interview with Neil Diamond, 1986-06-25",
+            "timestamp": "00:09",
+            "url": "http://www.loc.gov/item/jsmith000173/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Neil-Diamond-1986-06-25_jsmith000173_002_00-11-44.mp3",
+            "title": "Off the record interview with Neil Diamond, 1986-06-25",
+            "timestamp": "11:44",
+            "url": "http://www.loc.gov/item/jsmith000173/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Olivia-Newton-John-1986-1988-08-04_jsmith000174_001_00-24-50.mp3",
+            "title": "Off the record interview with Olivia Newton John, [1986-1988?]-08-04",
+            "timestamp": "24:50",
+            "url": "http://www.loc.gov/item/jsmith000174/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Olivia-Newton-John-1986-1988-08-04_jsmith000174_002_00-29-37.mp3",
+            "title": "Off the record interview with Olivia Newton John, [1986-1988?]-08-04",
+            "timestamp": "29:37",
+            "url": "http://www.loc.gov/item/jsmith000174/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Pat-Benatar-1987-10-02_jsmith000175_001_00-02-42.mp3",
+            "title": "Off the record interview with Pat Benatar, 1987-10-02",
+            "timestamp": "02:42",
+            "url": "http://www.loc.gov/item/jsmith000175/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Pat-Benatar-1987-10-02_jsmith000175_002_00-04-55.mp3",
+            "title": "Off the record interview with Pat Benatar, 1987-10-02",
+            "timestamp": "04:55",
+            "url": "http://www.loc.gov/item/jsmith000175/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Patti-Page-1986-1988-03-26_jsmith000177_001_00-18-14.mp3",
+            "title": "Off the record interview with Patti Page, [1986-1988?]-03-26",
+            "timestamp": "18:14",
+            "url": "http://www.loc.gov/item/jsmith000177/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Patti-Page-1986-1988-03-26_jsmith000177_002_01-01-36.mp3",
+            "title": "Off the record interview with Patti Page, [1986-1988?]-03-26",
+            "timestamp": "01:01:36",
+            "url": "http://www.loc.gov/item/jsmith000177/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Kantner-1986-08-14_jsmith000178_001_00-14-57.mp3",
+            "title": "Off the record interview with Paul Kantner, 1986-08-14",
+            "timestamp": "14:57",
+            "url": "http://www.loc.gov/item/jsmith000178/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Kantner-1986-08-14_jsmith000178_002_00-37-40.mp3",
+            "title": "Off the record interview with Paul Kantner, 1986-08-14",
+            "timestamp": "37:40",
+            "url": "http://www.loc.gov/item/jsmith000178/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-McCartney-1987-10-22_jsmith000179_001_00-32-04.mp3",
+            "title": "Off the record interview with Paul McCartney, 1987-10-22",
+            "timestamp": "32:04",
+            "url": "http://www.loc.gov/item/jsmith000179/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-McCartney-1987-10-22_jsmith000179_002_00-38-40.mp3",
+            "title": "Off the record interview with Paul McCartney, 1987-10-22",
+            "timestamp": "38:40",
+            "url": "http://www.loc.gov/item/jsmith000179/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Robi-1986-1988-08-04_jsmith000181_001_00-01-25.mp3",
+            "title": "Off the record interview with Paul Robi, [1986-1988?]-08-04",
+            "timestamp": "01:25",
+            "url": "http://www.loc.gov/item/jsmith000181/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Robi-1986-1988-08-04_jsmith000181_002_00-08-20.mp3",
+            "title": "Off the record interview with Paul Robi, [1986-1988?]-08-04",
+            "timestamp": "08:20",
+            "url": "http://www.loc.gov/item/jsmith000181/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Simon-1988-03-23_jsmith000183_001_00-17-43.mp3",
+            "title": "Off the record interview with Paul Simon, 1988-03-23",
+            "timestamp": "17:43",
+            "url": "http://www.loc.gov/item/jsmith000183/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Simon-1988-03-23_jsmith000183_002_00-23-58.mp3",
+            "title": "Off the record interview with Paul Simon, 1988-03-23",
+            "timestamp": "23:58",
+            "url": "http://www.loc.gov/item/jsmith000183/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Stanley-1986-08-21_jsmith000184_001_00-00-46.mp3",
+            "title": "Off the record interview with Paul Stanley, 1986-08-21",
+            "timestamp": "00:46",
+            "url": "http://www.loc.gov/item/jsmith000184/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Stanley-1986-08-21_jsmith000184_002_00-07-57.mp3",
+            "title": "Off the record interview with Paul Stanley, 1986-08-21",
+            "timestamp": "07:57",
+            "url": "http://www.loc.gov/item/jsmith000184/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Weston-1986-1988-03-25_jsmith000185_001_00-09-20.mp3",
+            "title": "Off the record interview with Paul Weston, [1986-1988?]-03-25",
+            "timestamp": "09:20",
+            "url": "http://www.loc.gov/item/jsmith000185/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Paul-Weston-1986-1988-03-25_jsmith000185_002_01-00-56.mp3",
+            "title": "Off the record interview with Paul Weston, [1986-1988?]-03-25",
+            "timestamp": "01:00:56",
+            "url": "http://www.loc.gov/item/jsmith000185/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Pete-Asher-1986-05-22_jsmith000186_001_00-19-14.mp3",
+            "title": "Off the record interview with Pete Asher, 1986-05-22",
+            "timestamp": "19:14",
+            "url": "http://www.loc.gov/item/jsmith000186/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Pete-Asher-1986-05-22_jsmith000186_002_01-01-36.mp3",
+            "title": "Off the record interview with Pete Asher, 1986-05-22",
+            "timestamp": "01:01:36",
+            "url": "http://www.loc.gov/item/jsmith000186/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Pete-Noone-1986-06-04_jsmith000187_001_00-20-29.mp3",
+            "title": "Off the record interview with Pete Noone, 1986-06-04",
+            "timestamp": "20:29",
+            "url": "http://www.loc.gov/item/jsmith000187/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Pete-Noone-1986-06-04_jsmith000187_002_00-29-45.mp3",
+            "title": "Off the record interview with Pete Noone, 1986-06-04",
+            "timestamp": "29:45",
+            "url": "http://www.loc.gov/item/jsmith000187/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Peter-Frampton-1986-1988-10-15_jsmith000188_001_00-25-43.mp3",
+            "title": "Off the record interview with Peter Frampton, [1986-1988?]-10-15",
+            "timestamp": "25:43",
+            "url": "http://www.loc.gov/item/jsmith000188/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Peter-Frampton-1986-1988-10-15_jsmith000188_002_00-37-58.mp3",
+            "title": "Off the record interview with Peter Frampton, [1986-1988?]-10-15",
+            "timestamp": "37:58",
+            "url": "http://www.loc.gov/item/jsmith000188/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Peter-Yarrow-and-Mary-Travers-1986-1988-03-31_jsmith000190_001_00-00-20.mp3",
+            "title": "Off the record interview with Peter Yarrow and Mary Travers, [1986-1988?]-03-31",
+            "timestamp": "00:20",
+            "url": "http://www.loc.gov/item/jsmith000190/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Peter-Yarrow-and-Mary-Travers-1986-1988-03-31_jsmith000190_002_00-18-49.mp3",
+            "title": "Off the record interview with Peter Yarrow and Mary Travers, [1986-1988?]-03-31",
+            "timestamp": "18:49",
+            "url": "http://www.loc.gov/item/jsmith000190/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phil-Collins-1988-02-13_jsmith000192_001_00-00-25.mp3",
+            "title": "Off the record interview with Phil Collins, 1988-02-13",
+            "timestamp": "00:25",
+            "url": "http://www.loc.gov/item/jsmith000192/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phil-Collins-1988-02-13_jsmith000192_002_00-16-17.mp3",
+            "title": "Off the record interview with Phil Collins, 1988-02-13",
+            "timestamp": "16:17",
+            "url": "http://www.loc.gov/item/jsmith000192/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phil-Everly-1987-02-24_jsmith000193_001_00-00-41.mp3",
+            "title": "Off the record interview with Phil Everly, 1987-02-24",
+            "timestamp": "00:41",
+            "url": "http://www.loc.gov/item/jsmith000193/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phil-Everly-1987-02-24_jsmith000193_002_00-25-43.mp3",
+            "title": "Off the record interview with Phil Everly, 1987-02-24",
+            "timestamp": "25:43",
+            "url": "http://www.loc.gov/item/jsmith000193/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phil-Ramone-1986-1988-04-01_jsmith000194_001_00-17-05.mp3",
+            "title": "Off the record interview with Phil Ramone, [1986-1988?]-04-01",
+            "timestamp": "17:05",
+            "url": "http://www.loc.gov/item/jsmith000194/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phil-Ramone-1986-1988-04-01_jsmith000194_002_00-29-18.mp3",
+            "title": "Off the record interview with Phil Ramone, [1986-1988?]-04-01",
+            "timestamp": "29:18",
+            "url": "http://www.loc.gov/item/jsmith000194/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phyllis-McGuire-1986-1988-01-27_jsmith000197_001_00-01-19.mp3",
+            "title": "Off the record interview with Phyllis McGuire, [1986-1988?]-01-27",
+            "timestamp": "01:19",
+            "url": "http://www.loc.gov/item/jsmith000197/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Phyllis-McGuire-1986-1988-01-27_jsmith000197_002_00-13-12.mp3",
+            "title": "Off the record interview with Phyllis McGuire, [1986-1988?]-01-27",
+            "timestamp": "13:12",
+            "url": "http://www.loc.gov/item/jsmith000197/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Randy-Newman-1986-1988-04-15_jsmith000199_001_00-02-40.mp3",
+            "title": "Off the record interview with Randy Newman, [1986-1988?]-04-15",
+            "timestamp": "02:40",
+            "url": "http://www.loc.gov/item/jsmith000199/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Randy-Newman-1986-1988-04-15_jsmith000199_002_00-21-30.mp3",
+            "title": "Off the record interview with Randy Newman, [1986-1988?]-04-15",
+            "timestamp": "21:30",
+            "url": "http://www.loc.gov/item/jsmith000199/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ray-Anthony-1986-1988-05-28_jsmith000200_001_00-14-32.mp3",
+            "title": "Off the record interview with Ray Anthony, [1986-1988?]-05-28",
+            "timestamp": "14:32",
+            "url": "http://www.loc.gov/item/jsmith000200/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ray-Anthony-1986-1988-05-28_jsmith000200_002_00-24-49.mp3",
+            "title": "Off the record interview with Ray Anthony, [1986-1988?]-05-28",
+            "timestamp": "24:49",
+            "url": "http://www.loc.gov/item/jsmith000200/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ray-Charles-1987-06-03_jsmith000201_001_00-08-51.mp3",
+            "title": "Off the record interview with Ray Charles, 1987-06-03",
+            "timestamp": "08:51",
+            "url": "http://www.loc.gov/item/jsmith000201/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ray-Charles-1987-06-03_jsmith000201_002_00-16-04.mp3",
+            "title": "Off the record interview with Ray Charles, 1987-06-03",
+            "timestamp": "16:04",
+            "url": "http://www.loc.gov/item/jsmith000201/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ray-Ellis-1986-1988-05-14_jsmith000202_001_00-23-02.mp3",
+            "title": "Off the record interview with Ray Ellis, [1986-1988?]-05-14",
+            "timestamp": "23:02",
+            "url": "http://www.loc.gov/item/jsmith000202/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ray-Ellis-1986-1988-05-14_jsmith000202_002_00-45-26.mp3",
+            "title": "Off the record interview with Ray Ellis, [1986-1988?]-05-14",
+            "timestamp": "45:26",
+            "url": "http://www.loc.gov/item/jsmith000202/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Richard-Branson-1986-10-20_jsmith000203_001_00-04-36.mp3",
+            "title": "Off the record interview with Richard Branson, 1986-10-20",
+            "timestamp": "04:36",
+            "url": "http://www.loc.gov/item/jsmith000203/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Richard-Branson-1986-10-20_jsmith000203_002_00-21-12.mp3",
+            "title": "Off the record interview with Richard Branson, 1986-10-20",
+            "timestamp": "21:12",
+            "url": "http://www.loc.gov/item/jsmith000203/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Richard-Carpenter-1986-1988-05-16_jsmith000204_001_00-25-24.mp3",
+            "title": "Off the record interview with Richard Carpenter, [1986-1988?]-05-16",
+            "timestamp": "25:24",
+            "url": "http://www.loc.gov/item/jsmith000204/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Richard-Carpenter-1986-1988-05-16_jsmith000204_002_00-33-17.mp3",
+            "title": "Off the record interview with Richard Carpenter, [1986-1988?]-05-16",
+            "timestamp": "33:17",
+            "url": "http://www.loc.gov/item/jsmith000204/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Robbie-Robertston-1987-09-02_jsmith000206_001_00-30-27.mp3",
+            "title": "Off the record interview with Robbie Robertston, 1987-09-02",
+            "timestamp": "30:27",
+            "url": "http://www.loc.gov/item/jsmith000206/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Robbie-Robertston-1987-09-02_jsmith000206_002_00-33-11.mp3",
+            "title": "Off the record interview with Robbie Robertston, 1987-09-02",
+            "timestamp": "33:11",
+            "url": "http://www.loc.gov/item/jsmith000206/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Robert-Lamm-1986-09-17_jsmith000208_001_00-06-32.mp3",
+            "title": "Off the record interview with Robert Lamm, 1986-09-17",
+            "timestamp": "06:32",
+            "url": "http://www.loc.gov/item/jsmith000208/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Robert-Lamm-1986-09-17_jsmith000208_002_00-07-38.mp3",
+            "title": "Off the record interview with Robert Lamm, 1986-09-17",
+            "timestamp": "07:38",
+            "url": "http://www.loc.gov/item/jsmith000208/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Robert-Palmer-1988-05-02_jsmith000209_001_00-39-17.mp3",
+            "title": "Off the record interview with Robert Palmer, 1988-05-02",
+            "timestamp": "39:17",
+            "url": "http://www.loc.gov/item/jsmith000209/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Rod-Stewart-1988-03-25_jsmith000212_001_00-04-57.mp3",
+            "title": "Off the record interview with Rod Stewart, 1988-03-25",
+            "timestamp": "04:57",
+            "url": "http://www.loc.gov/item/jsmith000212/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Rod-Stewart-1988-03-25_jsmith000212_002_00-09-18.mp3",
+            "title": "Off the record interview with Rod Stewart, 1988-03-25",
+            "timestamp": "09:18",
+            "url": "http://www.loc.gov/item/jsmith000212/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Roger-Daltrey-1986-10-21_jsmith000213_001_00-18-58.mp3",
+            "title": "Off the record interview with Roger Daltrey, 1986-10-21",
+            "timestamp": "18:58",
+            "url": "http://www.loc.gov/item/jsmith000213/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Roger-Daltrey-1986-10-21_jsmith000213_002_00-29-24.mp3",
+            "title": "Off the record interview with Roger Daltrey, 1986-10-21",
+            "timestamp": "29:24",
+            "url": "http://www.loc.gov/item/jsmith000213/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Roger-Waters-1986-10-17_jsmith000214_001_00-44-45.mp3",
+            "title": "Off the record interview with Roger Waters, 1986-10-17",
+            "timestamp": "44:45",
+            "url": "http://www.loc.gov/item/jsmith000214/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Rosemary-Clooney-1986-07-28_jsmith000215_001_00-18-43.mp3",
+            "title": "Off the record interview with Rosemary Clooney, 1986-07-28",
+            "timestamp": "18:43",
+            "url": "http://www.loc.gov/item/jsmith000215/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Rosemary-Clooney-1986-07-28_jsmith000215_002_00-30-51.mp3",
+            "title": "Off the record interview with Rosemary Clooney, 1986-07-28",
+            "timestamp": "30:51",
+            "url": "http://www.loc.gov/item/jsmith000215/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Russ-Regan-1986-1988-02-21_jsmith000216_001_00-06-13.mp3",
+            "title": "Off the record interview with Russ Regan, [1986-1988?]-02-21",
+            "timestamp": "06:13",
+            "url": "http://www.loc.gov/item/jsmith000216/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Russ-Regan-1986-1988-02-21_jsmith000216_002_00-08-40.mp3",
+            "title": "Off the record interview with Russ Regan, [1986-1988?]-02-21",
+            "timestamp": "08:40",
+            "url": "http://www.loc.gov/item/jsmith000216/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ruth-Brown-1988-01-29_jsmith000217_001_00-04-59.mp3",
+            "title": "Off the record interview with Ruth Brown, 1988-01-29",
+            "timestamp": "04:59",
+            "url": "http://www.loc.gov/item/jsmith000217/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ruth-Brown-1988-01-29_jsmith000217_002_00-35-21.mp3",
+            "title": "Off the record interview with Ruth Brown, 1988-01-29",
+            "timestamp": "35:21",
+            "url": "http://www.loc.gov/item/jsmith000217/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ry-Cooder-1986-05-13_jsmith000218_001_00-01-03.mp3",
+            "title": "Off the record interview with Ry Cooder, 1986-05-13",
+            "timestamp": "01:03",
+            "url": "http://www.loc.gov/item/jsmith000218/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Ry-Cooder-1986-05-13_jsmith000218_002_00-26-39.mp3",
+            "title": "Off the record interview with Ry Cooder, 1986-05-13",
+            "timestamp": "26:39",
+            "url": "http://www.loc.gov/item/jsmith000218/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sammy-Cahn-1986-06-02_jsmith000219_001_00-43-19.mp3",
+            "title": "Off the record interview with Sammy Cahn, 1986-06-02",
+            "timestamp": "43:19",
+            "url": "http://www.loc.gov/item/jsmith000219/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sammy-Cahn-1986-06-02_jsmith000219_002_00-55-15.mp3",
+            "title": "Off the record interview with Sammy Cahn, 1986-06-02",
+            "timestamp": "55:15",
+            "url": "http://www.loc.gov/item/jsmith000219/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sammy-Fain-1986-08-25_jsmith000220_001_00-50-29.mp3",
+            "title": "Off the record interview with Sammy Fain, 1986-08-25",
+            "timestamp": "50:29",
+            "url": "http://www.loc.gov/item/jsmith000220/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sammy-Fain-1986-08-25_jsmith000220_002_00-53-56.mp3",
+            "title": "Off the record interview with Sammy Fain, 1986-08-25",
+            "timestamp": "53:56",
+            "url": "http://www.loc.gov/item/jsmith000220/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sammy-Kaye-1986-1988-06-10_jsmith000221_001_00-27-49.mp3",
+            "title": "Off the record interview with Sammy Kaye, [1986-1988?]-06-10",
+            "timestamp": "27:49",
+            "url": "http://www.loc.gov/item/jsmith000221/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sammy-Kaye-1986-1988-06-10_jsmith000221_002_01-02-40.mp3",
+            "title": "Off the record interview with Sammy Kaye, [1986-1988?]-06-10",
+            "timestamp": "01:02:40",
+            "url": "http://www.loc.gov/item/jsmith000221/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Shadow-Morton-1986-1988-05-06_jsmith000222_001_00-28-08.mp3",
+            "title": "Off the record interview with Shadow Morton, [1986-1988?]-05-06",
+            "timestamp": "28:08",
+            "url": "http://www.loc.gov/item/jsmith000222/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Shadow-Morton-1986-1988-05-06_jsmith000222_002_00-29-57.mp3",
+            "title": "Off the record interview with Shadow Morton, [1986-1988?]-05-06",
+            "timestamp": "29:57",
+            "url": "http://www.loc.gov/item/jsmith000222/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Smokey-Robinson-1988-02-05_jsmith000223_001_00-07-59.mp3",
+            "title": "Off the record interview with Smokey Robinson, 1988-02-05",
+            "timestamp": "07:59",
+            "url": "http://www.loc.gov/item/jsmith000223/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Smokey-Robinson-1988-02-05_jsmith000223_002_00-13-26.mp3",
+            "title": "Off the record interview with Smokey Robinson, 1988-02-05",
+            "timestamp": "13:26",
+            "url": "http://www.loc.gov/item/jsmith000223/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Stan-Getz-1986-08-07_jsmith000224_001_00-10-33.mp3",
+            "title": "Off the record interview with Stan Getz, 1986-08-07",
+            "timestamp": "10:33",
+            "url": "http://www.loc.gov/item/jsmith000224/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Stan-Getz-1986-08-07_jsmith000224_002_00-21-24.mp3",
+            "title": "Off the record interview with Stan Getz, 1986-08-07",
+            "timestamp": "21:24",
+            "url": "http://www.loc.gov/item/jsmith000224/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Stephen-Stills-1987-11-25_jsmith000226_001_00-39-24.mp3",
+            "title": "Off the record interview with Stephen Stills, 1987-11-25",
+            "timestamp": "39:24",
+            "url": "http://www.loc.gov/item/jsmith000226/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Stephen-Stills-1987-11-25_jsmith000226_002_00-39-35.mp3",
+            "title": "Off the record interview with Stephen Stills, 1987-11-25",
+            "timestamp": "39:35",
+            "url": "http://www.loc.gov/item/jsmith000226/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sting-1988-03-26_jsmith000228_001_00-06-26.mp3",
+            "title": "Off the record interview with Sting, 1988-03-26",
+            "timestamp": "06:26",
+            "url": "http://www.loc.gov/item/jsmith000228/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sting-1988-03-26_jsmith000228_002_00-14-30.mp3",
+            "title": "Off the record interview with Sting, 1988-03-26",
+            "timestamp": "14:30",
+            "url": "http://www.loc.gov/item/jsmith000228/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sy-Oliver-1986-06-12_jsmith000229_001_00-18-10.mp3",
+            "title": "Off the record interview with Sy Oliver, 1986-06-12",
+            "timestamp": "18:10",
+            "url": "http://www.loc.gov/item/jsmith000229/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Sy-Oliver-1986-06-12_jsmith000229_002_00-26-42.mp3",
+            "title": "Off the record interview with Sy Oliver, 1986-06-12",
+            "timestamp": "26:42",
+            "url": "http://www.loc.gov/item/jsmith000229/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tex-Beneke-1986-1988-04-16_jsmith000231_001_00-00-34.mp3",
+            "title": "Off the record interview with Tex Beneke, [1986-1988?]-04-16",
+            "timestamp": "00:34",
+            "url": "http://www.loc.gov/item/jsmith000231/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tex-Beneke-1986-1988-04-16_jsmith000231_002_00-06-09.mp3",
+            "title": "Off the record interview with Tex Beneke, [1986-1988?]-04-16",
+            "timestamp": "06:09",
+            "url": "http://www.loc.gov/item/jsmith000231/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tom-Jones-1986-09-25_jsmith000234_001_00-38-21.mp3",
+            "title": "Off the record interview with Tom Jones, 1986-09-25",
+            "timestamp": "38:21",
+            "url": "http://www.loc.gov/item/jsmith000234/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tom-Jones-1986-09-25_jsmith000234_002_00-39-44.mp3",
+            "title": "Off the record interview with Tom Jones, 1986-09-25",
+            "timestamp": "39:44",
+            "url": "http://www.loc.gov/item/jsmith000234/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tom-Petty-1986-10-30_jsmith000236_001_00-09-41.mp3",
+            "title": "Off the record interview with Tom Petty, 1986-10-30",
+            "timestamp": "09:41",
+            "url": "http://www.loc.gov/item/jsmith000236/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tom-Petty-1986-10-30_jsmith000236_002_00-11-14.mp3",
+            "title": "Off the record interview with Tom Petty, 1986-10-30",
+            "timestamp": "11:14",
+            "url": "http://www.loc.gov/item/jsmith000236/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tommy-Mottola-1986-12-16_jsmith000235_001_00-06-33.mp3",
+            "title": "Off the record interview with Tommy Mottola, 1986-12-16",
+            "timestamp": "06:33",
+            "url": "http://www.loc.gov/item/jsmith000235/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tommy-Mottola-1986-12-16_jsmith000235_002_00-27-25.mp3",
+            "title": "Off the record interview with Tommy Mottola, 1986-12-16",
+            "timestamp": "27:25",
+            "url": "http://www.loc.gov/item/jsmith000235/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tony-Bennett-1987-09-27_jsmith000237_001_00-04-34.mp3",
+            "title": "Off the record interview with Tony Bennett, 1987-09-27",
+            "timestamp": "04:34",
+            "url": "http://www.loc.gov/item/jsmith000237/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tony-Bennett-1987-09-27_jsmith000237_002_00-15-53.mp3",
+            "title": "Off the record interview with Tony Bennett, 1987-09-27",
+            "timestamp": "15:53",
+            "url": "http://www.loc.gov/item/jsmith000237/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tony-Stratton-Smith-1986-10-24_jsmith000238_001_00-04-29.mp3",
+            "title": "Off the record interview with Tony Stratton Smith, 1986-10-24",
+            "timestamp": "04:29",
+            "url": "http://www.loc.gov/item/jsmith000238/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Tony-Stratton-Smith-1986-10-24_jsmith000238_002_00-41-16.mp3",
+            "title": "Off the record interview with Tony Stratton Smith, 1986-10-24",
+            "timestamp": "41:16",
+            "url": "http://www.loc.gov/item/jsmith000238/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Van-Morrison-1988-01-12_jsmith000239_001_00-17-15.mp3",
+            "title": "Off the record interview with Van Morrison, 1988-01-12",
+            "timestamp": "17:15",
+            "url": "http://www.loc.gov/item/jsmith000239/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Van-Morrison-1988-01-12_jsmith000239_002_00-40-59.mp3",
+            "title": "Off the record interview with Van Morrison, 1988-01-12",
+            "timestamp": "40:59",
+            "url": "http://www.loc.gov/item/jsmith000239/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Walter-Yetnikoff-1988-03-02_jsmith000241_001_00-20-30.mp3",
+            "title": "Off the record interview with Walter Yetnikoff, 1988-03-02",
+            "timestamp": "20:30",
+            "url": "http://www.loc.gov/item/jsmith000241/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Walter-Yetnikoff-1988-03-02_jsmith000241_002_00-33-36.mp3",
+            "title": "Off the record interview with Walter Yetnikoff, 1988-03-02",
+            "timestamp": "33:36",
+            "url": "http://www.loc.gov/item/jsmith000241/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Woody-Herman-1986-1988-06-17_jsmith000242_001_00-11-44.mp3",
+            "title": "Off the record interview with Woody Herman, [1986-1988?]-06-17",
+            "timestamp": "11:44",
+            "url": "http://www.loc.gov/item/jsmith000242/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Woody-Herman-1986-1988-06-17_jsmith000242_002_00-22-07.mp3",
+            "title": "Off the record interview with Woody Herman, [1986-1988?]-06-17",
+            "timestamp": "22:07",
+            "url": "http://www.loc.gov/item/jsmith000242/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Yoko-Ono-1987-10-07_jsmith000243_001_00-07-42.mp3",
+            "title": "Off the record interview with Yoko Ono, 1987-10-07",
+            "timestamp": "07:42",
+            "url": "http://www.loc.gov/item/jsmith000243/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Yoko-Ono-1987-10-07_jsmith000243_002_00-19-00.mp3",
+            "title": "Off the record interview with Yoko Ono, 1987-10-07",
+            "timestamp": "19:00",
+            "url": "http://www.loc.gov/item/jsmith000243/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-the-Animals-1988-09-08_jsmith000233_001_00-46-48.mp3",
+            "title": "Off the record interview with the Animals, 1988-09-08",
+            "timestamp": "46:48",
+            "url": "http://www.loc.gov/item/jsmith000233/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-the-Animals-1988-09-08_jsmith000233_002_00-53-47.mp3",
+            "title": "Off the record interview with the Animals, 1988-09-08",
+            "timestamp": "53:47",
+            "url": "http://www.loc.gov/item/jsmith000233/"
+        }
+    ],
+    "segmentCount": 378,
+    "oneshotCount": 4096,
+    "totalCount": 4474
+}
