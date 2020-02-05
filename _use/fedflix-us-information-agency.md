@@ -9,6 +9,7 @@ collection_base_url: "/fedflix-us-information-agency/"
 permalink: "/fedflix-us-information-agency/use/"
 source: "Fedflix"
 source_url: "https://archive.org/details/FedFlix?and[]=U.S.+Information+Agency"
+provider: "archive.org"
 uid: "fedflix-us-information-agency"
 sequence: 1001
 active: 0

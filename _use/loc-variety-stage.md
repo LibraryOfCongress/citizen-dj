@@ -9,6 +9,7 @@ collection_base_url: "/loc-variety-stage/"
 permalink: "/loc-variety-stage/use/"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/about-this-collection/"
+provider: "loc.gov"
 uid: "loc-variety-stage"
 sequence: 2
 active: 1
