@@ -164,7 +164,7 @@ var Drums = (function() {
 
   Drums.prototype.parseData = function(drumData, patternData){
     var _this = this;
-    
+
     // parse drums
     var drumItemHeadings = drumData.itemHeadings;
     var drums = _.map(drumData.drums, function(drum){
@@ -221,6 +221,34 @@ var Drums = (function() {
   Drums.prototype.randomize = function(){
     var patternIndex = _.random(0, this.patterns.length-1);
     this.$patternSelect.val(""+patternIndex).trigger('change');
+  };
+
+  Drums.prototype.reloadFromUrl = function(){
+    var q = Util.queryParams();
+    var changed = false;
+
+    if (q.drumName !== undefined) {
+      var foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === q.drumName); });
+      if (foundIndex >= 0) {
+        this.drumIndex = foundIndex;
+        this.$drumSelect.val(""+foundIndex);
+        changed = true;
+      }
+    }
+
+    if (q.patternName !== undefined) {
+      var foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === q.patternName); });
+      if (foundPIndex >= 0) {
+        this.patternIndex = foundPIndex;
+        this.$patternSelect.val(""+foundPIndex);
+        changed = true;
+      }
+    }
+
+    if (!changed) return;
+
+    this.loadTrackData();
+    // this.opt.onChange();
   };
 
   // step through the bars of the current pattern group

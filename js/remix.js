@@ -37,6 +37,17 @@ var RemixApp = (function() {
     });
   };
 
+  RemixApp.prototype.loadListeners = function(){
+    var _this = this;
+
+    if (window.history.pushState) {
+      window.onpopstate = function(e){
+        _this.reloadFromUrl();
+      }
+    }
+
+  };
+
   RemixApp.prototype.loadRecorder = function(){
     var _this = this;
 
@@ -61,6 +72,7 @@ var RemixApp = (function() {
     this.loadSequencer();
     this.loadRecorder();
     this.updateURL();
+    this.loadListeners();
   };
 
   RemixApp.prototype.onChangeDrums = function(){
@@ -69,6 +81,13 @@ var RemixApp = (function() {
 
   RemixApp.prototype.onChangeCollections = function(){
     this.updateSequencer(this.collections.tracks, "collection");
+  };
+
+  RemixApp.prototype.reloadFromUrl = function(){
+    this.drums.reloadFromUrl();
+    this.collections.reloadFromUrl();
+    this.sequencer.update(this.drums.tracks, "drum");
+    this.sequencer.update(this.collections.tracks, "collection");
   };
 
   RemixApp.prototype.updateSequencer = function(tracks, type){

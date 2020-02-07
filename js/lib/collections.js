@@ -304,6 +304,38 @@ var Collections = (function() {
     this.opt.onChange();
   };
 
+  Collections.prototype.reloadFromUrl = function(){
+    var q = Util.queryParams();
+    var changed = false;
+
+    if (q.itemId !== undefined) {
+      var foundIndex = _.findIndex(this.items, function(item){ return (item.itemId === q.itemId); });
+      if (foundIndex >= 0) {
+        this.itemIndex = foundIndex;
+        this.item = this.items[this.itemIndex];
+        this.$itemSelect.val(""+foundIndex);
+        changed = true;
+      }
+    }
+
+    if (q.itemStart !== undefined) {
+      var itemStart = parseInt(""+q.itemStart);
+      var foundSampleIndex = _.findIndex(this.item.samples, function(s){ return (s.sourceStart <= itemStart && itemStart < (s.sourceStart + s.dur)); });
+      if (foundSampleIndex >= 0) {
+        this.sampleIndex = foundSampleIndex;
+        changed = true;
+      } else if (changed) {
+        this.sampleIndex = 0;
+      }
+    }
+
+    if (!changed) return;
+
+    this.loadTrackData();
+    this.updateSource();
+    // this.opt.onChange();
+  };
+
   Collections.prototype.renderSource = function(){
     var item = this.item;
     var startTime = this.item.samples[this.sampleIndex].sourceStart;

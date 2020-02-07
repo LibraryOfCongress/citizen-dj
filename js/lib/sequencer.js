@@ -90,7 +90,7 @@ var Sequencer = (function() {
     // update pattern
     this.$tracks.on('click', '.beat', function(e){
       _this.onClickBeat($(this));
-      _this.opt.onChange();
+      // _this.opt.onChange();
     });
 
     // mute track
