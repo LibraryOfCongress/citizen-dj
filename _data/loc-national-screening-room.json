@@ -1,0 +1,1149 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_national-screening-room_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "96.9mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_national-screening-room_wav.zip",
+            "label": "Download in 32-bit .wav format",
+            "size": "407.3mb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [
+        {
+            "filename": "A-better-America_2001642615_001_00-00-30.mp3",
+            "title": "A better America",
+            "timestamp": "00:30",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_002_00-01-01.mp3",
+            "title": "A better America",
+            "timestamp": "01:01",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_003_00-01-18.mp3",
+            "title": "A better America",
+            "timestamp": "01:18",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_004_00-01-50.mp3",
+            "title": "A better America",
+            "timestamp": "01:50",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_005_00-02-05.mp3",
+            "title": "A better America",
+            "timestamp": "02:05",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_006_00-02-36.mp3",
+            "title": "A better America",
+            "timestamp": "02:36",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_007_00-02-48.mp3",
+            "title": "A better America",
+            "timestamp": "02:48",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_008_00-02-55.mp3",
+            "title": "A better America",
+            "timestamp": "02:55",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_009_00-03-05.mp3",
+            "title": "A better America",
+            "timestamp": "03:05",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_010_00-03-14.mp3",
+            "title": "A better America",
+            "timestamp": "03:14",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_011_00-03-38.mp3",
+            "title": "A better America",
+            "timestamp": "03:38",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_012_00-03-54.mp3",
+            "title": "A better America",
+            "timestamp": "03:54",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_013_00-04-18.mp3",
+            "title": "A better America",
+            "timestamp": "04:18",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_014_00-04-31.mp3",
+            "title": "A better America",
+            "timestamp": "04:31",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_015_00-05-00.mp3",
+            "title": "A better America",
+            "timestamp": "05:00",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_016_00-05-09.mp3",
+            "title": "A better America",
+            "timestamp": "05:09",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_017_00-05-24.mp3",
+            "title": "A better America",
+            "timestamp": "05:24",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_018_00-05-37.mp3",
+            "title": "A better America",
+            "timestamp": "05:37",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_019_00-06-04.mp3",
+            "title": "A better America",
+            "timestamp": "06:04",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_020_00-06-15.mp3",
+            "title": "A better America",
+            "timestamp": "06:15",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_021_00-06-40.mp3",
+            "title": "A better America",
+            "timestamp": "06:40",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_022_00-07-10.mp3",
+            "title": "A better America",
+            "timestamp": "07:10",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_023_00-07-24.mp3",
+            "title": "A better America",
+            "timestamp": "07:24",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_024_00-07-38.mp3",
+            "title": "A better America",
+            "timestamp": "07:38",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_025_00-08-04.mp3",
+            "title": "A better America",
+            "timestamp": "08:04",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_026_00-08-14.mp3",
+            "title": "A better America",
+            "timestamp": "08:14",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_027_00-08-54.mp3",
+            "title": "A better America",
+            "timestamp": "08:54",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-America_2001642615_028_00-09-11.mp3",
+            "title": "A better America",
+            "timestamp": "09:11",
+            "url": "http://www.loc.gov/item/2001642615/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_001_00-00-24.mp3",
+            "title": "A better New York",
+            "timestamp": "00:24",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_002_00-00-53.mp3",
+            "title": "A better New York",
+            "timestamp": "00:53",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_003_00-01-26.mp3",
+            "title": "A better New York",
+            "timestamp": "01:26",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_004_00-01-46.mp3",
+            "title": "A better New York",
+            "timestamp": "01:46",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_005_00-01-56.mp3",
+            "title": "A better New York",
+            "timestamp": "01:56",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_006_00-02-05.mp3",
+            "title": "A better New York",
+            "timestamp": "02:05",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_007_00-02-35.mp3",
+            "title": "A better New York",
+            "timestamp": "02:35",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_008_00-03-03.mp3",
+            "title": "A better New York",
+            "timestamp": "03:03",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_009_00-03-34.mp3",
+            "title": "A better New York",
+            "timestamp": "03:34",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_010_00-03-52.mp3",
+            "title": "A better New York",
+            "timestamp": "03:52",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_011_00-04-27.mp3",
+            "title": "A better New York",
+            "timestamp": "04:27",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_012_00-04-57.mp3",
+            "title": "A better New York",
+            "timestamp": "04:57",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_013_00-05-28.mp3",
+            "title": "A better New York",
+            "timestamp": "05:28",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_014_00-06-01.mp3",
+            "title": "A better New York",
+            "timestamp": "06:01",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_015_00-06-49.mp3",
+            "title": "A better New York",
+            "timestamp": "06:49",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_016_00-06-56.mp3",
+            "title": "A better New York",
+            "timestamp": "06:56",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_017_00-07-25.mp3",
+            "title": "A better New York",
+            "timestamp": "07:25",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_018_00-07-38.mp3",
+            "title": "A better New York",
+            "timestamp": "07:38",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_019_00-08-02.mp3",
+            "title": "A better New York",
+            "timestamp": "08:02",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_020_00-08-18.mp3",
+            "title": "A better New York",
+            "timestamp": "08:18",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_021_00-08-46.mp3",
+            "title": "A better New York",
+            "timestamp": "08:46",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_022_00-09-38.mp3",
+            "title": "A better New York",
+            "timestamp": "09:38",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_023_00-10-09.mp3",
+            "title": "A better New York",
+            "timestamp": "10:09",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_024_00-10-21.mp3",
+            "title": "A better New York",
+            "timestamp": "10:21",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_025_00-10-51.mp3",
+            "title": "A better New York",
+            "timestamp": "10:51",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_026_00-11-00.mp3",
+            "title": "A better New York",
+            "timestamp": "11:00",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_027_00-11-31.mp3",
+            "title": "A better New York",
+            "timestamp": "11:31",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "A-better-New-York_2001642607_028_00-12-01.mp3",
+            "title": "A better New York",
+            "timestamp": "12:01",
+            "url": "http://www.loc.gov/item/2001642607/"
+        },
+        {
+            "filename": "About-faces_2001642585_001_00-00-40.mp3",
+            "title": "About faces",
+            "timestamp": "00:40",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_002_00-00-54.mp3",
+            "title": "About faces",
+            "timestamp": "00:54",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_003_00-01-52.mp3",
+            "title": "About faces",
+            "timestamp": "01:52",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_004_00-02-20.mp3",
+            "title": "About faces",
+            "timestamp": "02:20",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_005_00-02-28.mp3",
+            "title": "About faces",
+            "timestamp": "02:28",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_006_00-02-39.mp3",
+            "title": "About faces",
+            "timestamp": "02:39",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_007_00-03-18.mp3",
+            "title": "About faces",
+            "timestamp": "03:18",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_008_00-03-32.mp3",
+            "title": "About faces",
+            "timestamp": "03:32",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_009_00-03-43.mp3",
+            "title": "About faces",
+            "timestamp": "03:43",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_010_00-04-01.mp3",
+            "title": "About faces",
+            "timestamp": "04:01",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_011_00-04-16.mp3",
+            "title": "About faces",
+            "timestamp": "04:16",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_012_00-04-35.mp3",
+            "title": "About faces",
+            "timestamp": "04:35",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_013_00-04-55.mp3",
+            "title": "About faces",
+            "timestamp": "04:55",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_014_00-05-03.mp3",
+            "title": "About faces",
+            "timestamp": "05:03",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_015_00-05-37.mp3",
+            "title": "About faces",
+            "timestamp": "05:37",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_016_00-06-09.mp3",
+            "title": "About faces",
+            "timestamp": "06:09",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_017_00-06-14.mp3",
+            "title": "About faces",
+            "timestamp": "06:14",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_018_00-06-22.mp3",
+            "title": "About faces",
+            "timestamp": "06:22",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_019_00-06-32.mp3",
+            "title": "About faces",
+            "timestamp": "06:32",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_020_00-06-50.mp3",
+            "title": "About faces",
+            "timestamp": "06:50",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_021_00-07-47.mp3",
+            "title": "About faces",
+            "timestamp": "07:47",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_022_00-08-00.mp3",
+            "title": "About faces",
+            "timestamp": "08:00",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_023_00-08-05.mp3",
+            "title": "About faces",
+            "timestamp": "08:05",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_024_00-08-41.mp3",
+            "title": "About faces",
+            "timestamp": "08:41",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_025_00-09-15.mp3",
+            "title": "About faces",
+            "timestamp": "09:15",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_026_00-09-44.mp3",
+            "title": "About faces",
+            "timestamp": "09:44",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_027_00-09-55.mp3",
+            "title": "About faces",
+            "timestamp": "09:55",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "About-faces_2001642585_028_00-10-49.mp3",
+            "title": "About faces",
+            "timestamp": "10:49",
+            "url": "http://www.loc.gov/item/2001642585/"
+        },
+        {
+            "filename": "Black-marketing_2001642606_001_00-00-00.mp3",
+            "title": "Black marketing",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/2001642606/"
+        },
+        {
+            "filename": "Black-marketing_2001642606_002_00-00-18.mp3",
+            "title": "Black marketing",
+            "timestamp": "00:18",
+            "url": "http://www.loc.gov/item/2001642606/"
+        },
+        {
+            "filename": "Black-marketing_2001642606_003_00-10-29.mp3",
+            "title": "Black marketing",
+            "timestamp": "10:29",
+            "url": "http://www.loc.gov/item/2001642606/"
+        },
+        {
+            "filename": "Black-marketing_2001642606_004_00-10-53.mp3",
+            "title": "Black marketing",
+            "timestamp": "10:53",
+            "url": "http://www.loc.gov/item/2001642606/"
+        },
+        {
+            "filename": "Bomber_2001642620_001_00-00-46.mp3",
+            "title": "Bomber",
+            "timestamp": "00:46",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_002_00-01-10.mp3",
+            "title": "Bomber",
+            "timestamp": "01:10",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_003_00-02-39.mp3",
+            "title": "Bomber",
+            "timestamp": "02:39",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_004_00-03-09.mp3",
+            "title": "Bomber",
+            "timestamp": "03:09",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_005_00-03-16.mp3",
+            "title": "Bomber",
+            "timestamp": "03:16",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_006_00-03-46.mp3",
+            "title": "Bomber",
+            "timestamp": "03:46",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_007_00-04-10.mp3",
+            "title": "Bomber",
+            "timestamp": "04:10",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_008_00-04-19.mp3",
+            "title": "Bomber",
+            "timestamp": "04:19",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_009_00-04-30.mp3",
+            "title": "Bomber",
+            "timestamp": "04:30",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_010_00-04-42.mp3",
+            "title": "Bomber",
+            "timestamp": "04:42",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_011_00-05-12.mp3",
+            "title": "Bomber",
+            "timestamp": "05:12",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_012_00-05-32.mp3",
+            "title": "Bomber",
+            "timestamp": "05:32",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_013_00-06-02.mp3",
+            "title": "Bomber",
+            "timestamp": "06:02",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_014_00-06-37.mp3",
+            "title": "Bomber",
+            "timestamp": "06:37",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_015_00-06-55.mp3",
+            "title": "Bomber",
+            "timestamp": "06:55",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_016_00-07-19.mp3",
+            "title": "Bomber",
+            "timestamp": "07:19",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_017_00-08-39.mp3",
+            "title": "Bomber",
+            "timestamp": "08:39",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Bomber_2001642620_018_00-09-51.mp3",
+            "title": "Bomber",
+            "timestamp": "09:51",
+            "url": "http://www.loc.gov/item/2001642620/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_001_00-00-10.mp3",
+            "title": "Carry the fight",
+            "timestamp": "00:10",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_002_00-00-40.mp3",
+            "title": "Carry the fight",
+            "timestamp": "00:40",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_003_00-00-54.mp3",
+            "title": "Carry the fight",
+            "timestamp": "00:54",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_004_00-01-09.mp3",
+            "title": "Carry the fight",
+            "timestamp": "01:09",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_005_00-01-29.mp3",
+            "title": "Carry the fight",
+            "timestamp": "01:29",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_006_00-01-45.mp3",
+            "title": "Carry the fight",
+            "timestamp": "01:45",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_007_00-02-14.mp3",
+            "title": "Carry the fight",
+            "timestamp": "02:14",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_008_00-02-33.mp3",
+            "title": "Carry the fight",
+            "timestamp": "02:33",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_009_00-03-04.mp3",
+            "title": "Carry the fight",
+            "timestamp": "03:04",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_010_00-03-44.mp3",
+            "title": "Carry the fight",
+            "timestamp": "03:44",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_011_00-03-49.mp3",
+            "title": "Carry the fight",
+            "timestamp": "03:49",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_012_00-03-56.mp3",
+            "title": "Carry the fight",
+            "timestamp": "03:56",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_013_00-04-09.mp3",
+            "title": "Carry the fight",
+            "timestamp": "04:09",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_014_00-04-19.mp3",
+            "title": "Carry the fight",
+            "timestamp": "04:19",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_015_00-05-00.mp3",
+            "title": "Carry the fight",
+            "timestamp": "05:00",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_016_00-05-14.mp3",
+            "title": "Carry the fight",
+            "timestamp": "05:14",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_017_00-05-46.mp3",
+            "title": "Carry the fight",
+            "timestamp": "05:46",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_018_00-05-59.mp3",
+            "title": "Carry the fight",
+            "timestamp": "05:59",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_019_00-06-18.mp3",
+            "title": "Carry the fight",
+            "timestamp": "06:18",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_020_00-06-42.mp3",
+            "title": "Carry the fight",
+            "timestamp": "06:42",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_021_00-07-11.mp3",
+            "title": "Carry the fight",
+            "timestamp": "07:11",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_022_00-07-32.mp3",
+            "title": "Carry the fight",
+            "timestamp": "07:32",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_023_00-07-41.mp3",
+            "title": "Carry the fight",
+            "timestamp": "07:41",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_024_00-07-59.mp3",
+            "title": "Carry the fight",
+            "timestamp": "07:59",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_025_00-08-04.mp3",
+            "title": "Carry the fight",
+            "timestamp": "08:04",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "Carry-the-fight_2001642629_026_00-08-29.mp3",
+            "title": "Carry the fight",
+            "timestamp": "08:29",
+            "url": "http://www.loc.gov/item/2001642629/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_001_00-00-00.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_002_00-00-59.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "00:59",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_003_00-01-38.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "01:38",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_004_00-01-48.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "01:48",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_005_00-02-01.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "02:01",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_006_00-02-17.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "02:17",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_007_00-02-35.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "02:35",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_008_00-03-08.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "03:08",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_009_00-03-43.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "03:43",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_010_00-03-59.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "03:59",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_011_00-04-25.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "04:25",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_012_00-05-09.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "05:09",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_013_00-05-16.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "05:16",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_014_00-05-40.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "05:40",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_015_00-05-50.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "05:50",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_016_00-06-19.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "06:19",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_017_00-06-25.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "06:25",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_018_00-06-35.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "06:35",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_019_00-06-42.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "06:42",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_020_00-06-54.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "06:54",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_021_00-07-21.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "07:21",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_022_00-07-55.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "07:55",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_023_00-08-32.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "08:32",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_024_00-08-48.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "08:48",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_025_00-09-25.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "09:25",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_026_00-09-41.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "09:41",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_027_00-10-00.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "10:00",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-arm-behind-the-Army_2001642592_028_00-10-09.mp3",
+            "title": "The arm behind the Army",
+            "timestamp": "10:09",
+            "url": "http://www.loc.gov/item/2001642592/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_001_00-00-30.mp3",
+            "title": "The calls that cure",
+            "timestamp": "00:30",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_002_00-00-56.mp3",
+            "title": "The calls that cure",
+            "timestamp": "00:56",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_003_00-01-26.mp3",
+            "title": "The calls that cure",
+            "timestamp": "01:26",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_004_00-01-41.mp3",
+            "title": "The calls that cure",
+            "timestamp": "01:41",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_005_00-01-54.mp3",
+            "title": "The calls that cure",
+            "timestamp": "01:54",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_006_00-02-33.mp3",
+            "title": "The calls that cure",
+            "timestamp": "02:33",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_007_00-02-44.mp3",
+            "title": "The calls that cure",
+            "timestamp": "02:44",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_008_00-02-57.mp3",
+            "title": "The calls that cure",
+            "timestamp": "02:57",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_009_00-03-03.mp3",
+            "title": "The calls that cure",
+            "timestamp": "03:03",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_010_00-03-17.mp3",
+            "title": "The calls that cure",
+            "timestamp": "03:17",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_011_00-03-28.mp3",
+            "title": "The calls that cure",
+            "timestamp": "03:28",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_012_00-04-35.mp3",
+            "title": "The calls that cure",
+            "timestamp": "04:35",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_013_00-04-42.mp3",
+            "title": "The calls that cure",
+            "timestamp": "04:42",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_014_00-04-54.mp3",
+            "title": "The calls that cure",
+            "timestamp": "04:54",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_015_00-05-19.mp3",
+            "title": "The calls that cure",
+            "timestamp": "05:19",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_016_00-07-06.mp3",
+            "title": "The calls that cure",
+            "timestamp": "07:06",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_017_00-07-10.mp3",
+            "title": "The calls that cure",
+            "timestamp": "07:10",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_018_00-07-40.mp3",
+            "title": "The calls that cure",
+            "timestamp": "07:40",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_019_00-07-59.mp3",
+            "title": "The calls that cure",
+            "timestamp": "07:59",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_020_00-08-41.mp3",
+            "title": "The calls that cure",
+            "timestamp": "08:41",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_021_00-09-15.mp3",
+            "title": "The calls that cure",
+            "timestamp": "09:15",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_022_00-09-25.mp3",
+            "title": "The calls that cure",
+            "timestamp": "09:25",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_023_00-09-39.mp3",
+            "title": "The calls that cure",
+            "timestamp": "09:39",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_024_00-09-51.mp3",
+            "title": "The calls that cure",
+            "timestamp": "09:51",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_025_00-09-57.mp3",
+            "title": "The calls that cure",
+            "timestamp": "09:57",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_026_00-10-10.mp3",
+            "title": "The calls that cure",
+            "timestamp": "10:10",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_027_00-10-30.mp3",
+            "title": "The calls that cure",
+            "timestamp": "10:30",
+            "url": "http://www.loc.gov/item/2001642627/"
+        },
+        {
+            "filename": "The-calls-that-cure_2001642627_028_00-11-07.mp3",
+            "title": "The calls that cure",
+            "timestamp": "11:07",
+            "url": "http://www.loc.gov/item/2001642627/"
+        }
+    ],
+    "segmentCount": 188,
+    "oneshotCount": 4096,
+    "totalCount": 4284
+}
