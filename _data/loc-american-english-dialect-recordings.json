@@ -1,0 +1,1779 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_american-english-dialect-recordings-from-the-center-for-applied-linguistics_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "112.4mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_american-english-dialect-recordings-from-the-center-for-applied-linguistics_wav.zip",
+            "label": "Download in 32-bit .wav format",
+            "size": "452.5mb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [
+        {
+            "filename": "Conversation-with-10-year-old-black-female-Washington-DC_afccal000391_001_00-04-18.mp3",
+            "title": "Conversation with 10 year old black female, Washington, DC",
+            "timestamp": "04:18",
+            "url": "http://www.loc.gov/item/afccal000391/"
+        },
+        {
+            "filename": "Conversation-with-10-year-old-black-female-Washington-DC_afccal000391_002_00-05-36.mp3",
+            "title": "Conversation with 10 year old black female, Washington, DC",
+            "timestamp": "05:36",
+            "url": "http://www.loc.gov/item/afccal000391/"
+        },
+        {
+            "filename": "Conversation-with-10-year-old-black-female-Washington-DC_afccal000391_003_00-05-57.mp3",
+            "title": "Conversation with 10 year old black female, Washington, DC",
+            "timestamp": "05:57",
+            "url": "http://www.loc.gov/item/afccal000391/"
+        },
+        {
+            "filename": "Conversation-with-10-year-old-black-female-Washington-DC_afccal000391_004_00-06-41.mp3",
+            "title": "Conversation with 10 year old black female, Washington, DC",
+            "timestamp": "06:41",
+            "url": "http://www.loc.gov/item/afccal000391/"
+        },
+        {
+            "filename": "Conversation-with-11-year-old-black-female-Washington-DC_afccal000390_001_00-07-16.mp3",
+            "title": "Conversation with 11 year old black female, Washington, DC",
+            "timestamp": "07:16",
+            "url": "http://www.loc.gov/item/afccal000390/"
+        },
+        {
+            "filename": "Conversation-with-11-year-old-black-female-Washington-DC_afccal000390_002_00-07-31.mp3",
+            "title": "Conversation with 11 year old black female, Washington, DC",
+            "timestamp": "07:31",
+            "url": "http://www.loc.gov/item/afccal000390/"
+        },
+        {
+            "filename": "Conversation-with-11-year-old-black-female-Washington-DC_afccal000390_003_00-07-37.mp3",
+            "title": "Conversation with 11 year old black female, Washington, DC",
+            "timestamp": "07:37",
+            "url": "http://www.loc.gov/item/afccal000390/"
+        },
+        {
+            "filename": "Conversation-with-11-year-old-black-female-Washington-DC_afccal000390_004_00-08-49.mp3",
+            "title": "Conversation with 11 year old black female, Washington, DC",
+            "timestamp": "08:49",
+            "url": "http://www.loc.gov/item/afccal000390/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-black-female-Washington-DC_afccal000392_001_00-01-22.mp3",
+            "title": "Conversation with 12 year old black female, Washington, DC",
+            "timestamp": "01:22",
+            "url": "http://www.loc.gov/item/afccal000392/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-black-female-Washington-DC_afccal000392_002_00-02-58.mp3",
+            "title": "Conversation with 12 year old black female, Washington, DC",
+            "timestamp": "02:58",
+            "url": "http://www.loc.gov/item/afccal000392/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-black-female-Washington-DC_afccal000392_003_00-03-12.mp3",
+            "title": "Conversation with 12 year old black female, Washington, DC",
+            "timestamp": "03:12",
+            "url": "http://www.loc.gov/item/afccal000392/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-black-female-Washington-DC_afccal000392_004_00-05-44.mp3",
+            "title": "Conversation with 12 year old black female, Washington, DC",
+            "timestamp": "05:44",
+            "url": "http://www.loc.gov/item/afccal000392/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-male-Virginia_afccal000222_001_00-01-46.mp3",
+            "title": "Conversation with 12 year old male, Virginia",
+            "timestamp": "01:46",
+            "url": "http://www.loc.gov/item/afccal000222/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-male-Virginia_afccal000222_002_00-02-59.mp3",
+            "title": "Conversation with 12 year old male, Virginia",
+            "timestamp": "02:59",
+            "url": "http://www.loc.gov/item/afccal000222/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-male-Virginia_afccal000222_003_00-12-26.mp3",
+            "title": "Conversation with 12 year old male, Virginia",
+            "timestamp": "12:26",
+            "url": "http://www.loc.gov/item/afccal000222/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-male-Virginia_afccal000222_004_00-13-15.mp3",
+            "title": "Conversation with 12 year old male, Virginia",
+            "timestamp": "13:15",
+            "url": "http://www.loc.gov/item/afccal000222/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Arkansas_afccal000229_001_00-02-46.mp3",
+            "title": "Conversation with 12 year old white female, Arkansas",
+            "timestamp": "02:46",
+            "url": "http://www.loc.gov/item/afccal000229/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Arkansas_afccal000229_002_00-08-56.mp3",
+            "title": "Conversation with 12 year old white female, Arkansas",
+            "timestamp": "08:56",
+            "url": "http://www.loc.gov/item/afccal000229/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Arkansas_afccal000229_003_00-16-42.mp3",
+            "title": "Conversation with 12 year old white female, Arkansas",
+            "timestamp": "16:42",
+            "url": "http://www.loc.gov/item/afccal000229/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Arkansas_afccal000229_004_00-17-13.mp3",
+            "title": "Conversation with 12 year old white female, Arkansas",
+            "timestamp": "17:13",
+            "url": "http://www.loc.gov/item/afccal000229/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000126_001_00-05-20.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "05:20",
+            "url": "http://www.loc.gov/item/afccal000126/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000126_002_00-10-16.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "10:16",
+            "url": "http://www.loc.gov/item/afccal000126/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000126_003_00-10-51.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "10:51",
+            "url": "http://www.loc.gov/item/afccal000126/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000126_004_00-11-05.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "11:05",
+            "url": "http://www.loc.gov/item/afccal000126/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000127_001_00-05-17.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "05:17",
+            "url": "http://www.loc.gov/item/afccal000127/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000127_002_00-05-23.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "05:23",
+            "url": "http://www.loc.gov/item/afccal000127/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000127_003_00-21-04.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "21:04",
+            "url": "http://www.loc.gov/item/afccal000127/"
+        },
+        {
+            "filename": "Conversation-with-12-year-old-white-female-Detroit-Michigan_afccal000127_004_00-23-02.mp3",
+            "title": "Conversation with 12 year old white female, Detroit, Michigan",
+            "timestamp": "23:02",
+            "url": "http://www.loc.gov/item/afccal000127/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-Virginia_afccal000221_001_00-01-32.mp3",
+            "title": "Conversation with 13 year old male, Virginia",
+            "timestamp": "01:32",
+            "url": "http://www.loc.gov/item/afccal000221/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-Virginia_afccal000221_002_00-01-45.mp3",
+            "title": "Conversation with 13 year old male, Virginia",
+            "timestamp": "01:45",
+            "url": "http://www.loc.gov/item/afccal000221/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-Virginia_afccal000221_003_00-09-40.mp3",
+            "title": "Conversation with 13 year old male, Virginia",
+            "timestamp": "09:40",
+            "url": "http://www.loc.gov/item/afccal000221/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-Virginia_afccal000221_004_00-12-11.mp3",
+            "title": "Conversation with 13 year old male, Virginia",
+            "timestamp": "12:11",
+            "url": "http://www.loc.gov/item/afccal000221/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-West-Virginia_afccal000058_001_00-03-05.mp3",
+            "title": "Conversation with 13 year old male, West Virginia",
+            "timestamp": "03:05",
+            "url": "http://www.loc.gov/item/afccal000058/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-West-Virginia_afccal000058_002_00-03-56.mp3",
+            "title": "Conversation with 13 year old male, West Virginia",
+            "timestamp": "03:56",
+            "url": "http://www.loc.gov/item/afccal000058/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-West-Virginia_afccal000058_003_00-04-52.mp3",
+            "title": "Conversation with 13 year old male, West Virginia",
+            "timestamp": "04:52",
+            "url": "http://www.loc.gov/item/afccal000058/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-male-West-Virginia_afccal000058_004_00-07-48.mp3",
+            "title": "Conversation with 13 year old male, West Virginia",
+            "timestamp": "07:48",
+            "url": "http://www.loc.gov/item/afccal000058/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-Detroit-Michigan_afccal000125_001_00-07-13.mp3",
+            "title": "Conversation with 13 year old white male, Detroit, Michigan",
+            "timestamp": "07:13",
+            "url": "http://www.loc.gov/item/afccal000125/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-Detroit-Michigan_afccal000125_002_00-13-10.mp3",
+            "title": "Conversation with 13 year old white male, Detroit, Michigan",
+            "timestamp": "13:10",
+            "url": "http://www.loc.gov/item/afccal000125/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-Detroit-Michigan_afccal000125_003_00-23-52.mp3",
+            "title": "Conversation with 13 year old white male, Detroit, Michigan",
+            "timestamp": "23:52",
+            "url": "http://www.loc.gov/item/afccal000125/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-Detroit-Michigan_afccal000125_004_00-24-54.mp3",
+            "title": "Conversation with 13 year old white male, Detroit, Michigan",
+            "timestamp": "24:54",
+            "url": "http://www.loc.gov/item/afccal000125/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-West-Virginia_afccal000059_001_00-00-39.mp3",
+            "title": "Conversation with 13 year old white male, West Virginia",
+            "timestamp": "00:39",
+            "url": "http://www.loc.gov/item/afccal000059/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-West-Virginia_afccal000059_002_00-00-48.mp3",
+            "title": "Conversation with 13 year old white male, West Virginia",
+            "timestamp": "00:48",
+            "url": "http://www.loc.gov/item/afccal000059/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-West-Virginia_afccal000059_003_00-01-41.mp3",
+            "title": "Conversation with 13 year old white male, West Virginia",
+            "timestamp": "01:41",
+            "url": "http://www.loc.gov/item/afccal000059/"
+        },
+        {
+            "filename": "Conversation-with-13-year-old-white-male-West-Virginia_afccal000059_004_00-07-49.mp3",
+            "title": "Conversation with 13 year old white male, West Virginia",
+            "timestamp": "07:49",
+            "url": "http://www.loc.gov/item/afccal000059/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-female-Washington-DC_afccal000397_001_00-01-49.mp3",
+            "title": "Conversation with 14 year old black female, Washington, DC",
+            "timestamp": "01:49",
+            "url": "http://www.loc.gov/item/afccal000397/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-female-Washington-DC_afccal000397_002_00-02-31.mp3",
+            "title": "Conversation with 14 year old black female, Washington, DC",
+            "timestamp": "02:31",
+            "url": "http://www.loc.gov/item/afccal000397/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-female-Washington-DC_afccal000397_003_00-03-56.mp3",
+            "title": "Conversation with 14 year old black female, Washington, DC",
+            "timestamp": "03:56",
+            "url": "http://www.loc.gov/item/afccal000397/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-female-Washington-DC_afccal000397_004_00-05-24.mp3",
+            "title": "Conversation with 14 year old black female, Washington, DC",
+            "timestamp": "05:24",
+            "url": "http://www.loc.gov/item/afccal000397/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-male-New-York-New-York_afccal000057_001_00-05-30.mp3",
+            "title": "Conversation with 14 year old black male, New York, New York",
+            "timestamp": "05:30",
+            "url": "http://www.loc.gov/item/afccal000057/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-male-New-York-New-York_afccal000057_002_00-09-08.mp3",
+            "title": "Conversation with 14 year old black male, New York, New York",
+            "timestamp": "09:08",
+            "url": "http://www.loc.gov/item/afccal000057/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-male-New-York-New-York_afccal000057_003_00-10-38.mp3",
+            "title": "Conversation with 14 year old black male, New York, New York",
+            "timestamp": "10:38",
+            "url": "http://www.loc.gov/item/afccal000057/"
+        },
+        {
+            "filename": "Conversation-with-14-year-old-black-male-New-York-New-York_afccal000057_004_00-11-24.mp3",
+            "title": "Conversation with 14 year old black male, New York, New York",
+            "timestamp": "11:24",
+            "url": "http://www.loc.gov/item/afccal000057/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000051_001_00-02-10.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "02:10",
+            "url": "http://www.loc.gov/item/afccal000051/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000051_002_00-05-09.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "05:09",
+            "url": "http://www.loc.gov/item/afccal000051/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000051_003_00-08-32.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "08:32",
+            "url": "http://www.loc.gov/item/afccal000051/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000051_004_00-11-43.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "11:43",
+            "url": "http://www.loc.gov/item/afccal000051/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000054_001_00-16-34.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "16:34",
+            "url": "http://www.loc.gov/item/afccal000054/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000054_002_00-17-20.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "17:20",
+            "url": "http://www.loc.gov/item/afccal000054/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000054_003_00-17-39.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "17:39",
+            "url": "http://www.loc.gov/item/afccal000054/"
+        },
+        {
+            "filename": "Conversation-with-15-year-old-male-New-York-New-York_afccal000054_004_00-18-35.mp3",
+            "title": "Conversation with 15 year old male, New York, New York",
+            "timestamp": "18:35",
+            "url": "http://www.loc.gov/item/afccal000054/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-black-female-Detroit-Michigan_afccal000124_001_00-04-58.mp3",
+            "title": "Conversation with 16 year old black female, Detroit, Michigan",
+            "timestamp": "04:58",
+            "url": "http://www.loc.gov/item/afccal000124/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-black-female-Detroit-Michigan_afccal000124_002_00-18-20.mp3",
+            "title": "Conversation with 16 year old black female, Detroit, Michigan",
+            "timestamp": "18:20",
+            "url": "http://www.loc.gov/item/afccal000124/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-black-female-Detroit-Michigan_afccal000124_003_00-26-08.mp3",
+            "title": "Conversation with 16 year old black female, Detroit, Michigan",
+            "timestamp": "26:08",
+            "url": "http://www.loc.gov/item/afccal000124/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-black-female-Detroit-Michigan_afccal000124_004_00-27-43.mp3",
+            "title": "Conversation with 16 year old black female, Detroit, Michigan",
+            "timestamp": "27:43",
+            "url": "http://www.loc.gov/item/afccal000124/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-white-female-Arkansas_afccal000230_001_00-07-02.mp3",
+            "title": "Conversation with 16 year old white female, Arkansas",
+            "timestamp": "07:02",
+            "url": "http://www.loc.gov/item/afccal000230/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-white-female-Arkansas_afccal000230_002_00-16-15.mp3",
+            "title": "Conversation with 16 year old white female, Arkansas",
+            "timestamp": "16:15",
+            "url": "http://www.loc.gov/item/afccal000230/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-white-female-Arkansas_afccal000230_003_00-17-19.mp3",
+            "title": "Conversation with 16 year old white female, Arkansas",
+            "timestamp": "17:19",
+            "url": "http://www.loc.gov/item/afccal000230/"
+        },
+        {
+            "filename": "Conversation-with-16-year-old-white-female-Arkansas_afccal000230_004_00-19-18.mp3",
+            "title": "Conversation with 16 year old white female, Arkansas",
+            "timestamp": "19:18",
+            "url": "http://www.loc.gov/item/afccal000230/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000050_001_00-01-46.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "01:46",
+            "url": "http://www.loc.gov/item/afccal000050/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000050_002_00-02-02.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "02:02",
+            "url": "http://www.loc.gov/item/afccal000050/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000050_003_00-05-34.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "05:34",
+            "url": "http://www.loc.gov/item/afccal000050/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000050_004_00-05-59.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "05:59",
+            "url": "http://www.loc.gov/item/afccal000050/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000053_001_00-03-52.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "03:52",
+            "url": "http://www.loc.gov/item/afccal000053/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000053_002_00-06-13.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "06:13",
+            "url": "http://www.loc.gov/item/afccal000053/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000053_003_00-09-38.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "09:38",
+            "url": "http://www.loc.gov/item/afccal000053/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-New-York-New-York_afccal000053_004_00-12-40.mp3",
+            "title": "Conversation with 17 year old male, New York, New York",
+            "timestamp": "12:40",
+            "url": "http://www.loc.gov/item/afccal000053/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-Virginia_afccal000225_001_00-00-04.mp3",
+            "title": "Conversation with 17 year old male, Virginia",
+            "timestamp": "00:04",
+            "url": "http://www.loc.gov/item/afccal000225/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-Virginia_afccal000225_002_00-08-25.mp3",
+            "title": "Conversation with 17 year old male, Virginia",
+            "timestamp": "08:25",
+            "url": "http://www.loc.gov/item/afccal000225/"
+        },
+        {
+            "filename": "Conversation-with-17-year-old-male-Virginia_afccal000225_003_00-12-55.mp3",
+            "title": "Conversation with 17 year old male, Virginia",
+            "timestamp": "12:55",
+            "url": "http://www.loc.gov/item/afccal000225/"
+        },
+        {
+            "filename": "Conversation-with-18-year-old-black-male-New-York-New-York_afccal000056_001_00-02-49.mp3",
+            "title": "Conversation with 18 year old black male, New York, New York",
+            "timestamp": "02:49",
+            "url": "http://www.loc.gov/item/afccal000056/"
+        },
+        {
+            "filename": "Conversation-with-18-year-old-black-male-New-York-New-York_afccal000056_002_00-05-35.mp3",
+            "title": "Conversation with 18 year old black male, New York, New York",
+            "timestamp": "05:35",
+            "url": "http://www.loc.gov/item/afccal000056/"
+        },
+        {
+            "filename": "Conversation-with-18-year-old-black-male-New-York-New-York_afccal000056_003_00-06-42.mp3",
+            "title": "Conversation with 18 year old black male, New York, New York",
+            "timestamp": "06:42",
+            "url": "http://www.loc.gov/item/afccal000056/"
+        },
+        {
+            "filename": "Conversation-with-18-year-old-black-male-New-York-New-York_afccal000056_004_00-09-42.mp3",
+            "title": "Conversation with 18 year old black male, New York, New York",
+            "timestamp": "09:42",
+            "url": "http://www.loc.gov/item/afccal000056/"
+        },
+        {
+            "filename": "Conversation-with-23-year-old-white-male-Arkansas_afccal000231_001_00-00-01.mp3",
+            "title": "Conversation with 23 year old white male, Arkansas",
+            "timestamp": "00:01",
+            "url": "http://www.loc.gov/item/afccal000231/"
+        },
+        {
+            "filename": "Conversation-with-23-year-old-white-male-Arkansas_afccal000231_002_00-11-35.mp3",
+            "title": "Conversation with 23 year old white male, Arkansas",
+            "timestamp": "11:35",
+            "url": "http://www.loc.gov/item/afccal000231/"
+        },
+        {
+            "filename": "Conversation-with-23-year-old-white-male-Arkansas_afccal000231_003_00-16-18.mp3",
+            "title": "Conversation with 23 year old white male, Arkansas",
+            "timestamp": "16:18",
+            "url": "http://www.loc.gov/item/afccal000231/"
+        },
+        {
+            "filename": "Conversation-with-23-year-old-white-male-Arkansas_afccal000231_004_00-16-38.mp3",
+            "title": "Conversation with 23 year old white male, Arkansas",
+            "timestamp": "16:38",
+            "url": "http://www.loc.gov/item/afccal000231/"
+        },
+        {
+            "filename": "Conversation-with-24-year-old-male-Virginia_afccal000226_001_00-08-49.mp3",
+            "title": "Conversation with 24 year old male, Virginia",
+            "timestamp": "08:49",
+            "url": "http://www.loc.gov/item/afccal000226/"
+        },
+        {
+            "filename": "Conversation-with-24-year-old-male-Virginia_afccal000226_002_00-09-11.mp3",
+            "title": "Conversation with 24 year old male, Virginia",
+            "timestamp": "09:11",
+            "url": "http://www.loc.gov/item/afccal000226/"
+        },
+        {
+            "filename": "Conversation-with-24-year-old-male-Virginia_afccal000226_003_00-10-17.mp3",
+            "title": "Conversation with 24 year old male, Virginia",
+            "timestamp": "10:17",
+            "url": "http://www.loc.gov/item/afccal000226/"
+        },
+        {
+            "filename": "Conversation-with-24-year-old-male-Virginia_afccal000226_004_00-10-31.mp3",
+            "title": "Conversation with 24 year old male, Virginia",
+            "timestamp": "10:31",
+            "url": "http://www.loc.gov/item/afccal000226/"
+        },
+        {
+            "filename": "Conversation-with-27-year-old-white-female-West-Virginia_afccal000063_001_00-00-15.mp3",
+            "title": "Conversation with 27 year old white female, West Virginia",
+            "timestamp": "00:15",
+            "url": "http://www.loc.gov/item/afccal000063/"
+        },
+        {
+            "filename": "Conversation-with-27-year-old-white-female-West-Virginia_afccal000063_002_00-01-48.mp3",
+            "title": "Conversation with 27 year old white female, West Virginia",
+            "timestamp": "01:48",
+            "url": "http://www.loc.gov/item/afccal000063/"
+        },
+        {
+            "filename": "Conversation-with-27-year-old-white-female-West-Virginia_afccal000063_003_00-05-42.mp3",
+            "title": "Conversation with 27 year old white female, West Virginia",
+            "timestamp": "05:42",
+            "url": "http://www.loc.gov/item/afccal000063/"
+        },
+        {
+            "filename": "Conversation-with-27-year-old-white-female-West-Virginia_afccal000063_004_00-09-44.mp3",
+            "title": "Conversation with 27 year old white female, West Virginia",
+            "timestamp": "09:44",
+            "url": "http://www.loc.gov/item/afccal000063/"
+        },
+        {
+            "filename": "Conversation-with-30-year-old-white-male-PettigrewArkansas_afccal000232_001_00-11-07.mp3",
+            "title": "Conversation with 30 year old white male, Pettigrew,Arkansas",
+            "timestamp": "11:07",
+            "url": "http://www.loc.gov/item/afccal000232/"
+        },
+        {
+            "filename": "Conversation-with-30-year-old-white-male-PettigrewArkansas_afccal000232_002_00-17-15.mp3",
+            "title": "Conversation with 30 year old white male, Pettigrew,Arkansas",
+            "timestamp": "17:15",
+            "url": "http://www.loc.gov/item/afccal000232/"
+        },
+        {
+            "filename": "Conversation-with-30-year-old-white-male-PettigrewArkansas_afccal000232_003_00-18-06.mp3",
+            "title": "Conversation with 30 year old white male, Pettigrew,Arkansas",
+            "timestamp": "18:06",
+            "url": "http://www.loc.gov/item/afccal000232/"
+        },
+        {
+            "filename": "Conversation-with-30-year-old-white-male-PettigrewArkansas_afccal000232_004_00-21-12.mp3",
+            "title": "Conversation with 30 year old white male, Pettigrew,Arkansas",
+            "timestamp": "21:12",
+            "url": "http://www.loc.gov/item/afccal000232/"
+        },
+        {
+            "filename": "Conversation-with-31-year-old-black-female-Detroit-Michigan_afccal000120_001_00-06-58.mp3",
+            "title": "Conversation with 31 year old black female, Detroit, Michigan",
+            "timestamp": "06:58",
+            "url": "http://www.loc.gov/item/afccal000120/"
+        },
+        {
+            "filename": "Conversation-with-31-year-old-black-female-Detroit-Michigan_afccal000120_002_00-08-27.mp3",
+            "title": "Conversation with 31 year old black female, Detroit, Michigan",
+            "timestamp": "08:27",
+            "url": "http://www.loc.gov/item/afccal000120/"
+        },
+        {
+            "filename": "Conversation-with-31-year-old-black-female-Detroit-Michigan_afccal000120_003_00-20-33.mp3",
+            "title": "Conversation with 31 year old black female, Detroit, Michigan",
+            "timestamp": "20:33",
+            "url": "http://www.loc.gov/item/afccal000120/"
+        },
+        {
+            "filename": "Conversation-with-31-year-old-black-female-Detroit-Michigan_afccal000120_004_00-20-53.mp3",
+            "title": "Conversation with 31 year old black female, Detroit, Michigan",
+            "timestamp": "20:53",
+            "url": "http://www.loc.gov/item/afccal000120/"
+        },
+        {
+            "filename": "Conversation-with-32-year-old-black-female-Detroit-Michigan_afccal000121_001_00-01-37.mp3",
+            "title": "Conversation with 32 year old black female, Detroit, Michigan",
+            "timestamp": "01:37",
+            "url": "http://www.loc.gov/item/afccal000121/"
+        },
+        {
+            "filename": "Conversation-with-32-year-old-black-female-Detroit-Michigan_afccal000121_002_00-10-29.mp3",
+            "title": "Conversation with 32 year old black female, Detroit, Michigan",
+            "timestamp": "10:29",
+            "url": "http://www.loc.gov/item/afccal000121/"
+        },
+        {
+            "filename": "Conversation-with-32-year-old-black-female-Detroit-Michigan_afccal000121_003_00-20-31.mp3",
+            "title": "Conversation with 32 year old black female, Detroit, Michigan",
+            "timestamp": "20:31",
+            "url": "http://www.loc.gov/item/afccal000121/"
+        },
+        {
+            "filename": "Conversation-with-32-year-old-black-female-Detroit-Michigan_afccal000121_004_00-21-18.mp3",
+            "title": "Conversation with 32 year old black female, Detroit, Michigan",
+            "timestamp": "21:18",
+            "url": "http://www.loc.gov/item/afccal000121/"
+        },
+        {
+            "filename": "Conversation-with-39-year-old-male-Virginia_afccal000227_001_00-03-37.mp3",
+            "title": "Conversation with 39 year old male, Virginia",
+            "timestamp": "03:37",
+            "url": "http://www.loc.gov/item/afccal000227/"
+        },
+        {
+            "filename": "Conversation-with-39-year-old-male-Virginia_afccal000227_002_00-07-01.mp3",
+            "title": "Conversation with 39 year old male, Virginia",
+            "timestamp": "07:01",
+            "url": "http://www.loc.gov/item/afccal000227/"
+        },
+        {
+            "filename": "Conversation-with-39-year-old-male-Virginia_afccal000227_003_00-07-46.mp3",
+            "title": "Conversation with 39 year old male, Virginia",
+            "timestamp": "07:46",
+            "url": "http://www.loc.gov/item/afccal000227/"
+        },
+        {
+            "filename": "Conversation-with-39-year-old-male-Virginia_afccal000227_004_00-14-06.mp3",
+            "title": "Conversation with 39 year old male, Virginia",
+            "timestamp": "14:06",
+            "url": "http://www.loc.gov/item/afccal000227/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000122_001_00-01-11.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "01:11",
+            "url": "http://www.loc.gov/item/afccal000122/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000122_002_00-02-23.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "02:23",
+            "url": "http://www.loc.gov/item/afccal000122/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000122_003_00-05-12.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "05:12",
+            "url": "http://www.loc.gov/item/afccal000122/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000122_004_00-05-45.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "05:45",
+            "url": "http://www.loc.gov/item/afccal000122/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000123_001_00-17-53.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "17:53",
+            "url": "http://www.loc.gov/item/afccal000123/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000123_002_00-19-15.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "19:15",
+            "url": "http://www.loc.gov/item/afccal000123/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000123_003_00-21-26.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "21:26",
+            "url": "http://www.loc.gov/item/afccal000123/"
+        },
+        {
+            "filename": "Conversation-with-41-year-old-black-male-Detroit-Michigan_afccal000123_004_00-27-22.mp3",
+            "title": "Conversation with 41 year old black male, Detroit, Michigan",
+            "timestamp": "27:22",
+            "url": "http://www.loc.gov/item/afccal000123/"
+        },
+        {
+            "filename": "Conversation-with-45-year-old-male-Virginia_afccal000223_001_00-05-15.mp3",
+            "title": "Conversation with 45 year old male, Virginia",
+            "timestamp": "05:15",
+            "url": "http://www.loc.gov/item/afccal000223/"
+        },
+        {
+            "filename": "Conversation-with-45-year-old-male-Virginia_afccal000223_002_00-08-19.mp3",
+            "title": "Conversation with 45 year old male, Virginia",
+            "timestamp": "08:19",
+            "url": "http://www.loc.gov/item/afccal000223/"
+        },
+        {
+            "filename": "Conversation-with-45-year-old-male-Virginia_afccal000223_003_00-08-27.mp3",
+            "title": "Conversation with 45 year old male, Virginia",
+            "timestamp": "08:27",
+            "url": "http://www.loc.gov/item/afccal000223/"
+        },
+        {
+            "filename": "Conversation-with-45-year-old-male-Virginia_afccal000223_004_00-14-47.mp3",
+            "title": "Conversation with 45 year old male, Virginia",
+            "timestamp": "14:47",
+            "url": "http://www.loc.gov/item/afccal000223/"
+        },
+        {
+            "filename": "Conversation-with-50-year-old-white-male-West-Virginia_afccal000061_001_00-04-31.mp3",
+            "title": "Conversation with 50 year old white male, West Virginia",
+            "timestamp": "04:31",
+            "url": "http://www.loc.gov/item/afccal000061/"
+        },
+        {
+            "filename": "Conversation-with-50-year-old-white-male-West-Virginia_afccal000061_002_00-05-15.mp3",
+            "title": "Conversation with 50 year old white male, West Virginia",
+            "timestamp": "05:15",
+            "url": "http://www.loc.gov/item/afccal000061/"
+        },
+        {
+            "filename": "Conversation-with-50-year-old-white-male-West-Virginia_afccal000061_003_00-14-02.mp3",
+            "title": "Conversation with 50 year old white male, West Virginia",
+            "timestamp": "14:02",
+            "url": "http://www.loc.gov/item/afccal000061/"
+        },
+        {
+            "filename": "Conversation-with-50-year-old-white-male-West-Virginia_afccal000061_004_00-16-44.mp3",
+            "title": "Conversation with 50 year old white male, West Virginia",
+            "timestamp": "16:44",
+            "url": "http://www.loc.gov/item/afccal000061/"
+        },
+        {
+            "filename": "Conversation-with-52-year-old-white-male-and-acquaintances-West-Virginia_afccal000065_001_00-00-16.mp3",
+            "title": "Conversation with 52 year old white male and acquaintances, West Virginia",
+            "timestamp": "00:16",
+            "url": "http://www.loc.gov/item/afccal000065/"
+        },
+        {
+            "filename": "Conversation-with-52-year-old-white-male-and-acquaintances-West-Virginia_afccal000065_002_00-03-04.mp3",
+            "title": "Conversation with 52 year old white male and acquaintances, West Virginia",
+            "timestamp": "03:04",
+            "url": "http://www.loc.gov/item/afccal000065/"
+        },
+        {
+            "filename": "Conversation-with-52-year-old-white-male-and-acquaintances-West-Virginia_afccal000065_003_00-05-08.mp3",
+            "title": "Conversation with 52 year old white male and acquaintances, West Virginia",
+            "timestamp": "05:08",
+            "url": "http://www.loc.gov/item/afccal000065/"
+        },
+        {
+            "filename": "Conversation-with-52-year-old-white-male-and-acquaintances-West-Virginia_afccal000065_004_00-06-46.mp3",
+            "title": "Conversation with 52 year old white male and acquaintances, West Virginia",
+            "timestamp": "06:46",
+            "url": "http://www.loc.gov/item/afccal000065/"
+        },
+        {
+            "filename": "Conversation-with-59-year-old-white-male-Arkansas_afccal000233_001_00-00-02.mp3",
+            "title": "Conversation with 59 year old white male, Arkansas",
+            "timestamp": "00:02",
+            "url": "http://www.loc.gov/item/afccal000233/"
+        },
+        {
+            "filename": "Conversation-with-59-year-old-white-male-Arkansas_afccal000233_002_00-00-07.mp3",
+            "title": "Conversation with 59 year old white male, Arkansas",
+            "timestamp": "00:07",
+            "url": "http://www.loc.gov/item/afccal000233/"
+        },
+        {
+            "filename": "Conversation-with-59-year-old-white-male-Arkansas_afccal000233_003_00-06-22.mp3",
+            "title": "Conversation with 59 year old white male, Arkansas",
+            "timestamp": "06:22",
+            "url": "http://www.loc.gov/item/afccal000233/"
+        },
+        {
+            "filename": "Conversation-with-60-year-old-white-male-West-Virginia_afccal000060_001_00-02-02.mp3",
+            "title": "Conversation with 60 year old white male, West Virginia",
+            "timestamp": "02:02",
+            "url": "http://www.loc.gov/item/afccal000060/"
+        },
+        {
+            "filename": "Conversation-with-60-year-old-white-male-West-Virginia_afccal000060_002_00-05-04.mp3",
+            "title": "Conversation with 60 year old white male, West Virginia",
+            "timestamp": "05:04",
+            "url": "http://www.loc.gov/item/afccal000060/"
+        },
+        {
+            "filename": "Conversation-with-60-year-old-white-male-West-Virginia_afccal000060_003_00-10-36.mp3",
+            "title": "Conversation with 60 year old white male, West Virginia",
+            "timestamp": "10:36",
+            "url": "http://www.loc.gov/item/afccal000060/"
+        },
+        {
+            "filename": "Conversation-with-60-year-old-white-male-West-Virginia_afccal000060_004_00-12-10.mp3",
+            "title": "Conversation with 60 year old white male, West Virginia",
+            "timestamp": "12:10",
+            "url": "http://www.loc.gov/item/afccal000060/"
+        },
+        {
+            "filename": "Conversation-with-67-year-old-white-male-West-Virginia_afccal000062_001_00-00-19.mp3",
+            "title": "Conversation with 67 year old white male, West Virginia",
+            "timestamp": "00:19",
+            "url": "http://www.loc.gov/item/afccal000062/"
+        },
+        {
+            "filename": "Conversation-with-67-year-old-white-male-West-Virginia_afccal000062_002_00-06-15.mp3",
+            "title": "Conversation with 67 year old white male, West Virginia",
+            "timestamp": "06:15",
+            "url": "http://www.loc.gov/item/afccal000062/"
+        },
+        {
+            "filename": "Conversation-with-67-year-old-white-male-West-Virginia_afccal000062_003_00-06-22.mp3",
+            "title": "Conversation with 67 year old white male, West Virginia",
+            "timestamp": "06:22",
+            "url": "http://www.loc.gov/item/afccal000062/"
+        },
+        {
+            "filename": "Conversation-with-67-year-old-white-male-West-Virginia_afccal000062_004_00-10-01.mp3",
+            "title": "Conversation with 67 year old white male, West Virginia",
+            "timestamp": "10:01",
+            "url": "http://www.loc.gov/item/afccal000062/"
+        },
+        {
+            "filename": "Conversation-with-76-year-old-white-female-West-Virginia_afccal000064_001_00-09-23.mp3",
+            "title": "Conversation with 76 year old white female, West Virginia",
+            "timestamp": "09:23",
+            "url": "http://www.loc.gov/item/afccal000064/"
+        },
+        {
+            "filename": "Conversation-with-76-year-old-white-female-West-Virginia_afccal000064_002_00-11-04.mp3",
+            "title": "Conversation with 76 year old white female, West Virginia",
+            "timestamp": "11:04",
+            "url": "http://www.loc.gov/item/afccal000064/"
+        },
+        {
+            "filename": "Conversation-with-76-year-old-white-female-West-Virginia_afccal000064_003_00-13-54.mp3",
+            "title": "Conversation with 76 year old white female, West Virginia",
+            "timestamp": "13:54",
+            "url": "http://www.loc.gov/item/afccal000064/"
+        },
+        {
+            "filename": "Conversation-with-76-year-old-white-female-West-Virginia_afccal000064_004_00-14-51.mp3",
+            "title": "Conversation with 76 year old white female, West Virginia",
+            "timestamp": "14:51",
+            "url": "http://www.loc.gov/item/afccal000064/"
+        },
+        {
+            "filename": "Conversation-with-91-year-old-male-and-77-year-old-female-Arkansas_afccal000235_001_00-12-47.mp3",
+            "title": "Conversation with 91 year old male and 77 year old female, Arkansas",
+            "timestamp": "12:47",
+            "url": "http://www.loc.gov/item/afccal000235/"
+        },
+        {
+            "filename": "Conversation-with-91-year-old-male-and-77-year-old-female-Arkansas_afccal000235_002_00-15-23.mp3",
+            "title": "Conversation with 91 year old male and 77 year old female, Arkansas",
+            "timestamp": "15:23",
+            "url": "http://www.loc.gov/item/afccal000235/"
+        },
+        {
+            "filename": "Conversation-with-91-year-old-male-and-77-year-old-female-Arkansas_afccal000235_003_00-16-23.mp3",
+            "title": "Conversation with 91 year old male and 77 year old female, Arkansas",
+            "timestamp": "16:23",
+            "url": "http://www.loc.gov/item/afccal000235/"
+        },
+        {
+            "filename": "Conversation-with-91-year-old-male-and-77-year-old-female-Arkansas_afccal000235_004_00-16-54.mp3",
+            "title": "Conversation with 91 year old male and 77 year old female, Arkansas",
+            "timestamp": "16:54",
+            "url": "http://www.loc.gov/item/afccal000235/"
+        },
+        {
+            "filename": "Interview-with-15-year-old-male-New-York-New-York_afccal000052_001_00-02-22.mp3",
+            "title": "Interview with 15 year old male, New York, New York",
+            "timestamp": "02:22",
+            "url": "http://www.loc.gov/item/afccal000052/"
+        },
+        {
+            "filename": "Interview-with-15-year-old-male-New-York-New-York_afccal000052_002_00-02-57.mp3",
+            "title": "Interview with 15 year old male, New York, New York",
+            "timestamp": "02:57",
+            "url": "http://www.loc.gov/item/afccal000052/"
+        },
+        {
+            "filename": "Interview-with-15-year-old-male-New-York-New-York_afccal000052_003_00-06-55.mp3",
+            "title": "Interview with 15 year old male, New York, New York",
+            "timestamp": "06:55",
+            "url": "http://www.loc.gov/item/afccal000052/"
+        },
+        {
+            "filename": "Interview-with-15-year-old-male-New-York-New-York_afccal000052_004_00-13-49.mp3",
+            "title": "Interview with 15 year old male, New York, New York",
+            "timestamp": "13:49",
+            "url": "http://www.loc.gov/item/afccal000052/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-2-of-3_afccal000015_001_00-01-39.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 2 of 3)",
+            "timestamp": "01:39",
+            "url": "http://www.loc.gov/item/afccal000015/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-2-of-3_afccal000015_002_00-04-25.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 2 of 3)",
+            "timestamp": "04:25",
+            "url": "http://www.loc.gov/item/afccal000015/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-2-of-3_afccal000015_003_00-04-35.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 2 of 3)",
+            "timestamp": "04:35",
+            "url": "http://www.loc.gov/item/afccal000015/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-2-of-3_afccal000015_004_00-08-50.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 2 of 3)",
+            "timestamp": "08:50",
+            "url": "http://www.loc.gov/item/afccal000015/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-3-of-3_afccal000016_001_00-07-37.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 3 of 3)",
+            "timestamp": "07:37",
+            "url": "http://www.loc.gov/item/afccal000016/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-3-of-3_afccal000016_002_00-09-20.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 3 of 3)",
+            "timestamp": "09:20",
+            "url": "http://www.loc.gov/item/afccal000016/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-3-of-3_afccal000016_003_00-12-54.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 3 of 3)",
+            "timestamp": "12:54",
+            "url": "http://www.loc.gov/item/afccal000016/"
+        },
+        {
+            "filename": "Interview-with-65-year-old-white-male-Mountain-Rest-South-Carolina-part-3-of-3_afccal000016_004_00-16-26.mp3",
+            "title": "Interview with 65 year old white male, Mountain Rest, South Carolina (part 3 of 3)",
+            "timestamp": "16:26",
+            "url": "http://www.loc.gov/item/afccal000016/"
+        },
+        {
+            "filename": "Oral-history-with-Wayne-Aspinall-Colorado_afccal000071_001_00-00-03.mp3",
+            "title": "Oral  history with Wayne Aspinall, Colorado.",
+            "timestamp": "00:03",
+            "url": "http://www.loc.gov/item/afccal000071/"
+        },
+        {
+            "filename": "Oral-history-with-Wayne-Aspinall-Colorado_afccal000071_002_00-00-25.mp3",
+            "title": "Oral  history with Wayne Aspinall, Colorado.",
+            "timestamp": "00:25",
+            "url": "http://www.loc.gov/item/afccal000071/"
+        },
+        {
+            "filename": "Oral-history-with-Wayne-Aspinall-Colorado_afccal000071_003_00-00-43.mp3",
+            "title": "Oral  history with Wayne Aspinall, Colorado.",
+            "timestamp": "00:43",
+            "url": "http://www.loc.gov/item/afccal000071/"
+        },
+        {
+            "filename": "Oral-history-with-Wayne-Aspinall-Colorado_afccal000071_004_00-08-47.mp3",
+            "title": "Oral  history with Wayne Aspinall, Colorado.",
+            "timestamp": "08:47",
+            "url": "http://www.loc.gov/item/afccal000071/"
+        },
+        {
+            "filename": "Oral-history-with-83-year-old-female-Colorado_afccal000066_001_00-01-18.mp3",
+            "title": "Oral history with  83 year old female, Colorado",
+            "timestamp": "01:18",
+            "url": "http://www.loc.gov/item/afccal000066/"
+        },
+        {
+            "filename": "Oral-history-with-83-year-old-female-Colorado_afccal000066_002_00-01-45.mp3",
+            "title": "Oral history with  83 year old female, Colorado",
+            "timestamp": "01:45",
+            "url": "http://www.loc.gov/item/afccal000066/"
+        },
+        {
+            "filename": "Oral-history-with-83-year-old-female-Colorado_afccal000066_003_00-03-19.mp3",
+            "title": "Oral history with  83 year old female, Colorado",
+            "timestamp": "03:19",
+            "url": "http://www.loc.gov/item/afccal000066/"
+        },
+        {
+            "filename": "Oral-history-with-83-year-old-female-Colorado_afccal000066_004_00-03-46.mp3",
+            "title": "Oral history with  83 year old female, Colorado",
+            "timestamp": "03:46",
+            "url": "http://www.loc.gov/item/afccal000066/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-male-Montrose-Colorado_afccal000074_001_00-07-21.mp3",
+            "title": "Oral history with  85 year old white male, Montrose, Colorado",
+            "timestamp": "07:21",
+            "url": "http://www.loc.gov/item/afccal000074/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-male-Montrose-Colorado_afccal000074_002_00-08-29.mp3",
+            "title": "Oral history with  85 year old white male, Montrose, Colorado",
+            "timestamp": "08:29",
+            "url": "http://www.loc.gov/item/afccal000074/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-male-Montrose-Colorado_afccal000074_003_00-09-03.mp3",
+            "title": "Oral history with  85 year old white male, Montrose, Colorado",
+            "timestamp": "09:03",
+            "url": "http://www.loc.gov/item/afccal000074/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-male-Montrose-Colorado_afccal000074_004_00-15-17.mp3",
+            "title": "Oral history with  85 year old white male, Montrose, Colorado",
+            "timestamp": "15:17",
+            "url": "http://www.loc.gov/item/afccal000074/"
+        },
+        {
+            "filename": "Oral-history-with-54-year-old-black-female-Grand-Junction-Colorado-and-a-61-year-old-black-female_afccal000068_001_00-01-07.mp3",
+            "title": "Oral history with 54 year old black female, Grand Junction, Colorado; and a 61 year old black female",
+            "timestamp": "01:07",
+            "url": "http://www.loc.gov/item/afccal000068/"
+        },
+        {
+            "filename": "Oral-history-with-54-year-old-black-female-Grand-Junction-Colorado-and-a-61-year-old-black-female_afccal000068_002_00-11-49.mp3",
+            "title": "Oral history with 54 year old black female, Grand Junction, Colorado; and a 61 year old black female",
+            "timestamp": "11:49",
+            "url": "http://www.loc.gov/item/afccal000068/"
+        },
+        {
+            "filename": "Oral-history-with-54-year-old-black-female-Grand-Junction-Colorado-and-a-61-year-old-black-female_afccal000068_003_00-13-19.mp3",
+            "title": "Oral history with 54 year old black female, Grand Junction, Colorado; and a 61 year old black female",
+            "timestamp": "13:19",
+            "url": "http://www.loc.gov/item/afccal000068/"
+        },
+        {
+            "filename": "Oral-history-with-54-year-old-black-female-Grand-Junction-Colorado-and-a-61-year-old-black-female_afccal000068_004_00-18-23.mp3",
+            "title": "Oral history with 54 year old black female, Grand Junction, Colorado; and a 61 year old black female",
+            "timestamp": "18:23",
+            "url": "http://www.loc.gov/item/afccal000068/"
+        },
+        {
+            "filename": "Oral-history-with-64-year-old-white-male-Concord-Massachusetts_afccal000077_001_00-02-40.mp3",
+            "title": "Oral history with 64 year old white male, Concord, Massachusetts",
+            "timestamp": "02:40",
+            "url": "http://www.loc.gov/item/afccal000077/"
+        },
+        {
+            "filename": "Oral-history-with-64-year-old-white-male-Concord-Massachusetts_afccal000077_002_00-08-27.mp3",
+            "title": "Oral history with 64 year old white male, Concord, Massachusetts",
+            "timestamp": "08:27",
+            "url": "http://www.loc.gov/item/afccal000077/"
+        },
+        {
+            "filename": "Oral-history-with-64-year-old-white-male-Concord-Massachusetts_afccal000077_003_00-13-19.mp3",
+            "title": "Oral history with 64 year old white male, Concord, Massachusetts",
+            "timestamp": "13:19",
+            "url": "http://www.loc.gov/item/afccal000077/"
+        },
+        {
+            "filename": "Oral-history-with-64-year-old-white-male-Concord-Massachusetts_afccal000077_004_00-13-58.mp3",
+            "title": "Oral history with 64 year old white male, Concord, Massachusetts",
+            "timestamp": "13:58",
+            "url": "http://www.loc.gov/item/afccal000077/"
+        },
+        {
+            "filename": "Oral-history-with-71-year-old-male-Kentucky_afccal000356_001_00-02-12.mp3",
+            "title": "Oral history with 71 year old male, Kentucky",
+            "timestamp": "02:12",
+            "url": "http://www.loc.gov/item/afccal000356/"
+        },
+        {
+            "filename": "Oral-history-with-71-year-old-male-Kentucky_afccal000356_002_00-02-31.mp3",
+            "title": "Oral history with 71 year old male, Kentucky",
+            "timestamp": "02:31",
+            "url": "http://www.loc.gov/item/afccal000356/"
+        },
+        {
+            "filename": "Oral-history-with-71-year-old-male-Kentucky_afccal000356_003_00-02-52.mp3",
+            "title": "Oral history with 71 year old male, Kentucky",
+            "timestamp": "02:52",
+            "url": "http://www.loc.gov/item/afccal000356/"
+        },
+        {
+            "filename": "Oral-history-with-71-year-old-male-Kentucky_afccal000356_004_00-29-58.mp3",
+            "title": "Oral history with 71 year old male, Kentucky",
+            "timestamp": "29:58",
+            "url": "http://www.loc.gov/item/afccal000356/"
+        },
+        {
+            "filename": "Oral-history-with-72-year-old-white-female-Concord-Massachusetts_afccal000078_001_00-00-22.mp3",
+            "title": "Oral history with 72 year old white female, Concord, Massachusetts",
+            "timestamp": "00:22",
+            "url": "http://www.loc.gov/item/afccal000078/"
+        },
+        {
+            "filename": "Oral-history-with-72-year-old-white-female-Concord-Massachusetts_afccal000078_002_00-06-25.mp3",
+            "title": "Oral history with 72 year old white female, Concord, Massachusetts",
+            "timestamp": "06:25",
+            "url": "http://www.loc.gov/item/afccal000078/"
+        },
+        {
+            "filename": "Oral-history-with-72-year-old-white-female-Concord-Massachusetts_afccal000078_003_00-07-52.mp3",
+            "title": "Oral history with 72 year old white female, Concord, Massachusetts",
+            "timestamp": "07:52",
+            "url": "http://www.loc.gov/item/afccal000078/"
+        },
+        {
+            "filename": "Oral-history-with-72-year-old-white-female-Concord-Massachusetts_afccal000078_004_00-14-07.mp3",
+            "title": "Oral history with 72 year old white female, Concord, Massachusetts",
+            "timestamp": "14:07",
+            "url": "http://www.loc.gov/item/afccal000078/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Concord-Massachusetts_afccal000080_001_00-10-00.mp3",
+            "title": "Oral history with 73 year old male, Concord, Massachusetts",
+            "timestamp": "10:00",
+            "url": "http://www.loc.gov/item/afccal000080/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Concord-Massachusetts_afccal000080_002_00-12-39.mp3",
+            "title": "Oral history with 73 year old male, Concord, Massachusetts",
+            "timestamp": "12:39",
+            "url": "http://www.loc.gov/item/afccal000080/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Concord-Massachusetts_afccal000080_003_00-18-47.mp3",
+            "title": "Oral history with 73 year old male, Concord, Massachusetts",
+            "timestamp": "18:47",
+            "url": "http://www.loc.gov/item/afccal000080/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Concord-Massachusetts_afccal000080_004_00-21-36.mp3",
+            "title": "Oral history with 73 year old male, Concord, Massachusetts",
+            "timestamp": "21:36",
+            "url": "http://www.loc.gov/item/afccal000080/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Meeker-County-Minnesota_afccal000164_001_00-04-53.mp3",
+            "title": "Oral history with 73 year old male, Meeker County, Minnesota",
+            "timestamp": "04:53",
+            "url": "http://www.loc.gov/item/afccal000164/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Meeker-County-Minnesota_afccal000164_002_00-06-20.mp3",
+            "title": "Oral history with 73 year old male, Meeker County, Minnesota",
+            "timestamp": "06:20",
+            "url": "http://www.loc.gov/item/afccal000164/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Meeker-County-Minnesota_afccal000164_003_00-10-33.mp3",
+            "title": "Oral history with 73 year old male, Meeker County, Minnesota",
+            "timestamp": "10:33",
+            "url": "http://www.loc.gov/item/afccal000164/"
+        },
+        {
+            "filename": "Oral-history-with-73-year-old-male-Meeker-County-Minnesota_afccal000164_004_00-16-59.mp3",
+            "title": "Oral history with 73 year old male, Meeker County, Minnesota",
+            "timestamp": "16:59",
+            "url": "http://www.loc.gov/item/afccal000164/"
+        },
+        {
+            "filename": "Oral-history-with-74-year-old-white-male-Mesa-County-City-Colorado_afccal000072_001_00-02-53.mp3",
+            "title": "Oral history with 74 year old white male, Mesa County City, Colorado.",
+            "timestamp": "02:53",
+            "url": "http://www.loc.gov/item/afccal000072/"
+        },
+        {
+            "filename": "Oral-history-with-74-year-old-white-male-Mesa-County-City-Colorado_afccal000072_002_00-10-42.mp3",
+            "title": "Oral history with 74 year old white male, Mesa County City, Colorado.",
+            "timestamp": "10:42",
+            "url": "http://www.loc.gov/item/afccal000072/"
+        },
+        {
+            "filename": "Oral-history-with-74-year-old-white-male-Mesa-County-City-Colorado_afccal000072_003_00-13-31.mp3",
+            "title": "Oral history with 74 year old white male, Mesa County City, Colorado.",
+            "timestamp": "13:31",
+            "url": "http://www.loc.gov/item/afccal000072/"
+        },
+        {
+            "filename": "Oral-history-with-74-year-old-white-male-Mesa-County-City-Colorado_afccal000072_004_00-14-52.mp3",
+            "title": "Oral history with 74 year old white male, Mesa County City, Colorado.",
+            "timestamp": "14:52",
+            "url": "http://www.loc.gov/item/afccal000072/"
+        },
+        {
+            "filename": "Oral-history-with-77-year-old-female-Grand-Junction-Colorado_afccal000069_001_00-04-57.mp3",
+            "title": "Oral history with 77 year old female, Grand Junction, Colorado",
+            "timestamp": "04:57",
+            "url": "http://www.loc.gov/item/afccal000069/"
+        },
+        {
+            "filename": "Oral-history-with-77-year-old-female-Grand-Junction-Colorado_afccal000069_002_00-06-20.mp3",
+            "title": "Oral history with 77 year old female, Grand Junction, Colorado",
+            "timestamp": "06:20",
+            "url": "http://www.loc.gov/item/afccal000069/"
+        },
+        {
+            "filename": "Oral-history-with-77-year-old-female-Grand-Junction-Colorado_afccal000069_003_00-12-54.mp3",
+            "title": "Oral history with 77 year old female, Grand Junction, Colorado",
+            "timestamp": "12:54",
+            "url": "http://www.loc.gov/item/afccal000069/"
+        },
+        {
+            "filename": "Oral-history-with-77-year-old-female-Grand-Junction-Colorado_afccal000069_004_00-14-18.mp3",
+            "title": "Oral history with 77 year old female, Grand Junction, Colorado",
+            "timestamp": "14:18",
+            "url": "http://www.loc.gov/item/afccal000069/"
+        },
+        {
+            "filename": "Oral-history-with-80-year-old-white-male-Marked-Tree-Arkansas_afccal000031_001_00-03-25.mp3",
+            "title": "Oral history with 80 year old white male, Marked Tree, Arkansas",
+            "timestamp": "03:25",
+            "url": "http://www.loc.gov/item/afccal000031/"
+        },
+        {
+            "filename": "Oral-history-with-80-year-old-white-male-Marked-Tree-Arkansas_afccal000031_002_00-21-35.mp3",
+            "title": "Oral history with 80 year old white male, Marked Tree, Arkansas",
+            "timestamp": "21:35",
+            "url": "http://www.loc.gov/item/afccal000031/"
+        },
+        {
+            "filename": "Oral-history-with-80-year-old-white-male-Marked-Tree-Arkansas_afccal000031_003_00-27-05.mp3",
+            "title": "Oral history with 80 year old white male, Marked Tree, Arkansas",
+            "timestamp": "27:05",
+            "url": "http://www.loc.gov/item/afccal000031/"
+        },
+        {
+            "filename": "Oral-history-with-80-year-old-white-male-Marked-Tree-Arkansas_afccal000031_004_00-30-17.mp3",
+            "title": "Oral history with 80 year old white male, Marked Tree, Arkansas",
+            "timestamp": "30:17",
+            "url": "http://www.loc.gov/item/afccal000031/"
+        },
+        {
+            "filename": "Oral-history-with-81-year-old-male-Jackson-Kentucky_afccal000355_001_00-02-16.mp3",
+            "title": "Oral history with 81 year old male, Jackson, Kentucky",
+            "timestamp": "02:16",
+            "url": "http://www.loc.gov/item/afccal000355/"
+        },
+        {
+            "filename": "Oral-history-with-81-year-old-male-Jackson-Kentucky_afccal000355_002_00-04-25.mp3",
+            "title": "Oral history with 81 year old male, Jackson, Kentucky",
+            "timestamp": "04:25",
+            "url": "http://www.loc.gov/item/afccal000355/"
+        },
+        {
+            "filename": "Oral-history-with-81-year-old-male-Jackson-Kentucky_afccal000355_003_00-10-31.mp3",
+            "title": "Oral history with 81 year old male, Jackson, Kentucky",
+            "timestamp": "10:31",
+            "url": "http://www.loc.gov/item/afccal000355/"
+        },
+        {
+            "filename": "Oral-history-with-81-year-old-male-Jackson-Kentucky_afccal000355_004_00-13-26.mp3",
+            "title": "Oral history with 81 year old male, Jackson, Kentucky",
+            "timestamp": "13:26",
+            "url": "http://www.loc.gov/item/afccal000355/"
+        },
+        {
+            "filename": "Oral-history-with-82-year-old-female-Fruita-Colorado_afccal000075_001_00-04-24.mp3",
+            "title": "Oral history with 82 year old female, Fruita, Colorado.",
+            "timestamp": "04:24",
+            "url": "http://www.loc.gov/item/afccal000075/"
+        },
+        {
+            "filename": "Oral-history-with-82-year-old-female-Fruita-Colorado_afccal000075_002_00-05-55.mp3",
+            "title": "Oral history with 82 year old female, Fruita, Colorado.",
+            "timestamp": "05:55",
+            "url": "http://www.loc.gov/item/afccal000075/"
+        },
+        {
+            "filename": "Oral-history-with-82-year-old-female-Fruita-Colorado_afccal000075_003_00-10-49.mp3",
+            "title": "Oral history with 82 year old female, Fruita, Colorado.",
+            "timestamp": "10:49",
+            "url": "http://www.loc.gov/item/afccal000075/"
+        },
+        {
+            "filename": "Oral-history-with-82-year-old-female-Fruita-Colorado_afccal000075_004_00-11-34.mp3",
+            "title": "Oral history with 82 year old female, Fruita, Colorado.",
+            "timestamp": "11:34",
+            "url": "http://www.loc.gov/item/afccal000075/"
+        },
+        {
+            "filename": "Oral-history-with-84-year-old-black-female-Joiner-Arkansas_afccal000030_001_00-07-53.mp3",
+            "title": "Oral history with 84 year old black female, Joiner, Arkansas",
+            "timestamp": "07:53",
+            "url": "http://www.loc.gov/item/afccal000030/"
+        },
+        {
+            "filename": "Oral-history-with-84-year-old-black-female-Joiner-Arkansas_afccal000030_002_00-19-20.mp3",
+            "title": "Oral history with 84 year old black female, Joiner, Arkansas",
+            "timestamp": "19:20",
+            "url": "http://www.loc.gov/item/afccal000030/"
+        },
+        {
+            "filename": "Oral-history-with-84-year-old-black-female-Joiner-Arkansas_afccal000030_003_00-22-35.mp3",
+            "title": "Oral history with 84 year old black female, Joiner, Arkansas",
+            "timestamp": "22:35",
+            "url": "http://www.loc.gov/item/afccal000030/"
+        },
+        {
+            "filename": "Oral-history-with-84-year-old-black-female-Joiner-Arkansas_afccal000030_004_00-25-30.mp3",
+            "title": "Oral history with 84 year old black female, Joiner, Arkansas",
+            "timestamp": "25:30",
+            "url": "http://www.loc.gov/item/afccal000030/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Concord-Massachusetts_afccal000076_001_00-10-42.mp3",
+            "title": "Oral history with 85 year old white female, Concord, Massachusetts",
+            "timestamp": "10:42",
+            "url": "http://www.loc.gov/item/afccal000076/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Concord-Massachusetts_afccal000076_002_00-15-42.mp3",
+            "title": "Oral history with 85 year old white female, Concord, Massachusetts",
+            "timestamp": "15:42",
+            "url": "http://www.loc.gov/item/afccal000076/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Concord-Massachusetts_afccal000076_003_00-17-32.mp3",
+            "title": "Oral history with 85 year old white female, Concord, Massachusetts",
+            "timestamp": "17:32",
+            "url": "http://www.loc.gov/item/afccal000076/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Concord-Massachusetts_afccal000076_004_00-17-41.mp3",
+            "title": "Oral history with 85 year old white female, Concord, Massachusetts",
+            "timestamp": "17:41",
+            "url": "http://www.loc.gov/item/afccal000076/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Mesa-County-Colorado_afccal000070_001_00-00-13.mp3",
+            "title": "Oral history with 85 year old white female, Mesa County, Colorado",
+            "timestamp": "00:13",
+            "url": "http://www.loc.gov/item/afccal000070/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Mesa-County-Colorado_afccal000070_002_00-10-15.mp3",
+            "title": "Oral history with 85 year old white female, Mesa County, Colorado",
+            "timestamp": "10:15",
+            "url": "http://www.loc.gov/item/afccal000070/"
+        },
+        {
+            "filename": "Oral-history-with-85-year-old-white-female-Mesa-County-Colorado_afccal000070_003_00-12-00.mp3",
+            "title": "Oral history with 85 year old white female, Mesa County, Colorado",
+            "timestamp": "12:00",
+            "url": "http://www.loc.gov/item/afccal000070/"
+        },
+        {
+            "filename": "Oral-history-with-88-year-old-white-male-Fruita-Colorado_afccal000073_001_00-04-21.mp3",
+            "title": "Oral history with 88 year old white male, Fruita, Colorado.",
+            "timestamp": "04:21",
+            "url": "http://www.loc.gov/item/afccal000073/"
+        },
+        {
+            "filename": "Oral-history-with-88-year-old-white-male-Fruita-Colorado_afccal000073_002_00-06-18.mp3",
+            "title": "Oral history with 88 year old white male, Fruita, Colorado.",
+            "timestamp": "06:18",
+            "url": "http://www.loc.gov/item/afccal000073/"
+        },
+        {
+            "filename": "Oral-history-with-88-year-old-white-male-Fruita-Colorado_afccal000073_003_00-08-38.mp3",
+            "title": "Oral history with 88 year old white male, Fruita, Colorado.",
+            "timestamp": "08:38",
+            "url": "http://www.loc.gov/item/afccal000073/"
+        },
+        {
+            "filename": "Oral-history-with-88-year-old-white-male-Fruita-Colorado_afccal000073_004_00-09-55.mp3",
+            "title": "Oral history with 88 year old white male, Fruita, Colorado.",
+            "timestamp": "09:55",
+            "url": "http://www.loc.gov/item/afccal000073/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-male-Whick-Kentucky_afccal000357_001_00-02-42.mp3",
+            "title": "Oral history with 89 year old male, Whick, Kentucky",
+            "timestamp": "02:42",
+            "url": "http://www.loc.gov/item/afccal000357/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-male-Whick-Kentucky_afccal000357_002_00-07-16.mp3",
+            "title": "Oral history with 89 year old male, Whick, Kentucky",
+            "timestamp": "07:16",
+            "url": "http://www.loc.gov/item/afccal000357/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-male-Whick-Kentucky_afccal000357_003_00-09-28.mp3",
+            "title": "Oral history with 89 year old male, Whick, Kentucky",
+            "timestamp": "09:28",
+            "url": "http://www.loc.gov/item/afccal000357/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-male-Whick-Kentucky_afccal000357_004_00-18-24.mp3",
+            "title": "Oral history with 89 year old male, Whick, Kentucky",
+            "timestamp": "18:24",
+            "url": "http://www.loc.gov/item/afccal000357/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-white-male-Mesa-County-Colorado_afccal000067_001_00-18-36.mp3",
+            "title": "Oral history with 89 year old white male, Mesa County, Colorado",
+            "timestamp": "18:36",
+            "url": "http://www.loc.gov/item/afccal000067/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-white-male-Mesa-County-Colorado_afccal000067_002_00-29-32.mp3",
+            "title": "Oral history with 89 year old white male, Mesa County, Colorado",
+            "timestamp": "29:32",
+            "url": "http://www.loc.gov/item/afccal000067/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-white-male-Mesa-County-Colorado_afccal000067_003_00-29-52.mp3",
+            "title": "Oral history with 89 year old white male, Mesa County, Colorado",
+            "timestamp": "29:52",
+            "url": "http://www.loc.gov/item/afccal000067/"
+        },
+        {
+            "filename": "Oral-history-with-89-year-old-white-male-Mesa-County-Colorado_afccal000067_004_00-30-02.mp3",
+            "title": "Oral history with 89 year old white male, Mesa County, Colorado",
+            "timestamp": "30:02",
+            "url": "http://www.loc.gov/item/afccal000067/"
+        },
+        {
+            "filename": "Oral-history-with-92-year-old-white-male-Concord-Massachusetts_afccal000079_001_00-00-49.mp3",
+            "title": "Oral history with 92 year old white male, Concord, Massachusetts",
+            "timestamp": "00:49",
+            "url": "http://www.loc.gov/item/afccal000079/"
+        },
+        {
+            "filename": "Oral-history-with-92-year-old-white-male-Concord-Massachusetts_afccal000079_002_00-10-55.mp3",
+            "title": "Oral history with 92 year old white male, Concord, Massachusetts",
+            "timestamp": "10:55",
+            "url": "http://www.loc.gov/item/afccal000079/"
+        },
+        {
+            "filename": "Oral-history-with-92-year-old-white-male-Concord-Massachusetts_afccal000079_003_00-12-25.mp3",
+            "title": "Oral history with 92 year old white male, Concord, Massachusetts",
+            "timestamp": "12:25",
+            "url": "http://www.loc.gov/item/afccal000079/"
+        },
+        {
+            "filename": "Oral-history-with-92-year-old-white-male-Concord-Massachusetts_afccal000079_004_00-13-49.mp3",
+            "title": "Oral history with 92 year old white male, Concord, Massachusetts",
+            "timestamp": "13:49",
+            "url": "http://www.loc.gov/item/afccal000079/"
+        },
+        {
+            "filename": "Oral-history-with-male-and-female-Pine-Ridge-Kentucky_afccal000358_001_00-00-04.mp3",
+            "title": "Oral history with male and female, Pine Ridge, Kentucky",
+            "timestamp": "00:04",
+            "url": "http://www.loc.gov/item/afccal000358/"
+        },
+        {
+            "filename": "Oral-history-with-male-and-female-Pine-Ridge-Kentucky_afccal000358_002_00-02-34.mp3",
+            "title": "Oral history with male and female, Pine Ridge, Kentucky",
+            "timestamp": "02:34",
+            "url": "http://www.loc.gov/item/afccal000358/"
+        },
+        {
+            "filename": "Oral-history-with-male-and-female-Pine-Ridge-Kentucky_afccal000358_003_00-08-57.mp3",
+            "title": "Oral history with male and female, Pine Ridge, Kentucky",
+            "timestamp": "08:57",
+            "url": "http://www.loc.gov/item/afccal000358/"
+        },
+        {
+            "filename": "Oral-history-with-male-and-female-Pine-Ridge-Kentucky_afccal000358_004_00-13-56.mp3",
+            "title": "Oral history with male and female, Pine Ridge, Kentucky",
+            "timestamp": "13:56",
+            "url": "http://www.loc.gov/item/afccal000358/"
+        },
+        {
+            "filename": "Personal-history-and-reading-by-49-year-old-white-female-Texas_afccal000028_001_00-00-27.mp3",
+            "title": "Personal history and reading by 49 year old white female, Texas",
+            "timestamp": "00:27",
+            "url": "http://www.loc.gov/item/afccal000028/"
+        },
+        {
+            "filename": "Personal-history-and-reading-by-49-year-old-white-female-Texas_afccal000028_002_00-00-56.mp3",
+            "title": "Personal history and reading by 49 year old white female, Texas",
+            "timestamp": "00:56",
+            "url": "http://www.loc.gov/item/afccal000028/"
+        },
+        {
+            "filename": "Personal-history-and-reading-by-49-year-old-white-female-Texas_afccal000028_003_00-01-05.mp3",
+            "title": "Personal history and reading by 49 year old white female, Texas",
+            "timestamp": "01:05",
+            "url": "http://www.loc.gov/item/afccal000028/"
+        },
+        {
+            "filename": "Personal-history-and-reading-by-49-year-old-white-female-Texas_afccal000028_004_00-01-16.mp3",
+            "title": "Personal history and reading by 49 year old white female, Texas",
+            "timestamp": "01:16",
+            "url": "http://www.loc.gov/item/afccal000028/"
+        },
+        {
+            "filename": "Personal-history-with-55-year-old-female-Chisholm-Minnesota_afccal000306_001_00-01-31.mp3",
+            "title": "Personal history with 55 year old female,  Chisholm, Minnesota",
+            "timestamp": "01:31",
+            "url": "http://www.loc.gov/item/afccal000306/"
+        },
+        {
+            "filename": "Personal-history-with-55-year-old-female-Chisholm-Minnesota_afccal000306_002_00-07-55.mp3",
+            "title": "Personal history with 55 year old female,  Chisholm, Minnesota",
+            "timestamp": "07:55",
+            "url": "http://www.loc.gov/item/afccal000306/"
+        },
+        {
+            "filename": "Personal-history-with-55-year-old-female-Chisholm-Minnesota_afccal000306_003_00-08-26.mp3",
+            "title": "Personal history with 55 year old female,  Chisholm, Minnesota",
+            "timestamp": "08:26",
+            "url": "http://www.loc.gov/item/afccal000306/"
+        },
+        {
+            "filename": "Personal-history-with-55-year-old-female-Chisholm-Minnesota_afccal000306_004_00-10-02.mp3",
+            "title": "Personal history with 55 year old female,  Chisholm, Minnesota",
+            "timestamp": "10:02",
+            "url": "http://www.loc.gov/item/afccal000306/"
+        },
+        {
+            "filename": "Personal-history-with-66-year-old-male-Buhl-Minnesota_afccal000161_001_00-08-55.mp3",
+            "title": "Personal history with 66 year old male, Buhl, Minnesota",
+            "timestamp": "08:55",
+            "url": "http://www.loc.gov/item/afccal000161/"
+        },
+        {
+            "filename": "Personal-history-with-66-year-old-male-Buhl-Minnesota_afccal000161_002_00-14-51.mp3",
+            "title": "Personal history with 66 year old male, Buhl, Minnesota",
+            "timestamp": "14:51",
+            "url": "http://www.loc.gov/item/afccal000161/"
+        },
+        {
+            "filename": "Personal-history-with-66-year-old-male-Buhl-Minnesota_afccal000161_003_00-15-28.mp3",
+            "title": "Personal history with 66 year old male, Buhl, Minnesota",
+            "timestamp": "15:28",
+            "url": "http://www.loc.gov/item/afccal000161/"
+        },
+        {
+            "filename": "Personal-history-with-66-year-old-male-Buhl-Minnesota_afccal000161_004_00-25-32.mp3",
+            "title": "Personal history with 66 year old male, Buhl, Minnesota",
+            "timestamp": "25:32",
+            "url": "http://www.loc.gov/item/afccal000161/"
+        },
+        {
+            "filename": "Personal-history-with-70-year-old-male-and-77-year-old-female-Utica-Minnesota-part-2-of-2_afccal000162_001_00-02-54.mp3",
+            "title": "Personal history with 70 year old male and 77 year old female, Utica, Minnesota (part 2 of 2)",
+            "timestamp": "02:54",
+            "url": "http://www.loc.gov/item/afccal000162/"
+        },
+        {
+            "filename": "Personal-history-with-70-year-old-male-and-77-year-old-female-Utica-Minnesota-part-2-of-2_afccal000162_002_00-06-56.mp3",
+            "title": "Personal history with 70 year old male and 77 year old female, Utica, Minnesota (part 2 of 2)",
+            "timestamp": "06:56",
+            "url": "http://www.loc.gov/item/afccal000162/"
+        },
+        {
+            "filename": "Personal-history-with-70-year-old-male-and-77-year-old-female-Utica-Minnesota-part-2-of-2_afccal000162_003_00-08-55.mp3",
+            "title": "Personal history with 70 year old male and 77 year old female, Utica, Minnesota (part 2 of 2)",
+            "timestamp": "08:55",
+            "url": "http://www.loc.gov/item/afccal000162/"
+        },
+        {
+            "filename": "Personal-history-with-70-year-old-male-and-77-year-old-female-Utica-Minnesota-part-2-of-2_afccal000162_004_00-09-30.mp3",
+            "title": "Personal history with 70 year old male and 77 year old female, Utica, Minnesota (part 2 of 2)",
+            "timestamp": "09:30",
+            "url": "http://www.loc.gov/item/afccal000162/"
+        },
+        {
+            "filename": "Personal-history-with-87-year-old-male-Chisholm-Minnesota_afccal000307_001_00-00-32.mp3",
+            "title": "Personal history with 87 year old male,  Chisholm, Minnesota",
+            "timestamp": "00:32",
+            "url": "http://www.loc.gov/item/afccal000307/"
+        },
+        {
+            "filename": "Personal-history-with-87-year-old-male-Chisholm-Minnesota_afccal000307_002_00-01-48.mp3",
+            "title": "Personal history with 87 year old male,  Chisholm, Minnesota",
+            "timestamp": "01:48",
+            "url": "http://www.loc.gov/item/afccal000307/"
+        },
+        {
+            "filename": "Personal-history-with-87-year-old-male-Chisholm-Minnesota_afccal000307_003_00-03-12.mp3",
+            "title": "Personal history with 87 year old male,  Chisholm, Minnesota",
+            "timestamp": "03:12",
+            "url": "http://www.loc.gov/item/afccal000307/"
+        },
+        {
+            "filename": "Personal-history-with-87-year-old-male-Chisholm-Minnesota_afccal000307_004_00-06-47.mp3",
+            "title": "Personal history with 87 year old male,  Chisholm, Minnesota",
+            "timestamp": "06:47",
+            "url": "http://www.loc.gov/item/afccal000307/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000157_001_00-00-29.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "00:29",
+            "url": "http://www.loc.gov/item/afccal000157/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000157_002_00-01-37.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "01:37",
+            "url": "http://www.loc.gov/item/afccal000157/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000157_003_00-03-05.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "03:05",
+            "url": "http://www.loc.gov/item/afccal000157/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000157_004_00-17-53.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "17:53",
+            "url": "http://www.loc.gov/item/afccal000157/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000158_001_00-00-34.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "00:34",
+            "url": "http://www.loc.gov/item/afccal000158/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000158_002_00-09-39.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "09:39",
+            "url": "http://www.loc.gov/item/afccal000158/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000158_003_00-10-00.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "10:00",
+            "url": "http://www.loc.gov/item/afccal000158/"
+        },
+        {
+            "filename": "Personal-history-with-88-year-old-male-Eveleth-Minnesota_afccal000158_004_00-11-50.mp3",
+            "title": "Personal history with 88 year old male, Eveleth, Minnesota",
+            "timestamp": "11:50",
+            "url": "http://www.loc.gov/item/afccal000158/"
+        },
+        {
+            "filename": "Personal-history-with-male-Chisholm-Minnesota_afccal000305_001_00-00-19.mp3",
+            "title": "Personal history with male,  Chisholm, Minnesota",
+            "timestamp": "00:19",
+            "url": "http://www.loc.gov/item/afccal000305/"
+        },
+        {
+            "filename": "Personal-history-with-male-Chisholm-Minnesota_afccal000305_002_00-01-21.mp3",
+            "title": "Personal history with male,  Chisholm, Minnesota",
+            "timestamp": "01:21",
+            "url": "http://www.loc.gov/item/afccal000305/"
+        },
+        {
+            "filename": "Personal-history-with-male-Chisholm-Minnesota_afccal000305_003_00-06-33.mp3",
+            "title": "Personal history with male,  Chisholm, Minnesota",
+            "timestamp": "06:33",
+            "url": "http://www.loc.gov/item/afccal000305/"
+        },
+        {
+            "filename": "Personal-history-with-male-Chisholm-Minnesota_afccal000305_004_00-15-58.mp3",
+            "title": "Personal history with male,  Chisholm, Minnesota",
+            "timestamp": "15:58",
+            "url": "http://www.loc.gov/item/afccal000305/"
+        },
+        {
+            "filename": "Reading-samples-of-22-year-old-white-female-Wakefield-Michigan_afccal000085_001_00-01-30.mp3",
+            "title": "Reading samples of 22 year old white female, Wakefield, Michigan",
+            "timestamp": "01:30",
+            "url": "http://www.loc.gov/item/afccal000085/"
+        },
+        {
+            "filename": "Reading-samples-of-22-year-old-white-female-Wakefield-Michigan_afccal000085_002_00-02-40.mp3",
+            "title": "Reading samples of 22 year old white female, Wakefield, Michigan",
+            "timestamp": "02:40",
+            "url": "http://www.loc.gov/item/afccal000085/"
+        },
+        {
+            "filename": "Reading-samples-of-22-year-old-white-female-Wakefield-Michigan_afccal000085_003_00-04-40.mp3",
+            "title": "Reading samples of 22 year old white female, Wakefield, Michigan",
+            "timestamp": "04:40",
+            "url": "http://www.loc.gov/item/afccal000085/"
+        },
+        {
+            "filename": "Reading-samples-of-22-year-old-white-female-Wakefield-Michigan_afccal000085_004_00-04-49.mp3",
+            "title": "Reading samples of 22 year old white female, Wakefield, Michigan",
+            "timestamp": "04:49",
+            "url": "http://www.loc.gov/item/afccal000085/"
+        },
+        {
+            "filename": "Speech-by-Eleanor-A-Roosevelt-New-York_afccal000100_001_00-01-15.mp3",
+            "title": "Speech by Eleanor A. Roosevelt, New York",
+            "timestamp": "01:15",
+            "url": "http://www.loc.gov/item/afccal000100/"
+        },
+        {
+            "filename": "Speech-by-Eleanor-A-Roosevelt-New-York_afccal000100_002_00-04-04.mp3",
+            "title": "Speech by Eleanor A. Roosevelt, New York",
+            "timestamp": "04:04",
+            "url": "http://www.loc.gov/item/afccal000100/"
+        },
+        {
+            "filename": "Speech-by-Eleanor-A-Roosevelt-New-York_afccal000100_003_00-04-56.mp3",
+            "title": "Speech by Eleanor A. Roosevelt, New York",
+            "timestamp": "04:56",
+            "url": "http://www.loc.gov/item/afccal000100/"
+        },
+        {
+            "filename": "Speech-by-Eleanor-A-Roosevelt-New-York_afccal000100_004_00-10-56.mp3",
+            "title": "Speech by Eleanor A. Roosevelt, New York",
+            "timestamp": "10:56",
+            "url": "http://www.loc.gov/item/afccal000100/"
+        },
+        {
+            "filename": "Speech-by-Franklin-D-Roosevelt-New-York_afccal000099_001_00-03-24.mp3",
+            "title": "Speech by Franklin D. Roosevelt, New York",
+            "timestamp": "03:24",
+            "url": "http://www.loc.gov/item/afccal000099/"
+        },
+        {
+            "filename": "Speech-by-Franklin-D-Roosevelt-New-York_afccal000099_002_00-04-30.mp3",
+            "title": "Speech by Franklin D. Roosevelt, New York",
+            "timestamp": "04:30",
+            "url": "http://www.loc.gov/item/afccal000099/"
+        },
+        {
+            "filename": "Speech-by-Franklin-D-Roosevelt-New-York_afccal000099_003_00-05-28.mp3",
+            "title": "Speech by Franklin D. Roosevelt, New York",
+            "timestamp": "05:28",
+            "url": "http://www.loc.gov/item/afccal000099/"
+        },
+        {
+            "filename": "Speech-by-Franklin-D-Roosevelt-New-York_afccal000099_004_00-06-06.mp3",
+            "title": "Speech by Franklin D. Roosevelt, New York",
+            "timestamp": "06:06",
+            "url": "http://www.loc.gov/item/afccal000099/"
+        }
+    ],
+    "segmentCount": 293,
+    "oneshotCount": 4096,
+    "totalCount": 4389
+}

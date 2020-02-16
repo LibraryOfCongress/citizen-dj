@@ -11,6 +11,6 @@ source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/joe-smith/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-joe-smith"
-sequence: 3
+sequence: 2
 active: 1
 ---
