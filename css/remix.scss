@@ -56,6 +56,7 @@ footer {
 .selectors label {
   display: block;
   color: var(--lightest-color);
+  white-space: nowrap;
 }
 .selectors > div {
   padding: 0 0.25rem;
@@ -92,6 +93,23 @@ select.select-drum {
 .record-audio.active {
   background: #c75262;
   color: white;
+}
+.controls button {
+  height: auto;
+  line-height: 1;
+  padding: 0.4rem 0.4rem;
+  margin: 0 2px 0 0;
+  font-size: 1rem;
+}
+.controls button.toggle-play {
+  font-size: 1.6rem;
+  padding: 0.4rem 0.8rem;
+}
+.controls button.randomize-collection {
+  border-color: var(--collection-color);
+}
+.controls button.randomize-drum {
+  border-color: var(--drum-color);
 }
 
 .track {
