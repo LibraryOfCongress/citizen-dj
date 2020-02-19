@@ -209,7 +209,7 @@ var Collections = (function() {
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
       itemObj.itemId = itemKey.split('.')[0];
-      if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
+      if (itemObj.year && itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       itemObj.samples = _.has(sampleLookup, itemKey) ? _.sortBy(sampleLookup[itemKey], 'sourceStart') : [];
       itemObj.samples = _.map(itemObj.samples, function(s, j){
         s.index = j;

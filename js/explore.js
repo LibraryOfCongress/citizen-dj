@@ -380,7 +380,7 @@ var ExploreApp = (function() {
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
       itemObj.itemId = itemKey.split('.')[0];
-      if (itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
+      if (itemObj.year && itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       if (metadata.groups) {
         _.each(metadata.groups, function(groupList, key){
           itemObj[key+'Index'] = itemObj[key];
