@@ -1,0 +1,33 @@
+{% include head.html %}
+
+<div class="wrapper item {{ page.id }}">
+
+  {% include header.html %}
+  {% include collection_header.html %}
+
+  <main class="container">
+    <h2>{{ page.title }}</h2>
+
+    {% if page.streaming_url %}
+      <audio src="{{ page.streaming_url }}" controls></audio>
+    {% endif %}
+
+    <p>{{ page.description }}</p>
+
+    <h3>Rights and access</h3>
+
+    <p>{{ page.rights }}</p>
+
+    <h3>Suggested credit line</h3>
+
+    <p>{{ page.credit }}</p>
+
+    <p><a href="{{ page.source_url }}" target="_blank" class="button">View this collection on the {{ page.source }} website</a></p>
+
+  </main>
+
+  {% include footer.html %}
+
+</div>
+
+{% include foot.html %}
