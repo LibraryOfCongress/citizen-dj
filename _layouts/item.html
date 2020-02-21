@@ -6,7 +6,8 @@
 
   <main class="container">
     <h2>{{ page.title }}</h2>
-    <h3>Part of <a href="{{ page.collectionUrl }}">{{ page.collectionTitle }}</a></h3>
+    <h3>Created by: {{ page.contributors }}</h3>
+    <h3>Part of: <a href="{{ page.collectionUrl }}">{{ page.collectionTitle }}</a></h3>
 
     {% if page.stream_url %}
       <audio src="{{ page.stream_url }}" controls></audio>
@@ -20,7 +21,11 @@
 
     <h3>Suggested credit line</h3>
 
-    <p>{{ page.credit }}</p>
+    <p>{{ page.contributors }}, {{ page.credit }}</p>
+
+    {% if page.source_url %}
+      <p><a href="{{ page.source_url }}" class="button">View on {{ page.collectionTitle }}</a></p>
+    {% endif %}
 
     {% include footer.html %}
 

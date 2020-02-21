@@ -11,3 +11,18 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
+
+.container h2,
+.container h3 {
+  margin: 0;
+  line-height: 1.1;
+}
+.container h3 {
+  margin-top: 0.25rem;
+}
+
+.container audio,
+.container video {
+  display: block;
+  margin-top: 2rem;
+}
