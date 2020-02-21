@@ -315,3 +315,7 @@ button.beat.active:hover {
   width: auto;
   margin-left: 0.5rem;
 }
+.sources video,
+.sources audio {
+  display: block;
+}

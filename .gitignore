@@ -8,6 +8,8 @@ audio/sprites/*
 !audio/sprites/.keep
 audio/samplepacks/*
 !audio/samplepacks/.keep
+audio/items/*
+!audio/items/.keep
 .sass-cache
 .jekyll-metadata
 Gemfile.lock

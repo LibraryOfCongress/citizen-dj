@@ -13,7 +13,8 @@ var ExploreApp = (function() {
       "itemKey": "filename",
       "maxPxPerFrame": 3,
       "scaleStep": 0.05,
-      "minScale": 0.333
+      "minScale": 0.333,
+      "localItems": ""
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = Util.queryParams();
@@ -33,6 +34,7 @@ var ExploreApp = (function() {
     this.anchorY = false;
     this.pointerX = 0;
     this.pointerY = 0;
+    this.localItems = this.opt.localItems && this.opt.localItems.length;
 
     var dataPromise = this.loadData();
     $.when(dataPromise).done(function(results){
@@ -526,9 +528,10 @@ var ExploreApp = (function() {
           html += '<p>' + item.contributors + '</p>';
       html += '</div>';
       var remixUrl = this.opt.baseUrl + '/' + this.opt.uid + '/remix/?itemId=' + item.itemId + '&itemStart=' + spriteItem.sourceStart;
+      var buttonText = this.localItems ? 'View more details' : 'View on '+item.provider;
       html += '<div class="item-buttons">';
         html += '<a href="'+remixUrl+'" class="button inverted">Remix this</a>';
-        html += '<a href="'+item.url+'" target="_blank" class="button inverted">View on '+item.provider+'</a>';
+        html += '<a href="'+item.url+'" target="_blank" class="button inverted">'+buttonText+'</a>';
       html += '</div>';
     }
     this.$itemInfo.html(html);

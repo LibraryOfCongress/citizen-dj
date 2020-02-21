@@ -42,7 +42,11 @@
           <div class="button-group">
             <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}" class="button small toggle-play">play</a>
             <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}" class="button small" download>download</a>
+            {% if page.local_items %}
+            <a href="{{ clip.url }}" target="_blank" class="button small">view details</a>
+            {% else %}
             <a href="{{ clip.url }}" target="_blank" class="button small">view original</a>
+            {% endif %}
           </div>
         </li>
         {% endfor %}

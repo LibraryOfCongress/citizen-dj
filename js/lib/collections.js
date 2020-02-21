@@ -16,7 +16,8 @@ var Collections = (function() {
       "onChange": function(){},
       "onDataLoaded": function(){},
       "itemId": false,
-      "itemStart": false
+      "itemStart": false,
+      "localItems": ""
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = Util.queryParams();
@@ -30,6 +31,7 @@ var Collections = (function() {
     this.subdivision = this.beatMs / 16.0;
     this.maxSubdivisions = 4;
     this.minSubdivisions = 4;
+    this.localItems = this.opt.localItems && this.opt.localItems.length;
   };
 
   Collections.prototype.load = function(){
@@ -348,7 +350,7 @@ var Collections = (function() {
       _.each(item.contributors, function(contributor) {
         html += '<dd>'+ contributor +'</dd>';
       });
-      if (item.year !== '') {
+      if (item.year && item.year !== '') {
         html += '<dt>Date created/published</dt>';
         html += '<dd>'+ item.year +'</dd>';
       }
@@ -356,11 +358,24 @@ var Collections = (function() {
     this.$itemMeta.html(html);
     html = '';
       html += '<dt>How can it be accessed?</dt>';
-      html += '<dd>You find more details about this item as well as access and download the entire source media file on ' + item.provider + '. <a href="'+ item.url +'" class="button" target="_blank">Click here to view on ' + item.provider + '</a></dd>';
+      html += '<dd>You can visit this <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/">collection\'s download &amp; use page</a> for bulk downloads.</dd>'
+      if (!this.localItems) {
+        html += '<dd>You can also find more details about this item, access, and download the entire source media file on ' + item.provider + '. <a href="'+ item.url +'" class="button" target="_blank">Click here to view on ' + item.provider + '</a></dd>';
+      }
+      // case: embeddable media
       if (item.embed_url && item.embed_url.length) {
         html += '<dd>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
         var iframeHeight = item.hasVideo > 0 ? '480' : '280';
         html += '<iframe src="'+ item.embed_url +'" width="640" height="'+iframeHeight+'" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></dd>';
+      // case: streaming media
+      } else if (item.stream_url && item.stream_url.length) {
+        html += '<dd>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
+        var isVideo = item.stream_url.endsWith('.mp4');
+        if (isVideo) {
+          html += '<video src="'+ item.stream_url +'" controls></video></dd>';
+        } else {
+          html += '<audio src="'+ item.stream_url +'" controls></audio></dd>';
+        }
       } else {
         html += '<dd>The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong></dd>';
       }

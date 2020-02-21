@@ -1,0 +1,13 @@
+---
+---
+
+@import 'normalize';
+@import 'base';
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}

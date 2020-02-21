@@ -30,6 +30,8 @@ collections:
     output: true
   use:
     output: true
+  items:
+    output: true
 
 # Build settings
 markdown: kramdown
