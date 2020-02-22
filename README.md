@@ -4,7 +4,7 @@
 
 The Citizen DJ project invites the public to make hip hop music using the Library’s public audio and moving image collections. By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
 
-## Technical Documentation
+## Use cases
 
 This document is for people with software development experience who are interested in:
 
@@ -13,20 +13,20 @@ This document is for people with software development experience who are interes
 
 There are two parts to this document: (1) the client-facing web app and interface, and (2) the computer scripts required for generating media files (audio files, images) that can be used in the app. These two components are more or less independent, so for example, if you just want to use your own content without changing the functionality, you will only have to make minimal changes to the app.
 
-### The app
+## The app
 
 The app is a very simple front-end web application built with Javascript, HTML, and CSS. [Jekyll](https://jekyllrb.com/) is used to manage content and generate the static front-end website. To make changes and run the app locally you will need to install Ruby and Jekyll:
 
 1. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) - directions vary depending on your operating system
 2. Install bundler and jekyll: `gem install bundler jekyll`
-3. Clone this repository: `git clone https://github.com/beefoo/citizendj.git`
+3. Clone this repository: `git clone https://github.com/LibraryOfCongress/citizen-dj.git`
 4. The audio files are not included in this repository; to download them:
     - Download the zipped audio files here _(coming soon)_
-    - Unzip and copy the files to the `./citizendj/` folder
+    - Unzip and copy the files to the `./citizen-dj/` folder
 5. To run the app locally, run:
 
     ```
-    cd citizendj
+    cd citizen-dj
     bundle exec jekyll serve
     ```
 
@@ -34,9 +34,50 @@ The app is a very simple front-end web application built with Javascript, HTML, 
 7. Any change you make to the app should automatically be updated in `_site/`
 8. Visit [localhost:4000](http://localhost:4000/)
 
-### Processing new content
+## Creating a collection
 
-These scripts that are used to generate new assets for use in this app are maintained in a [separate open-source code repository](https://github.com/beefoo/media-tools).
+For this walkthrough, I will use the following use-case: using this app for your own audio collections. In this case, there's some small tweaks you'll have to do to the app first:
+
+1. First, you will have to remove existing content in the app. You can skip this step if you just want to add a collection to the existing set of collections. Otherwise, you can clear everything by running the following Python script:
+
+   ```
+   python3 reset_collections.py
+   ```
+
+2. Now add a markdown file for your new collection in the folder `./use/`.  In this example we'll use the [Variety Stage collection](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/) and call it `variety-stage.md`.  The file should follow the following format:
+
+   ```
+   ---
+   layout: use
+   id: "variety-stage"
+   title: "Variety Stage Sound Recordings and Motion Pictures"
+   description: "The 61 motion pictures in the Variety Stage Sound Recordings and Motion Pictures include animal acts, burlesque, dance, comic sketches, dramatic excerpts, dramatic sketches, physical culture acts, and tableaus. The films represented date from copyrights of 1897 to 1920. Although not actually filmed on a theatrical stage, they sought to recreate the atmosphere of a theater performance by showing the types of vaudeville acts and performers that were popular at the time."
+   rights: "The Library of Congress American Variety Stage collection is in the public domain and is free to use and reuse."
+   credit: "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division"
+   collection_base_url: "/variety-stage/"
+   permalink: "/variety-stage/use/"
+   source: "Library of Congress"
+   source_url: "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/about-this-collection/"
+   provider: "loc.gov"
+   uid: "variety-stage"
+   sequence: 1
+   active: 1
+   ---
+   ```
+
+   Note, `sequence` determines the order of appearance in the app, and `active` flag enables/disables a collection
+
+3. Then run the following command to generate the other necessary pages for this collection:
+
+   ```
+   python3 sync_collections.py -overwrite
+   ```
+
+## Processing a new collection
+
+The next steps will go through a (long) series of scripts that process audio from loc.gov.
+
+These scripts are maintained in a [separate open-source code repository](https://github.com/beefoo/media-tools).
 
 - [Install requirements](https://github.com/beefoo/media-tools#requirements). To complete the full workflow, the core libraries needed are:
     - [Python](https://www.python.org/) 3.6+
@@ -56,9 +97,29 @@ These scripts that are used to generate new assets for use in this app are maint
    cd media-tools
    ```
 
-The following steps will walkthrough retrieving and processing a specific A/V collection from loc.gov. This process is a sequence of many, many Python scripts. I may automate this in the future, but for now, each step below is to be manually run from the command line.
+The following steps will walkthrough retrieving and processing a specific A/V collection from loc.gov. This process is a sequence of many, many Python scripts. I may automate this in the future, but for now, each step below is to be manually run from the command line. For possible convenience, I have a [commands template](https://github.com/beefoo/media-tools/blob/master/projects/citizen_dj/templates/citizen_dj_commands_template.txt) that can be populated with your own path information using this script like so:
 
-First, download the search results of [a query](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/?fa=original-format:sound+recording):
+```
+python3 template_to_string.py -in "projects/citizen_dj/citizen_dj_commands_template.txt" -query "collection_uid=variety-stage&collection_id=variety-stage-sound-recordings-and-motion-pictures&data_base_dir=output/variety-stage/&media_dir=output/variety-stage/media/&app_dir=/full/path/to/citizen-dj/" -out "output/my_custom_commands.txt"
+```
+
+Now you have a text file with a bunch of commands that you can run individually or paste multiple lines in your terminal (for Mac) or you can replace newlines with " && " in Windows to run multiple commands sequentially. However, I recommend running each script individually when you first start to get a sense of what they do. Some script parameters require some tweaks for best results.
+
+### I. Retrieving data and assets from loc.gov
+
+This example will retrieve data and media from loc.gov. The result will be a spreadsheet of item records (`item.csv`) and a folder of media files. You can replace this section with your own data/media source as long as you follow the same format of the .csv folder which should have the following columns:
+
+```
+id: a unique identifier
+url: a url to the source's item record (for linking to in the app)
+filename: the name of the file that has been downloaded (not the full path, just the basename, e.g. myfile.mp3)
+title: title for displaying in app
+contributors: name of contributors for displaying in app (pipe | separated | list)
+date: date for displaying in app
+subjects: subjects/tags for displaying in app (pipe | separated | list)
+```
+
+Otherwise, first download the search results of [a loc.gov query](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/?fa=original-format:sound+recording):
 
 ```
 python3 scrapers/loc/download_query.py \
@@ -89,6 +150,8 @@ python3 scrapers/loc/download_media.py \
   -in "output/variety-stage/items.csv" \
   -out "output/variety-stage/media/"
 ```
+
+### II. Audio/video feature extraction
 
 Now get file features (duration, has video?, has audio?) from each file:
 
@@ -146,6 +209,8 @@ python3 items_to_phrases.py \
   -out "output/variety-stage/phrasedata/"
 ```
 
+If you're not getting enough phrases, you can lower the threshold for minimum clarity of phrases by adding `-params "minc=24.0"`; the lower the number, the more phrases you will get. Also run `python3 samples_to_phrases.py -h` for more parameters to tweak.
+
 Add phrase stats to item .csv data:
 
 ```
@@ -182,9 +247,11 @@ python3 phrases_subset.py \
 
 You will need to tweak the last two parameters (`-limp` and `lims`, which limits the number of phrases per file, and number of samples per phrase) based on the collection you are working with. You can do this quickly by running the command with `-probe` which will just report information. In the report, look at the line `Found X valid samples`; `X` should be greater than your target sample count (4096 in this case), but as close to that number as possible. Usually for very large collections, you want the "phrases per file" and "samples per phrase" to be very small.
 
+## III. Prepping assets for the app
+
 The following steps now branch based on the specific interface you are building towards.
 
-### For the "Explore" collection interface
+### A. For the "Explore" collection interface
 
 The previous step might have resulted in more than 4096 samples, so make sure there are exactly 4096 samples; prioritize samples with a higher musical quality (`clarity`):
 
@@ -248,14 +315,14 @@ python3 samples_to_sprite.py \
   -in "output/variety-stage/samples_grid.csv" \
   -dir "output/variety-stage/media/" \
   -id "variety-stage" \
-  -outaud "/full/path/to/citizendj/audio/sprites/{uid}/{uid}.mp3" \
-  -outdat "/full/path/to/citizendj/data/spritedata/{uid}.json" \
-  -outimg "/full/path/to/citizendj/img/sprites/{uid}.png" \
+  -outaud "/full/path/to/citizen-dj/audio/sprites/{uid}/{uid}.mp3" \
+  -outdat "/full/path/to/citizen-dj/data/spritedata/{uid}.json" \
+  -outimg "/full/path/to/citizen-dj/img/sprites/{uid}.png" \
   -fingerprints "tmp/variety-stage_fingerprints.p" \
   -colorful
 ```
 
-### For the "Remix" collection interface
+### B. For the "Remix" collection interface
 
 First, generate individual audio clip files for each sample with a max duration of 1 second.
 
@@ -284,7 +351,7 @@ Convert audio to .mp3 and move to the [Citizen DJ App](https://github.com/Librar
 ```
 python3 convert_audio.py \
   -in "output/variety-stage/clips_normalized/*.wav" \
-  -out "/full/path/to/citizendj/audio/collections/variety-stage/%s.mp3" \
+  -out "/full/path/to/citizen-dj/audio/collections/variety-stage/%s.mp3" \
   -overwrite
 ```
 
@@ -295,7 +362,7 @@ python3 csv_to_json.py \
   -in "output/variety-stage/samples_clips.csv" \
   -props "id,sourceFilename,sourceStart,phrase" \
   -groups "sourceFilename" \
-  -out "/full/path/to/citizendj/data/sampledata/variety-stage.json" \
+  -out "/full/path/to/citizen-dj/data/sampledata/variety-stage.json" \
   -light
 ```
 
@@ -326,13 +393,13 @@ Add item-level metadata to the app:
 python3 csv_to_json.py \
   -in "output/variety-stage/items.csv" \
   -props "title,filename,year,contributors,subjects,url,embed_url" \
-  -out "/full/path/to/citizendj/data/metadata/variety-stage.json" \
+  -out "/full/path/to/citizen-dj/data/metadata/variety-stage.json" \
   -filter "phrases>0" \
   -lists "contributors,subjects" \
   -light
 ```
 
-### For the "Use" collection interface (sample packs)
+### C. For the "Use" collection interface (sample packs)
 
 Generate a sample pack.
 
@@ -340,6 +407,7 @@ Generate a sample pack.
 python3 make_sample_pack.py \
   -basedir "output/variety-stage/" \
   -dir "output/variety-stage/media/" \
+  -cdata "/full/path/to/citizen-dj/_use/variety_stage.md"
   -idata "items.csv" \
   -pdata "phrasedata/%s.csv" \
   -sdata "samples.csv" \
@@ -354,8 +422,16 @@ Move the sample pack and metadata to app.
 ```
 python3 sample_pack_to_json.py \
   -idata "output/variety-stage/items.csv" \
-  -bout "/full/path/to/citizendj/" \
+  -bout "/full/path/to/citizen-dj/" \
   -sdir "output/samplepack_variety-stage/" \
   -id "id" \
   -cid "variety-stage"
 ```
+
+Now you have all the necessary assets in the `citizen-dj` app. You can return to the `citizen-dj` app directory and run the app:
+
+```
+bundle exec jekyll serve
+```
+
+This will generate a static website with your new collection in the `_site` folder which you can view at `localhost:4000`
