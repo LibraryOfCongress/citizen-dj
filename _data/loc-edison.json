@@ -1,0 +1,615 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_edison-company-motion-pictures-and-sound-recordings_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "63.7mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_edison-company-motion-pictures-and-sound-recordings_wav.zip",
+            "label": "Download in 32-bit .wav format",
+            "size": "313.7mb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [
+        {
+            "filename": "A-police-court-scene_00694079_001_00-00-14.mp3",
+            "title": "A police court scene",
+            "timestamp": "00:14",
+            "url": "http://www.loc.gov/item/00694079/"
+        },
+        {
+            "filename": "A-police-court-scene_00694079_002_00-00-48.mp3",
+            "title": "A police court scene",
+            "timestamp": "00:48",
+            "url": "http://www.loc.gov/item/00694079/"
+        },
+        {
+            "filename": "A-police-court-scene_00694079_003_00-01-34.mp3",
+            "title": "A police court scene",
+            "timestamp": "01:34",
+            "url": "http://www.loc.gov/item/00694079/"
+        },
+        {
+            "filename": "A-police-court-scene_00694079_004_00-02-04.mp3",
+            "title": "A police court scene",
+            "timestamp": "02:04",
+            "url": "http://www.loc.gov/item/00694079/"
+        },
+        {
+            "filename": "A-police-court-scene_00694079_005_00-02-50.mp3",
+            "title": "A police court scene",
+            "timestamp": "02:50",
+            "url": "http://www.loc.gov/item/00694079/"
+        },
+        {
+            "filename": "A-police-court-scene_00694079_006_00-03-21.mp3",
+            "title": "A police court scene",
+            "timestamp": "03:21",
+            "url": "http://www.loc.gov/item/00694079/"
+        },
+        {
+            "filename": "A-visit-to-Reillys_00694082_001_00-00-33.mp3",
+            "title": "A visit to Reilly's",
+            "timestamp": "00:33",
+            "url": "http://www.loc.gov/item/00694082/"
+        },
+        {
+            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_001_00-01-04.mp3",
+            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
+            "timestamp": "01:04",
+            "url": "http://www.loc.gov/item/00694074/"
+        },
+        {
+            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_002_00-01-14.mp3",
+            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
+            "timestamp": "01:14",
+            "url": "http://www.loc.gov/item/00694074/"
+        },
+        {
+            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_003_00-01-23.mp3",
+            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
+            "timestamp": "01:23",
+            "url": "http://www.loc.gov/item/00694074/"
+        },
+        {
+            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_004_00-01-41.mp3",
+            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
+            "timestamp": "01:41",
+            "url": "http://www.loc.gov/item/00694074/"
+        },
+        {
+            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_005_00-01-57.mp3",
+            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
+            "timestamp": "01:57",
+            "url": "http://www.loc.gov/item/00694074/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_001_00-00-00.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_002_00-00-33.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "00:33",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_003_00-00-52.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "00:52",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_004_00-02-10.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "02:10",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_005_00-02-46.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "02:46",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_006_00-03-16.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "03:16",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Dinnie-Donohue-on-Prohibition_00694077_007_00-03-21.mp3",
+            "title": "Dinnie Donohue, on Prohibition",
+            "timestamp": "03:21",
+            "url": "http://www.loc.gov/item/00694077/"
+        },
+        {
+            "filename": "Fun-in-a-bakery-shop_00694005_001_00-00-10.mp3",
+            "title": "Fun in a bakery shop",
+            "timestamp": "00:10",
+            "url": "http://www.loc.gov/item/00694005/"
+        },
+        {
+            "filename": "Fun-in-a-bakery-shop_00694005_002_00-00-40.mp3",
+            "title": "Fun in a bakery shop",
+            "timestamp": "00:40",
+            "url": "http://www.loc.gov/item/00694005/"
+        },
+        {
+            "filename": "Fun-in-a-bakery-shop_00694005_003_00-01-11.mp3",
+            "title": "Fun in a bakery shop",
+            "timestamp": "01:11",
+            "url": "http://www.loc.gov/item/00694005/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_001_00-00-01.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "00:01",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_002_00-00-17.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "00:17",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_003_00-00-47.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "00:47",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_004_00-00-56.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "00:56",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_005_00-01-15.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "01:15",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_006_00-01-47.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "01:47",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_007_00-02-16.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "02:16",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_008_00-02-24.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "02:24",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_009_00-03-07.mp3",
+            "title": "Gasoline Gus and his jitney bus",
+            "timestamp": "03:07",
+            "url": "http://www.loc.gov/item/00694052/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_001_00-00-11.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "00:11",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_002_00-00-29.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "00:29",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_003_00-00-55.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "00:55",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_004_00-01-12.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "01:12",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_005_00-01-18.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "01:18",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_006_00-01-41.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "01:41",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_007_00-01-55.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "01:55",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_008_00-02-05.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "02:05",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_009_00-02-24.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "02:24",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_010_00-02-54.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "02:54",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_011_00-03-19.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "03:19",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_012_00-03-40.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "03:40",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_013_00-03-54.mp3",
+            "title": "Lorraine (My beautiful Alsace-Lorraine)",
+            "timestamp": "03:54",
+            "url": "http://www.loc.gov/item/00694059/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_001_00-00-00.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_002_00-00-10.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "00:10",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_003_00-00-18.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "00:18",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_004_00-00-38.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "00:38",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_005_00-00-52.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "00:52",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_006_00-01-27.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "01:27",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_007_00-01-39.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "01:39",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_008_00-01-53.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "01:53",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_009_00-02-09.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "02:09",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_010_00-02-46.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "02:46",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_011_00-02-53.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "02:53",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_012_00-03-00.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "03:00",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_013_00-03-19.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "03:19",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_014_00-03-31.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "03:31",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_015_00-03-48.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "03:48",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Onward-Christian-soldiers_00694103_016_00-04-03.mp3",
+            "title": "Onward, Christian soldiers!",
+            "timestamp": "04:03",
+            "url": "http://www.loc.gov/item/00694103/"
+        },
+        {
+            "filename": "Palace-of-Electricity_00694264_001_00-01-09.mp3",
+            "title": "Palace of Electricity",
+            "timestamp": "01:09",
+            "url": "http://www.loc.gov/item/00694264/"
+        },
+        {
+            "filename": "Santa-Claus-hides-in-your-phonograph_00694071_001_00-02-15.mp3",
+            "title": "Santa Claus hides in your phonograph",
+            "timestamp": "02:15",
+            "url": "http://www.loc.gov/item/00694071/"
+        },
+        {
+            "filename": "The-band-festival-at-Plum-Center_00694075_001_00-01-10.mp3",
+            "title": "The band festival at Plum Center",
+            "timestamp": "01:10",
+            "url": "http://www.loc.gov/item/00694075/"
+        },
+        {
+            "filename": "The-band-festival-at-Plum-Center_00694075_002_00-01-35.mp3",
+            "title": "The band festival at Plum Center",
+            "timestamp": "01:35",
+            "url": "http://www.loc.gov/item/00694075/"
+        },
+        {
+            "filename": "The-band-festival-at-Plum-Center_00694075_003_00-02-43.mp3",
+            "title": "The band festival at Plum Center",
+            "timestamp": "02:43",
+            "url": "http://www.loc.gov/item/00694075/"
+        },
+        {
+            "filename": "The-band-festival-at-Plum-Center_00694075_004_00-03-28.mp3",
+            "title": "The band festival at Plum Center",
+            "timestamp": "03:28",
+            "url": "http://www.loc.gov/item/00694075/"
+        },
+        {
+            "filename": "The-band-festival-at-Plum-Center_00694075_005_00-03-55.mp3",
+            "title": "The band festival at Plum Center",
+            "timestamp": "03:55",
+            "url": "http://www.loc.gov/item/00694075/"
+        },
+        {
+            "filename": "The-enchanted-drawing_00694004_001_00-00-11.mp3",
+            "title": "The enchanted drawing",
+            "timestamp": "00:11",
+            "url": "http://www.loc.gov/item/00694004/"
+        },
+        {
+            "filename": "The-enchanted-drawing_00694004_002_00-00-41.mp3",
+            "title": "The enchanted drawing",
+            "timestamp": "00:41",
+            "url": "http://www.loc.gov/item/00694004/"
+        },
+        {
+            "filename": "The-enchanted-drawing_00694004_003_00-01-11.mp3",
+            "title": "The enchanted drawing",
+            "timestamp": "01:11",
+            "url": "http://www.loc.gov/item/00694004/"
+        },
+        {
+            "filename": "The-raggedy-man_00694070_001_00-03-15.mp3",
+            "title": "The raggedy man",
+            "timestamp": "03:15",
+            "url": "http://www.loc.gov/item/00694070/"
+        },
+        {
+            "filename": "The-shop-girl_00694080_001_00-00-00.mp3",
+            "title": "The shop girl",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/00694080/"
+        },
+        {
+            "filename": "The-shop-girl_00694080_002_00-00-27.mp3",
+            "title": "The shop girl",
+            "timestamp": "00:27",
+            "url": "http://www.loc.gov/item/00694080/"
+        },
+        {
+            "filename": "The-shop-girl_00694080_003_00-01-09.mp3",
+            "title": "The shop girl",
+            "timestamp": "01:09",
+            "url": "http://www.loc.gov/item/00694080/"
+        },
+        {
+            "filename": "The-shop-girl_00694080_004_00-02-10.mp3",
+            "title": "The shop girl",
+            "timestamp": "02:10",
+            "url": "http://www.loc.gov/item/00694080/"
+        },
+        {
+            "filename": "The-shop-girl_00694080_005_00-02-30.mp3",
+            "title": "The shop girl",
+            "timestamp": "02:30",
+            "url": "http://www.loc.gov/item/00694080/"
+        },
+        {
+            "filename": "The-shop-girl_00694080_006_00-03-47.mp3",
+            "title": "The shop girl",
+            "timestamp": "03:47",
+            "url": "http://www.loc.gov/item/00694080/"
+        },
+        {
+            "filename": "The-three-bears_00694073_001_00-03-28.mp3",
+            "title": "The three bears",
+            "timestamp": "03:28",
+            "url": "http://www.loc.gov/item/00694073/"
+        },
+        {
+            "filename": "The-twenty-third-Psalm_00694105_001_00-00-00.mp3",
+            "title": "The twenty-third Psalm",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/00694105/"
+        },
+        {
+            "filename": "The-twenty-third-Psalm_00694105_002_00-01-43.mp3",
+            "title": "The twenty-third Psalm",
+            "timestamp": "01:43",
+            "url": "http://www.loc.gov/item/00694105/"
+        },
+        {
+            "filename": "The-twenty-third-Psalm_00694105_003_00-02-45.mp3",
+            "title": "The twenty-third Psalm",
+            "timestamp": "02:45",
+            "url": "http://www.loc.gov/item/00694105/"
+        },
+        {
+            "filename": "The-twenty-third-Psalm_00694105_004_00-03-36.mp3",
+            "title": "The twenty-third Psalm",
+            "timestamp": "03:36",
+            "url": "http://www.loc.gov/item/00694105/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_001_00-01-15.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "01:15",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_002_00-01-29.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "01:29",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_003_00-01-54.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "01:54",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_004_00-02-29.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "02:29",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_005_00-03-01.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "03:01",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_006_00-03-36.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "03:36",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_007_00-03-58.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "03:58",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "Uncle-Josh-buys-an-automobile_00694081_008_00-04-07.mp3",
+            "title": "Uncle Josh buys an automobile",
+            "timestamp": "04:07",
+            "url": "http://www.loc.gov/item/00694081/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_001_00-00-00.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "00:00",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_002_00-00-17.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "00:17",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_003_00-00-51.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "00:51",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_004_00-01-12.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "01:12",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_005_00-01-29.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "01:29",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_006_00-01-57.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "01:57",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_007_00-02-13.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "02:13",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_008_00-02-39.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "02:39",
+            "url": "http://www.loc.gov/item/00694106/"
+        },
+        {
+            "filename": "When-the-roll-is-called-up-yonder_00694106_009_00-03-08.mp3",
+            "title": "When the roll is called up yonder",
+            "timestamp": "03:08",
+            "url": "http://www.loc.gov/item/00694106/"
+        }
+    ],
+    "segmentCount": 99,
+    "oneshotCount": 4096,
+    "totalCount": 4195
+}

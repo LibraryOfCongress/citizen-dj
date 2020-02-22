@@ -80,7 +80,7 @@ The next steps will go through a (long) series of scripts that process audio fro
 These scripts are maintained in a [separate open-source code repository](https://github.com/beefoo/media-tools).
 
 - [Install requirements](https://github.com/beefoo/media-tools#requirements). To complete the full workflow, the core libraries needed are:
-    - [Python](https://www.python.org/) 3.6+
+    - [Python](https://www.python.org/) (I have developed this using 3.6)
     - [SciPy](https://www.scipy.org/) for math functions (probably already installed)
     - [FFmpeg and FFprobe](https://www.ffmpeg.org/) for working with media files; `ffmpeg` and `ffprobe` commands must work
     - [LibROSA](https://librosa.github.io/librosa/) for audio analysis
@@ -93,7 +93,7 @@ These scripts are maintained in a [separate open-source code repository](https:/
 - Clone the repository:
 
    ```
-   git clone https://github.com/beefoo/media-tools.git`
+   git clone https://github.com/beefoo/media-tools.git
    cd media-tools
    ```
 
