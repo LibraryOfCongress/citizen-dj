@@ -40,7 +40,7 @@ This is more or less a basic [Jekyll](https://jekyllrb.com/) static website, so 
 
 1. You need to update [_config.yml](https://github.com/LibraryOfCongress/citizen-dj/blob/master/_config.yml) with your own settings
 2. The different types of page layouts can be found in [_layouts/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/_layouts) which have their associated stylesheet in [css/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/css) and javascript files in [js/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/js)
-3. Each collection has three discrete apps: "explore", "remix", and "use".  So each collection has one page per app found in `_explore/`, `_remix/`, and `_use/` respectively. The next section covers how to add a new collection
+3. Each collection has three discrete interfaces: "explore", "remix", and "use".  So each collection has one page per app found in `_explore/`, `_remix/`, and `_use/` respectively. The next section covers how to add a new collection
 
 ## Creating a new collection
 
@@ -81,6 +81,8 @@ For this walkthrough, I will use the following use-case: using this app for your
    python3 sync_collections.py -overwrite
    ```
 
+   This will create the necessary collections files in `_explore/` and `_remix/`. Alternatively, you can create these manually. If so, you will need to update the `layout` and `permalink` fields
+
 ## Processing a new collection
 
 The next steps will go through a (long) series of scripts that process audio from loc.gov.
@@ -108,14 +110,17 @@ These scripts are maintained in a [separate open-source code repository](https:/
 The following steps will walkthrough retrieving and processing a specific A/V collection from loc.gov. This process is a sequence of many, many Python scripts. I may automate this in the future, but for now, each step below is to be manually run from the command line. For possible convenience, I have a [commands template](https://github.com/beefoo/media-tools/blob/master/projects/citizen_dj/templates/citizen_dj_commands_template.txt) that can be populated with your own path information using this script like so:
 
 ```
-python3 template_to_string.py -in "projects/citizen_dj/citizen_dj_commands_template.txt" -query "collection_uid=variety-stage&collection_id=variety-stage-sound-recordings-and-motion-pictures&data_base_dir=output/variety-stage/&media_dir=output/variety-stage/media/&app_dir=/full/path/to/citizen-dj/" -out "output/my_custom_commands.txt"
+python3 template_to_string.py \
+  -in "projects/citizen_dj/citizen_dj_commands_template.txt" \
+  -query "collection_uid=variety-stage&collection_id=variety-stage-sound-recordings-and-motion-pictures&data_base_dir=output/variety-stage/&media_dir=output/variety-stage/media/&app_dir=/full/path/to/citizen-dj/" \
+  -out "output/my_custom_commands.txt"
 ```
 
 Now you have a text file with a bunch of commands that you can run individually or paste multiple lines in your terminal (for Mac) or you can replace newlines with " && " in Windows to run multiple commands sequentially. However, I recommend running each script individually when you first start to get a sense of what they do. Some script parameters require some tweaks for best results.
 
 ### I. Retrieving data and assets from loc.gov
 
-This example will retrieve data and media from loc.gov. The result will be a spreadsheet of item records (`item.csv`) and a folder of media files. You can replace this section with your own data/media source as long as you follow the same format of the .csv folder which should have the following columns:
+This example will retrieve data and media from loc.gov. The result will be a spreadsheet of item records (`item.csv`) and a folder of media files. You can skip this section if you have your own data/media, but you'll need to generate a .csv file for your data/files with the following columns:
 
 ```
 id: a unique identifier
@@ -190,7 +195,7 @@ python3 audio_to_samples.py \
   -overwrite
 ```
 
-`-delta` is the delta for [onset detection](https://librosa.github.io/librosa/generated/librosa.onset.onset_detect.html); decrease this number for more samples. `-min` and `-max` is minimum and maximum duration in milliseconds (-1 for no limit). `-features` adds another step for analyzing the samples' pitches, volume, and musicality.
+`-delta` is the delta for [onset detection](https://librosa.github.io/librosa/generated/librosa.onset.onset_detect.html); decrease this number for more samples. `-min` and `-max` is minimum and maximum duration in milliseconds (-1 for no limit). `-features` adds another step for analyzing the samples' pitches, volume, and musicality which will be necessary for the next steps.
 
 Compile sample information about each item and add it to the items .csv file:
 
@@ -208,7 +213,7 @@ python3 filter_csv.py \
   -filter "samples>50"
 ```
 
-Next, get item "phrases". This looks for sequences of samples that are likely related.
+Next, get item "phrases". This looks for sequences of samples that are likely related, e.g. within the same scene in a film.
 
 ```
 python3 items_to_phrases.py \
@@ -217,7 +222,7 @@ python3 items_to_phrases.py \
   -out "output/variety-stage/phrasedata/"
 ```
 
-If you're not getting enough phrases, you can lower the threshold for minimum clarity of phrases by adding `-params "minc=24.0"`; the lower the number, the more phrases you will get. Also run `python3 samples_to_phrases.py -h` for more parameters to tweak.
+If you're not getting enough phrases, you can lower the threshold for minimum clarity of phrases by adding `-params "minc=24.0"`; the lower the number, the more phrases you will get. The default is 30. Also run `python3 samples_to_phrases.py -h` for more parameters to tweak.
 
 Add phrase stats to item .csv data:
 
@@ -239,7 +244,7 @@ python3 stats_totals.py \
    -props "duration,samples,phrases"
 ```
 
-Now we find a subset of 4,096 samples by selecting the phrases that sound the most musical (using the `clarity` feature):
+Now we find a subset of 4,096 samples (for a 64 x 64 grid) by selecting the phrases that sound the most musical (using the `clarity` feature):
 
 ```
 python3 phrases_subset.py \
@@ -253,7 +258,7 @@ python3 phrases_subset.py \
   -lims 57
 ```
 
-You will need to tweak the last two parameters (`-limp` and `lims`, which limits the number of phrases per file, and number of samples per phrase) based on the collection you are working with. You can do this quickly by running the command with `-probe` which will just report information. In the report, look at the line `Found X valid samples`; `X` should be greater than your target sample count (4096 in this case), but as close to that number as possible. Usually for very large collections, you want the "phrases per file" and "samples per phrase" to be very small.
+You will need to tweak the last two parameters (`-limp` and `lims`, which limits the number of phrases per file, and number of samples per phrase) based on the collection you are working with. You can do this quickly by running the command with `-probe` which will just report information. In the report, look at the line `Found X valid samples`; `X` should be greater than your target sample count (4096 in this case), but as close to that number as possible, e.g. around 4100. Usually for very large collections, you want the "phrases per file" and "samples per phrase" to be very small.
 
 ## III. Prepping assets for the app
 
@@ -316,7 +321,7 @@ python3 samples_to_fingerprints.py \
   -log
 ```
 
-Finally we will add the appropriate assets (images, audio files, data files) to the [Citizen DJ App](https://github.com/LibraryOfCongress/citizen-dj).
+Finally we will move the appropriate assets (images, audio files, data files) to the [Citizen DJ App](https://github.com/LibraryOfCongress/citizen-dj).
 
 ```
 python3 samples_to_sprite.py \
