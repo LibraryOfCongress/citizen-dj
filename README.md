@@ -34,7 +34,15 @@ The app is a very simple front-end web application built with Javascript, HTML, 
 7. Any change you make to the app should automatically be updated in `_site/`
 8. Visit [localhost:4000](http://localhost:4000/)
 
-## Creating a collection
+### Customizing the content and style
+
+This is more or less a basic [Jekyll](https://jekyllrb.com/) static website, so you can refer to the Jekyll documentation for how the content is organized. Some key areas of note:
+
+1. You need to update [_config.yml](https://github.com/LibraryOfCongress/citizen-dj/blob/master/_config.yml) with your own settings
+2. The different types of page layouts can be found in [_layouts/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/_layouts) which have their associated stylesheet in [css/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/css) and javascript files in [js/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/js)
+3. Each collection has three discrete apps: "explore", "remix", and "use".  So each collection has one page per app found in `_explore/`, `_remix/`, and `_use/` respectively. The next section covers how to add a new collection
+
+## Creating a new collection
 
 For this walkthrough, I will use the following use-case: using this app for your own audio collections. In this case, there's some small tweaks you'll have to do to the app first:
 
