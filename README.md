@@ -135,7 +135,7 @@ subjects: subjects/tags for displaying in app (pipe | separated | list)
 Otherwise, first download the search results of [a loc.gov query](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/?fa=original-format:sound+recording):
 
 ```
-python3 scrapers/loc/download_query.py \
+python3 ingesters/loc/download_query.py \
   -query "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/?fa=original-format:sound+recording&fo=json" \
   -out "output/variety-stage/pages/page_%s.json"
 ```
@@ -143,7 +143,7 @@ python3 scrapers/loc/download_query.py \
 In this example, we are performing a query to the [LOC API](https://libraryofcongress.github.io/data-exploration/) to get the audio files for the [Variety Stage Sound Recordings and Motion Pictures](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/?fa=original-format:sound+recording) collection from loc.gov. Note that these scripts will only work for loc.gov items that have downloadable content (you can check this by looking for a download option on a collection item page). Next we will download metadata for each item in the query results:
 
 ```
-python3 scrapers/loc/download_metadata.py \
+python3 ingesters/loc/download_metadata.py \
   -in "output/variety-stage/pages/page_*.json" \
   -out "output/variety-stage/items/%s.json"
 ```
@@ -151,7 +151,7 @@ python3 scrapers/loc/download_metadata.py \
 And compile the items into a .csv file:
 
 ```
-python3 scrapers/loc/collect_metadata.py \
+python3 ingesters/loc/collect_metadata.py \
   -in "output/variety-stage/items/%s.json" \
   -out "output/variety-stage/items.csv"
 ```
@@ -159,7 +159,7 @@ python3 scrapers/loc/collect_metadata.py \
 Then download the media assets for each item (this can take a while for large collections or collections with large media files):
 
 ```
-python3 scrapers/loc/download_media.py \
+python3 ingesters/loc/download_media.py \
   -in "output/variety-stage/items.csv" \
   -out "output/variety-stage/media/"
 ```
@@ -177,7 +177,7 @@ python3 get_file_features.py \
 Optionally, you can view a "report" about this collection:
 
 ```
-python3 scrapers/loc/report_metadata.py \
+python3 ingesters/loc/report_metadata.py \
   -in "output/variety-stage/items.csv" \
   -pages "output/variety-stage/pages/page_*.json"
 ```
