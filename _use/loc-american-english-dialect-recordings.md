@@ -11,6 +11,6 @@ source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/american-english-dialect-recordings-from-the-center-for-applied-linguistics/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-american-english-dialect-recordings"
-sequence: 4
+sequence: 14
 active: 1
 ---

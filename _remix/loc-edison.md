@@ -11,6 +11,6 @@ source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-edison"
-sequence: 5
+sequence: 15
 active: 1
 ---

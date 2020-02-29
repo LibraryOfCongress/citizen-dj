@@ -11,6 +11,6 @@ source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-variety-stage"
-sequence: 1
+sequence: 11
 active: 1
 ---
