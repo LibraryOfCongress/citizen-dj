@@ -12,7 +12,10 @@ var Sequencer = (function() {
       "onChange": function(){},
       "recordingStreamDestination": false
     };
-    this.opt = _.extend({}, defaults, config);
+    this.defaultBPM = defaults.bpm;
+    var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
+    var q = Util.queryParams();
+    this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
   }
 
@@ -232,6 +235,15 @@ var Sequencer = (function() {
     }
   };
 
+  Sequencer.prototype.reloadFromUrl = function(){
+    var q = Util.queryParams();
+
+    var bpm = q.bpm ? parseInt(""+q.bpm) : this.defaultBPM;
+    if (bpm !== this.bpm) {
+      this.setBPM(bpm);
+    }
+  };
+
   Sequencer.prototype.removeTrack = function(key, type){
     this.trackIds[type] = _.without(this.trackIds[type], key);
     this.tracks[key].destroy();
@@ -239,11 +251,14 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.setBPM = function(bpm, fromUser){
+    bpm = parseInt(""+bpm);
     this.secondsPerSubd = 60.0 / bpm / this.opt.subdivision;
     this.swing = this.secondsPerSubd * this.opt.swing;
     Tone.Transport.bpm.value = bpm;
     this.$bpmText.text(bpm);
     if (!fromUser) this.$bpmInput.val(bpm);
+    this.bpm = bpm;
+    if (fromUser) this.opt.onChange();
   };
 
   Sequencer.prototype.start = function(){
@@ -261,6 +276,17 @@ var Sequencer = (function() {
     this.playing = !this.playing;
     if (this.playing) this.start();
     else this.stop();
+  };
+
+  Sequencer.prototype.toJSON = function(){
+    var data = {};
+
+    // return bpm if not default
+    if (this.bpm !== this.defaultBPM) {
+      data.bpm = this.bpm;
+    }
+
+    return data;
   };
 
   Sequencer.prototype.update = function(tracks, type, isUnion){

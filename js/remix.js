@@ -60,10 +60,13 @@ var RemixApp = (function() {
     var _this = this;
     var tracks = _.extend({}, this.drums.tracks, this.collections.tracks);
 
+    // delay the change trigger so we're not constantly updating URL with a new bpm
+    var onChange = _.debounce(function(){ _this.updateURL(); }, 1000);
+
     this.sequencer = new Sequencer({
       "el": _this.opt.el,
       "tracks": tracks,
-      "onChange": function(){ _this.updateURL(); },
+      "onChange": onChange,
       "recordingStreamDestination": this.recordingStreamDestination
     });
   };
@@ -86,6 +89,7 @@ var RemixApp = (function() {
   RemixApp.prototype.reloadFromUrl = function(){
     this.drums.reloadFromUrl();
     this.collections.reloadFromUrl();
+    this.sequencer.reloadFromUrl();
     this.sequencer.update(this.drums.tracks, "drum");
     this.sequencer.update(this.collections.tracks, "collection");
   };
@@ -96,7 +100,7 @@ var RemixApp = (function() {
   };
 
   RemixApp.prototype.updateURL = function(){
-    var data = _.extend({}, this.collections.toJSON(), this.drums.toJSON());
+    var data = _.extend({}, this.sequencer.toJSON(), this.collections.toJSON(), this.drums.toJSON());
 
     var urlEncoded = $.param(data);
     // console.log(urlEncoded);
