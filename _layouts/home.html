@@ -1,0 +1,29 @@
+{% include head.html %}
+
+  {% include header.html %}
+
+  <div class="container">
+    {% include notice.html %}
+  </div>
+
+  <div class="banner">
+    <div class="container">
+      <h1><img src="{{ site.baseurl }}/img/citizen_dj_logo_transparent.png" class="banner-image" alt="Citizen DJ" /></h1>
+
+      <p class="tagline">
+        Make hip hop music using the free-to-use audio and video materials from the <a href="https://www.loc.gov/" target="_blank">Library of Congress</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="container home">
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+
+  </div>
+
+{% include foot.html %}

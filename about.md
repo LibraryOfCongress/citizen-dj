@@ -1,6 +1,6 @@
 ---
 layout: page
-id: about
+uid: about
 title: About this project
 permalink: "/about/"
 ---

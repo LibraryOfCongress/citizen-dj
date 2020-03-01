@@ -1,6 +1,6 @@
 ---
 layout: page
-id: guide
+uid: guide
 title: Guide
 permalink: "/guide/"
 ---
