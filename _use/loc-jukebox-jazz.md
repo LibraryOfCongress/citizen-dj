@@ -7,10 +7,13 @@ rights: "The Library makes the sound recordings in the National Jukebox availabl
 credit: "Library of Congress, National Jukebox."
 collection_base_url: "/loc-jukebox-jazz/"
 permalink: "/loc-jukebox-jazz/use/"
+image_url: "/img/thumbnails/loc-jukebox-jazz.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/national-jukebox/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-jukebox-jazz"
+subjects:
+  - Music
 sequence: 1
 active: 1
 ---

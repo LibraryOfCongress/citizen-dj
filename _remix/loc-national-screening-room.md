@@ -7,10 +7,13 @@ rights: "The Library of Congress is not aware of any U.S. copyright or other res
 credit: "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division."
 collection_base_url: "/loc-national-screening-room/"
 permalink: "/loc-national-screening-room/remix/"
+image_url: "/img/thumbnails/loc-national-screening-room.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/national-screening-room/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-national-screening-room"
+subjects:
+  - Government film
 sequence: 16
 active: 1
 ---

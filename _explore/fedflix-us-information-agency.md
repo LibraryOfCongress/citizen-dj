@@ -7,10 +7,13 @@ rights: "This is in the Public Domain which means that is free of known copyrigh
 credit: "United States Information Agency"
 collection_base_url: "/fedflix-us-information-agency/"
 permalink: "/fedflix-us-information-agency/explore/"
+image_url: "/img/thumbnails/fedflix-us-information-agency.png"
 source: "Fedflix"
 source_url: "https://archive.org/details/FedFlix?and[]=U.S.+Information+Agency"
 provider: "archive.org"
 uid: "fedflix-us-information-agency"
+subjects:
+  - Government films
 sequence: 1001
 active: 0
 ---

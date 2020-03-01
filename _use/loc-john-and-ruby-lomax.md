@@ -7,10 +7,14 @@ rights: "The Library of Congress is not aware of any U.S. copyright protection (
 credit: "John and Ruby Lomax 1939 southern states recording trip (AFC 1939/001), American Folklife Center, Library of Congress"
 collection_base_url: "/loc-john-and-ruby-lomax/"
 permalink: "/loc-john-and-ruby-lomax/use/"
+image_url: "/img/thumbnails/loc-john-and-ruby-lomax.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/john-and-ruby-lomax/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-john-and-ruby-lomax"
+subjects:
+  - Music
+  - Spoken word
 sequence: 11
 active: 0
 ---

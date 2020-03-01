@@ -1,41 +1,71 @@
 ---
-layout: home
+layout: custom
 uid: home
 title: Homepage
 ---
 
-<p class="align-center"><em>This is a project by <a href="http://brianfoo.com">Brian Foo</a> as part of the 2020 <a href="https://labs.loc.gov/people/innovator-in-residence-program" class="nowrap" target="_blank">Innovator-in-Residence Program</a> <span class="nowrap">at the <a href="https://www.loc.gov/" target="_blank">Library of Congress</a></span>.</em></p>
+<div class="container">
+  {% include notice.html %}
+</div>
 
-<div class="steps">
-  <div class="step">
-    <p><img src="{{ site.baseurl }}/img/steps_1_explore.svg" alt="A magnifying glass hovering over a grid of sound clips" /></p>
-    <p>Explore free-to-use sounds from the Library of Congress</p>
-  </div>
-  <div class="step">
-    <p><img src="{{ site.baseurl }}/img/steps_2_make.svg" alt="A cursor clicking the buttons of a drum machine" /></p>
-    <p>Remix and combine with beats right in your browser</p>
-  </div>
-  <div class="step">
-    <p><img src="{{ site.baseurl }}/img/steps_3_use.svg" alt="An arrow pointing downward towards a laptop" /></p>
-    <p>Download and use sounds with your favorite software</p>
+<div class="banner">
+  <div class="container">
+    <h1><img src="{{ site.baseurl }}/img/citizen_dj_logo_transparent.png" class="banner-image" alt="Citizen DJ" /></h1>
+
+    <p class="tagline">
+      Make hip hop music using the free-to-use audio and video materials from the <a href="https://www.loc.gov/" target="_blank">Library of Congress</a>
+    </p>
   </div>
 </div>
 
-<h2>Select a collection to start</h2>
 
-{% assign pages = site.use | sort:"sequence" %}
-<div class="collections">
-  {% for p in pages %}
-    {% if p.active > 0 %}
-    <div class="collection">
-      <h3>{{ p.title }}</h3>
-      <p>{{ p.description }}</p>
-      <p class="collection-buttons">
-        <a href="{{ p.collection_base_url }}explore/" class="button">Explore sounds</a>
-        <a href="{{ p.collection_base_url }}remix/" class="button">Remix sounds</a>
-        <a href="{{ p.collection_base_url }}use/" class="button">Learn more about &amp; use sounds</a>
-      </p>
+<main class="home">
+  <div class="container">
+    <p class="align-center"><em>This is a project by <a href="http://brianfoo.com">Brian Foo</a> as part of the 2020 <a href="https://labs.loc.gov/people/innovator-in-residence-program" class="nowrap" target="_blank">Innovator-in-Residence Program</a> <span class="nowrap">at the <a href="https://www.loc.gov/" target="_blank">Library of Congress</a></span>.</em></p>
+
+    <div class="steps">
+      <div class="step">
+        <p><img src="{{ site.baseurl }}/img/steps_1_explore.svg" alt="A magnifying glass hovering over a grid of sound clips" /></p>
+        <p>Explore free-to-use sounds from the Library of Congress</p>
+      </div>
+      <div class="step">
+        <p><img src="{{ site.baseurl }}/img/steps_2_make.svg" alt="A cursor clicking the buttons of a drum machine" /></p>
+        <p>Remix and combine with beats right in your browser</p>
+      </div>
+      <div class="step">
+        <p><img src="{{ site.baseurl }}/img/steps_3_use.svg" alt="An arrow pointing downward towards a laptop" /></p>
+        <p>Download and use sounds with your favorite software</p>
+      </div>
     </div>
-    {% endif %}
-  {% endfor %}
+
+    <h2>Select a collection to start</h2>
+  </div>
+
+  {% assign pages = site.use | sort:"sequence" %}
+  <div class="collections">
+    {% for p in pages %}
+      {% if p.active > 0 %}
+      <div class="collection">
+        {% if p.image_url %}
+        <img src="{{ p.image_url }}" alt="A grid of clips representing the audio contained in this collection: {{ p.title }}" />
+        {% endif %}
+        <h3>{{ p.title }}</h3>
+        {% if p.subjects %}
+        <p class="subjects"><em>{{ p.subjects | array_to_sentence_string }}</em></p>
+        {% endif %}
+        <p class="description">{{ p.description }}</p>
+        <p class="collection-buttons">
+          <a href="{{ p.collection_base_url }}explore/" class="button">Explore sounds</a>
+          <a href="{{ p.collection_base_url }}remix/" class="button">Remix sounds</a>
+          <a href="{{ p.collection_base_url }}use/" class="button">Use sounds</a>
+        </p>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</main>
+
+{% include footer.html %}
+
 </div>

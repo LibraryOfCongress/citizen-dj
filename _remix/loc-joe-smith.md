@@ -7,10 +7,13 @@ rights: "The sound recordings in this collection are free to use and reuse with 
 credit: "Joe Smith Collection at the Library of Congress, Motion Picture, Broadcasting and Recorded Sound Division."
 collection_base_url: "/loc-joe-smith/"
 permalink: "/loc-joe-smith/remix/"
+image_url: "/img/thumbnails/loc-joe-smith.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/joe-smith/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-joe-smith"
+subjects:
+  - Interviews
 sequence: 12
 active: 1
 ---

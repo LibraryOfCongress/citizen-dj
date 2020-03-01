@@ -7,10 +7,15 @@ rights: "The Library of Congress is not aware of any U.S. copyright protection (
 credit: "Center for Applied Linguistics collection (AFC 1986/022), American Folklife Center, Library of Congress."
 collection_base_url: "/loc-american-english-dialect-recordings/"
 permalink: "/loc-american-english-dialect-recordings/remix/"
+image_url: "/img/thumbnails/loc-american-english-dialect-recordings.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/american-english-dialect-recordings-from-the-center-for-applied-linguistics/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-american-english-dialect-recordings"
+subjects:
+  - Interviews
+  - Oral histories
+  - Speeches
 sequence: 14
 active: 1
 ---

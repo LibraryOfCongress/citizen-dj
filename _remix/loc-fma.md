@@ -7,11 +7,14 @@ rights: "The recordings from the Free Music Archive that are available on Citize
 credit: "Free Music Archive. Library of Congress, Archived Web Site. https://www.loc.gov/item/lcwaN0026492/."
 collection_base_url: "/loc-fma/"
 permalink: "/loc-fma/remix/"
+image_url: "/img/thumbnails/loc-fma.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/item/lcwaN0026492/"
 provider: "loc.gov"
 local_items: "true"
 uid: "loc-fma"
+subjects:
+  - Music
 sequence: 13
 active: 1
 ---

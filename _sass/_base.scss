@@ -165,6 +165,10 @@ footer p {
   font-size: 1rem;
 }
 
+.clearfix {
+  @include clearfix;
+}
+
 .visually-hidden {
   @include visuallyHidden;
 }

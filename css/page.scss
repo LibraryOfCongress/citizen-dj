@@ -98,14 +98,54 @@ hr {
   text-align: center;
 }
 
+.home h2 {
+  margin-bottom: 0;
+}
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
 .collection {
-  border-bottom: 2px solid black;
+  width: 480px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #999;
+  display: flex;
+  flex-direction: column;
 }
-.collection:last-child {
-  border: none;
+.collection h3 {
+  margin: 0.5rem 0 0;
+  line-height: 1.3;
 }
-.collection:first-child h3 {
-  margin-top: 0;
+.collection p.subjects {
+  margin: 0;
+}
+.collection p.description {
+  font-size: 1rem;
+  margin-top: 0.4rem;
+  flex-grow: 1;
+}
+.collection p.collection-buttons {
+  margin-bottom: 0;
+}
+.collection .button {
+  margin: 0 0.25rem 0.25rem 0;
+}
+.collection img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 1019px) {
+  .collections {
+    display: block;
+  }
+  .collection {
+    width: auto;
+  }
 }
 
 .notice {

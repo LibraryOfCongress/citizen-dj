@@ -7,10 +7,14 @@ rights: "The Library of Congress is not aware of any U.S. copyright or other res
 credit: "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division."
 collection_base_url: "/loc-edison/"
 permalink: "/loc-edison/remix/"
+image_url: "/img/thumbnails/loc-edison.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/edison-company-motion-pictures-and-sound-recordings/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-edison"
+subjects:
+  - Music
+  - Spoken word
 sequence: 15
 active: 1
 ---

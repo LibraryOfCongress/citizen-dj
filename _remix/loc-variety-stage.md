@@ -7,10 +7,14 @@ rights: "The Library of Congress American Variety Stage collection is in the pub
 credit: "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division"
 collection_base_url: "/loc-variety-stage/"
 permalink: "/loc-variety-stage/remix/"
+image_url: "/img/thumbnails/loc-variety-stage.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/about-this-collection/"
 provider: "loc.gov"
 uid: "loc-variety-stage"
+subjects:
+  - Music
+  - Sketches
 sequence: 11
 active: 1
 ---
