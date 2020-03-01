@@ -162,7 +162,7 @@ button.beat {
   width: 36px;
   height: 36px;
   padding: 0;
-  margin: 0 4px 0 0;
+  margin: 0 2px 0 0;
   background: var(--light-color);
   border-color: var(--light-color);
 }
@@ -180,10 +180,25 @@ button.beat.active:hover {
 .beat:nth-child(4n) {
   margin-right: 8px;
 }
-
-.modifiers {
-  margin-left: 8px;
+.track.track-collection button.beat:hover {
+  border-color: var(--collection-color);
 }
+.track.track-collection button.beat.active {
+  background: var(--collection-color);
+  border-color: var(--collection-color);
+}
+.track.track-drum button.beat:hover {
+  border-color: var(--drum-color);
+}
+.track.track-drum button.beat.active {
+  background: var(--drum-color);
+  border-color: var(--drum-color);
+}
+.track.track-collection button.beat.active:hover,
+.track.track-drum button.beat.active:hover {
+  background: var(--light-color);
+}
+
 .modifiers button {
   height: auto;
   line-height: normal;

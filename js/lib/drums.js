@@ -85,7 +85,7 @@ var Drums = (function() {
 
     var tracks = {};
     _.each(pattern.pattern, function(instruments, col){
-      _.each(instruments, function(instrument){
+      _.each(instruments, function(instrument, instrumentIndex){
         // instrument already exists, just add to pattern
         if (_.has(tracks, instrument)) {
           tracks[instrument].pattern[col] = 1;
@@ -102,13 +102,18 @@ var Drums = (function() {
               "url": url,
               "title": title,
               "trackType": "drum",
+              "typeLabel": "Drum",
+              "sequence": 1,
               "gain": _this.opt.gain
             };
           }
         }
       });
     });
-    // console.log(tracks)
+
+    _.each(_.keys(tracks), function(key, i){
+      tracks[key].sequence = i+1;
+    });
 
     this.tracks = tracks;
   };

@@ -126,7 +126,7 @@
   <!-- track template -->
   <div id="track-template" class="template">
     <div class="track track-{{ trackType }}">
-      <div class="track-info"><h3><span class="track-title-text">{{ title }}</span>
+      <div class="track-info"><h3><span class="track-title-text">{{ typeLabel }} {{ sequence }}: {{ title }}</span>
         <a href="{{ url }}" class="download-audio" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a>
         <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
         <a href="#sources" class="scroll-to"><img src="../../img/icon_info.svg" alt="Information icon" title="Information about this file" /></a>
@@ -143,9 +143,9 @@
           <button class="beat beat-14" data-col="14"></button><button class="beat beat-15" data-col="15"></button>
         </div>
         <div class="modifiers">
-          <button class="svg-button settings-button" title="track settings" aria-label="track settings">
+          <!-- <button class="svg-button settings-button" title="track settings" aria-label="track settings">
             <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>track settings</title><path d="M53,47.46V18H47V47.46a10,10,0,0,0,0,19.08V82h6V66.54a10,10,0,0,0,0-19.08ZM50,61a4,4,0,1,1,4-4A4,4,0,0,1,50,61Z"/><path d="M26,32.46V18H20V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM23,46a4,4,0,1,1,4-4A4,4,0,0,1,23,46Z"/><path d="M80,32.46V18H74V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM77,46a4,4,0,1,1,4-4A4,4,0,0,1,77,46Z"/></svg>
-          </button>
+          </button> -->
           <button class="solo-button">solo</button>
           <button class="mute-button">mute</button>
         </div>

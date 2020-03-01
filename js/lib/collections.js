@@ -118,6 +118,8 @@ var Collections = (function() {
         "url": sample["url"],
         "title": _this.item.title + ' (' + sample.title + ')',
         "trackType": "collection",
+        "typeLabel": "Sample",
+        "sequence": i+1,
         "gain": _this.opt.gain
       };
       trackSamples.push(sample);
