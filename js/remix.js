@@ -17,6 +17,9 @@ var RemixApp = (function() {
 
     this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
 
+    var q = Util.queryParams();
+    this.hasQuery = !_.isEmpty(q);
+
     this.drums = new Drums({
       "el": _this.opt.el,
       "onChange": function(){ _this.onChangeDrums(); }
@@ -74,7 +77,7 @@ var RemixApp = (function() {
   RemixApp.prototype.onLoad = function(){
     this.loadSequencer();
     this.loadRecorder();
-    this.updateURL();
+    if (!this.hasQuery) this.updateURL();
     this.loadListeners();
   };
 
@@ -89,9 +92,9 @@ var RemixApp = (function() {
   RemixApp.prototype.reloadFromUrl = function(){
     this.drums.reloadFromUrl();
     this.collections.reloadFromUrl();
-    this.sequencer.reloadFromUrl();
     this.sequencer.update(this.drums.tracks, "drum");
     this.sequencer.update(this.collections.tracks, "collection");
+    this.sequencer.reloadFromUrl();
   };
 
   RemixApp.prototype.updateSequencer = function(tracks, type){
@@ -106,8 +109,17 @@ var RemixApp = (function() {
     // console.log(urlEncoded);
 
     if (window.history.pushState) {
-      var url = window.location.href.split('?')[0] + '?' + urlEncoded;
-      window.history.pushState(data, '', url);
+      var baseUrl = window.location.href.split('?')[0];
+      var currentState = window.history.state;
+      var newUrl = baseUrl + '?' + urlEncoded;
+
+      // ignore if state is the same
+      if (currentState) {
+        var currentUrl = baseUrl + '?' + $.param(currentState);
+        if (newUrl === currentUrl) return;
+      }
+
+      window.history.pushState(data, '', newUrl);
     }
   };
 

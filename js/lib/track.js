@@ -20,6 +20,35 @@ var Track = (function() {
     this.init();
   }
 
+  Track.stringToTrackPatternEdits = function(string){
+    var patternEdits = string.split("&");
+    patternEdits = _.map(patternEdits, function(p){
+      var parts = p.split("=");
+      return {
+        "index": parseInt(parts[0]),
+        "patternEdits": _.map(parts[1].split(","), function(pp){ return parseInt(pp); })
+      }
+    });
+    return patternEdits;
+  }
+
+  Track.trackPatternEditsToString = function(tracks){
+    var patternString = "";
+    // add pattern edits if there are any
+    var trackPatternEdits = _.map(_.keys(tracks), function(key, i){
+      return {
+        "patternEdits": tracks[key].patternEdits ? tracks[key].patternEdits.slice(0) : [],
+        "index": i
+      };
+    });
+    trackPatternEdits = _.filter(trackPatternEdits, function(t){ return t.patternEdits.length > 0; });
+    if (trackPatternEdits.length > 0) {
+      trackPatternEdits = _.map(trackPatternEdits, function(t){ return t.index + "=" + t.patternEdits.join(",")});
+      patternString = trackPatternEdits.join("&");
+    }
+    return patternString;
+  }
+
   Track.prototype.init = function(){
     var _this = this;
     var opt = this.opt;
@@ -32,6 +61,8 @@ var Track = (function() {
     this.isMuted = false;
     this.isSolo = false;
     this.pattern = this.opt.pattern;
+    this.originalPattern = this.pattern.slice(0);
+    this.patternEdits = [];
     this.trackType = this.opt.trackType;
     this.recordingStreamDestination = this.opt.recordingStreamDestination;
   };
@@ -189,6 +220,8 @@ var Track = (function() {
     }
     if (track.pattern) {
       this.pattern = track.pattern;
+      this.originalPattern = this.pattern.slice(0);
+      this.patternEdits = [];
       this.$el.find('.beat').each(function(i){
         if (track.pattern[i] > 0) $(this).addClass('active');
         else $(this).removeClass('active');
@@ -209,6 +242,13 @@ var Track = (function() {
 
   Track.prototype.updatePatternCol = function(col, value) {
     this.pattern[col] = value;
+
+    // keep track of edits
+    if (value !== this.originalPattern[col] && this.patternEdits.indexOf(col) < 0) {
+      this.patternEdits.push(col);
+    } else if (value === this.originalPattern[col]) {
+      this.patternEdits = _.without(this.patternEdits, col);
+    }
   };
 
   Track.prototype.updateSetting = function(property, value, $target) {

@@ -38,8 +38,15 @@ var Sequencer = (function() {
       _this.addTrack(key, props);
     });
 
-    // start the loop
+    // set bpm
     this.setBPM(this.opt.bpm);
+
+    // set pattern edits
+    if (this.opt.patternEdits && this.opt.patternEdits.length) {
+      this.loadPatternEdits(this.opt.patternEdits);
+    }
+
+    // start the loop
     this.loop = new Tone.Sequence(function(time, col){
       _this.onStep(time, col);
     }, this.subdArr, this.subdStr).start(0);
@@ -92,8 +99,7 @@ var Sequencer = (function() {
 
     // update pattern
     this.$tracks.on('click', '.beat', function(e){
-      _this.onClickBeat($(this));
-      // _this.opt.onChange();
+      _this.onClickBeat($(this), true);
     });
 
     // mute track
@@ -133,6 +139,22 @@ var Sequencer = (function() {
     });
   };
 
+  Sequencer.prototype.loadPatternEdits = function(patternEditsString) {
+    var _this = this;
+    var tracks = this.tracks;
+    var trackKeys = _.keys(tracks);
+    var patternEdits = Track.stringToTrackPatternEdits(patternEditsString);
+    _.each(patternEdits, function(p){
+      var key = trackKeys[p.index];
+      var $track = $('.track[data-track="'+key+'"]').first();
+      if (!$track.length) return;
+      _.each(p.patternEdits, function(col){
+        var $button = $track.find('.beat-'+col);
+        _this.onClickBeat($button);
+      });
+    });
+  }
+
   Sequencer.prototype.loadTemplate = function(el, className){
     var $template = $(el).first().clone();
     return _.template($template.html());
@@ -156,12 +178,13 @@ var Sequencer = (function() {
     this.tracks[this.currentTrack].updateSetting(property, value, $target);
   };
 
-  Sequencer.prototype.onClickBeat = function($button){
+  Sequencer.prototype.onClickBeat = function($button, fromUser){
     $button.toggleClass('active');
     var value = $button.hasClass('active') ? 1 : 0;
     var trackId = $button.closest('.track').attr('data-track');
     var col = parseInt($button.attr('data-col'));
     this.updateTrackPattern(trackId, col, value);
+    if (fromUser) this.opt.onChange();
   };
 
   Sequencer.prototype.onClickMute = function($button) {
@@ -236,11 +259,16 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.reloadFromUrl = function(){
+    var _this = this;
     var q = Util.queryParams();
 
     var bpm = q.bpm ? parseInt(""+q.bpm) : this.defaultBPM;
     if (bpm !== this.bpm) {
       this.setBPM(bpm);
+    }
+
+    if (q.patternEdits && q.patternEdits.length) {
+      this.loadPatternEdits(q.patternEdits);
     }
   };
 
@@ -280,6 +308,10 @@ var Sequencer = (function() {
 
   Sequencer.prototype.toJSON = function(){
     var data = {};
+
+    // add pattern edits if there are any
+    var patternEditsString = Track.trackPatternEditsToString(this.tracks);
+    if (patternEditsString.length > 0) data["patternEdits"] = patternEditsString;
 
     // return bpm if not default
     if (this.bpm !== this.defaultBPM) {

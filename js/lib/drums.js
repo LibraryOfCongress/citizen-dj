@@ -271,10 +271,11 @@ var Drums = (function() {
   };
 
   Drums.prototype.toJSON = function(){
-    return {
+    var data = {
       "drumName": this.drums[this.drumIndex].name,
       "patternName": this.patterns[this.patternIndex].name
-    }
+    };
+    return data;
   };
 
   return Drums;

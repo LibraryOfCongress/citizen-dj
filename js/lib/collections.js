@@ -454,10 +454,11 @@ var Collections = (function() {
   };
 
   Collections.prototype.toJSON = function(){
-    return {
+    var data = {
       "itemId": this.item.itemId,
       "itemStart": this.item.samples[this.sampleIndex].sourceStart
-    }
+    };
+    return data;
   };
 
   Collections.prototype.updateSource = function(){
