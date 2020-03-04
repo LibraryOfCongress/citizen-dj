@@ -90,9 +90,14 @@ var Sequencer = (function() {
       _this.onClickRecord($(this));
     });
 
+    // share url
+    $('.share-audio').on('click', function(e){
+      window.prompt("Copy this URL to clipboard: Ctrl+C, Enter", window.location.href);
+    });
+
     // change tempo
     if (this.$bpmInput.length) {
-      this.$bpmInput.on("input", function(e){
+      this.$bpmInput.on('input', function(e){
         _this.setBPM(parseInt($(this).val()), true);
       });
     }
