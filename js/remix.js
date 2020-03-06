@@ -77,7 +77,7 @@ var RemixApp = (function() {
   RemixApp.prototype.onLoad = function(){
     this.loadSequencer();
     this.loadRecorder();
-    if (!this.hasQuery) this.updateURL();
+    if (!this.hasQuery) this.updateURL(true);
     this.loadListeners();
   };
 
@@ -102,7 +102,7 @@ var RemixApp = (function() {
     this.updateURL();
   };
 
-  RemixApp.prototype.updateURL = function(){
+  RemixApp.prototype.updateURL = function(replace){
     var data = _.extend({}, this.sequencer.toJSON(), this.collections.toJSON(), this.drums.toJSON());
 
     var urlEncoded = $.param(data);
@@ -119,7 +119,8 @@ var RemixApp = (function() {
         if (newUrl === currentUrl) return;
       }
 
-      window.history.pushState(data, '', newUrl);
+      if (replace===true) window.history.replaceState(data, '', newUrl);
+      else window.history.pushState(data, '', newUrl);
     }
   };
 
