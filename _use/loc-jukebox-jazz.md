@@ -15,5 +15,5 @@ uid: "loc-jukebox-jazz"
 subjects:
   - Music
 sequence: 1
-active: 1
+active: 0
 ---
