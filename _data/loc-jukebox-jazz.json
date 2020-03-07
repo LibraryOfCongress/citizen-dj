@@ -1,15 +1,15 @@
 {
     "packages": [
         {
-            "filename": "loc.gov_national-jukebox_mp3.zip",
+            "filename": "loc.gov_national-jukebox-jazz_mp3.zip",
             "label": "Download in 192 Kbps .mp3 format",
-            "size": "249.8mb",
+            "size": "90.3mb",
             "comment": "Ideal if you would just like to preview and browse this collection"
         },
         {
-            "filename": "loc.gov_national-jukebox_wav.zip",
+            "filename": "loc.gov_national-jukebox-jazz_wav.zip",
             "label": "Download in 32-bit .wav format",
-            "size": "1.4gb",
+            "size": "478.5mb",
             "comment": "Ideal for production"
         }
     ],
