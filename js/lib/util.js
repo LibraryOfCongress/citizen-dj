@@ -81,7 +81,8 @@
     return (anchor + sdistance);
   };
 
-  MathUtil.secondsToString = function(seconds){
+  MathUtil.secondsToString = function(seconds, precision){
+    precision = precision || 0;
     if (!seconds || seconds <= 0) return "0:00";
     var d = new Date(null);
     d.setSeconds(seconds);
@@ -94,7 +95,9 @@
       start = 14;
       len = 5;
     }
-    return d.toISOString().substr(start, len);
+    var timeStr = d.toISOString().substr(start, len);
+    if (precision > 0) timeStr += (seconds % 1.0).toFixed(precision).substr(1);
+    return timeStr;
   };
 
   MathUtil.within = function(num, min, max) {

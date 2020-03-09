@@ -523,7 +523,8 @@ var ExploreApp = (function() {
     if (_.has(this.itemLookup, id)) {
       var item = this.itemLookup[id];
       html += '<div class="item-details">';
-        html += '<h2>' + item.title + ' starting at '+startTimeF+'</h2>';
+        var title = item.title + ' starting at '+startTimeF;
+        html += '<h2 title="'+title+'">' + title + '</h2>';
         if (item.contributors.length)
           html += '<p>' + item.contributors + '</p>';
       html += '</div>';

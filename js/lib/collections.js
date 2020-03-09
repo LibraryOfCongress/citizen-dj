@@ -194,7 +194,7 @@ var Collections = (function() {
     var samples = _.map(sampledata.items, function(sample){
       var sampleObj = _.object(sampleHeadings, sample);
       if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
-      sampleObj.title = 'starting at ' + MathUtil.secondsToString(sampleObj.sourceStart/1000.0);
+      sampleObj.title = 'starting at ' + MathUtil.secondsToString(sampleObj.sourceStart/1000.0, 3);
       sampleObj.url = _this.opt.baseUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.mp3';
       if (sampledata.groups) {
         _.each(sampledata.groups, function(groupList, key){
