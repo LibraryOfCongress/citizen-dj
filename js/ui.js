@@ -14,11 +14,19 @@ var UI = (function() {
   };
 
   UI.prototype.loadListeners = function(){
-    $('.submenu-link').on('click', function(){
-      // console.log($(this).attr('aria-expanded'))
-      var expanded = $(this).attr('aria-expanded') === 'true';
-      if (expanded) $(this).attr('aria-expanded', 'false');
-      else $(this).attr('aria-expanded', 'true');
+
+    var $menuLinks = $('.submenu-link');
+
+    $menuLinks.parent().on('click', function(e){
+      e.stopPropagation();
+      var $link = $(this).find('.submenu-link');
+      var expanded = $link.attr('aria-expanded') === 'true';
+      if (expanded) $link.attr('aria-expanded', 'false');
+      else $link.attr('aria-expanded', 'true');
+    });
+
+    $(document).click(function() {
+      $menuLinks.attr('aria-expanded', 'false');
     });
   };
 
