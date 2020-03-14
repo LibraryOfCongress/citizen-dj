@@ -97,7 +97,7 @@ These scripts are maintained in a [separate open-source code repository](https:/
     - [Pydub](http://pydub.com/) for audio manipulation
     - [scikit-learn](https://scikit-learn.org/stable/) for statistics and machine learning features (e.g. TSNE, clustering, classification)
     - [Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) for faster TSNE
-    - [RasterFairy](https://github.com/Quasimondo/RasterFairy) for transforming point cloud to grid (supports Python 2.7 only)
+    - [RasterFairy](https://github.com/pechyonkin/RasterFairy-Py3) for transforming point cloud to grid
     - [Requests](http://docs.python-requests.org/en/master/) for making remote web requests for scraping metadata
     - [Curl](https://curl.haxx.se/) for binary downloads
 - Clone the repository:
@@ -303,10 +303,10 @@ python3 samples_to_tsne.py \
   -rate 50
 ```
 
-Now we're going to convert the `tsne` and `tsne2` columns into fixed grid positions. This uses the [Raster Fairy library](https://github.com/Quasimondo/RasterFairy) which only supports Python 2, unfortunately, so be sure you run using Python 2.7+.
+Now we're going to convert the `tsne` and `tsne2` columns into fixed grid positions. This uses the [Raster Fairy library](https://github.com/pechyonkin/RasterFairy-Py3).
 
 ```
-python samples_to_grid.py \
+python3 samples_to_grid.py \
   -in "output/variety-stage/samples_grid.csv" \
   -grid "64x64"
 ```
