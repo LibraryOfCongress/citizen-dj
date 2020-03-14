@@ -71,7 +71,7 @@
         <dd><a href="{{ page.source_url }}" target="_blank">{{ page.title }}</a></dd>
         <div id="item-meta"></div>
         <dt>How can it be used?</dt>
-        <dd>{{ page.rights }}</dd>
+        <dd>{{ page.item_rights }}</dd>
         <dd>Also see this <a href="{{ site.baseurl }}/guide/">detailed guide</a> covering the copyright and ethical considerations of digital sampling of audio and video materials.</dd>
         <div id="item-access"></div>
         <div class="source">
@@ -177,7 +177,8 @@
     'baseUrl': '{{ site.baseurl }}',
     'uid': '{{ page.uid }}',
     'provider': '{{ page.provider }}',
-    'localItems': '{{ page.local_items }}'
+    'localItems': '{{ page.local_items }}',
+    'credit': '{{ page.credit }}'
   };
 </script>
 <script src="{{ site.baseurl }}/js/ui.js"></script>

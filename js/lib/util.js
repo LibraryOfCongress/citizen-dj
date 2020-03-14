@@ -3,13 +3,28 @@
 (function() {
   window.Util = {};
 
+  Util.listToString = function(arr){
+    var arrLen = arr.length;
+    if (arrLen < 1) return "Unknown";
+    if (arrLen < 2) return arr[0];
+    if (arrLen < 3) return arr.join(' and ');
+
+    var string = '';
+    _.each(arr, function(value, i){
+      if (i===arrLen-1) string += value;
+      else if (i===arrLen-2) string += (value + ', and ');
+      else string += (value + ', ');
+    });
+    return string;
+  };
+
   Util.queryParams = function(){
     if (location.search.length) {
       var search = location.search.substring(1);
       return JSON.parse('{"' + search.replace(/&/g, '","').replace(/=/g,'":"') + '"}', function(key, value) { return key===""?value:decodeURIComponent(value) });
     }
     return {};
-  }
+  };
 
   Util.scrollTo = function(el, offset){
     offset = offset || 0;
@@ -18,7 +33,7 @@
     $([document.documentElement, document.body]).animate({
         scrollTop: $(el).offset().top + offset
     }, 1000);
-  }
+  };
 
 })();
 

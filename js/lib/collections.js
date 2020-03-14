@@ -213,6 +213,7 @@ var Collections = (function() {
       var itemObj = _.object(itemHeadings, item);
       var itemKey = ''+itemObj[_this.opt.itemKey];
       itemObj.itemId = itemKey.split('.')[0];
+      itemObj.titleNoYear = itemObj.title;
       if (itemObj.year && itemObj.year !== '' && !itemObj.title.endsWith(')')) itemObj.title += ' ('+itemObj.year+')';
       itemObj.samples = _.has(sampleLookup, itemKey) ? _.sortBy(sampleLookup[itemKey], 'sourceStart') : [];
       itemObj.samples = _.map(itemObj.samples, function(s, j){
@@ -359,6 +360,11 @@ var Collections = (function() {
     html += '</div>';
     this.$itemMeta.html(html);
     html = '';
+      // attribution
+      html += '<dt>Sample attribution</dt>';
+      html += '<dd>Contains samples of "' + item.titleNoYear + '" by ' +Util.listToString(item.contributors)+ '. Retrieved from ' + this.opt.credit + '</dd>';
+      html += '<dd><em>Note that this text was generated automatically from bibliographic data as a convenience, and may not be complete or accurate.</em></dd>';
+      // access
       html += '<dt>How can it be accessed?</dt>';
       html += '<dd>You can visit this <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/">collection\'s download &amp; use page</a> for bulk downloads.</dd>'
       if (!this.localItems) {
