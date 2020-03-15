@@ -57,6 +57,7 @@
       </div>
     </nav> -->
 
+    <h2 class="visually-hidden">Beat sequence</h2>
     <div class="sequence">
     </div>
 
@@ -69,7 +70,7 @@
       <div class="sources">
         <dt>Part of collection:</dt>
         <dd><a href="{{ page.source_url }}" target="_blank">{{ page.title }}</a></dd>
-        <div id="item-meta"></div>
+        <div id="item-meta" role="region" aria-live="polite"></div>
         <dt>How can it be used?</dt>
         <dd>{{ page.item_rights }}</dd>
         <dd>Also see this <a href="{{ site.baseurl }}/guide/">detailed guide</a> covering the copyright and ethical considerations of digital sampling of audio and video materials.</dd>
@@ -127,21 +128,30 @@
   <!-- track template -->
   <div id="track-template" class="template">
     <div class="track track-{{ trackType }}">
-      <div class="track-info"><h3><span class="track-title-text">{{ typeLabel }} {{ sequence }}: {{ title }}</span>
+      <div class="track-info">
+        <h3><span class="track-title-text">{{ typeLabel }} {{ sequence }}: {{ title }}</span></h3>
         <a href="{{ url }}" class="download-audio" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a>
         <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
         <a href="#sources" class="scroll-to"><img src="../../img/icon_info.svg" alt="Information icon" title="Information about this file" /></a>
-      </h3></div>
+      </div>
       <div class="track-controls">
         <div class="beats">
-          <button class="beat beat-0" data-col="0"></button><button class="beat beat-1" data-col="1"></button>
-          <button class="beat beat-2" data-col="2"></button><button class="beat beat-3" data-col="3"></button>
-          <button class="beat beat-4" data-col="4"></button><button class="beat beat-5" data-col="5"></button>
-          <button class="beat beat-6" data-col="6"></button><button class="beat beat-7" data-col="7"></button>
-          <button class="beat beat-8" data-col="8"></button><button class="beat beat-9" data-col="9"></button>
-          <button class="beat beat-10" data-col="10"></button><button class="beat beat-11" data-col="11"></button>
-          <button class="beat beat-12" data-col="12"></button><button class="beat beat-13" data-col="13"></button>
-          <button class="beat beat-14" data-col="14"></button><button class="beat beat-15" data-col="15"></button>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-0" value="0" /><label for="{{ uid }}-0"><span>Beat 1 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-1" value="1" /><label for="{{ uid }}-1"><span>Beat 2 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-2" value="2" /><label for="{{ uid }}-2"><span>Beat 3 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-3" value="3" /><label for="{{ uid }}-3"><span>Beat 4 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-4" value="4" /><label for="{{ uid }}-4"><span>Beat 5 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-5" value="5" /><label for="{{ uid }}-5"><span>Beat 6 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-6" value="6" /><label for="{{ uid }}-6"><span>Beat 7 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-7" value="7" /><label for="{{ uid }}-7"><span>Beat 8 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-8" value="8" /><label for="{{ uid }}-8"><span>Beat 9 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-9" value="9" /><label for="{{ uid }}-9"><span>Beat 10 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-10" value="10" /><label for="{{ uid }}-10"><span>Beat 11 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-11" value="11" /><label for="{{ uid }}-11"><span>Beat 12 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-12" value="12" /><label for="{{ uid }}-12"><span>Beat 13 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-13" value="13" /><label for="{{ uid }}-13"><span>Beat 14 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-14" value="14" /><label for="{{ uid }}-14"><span>Beat 15 of 16 in this row</span></label></div>
+          <div class="beat"><input type="checkbox" id="{{ uid }}-15" value="15" /><label for="{{ uid }}-15"><span>Beat 16 of 16 in this row</span></label></div>
         </div>
         <div class="modifiers">
           <!-- <button class="svg-button settings-button" title="track settings" aria-label="track settings">

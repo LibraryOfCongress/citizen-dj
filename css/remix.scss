@@ -37,11 +37,14 @@ footer {
   justify-content: flex-start;
   margin: 3rem 0 2rem;
   padding: 0 1rem;
+  position: relative;
+  z-index: 1;
 }
 .sequence-controls-nav {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 .selectors {
   font-size: 1.1rem;
@@ -125,13 +128,21 @@ select.select-drum {
   order: 2;
   border-color: var(--drum-color);
 }
-.track h3 {
+.track.muted {
+  opacity: 0.5;
+}
+.track-info {
+  white-space: nowrap;
+  line-height: 1;
+}
+.track-info h3,
+.track-info a {
   margin: 0;
   font-size: 1rem;
   font-weight: none;
-}
-.track.muted {
-  opacity: 0.5;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
 }
 .track-info img {
   display: inline-block;
@@ -156,48 +167,75 @@ select.select-drum {
   justify-content: center;
   align-items: stretch;
 }
-
-button.beat {
-  transition: transform 0.2s ease-in-out;
+.beat {
+  position: relative;
+}
+.beat label span {
+  @include visuallyHidden;
+}
+.beat input {
+  opacity: 0;
+  display: block;
   width: 36px;
   height: 36px;
-  padding: 0;
   margin: 0 2px 0 0;
-  background: var(--light-color);
-  border-color: var(--light-color);
+  padding: 0;
+  border: none;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
 }
-button.beat:hover {
+.beat label {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+// fake checkbox
+.beat label::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: var(--light-color);
+  border: 2px solid var(--light-color);
+  box-sizing: border-box;
+}
+.beat input:hover + label::before {
   background: var(--light-color);
   border-color: var(--darkest-color);
 }
-button.beat.active {
+.beat input:checked + label::before {
   background: var(--darkest-color);
   border-color: var(--darkest-color);
 }
-button.beat.active:hover {
+.beat input:checked:hover + label::before {
   background: var(--light-color);
 }
-.beat:nth-child(4n) {
+.beat:nth-child(4n) input {
   margin-right: 8px;
 }
-.track.track-collection button.beat:hover {
+.track.track-collection input:hover + label::before {
   border-color: var(--collection-color);
 }
-.track.track-collection button.beat.active {
+.track.track-collection input:checked + label::before {
   background: var(--collection-color);
   border-color: var(--collection-color);
 }
-.track.track-drum button.beat:hover {
+.track.track-drum input:hover + label::before {
   border-color: var(--drum-color);
 }
-.track.track-drum button.beat.active {
+.track.track-drum input:checked + label::before {
   background: var(--drum-color);
   border-color: var(--drum-color);
 }
-.track.track-collection button.beat.active:hover,
-.track.track-drum button.beat.active:hover {
-  background: var(--light-color);
-}
+// .track.track-collection input:checked:hover + label::before,
+// .track.track-drum input:checked:hover + label::before {
+//   background: var(--light-color);
+// }
 
 .modifiers button {
   height: auto;
@@ -269,42 +307,42 @@ button.beat.active:hover {
   margin-right: 0;
 }
 
-.sequence[data-col="0"] .beat:first-child,
-.sequence[data-col="1"] .beat:nth-child(2),
-.sequence[data-col="2"] .beat:nth-child(3),
-.sequence[data-col="3"] .beat:nth-child(4),
-.sequence[data-col="4"] .beat:nth-child(5),
-.sequence[data-col="5"] .beat:nth-child(6),
-.sequence[data-col="6"] .beat:nth-child(7),
-.sequence[data-col="7"] .beat:nth-child(8),
-.sequence[data-col="8"] .beat:nth-child(9),
-.sequence[data-col="9"] .beat:nth-child(10),
-.sequence[data-col="10"] .beat:nth-child(11),
-.sequence[data-col="11"] .beat:nth-child(12),
-.sequence[data-col="12"] .beat:nth-child(13),
-.sequence[data-col="13"] .beat:nth-child(14),
-.sequence[data-col="14"] .beat:nth-child(15),
-.sequence[data-col="15"] .beat:nth-child(16) {
+.sequence[data-col="0"] .beat:first-child label::before,
+.sequence[data-col="1"] .beat:nth-child(2) label::before,
+.sequence[data-col="2"] .beat:nth-child(3) label::before,
+.sequence[data-col="3"] .beat:nth-child(4) label::before,
+.sequence[data-col="4"] .beat:nth-child(5) label::before,
+.sequence[data-col="5"] .beat:nth-child(6) label::before,
+.sequence[data-col="6"] .beat:nth-child(7) label::before,
+.sequence[data-col="7"] .beat:nth-child(8) label::before,
+.sequence[data-col="8"] .beat:nth-child(9) label::before,
+.sequence[data-col="9"] .beat:nth-child(10) label::before,
+.sequence[data-col="10"] .beat:nth-child(11) label::before,
+.sequence[data-col="11"] .beat:nth-child(12) label::before,
+.sequence[data-col="12"] .beat:nth-child(13) label::before,
+.sequence[data-col="13"] .beat:nth-child(14) label::before,
+.sequence[data-col="14"] .beat:nth-child(15) label::before,
+.sequence[data-col="15"] .beat:nth-child(16) label::before {
   background: var(--lighter-color);
   border-color: var(--lighter-color);
 }
 
-.sequence[data-col="0"] .beat.active:first-child,
-.sequence[data-col="1"] .beat.active:nth-child(2),
-.sequence[data-col="2"] .beat.active:nth-child(3),
-.sequence[data-col="3"] .beat.active:nth-child(4),
-.sequence[data-col="4"] .beat.active:nth-child(5),
-.sequence[data-col="5"] .beat.active:nth-child(6),
-.sequence[data-col="6"] .beat.active:nth-child(7),
-.sequence[data-col="7"] .beat.active:nth-child(8),
-.sequence[data-col="8"] .beat.active:nth-child(9),
-.sequence[data-col="9"] .beat.active:nth-child(10),
-.sequence[data-col="10"] .beat.active:nth-child(11),
-.sequence[data-col="11"] .beat.active:nth-child(12),
-.sequence[data-col="12"] .beat.active:nth-child(13),
-.sequence[data-col="13"] .beat.active:nth-child(14),
-.sequence[data-col="14"] .beat.active:nth-child(15),
-.sequence[data-col="15"] .beat.active:nth-child(16) {
+.sequence[data-col="0"] .beat:first-child input:checked + label::before,
+.sequence[data-col="1"] .beat:nth-child(2) input:checked + label::before,
+.sequence[data-col="2"] .beat:nth-child(3) input:checked + label::before,
+.sequence[data-col="3"] .beat:nth-child(4) input:checked + label::before,
+.sequence[data-col="4"] .beat:nth-child(5) input:checked + label::before,
+.sequence[data-col="5"] .beat:nth-child(6) input:checked + label::before,
+.sequence[data-col="6"] .beat:nth-child(7) input:checked + label::before,
+.sequence[data-col="7"] .beat:nth-child(8) input:checked + label::before,
+.sequence[data-col="8"] .beat:nth-child(9) input:checked + label::before,
+.sequence[data-col="9"] .beat:nth-child(10) input:checked + label::before,
+.sequence[data-col="10"] .beat:nth-child(11) input:checked + label::before,
+.sequence[data-col="11"] .beat:nth-child(12) input:checked + label::before,
+.sequence[data-col="12"] .beat:nth-child(13) input:checked + label::before,
+.sequence[data-col="13"] .beat:nth-child(14) input:checked + label::before,
+.sequence[data-col="14"] .beat:nth-child(15) input:checked + label::before,
+.sequence[data-col="15"] .beat:nth-child(16) input:checked + label::before {
   opacity: 1;
   background: var(--secondary-color);
   border-color: var(--secondary-color);

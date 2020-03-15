@@ -56,6 +56,7 @@ var Track = (function() {
     this.opt.title = opt.title || opt.url.substring(opt.url.lastIndexOf('/')+1);
     this.opt.clipEnd = opt.clipEnd || 0;
     this.opt.duration = opt.duration || 0;
+    this.opt.uid = _.uniqueId('track');
 
     this.loaded = false;
     this.isMuted = false;
@@ -108,7 +109,7 @@ var Track = (function() {
     // highlight beats
     var pattern = this.pattern;
     $html.find('.beat').each(function(i){
-      if (pattern[i] > 0) $(this).addClass('active');
+      if (pattern[i] > 0) $(this).find('input').prop('checked', true);
     });
     this.opt.$parent.append($html);
     this.$el = $html;
@@ -223,8 +224,8 @@ var Track = (function() {
       this.originalPattern = this.pattern.slice(0);
       this.patternEdits = [];
       this.$el.find('.beat').each(function(i){
-        if (track.pattern[i] > 0) $(this).addClass('active');
-        else $(this).removeClass('active');
+        if (track.pattern[i] > 0) $(this).find('input').prop("checked", true);
+        else $(this).find('input').prop("checked", false);
       });
     }
 

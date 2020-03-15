@@ -96,7 +96,7 @@ var Drums = (function() {
             var pattern = _.times(16, function(n){ return 0; });
             pattern[col] = 1;
             var url = _this.opt.baseUrl + _this.opt.audioDir + bestInstrument.filename;
-            var title = _this.patternKey[bestInstrument.instrument] + " / " + drum.name;
+            var title = _this.patternKey[bestInstrument.instrument] + " (" + drum.name + " drum machine)";
             tracks[instrument] = {
               "pattern": pattern,
               "url": url,

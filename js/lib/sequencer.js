@@ -103,8 +103,8 @@ var Sequencer = (function() {
     }
 
     // update pattern
-    this.$tracks.on('click', '.beat', function(e){
-      _this.onClickBeat($(this), true);
+    this.$tracks.on('change', '.beat input', function(e){
+      _this.onChangeBeat($(this), true);
     });
 
     // mute track
@@ -154,8 +154,9 @@ var Sequencer = (function() {
       var $track = $('.track[data-track="'+key+'"]').first();
       if (!$track.length) return;
       _.each(p.patternEdits, function(col){
-        var $button = $track.find('.beat-'+col);
-        _this.onClickBeat($button);
+        var $checkbox = $track.find('input[value="'+col+'"]');
+        $checkbox.prop("checked", !$checkbox.prop("checked"));
+        _this.onChangeBeat($checkbox);
       });
     });
   }
@@ -183,11 +184,11 @@ var Sequencer = (function() {
     this.tracks[this.currentTrack].updateSetting(property, value, $target);
   };
 
-  Sequencer.prototype.onClickBeat = function($button, fromUser){
-    $button.toggleClass('active');
-    var value = $button.hasClass('active') ? 1 : 0;
-    var trackId = $button.closest('.track').attr('data-track');
-    var col = parseInt($button.attr('data-col'));
+  Sequencer.prototype.onChangeBeat = function($checkbox, fromUser){
+    // console.log("On change beat");
+    var value = $checkbox.is(':checked') ? 1 : 0;
+    var trackId = $checkbox.closest('.track').attr('data-track');
+    var col = parseInt($checkbox.val());
     this.updateTrackPattern(trackId, col, value);
     if (fromUser) this.opt.onChange();
   };
