@@ -6,7 +6,7 @@
 
   <main class="container">
     <h2>{{ page.title }}</h2>
-    <h3>Created by: {{ page.contributors }}</h3>
+    <h3>Created by: {{ page.contributors | split: " | " | array_to_sentence_string }}</h3>
     <h3>Part of: <a href="{{ page.collectionUrl }}">{{ page.collectionTitle }}</a></h3>
 
     {% if page.stream_url %}
@@ -21,7 +21,7 @@
 
     <h3>Suggested credit line</h3>
 
-    <p>{{ page.contributors }}, {{ page.credit }}</p>
+    <p>Contains samples of "{{ page.title }}" by {{ page.contributors | split: " | " | array_to_sentence_string }}. Retrieved from {{ page.credit }}</p>
 
     {% if page.source_url %}
       <p><a href="{{ page.source_url }}" class="button">View on {{ page.collectionTitle }}</a></p>
