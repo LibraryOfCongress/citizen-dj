@@ -203,6 +203,7 @@ select.select-drum {
   background: var(--light-color);
   border: 2px solid var(--light-color);
   box-sizing: border-box;
+  border-radius: 4px;
 }
 .beat input:hover + label::before {
   background: var(--light-color);
