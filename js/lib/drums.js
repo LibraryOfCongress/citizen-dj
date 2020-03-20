@@ -76,6 +76,16 @@ var Drums = (function() {
     $('.next-drum').on('click', function(e){
       _this.step(1);
     });
+
+    $(document).keypress(function(e) {
+      if (e.which === 119) { // w
+        e.preventDefault();
+        _this.step(-1);
+      } else if (e.which === 115) { // s
+        e.preventDefault();
+        _this.step(1);
+      }
+    });
   };
 
   Drums.prototype.loadTrackData = function(){

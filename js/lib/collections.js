@@ -81,8 +81,14 @@ var Collections = (function() {
       _this.stepSample(1);
     });
 
-    $('.next-item').on('click', function(e){
-      _this.stepSample(1);
+    $(document).keypress(function(e) {
+      if (e.which === 97) { // a
+        e.preventDefault();
+        _this.stepSample(-1);
+      } else if (e.which === 100) { // d
+        e.preventDefault();
+        _this.stepSample(1);
+      }
     });
 
     // $('.prev-phrase').on('click', function(e){
