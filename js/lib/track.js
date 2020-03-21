@@ -231,8 +231,9 @@ var Track = (function() {
 
     if (track.title) {
       var $title = this.$el.find('.track-title-text');
-      $title.text(track.title);
-      $title.attr('title', track.title);
+      var title = track.typeLabel + ' ' + track.sequence + ': ' + track.title;
+      $title.text(title);
+      $title.attr('title', title);
     }
 
     if (track.url) {

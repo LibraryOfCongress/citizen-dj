@@ -32,6 +32,7 @@ var Collections = (function() {
     this.maxSubdivisions = 4;
     this.minSubdivisions = 4;
     this.localItems = this.opt.localItems && this.opt.localItems.length;
+    this.$el = $(this.opt.el);
   };
 
   Collections.prototype.load = function(){
@@ -73,11 +74,17 @@ var Collections = (function() {
       _this.randomizeSample();
     });
 
-    $('.prev-item').on('click', function(e){
+    // $('.prev-item').on('click', function(e){
+    //   _this.stepSample(-1);
+    // });
+    // $('.next-item').on('click', function(e){
+    //   _this.stepSample(1);
+    // });
+
+    this.$el.on('click', '.prev-collection', function(e){
       _this.stepSample(-1);
     });
-
-    $('.next-item').on('click', function(e){
+    this.$el.on('click', '.next-collection', function(e){
       _this.stepSample(1);
     });
 

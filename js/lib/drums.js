@@ -31,7 +31,7 @@ var Drums = (function() {
   };
 
   Drums.prototype.init = function(){
-
+    this.$el = $(this.opt.el);
   };
 
   Drums.prototype.load = function(){
@@ -69,11 +69,17 @@ var Drums = (function() {
       _this.randomize();
     });
 
-    $('.prev-drum').on('click', function(e){
+    // $('.prev-drum').on('click', function(e){
+    //   _this.step(-1);
+    // });
+    // $('.next-drum').on('click', function(e){
+    //   _this.step(1);
+    // });
+
+    this.$el.on('click', '.prev-drum', function(e){
       _this.step(-1);
     });
-
-    $('.next-drum').on('click', function(e){
+    this.$el.on('click', '.next-drum', function(e){
       _this.step(1);
     });
 

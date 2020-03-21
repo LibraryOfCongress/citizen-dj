@@ -131,7 +131,9 @@
       <div class="track-info">
         <h3><span class="track-title-text">{{ typeLabel }} {{ sequence }}: {{ title }}</span></h3>
         <a href="{{ url }}" class="download-audio" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a>
+        <a href="#prev" class="prev-{{ trackType }}"><img src="../../img/icon_play_prev.svg" alt="Play previous icon" title="Go to previous {{ typeLabel }} sequence" /></a>
         <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
+        <a href="#next" class="next-{{ trackType }}"><img src="../../img/icon_play_next.svg" alt="Play next icon" title="Go to next {{ typeLabel }} sequence" /></a>
         <a href="#sources" class="scroll-to"><img src="../../img/icon_info.svg" alt="Information icon" title="Information about this file" /></a>
       </div>
       <div class="track-controls">
