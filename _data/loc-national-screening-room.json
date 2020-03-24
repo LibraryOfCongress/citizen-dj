@@ -3,13 +3,13 @@
         {
             "filename": "loc.gov_national-screening-room_mp3.zip",
             "label": "Download in 192 Kbps .mp3 format",
-            "size": "117.9mb",
+            "size": "96.8mb",
             "comment": "Ideal if you would just like to preview and browse this collection"
         },
         {
             "filename": "loc.gov_national-screening-room_wav.zip",
             "label": "Download in 32-bit .wav format",
-            "size": "509.0mb",
+            "size": "440.4mb",
             "comment": "Ideal for production"
         }
     ],
