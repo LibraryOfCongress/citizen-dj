@@ -215,7 +215,8 @@ var Drums = (function() {
       });
     });
     patterns = _.map(patterns, function(pattern){
-      var name = pattern.artist + ' - ' + pattern.title + ' (' + pattern.year + ') [';
+      // var name = pattern.artist + ' - ' + pattern.title + ' (' + pattern.year + ') [';
+      var name = pattern.label + ' [';
       if (!Number.isInteger(pattern.category)) name += pattern.category + " ";
       name += pattern.bar + ']';
       pattern.name = name;
