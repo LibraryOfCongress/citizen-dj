@@ -16,6 +16,6 @@ uid: "loc-edison"
 subjects:
   - Music
   - Spoken word
-sequence: 15
+sequence: 10
 active: 1
 ---
