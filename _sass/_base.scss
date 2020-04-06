@@ -165,6 +165,15 @@ footer p {
   font-size: 1rem;
 }
 
+blockquote {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  margin-left: 0;
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .clearfix {
   @include clearfix;
 }
