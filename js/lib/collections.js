@@ -389,7 +389,7 @@ var Collections = (function() {
           // html += '<li>Or download a longer audio excerpt that the clips are from</li>';
           html += '<li>You can visit this collection\'s <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/" class="button small">browse &amp; download page</a> for bulk downloads.</li>';
           if (!this.localItems) {
-            html += '<li>You find and possibly download the the source material on <a href="'+ item.url +'" class="button small" target="_blank">' + item.provider + '</a></li>';
+            html += '<li>You find and possibly download the full source audio on <a href="'+ item.url +'" class="button small" target="_blank">' + item.provider + '</a></li>';
           }
           // case: embeddable media
           if (item.embed_url && item.embed_url.length) {
@@ -398,7 +398,7 @@ var Collections = (function() {
             html += '<iframe src="'+ item.embed_url +'" width="640" height="'+iframeHeight+'" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></li>';
           // case: streaming media
           } else if (item.stream_url && item.stream_url.length) {
-            html += '<li>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>:';
+            html += '<li>You also access in the player embedded below. Or <a href="'+ item.stream_url +'" download class="button small">click here to download</a>. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>:';
             var isVideo = item.stream_url.endsWith('.mp4');
             if (isVideo) {
               html += '<video src="'+ item.stream_url +'" controls></video></li>';
