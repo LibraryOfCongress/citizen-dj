@@ -373,40 +373,46 @@ var Collections = (function() {
     html += '</div>';
     this.$itemMeta.html(html);
     html = '';
-      // attribution
-      html += '<dt>Sample attribution</dt>';
-      html += '<dd>Contains samples of "' + item.titleNoYear + '" by ' +Util.listToString(item.contributors)+ '. Retrieved from ' + this.opt.credit + '</dd>';
-      html += '<dd><em>Note that this text was generated automatically from bibliographic data as a convenience, and may not be complete or accurate.</em></dd>';
       // access
       html += '<dt>How can it be accessed?</dt>';
-      html += '<dd>You can visit this <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/">collection\'s download &amp; use page</a> for bulk downloads.</dd>'
-      if (!this.localItems) {
-        html += '<dd>You can also find more details about this item, access, and download the entire source media file on ' + item.provider + '. <a href="'+ item.url +'" class="button" target="_blank">Click here to view on ' + item.provider + '</a></dd>';
-      }
-      // case: embeddable media
-      if (item.embed_url && item.embed_url.length) {
-        html += '<dd>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
-        var iframeHeight = item.hasVideo > 0 ? '480' : '280';
-        html += '<iframe src="'+ item.embed_url +'" width="640" height="'+iframeHeight+'" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></dd>';
-      // case: streaming media
-      } else if (item.stream_url && item.stream_url.length) {
-        html += '<dd>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
-        var isVideo = item.stream_url.endsWith('.mp4');
-        if (isVideo) {
-          html += '<video src="'+ item.stream_url +'" controls></video></dd>';
-        } else {
-          html += '<audio src="'+ item.stream_url +'" controls></audio></dd>';
-        }
-      } else {
-        html += '<dd>The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong></dd>';
-      }
-      html += '<dt>Samples used</dt>';
-      html += '<dd>The following are the '+_.keys(this.tracks).length+' samples used in this sequence:</dd>';
-      html += '<dd><ul>';
-      _.each(this.tracks, function(track, id){
-        html += '<li><a href="'+track.url+'" download>'+track.title+'</a> <a href="'+track.url+'" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a> <a href="'+track.url+'" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a></li>';
-      });
-      html += '</ul></dd>';
+      html += '<dd>There are a number of ways to access the source material:';
+        html += '<ol>';
+          html += '<li>You can download each clip individually (these samples start at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
+            html += '<ul>';
+            var number = 1;
+            _.each(this.tracks, function(track, id){
+              html += '<li><a href="'+track.url+'" download class="button small">Download sample '+number+'</a> <a href="'+track.url+'" class="play-audio button small">Play sample '+number+'</a></li>';
+              number++;
+            });
+            html += '</ul>';
+          html += '</li>';
+          // html += '<li>Or download a longer audio excerpt that the clips are from</li>';
+          html += '<li>You can visit this <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/" class="button small">collection\'s browse &amp; download page</a> for bulk downloads.</li>';
+          if (!this.localItems) {
+            html += '<li>You find and possibly download the the source material on <a href="'+ item.url +'" class="button small" target="_blank">' + item.provider + '</a></li>';
+          }
+          // case: embeddable media
+          if (item.embed_url && item.embed_url.length) {
+            html += '<li>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
+            var iframeHeight = item.hasVideo > 0 ? '480' : '280';
+            html += '<iframe src="'+ item.embed_url +'" width="640" height="'+iframeHeight+'" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe></li>';
+          // case: streaming media
+          } else if (item.stream_url && item.stream_url.length) {
+            html += '<li>You also access in the player embedded below. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
+            var isVideo = item.stream_url.endsWith('.mp4');
+            if (isVideo) {
+              html += '<video src="'+ item.stream_url +'" controls></video></li>';
+            } else {
+              html += '<audio src="'+ item.stream_url +'" controls></audio></li>';
+            }
+          }
+        html += '</ol>';
+      html += '</dd>';
+      // attribution
+      html += '<dt>Giving attribution</dt>';
+      html += '<dd>The following is an example of how to give attribution when reusing this material:</dd>';
+      html += '<dd><em>Contains samples of "' + item.titleNoYear + '" by ' +Util.listToString(item.contributors)+ '. Retrieved from ' + this.opt.credit + '</em></dd>';
+      html += '<dd>Note that this text was generated automatically from bibliographic data as a convenience, and may not be complete or accurate.</dd>';
     html += '</div>';
     this.$itemAccess.html(html);
 

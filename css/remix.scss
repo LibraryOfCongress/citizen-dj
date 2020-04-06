@@ -369,6 +369,14 @@ select.select-drum {
   width: auto;
   margin-left: 0.5rem;
 }
+.sources dd li {
+  margin: 0 0 0.5rem;
+  padding: 0
+}
+.sources dd ol {
+  margin: 0 0 0 1rem;
+  padding: 0;
+}
 .sources video,
 .sources audio {
   display: block;

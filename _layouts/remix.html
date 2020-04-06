@@ -74,6 +74,7 @@
         <dt>How can it be used?</dt>
         <dd>{{ page.item_rights }}</dd>
         <dd>Also see this <a href="{{ site.baseurl }}/guide/">detailed guide</a> covering the copyright and ethical considerations of digital sampling of audio and video materials.</dd>
+        <a id="access-options" name="access-options"></a>
         <div id="item-access"></div>
         <div class="source">
           <dt>Drum machine sounds</dt>
@@ -130,7 +131,6 @@
     <div class="track track-{{ trackType }}">
       <div class="track-info">
         <h3><span class="track-title-text">{{ typeLabel }} {{ sequence }}: {{ title }}</span></h3>
-        <a href="{{ url }}" class="download-audio" download><img src="../../img/icon_download.svg" alt="Download icon" title="Download this file" /></a>
         <a href="#prev" class="prev-{{ trackType }}"><img src="../../img/icon_play_prev.svg" alt="Play previous icon" title="Go to previous {{ typeLabel }} sequence" /></a>
         <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
         <a href="#next" class="next-{{ trackType }}"><img src="../../img/icon_play_next.svg" alt="Play next icon" title="Go to next {{ typeLabel }} sequence" /></a>
@@ -156,7 +156,10 @@
           <div class="beat"><input type="checkbox" id="{{ uid }}-15" value="15" /><label for="{{ uid }}-15"><span>Beat 16 of 16 in this row</span></label></div>
         </div>
         <div class="modifiers">
-          <button class="svg-button settings-button" title="track settings" aria-label="track settings">
+          <button class="svg-button download-button scroll-to" title="download options" aria-label="download options" href="#access-options">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>download options</title><path d="M23.912,46.567l6.829-6.829c0.658-0.658,1.734-0.658,2.392,0L43.48,50.085V7.991c0-0.93,0.761-1.692,1.692-1.692h9.657  c0.93,0,1.692,0.761,1.692,1.692v42.094l10.347-10.347c0.658-0.658,1.734-0.658,2.392,0l6.829,6.829  c0.658,0.658,0.658,1.734,0,2.392L51.283,73.765c-0.351,0.351-0.821,0.509-1.283,0.485c-0.462,0.024-0.932-0.134-1.283-0.485  L23.912,48.96C23.254,48.302,23.254,47.225,23.912,46.567z M94.288,92.206V53.148c0,0,0.003-0.528-0.459-0.961  c-0.358-0.336-0.867-0.336-0.867-0.336h-8.989c0,0-0.38,0.001-0.786,0.367c-0.42,0.379-0.42,0.866-0.42,0.866V82.18H17.233V53.148  c0,0,0.003-0.528-0.459-0.961c-0.358-0.336-0.867-0.336-0.867-0.336H6.919c0,0-0.38,0.001-0.786,0.367  c-0.42,0.379-0.42,0.866-0.42,0.866v39.148c0,0.807,0.661,1.468,1.468,1.468h85.613C93.615,93.701,94.288,93.028,94.288,92.206z"/></svg>
+          </button>
+          <button class="svg-button download-button" title="track settings" aria-label="track settings">
             <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" viewBox="0 0 100 125" x="0px" y="0px"><title>track settings</title><path d="M53,47.46V18H47V47.46a10,10,0,0,0,0,19.08V82h6V66.54a10,10,0,0,0,0-19.08ZM50,61a4,4,0,1,1,4-4A4,4,0,0,1,50,61Z"/><path d="M26,32.46V18H20V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM23,46a4,4,0,1,1,4-4A4,4,0,0,1,23,46Z"/><path d="M80,32.46V18H74V32.46a10,10,0,0,0,0,19.08V82h6V51.54a10,10,0,0,0,0-19.08ZM77,46a4,4,0,1,1,4-4A4,4,0,0,1,77,46Z"/></svg>
           </button>
           <button class="solo-button">solo</button>
