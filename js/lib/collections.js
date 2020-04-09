@@ -10,6 +10,8 @@ var Collections = (function() {
       "metadataDir": "/data/metadata/",
       "sampledataDir": "/data/sampledata/",
       "audioDir": "/audio/collections/",
+      "phraseDir": "/data/phrasedata/",
+      "phraseAudioDir": "/audio/samplepacks/",
       "sampleItemKey": "sourceFilename",
       "itemKey": "filename",
       "gain": -3,
@@ -41,14 +43,16 @@ var Collections = (function() {
 
     $.when(
       $.getJSON(this.opt.baseUrl + this.opt.metadataDir + this.opt.uid + '.json'),
-      $.getJSON(this.opt.baseUrl + this.opt.sampledataDir + this.opt.uid + '.json')
+      $.getJSON(this.opt.baseUrl + this.opt.sampledataDir + this.opt.uid + '.json'),
+      $.getJSON(this.opt.baseUrl + this.opt.phraseDir + this.opt.uid + '.json')
 
-    ).done(function(metadata, sampledata){
+    ).done(function(metadata, sampledata, phrasedata){
       metadata = metadata[0];
       sampledata = sampledata[0];
+      phrasedata = phrasedata[0];
 
-      console.log('Metadata and sample data loaded.');
-      _this.onDataLoaded(metadata, sampledata);
+      console.log('Metadata, phrasedata, sample data loaded.');
+      _this.onDataLoaded(metadata, sampledata, phrasedata);
       deferred.resolve();
     });
 
@@ -179,8 +183,8 @@ var Collections = (function() {
     this.$itemAccess = $('#item-access');
   };
 
-  Collections.prototype.onDataLoaded = function(metadata, sampledata){
-    this.parseData(metadata, sampledata);
+  Collections.prototype.onDataLoaded = function(metadata, sampledata, phrasedata){
+    this.parseData(metadata, sampledata, phrasedata);
     this.loadTrackData();
     this.opt.onDataLoaded();
     this.loadUI();
@@ -197,13 +201,28 @@ var Collections = (function() {
     this.opt.onChange();
   };
 
-  Collections.prototype.parseData = function(metadata, sampledata){
-    // parse samples
+  Collections.prototype.parseData = function(metadata, sampledata, phrasedata){
     var _this = this;
 
+    // parse phrases
+    var phraseAudioDir = this.opt.phraseAudioDir + this.opt.uid + '/';
+    var phraseHeadings = phrasedata.itemHeadings;
+    var phrases = _.map(phrasedata.items, function(item){
+      var itemObj = _.object(phraseHeadings, item);
+      if (phrasedata.groups) {
+        _.each(phrasedata.groups, function(groupList, key){
+          itemObj[key+'Index'] = itemObj[key];
+          itemObj[key] = groupList[itemObj[key]];
+        });
+      }
+      return itemObj;
+    });
+
+    // parse samples
     var sampleHeadings = sampledata.itemHeadings;
     var sampleCount = ""+sampledata.items.length;
     var padLength = sampleCount.length;
+    var sampleItemKey = this.opt.sampleItemKey;
     var samples = _.map(sampledata.items, function(sample){
       var sampleObj = _.object(sampleHeadings, sample);
       if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
@@ -213,6 +232,18 @@ var Collections = (function() {
         _.each(sampledata.groups, function(groupList, key){
           sampleObj[key] = groupList[sampleObj[key]];
         });
+      }
+      // find the right phrase
+      sampleObj.phraseFilename = false;
+      var itemPhrases = _.filter(phrases, function(p){ return p.itemFilename === sampleObj[sampleItemKey];});
+      if (itemPhrases.length > 0) {
+        itemPhrases = _.sortBy(itemPhrases, function(p){
+          // get the closest phrase by start time
+          var delta = sampleObj.sourceStart - p.start;
+          if (delta < 0) delta = 999999;
+          return delta;
+        });
+        sampleObj.phraseFilename = phraseAudioDir + itemPhrases[0].clipFilename;
       }
       return sampleObj;
     });
@@ -356,7 +387,8 @@ var Collections = (function() {
 
   Collections.prototype.renderSource = function(){
     var item = this.item;
-    var startTime = this.item.samples[this.sampleIndex].sourceStart;
+    var firstSample = this.item.samples[this.sampleIndex];
+    var startTime = firstSample.sourceStart;
     var startTimeF = MathUtil.secondsToString(startTime/1000.0);
     var html = '';
     html += '<div class="source">';
@@ -386,7 +418,11 @@ var Collections = (function() {
             });
             html += '</ul>';
           html += '</li>';
-          // html += '<li>Or download a longer audio excerpt that the clips are from</li>';
+          if (firstSample.phraseFilename) {
+            html += '<li>Or download a longer audio excerpt that the clips came from:';
+              html += '<ul><li><a href="'+firstSample.phraseFilename+'" download class="button small">Download excerpt</a> <a href="'+firstSample.phraseFilename+'" class="play-audio button small">Play excerpt</a></li></ul>';
+            html += '</li>';
+          }
           html += '<li>You can visit this collection\'s <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/" class="button small">browse &amp; download page</a> for bulk downloads.</li>';
           if (!this.localItems) {
             html += '<li>You find and possibly download the full source audio on <a href="'+ item.url +'" class="button small" target="_blank">' + item.provider + '</a></li>';

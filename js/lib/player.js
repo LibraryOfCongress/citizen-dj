@@ -18,7 +18,7 @@ var Player = (function() {
   Player.prototype.loadListeners = function(){
     var _this = this;
 
-    $('.toggle-play').on('click', function(e){
+    $(document).on('click', '.toggle-play', function(e){
       e.preventDefault();
       _this.togglePlay($(this));
     });
@@ -30,21 +30,40 @@ var Player = (function() {
     }
   };
 
+  Player.prototype.stop = function(updateLink){
+    if (this.playing && this.sound) {
+      this.sound.stop();
+      this.playing = false;
+
+      if (updateLink && this.$link) {
+        var $link = this.$link;
+        var playText = this.playText || 'Play';
+        $link.removeClass('playing');
+        $link.text(playText);
+      }
+    }
+  };
+
   Player.prototype.togglePlay = function($link){
     var _this = this;
+    this.$link = $link;
     var url = $link.attr('href');
     $link.toggleClass('playing');
     var playing = $link.hasClass('playing');
     this.playing = playing;
 
-    if (this.playing) $link.text('Stop');
-    else $link.text('Play');
+    var playText = this.playText || 'Play';
+
+    if (this.playing) {
+      this.playText = $link.text();
+      $link.text('Stop');
+    } else $link.text(playText);
 
     if (url !== this.currentUrl) {
       // reset previous sound
       if (this.sound !== false) {
         this.$currentLink.removeClass('playing');
-        this.$currentLink.text('Play');
+        this.$currentLink.text(playText);
         this.sound.unload();
       }
       this.$currentLink = $link;
@@ -58,7 +77,7 @@ var Player = (function() {
       });
       this.sound.on('end', function(){
         $link.removeClass('playing');
-        $link.text('Play');
+        $link.text(playText);
         _this.playing = false;
         _this.sound.stop();
       })

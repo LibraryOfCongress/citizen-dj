@@ -9,6 +9,8 @@ var ExploreApp = (function() {
       "audioDir": "/audio/sprites/",
       "dataDir": "/data/spritedata/",
       "metadataDir": "/data/metadata/",
+      "phraseDir": "/data/phrasedata/",
+      "phraseAudioDir": "/audio/samplepacks/",
       "imageDir": "/img/sprites/",
       "itemKey": "filename",
       "maxPxPerFrame": 3,
@@ -37,9 +39,9 @@ var ExploreApp = (function() {
     this.localItems = this.opt.localItems && this.opt.localItems.length;
 
     var dataPromise = this.loadData();
-    $.when(dataPromise).done(function(results){
-      var audioPromise = _this.loadAudio(results);
-      _this.loadUI(results);
+    $.when(dataPromise).done(function(){
+      var audioPromise = _this.loadAudio();
+      _this.loadUI();
       $.when(audioPromise).done(function(){
         _this.onReady();
       });
@@ -64,45 +66,12 @@ var ExploreApp = (function() {
   ExploreApp.prototype.loadAudio = function(options){
     var deferred = $.Deferred();
     var opt = this.opt;
-
     var uid = this.opt.uid;
+    var allSprites = this.sprites
     var sounds = [];
     var spritePromises = [];
-    var cols = options.cols;
-    var filenames = options.filenames;
-    var notes = options.notes;
-    var itemLookup = this.itemLookup;
-    var hasSubjects = this.subjects.length > 0;
-    this.notes = notes;
 
-    var allSprites = _.map(options.sprites, function(s, i){
-      var itemId = filenames[s[4]];
-      var subjects = [];
-      if (hasSubjects) {
-        var item = itemLookup[itemId];
-        subjects = item.subjectsIndex;
-      }
-      return {
-        "id": i,
-        "fileIndex": s[0],
-        "sourceStart": s[2],
-        "audioPosition": [s[1], s[3]],
-        "itemId": itemId,
-        "pitch": s[5],
-        "note": notes[s[6]],
-        "noteIndex": s[6],
-        "subjects": subjects,
-        "active": true
-      }
-    });
-    this.minPitch = _.min(allSprites, function(sprite){ return sprite.pitch; }).pitch;
-    this.maxPitch = _.max(allSprites, function(sprite){ return sprite.pitch; }).pitch;
-    this.sprites = allSprites;
-    this.audioSpriteFiles = options.audioSpriteFiles;
-
-    // console.log(this.sprites);
-
-    _.each(options.audioSpriteFiles, function(fn, i){
+    _.each(this.audioSpriteFiles, function(fn, i){
       var audioFilename = opt.baseUrl + opt.audioDir + uid + "/" + fn;
       var sprites = _.filter(allSprites, function(s){ return s.fileIndex===i; });
       sprites = _.map(sprites, function(s, i){ return [""+s.id, s.audioPosition]; });
@@ -132,20 +101,29 @@ var ExploreApp = (function() {
     var uid = this.opt.uid;
     var url = this.opt.baseUrl + this.opt.dataDir + uid + ".json";
     var metadataUrl = this.opt.baseUrl + this.opt.metadataDir + uid + ".json";
+    var phrasesUrl = this.opt.baseUrl + this.opt.phraseDir + uid + ".json";
     var deferred = $.Deferred();
 
     $.when(
       $.getJSON(url),
-      $.getJSON(metadataUrl)
+      $.getJSON(metadataUrl),
+      $.getJSON(phrasesUrl)
 
-    ).done(function(spritedata, metadata){
+    ).done(function(spritedata, metadata, phrasedata){
       spritedata = spritedata[0];
       metadata = metadata[0];
+      phrasedata = phrasedata[0];
 
       console.log("Loaded metadata with "+metadata.items.length+" items")
       _this.onMetadataLoaded(metadata);
-      console.log("Loaded data with "+spritedata.sprites.length+" sprites")
-      deferred.resolve(spritedata);
+
+      console.log("Loaded data with "+spritedata.sprites.length+" sprites");
+      _this.onSpritedataLoaded(spritedata);
+
+      console.log("Loaded phrases with "+phrasedata.items.length+" phrases");
+      _this.onPhrasedataLoaded(phrasedata);
+
+      deferred.resolve();
     });
 
     return deferred.promise();
@@ -274,8 +252,9 @@ var ExploreApp = (function() {
     });
   };
 
-  ExploreApp.prototype.loadUI = function(options){
+  ExploreApp.prototype.loadUI = function(){
     var _this = this;
+    var options = this.spritedata;
     this.imageW = options.width;
     this.imageH = options.height;
     this.cellW = options.cellW;
@@ -406,10 +385,43 @@ var ExploreApp = (function() {
     this.itemLookup = _.object(items);
   };
 
+  ExploreApp.prototype.onPhrasedataLoaded = function(phrasedata){
+    var _this = this;
+    var itemHeadings = phrasedata.itemHeadings;
+    var phrases = _.map(phrasedata.items, function(item){
+      var itemObj = _.object(itemHeadings, item);
+      if (phrasedata.groups) {
+        _.each(phrasedata.groups, function(groupList, key){
+          itemObj[key+'Index'] = itemObj[key];
+          itemObj[key] = groupList[itemObj[key]];
+        });
+      }
+      return itemObj;
+    });
+
+    var phraseAudioDir = this.opt.phraseAudioDir + this.opt.uid + '/';
+    var itemLookup = this.itemLookup;
+    _.each(this.sprites, function(sprite, i){
+      var item = itemLookup[sprite.itemId];
+      var itemPhrases = _.filter(phrases, function(p){ return p.itemFilename === item.filename;});
+      if (itemPhrases.length < 1) return;
+
+      itemPhrases = _.sortBy(itemPhrases, function(p){
+        // get the closest phrase by start time
+        var delta = sprite.sourceStart - p.start;
+        if (delta < 0) delta = 999999;
+        return delta;
+      });
+      _this.sprites[i].phraseFilename = phraseAudioDir + itemPhrases[0].clipFilename;
+    });
+  };
+
   ExploreApp.prototype.onReady = function(){
     console.log("Ready.");
 
     $('#instructions-text').text('Drag your cursor to browse sounds');
+
+    this.player = new Player();
 
     this.loadListeners();
     this.loadFilters();
@@ -461,6 +473,42 @@ var ExploreApp = (function() {
 
   };
 
+  ExploreApp.prototype.onSpritedataLoaded = function(spritedata){
+    this.spritedata = spritedata;
+    var cols = spritedata.cols;
+    var filenames = spritedata.filenames;
+    var notes = spritedata.notes;
+    var itemLookup = this.itemLookup;
+    var hasSubjects = this.subjects.length > 0;
+    this.notes = notes;
+
+    var allSprites = _.map(spritedata.sprites, function(s, i){
+      var itemId = filenames[s[4]];
+      var subjects = [];
+      if (hasSubjects) {
+        var item = itemLookup[itemId];
+        subjects = item.subjectsIndex;
+      }
+      return {
+        "id": i,
+        "fileIndex": s[0],
+        "sourceStart": s[2],
+        "audioPosition": [s[1], s[3]],
+        "itemId": itemId,
+        "pitch": s[5],
+        "note": notes[s[6]],
+        "noteIndex": s[6],
+        "subjects": subjects,
+        "active": true,
+        "phraseFilename": false
+      }
+    });
+    this.minPitch = _.min(allSprites, function(sprite){ return sprite.pitch; }).pitch;
+    this.maxPitch = _.max(allSprites, function(sprite){ return sprite.pitch; }).pitch;
+    this.sprites = allSprites;
+    this.audioSpriteFiles = spritedata.audioSpriteFiles;
+  };
+
   ExploreApp.prototype.play = function(evx, evy, forcePlay){
     var _this = this;
     var offsetX = this.offsetX + this.translateX;
@@ -494,10 +542,12 @@ var ExploreApp = (function() {
     if (this.currentCell !== id) {
       // this.$label.attr("title", first.label);
       this.currentCell = id;
+      this.player && this.player.stop();
       // play sound
       if (sprite.active) this.sounds[sprite.fileIndex].play(""+id);
       this.renderItem(sprite);
     } else if (forcePlay) {
+      this.player && this.player.stop();
       // play sound
       if (sprite.active) this.sounds[sprite.fileIndex].play(""+id);
     }
@@ -517,6 +567,7 @@ var ExploreApp = (function() {
   ExploreApp.prototype.renderItem = function(spriteItem){
     if (this.itemLookup === false || this.$itemInfo === undefined || !this.$itemInfo.length) return;
     var id = spriteItem.itemId;
+    var phraseFilename = spriteItem.phraseFilename;
     // console.log(this.itemLookup, id)
     var startTimeF = MathUtil.secondsToString(spriteItem.sourceStart/1000.0);
     var html = '';
@@ -532,6 +583,9 @@ var ExploreApp = (function() {
       var buttonText = this.localItems ? 'View more details' : 'View on '+item.provider;
       html += '<div class="item-buttons">';
         html += '<a href="'+remixUrl+'" class="button inverted">Remix this</a>';
+        if (phraseFilename) {
+          html += '<a href="'+phraseFilename+'" class="button inverted toggle-play">Play in context</a>';
+        }
         html += '<a href="'+item.url+'" target="_blank" class="button inverted">'+buttonText+'</a>';
       html += '</div>';
     }
