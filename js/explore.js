@@ -37,6 +37,7 @@ var ExploreApp = (function() {
     this.pointerX = 0;
     this.pointerY = 0;
     this.localItems = this.opt.localItems && this.opt.localItems.length;
+    this.$loadingPercent = $('#loading-percent');
 
     var dataPromise = this.loadData();
     $.when(dataPromise).done(function(){
@@ -65,11 +66,17 @@ var ExploreApp = (function() {
 
   ExploreApp.prototype.loadAudio = function(options){
     var deferred = $.Deferred();
+    var _this = this;
     var opt = this.opt;
     var uid = this.opt.uid;
     var allSprites = this.sprites
     var sounds = [];
     var spritePromises = [];
+
+    // for showing load progress
+    var loadTotal = this.audioSpriteFiles.length + 1;
+    var loaded = 1;
+    this.$loadingPercent.text(Math.round((loaded / loadTotal) * 100));
 
     _.each(this.audioSpriteFiles, function(fn, i){
       var audioFilename = opt.baseUrl + opt.audioDir + uid + "/" + fn;
@@ -82,6 +89,9 @@ var ExploreApp = (function() {
         sprite: sprites,
         onload: function(){
           console.log("Loaded "+audioFilename);
+          loaded++;
+          var percentLoaded = Math.round((loaded / loadTotal) * 100);
+          _this.$loadingPercent.text(percentLoaded);
           promise.resolve();
         }
       });
