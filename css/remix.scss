@@ -381,3 +381,11 @@ select.select-drum {
 .sources audio {
   display: block;
 }
+
+.loading {
+  display: none;
+  padding: 1rem;
+}
+.loading.active {
+  display: block;
+}

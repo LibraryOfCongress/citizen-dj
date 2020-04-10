@@ -30,12 +30,14 @@ var RemixApp = (function() {
       "onChange": function(){ _this.onChangeCollections(); }
     });
 
+    var $loading = $('.loading');
     $.when(
       this.drums.load(),
       this.collections.load()
 
     ).done(function(){
-      console.log("Loaded everything. Starting sequencer.")
+      console.log("Loaded everything. Starting sequencer.");
+      $loading.removeClass('active');
       _this.onLoad();
     });
   };
