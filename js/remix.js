@@ -14,8 +14,12 @@ var RemixApp = (function() {
     var _this = this;
 
     // Tone.context.latencyHint = 'playback'; // prioritize sustained feedback; https://github.com/Tonejs/Tone.js/wiki/Performance
-
-    this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
+    try {
+      this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
+    } catch(e) {
+      console.log('Recording not supported');
+      this.recordingStreamDestination = false;
+    }
 
     var q = Util.queryParams();
     this.hasQuery = !_.isEmpty(q);

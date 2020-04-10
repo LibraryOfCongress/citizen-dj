@@ -14,8 +14,9 @@ var AudioRecorder = (function() {
     this.isSaving = false;
     this.destination = this.opt.destination;
     this.prevUrl = false;
+    this.recorder = false;
 
-    this.recorder = new MediaRecorder(this.destination.stream);
+    if (this.destination) this.recorder = new MediaRecorder(this.destination.stream);
 
     this.loadListeners();
   };
@@ -45,6 +46,11 @@ var AudioRecorder = (function() {
   };
 
   AudioRecorder.prototype.onRecordAudio = function($el){
+    if (!this.recorder) {
+      alert("Your current browser does not support recording. Please try Firefox, Chrome, or Safari.")
+      return;
+    }
+
     var isActive = $el.hasClass('active');
 
     if (isActive) this.recordStop();
