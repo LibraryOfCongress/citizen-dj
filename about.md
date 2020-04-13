@@ -77,7 +77,7 @@ All of my custom software and computer scripts that do this are free and open so
 
 My name is [Brian Foo](https://brianfoo.com/) and I have worked in libraries and museums for nearly a decade, specializing in the visualization of large collections of media for the public. I am a [2020 innovator-in-residence](https://labs.loc.gov/people/innovator-in-residence-program) at the Library of Congress and a data visualization artist at the [American Museum of Natural History](https://www.amnh.org/).
 
-<!-- In terms of my relationship to hip-hop, I was an active breakdancer (b-boy) for about 15 years and continue to dance whenever I can. From a young age, I have always been drawn to the different artforms of hip hop (dj-ing, mc-ing, breakdancing/b-boy-ing, graffiti.) What I connected to was the elevation of individual expression through collaging of a shared vocabulary and culture.  -->
+In terms of my relationship to hip-hop, I was an active breakdancer (b-boy) for about 15 years and continue to dance whenever I can. From a young age, I have always been drawn to the culture and different artforms of hip hop (dj-ing, mc-ing, breakdancing/b-boy-ing, graffiti.) I particularly connect to the idea of individual expression through the mixing and collaging of disparate sources.
 
 ### What is the timeline of this project?
 
