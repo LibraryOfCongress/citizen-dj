@@ -138,6 +138,9 @@ main {
   display: block;
   color: var(--darkest-color);
 }
+.filters select {
+  max-width: 100%;
+}
 .filters .range-wrapper {
   white-space: nowrap;
 }
