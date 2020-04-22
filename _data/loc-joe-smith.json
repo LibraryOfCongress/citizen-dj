@@ -3,13 +3,13 @@
         {
             "filename": "loc.gov_joe-smith_mp3.zip",
             "label": "Download in 192 Kbps .mp3 format",
-            "size": "88.2mb",
+            "size": "87.9mb",
             "comment": "Ideal if you would just like to preview and browse this collection"
         },
         {
             "filename": "loc.gov_joe-smith_wav.zip",
             "label": "Download in 32-bit .wav format",
-            "size": "500.4mb",
+            "size": "501.8mb",
             "comment": "Ideal for production"
         }
     ],
@@ -987,6 +987,12 @@
             "url": "http://www.loc.gov/item/jsmith000101/"
         },
         {
+            "filename": "Off-the-record-interview-with-James-Brown-1988-05-19_jsmith000103_001_00-00-04.mp3",
+            "title": "Off the record interview with James Brown, 1988-05-19",
+            "timestamp": "00:04",
+            "url": "http://www.loc.gov/item/jsmith000103/"
+        },
+        {
             "filename": "Off-the-record-interview-with-James-Taylor-1988-01-19_jsmith000104_001_00-22-44.mp3",
             "title": "Off the record interview with James Taylor, 1988-01-19",
             "timestamp": "22:44",
@@ -1015,6 +1021,12 @@
             "title": "Off the record interview with Jeff Barry, [1986-1988?]-03-14",
             "timestamp": "01:04:49",
             "url": "http://www.loc.gov/item/jsmith000107/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Jerry-Garcia-1988-05-23_jsmith000108_001_00-15-34.mp3",
+            "title": "Off the record interview with Jerry Garcia, 1988-05-23",
+            "timestamp": "15:34",
+            "url": "http://www.loc.gov/item/jsmith000108/"
         },
         {
             "filename": "Off-the-record-interview-with-Jerry-Lee-Lewis-1987-12-13_jsmith000109_001_00-01-28.mp3",
@@ -1104,6 +1116,12 @@
             "filename": "Off-the-record-interview-with-Joan-Baez-1988-02-14_jsmith000115_001_00-11-34.mp3",
             "title": "Off the record interview with Joan Baez, 1988-02-14",
             "timestamp": "11:34",
+            "url": "http://www.loc.gov/item/jsmith000115/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Joan-Baez-1988-02-14_jsmith000115_002_00-13-44.mp3",
+            "title": "Off the record interview with Joan Baez, 1988-02-14",
+            "timestamp": "13:44",
             "url": "http://www.loc.gov/item/jsmith000115/"
         },
         {
@@ -1731,18 +1749,6 @@
             "url": "http://www.loc.gov/item/jsmith000181/"
         },
         {
-            "filename": "Off-the-record-interview-with-Paul-Simon-1988-03-23_jsmith000183_001_00-17-43.mp3",
-            "title": "Off the record interview with Paul Simon, 1988-03-23",
-            "timestamp": "17:43",
-            "url": "http://www.loc.gov/item/jsmith000183/"
-        },
-        {
-            "filename": "Off-the-record-interview-with-Paul-Simon-1988-03-23_jsmith000183_002_00-23-58.mp3",
-            "title": "Off the record interview with Paul Simon, 1988-03-23",
-            "timestamp": "23:58",
-            "url": "http://www.loc.gov/item/jsmith000183/"
-        },
-        {
             "filename": "Off-the-record-interview-with-Paul-Stanley-1986-08-21_jsmith000184_001_00-00-46.mp3",
             "title": "Off the record interview with Paul Stanley, 1986-08-21",
             "timestamp": "00:46",
@@ -1959,7 +1965,13 @@
             "url": "http://www.loc.gov/item/jsmith000208/"
         },
         {
-            "filename": "Off-the-record-interview-with-Robert-Palmer-1988-05-02_jsmith000209_001_00-39-17.mp3",
+            "filename": "Off-the-record-interview-with-Robert-Palmer-1988-05-02_jsmith000209_001_00-23-26.mp3",
+            "title": "Off the record interview with Robert Palmer, 1988-05-02",
+            "timestamp": "23:26",
+            "url": "http://www.loc.gov/item/jsmith000209/"
+        },
+        {
+            "filename": "Off-the-record-interview-with-Robert-Palmer-1988-05-02_jsmith000209_002_00-39-17.mp3",
             "title": "Off the record interview with Robert Palmer, 1988-05-02",
             "timestamp": "39:17",
             "url": "http://www.loc.gov/item/jsmith000209/"
@@ -2041,18 +2053,6 @@
             "title": "Off the record interview with Ry Cooder, 1986-05-13",
             "timestamp": "26:39",
             "url": "http://www.loc.gov/item/jsmith000218/"
-        },
-        {
-            "filename": "Off-the-record-interview-with-Sammy-Cahn-1986-06-02_jsmith000219_001_00-43-19.mp3",
-            "title": "Off the record interview with Sammy Cahn, 1986-06-02",
-            "timestamp": "43:19",
-            "url": "http://www.loc.gov/item/jsmith000219/"
-        },
-        {
-            "filename": "Off-the-record-interview-with-Sammy-Cahn-1986-06-02_jsmith000219_002_00-55-15.mp3",
-            "title": "Off the record interview with Sammy Cahn, 1986-06-02",
-            "timestamp": "55:15",
-            "url": "http://www.loc.gov/item/jsmith000219/"
         },
         {
             "filename": "Off-the-record-interview-with-Sammy-Fain-1986-08-25_jsmith000220_001_00-50-29.mp3",
