@@ -81,7 +81,7 @@ In terms of my relationship to hip-hop, I was an active breakdancer (b-boy) for 
 
 ### What is the timeline of this project?
 
-This project will run for one year from September 2019 to September 2020.
+This project will run for one year from September 2019 to September 2020. An official launch is expected in the summer of 2020.
 
 ### How can I give feedback?
 

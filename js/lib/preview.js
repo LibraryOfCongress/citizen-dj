@@ -32,7 +32,7 @@ var Preview = (function() {
       return;
     }
 
-    confirm('Citizen DJ is actively under construction and available for review & feedback only. *Please do not share.* Public launch is expected to be in late summer 2020. Find updates at https://labs.loc.gov/experiments/citizen-dj/.');
+    confirm('Citizen DJ is actively under construction and available for review & feedback only. *Please do not share.* Public launch is expected to be in summer 2020. Find updates at https://labs.loc.gov/experiments/citizen-dj/.');
 
     sessionStorage.setItem(sessionName, 'confirmed');
   };
