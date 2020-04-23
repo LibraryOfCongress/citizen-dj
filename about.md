@@ -9,7 +9,7 @@ permalink: "/about/"
 
 The Citizen DJ project invites the public to make hip hop music using the free-to-use audio and video collections from the [Library of Congress](https://loc.gov/). By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
 
-### Why Hip Hop?
+### Why the DJ?
 
 Since its beginnings in the 1970s, hip hop has become today's dominant worldwide music genre and cultural movement. At the center of this movement is the DJ, whose role is to excavate, transform, and collage disparate and obscure sounds from current and past cultures to create wholly new, relevant, and infectious music.
 
