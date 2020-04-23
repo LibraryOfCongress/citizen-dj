@@ -194,6 +194,7 @@ var ExploreApp = (function() {
     $(window).on("resize", function(){ _this.onResize(); });
 
     this.listening = false;
+    var started = false;
     var touching = false;
     var $touch = $('#touch');
     var touchHandler = new Hammer($touch[0]);
@@ -203,6 +204,7 @@ var ExploreApp = (function() {
     $touch.one('mousedown touchstart', function(){
       $('#instructions').css('display', 'none');
       $('.item-info').css('display', 'block');
+      started = true;
     });
 
     // listen for touch events...
@@ -229,18 +231,18 @@ var ExploreApp = (function() {
     var $doc = $(document);
     var mousedown = false;
     $doc.on("mousedown", function(e){
-      if (touching) return;
+      if (touching || !started) return;
       e.preventDefault();
       mousedown = true;
       // _this.listening = true;
     });
     $doc.on("mouseup", function(e){
-      if (touching) return;
+      if (touching || !started) return;
       mousedown = false;
       _this.listening = false;
     });
     $doc.on("mousemove", function(e){
-      if (touching) return;
+      if (touching || !started) return;
       this.anchorX = e.pageX;
       this.anchorY = e.pageY;
       if (mousedown) _this.listening = true;
@@ -250,7 +252,7 @@ var ExploreApp = (function() {
       }
     });
     $doc.on("click", function(e){
-      if (touching) return;
+      if (touching || !started) return;
       _this.play(e.pageX, e.pageY, true);
     });
 
