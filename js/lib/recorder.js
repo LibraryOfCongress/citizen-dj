@@ -3,38 +3,36 @@
 var AudioRecorder = (function() {
 
   function AudioRecorder(config) {
-    var defaults = {};
+    var defaults = {
+
+    };
     this.opt = _.extend({}, defaults, config);
     this.init();
   }
 
   AudioRecorder.prototype.init = function(){
-    this.audioContext = Tone.context;
     this.$recordButtons = $('.record-audio');
     this.isSaving = false;
     this.destination = this.opt.destination;
     this.prevUrl = false;
     this.recorder = false;
 
-    if (this.destination) this.recorder = new MediaRecorder(this.destination.stream);
+    if (this.destination) {
 
-    this.loadListeners();
-  };
+      var mimeType = 'audio/wav';
+      var recorderType = MediaStreamRecorder;
+      if (!MediaRecorder.isTypeSupported(mimeType)){
+        recorderType = StereoAudioRecorder;
+      }
 
-  AudioRecorder.prototype.exportWavData = function(blob){
-    var urlLib = (window.URL || window.webkitURL);
-
-    if (this.prevUrl !== false) {
-      urlLib.revokeObjectURL(this.prevUrl);
+      this.recorder = RecordRTC(this.destination.stream, {
+        type: 'audio',
+        mimeType: mimeType,
+        recorderType: recorderType
+      });
     }
 
-    var url = urlLib.createObjectURL(blob);
-    var a = $('a.record-download-link')[0];
-    a.href = url;
-    a.download = 'output-' + _.last(url.split('/')) + '.wav';
-    this.prevUrl = url;
-
-    a.click();
+    this.loadListeners();
   };
 
   AudioRecorder.prototype.loadListeners = function(){
@@ -52,7 +50,6 @@ var AudioRecorder = (function() {
     }
 
     var isActive = $el.hasClass('active');
-
     if (isActive) this.recordStop();
     else this.recordStart();
   };
@@ -60,27 +57,20 @@ var AudioRecorder = (function() {
   AudioRecorder.prototype.recordStart = function(){
     this.$recordButtons.addClass('active');
     this.$recordButtons.text('Stop recording');
-
-    var _this = this;
-    this.chunks = [];
-    this.recorder.ondataavailable = function(e){
-      _this.chunks.push(e.data);
-    };
-    this.recorder.start();
+    this.recorder.startRecording();
   };
 
   AudioRecorder.prototype.recordStop = function(){
+    var _this = this;
     this.$recordButtons.removeClass('active');
     this.$recordButtons.text('Record');
 
-    var _this = this;
     this.isSaving = true;
-    this.recorder.stop();
-    this.recorder.onstop = function(e){
-      var blob = new Blob(_this.chunks, { type: 'audio/wav' });
-      _this.exportWavData(blob);
+    this.recorder.stopRecording(function() {
+      var blob = _this.recorder.getBlob();
+      invokeSaveAsDialog(blob);
       _this.isSaving = false;
-    };
+    });
   };
 
   return AudioRecorder;
