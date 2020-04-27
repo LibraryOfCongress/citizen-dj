@@ -8,8 +8,8 @@
         },
         {
             "filename": "loc.gov_joe-smith_wav.zip",
-            "label": "Download in 32-bit .wav format",
-            "size": "501.8mb",
+            "label": "Download in 16-bit .wav format",
+            "size": "500.9mb",
             "comment": "Ideal for production"
         }
     ],

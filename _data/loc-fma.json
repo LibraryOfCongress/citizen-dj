@@ -8,8 +8,8 @@
         },
         {
             "filename": "loc.gov_fma_wav.zip",
-            "label": "Download in 32-bit .wav format",
-            "size": "1.6gb",
+            "label": "Download in 16-bit .wav format",
+            "size": "1.3gb",
             "comment": "Ideal for production"
         }
     ],

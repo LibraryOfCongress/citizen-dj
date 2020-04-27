@@ -8,8 +8,8 @@
         },
         {
             "filename": "loc.gov_national-screening-room_wav.zip",
-            "label": "Download in 32-bit .wav format",
-            "size": "440.4mb",
+            "label": "Download in 16-bit .wav format",
+            "size": "447.8mb",
             "comment": "Ideal for production"
         }
     ],

@@ -8,8 +8,8 @@
         },
         {
             "filename": "loc.gov_american-english-dialect-recordings-from-the-center-for-applied-linguistics_wav.zip",
-            "label": "Download in 32-bit .wav format",
-            "size": "485.6mb",
+            "label": "Download in 16-bit .wav format",
+            "size": "506.8mb",
             "comment": "Ideal for production"
         }
     ],
