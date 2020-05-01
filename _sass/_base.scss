@@ -153,6 +153,9 @@ header h1 {
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
 }
+header h1 small {
+  color: var(--secondary-light-color);
+}
 header nav ul li {
   padding-left: 1rem;
 }

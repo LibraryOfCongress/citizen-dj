@@ -101,7 +101,7 @@ That said, there are a few ways to save and download audio that you find on this
 
 ### Can I share my music through your project?
 
-Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email me at {{ site.email }} or you can share via social media listed below.
+Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email me at {{ site.email }} or tweet [@Librarycongress](https://twitter.com/librarycongress/) or [@LC_Labs](https://twitter.com/LC_Labs)
 
 ### If I make new music using sounds from this website, what can I do with it?
 
