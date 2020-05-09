@@ -97,7 +97,7 @@ That said, there are a few ways to save and download audio that you find on this
 
 1. When "remixing" a collection, a unique URL will be generated when you select a new sequence. You can save that URL for future reference
 2. Also on the "remix" page, there is a "record" button that allows you to record the current sequence until you stop recording. A .wav file will automatically be saved to your computer.
-3. All the sounds that you here can be directly downloaded to your computer. This includes individual clips (downloadable via the download icon) and bulk downloads if you click on the "Learn more & use sounds" button for any given collection.
+3. All the sounds that you here can be directly downloaded to your computer. This includes individual clips (downloadable via the download icon) and bulk downloads if you click on the "Browse &amp; download" button for any given collection.
 
 ### Can I share my music through your project?
 
@@ -108,6 +108,10 @@ Yes! We would like to showcase new music that this project helped make possible.
 All the sounds that are available on this website are free and available for unrestricted use for creating new music. This means whatever new music that you create, it is yours and can do whatever you like with it, including selling and making money from it!
 
 For uses beyond creating new music, please refer to the "How can I use these sounds" section for each collection of audio.
+
+### Can users outside of the U.S. use Citizen DJ as described on this website?
+
+Yes.
 
 ### How can I use your software and app?
 

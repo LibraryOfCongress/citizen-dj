@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Citizen DJ invites the public to make music using free-to-use audio and video collections. By embedding these materials in hip hop music, listeners can discover items in the library's vast collections that they likely would never have known existed.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-canonical_url: "http://citizendj.labs.loc.gov.s3-website-us-east-1.amazonaws.com"
+canonical_url: "https://citizen-dj.labs.loc.gov"
 image: "/img/citizen_dj_banner.jpg"
 twitter_username: beefoo
 github_username:  beefoo
