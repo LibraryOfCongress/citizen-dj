@@ -13,6 +13,10 @@
       <audio src="{{ page.stream_url }}" controls></audio>
     {% endif %}
 
+    {% if page.summary %}
+      <p>{{ page.summary }}</p>
+    {% endif %}
+
     <p>{{ content }}</p>
 
     <h3>Rights and access</h3>
