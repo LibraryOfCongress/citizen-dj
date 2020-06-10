@@ -7,7 +7,13 @@ permalink: "/about/"
 
 ## About Citizen DJ
 
-The Citizen DJ project invites the public to make music using the free-to-use audio and video collections from the [Library of Congress](https://loc.gov/). By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
+The Citizen DJ project invites the public to make hip hop music using the free-to-use audio and video collections from the [Library of Congress](https://loc.gov/). By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
+
+### Why Hip Hop?
+
+The concept of Citizen DJ is grounded in hip hop culture which is composed of five elements: DJ-ing, MC-ing, B-boy/girling, Graffiti, and Knowledge. The last element refers to knowledge of history and knowledge of self. As the legendary [KRS-One](https://en.wikipedia.org/wiki/KRS-One) puts it, "Knowing where YOU come from helps to show YOU where YOU are going. Once you know where you come from you then know what to learn." We hope Citizen DJ can be a resource for Knowledge, encouraging the use of cultural heritage materials as a medium of self-expression and historical interrogation.
+
+It is also important to highlight the origins of hip hop. There's a lot of depth to this history, but a key thing to know is that it started in the Bronx, New York during the early 70's as a medium of [protest](https://www.youtube.com/watch?v=8PaoLy7PHwk), [empowerment](https://www.youtube.com/watch?v=Z9iYBtnckio), and [documentation](https://www.youtube.com/watch?v=PobrSpMwKk4) by young Black and Latinx communities that were neglected politically and institutionally. While hip hop has grown exponentially over the decades and has become a bridge between communities of all colors and backgrounds, it remains a tool for social change and amplifying voices of underserved communities of color. By making the materials and tools of Citizen DJ available for free and online, we hope to provide at least one more public resource for those who want to make music in the spirit of hip hop's foundational values, as [Afrika Bambaataa](https://en.wikipedia.org/wiki/Afrika_Bambaataa) the "Godfather of Hip Hop" puts it, "Peace, Love, Unity, and Having Fun."
 
 ### Why the DJ?
 
