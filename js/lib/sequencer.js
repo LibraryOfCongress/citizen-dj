@@ -118,8 +118,10 @@ var Sequencer = (function() {
     });
 
     // invoke settings for track track
+    var $settingsButton = false;
     this.$tracks.on('click', '.settings-button', function(e){
-      _this.onClickSettings($(this));
+      $settingsButton = $(this);
+      _this.onClickSettings($settingsButton);
     });
 
     $('main').on('click', '.play-audio', function(e){
@@ -136,6 +138,7 @@ var Sequencer = (function() {
     // close dialogs
     $('body').on('click', '.dialog-close-button', function(e){
       $('.dialog-wrapper').removeClass('active');
+      if ($settingsButton !== false) $settingsButton.focus();
     });
 
     // track on settings input

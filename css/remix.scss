@@ -205,6 +205,9 @@ select.select-drum {
   box-sizing: border-box;
   border-radius: 4px;
 }
+.beat input:focus + label::before {
+  outline: 2px solid var(--darkest-color);
+}
 .beat input:hover + label::before {
   background: var(--light-color);
   border-color: var(--darkest-color);

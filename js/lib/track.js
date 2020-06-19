@@ -173,6 +173,7 @@ var Track = (function() {
     var html = this.opt.settingsTemplate(_.extend({}, this.opt));
     this.$settingsDialog.html(html);
     this.$settingsParent.addClass('active');
+    this.$settingsDialog.find('input').first().focus();
   };
 
   Track.prototype.solo = function(){
