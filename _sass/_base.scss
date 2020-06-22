@@ -119,6 +119,7 @@ nav ul {
   padding: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 nav ul li {
   margin: 0;
@@ -128,17 +129,11 @@ nav ul li {
 header {
   display: flex;
   justify-content: space-between;
-  height: $headerHeight;
   line-height: $headerHeight;
   background: var(--darkest-color);
   color: var(--lightest-color);
   padding: 0 1rem;
-  // position: fixed;
-  // width: 100%;
-  // top: 0;
-  // left: 0;
-  // box-sizing: border-box;
-  // z-index: 200;
+  flex-wrap: wrap;
 }
 header a,
 header a:hover,
@@ -152,6 +147,7 @@ header h1 {
   margin: 0;
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
+  white-space: nowrap;
 }
 header h1 small {
   color: var(--secondary-light-color);

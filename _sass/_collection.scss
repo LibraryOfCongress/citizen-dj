@@ -8,16 +8,27 @@ $collectionTabHeight: $collectionHeight - 4px;
 }
 
 .collection-header {
-  height: $collectionHeight;
-  line-height: $collectionHeight;
+  // height: $collectionHeight;
+  // line-height: $collectionHeight;
   background: white;
-  padding: 6px 0 0 0;
-  margin-bottom: 10px;
-  // position: fixed;
-  // width: 100%;
-  // top: $headerHeight;
-  // left: 0;
-  // box-sizing: border-box;
+  padding: 4px 0 8px 0;
+  margin-bottom: 6px;
+  border-bottom: 2px solid black;
+}
+.remix .collection-header,
+.explore .collection-header {
+  margin-bottom: 0px;
+  border: none;
+}
+.collection-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  line-height: $collectionHeight;
+  color: white;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  background: black;
 }
 
 .collection-header button,
@@ -26,53 +37,61 @@ $collectionTabHeight: $collectionHeight - 4px;
   margin: 0;
   color: var(--darkest-color);
   background: none;
-  border: none;
   white-space: nowrap;
+}
+.collection-header button,
+.collection-header .button {
+  padding: 0 10px;
+}
+.collection-header button.submenu-link {
+  padding-right: 20px;
+}
+.collection-header a.button {
+  white-space: nowrap;
+  margin: 2px 6px 0 0;
 }
 
 .collection-header nav > ul {
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+.collection-header nav > ul > li {
+  box-sizing: border-box;
+  line-height: $collectionTabHeight;
+  margin-top: 4px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
 }
 .collection-header nav > ul > li:first-child {
-  padding-left: 1rem;
+  flex-grow: 1;
 }
 .collection-header nav > ul > li:last-child {
   margin-right: 1rem;
 }
-.collection-header nav > ul > li {
-  border-bottom: 2px solid var(--darkest-color);
-  box-sizing: border-box;
-  height: $collectionTabHeight;
-  line-height: $collectionTabHeight;
-  margin-top: 4px;
+
+.submenu-link {
+  overflow: hidden;
+  text-overflow: ellipsis;
   position: relative;
 }
-.collection-header a.tab {
-  height: $collectionTabHeight;
-  line-height: $collectionTabHeight;
-  padding: 0 1rem;
-  text-decoration: none;
+@media only screen and (max-width: 600px) {
+  .submenu-link {
+    max-width: 360px;
+  }
+}
+.submenu-link .arrow {
   display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: 20px;
+  text-align: center;
+  background: white;
+  box-sizing: border-box;
 }
-.collection-header a.tab:hover {
-  text-decoration: underline;
-}
-.collection-header nav > ul > li.active {
-  border: 2px solid var(--darkest-color);
-  border-bottom-color: var(--lightest-color);
-}
-.collection-header a.tab.active:hover {
-  cursor: default;
-  text-decoration: none;
-}
-
-.collection-header .label {
-  padding-right: 0.5rem;
-}
-.collection-header .spacer {
-  flex-grow: 1;
-}
-
 .submenu-link[aria-expanded="true"] ~ .submenu {
   display: block;
 }
@@ -80,7 +99,7 @@ $collectionTabHeight: $collectionHeight - 4px;
   display: none;
   position: absolute;
   top: $collectionTabHeight - 4px;
-  left: 0;
+  right: 0;
   max-height: 80vh;
   overflow: hidden;
   overflow-y: auto;
