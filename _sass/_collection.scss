@@ -2,6 +2,9 @@
 $collectionHeight: 44px;
 $collectionTabHeight: $collectionHeight - 4px;
 
+$collectionHeightMobile: 28px;
+$collectionTabHeightMobile: $collectionHeightMobile - 4px;
+
 .wrapper {
   // padding-top: $headerHeight + $collectionHeight + 12px;
   // padding-top: $headerHeight + 6px;
@@ -25,8 +28,8 @@ $collectionTabHeight: $collectionHeight - 4px;
   margin: 0;
   line-height: $collectionHeight;
   color: white;
-  height: 40px;
-  line-height: 40px;
+  height: $collectionTabHeight;
+  line-height: $collectionTabHeight;
   padding: 0 10px;
   background: black;
 }
@@ -45,6 +48,7 @@ $collectionTabHeight: $collectionHeight - 4px;
 }
 .collection-header button.submenu-link {
   padding-right: 20px;
+  box-sizing: border-box;
 }
 .collection-header a.button {
   white-space: nowrap;
@@ -129,4 +133,48 @@ $collectionTabHeight: $collectionHeight - 4px;
 
 footer {
   padding-left: 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .submenu-link {
+    max-width: 360px;
+  }
+
+  .collection-header h2 {
+    font-size: 1rem;
+    line-height: $collectionHeightMobile;
+    height: $collectionTabHeightMobile;
+    line-height: $collectionTabHeightMobile;
+    padding: 0 5px;
+  }
+
+  .collection-header button,
+  .collection-header .button {
+    padding: 0 5px;
+    font-size: 1rem;
+    height: $collectionTabHeightMobile;
+    line-height: $collectionTabHeightMobile;
+    padding: 0 5px;
+  }
+
+  .collection-header nav > ul > li {
+    line-height: $collectionTabHeightMobile;
+    padding-left: 5px;
+  }
+  .collection-header nav > ul > li:last-child {
+    margin-right: 0;
+  }
+
+  .collection-header button.submenu-link {
+    padding-right: 5px;
+  }
+
+  .submenu {
+    top: $collectionTabHeightMobile - 4px;
+  }
+  .submenu a {
+    font-size: 1rem;
+    padding: 5px;
+  }
 }

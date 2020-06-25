@@ -181,6 +181,24 @@ blockquote {
   @include visuallyHidden;
 }
 
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 0 5px;
+    line-height: 24px;
+  }
+
+  header a,
+  header a:hover,
+  header a.active,
+  header a.active:hover {
+    font-size: 1rem;
+  }
+
+  header nav ul li {
+    padding-left: 10px;
+  }
+}
+
 @font-face {
   font-family: 'Alegreya';
   src: url('../fonts/Alegreya/alegreya-regular-webfont.woff2') format('woff2');
