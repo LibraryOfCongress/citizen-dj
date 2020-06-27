@@ -20,6 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 canonical_url: "https://citizen-dj.labs.loc.gov"
+asset_url: "https://s3.amazonaws.com/citizen-dj-assets.labs.loc.gov"
 image: "/img/citizen_dj_banner.jpg"
 twitter_username: beefoo
 github_username:  beefoo

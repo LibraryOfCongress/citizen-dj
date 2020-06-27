@@ -25,4 +25,10 @@
 .container video {
   display: block;
   margin-top: 2rem;
+  width: 100%;
+}
+
+.container video {
+  max-width: 600px;
+  height: auto;
 }
