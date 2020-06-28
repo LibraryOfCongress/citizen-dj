@@ -18,7 +18,7 @@
   margin: 0;
   padding: 0;
 }
-.preview-list li {
+.preview-list > li {
   margin: 0;
   padding: 0.5rem 1rem 0.5rem 0;
   display: inline-block;
@@ -26,8 +26,21 @@
   vertical-align: top;
   border-bottom: 1px solid var(--darkest-color);
 }
-.button.small {
-  padding: 0.25rem 0.5rem;
-  height: auto;
-  line-height: normal;
+a.button {
+  font-weight: normal;
+}
+.button.small,
+button.small {
+  padding: 0 0.5rem;
+  height: 28px;
+  line-height: 28px;
+}
+
+.preview-list .submenu a {
+  min-width: 84px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
 }

@@ -6,6 +6,7 @@ var ExploreApp = (function() {
     var defaults = {
       "uid": "loc-john-and-ruby-lomax",
       "baseUrl": "",
+      "assetUrl": "",
       "audioDir": "/audio/sprites/",
       "dataDir": "/data/spritedata/",
       "metadataDir": "/data/metadata/",
@@ -412,6 +413,7 @@ var ExploreApp = (function() {
     });
 
     var phraseAudioDir = this.opt.phraseAudioDir + this.opt.uid + '/';
+    var assetUrl = this.opt.assetUrl;
     var itemLookup = this.itemLookup;
     _.each(this.sprites, function(sprite, i){
       var item = itemLookup[sprite.itemId];
@@ -424,7 +426,9 @@ var ExploreApp = (function() {
         if (delta < 0) delta = 999999;
         return delta;
       });
-      _this.sprites[i].phraseFilename = phraseAudioDir + itemPhrases[0].clipFilename;
+      var clipFilename = itemPhrases[0].clipFilename;
+      _this.sprites[i].phraseFilename = phraseAudioDir + clipFilename;
+      _this.sprites[i].phraseDownloadFilename = assetUrl + phraseAudioDir + clipFilename.slice(0, clipFilename.length-3) + "wav";
     });
   };
 
@@ -512,7 +516,8 @@ var ExploreApp = (function() {
         "noteIndex": s[6],
         "subjects": subjects,
         "active": true,
-        "phraseFilename": false
+        "phraseFilename": false,
+        "phraseDownloadFilename": false
       }
     });
     this.minPitch = _.min(allSprites, function(sprite){ return sprite.pitch; }).pitch;
@@ -580,6 +585,7 @@ var ExploreApp = (function() {
     if (this.itemLookup === false || this.$itemInfo === undefined || !this.$itemInfo.length) return;
     var id = spriteItem.itemId;
     var phraseFilename = spriteItem.phraseFilename;
+    var phraseDownloadFilename = spriteItem.phraseDownloadFilename;
     // console.log(this.itemLookup, id)
     var startTimeF = MathUtil.secondsToString(spriteItem.sourceStart/1000.0);
     var html = '';
@@ -597,6 +603,9 @@ var ExploreApp = (function() {
         html += '<a href="'+remixUrl+'" class="button inverted">Remix this</a>';
         if (phraseFilename) {
           html += '<a href="'+phraseFilename+'" class="button inverted toggle-play">Play in context</a>';
+        }
+        if (phraseDownloadFilename) {
+          html += '<a href="'+phraseDownloadFilename+'" class="button inverted" download target="_blank">Download</a>';
         }
         html += '<a href="'+item.url+'" target="_blank" class="button inverted">'+buttonText+'</a>';
       html += '</div>';

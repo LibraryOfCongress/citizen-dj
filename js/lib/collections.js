@@ -12,6 +12,7 @@ var Collections = (function() {
       "audioDir": "/audio/collections/",
       "phraseDir": "/data/phrasedata/",
       "phraseAudioDir": "/audio/samplepacks/",
+      "assetUrl": "",
       "sampleItemKey": "sourceFilename",
       "itemKey": "filename",
       "gain": -3,
@@ -132,7 +133,8 @@ var Collections = (function() {
       var sample = samples[sampleIndex];
       tracks[sample.id] = {
         "pattern": trackPatterns[i],
-        "url": sample["url"],
+        "url": sample.url,
+        "downloadUrl": sample.downloadUrl,
         "title": _this.item.title + ' (' + sample.title + ')',
         "trackType": "collection",
         "typeLabel": "Sample",
@@ -223,11 +225,13 @@ var Collections = (function() {
     var sampleCount = ""+sampledata.items.length;
     var padLength = sampleCount.length;
     var sampleItemKey = this.opt.sampleItemKey;
+    var assetUrl = this.opt.assetUrl;
     var samples = _.map(sampledata.items, function(sample){
       var sampleObj = _.object(sampleHeadings, sample);
       if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
       sampleObj.title = 'starting at ' + MathUtil.secondsToString(sampleObj.sourceStart/1000.0, 3);
       sampleObj.url = _this.opt.baseUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.mp3';
+      sampleObj.downloadUrl = assetUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.wav';
       if (sampledata.groups) {
         _.each(sampledata.groups, function(groupList, key){
           sampleObj[key] = groupList[sampleObj[key]];
@@ -235,6 +239,7 @@ var Collections = (function() {
       }
       // find the right phrase
       sampleObj.phraseFilename = false;
+      sampleObj.phraseDownloadFilename = false;
       var itemPhrases = _.filter(phrases, function(p){ return p.itemFilename === sampleObj[sampleItemKey];});
       if (itemPhrases.length > 0) {
         itemPhrases = _.sortBy(itemPhrases, function(p){
@@ -243,7 +248,9 @@ var Collections = (function() {
           if (delta < 0) delta = 999999;
           return delta;
         });
-        sampleObj.phraseFilename = phraseAudioDir + itemPhrases[0].clipFilename;
+        var clipFilename = itemPhrases[0].clipFilename;
+        sampleObj.phraseFilename = phraseAudioDir + clipFilename;
+        sampleObj.phraseDownloadFilename = assetUrl + phraseAudioDir + clipFilename.slice(0, clipFilename.length-3) + "wav";
       }
       return sampleObj;
     });
@@ -413,14 +420,14 @@ var Collections = (function() {
             html += '<ul>';
             var number = 1;
             _.each(this.tracks, function(track, id){
-              html += '<li><a href="'+track.url+'" download class="button small">Download sample '+number+'</a> <a href="'+track.url+'" class="play-audio button small">Play sample '+number+'</a></li>';
+              html += '<li><a href="'+track.downloadUrl+'" download class="button small" target="_blank">Download sample '+number+'</a> <a href="'+track.url+'" class="play-audio button small">Play sample '+number+'</a></li>';
               number++;
             });
             html += '</ul>';
           html += '</li>';
           if (firstSample.phraseFilename) {
             html += '<li>Or download a longer audio excerpt that the clips came from:';
-              html += '<ul><li><a href="'+firstSample.phraseFilename+'" download class="button small">Download excerpt</a> <a href="'+firstSample.phraseFilename+'" class="play-audio button small">Play excerpt</a></li></ul>';
+              html += '<ul><li><a href="'+firstSample.phraseDownloadFilename+'" download class="button small" target="_blank">Download excerpt</a> <a href="'+firstSample.phraseFilename+'" class="play-audio button small">Play excerpt</a></li></ul>';
             html += '</li>';
           }
           html += '<li>You can visit this collection\'s <a href="'+this.opt.baseUrl+'/'+this.opt.uid+'/use/" class="button small">browse &amp; download page</a> for bulk downloads.</li>';

@@ -20,11 +20,11 @@
 
       <ul>
         {% for pfile in package.packages %}
-        <li><a href="{{ site.baseurl }}/samplepacks/{{ pfile.filename }}" download>{{ pfile.label }}</a> ({{ pfile.size }}) - {{ pfile.comment }}</li>
+        <li><a href="{{ site.asset_url }}/samplepacks/{{ pfile.filename }}" download>{{ pfile.label }}</a> ({{ pfile.size }}) - {{ pfile.comment }}</li>
         {% endfor %}
       </ul>
 
-      <h3>Rights and access</h3>
+      <h3>Rights &amp; access</h3>
 
       <p>{{ page.rights }}</p>
 
@@ -32,7 +32,7 @@
 
       <p>Citizen DJ Project, {{ page.credit }}</p>
 
-      <h3>Preview files</h3>
+      <h3>Browse &amp; preview files</h3>
 
       <p>Click the files below to preview the audio segments:</p>
 
@@ -41,7 +41,10 @@
         <li>{{ clip.title }} (at {{ clip.timestamp }})
           <div class="button-group">
             <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}" class="button small toggle-play">play</a>
-            <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}" class="button small" download>download</a>
+
+            {% assign basenameSize = clip.filename | size | minus: 3 %}
+            <a href="{{ site.asset_url }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename | slice: 0, basenameSize }}wav" class="button small" download target="_blank">download</a>
+
             {% if page.local_items %}
             <a href="{{ clip.url }}" target="_blank" class="button small">view details</a>
             {% else %}

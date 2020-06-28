@@ -173,6 +173,64 @@ blockquote {
   line-height: 1.5;
 }
 
+.submenu-wrapper {
+  position: relative;
+}
+.submenu-link {
+  position: relative;
+}
+.submenu-link .arrow {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  width: 20px;
+  text-align: center;
+  background: white;
+  box-sizing: border-box;
+}
+.submenu-link[aria-expanded="true"] ~ .submenu {
+  display: block;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  max-height: 80vh;
+  overflow: hidden;
+  overflow-y: auto;
+  background: var(--lightest-color);
+  border: 2px solid var(--darkest-color);
+  line-height: auto;
+  height: auto;
+  z-index: 500;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.submenu li {
+  margin: 0;
+  padding: 0;
+}
+.submenu li,
+.submenu a {
+  line-height: normal;
+}
+.submenu a {
+  border-top: 1px solid var(--darkest-color);
+  padding: 0.5rem 0.25rem;
+  display: block;
+  text-decoration: none;
+}
+.submenu a:hover {
+  text-decoration: underline;
+}
+.submenu li:first-child a {
+  border: none;
+}
+
 .clearfix {
   @include clearfix;
 }

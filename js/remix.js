@@ -31,6 +31,7 @@ var RemixApp = (function() {
 
     this.collections = new Collections({
       "el": _this.opt.el,
+      "assetUrl": _this.opt.assetUrl,
       "onChange": function(){ _this.onChangeCollections(); }
     });
 
