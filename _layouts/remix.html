@@ -126,6 +126,8 @@
           <div class="clip-window clip-window-left"></div>
           <div class="clip-window clip-window-right"></div>
         </div>
+        <button class="download-track-audio small" data-id="{{ id }}">Download this clip</button>
+        <a href="{{ phraseDownloadUrl }}" download class="button small" target="_blank">Download full excerpt</a>
       </div>
       <!-- <div class="input-row">
         <label for="track-reverb">Reverb:</label>
@@ -148,7 +150,7 @@
       <div class="track-info">
         <h3>{{ typeLabel }} {{ sequence }}: <a href="#sources" class="scroll-to">{{ title }}</a> <span class="track-time-start">(starting at <span class="track-time-{{ uid }}">{{ sourceStartFormatted }}</span>)</span></h3>
         <a href="#prev" class="prev-{{ trackType }}"><img src="../../img/icon_play_prev.svg" alt="Play previous icon" title="Go to previous {{ typeLabel }} sequence" /></a>
-        <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
+        <a href="#play" class="play-track-audio" data-id="{{ id }}"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this clip" /></a>
         <a href="#next" class="next-{{ trackType }}"><img src="../../img/icon_play_next.svg" alt="Play next icon" title="Go to next {{ typeLabel }} sequence" /></a>
         <a href="#sources" class="scroll-to"><img src="../../img/icon_info.svg" alt="Information icon" title="Information about this file" /></a>
       </div>

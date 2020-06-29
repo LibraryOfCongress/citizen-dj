@@ -7,6 +7,7 @@ var Track = (function() {
       "id": "k",
       "url": "./audio/drum_machines/Roland_Tr-808_full__36kick.mp3",
       "gain": -6,
+      "fadeIn": "128n",
       "fadeOut": "64n",
       "sourceStart": false,
       "clipStart": 0,
@@ -18,7 +19,8 @@ var Track = (function() {
       "pitchShift": 0,
       "trackType": "collection",
       "recordingStreamDestination": false,
-      "clipImageUrl": ""
+      "clipImageUrl": "",
+      "phraseDownloadUrl": ""
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -100,6 +102,7 @@ var Track = (function() {
     this.player = new Tone.Player({
       "url": this.opt.url,
       "volume": this.opt.gain,
+      "fadeIn": this.opt.fadeIn,
       "fadeOut": this.opt.fadeOut,
       "onload": function(){ _this.onPlayerLoad(); }
     });
@@ -173,18 +176,50 @@ var Track = (function() {
     // Tone.Transport.scheduleOnce(function(){
     //   _this.volume.volume.value = _.random(-6, 0);
     // }, rtime-0.001);
+    this.playClip(rtime);
 
+  };
+
+  Track.prototype.playClip = function(time){
     var dur = this.opt.clipDur > 0 ? this.opt.clipDur : "32n";
     // console.log(rtime, this.opt.clipStart, dur)
     if (Math.abs(dur-this.opt.duration) <= 0.001 && this.opt.clipStart === 0) {
-      this.player.start(rtime); // play the full file
+      this.player.start(time); // play the full file
     } else {
       dur = Math.min(dur, this.opt.duration-this.opt.clipStart);
       if (dur > 0) {
-        this.player.start(rtime, this.opt.clipStart, dur, 0); // play the clip
+        this.player.start(time, this.opt.clipStart, dur); // play the clip
       }
     }
+  };
 
+  Track.prototype.saveClipToFile = function(onFinished){
+    var _this = this;
+    var dur = Math.min(this.opt.clipDur, this.opt.duration-this.opt.clipStart);
+    if (dur <= 0) dur = 1;
+    var offset = this.opt.clipStart;
+    // filename_hh-mm-ss.mp3
+    var filename = _.last(this.opt.url.split('/'));
+    filename = filename.slice(0, -12) + MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3).replace(':', '-') + '.wav';
+    var player = this.player;
+    console.log('Rendering '+ filename);
+    Tone.Offline(function(){
+      //only nodes created in this callback will be recorded
+      // var oscillator = new Tone.Oscillator().toMaster().start(0);
+      var offlinePlayer = new Tone.Player({
+        'url': player.buffer.get(),
+        'fadeIn': _this.opt.fadeIn,
+        'fadeOut': _this.opt.fadeOut,
+      }).toMaster();
+      offlinePlayer.start(0, offset, dur);
+      //schedule their events
+    }, dur).then(function(buffer){
+      console.log("Done rendering clip.");
+      //do something with the output buffer
+      var audioBuffer = buffer.get();
+      AudioUtils.audioBufferToWavfile(audioBuffer, filename);
+      onFinished && onFinished();
+    });
   };
 
   Track.prototype.setGain = function(db){

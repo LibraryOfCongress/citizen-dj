@@ -133,11 +133,13 @@ var Collections = (function() {
     _.times(4, function(i){
       var sample = samples[sampleIndex];
       tracks[sample.id] = {
+        "id": sample.id,
         "pattern": trackPatterns[i],
         "url": sample.phraseFilename,
         "downloadUrl": sample.downloadUrl,
         "title": _this.item.title,
         "sourceStart": sample.phraseStart,
+        "phraseDownloadUrl": sample.phraseDownloadFilename,
         "clipStart": sample.phraseClipStart,
         "clipDur": sample.phraseClipDur,
         "clipImageUrl": sample.clipImageUrl,
@@ -360,7 +362,7 @@ var Collections = (function() {
     var newSample = _.sample(sampleCandidates);
     this.sampleIndex = newSample.index;
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     this.opt.onChange();
   };
 
@@ -371,14 +373,14 @@ var Collections = (function() {
     var newSample = _.sample(sampleCandidates);
     this.sampleIndex = newSample.index;
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     this.opt.onChange();
   };
 
   Collections.prototype.randomizeSample = function(){
     this.sampleIndex = _.random(this.item.samples.length-1);
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     this.opt.onChange();
   };
 
@@ -410,7 +412,7 @@ var Collections = (function() {
     if (!changed) return;
 
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     // this.opt.onChange();
   };
 
@@ -439,10 +441,10 @@ var Collections = (function() {
       html += '<dd>There are a number of ways to access the source material:';
         html += '<ol>';
           html += '<li>You can download each clip individually (these samples start at <strong class="phrase-start-time">'+startTimeF+'</strong>):';
-            html += '<ul>';
+            html += '<ul id="track-list" class="track-list">';
             var number = 1;
             _.each(this.tracks, function(track, id){
-              html += '<li><a href="'+track.downloadUrl+'" download class="button small" target="_blank">Download sample '+number+'</a> <a href="'+track.url+'" class="play-audio button small">Play sample '+number+'</a></li>';
+              html += '<li><button class="download-track-audio small" data-id="'+id+'">Download sample '+number+'</button> <button class="play-track-audio small" data-id="'+id+'">Play sample '+number+'</button></li>';
               number++;
             });
             html += '</ul>';
@@ -466,9 +468,9 @@ var Collections = (function() {
             html += '<li>You also access in the player embedded below. Or <a href="'+ item.stream_url +'" download class="button small">click here to download</a>. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>:';
             var isVideo = item.stream_url.endsWith('.mp4');
             if (isVideo) {
-              html += '<video src="'+ item.stream_url +'" controls></video></li>';
+              html += '<video src="'+ item.stream_url +'" controls crossorigin="anonymous"></video></li>';
             } else {
-              html += '<audio src="'+ item.stream_url +'" controls></audio></li>';
+              html += '<audio src="'+ item.stream_url +'" controls crossorigin="anonymous"></audio></li>';
             }
           }
         html += '</ol>';
@@ -505,7 +507,7 @@ var Collections = (function() {
     var newSample = _.sample(sampleCandidates);
     this.sampleIndex = newSample.index;
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     this.opt.onChange();
   };
 
@@ -525,7 +527,7 @@ var Collections = (function() {
     var newSample = sampleCandidates[indexInPhrase];
     this.sampleIndex = newSample.index;
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     this.opt.onChange();
   };
 
@@ -539,7 +541,7 @@ var Collections = (function() {
 
     this.sampleIndex = newIndex;
     this.loadTrackData();
-    this.updateSource();
+    this.renderSource();
     this.opt.onChange();
   };
 

@@ -114,6 +114,7 @@ var Drums = (function() {
             var url = _this.opt.baseUrl + _this.opt.audioDir + bestInstrument.filename;
             var title = _this.patternKey[bestInstrument.instrument] + " (" + drum.name + " drum machine)";
             tracks[instrument] = {
+              "id": instrument,
               "pattern": pattern,
               "url": url,
               "title": title,

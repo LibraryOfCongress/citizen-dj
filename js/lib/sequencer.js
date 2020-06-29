@@ -4,13 +4,13 @@ var Sequencer = (function() {
 
   function Sequencer(config) {
     var defaults = {
-      "el": "#sequencer",
-      "tracks": {},
-      "subdivision": 16,
-      "bpm": 90,
-      "swing": 0.5, // between -0.5 and 0.5
-      "onChange": function(){},
-      "recordingStreamDestination": false
+      'el': '#sequencer',
+      'tracks': {},
+      'subdivision': 16,
+      'bpm': 90,
+      'swing': 0.5, // between -0.5 and 0.5
+      'onChange': function(){},
+      'recordingStreamDestination': false
     };
     this.defaultBPM = defaults.bpm;
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
@@ -23,7 +23,7 @@ var Sequencer = (function() {
     var _this = this;
 
     this.$el = $(this.opt.el);
-    this.subdStr = this.opt.subdivision + "n";
+    this.subdStr = this.opt.subdivision + 'n';
     this.subdArr = _.times(this.opt.subdivision, function(n){ return n; });
     this.playing = false;
 
@@ -75,12 +75,33 @@ var Sequencer = (function() {
     return promise;
   };
 
+  Sequencer.prototype.downloadTrackAudio = function(trackId, $el){
+    if (!_.has(this.tracks, trackId)) {
+      console.log('No track ID found for '+trackId)
+      return;
+    }
+
+    if ($el.hasClass('downloading')) {
+      console.log('Already downloading '+trackId);
+      return;
+    }
+
+    $el.addClass('downloading');
+    var originalText = $el.text();
+    $el.text('Downloading...');
+    var track = this.tracks[trackId];
+    track.saveClipToFile(function(){
+      $el.text(originalText);
+      $el.removeClass('downloading');
+    });
+  };
+
   Sequencer.prototype.loadListeners = function(){
     var _this = this;
 
     // toggle play
     if (this.$toggleButton.length) {
-      this.$toggleButton.on("click", function(e){
+      this.$toggleButton.on('click', function(e){
         _this.togglePlay();
       });
     }
@@ -92,7 +113,7 @@ var Sequencer = (function() {
 
     // share url
     $('.share-audio').on('click', function(e){
-      window.prompt("Copy this URL to clipboard: Ctrl+C, Enter", window.location.href);
+      window.prompt('Copy this URL to clipboard: Ctrl+C, Enter', window.location.href);
     });
 
     // change tempo
@@ -129,6 +150,16 @@ var Sequencer = (function() {
       _this.playAudio($(this).attr('href'));
     });
 
+    $('body').on('click', '.download-track-audio', function(e){
+      e.preventDefault();
+      _this.downloadTrackAudio($(this).attr('data-id'), $(this));
+    });
+
+    $('main').on('click', '.play-track-audio', function(e){
+      e.preventDefault();
+      _this.playTrackAudio($(this).attr('data-id'));
+    });
+
     $('main').on('click', '.scroll-to', function(e){
       var offset = $('.sequence-controls-nav').first().height();
       e.preventDefault();
@@ -158,7 +189,7 @@ var Sequencer = (function() {
       if (!$track.length) return;
       _.each(p.patternEdits, function(col){
         var $checkbox = $track.find('input[value="'+col+'"]');
-        $checkbox.prop("checked", !$checkbox.prop("checked"));
+        $checkbox.prop('checked', !$checkbox.prop('checked'));
         _this.onChangeBeat($checkbox);
       });
     });
@@ -170,14 +201,14 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.loadUI = function(){
-    this.$toggleButton = this.$el.find(".toggle-play");
-    this.$bpmInput = this.$el.find(".bpm-input");
-    this.$bpmText = this.$el.find(".bpm-text");
+    this.$toggleButton = this.$el.find('.toggle-play');
+    this.$bpmInput = this.$el.find('.bpm-input');
+    this.$bpmText = this.$el.find('.bpm-text');
     this.$settings = $('#modal-track-settings');
 
     // init templates
-    this.trackTemplate = this.loadTemplate("#track-template");
-    this.settingsTemplate = this.loadTemplate("#settings-template");
+    this.trackTemplate = this.loadTemplate('#track-template');
+    this.settingsTemplate = this.loadTemplate('#settings-template');
   };
 
   Sequencer.prototype.onChangeTrackSettings = function($input){
@@ -188,7 +219,7 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.onChangeBeat = function($checkbox, fromUser){
-    // console.log("On change beat");
+    // console.log('On change beat');
     var value = $checkbox.is(':checked') ? 1 : 0;
     var trackId = $checkbox.closest('.track').attr('data-track');
     var col = parseInt($checkbox.val());
@@ -267,11 +298,21 @@ var Sequencer = (function() {
     }
   };
 
+  Sequencer.prototype.playTrackAudio = function(trackId){
+    if (!_.has(this.tracks, trackId)) {
+      console.log('No track ID found for '+trackId)
+      return;
+    }
+
+    var track = this.tracks[trackId];
+    track.playClip('+0.001');
+  };
+
   Sequencer.prototype.reloadFromUrl = function(){
     var _this = this;
     var q = Util.queryParams();
 
-    var bpm = q.bpm ? parseInt(""+q.bpm) : this.defaultBPM;
+    var bpm = q.bpm ? parseInt(''+q.bpm) : this.defaultBPM;
     if (bpm !== this.bpm) {
       this.setBPM(bpm);
     }
@@ -288,7 +329,7 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.setBPM = function(bpm, fromUser){
-    bpm = parseInt(""+bpm);
+    bpm = parseInt(''+bpm);
     this.secondsPerSubd = 60.0 / bpm / this.opt.subdivision;
     this.swing = this.secondsPerSubd * this.opt.swing;
     Tone.Transport.bpm.value = bpm;
@@ -301,12 +342,12 @@ var Sequencer = (function() {
   Sequencer.prototype.start = function(){
     if (Tone.context.state !== 'running') Tone.context.resume();
     Tone.Transport.start();
-    this.$toggleButton.text("Stop");
+    this.$toggleButton.text('Stop');
   };
 
   Sequencer.prototype.stop = function(){
     Tone.Transport.stop();
-    this.$toggleButton.text("Play");
+    this.$toggleButton.text('Play');
   };
 
   Sequencer.prototype.togglePlay = function(){
@@ -320,7 +361,7 @@ var Sequencer = (function() {
 
     // add pattern edits if there are any
     var patternEditsString = Track.trackPatternEditsToString(this.tracks);
-    if (patternEditsString.length > 0) data["patternEdits"] = patternEditsString;
+    if (patternEditsString.length > 0) data['patternEdits'] = patternEditsString;
 
     // return bpm if not default
     if (this.bpm !== this.defaultBPM) {
