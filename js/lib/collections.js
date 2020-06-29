@@ -12,6 +12,7 @@ var Collections = (function() {
       "audioDir": "/audio/collections/",
       "phraseDir": "/data/phrasedata/",
       "phraseAudioDir": "/audio/samplepacks/",
+      "phraseImageDir": "/img/samplepacks/",
       "assetUrl": "",
       "sampleItemKey": "sourceFilename",
       "itemKey": "filename",
@@ -133,9 +134,13 @@ var Collections = (function() {
       var sample = samples[sampleIndex];
       tracks[sample.id] = {
         "pattern": trackPatterns[i],
-        "url": sample.url,
+        "url": sample.phraseFilename,
         "downloadUrl": sample.downloadUrl,
-        "title": _this.item.title + ' (' + sample.title + ')',
+        "title": _this.item.title,
+        "sourceStart": sample.phraseStart,
+        "clipStart": sample.phraseClipStart,
+        "clipDur": sample.phraseClipDur,
+        "clipImageUrl": sample.clipImageUrl,
         "trackType": "collection",
         "typeLabel": "Sample",
         "sequence": i+1,
@@ -208,6 +213,7 @@ var Collections = (function() {
 
     // parse phrases
     var phraseAudioDir = this.opt.phraseAudioDir + this.opt.uid + '/';
+    var phraseImageDir = this.opt.phraseImageDir + this.opt.uid + '/';
     var phraseHeadings = phrasedata.itemHeadings;
     var phrases = _.map(phrasedata.items, function(item){
       var itemObj = _.object(phraseHeadings, item);
@@ -241,17 +247,33 @@ var Collections = (function() {
       sampleObj.phraseFilename = false;
       sampleObj.phraseDownloadFilename = false;
       var itemPhrases = _.filter(phrases, function(p){ return p.itemFilename === sampleObj[sampleItemKey];});
-      if (itemPhrases.length > 0) {
+      if (itemPhrases.length > 1) {
         itemPhrases = _.sortBy(itemPhrases, function(p){
           // get the closest phrase by start time
           var delta = sampleObj.sourceStart - p.start;
           if (delta < 0) delta = 999999;
           return delta;
         });
-        var clipFilename = itemPhrases[0].clipFilename;
-        sampleObj.phraseFilename = phraseAudioDir + clipFilename;
-        sampleObj.phraseDownloadFilename = assetUrl + phraseAudioDir + clipFilename.slice(0, clipFilename.length-3) + "wav";
+      } else if (itemPhrases.length < 1) {
+        console.log("Error: no phrases found for " + sampleObj.id);
+        itemPhrases = phrases.slice(0);
       }
+      // figure out where this clip is within the phrase audio file
+      var phrase = itemPhrases[0];
+      var clipFilename = phrase.clipFilename;
+      sampleObj.phraseFilename = phraseAudioDir + clipFilename;
+      sampleObj.phraseDownloadFilename = assetUrl + phraseAudioDir + clipFilename.slice(0, clipFilename.length-3) + "wav";
+      sampleObj.clipImageUrl = phraseImageDir + clipFilename.slice(0, clipFilename.length-3) + "png";
+      sampleObj.phraseStart = phrase.start / 1000.0;
+      sampleObj.phraseClipStart = 0;
+      sampleObj.phraseClipDur = sampleObj.dur / 1000.0;
+      if (sampleObj.sourceStart > phrase.start) {
+        sampleObj.phraseClipStart = (sampleObj.sourceStart - phrase.start) / 1000.0;
+      }
+      if (sampleObj.phraseClipStart + sampleObj.phraseClipDur > phrase.dur) {
+        sampleObj.phraseClipDur = (phrase.dur - sampleObj.phraseClipStart) / 1000.0;
+      }
+      // console.log(sampleObj.phraseClipStart, sampleObj.phraseClipDur);
       return sampleObj;
     });
     // create a lookup table

@@ -241,6 +241,9 @@ select.select-drum {
   background: var(--drum-color);
   border-color: var(--drum-color);
 }
+.track.track-drum .track-time-start {
+  display: none;
+}
 // .track.track-collection input:checked:hover + label::before,
 // .track.track-drum input:checked:hover + label::before {
 //   background: var(--light-color);
@@ -396,6 +399,31 @@ select.select-drum {
 }
 .loading.active {
   display: block;
+}
+
+.waveform-wrapper {
+  position: relative;
+}
+.waveform {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.clip-window {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 0px;
+}
+.clip-window-left {
+  left: 0;
+}
+.clip-window-right {
+  right: 0;
+}
+.dialog-form-drum .waveform-row {
+  display: none;
 }
 
 @media only screen and (max-width: 830px) {

@@ -101,18 +101,31 @@
   <!-- dialog template -->
   <div id="settings-template" class="template">
     <h2 id="modal-track-settings-label">
-      Track settings for {{ title }}
+      Track settings for {{ title }} (starting at <span class="track-time-{{ uid }}">{{ sourceStartFormatted }}</span>)
     </h2>
-    <div class="dialog-form">
+    <div class="dialog-form dialog-form-{{ trackType }}">
       <div class="input-row">
         <label for="track-gain">Volume:</label>
         <input id="track-gain" type="range" min="-16" max="10" value="{{ gain }}" step="0.1" class="slider track-input gain-input" data-property="gain" data-target="#gain-text" />
         <span id="gain-text" class="value-text">{{ gain }}</span>
       </div>
       <div class="input-row">
+        <label for="track-start">Clip start:</label>
+        <input id="track-start" type="range" min="0" max="{{ duration }}" step="0.001" value="{{ clipStart }}" class="slider track-input start-input" data-property="clipStart" data-target="#start-text" />
+        <span id="start-text" class="value-text">{{ clipStart }}</span>
+      </div>
+      <div class="input-row">
         <label for="track-duration">Clip duration:</label>
-        <input id="track-duration" type="range" min="0" max="{{ duration }}" step="0.001" value="{{ clipEnd }}" class="slider track-input duration-input" data-property="clipEnd" data-target="#duration-text" />
-        <span id="duration-text" class="value-text">{{ clipEnd }}</span>
+        <input id="track-duration" type="range" min="0" max="{{ duration }}" step="0.001" value="{{ clipDur }}" class="slider track-input duration-input" data-property="clipDur" data-target="#duration-text" />
+        <span id="duration-text" class="value-text">{{ clipDur }}</span>
+      </div>
+      <div class="waveform-row">
+        <p>Current clip is highlighted below. Use sliders above to adjust.</p>
+        <div class="waveform-wrapper">
+          <img class="waveform" alt="A waveform that represents the current clip being played" />
+          <div class="clip-window clip-window-left"></div>
+          <div class="clip-window clip-window-right"></div>
+        </div>
       </div>
       <!-- <div class="input-row">
         <label for="track-reverb">Reverb:</label>
@@ -133,7 +146,7 @@
   <div id="track-template" class="template">
     <div class="track track-{{ trackType }}">
       <div class="track-info">
-        <h3><span class="track-title-text">{{ typeLabel }} {{ sequence }}: <a href="#sources" class="scroll-to">{{ title }}</a></span></h3>
+        <h3>{{ typeLabel }} {{ sequence }}: <a href="#sources" class="scroll-to">{{ title }}</a> <span class="track-time-start">(starting at <span class="track-time-{{ uid }}">{{ sourceStartFormatted }}</span>)</span></h3>
         <a href="#prev" class="prev-{{ trackType }}"><img src="../../img/icon_play_prev.svg" alt="Play previous icon" title="Go to previous {{ typeLabel }} sequence" /></a>
         <a href="{{ url }}" class="play-audio"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this file" /></a>
         <a href="#next" class="next-{{ trackType }}"><img src="../../img/icon_play_next.svg" alt="Play next icon" title="Go to next {{ typeLabel }} sequence" /></a>

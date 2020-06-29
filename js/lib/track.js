@@ -8,13 +8,17 @@ var Track = (function() {
       "url": "./audio/drum_machines/Roland_Tr-808_full__36kick.mp3",
       "gain": -6,
       "fadeOut": "64n",
+      "sourceStart": false,
+      "clipStart": 0,
+      "clipDur": 0,
       "reverb": 0.5,
       "pattern": [1,0,0,0, 0,0,0,0, 1,1,0,1, 0,0,0,0],
       "template": "",
       "$parent": "",
       "pitchShift": 0,
       "trackType": "collection",
-      "recordingStreamDestination": false
+      "recordingStreamDestination": false,
+      "clipImageUrl": ""
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -54,9 +58,13 @@ var Track = (function() {
     var opt = this.opt;
 
     this.opt.title = opt.title || opt.url.substring(opt.url.lastIndexOf('/')+1);
-    this.opt.clipEnd = opt.clipEnd || 0;
+    this.opt.clipDur = opt.clipDur || 0;
     this.opt.duration = opt.duration || 0;
     this.opt.uid = _.uniqueId('track');
+    this.opt.sourceStartFormatted = '';
+    if (this.opt.sourceStart !== false) {
+       this.opt.sourceStartFormatted = MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3);
+    }
 
     this.loaded = false;
     this.isMuted = false;
@@ -127,12 +135,26 @@ var Track = (function() {
     this.$muteButton.addClass('active');
   };
 
+  Track.prototype.onChangeClip = function(){
+    var left = this.opt.clipStart / this.opt.duration;
+    var width = this.opt.clipDur / this.opt.duration;
+    var right = 1.0 - Math.max(Math.min(left + width, 1.0), 0.0);
+
+    this.opt.sourceStartFormatted = MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3);
+
+    $('.clip-window-left').css('width', (left*100) + '%');
+    $('.clip-window-right').css('width', (right*100) + '%');
+    $('.track-time-'+this.opt.uid).text(this.opt.sourceStartFormatted);
+  };
+
   Track.prototype.onPlayerLoad = function(){
     console.log("Loaded", this.playerUrl)
     this.loaded = true;
     var dur = this.player.buffer.duration;
     this.opt.duration = dur;
-    this.opt.clipEnd = +dur.toFixed(3);
+    if (this.opt.clipDur <= 0) {
+      this.opt.clipDur = +dur.toFixed(3);
+    }
     this.loadPromise.resolve();
   };
 
@@ -152,9 +174,17 @@ var Track = (function() {
     //   _this.volume.volume.value = _.random(-6, 0);
     // }, rtime-0.001);
 
-    var dur = this.opt.clipEnd > 0 ? this.opt.clipEnd : "32n";
-    if (Math.abs(dur-this.opt.duration) <= 0.001) this.player.start(rtime);
-    else this.player.start(rtime, 0, dur, 0);
+    var dur = this.opt.clipDur > 0 ? this.opt.clipDur : "32n";
+    // console.log(rtime, this.opt.clipStart, dur)
+    if (Math.abs(dur-this.opt.duration) <= 0.001 && this.opt.clipStart === 0) {
+      this.player.start(rtime); // play the full file
+    } else {
+      dur = Math.min(dur, this.opt.duration-this.opt.clipStart);
+      if (dur > 0) {
+        this.player.start(rtime, this.opt.clipStart, dur, 0); // play the clip
+      }
+    }
+
   };
 
   Track.prototype.setGain = function(db){
@@ -174,6 +204,10 @@ var Track = (function() {
     this.$settingsDialog.html(html);
     this.$settingsParent.addClass('active');
     this.$settingsDialog.find('input').first().focus();
+    if (this.opt.clipImageUrl.length > 0) {
+      this.$settingsDialog.find('.waveform').attr('src', this.opt.clipImageUrl);
+    }
+    this.onChangeClip();
   };
 
   Track.prototype.solo = function(){
@@ -211,7 +245,23 @@ var Track = (function() {
   Track.prototype.update = function(track){
     var _this = this;
 
-    // change url
+    // extend track options
+    this.opt = _.extend(this.opt, track);
+    if (this.opt.sourceStart !== false) {
+       this.opt.sourceStartFormatted = MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3);
+    }
+
+    if (track.pattern) {
+      this.pattern = track.pattern;
+      this.originalPattern = this.pattern.slice(0);
+      this.patternEdits = [];
+    }
+
+    // reset track UI
+    this.$el.remove();
+    this.loadUI();
+
+    // load new URL if necessary
     if (track.url && track.url !== this.playerUrl) {
       this.loadPromise = $.Deferred();
       this.playerUrl = track.url;
@@ -220,26 +270,7 @@ var Track = (function() {
         _this.onPlayerLoad();
       });
     }
-    if (track.pattern) {
-      this.pattern = track.pattern;
-      this.originalPattern = this.pattern.slice(0);
-      this.patternEdits = [];
-      this.$el.find('.beat').each(function(i){
-        if (track.pattern[i] > 0) $(this).find('input').prop("checked", true);
-        else $(this).find('input').prop("checked", false);
-      });
-    }
 
-    if (track.title) {
-      var $title = this.$el.find('.track-title-text');
-      var title = track.typeLabel + ' ' + track.sequence + ': ' + track.title;
-      $title.text(title);
-      $title.attr('title', title);
-    }
-
-    if (track.url) {
-      this.$el.find('.play-audio, .download-audio').attr('href', track.url);
-    }
     return this.loadPromise;
   };
 
@@ -258,7 +289,8 @@ var Track = (function() {
     // console.log("update", property, value);
     this.opt[property] = value;
     $target.text(value);
-    if (property==="gain") this.setGain(value);
+    if (property==="clipStart" || property==="clipDur") this.onChangeClip();
+    else if (property==="gain") this.setGain(value);
     else if (property==="reverb") this.setReverb(value);
     else if (property==="pitchShift") this.setPitchShift(value);
   };

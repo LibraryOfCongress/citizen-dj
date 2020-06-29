@@ -170,6 +170,8 @@ select option {
 .dialog h2 {
   margin: 0;
   display: block;
+  font-size: 1.2rem;
+  line-height: 1.3;
 }
 .dialog .input-row {
   margin-top: 2rem;
@@ -185,7 +187,7 @@ select option {
   margin-right: 1rem;
 }
 .dialog .input-row input[type=range] {
-  width: 200px;
+  width: 300px;
 }
 .dialog .input-row {
   display: flex;
