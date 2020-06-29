@@ -10,7 +10,7 @@
     <h3>Part of: <a href="{{ page.collectionUrl }}">{{ page.collectionTitle }}</a></h3>
 
     {% if page.stream_url %}
-      <audio src="{{ page.stream_url }}" controls crossorigin="anonymous"></audio>
+      <audio src="{{ site.asset_url }}{{ page.stream_url }}" controls crossorigin="anonymous"></audio>
     {% endif %}
 
     {% if page.summary %}

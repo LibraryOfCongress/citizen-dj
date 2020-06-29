@@ -467,10 +467,11 @@ var Collections = (function() {
           } else if (item.stream_url && item.stream_url.length) {
             html += '<li>You also access in the player embedded below. Or <a href="'+ item.stream_url +'" download class="button small">click here to download</a>. The sample you hear starts at <strong class="phrase-start-time">'+startTimeF+'</strong>:';
             var isVideo = item.stream_url.endsWith('.mp4');
+            var assetBaseUrl = this.localItems ? this.opt.assetUrl : '';
             if (isVideo) {
-              html += '<video src="'+ item.stream_url +'" controls crossorigin="anonymous"></video></li>';
+              html += '<video src="'+ assetBaseUrl + item.stream_url +'" controls crossorigin="anonymous"></video></li>';
             } else {
-              html += '<audio src="'+ item.stream_url +'" controls crossorigin="anonymous"></audio></li>';
+              html += '<audio src="'+ assetBaseUrl + item.stream_url +'" controls crossorigin="anonymous"></audio></li>';
             }
           }
         html += '</ol>';
