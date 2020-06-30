@@ -10,6 +10,7 @@ var Track = (function() {
       "fadeIn": "128n",
       "fadeOut": "64n",
       "sourceStart": false,
+      "buffer": false,
       "clipStart": 0,
       "clipDur": 0,
       "reverb": 0.5,
@@ -94,21 +95,28 @@ var Track = (function() {
   Track.prototype.loadPlayer = function(){
     var _this = this;
 
+    if (!this.opt.buffer) {
+      console.log('Error: no buffer submitted for '+this.opt.url);
+      return;
+    }
+
     // // init player
     // this.reverb = new Tone.Freeverb(this.opt.reverb);
     // this.pitchShift = new Tone.PitchShift(this.opt.pitchShift);
     // this.volume = new Tone.Volume();
     this.playerUrl = this.opt.url;
+    // var input = this.opt.buffer !== false ? this.opt.buffer : this.opt.url;
     this.player = new Tone.Player({
-      "url": this.opt.url,
+      "url": this.opt.buffer,
       "volume": this.opt.gain,
       "fadeIn": this.opt.fadeIn,
-      "fadeOut": this.opt.fadeOut,
-      "onload": function(){ _this.onPlayerLoad(); }
+      "fadeOut": this.opt.fadeOut
+      // "onload": function(){ _this.onPlayerLoad(); }
     });
 
     if (this.recordingStreamDestination !== false) this.player.connect(this.recordingStreamDestination);
-    this.player.toMaster()
+    this.player.toMaster();
+    this.onPlayerLoad();
     // }).chain(this.pitchShift, this.reverb, Tone.Master);
   };
 
@@ -151,7 +159,7 @@ var Track = (function() {
   };
 
   Track.prototype.onPlayerLoad = function(){
-    console.log("Loaded", this.playerUrl)
+    console.log("Loaded from buffer", this.playerUrl);
     this.loaded = true;
     var dur = this.player.buffer.duration;
     this.opt.duration = dur;
@@ -201,13 +209,13 @@ var Track = (function() {
     // filename_hh-mm-ss.mp3
     var filename = _.last(this.opt.url.split('/'));
     filename = filename.slice(0, -12) + MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3).replace(':', '-') + '.wav';
-    var player = this.player;
+    var playerBuffer = this.opt.buffer;
     console.log('Rendering '+ filename);
     Tone.Offline(function(){
       //only nodes created in this callback will be recorded
       // var oscillator = new Tone.Oscillator().toMaster().start(0);
       var offlinePlayer = new Tone.Player({
-        'url': player.buffer.get(),
+        'url': playerBuffer,
         'fadeIn': _this.opt.fadeIn,
         'fadeOut': _this.opt.fadeOut,
       }).toMaster();
@@ -299,11 +307,9 @@ var Track = (function() {
     // load new URL if necessary
     if (track.url && track.url !== this.playerUrl) {
       this.loadPromise = $.Deferred();
-      this.playerUrl = track.url;
       this.loaded = false;
-      this.player.load(track.url, function(){
-        _this.onPlayerLoad();
-      });
+      this.player.dispose();
+      this.loadPlayer();
     }
 
     return this.loadPromise;

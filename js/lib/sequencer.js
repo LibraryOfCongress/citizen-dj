@@ -30,13 +30,12 @@ var Sequencer = (function() {
     this.loadUI();
 
     // init tracks
+    this.players = {}; // by url
     this.tracks = {};
     this.trackIds = [];
     this.$tracks = this.$el.find('.sequence').first();
 
-    _.each(this.opt.tracks, function(props, key) {
-      _this.addTrack(key, props);
-    });
+    this.loadTracks(this.opt.tracks);
 
     // set bpm
     this.setBPM(this.opt.bpm);
@@ -56,6 +55,8 @@ var Sequencer = (function() {
 
   Sequencer.prototype.addTrack = function(id, track, type){
     var promise;
+    var _this = this;
+
     track.id = id;
     track.template = this.trackTemplate;
     track.settingsTemplate = this.settingsTemplate;
@@ -63,7 +64,9 @@ var Sequencer = (function() {
     track.$settingsParent = this.$settings;
     track.recordingStreamDestination = this.opt.recordingStreamDestination;
     type = type || track.trackType;
+
     if (!_.has(this.trackIds, type)) this.trackIds[type] = [];
+    track.buffer = this.players[track.url].buffer.get();
 
     if (_.contains(this.trackIds[type], id)) {
       promise = this.tracks[id].update(track);
@@ -193,7 +196,48 @@ var Sequencer = (function() {
         _this.onChangeBeat($checkbox);
       });
     });
-  }
+  };
+
+  Sequencer.prototype.loadTracks = function(tracks, type){
+    var _this = this;
+
+    // remove any unused players
+    var trackUrls = _.pluck(tracks, 'url');
+    var newPlayers = this.players;
+    _.each(this.players, function(player, url){
+      if (_.findIndex(trackUrls, url) < 0) {
+        player.dispose();
+        newPlayers = _.omit(newPlayers, url);
+      }
+    });
+    this.players = newPlayers;
+
+    // load unloaded players
+    var playerPromises = [];
+    _.each(tracks, function(track, key){
+      if (!_.has(_this.players, track.url)) {
+        var deferred = $.Deferred();
+        _this.players[track.url] = new Tone.Player({
+          "url": track.url,
+          "onload": function(){
+            console.log('Loaded ' + track.url);
+            deferred.resolve();
+          }
+        });
+        playerPromises.push(deferred);
+      }
+    });
+    // if (playerPromises.length <= 0) playerPromises.push($.Deferred().resolve().promise());
+
+    var trackPromises = [];
+    $.when.apply(null, playerPromises).done(function() {
+      console.log('All players loaded');
+      _.each(tracks, function(props, key) {
+        trackPromises.push(_this.addTrack(key, props, type));
+      });
+    });
+    return trackPromises;
+  };
 
   Sequencer.prototype.loadTemplate = function(el, className){
     var $template = $(el).first().clone();
@@ -380,10 +424,7 @@ var Sequencer = (function() {
       });
     }
 
-    var promises = [];
-    _.each(tracks, function(props, key) {
-      promises.push(_this.addTrack(key, props, type));
-    });
+    var promises = this.loadTracks(tracks, type);
     $.when.apply(null, promises).done(function() {
       _this.onTrackUpdateLoaded();
     });
