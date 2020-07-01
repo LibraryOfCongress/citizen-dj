@@ -220,7 +220,8 @@ select option {
   margin-right: 1rem;
 }
 .dialog .input-row input[type=range] {
-  width: 300px;
+  width: 100%;
+  max-width: 400px;
 }
 .dialog .input-row {
   display: flex;
