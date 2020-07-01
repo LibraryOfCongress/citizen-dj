@@ -77,6 +77,80 @@ var Sequencer = (function() {
     return promise;
   };
 
+  Sequencer.prototype.downloadCurrentPattern = function($el){
+    if ($el.hasClass('downloading')) {
+      console.log('Already downloading pattern.');
+      return;
+    }
+
+    var _this = this;
+    $el.addClass('downloading');
+    var originalText = $el.text();
+    $el.text('Downloading...');
+
+    var filename = 'citizen-dj-sequence-' + Util.timeToString().replace(':','').replace(' ','-') + '.wav';
+    var patternDuration = Tone.Time(_this.subdStr).toSeconds() * _this.opt.subdivision;
+    console.log('Rendering '+ filename + ' with duration '+patternDuration+'s');
+    Tone.Offline(function(){
+      var offlinePlayers = {};
+
+      Tone.Transport.bpm.value = _this.bpm;
+      _.each(_this.tracks, function(track, id){
+        var offlinePlayer = new Tone.Player({
+          'url': track.player.buffer.get(),
+          'volume': track.opt.gain,
+          'fadeIn': track.opt.fadeIn,
+          'fadeOut': track.opt.fadeOut
+        }).toMaster();
+        offlinePlayers[id] = offlinePlayer;
+      });
+
+      var offlineLoop = new Tone.Sequence(function(time, col){
+        // console.log(time, col);
+        var secondsPerSubd = _this.secondsPerSubd;
+        // swing every second subdivision
+        var swing = _this.swing;
+        if (col % 2 < 1) swing = 0;
+        var swungTime = time + swing;
+
+        _.each(_this.tracks, function(track, key){
+          if (track.isMuted) return;
+          if (track.pattern[col] <= 0) return;
+
+          // randomize play time
+          var randomizeMagnitude = 0.1; // increase to make more random
+          var randAmount = randomizeMagnitude * secondsPerSubd;
+          var randDelta = Math.random() * randAmount;
+          var rtime = swungTime + randDelta;
+
+          var dur = track.opt.clipDur > 0 ? track.opt.clipDur : "32n";
+          // console.log(rtime, track.opt.clipStart, dur)
+          if (Math.abs(dur-track.opt.duration) <= 0.001 && track.opt.clipStart === 0) {
+            offlinePlayers[key].start(rtime); // play the full file
+          } else {
+            dur = Math.min(dur, track.opt.duration-track.opt.clipStart);
+            if (dur > 0) {
+              offlinePlayers[key].start(rtime, track.opt.clipStart, dur); // play the clip
+            }
+          }
+        });
+
+      }, _this.subdArr, _this.subdStr).start(0);
+      Tone.Transport.start();
+
+      //schedule their events
+    }, patternDuration).then(function(buffer){
+      console.log("Done rendering clip.");
+      //do something with the output buffer
+      var audioBuffer = buffer.get();
+      AudioUtils.audioBufferToWavfile(audioBuffer, filename);
+      $el.text(originalText);
+      $el.removeClass('downloading');
+    });
+
+
+  };
+
   Sequencer.prototype.downloadTrackAudio = function(trackId, $el){
     if (!_.has(this.tracks, trackId)) {
       console.log('No track ID found for '+trackId)
@@ -116,6 +190,11 @@ var Sequencer = (function() {
     // share url
     $('.share-pattern').on('click', function(e){
       window.prompt('Copy this URL to clipboard: Ctrl+C, Enter', window.location.href);
+    });
+
+    // download current pattern
+    $('.download-pattern').on('click', function(e){
+      _this.downloadCurrentPattern($(this));
     });
 
     // change tempo

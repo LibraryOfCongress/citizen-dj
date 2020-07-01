@@ -35,6 +35,14 @@
     }, 1000);
   };
 
+  Util.timeToString = function(dt){
+    dt = dt || new Date();
+    var date = dt.getFullYear()+'-'+(dt.getMonth()+1)+'-' + dt.getDate();
+    var time = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+    var dateTime = date+' '+time;
+    return dateTime;
+  };
+
 })();
 
 
