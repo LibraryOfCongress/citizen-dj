@@ -60,7 +60,6 @@ var Sequencer = (function() {
     track.id = id;
     track.template = this.trackTemplate;
     track.settingsTemplate = this.settingsTemplate;
-    track.$parent = this.$tracks;
     track.$settingsParent = this.$settings;
     track.recordingStreamDestination = this.opt.recordingStreamDestination;
     type = type || track.trackType;
@@ -115,7 +114,7 @@ var Sequencer = (function() {
     });
 
     // share url
-    $('.share-audio').on('click', function(e){
+    $('.share-pattern').on('click', function(e){
       window.prompt('Copy this URL to clipboard: Ctrl+C, Enter', window.location.href);
     });
 

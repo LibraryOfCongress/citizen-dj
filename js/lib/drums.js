@@ -4,12 +4,13 @@ var Drums = (function() {
 
   function Drums(config) {
     var defaults = {
-      "el": "#sequencer",
+      "parent": "#sequencer",
+      "el": "#drum-rack",
       "baseUrl": "",
       "drumsFile": "/data/drum_machines.json",
       "patternsFile": "/data/drum_patterns.json",
       "audioDir": "/audio/drum_machines/",
-      "gain": -9,
+      "gain": -12,
       "onChange": function(){},
       "onDataLoaded": function(){},
       "drumName": false,
@@ -31,6 +32,7 @@ var Drums = (function() {
   };
 
   Drums.prototype.init = function(){
+    this.$parent = $(this.opt.parent);
     this.$el = $(this.opt.el);
   };
 
@@ -115,6 +117,7 @@ var Drums = (function() {
             var title = _this.patternKey[bestInstrument.instrument] + " (" + drum.name + " drum machine)";
             tracks[instrument] = {
               "id": instrument,
+              "$parent": _this.$el,
               "pattern": pattern,
               "url": url,
               "title": title,
@@ -137,10 +140,9 @@ var Drums = (function() {
 
   Drums.prototype.loadUI = function(){
     var _this = this;
-    this.$el = $(this.opt.el);
 
     // load drum select
-    var $drumSelect = this.$el.find(".select-drum");
+    var $drumSelect = this.$parent.find(".select-drum");
     $drumSelect.empty();
     var html = '';
     _.each(this.drums, function(drum, index){
@@ -152,7 +154,7 @@ var Drums = (function() {
     this.$drumSelect = $drumSelect;
 
     // load pattern select
-    var $patternSelect = this.$el.find(".select-pattern");
+    var $patternSelect = this.$parent.find(".select-pattern");
     $patternSelect.empty();
     html = '';
     _.each(this.patterns, function(pattern, index){

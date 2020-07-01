@@ -7,59 +7,45 @@
 
   <main id="sequencer">
 
-    <nav aria-label="Sequence controls and modifiers" class="sequence-controls-nav">
-
-      <div class="selectors">
-        <div>
-          <label for="select-item">Choose an item:</label>
-          <select id="select-item" class="select-item"><option value="-1">Loading...</option></select>
-        </div>
-        <div>
-          <label for="select-pattern">and a beat pattern:</label>
-          <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
-        </div>
-        <div>
-          <label for="select-drum">and a drum machine:</label>
-          <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>
-        </div>
-      </div>
-
+    <nav aria-label="Sequence controls" class="sequence-controls-nav">
       <ul class="controls">
-        <li><button class="toggle-play">Play</button></li>
-        <li class="slider-item"><label for="tempo">BPM:</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input" /> <span class="bpm-text value-text">120</span></li>
-        <li><button class="randomize-collection">Shuffle item</button></li>
-        <li><button class="randomize-drum">Shuffle drums</button></li>
-        <li><button class="record-audio">Record</button></li>
-        <li><button href="#sources" class="scroll-to">Learn more</button></li>
-        <li><button class="share-audio">Share</button></li>
+        <li><button class="toggle-play inverted">Play</button></li>
+        <li class="slider-item"><label for="tempo">BPM:</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input inverted" /> <span class="bpm-text value-text ">120</span></li>
+        <li><button class="download-pattern inverted">Download pattern</button></li>
+        <li><button class="share-pattern inverted">Share pattern</button></li>
       </ul>
-
     </nav>
 
-    <!-- <nav aria-label="Sequence modifiers" class="sequence-modifiers">
-      <div class="nav-group nav-group-collection active">
-        <button class="randomize-collection" title="Choose a random item in this collection">Randomize Item</button>
-      </div>
-      <div class="nav-group nav-group-item active" role="group" title="Applies to just the samples within the current item selected">
-        <h4><span>Within current item</span></h4>
-        <div class="button-group">
-          <button class="prev-item" title="Cycle backward through the samples within the current item to slightly vary the current pattern">Prev</button>
-          <button class="randomize-item" title="Choose random samples within this item">Randomize</button>
-          <button class="next-item" title="Cycle forward through the samples within the current item to slightly vary the current pattern">Next</button>
-        </div>
-      </div>
-      <div class="nav-group nav-group-drum active" role="group">
-        <h4><span>Drum pattern</span></h4>
-        <div class="button-group">
-          <button class="prev-drum" title="Step to previous bar within current song's drum pattern">Prev</button>
-          <button class="randomize-drum" title="Choose a random drum pattern">Randomize</button>
-          <button class="next-drum" title="Step to next bar within current song's drum pattern">Next</button>
-        </div>
-      </div>
-    </nav> -->
-
     <h2 class="visually-hidden">Beat sequence</h2>
+
     <div class="sequence">
+      <div id="collection-rack" class="rack">
+        <h3>Choose an item to sample:</h3>
+        <ul class="controls rack-controls">
+          <li>
+            <select id="select-item" class="select-item"><option value="-1">Loading...</option></select>
+          </li>
+          <li><button class="randomize-collection small">Shuffle</button></li>
+          <li><button class="prev-collection small">Prev pattern</button></li>
+          <li><button class="next-collection small">Next pattern</button></li>
+          <li><a href="#sources" class="scroll-to button small">Item details</a></li>
+        </ul>
+      </div>
+      <div id="drum-rack" class="rack">
+        <h3>Choose your drum pattern:</h3>
+        <ul class="controls rack-controls">
+          <li>
+            <select id="select-pattern" class="select-pattern"><option value="-1">Loading...</option></select>
+          </li>
+          <li><button class="randomize-drum small">Shuffle</button></li>
+          <li><button class="prev-drum small">Prev pattern</button></li>
+          <li><button class="next-drum small">Next pattern</button></li>
+          <li class="has-label">
+            <label for="select-drum">drum machine:</label>
+            <select id="select-drum" class="select-drum"><option value="-1">Loading...</option></select>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="loading active">Loading sounds and beats...</div>
@@ -149,10 +135,7 @@
     <div class="track track-{{ trackType }}">
       <div class="track-info">
         <h3>{{ typeLabel }} {{ sequence }}: <a href="#sources" class="scroll-to">{{ title }}</a> <span class="track-time-start">(starting at <span class="track-time-{{ uid }}">{{ sourceStartFormatted }}</span>)</span></h3>
-        <a href="#prev" class="prev-{{ trackType }}"><img src="../../img/icon_play_prev.svg" alt="Play previous icon" title="Go to previous {{ typeLabel }} sequence" /></a>
         <a href="#play" class="play-track-audio" data-id="{{ id }}"><img src="../../img/icon_play.svg" alt="Play icon" title="Play this clip" /></a>
-        <a href="#next" class="next-{{ trackType }}"><img src="../../img/icon_play_next.svg" alt="Play next icon" title="Go to next {{ typeLabel }} sequence" /></a>
-        <a href="#sources" class="scroll-to"><img src="../../img/icon_info.svg" alt="Information icon" title="Information about this file" /></a>
       </div>
       <div class="track-controls">
         <div class="beats">

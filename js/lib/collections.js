@@ -4,7 +4,8 @@ var Collections = (function() {
 
   function Collections(config) {
     var defaults = {
-      "el": "#sequencer",
+      "parent": "#sequencer",
+      "el": "#collection-rack",
       "uid": "loc-john-and-ruby-lomax",
       "baseUrl": "",
       "metadataDir": "/data/metadata/",
@@ -36,6 +37,7 @@ var Collections = (function() {
     this.maxSubdivisions = 4;
     this.minSubdivisions = 4;
     this.localItems = this.opt.localItems && this.opt.localItems.length;
+    this.$parent = $(this.opt.parent);
     this.$el = $(this.opt.el);
   };
 
@@ -134,6 +136,7 @@ var Collections = (function() {
       var sample = samples[sampleIndex];
       tracks[sample.id] = {
         "id": sample.id,
+        "$parent": _this.$el,
         "pattern": trackPatterns[i],
         "url": sample.phraseFilename,
         "downloadUrl": sample.downloadUrl,
@@ -174,10 +177,9 @@ var Collections = (function() {
 
   Collections.prototype.loadUI = function(){
     var _this = this;
-    this.$el = $(this.opt.el);
 
     // load item select
-    var $itemSelect = this.$el.find(".select-item");
+    var $itemSelect = this.$parent.find(".select-item");
     $itemSelect.empty();
     var html = '';
     _.each(this.items, function(item, index){
@@ -557,7 +559,7 @@ var Collections = (function() {
   Collections.prototype.updateSource = function(){
     var startTime = this.item.samples[this.sampleIndex].sourceStart;
     var startTimeF = MathUtil.secondsToString(startTime/1000.0);
-    this.$el.find('.phrase-start-time').text(startTimeF);
+    this.$parent.find('.phrase-start-time').text(startTimeF);
   };
 
   return Collections;

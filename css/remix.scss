@@ -21,8 +21,7 @@ footer {
 .controls,
 .track-controls,
 .beats,
-.modifiers,
-.sequence-modifiers {
+.modifiers {
   display: flex;
 }
 
@@ -38,7 +37,7 @@ footer {
   box-sizing: border-box;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 3rem 0 2rem;
+  margin: 1rem 0 2rem;
   padding: 0 1rem;
   position: relative;
   z-index: 1;
@@ -48,15 +47,6 @@ footer {
   position: sticky;
   top: 0;
   z-index: 2;
-}
-.selectors {
-  font-size: 1.1rem;
-  line-height: 1.75;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 0.2rem 0.75rem 0.5rem;
   background: var(--dark-color);
   color: var(--lightest-color);
 }
@@ -64,9 +54,6 @@ footer {
   display: block;
   color: var(--lightest-color);
   white-space: nowrap;
-}
-.selectors > div {
-  padding: 0 0.25rem;
 }
 select.select-item {
   border-color: var(--collection-color);
@@ -84,7 +71,7 @@ select.select-drum {
   padding: 0.5rem 1rem;
   justify-content: flex-start;
   align-items: flex-end;
-  background: var(--lightest-color);
+  // background: var(--lightest-color);
   flex-wrap: nowrap;
 }
 .controls li {
@@ -102,7 +89,8 @@ select.select-drum {
   background: #c75262;
   color: white;
 }
-.controls button {
+.controls button,
+.controls .button {
   height: auto;
   line-height: 1;
   padding: 0.4rem 0.4rem;
@@ -118,6 +106,27 @@ select.select-drum {
 }
 .controls button.randomize-drum {
   border-color: var(--drum-color);
+}
+
+.rack {
+  min-height: 333px;
+}
+.rack-controls {
+  padding: 0.5rem 0;
+}
+.rack > h3 {
+  margin: 0;
+  line-height: 1;
+}
+.rack-controls label {
+  display: block;
+  font-size: 1rem;
+  margin: 0;
+  line-height: 1;
+  padding-left: 3px;
+}
+#drum-rack .rack-controls {
+  margin-top: -1rem;
 }
 
 .track {
@@ -427,6 +436,10 @@ select.select-drum {
 }
 
 @media only screen and (max-width: 830px) {
+  .rack {
+    min-height: 301px;
+  }
+
   .selectors > div {
     width: 31%;
     padding: 0 5px 0 0;
@@ -437,7 +450,8 @@ select.select-drum {
   .selectors label {
     font-size: 1rem;
   }
-  .controls button {
+  .controls button,
+  .controls .button {
     padding: 4px 2px;
   }
   .controls button.toggle-play {

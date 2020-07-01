@@ -15,8 +15,15 @@ input[type=range]::-webkit-slider-runnable-track {
   background: #000;
   border: 1px solid #000;
 }
+input[type=range].inverted::-webkit-slider-runnable-track {
+  background: white;
+  border: 1px solid white;
+}
 input[type=range]:focus::-webkit-slider-runnable-track {
   border-color: var(--darkest-color);
+}
+input[type=range].inverted:focus::-webkit-slider-runnable-track {
+  border-color: var(--lightest-color);
 }
 input[type=range]::-webkit-slider-thumb {
   border: none;
@@ -29,6 +36,10 @@ input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   margin-top: -14px;
 }
+input[type=range].inverted::-webkit-slider-thumb {
+  background: var(--darkest-color);
+  border: 1px solid white;
+}
 input[type=range]:focus::-webkit-slider-thumb {
   outline: 2px solid var(--drum-color);
 }
@@ -39,9 +50,16 @@ input[type=range]::-moz-range-track {
   background: #000;
   border: 1px solid #000;
 }
+input[type=range].inverted::-moz-range-track {
+  background: white;
+  border: 1px solid white;
+}
 input[type=range]:focus::-moz-range-track {
   border-color: var(--darkest-color);
   outline: none;
+}
+input[type=range].inverted:focus::-moz-range-track {
+  border-color: var(--lightest-color);
 }
 input[type=range]::-moz-range-thumb {
   border: 1px solid #000000;
@@ -50,6 +68,10 @@ input[type=range]::-moz-range-thumb {
   border-radius: 3px;
   background: var(--lightest-color);
   cursor: pointer;
+}
+input[type=range].inverted::-moz-range-thumb {
+  border: 1px solid white;
+  background: var(--darkest-color);
 }
 input[type=range]:focus::-moz-range-thumb {
   outline: 2px solid var(--drum-color);
@@ -67,10 +89,17 @@ input[type=range]::-ms-fill-lower {
   border: 1px solid #000;
   border-radius: 2.6px;
 }
+input[type=range].inverted::-ms-fill-lower {
+  border: 1px solid #fff;
+}
 input[type=range]::-ms-fill-upper {
   background: #000;
   border: 1px solid #000;
   border-radius: 2.6px;
+}
+input[type=range].inverted::-ms-fill-upper {
+  background: #fff;
+  border: 1px solid #fff;
 }
 input[type=range]::-ms-thumb {
   border: none;
@@ -81,6 +110,10 @@ input[type=range]::-ms-thumb {
   border: 1px solid #000000;
   cursor: pointer;
   height: 8.4px;
+}
+input[type=range].inverted::-ms-thumb {
+  background: var(--darkest-color);
+  border: 1px solid #fff;
 }
 input[type=range]:focus::-ms-thumb {
   outline: 2px solid var(--drum-color);

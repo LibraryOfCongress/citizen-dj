@@ -25,12 +25,12 @@ var RemixApp = (function() {
     this.hasQuery = !_.isEmpty(q);
 
     this.drums = new Drums({
-      "el": _this.opt.el,
+      "parent": _this.opt.el,
       "onChange": function(){ _this.onChangeDrums(); }
     });
 
     this.collections = new Collections({
-      "el": _this.opt.el,
+      "parent": _this.opt.el,
       "assetUrl": _this.opt.assetUrl,
       "onChange": function(){ _this.onChangeCollections(); }
     });
