@@ -102,10 +102,16 @@ select.select-drum {
   padding: 0.4rem 0.8rem;
 }
 .controls button.randomize-collection {
+  background: var(--collection-color);
   border-color: var(--collection-color);
 }
 .controls button.randomize-drum {
+  background: var(--drum-color);
   border-color: var(--drum-color);
+}
+.controls button.randomize-collection:hover,
+.controls button.randomize-drum:hover {
+  background: var(--lightest-color);
 }
 
 .rack {
