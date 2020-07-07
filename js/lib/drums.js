@@ -24,10 +24,7 @@ var Drums = (function() {
 
   function selectInstrument(instruments, instrumentKey) {
     var finstruments = _.where(instruments, {instrument: instrumentKey});
-    if (finstruments.length > 1) {
-      finstruments = _.sortBy(finstruments, 'priority');
-      return finstruments[0];
-    } else if (finstruments.length > 0) return finstruments[0];
+    if (finstruments.length > 0) return finstruments[0];
     else return false;
   };
 
@@ -208,34 +205,13 @@ var Drums = (function() {
 
     // parse patterns
     var patternItemHeadings = patternData.itemHeadings;
-    var patterns = [];
-    _.each(patternData.patterns, function(p, i){
-      var meta = _.object(patternItemHeadings, p);
-      var bars = meta.bars;
-      meta = _.omit(meta, 'bars');
-      _.each(bars, function(pattern, j){
-        patterns.push(_.extend({}, meta, {groupIndex: i, pattern: pattern, bar: (j+1), index: patterns.length}));
-      });
-    });
-    patterns = _.map(patterns, function(pattern){
-      // var name = pattern.artist + ' - ' + pattern.title + ' (' + pattern.year + ') [';
-      var name = pattern.label + ' [';
-      if (!Number.isInteger(pattern.category)) name += pattern.category + " ";
-      name += pattern.bar + ']';
-      pattern.name = name;
+    var patterns = _.map(patternData.patterns, function(p){
+      var pattern = _.object(patternItemHeadings, p);
       return pattern;
     });
     this.patterns = patterns;
-    // break patterns up into groups
-    var patternGroupsLookup = _.groupBy(patterns, 'groupIndex');
-    var patternGroups = [];
-    _.times(patternData.patterns.length, function(i){
-      var gpatterns = _.sortBy(patternGroupsLookup[i], 'bar');
-      patternGroups.push(gpatterns);
-    });
     this.patternKey = patternData.patternKey;
     this.patternIndex = _.random(0, this.patterns.length-1);
-    this.patternGroups = patternGroups;
 
     if (this.opt.patternName !== false) {
       var foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === _this.opt.patternName); });
@@ -278,16 +254,9 @@ var Drums = (function() {
 
   // step through the bars of the current pattern group
   Drums.prototype.step = function(amount){
-    var pattern = this.patterns[this.patternIndex];
-    var patternGroup = this.patternGroups[pattern.groupIndex];
-    if (patternGroup.length < 2) {
-      console.log('Only one pattern in this group');
-      return;
-    }
-    var barIndex = pattern.bar - 1 + amount;
-    barIndex = MathUtil.wrap(barIndex, 0, patternGroup.length-1);
-    var newPattern = patternGroup[barIndex];
-    this.$patternSelect.val(""+newPattern.index).trigger('change');
+    var index = this.patternIndex + amount;
+    index = MathUtil.wrap(index, 0, this.patterns.length-1);
+    this.$patternSelect.val(""+index).trigger('change');
   };
 
   Drums.prototype.toJSON = function(){
