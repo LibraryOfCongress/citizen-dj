@@ -4,7 +4,16 @@ var RemixApp = (function() {
 
   function RemixApp(config) {
     var defaults = {
-      "el": "#sequencer"
+      "el": "#sequencer",
+      "urlVarMap": { // aliases for url query vars
+        "bpm": "b",
+        "itemId": "i",
+        "itemStart": "s",
+        "drumId": "d",
+        "patternId": "p",
+        "patternEdits": "e",
+        "trackEdits": "t"
+      }
     };
     this.opt = _.extend({}, defaults, config);
     this.init();
@@ -27,11 +36,13 @@ var RemixApp = (function() {
 
     this.drums = new Drums({
       "parent": _this.opt.el,
+      "urlVarMap": _this.opt.urlVarMap,
       "onChange": function(){ _this.onChangeDrums(); }
     });
 
     this.collections = new Collections({
       "parent": _this.opt.el,
+      "urlVarMap": _this.opt.urlVarMap,
       "assetUrl": _this.opt.assetUrl,
       "onChange": function(){ _this.onChangeCollections(); }
     });
@@ -76,6 +87,7 @@ var RemixApp = (function() {
 
     this.sequencer = new Sequencer({
       "el": _this.opt.el,
+      "urlVarMap": _this.opt.urlVarMap,
       "tracks": tracks,
       "onChange": onChange,
       "recordingStreamDestination": this.recordingStreamDestination
@@ -112,7 +124,7 @@ var RemixApp = (function() {
 
   RemixApp.prototype.updateURL = function(replace){
     var data = _.extend({}, this.sequencer.toJSON(), this.collections.toJSON(), this.drums.toJSON());
-
+    data = Util.mapVars(data, this.opt.urlVarMap);
     var urlEncoded = $.param(data);
     // console.log(urlEncoded);
 

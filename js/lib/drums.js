@@ -14,10 +14,15 @@ var Drums = (function() {
       "onChange": function(){},
       "onDataLoaded": function(){},
       "drumName": false,
-      "patternName": false
+      "patternName": false,
+      "drumId": false,
+      "patternId": false
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = Util.queryParams();
+    if (config.urlVarMap) {
+      q = Util.mapVars(q, config.urlVarMap, true);
+    }
     this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
   }
@@ -198,10 +203,14 @@ var Drums = (function() {
     // this.drumIndex = _.random(0, this.drums.length-1);
     this.drumIndex = 0;
 
+    // check for existing drum
+    var foundIndex = -1;
     if (this.opt.drumName !== false) {
-      var foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === _this.opt.drumName); });
-      if (foundIndex >= 0) this.drumIndex = foundIndex;
+      foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === _this.opt.drumName); });
+    } else if (this.opt.drumId !== false) {
+      foundIndex = _.findIndex(this.drums, function(drum){ return (drum.id === _this.opt.drumId); });
     }
+    if (foundIndex >= 0) this.drumIndex = foundIndex;
 
     // parse patterns
     var patternItemHeadings = patternData.itemHeadings;
@@ -213,10 +222,14 @@ var Drums = (function() {
     this.patternKey = patternData.patternKey;
     this.patternIndex = _.random(0, this.patterns.length-1);
 
+    // check for existing pattern
+    var foundPIndex = -1;
     if (this.opt.patternName !== false) {
-      var foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === _this.opt.patternName); });
-      if (foundPIndex >= 0) this.patternIndex = foundPIndex;
+      foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === _this.opt.patternName); });
+    } else if (this.opt.patternId !== false) {
+      foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.id === _this.opt.patternId); });
     }
+    if (foundPIndex >= 0) this.patternIndex = foundPIndex;
   };
 
   Drums.prototype.randomize = function(){
@@ -227,23 +240,29 @@ var Drums = (function() {
   Drums.prototype.reloadFromUrl = function(){
     var q = Util.queryParams();
     var changed = false;
+    var foundIndex = -1;
 
     if (q.drumName !== undefined) {
-      var foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === q.drumName); });
-      if (foundIndex >= 0) {
-        this.drumIndex = foundIndex;
-        this.$drumSelect.val(""+foundIndex);
-        changed = true;
-      }
+      foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === q.drumName); });
+    } else if (q.drumId !== undefined) {
+      foundIndex = _.findIndex(this.drums, function(drum){ return (drum.id === q.drumId); });
+    }
+    if (foundIndex >= 0) {
+      this.drumIndex = foundIndex;
+      this.$drumSelect.val(""+foundIndex);
+      changed = true;
     }
 
+    var foundPIndex = -1;
     if (q.patternName !== undefined) {
-      var foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === q.patternName); });
-      if (foundPIndex >= 0) {
-        this.patternIndex = foundPIndex;
-        this.$patternSelect.val(""+foundPIndex);
-        changed = true;
-      }
+      foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === q.patternName); });
+    } else if (q.patternId !== undefined) {
+      foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.id === q.patternId); });
+    }
+    if (foundPIndex >= 0) {
+      this.patternIndex = foundPIndex;
+      this.$patternSelect.val(""+foundPIndex);
+      changed = true;
     }
 
     if (!changed) return;
@@ -261,8 +280,8 @@ var Drums = (function() {
 
   Drums.prototype.toJSON = function(){
     var data = {
-      "drumName": this.drums[this.drumIndex].name,
-      "patternName": this.patterns[this.patternIndex].name
+      "drumId": this.drums[this.drumIndex].id,
+      "patternId": this.patterns[this.patternIndex].id
     };
     return data;
   };

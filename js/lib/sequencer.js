@@ -15,6 +15,9 @@ var Sequencer = (function() {
     this.defaultBPM = defaults.bpm;
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = Util.queryParams();
+    if (config.urlVarMap) {
+      q = Util.mapVars(q, config.urlVarMap, true);
+    }
     this.opt = _.extend({}, defaults, config, globalConfig, q);
     this.init();
   }

@@ -18,6 +18,19 @@
     return string;
   };
 
+  Util.mapVars = function(obj, map, reverse){
+    if (reverse===true) {
+      map = _.invert(map);
+    }
+    _.each(obj, function(value, key){
+      if (_.has(map, key)) {
+        obj[map[key]] = value;
+        obj = _.omit(obj, key);
+      }
+    });
+    return obj;
+  };
+
   Util.queryParams = function(){
     if (location.search.length) {
       var search = location.search.substring(1);
