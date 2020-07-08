@@ -28,12 +28,12 @@ var Track = (function() {
   }
 
   Track.stringToTrackPatternEdits = function(string){
-    var patternEdits = string.split("&");
+    var patternEdits = string.split("!");
     patternEdits = _.map(patternEdits, function(p){
-      var parts = p.split("=");
+      var parts = p.split("_");
       return {
         "index": parseInt(parts[0]),
-        "patternEdits": _.map(parts[1].split(","), function(pp){ return parseInt(pp); })
+        "patternEdits": _.map(parts[1].split("-"), function(pp){ return parseInt(pp); })
       }
     });
     return patternEdits;
@@ -41,8 +41,10 @@ var Track = (function() {
 
   Track.trackPatternEditsToString = function(tracks){
     var patternString = "";
+    var trackKeys = _.keys(tracks);
+    trackKeys.sort();
     // add pattern edits if there are any
-    var trackPatternEdits = _.map(_.keys(tracks), function(key, i){
+    var trackPatternEdits = _.map(trackKeys, function(key, i){
       return {
         "patternEdits": tracks[key].patternEdits ? tracks[key].patternEdits.slice(0) : [],
         "index": i
@@ -50,8 +52,8 @@ var Track = (function() {
     });
     trackPatternEdits = _.filter(trackPatternEdits, function(t){ return t.patternEdits.length > 0; });
     if (trackPatternEdits.length > 0) {
-      trackPatternEdits = _.map(trackPatternEdits, function(t){ return t.index + "=" + t.patternEdits.join(",")});
-      patternString = trackPatternEdits.join("&");
+      trackPatternEdits = _.map(trackPatternEdits, function(t){ return t.index + "_" + t.patternEdits.join("-")});
+      patternString = trackPatternEdits.join("!");
     }
     return patternString;
   }

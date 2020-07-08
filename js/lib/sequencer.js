@@ -38,22 +38,23 @@ var Sequencer = (function() {
     this.trackIds = [];
     this.$tracks = this.$el.find('.sequence').first();
 
-    this.loadTracks(this.opt.tracks);
+    var playerPromises = this.loadPlayers(this.opt.tracks);
+    $.when.apply(null, playerPromises).done(function() {
+      console.log('Loaded all players');
+
+      var trackPromises = _this.loadTracks(_this.opt.tracks);
+
+      // set pattern edits
+      if (_this.opt.patternEdits && _this.opt.patternEdits.length) {
+        $.when.apply(null, trackPromises).done(function() {
+          console.log('Loaded all tracks');
+          _this.onReady();
+        });
+      }
+    });
 
     // set bpm
     this.setBPM(this.opt.bpm);
-
-    // set pattern edits
-    if (this.opt.patternEdits && this.opt.patternEdits.length) {
-      this.loadPatternEdits(this.opt.patternEdits);
-    }
-
-    // start the loop
-    this.loop = new Tone.Sequence(function(time, col){
-      _this.onStep(time, col);
-    }, this.subdArr, this.subdStr).start(0);
-
-    this.loadListeners();
   };
 
   Sequencer.prototype.addTrack = function(id, track, type){
@@ -266,6 +267,7 @@ var Sequencer = (function() {
     var _this = this;
     var tracks = this.tracks;
     var trackKeys = _.keys(tracks);
+    trackKeys.sort();
     var patternEdits = Track.stringToTrackPatternEdits(patternEditsString);
     _.each(patternEdits, function(p){
       var key = trackKeys[p.index];
@@ -279,7 +281,7 @@ var Sequencer = (function() {
     });
   };
 
-  Sequencer.prototype.loadTracks = function(tracks, type){
+  Sequencer.prototype.loadPlayers = function(tracks){
     var _this = this;
 
     // remove any unused players
@@ -308,14 +310,14 @@ var Sequencer = (function() {
         playerPromises.push(deferred);
       }
     });
-    // if (playerPromises.length <= 0) playerPromises.push($.Deferred().resolve().promise());
+    return playerPromises;
+  };
 
+  Sequencer.prototype.loadTracks = function(tracks, type){
+    var _this = this;
     var trackPromises = [];
-    $.when.apply(null, playerPromises).done(function() {
-      console.log('All players loaded');
-      _.each(tracks, function(props, key) {
-        trackPromises.push(_this.addTrack(key, props, type));
-      });
+    _.each(tracks, function(props, key) {
+      trackPromises.push(_this.addTrack(key, props, type));
     });
     return trackPromises;
   };
@@ -383,6 +385,19 @@ var Sequencer = (function() {
         else track.unmute();
       }
     });
+  };
+
+  Sequencer.prototype.onReady = function(){
+    var _this = this;
+
+    // start the loop
+    this.loop = new Tone.Sequence(function(time, col){
+      _this.onStep(time, col);
+    }, this.subdArr, this.subdStr).start(0);
+
+    this.loadPatternEdits(this.opt.patternEdits);
+
+    this.loadListeners();
   };
 
   Sequencer.prototype.onStep = function(time, col){
@@ -486,7 +501,7 @@ var Sequencer = (function() {
 
     // add pattern edits if there are any
     var patternEditsString = Track.trackPatternEditsToString(this.tracks);
-    if (patternEditsString.length > 0) data['patternEdits'] = patternEditsString;
+    if (patternEditsString.length > 0) data.patternEdits = patternEditsString;
 
     // return bpm if not default
     if (this.bpm !== this.defaultBPM) {
@@ -505,9 +520,15 @@ var Sequencer = (function() {
       });
     }
 
-    var promises = this.loadTracks(tracks, type);
-    $.when.apply(null, promises).done(function() {
-      _this.onTrackUpdateLoaded();
+    var playerPromises = this.loadPlayers(tracks);
+    $.when.apply(null, playerPromises).done(function() {
+      console.log('Loaded all players');
+
+      var trackPromises = _this.loadTracks(tracks, type);
+      $.when.apply(null, trackPromises).done(function() {
+        console.log('Loaded all tracks');
+        _this.onTrackUpdateLoaded();
+      });
     });
   };
 
