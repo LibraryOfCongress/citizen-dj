@@ -74,6 +74,9 @@ $collectionTabHeightMobile: $collectionHeightMobile - 4px;
 .collection-header nav > ul > li:last-child {
   margin-right: 1rem;
 }
+.collection-header nav > ul > li.collection-links {
+  margin-bottom: -16px;
+}
 
 .collection-header .submenu-link {
   overflow: hidden;
@@ -122,6 +125,9 @@ footer {
   }
   .collection-header nav > ul > li:last-child {
     margin-right: 0;
+  }
+  .collection-header nav > ul > li.collection-links {
+    margin-bottom: 0;
   }
 
   .collection-header button.submenu-link {
