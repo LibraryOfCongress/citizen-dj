@@ -134,6 +134,12 @@ select.select-drum {
 #drum-rack .rack-controls {
   margin-top: -1rem;
 }
+.rack .loading {
+  display: none;
+}
+.rack .loading:last-child {
+  display: block;
+}
 
 .track {
   margin-bottom: 0.5rem;
