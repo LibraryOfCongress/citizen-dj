@@ -43,14 +43,10 @@ var Sequencer = (function() {
       console.log('Loaded all players');
 
       var trackPromises = _this.loadTracks(_this.opt.tracks);
-
-      // set pattern edits
-      if (_this.opt.patternEdits && _this.opt.patternEdits.length) {
-        $.when.apply(null, trackPromises).done(function() {
-          console.log('Loaded all tracks');
-          _this.onReady();
-        });
-      }
+      $.when.apply(null, trackPromises).done(function() {
+        console.log('Loaded all tracks');
+        _this.onReady();
+      });
     });
 
     // set bpm
@@ -395,7 +391,9 @@ var Sequencer = (function() {
       _this.onStep(time, col);
     }, this.subdArr, this.subdStr).start(0);
 
-    this.loadPatternEdits(this.opt.patternEdits);
+    if (_this.opt.patternEdits && _this.opt.patternEdits.length) {
+      this.loadPatternEdits(this.opt.patternEdits);
+    }
 
     this.loadListeners();
   };
