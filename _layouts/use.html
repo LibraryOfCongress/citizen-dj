@@ -12,7 +12,7 @@
 
       <p><a href="{{ page.source_url }}" target="_blank" class="button">View this collection on the {{ page.source }} website</a></p>
 
-      <h3>Download files in bulk</h3>
+      <h3><a name="download"></a>Download files in bulk</h3>
 
       {% assign package = site.data[page.uid] %}
 
@@ -24,15 +24,15 @@
         {% endfor %}
       </ul>
 
-      <h3>Rights &amp; access</h3>
+      <h3><a name="rights"></a>Rights &amp; access</h3>
 
       <p>{{ page.rights }}</p>
 
-      <h3>Suggested credit line</h3>
+      <h3><a name="credit"></a>Suggested credit line</h3>
 
       <p>Citizen DJ Project, {{ page.credit }}</p>
 
-      <h3>Browse &amp; preview files</h3>
+      <h3><a name="browse"></a>Browse &amp; preview files</h3>
 
       <p>Click the files below to preview the audio segments:</p>
 
