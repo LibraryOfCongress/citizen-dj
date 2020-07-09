@@ -13,1632 +13,1733 @@
             "comment": "Ideal for production"
         }
     ],
-    "clips": [
+    "clips": [],
+    "items": [
         {
-            "filename": "Abe-Lincoln-1962_378587_001_00-06-47.mp3",
+            "id": "378587",
             "title": "Abe Lincoln, 1962",
-            "timestamp": "06:47",
-            "url": "/items/loc-tony-schwartz/378587/"
+            "url": "/items/loc-tony-schwartz/378587/",
+            "clips": [
+                {
+                    "filename": "Abe-Lincoln-1962_378587_001_00-06-47",
+                    "timeStamp": "06:47",
+                    "start": 408000
+                },
+                {
+                    "filename": "Abe-Lincoln-1962_378587_002_00-12-36",
+                    "timeStamp": "12:36",
+                    "start": 757000
+                },
+                {
+                    "filename": "Abe-Lincoln-1962_378587_003_00-12-46",
+                    "timeStamp": "12:46",
+                    "start": 767000
+                },
+                {
+                    "filename": "Abe-Lincoln-1962_378587_004_00-13-23",
+                    "timeStamp": "13:23",
+                    "start": 804000
+                },
+                {
+                    "filename": "Abe-Lincoln-1962_378587_005_00-14-21",
+                    "timeStamp": "14:21",
+                    "start": 862000
+                },
+                {
+                    "filename": "Abe-Lincoln-1962_378587_006_00-18-14",
+                    "timeStamp": "18:14",
+                    "start": 1095000
+                }
+            ]
         },
         {
-            "filename": "Abe-Lincoln-1962_378587_002_00-12-36.mp3",
-            "title": "Abe Lincoln, 1962",
-            "timestamp": "12:36",
-            "url": "/items/loc-tony-schwartz/378587/"
-        },
-        {
-            "filename": "Abe-Lincoln-1962_378587_003_00-12-46.mp3",
-            "title": "Abe Lincoln, 1962",
-            "timestamp": "12:46",
-            "url": "/items/loc-tony-schwartz/378587/"
-        },
-        {
-            "filename": "Abe-Lincoln-1962_378587_004_00-13-23.mp3",
-            "title": "Abe Lincoln, 1962",
-            "timestamp": "13:23",
-            "url": "/items/loc-tony-schwartz/378587/"
-        },
-        {
-            "filename": "Abe-Lincoln-1962_378587_005_00-14-21.mp3",
-            "title": "Abe Lincoln, 1962",
-            "timestamp": "14:21",
-            "url": "/items/loc-tony-schwartz/378587/"
-        },
-        {
-            "filename": "Abe-Lincoln-1962_378587_006_00-18-14.mp3",
-            "title": "Abe Lincoln, 1962",
-            "timestamp": "18:14",
-            "url": "/items/loc-tony-schwartz/378587/"
-        },
-        {
-            "filename": "Airplane-Vic-Jet-trip-3_500469_001_00-07-51.mp3",
+            "id": "500469",
             "title": "Airplane Vic Jet trip #3",
-            "timestamp": "07:51",
-            "url": "/items/loc-tony-schwartz/500469/"
+            "url": "/items/loc-tony-schwartz/500469/",
+            "clips": [
+                {
+                    "filename": "Airplane-Vic-Jet-trip-3_500469_001_00-07-51",
+                    "timeStamp": "07:51",
+                    "start": 472000
+                },
+                {
+                    "filename": "Airplane-Vic-Jet-trip-3_500469_002_00-10-58",
+                    "timeStamp": "10:58",
+                    "start": 659000
+                },
+                {
+                    "filename": "Airplane-Vic-Jet-trip-3_500469_003_00-20-32",
+                    "timeStamp": "20:32",
+                    "start": 1233000
+                },
+                {
+                    "filename": "Airplane-Vic-Jet-trip-3_500469_004_00-21-02",
+                    "timeStamp": "21:02",
+                    "start": 1263000
+                },
+                {
+                    "filename": "Airplane-Vic-Jet-trip-3_500469_005_00-21-32",
+                    "timeStamp": "21:32",
+                    "start": 1293000
+                },
+                {
+                    "filename": "Airplane-Vic-Jet-trip-3_500469_006_00-22-16",
+                    "timeStamp": "22:16",
+                    "start": 1337000
+                }
+            ]
         },
         {
-            "filename": "Airplane-Vic-Jet-trip-3_500469_002_00-10-58.mp3",
-            "title": "Airplane Vic Jet trip #3",
-            "timestamp": "10:58",
-            "url": "/items/loc-tony-schwartz/500469/"
-        },
-        {
-            "filename": "Airplane-Vic-Jet-trip-3_500469_003_00-20-32.mp3",
-            "title": "Airplane Vic Jet trip #3",
-            "timestamp": "20:32",
-            "url": "/items/loc-tony-schwartz/500469/"
-        },
-        {
-            "filename": "Airplane-Vic-Jet-trip-3_500469_004_00-21-02.mp3",
-            "title": "Airplane Vic Jet trip #3",
-            "timestamp": "21:02",
-            "url": "/items/loc-tony-schwartz/500469/"
-        },
-        {
-            "filename": "Airplane-Vic-Jet-trip-3_500469_005_00-21-32.mp3",
-            "title": "Airplane Vic Jet trip #3",
-            "timestamp": "21:32",
-            "url": "/items/loc-tony-schwartz/500469/"
-        },
-        {
-            "filename": "Airplane-Vic-Jet-trip-3_500469_006_00-22-16.mp3",
-            "title": "Airplane Vic Jet trip #3",
-            "timestamp": "22:16",
-            "url": "/items/loc-tony-schwartz/500469/"
-        },
-        {
-            "filename": "Announcer-Process_214052_001_00-01-13.mp3",
+            "id": "214052",
             "title": "Announcer - Process",
-            "timestamp": "01:13",
-            "url": "/items/loc-tony-schwartz/214052/"
+            "url": "/items/loc-tony-schwartz/214052/",
+            "clips": [
+                {
+                    "filename": "Announcer-Process_214052_001_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "Announcer-Process_214052_002_00-02-36",
+                    "timeStamp": "02:36",
+                    "start": 157000
+                }
+            ]
         },
         {
-            "filename": "Announcer-Process_214052_002_00-02-36.mp3",
-            "title": "Announcer - Process",
-            "timestamp": "02:36",
-            "url": "/items/loc-tony-schwartz/214052/"
-        },
-        {
-            "filename": "Anton-Schwartz-interviews-Tony-Schwartz-1988-12-25_243111_001_01-03-16.mp3",
+            "id": "243111",
             "title": "Anton Schwartz interviews Tony Schwartz, 1988-12-25",
-            "timestamp": "01:03:16",
-            "url": "/items/loc-tony-schwartz/243111/"
+            "url": "/items/loc-tony-schwartz/243111/",
+            "clips": [
+                {
+                    "filename": "Anton-Schwartz-interviews-Tony-Schwartz-1988-12-25_243111_001_01-03-16",
+                    "timeStamp": "01:03:16",
+                    "start": 3797000
+                }
+            ]
         },
         {
-            "filename": "Archive-R-1_345006_001_00-04-12.mp3",
+            "id": "345006",
             "title": "Archive R-1",
-            "timestamp": "04:12",
-            "url": "/items/loc-tony-schwartz/345006/"
+            "url": "/items/loc-tony-schwartz/345006/",
+            "clips": [
+                {
+                    "filename": "Archive-R-1_345006_001_00-04-12",
+                    "timeStamp": "04:12",
+                    "start": 253000
+                },
+                {
+                    "filename": "Archive-R-1_345006_002_00-04-28",
+                    "timeStamp": "04:28",
+                    "start": 269000
+                },
+                {
+                    "filename": "Archive-R-1_345006_003_00-04-33",
+                    "timeStamp": "04:33",
+                    "start": 274000
+                },
+                {
+                    "filename": "Archive-R-1_345006_004_00-04-47",
+                    "timeStamp": "04:47",
+                    "start": 288000
+                },
+                {
+                    "filename": "Archive-R-1_345006_005_00-04-56",
+                    "timeStamp": "04:56",
+                    "start": 297000
+                },
+                {
+                    "filename": "Archive-R-1_345006_006_00-19-13",
+                    "timeStamp": "19:13",
+                    "start": 1154000
+                }
+            ]
         },
         {
-            "filename": "Archive-R-1_345006_002_00-04-28.mp3",
-            "title": "Archive R-1",
-            "timestamp": "04:28",
-            "url": "/items/loc-tony-schwartz/345006/"
-        },
-        {
-            "filename": "Archive-R-1_345006_003_00-04-33.mp3",
-            "title": "Archive R-1",
-            "timestamp": "04:33",
-            "url": "/items/loc-tony-schwartz/345006/"
-        },
-        {
-            "filename": "Archive-R-1_345006_004_00-04-47.mp3",
-            "title": "Archive R-1",
-            "timestamp": "04:47",
-            "url": "/items/loc-tony-schwartz/345006/"
-        },
-        {
-            "filename": "Archive-R-1_345006_005_00-04-56.mp3",
-            "title": "Archive R-1",
-            "timestamp": "04:56",
-            "url": "/items/loc-tony-schwartz/345006/"
-        },
-        {
-            "filename": "Archive-R-1_345006_006_00-19-13.mp3",
-            "title": "Archive R-1",
-            "timestamp": "19:13",
-            "url": "/items/loc-tony-schwartz/345006/"
-        },
-        {
-            "filename": "Attitudes--the-subways_123112_001_00-00-39.mp3",
+            "id": "123112",
             "title": "Attitudes & the subways",
-            "timestamp": "00:39",
-            "url": "/items/loc-tony-schwartz/123112/"
+            "url": "/items/loc-tony-schwartz/123112/",
+            "clips": [
+                {
+                    "filename": "Attitudes--the-subways_123112_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Attitudes--the-subways_123112_002_00-02-26",
+                    "timeStamp": "02:26",
+                    "start": 147000
+                },
+                {
+                    "filename": "Attitudes--the-subways_123112_003_00-02-52",
+                    "timeStamp": "02:52",
+                    "start": 173000
+                },
+                {
+                    "filename": "Attitudes--the-subways_123112_004_00-03-49",
+                    "timeStamp": "03:49",
+                    "start": 230000
+                },
+                {
+                    "filename": "Attitudes--the-subways_123112_005_00-03-57",
+                    "timeStamp": "03:57",
+                    "start": 238000
+                },
+                {
+                    "filename": "Attitudes--the-subways_123112_006_00-04-17",
+                    "timeStamp": "04:17",
+                    "start": 258000
+                }
+            ]
         },
         {
-            "filename": "Attitudes--the-subways_123112_002_00-02-26.mp3",
-            "title": "Attitudes & the subways",
-            "timestamp": "02:26",
-            "url": "/items/loc-tony-schwartz/123112/"
-        },
-        {
-            "filename": "Attitudes--the-subways_123112_003_00-02-52.mp3",
-            "title": "Attitudes & the subways",
-            "timestamp": "02:52",
-            "url": "/items/loc-tony-schwartz/123112/"
-        },
-        {
-            "filename": "Attitudes--the-subways_123112_004_00-03-49.mp3",
-            "title": "Attitudes & the subways",
-            "timestamp": "03:49",
-            "url": "/items/loc-tony-schwartz/123112/"
-        },
-        {
-            "filename": "Attitudes--the-subways_123112_005_00-03-57.mp3",
-            "title": "Attitudes & the subways",
-            "timestamp": "03:57",
-            "url": "/items/loc-tony-schwartz/123112/"
-        },
-        {
-            "filename": "Attitudes--the-subways_123112_006_00-04-17.mp3",
-            "title": "Attitudes & the subways",
-            "timestamp": "04:17",
-            "url": "/items/loc-tony-schwartz/123112/"
-        },
-        {
-            "filename": "Automobile-reel-1_148695_001_00-13-27.mp3",
+            "id": "148695",
             "title": "Automobile (reel 1)",
-            "timestamp": "13:27",
-            "url": "/items/loc-tony-schwartz/148695/"
+            "url": "/items/loc-tony-schwartz/148695/",
+            "clips": [
+                {
+                    "filename": "Automobile-reel-1_148695_001_00-13-27",
+                    "timeStamp": "13:27",
+                    "start": 808000
+                }
+            ]
         },
         {
-            "filename": "Buying-old-suit_121513_001_00-00-38.mp3",
+            "id": "121513",
             "title": "Buying old suit",
-            "timestamp": "00:38",
-            "url": "/items/loc-tony-schwartz/121513/"
+            "url": "/items/loc-tony-schwartz/121513/",
+            "clips": [
+                {
+                    "filename": "Buying-old-suit_121513_001_00-00-38",
+                    "timeStamp": "00:38",
+                    "start": 39000
+                },
+                {
+                    "filename": "Buying-old-suit_121513_002_00-01-48",
+                    "timeStamp": "01:48",
+                    "start": 109000
+                },
+                {
+                    "filename": "Buying-old-suit_121513_003_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                },
+                {
+                    "filename": "Buying-old-suit_121513_004_00-03-23",
+                    "timeStamp": "03:23",
+                    "start": 204000
+                }
+            ]
         },
         {
-            "filename": "Buying-old-suit_121513_002_00-01-48.mp3",
-            "title": "Buying old suit",
-            "timestamp": "01:48",
-            "url": "/items/loc-tony-schwartz/121513/"
-        },
-        {
-            "filename": "Buying-old-suit_121513_003_00-02-24.mp3",
-            "title": "Buying old suit",
-            "timestamp": "02:24",
-            "url": "/items/loc-tony-schwartz/121513/"
-        },
-        {
-            "filename": "Buying-old-suit_121513_004_00-03-23.mp3",
-            "title": "Buying old suit",
-            "timestamp": "03:23",
-            "url": "/items/loc-tony-schwartz/121513/"
-        },
-        {
-            "filename": "Children-November-1963_274279_001_00-06-51.mp3",
+            "id": "274279",
             "title": "Children: November 1963",
-            "timestamp": "06:51",
-            "url": "/items/loc-tony-schwartz/274279/"
+            "url": "/items/loc-tony-schwartz/274279/",
+            "clips": [
+                {
+                    "filename": "Children-November-1963_274279_001_00-06-51",
+                    "timeStamp": "06:51",
+                    "start": 412000
+                },
+                {
+                    "filename": "Children-November-1963_274279_002_00-06-58",
+                    "timeStamp": "06:58",
+                    "start": 419000
+                },
+                {
+                    "filename": "Children-November-1963_274279_003_00-07-12",
+                    "timeStamp": "07:12",
+                    "start": 433000
+                },
+                {
+                    "filename": "Children-November-1963_274279_004_00-09-12",
+                    "timeStamp": "09:12",
+                    "start": 553000
+                },
+                {
+                    "filename": "Children-November-1963_274279_005_00-09-45",
+                    "timeStamp": "09:45",
+                    "start": 586000
+                },
+                {
+                    "filename": "Children-November-1963_274279_006_00-11-41",
+                    "timeStamp": "11:41",
+                    "start": 702000
+                }
+            ]
         },
         {
-            "filename": "Children-November-1963_274279_002_00-06-58.mp3",
-            "title": "Children: November 1963",
-            "timestamp": "06:58",
-            "url": "/items/loc-tony-schwartz/274279/"
-        },
-        {
-            "filename": "Children-November-1963_274279_003_00-07-12.mp3",
-            "title": "Children: November 1963",
-            "timestamp": "07:12",
-            "url": "/items/loc-tony-schwartz/274279/"
-        },
-        {
-            "filename": "Children-November-1963_274279_004_00-09-12.mp3",
-            "title": "Children: November 1963",
-            "timestamp": "09:12",
-            "url": "/items/loc-tony-schwartz/274279/"
-        },
-        {
-            "filename": "Children-November-1963_274279_005_00-09-45.mp3",
-            "title": "Children: November 1963",
-            "timestamp": "09:45",
-            "url": "/items/loc-tony-schwartz/274279/"
-        },
-        {
-            "filename": "Children-November-1963_274279_006_00-11-41.mp3",
-            "title": "Children: November 1963",
-            "timestamp": "11:41",
-            "url": "/items/loc-tony-schwartz/274279/"
-        },
-        {
-            "filename": "Conversation-about-health-care_70874_001_00-08-39.mp3",
+            "id": "70874",
             "title": "Conversation about health care",
-            "timestamp": "08:39",
-            "url": "/items/loc-tony-schwartz/70874/"
+            "url": "/items/loc-tony-schwartz/70874/",
+            "clips": [
+                {
+                    "filename": "Conversation-about-health-care_70874_001_00-08-39",
+                    "timeStamp": "08:39",
+                    "start": 520000
+                },
+                {
+                    "filename": "Conversation-about-health-care_70874_002_00-13-13",
+                    "timeStamp": "13:13",
+                    "start": 794000
+                },
+                {
+                    "filename": "Conversation-about-health-care_70874_003_00-14-18",
+                    "timeStamp": "14:18",
+                    "start": 859000
+                },
+                {
+                    "filename": "Conversation-about-health-care_70874_004_00-14-36",
+                    "timeStamp": "14:36",
+                    "start": 877000
+                },
+                {
+                    "filename": "Conversation-about-health-care_70874_005_00-17-21",
+                    "timeStamp": "17:21",
+                    "start": 1042000
+                },
+                {
+                    "filename": "Conversation-about-health-care_70874_006_00-18-10",
+                    "timeStamp": "18:10",
+                    "start": 1091000
+                }
+            ]
         },
         {
-            "filename": "Conversation-about-health-care_70874_002_00-13-13.mp3",
-            "title": "Conversation about health care",
-            "timestamp": "13:13",
-            "url": "/items/loc-tony-schwartz/70874/"
-        },
-        {
-            "filename": "Conversation-about-health-care_70874_003_00-14-18.mp3",
-            "title": "Conversation about health care",
-            "timestamp": "14:18",
-            "url": "/items/loc-tony-schwartz/70874/"
-        },
-        {
-            "filename": "Conversation-about-health-care_70874_004_00-14-36.mp3",
-            "title": "Conversation about health care",
-            "timestamp": "14:36",
-            "url": "/items/loc-tony-schwartz/70874/"
-        },
-        {
-            "filename": "Conversation-about-health-care_70874_005_00-17-21.mp3",
-            "title": "Conversation about health care",
-            "timestamp": "17:21",
-            "url": "/items/loc-tony-schwartz/70874/"
-        },
-        {
-            "filename": "Conversation-about-health-care_70874_006_00-18-10.mp3",
-            "title": "Conversation about health care",
-            "timestamp": "18:10",
-            "url": "/items/loc-tony-schwartz/70874/"
-        },
-        {
-            "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_001_00-00-51.mp3",
+            "id": "224073",
             "title": "Excerpts of Martin Luther King and Coretta Scott King speeches given",
-            "timestamp": "00:51",
-            "url": "/items/loc-tony-schwartz/224073/"
+            "url": "/items/loc-tony-schwartz/224073/",
+            "clips": [
+                {
+                    "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_002_00-04-43",
+                    "timeStamp": "04:43",
+                    "start": 284000
+                },
+                {
+                    "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_003_00-13-31",
+                    "timeStamp": "13:31",
+                    "start": 812000
+                },
+                {
+                    "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_004_00-14-13",
+                    "timeStamp": "14:13",
+                    "start": 854000
+                },
+                {
+                    "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_005_00-38-00",
+                    "timeStamp": "38:00",
+                    "start": 2281000
+                },
+                {
+                    "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_006_00-39-12",
+                    "timeStamp": "39:12",
+                    "start": 2353000
+                }
+            ]
         },
         {
-            "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_002_00-04-43.mp3",
-            "title": "Excerpts of Martin Luther King and Coretta Scott King speeches given",
-            "timestamp": "04:43",
-            "url": "/items/loc-tony-schwartz/224073/"
-        },
-        {
-            "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_003_00-13-31.mp3",
-            "title": "Excerpts of Martin Luther King and Coretta Scott King speeches given",
-            "timestamp": "13:31",
-            "url": "/items/loc-tony-schwartz/224073/"
-        },
-        {
-            "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_004_00-14-13.mp3",
-            "title": "Excerpts of Martin Luther King and Coretta Scott King speeches given",
-            "timestamp": "14:13",
-            "url": "/items/loc-tony-schwartz/224073/"
-        },
-        {
-            "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_005_00-38-00.mp3",
-            "title": "Excerpts of Martin Luther King and Coretta Scott King speeches given",
-            "timestamp": "38:00",
-            "url": "/items/loc-tony-schwartz/224073/"
-        },
-        {
-            "filename": "Excerpts-of-Martin-Luther-King-and-Coretta-Scott-King-speeches-given_224073_006_00-39-12.mp3",
-            "title": "Excerpts of Martin Luther King and Coretta Scott King speeches given",
-            "timestamp": "39:12",
-            "url": "/items/loc-tony-schwartz/224073/"
-        },
-        {
-            "filename": "Favorite-sounds_120997_001_00-00-32.mp3",
+            "id": "120997",
             "title": "Favorite sounds",
-            "timestamp": "00:32",
-            "url": "/items/loc-tony-schwartz/120997/"
+            "url": "/items/loc-tony-schwartz/120997/",
+            "clips": [
+                {
+                    "filename": "Favorite-sounds_120997_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Favorite-sounds_120997_002_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                },
+                {
+                    "filename": "Favorite-sounds_120997_003_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                },
+                {
+                    "filename": "Favorite-sounds_120997_004_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Favorite-sounds_120997_005_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "Favorite-sounds_120997_006_00-03-43",
+                    "timeStamp": "03:43",
+                    "start": 224000
+                }
+            ]
         },
         {
-            "filename": "Favorite-sounds_120997_002_00-01-18.mp3",
-            "title": "Favorite sounds",
-            "timestamp": "01:18",
-            "url": "/items/loc-tony-schwartz/120997/"
-        },
-        {
-            "filename": "Favorite-sounds_120997_003_00-01-57.mp3",
-            "title": "Favorite sounds",
-            "timestamp": "01:57",
-            "url": "/items/loc-tony-schwartz/120997/"
-        },
-        {
-            "filename": "Favorite-sounds_120997_004_00-02-09.mp3",
-            "title": "Favorite sounds",
-            "timestamp": "02:09",
-            "url": "/items/loc-tony-schwartz/120997/"
-        },
-        {
-            "filename": "Favorite-sounds_120997_005_00-03-01.mp3",
-            "title": "Favorite sounds",
-            "timestamp": "03:01",
-            "url": "/items/loc-tony-schwartz/120997/"
-        },
-        {
-            "filename": "Favorite-sounds_120997_006_00-03-43.mp3",
-            "title": "Favorite sounds",
-            "timestamp": "03:43",
-            "url": "/items/loc-tony-schwartz/120997/"
-        },
-        {
-            "filename": "Games-and-play_286021_001_00-02-52.mp3",
+            "id": "286021",
             "title": "Games and play",
-            "timestamp": "02:52",
-            "url": "/items/loc-tony-schwartz/286021/"
+            "url": "/items/loc-tony-schwartz/286021/",
+            "clips": [
+                {
+                    "filename": "Games-and-play_286021_001_00-02-52",
+                    "timeStamp": "02:52",
+                    "start": 173000
+                },
+                {
+                    "filename": "Games-and-play_286021_002_00-05-51",
+                    "timeStamp": "05:51",
+                    "start": 352000
+                },
+                {
+                    "filename": "Games-and-play_286021_003_00-08-53",
+                    "timeStamp": "08:53",
+                    "start": 534000
+                },
+                {
+                    "filename": "Games-and-play_286021_004_00-10-21",
+                    "timeStamp": "10:21",
+                    "start": 622000
+                },
+                {
+                    "filename": "Games-and-play_286021_005_00-11-13",
+                    "timeStamp": "11:13",
+                    "start": 674000
+                },
+                {
+                    "filename": "Games-and-play_286021_006_00-11-55",
+                    "timeStamp": "11:55",
+                    "start": 716000
+                }
+            ]
         },
         {
-            "filename": "Games-and-play_286021_002_00-05-51.mp3",
-            "title": "Games and play",
-            "timestamp": "05:51",
-            "url": "/items/loc-tony-schwartz/286021/"
-        },
-        {
-            "filename": "Games-and-play_286021_003_00-08-53.mp3",
-            "title": "Games and play",
-            "timestamp": "08:53",
-            "url": "/items/loc-tony-schwartz/286021/"
-        },
-        {
-            "filename": "Games-and-play_286021_004_00-10-21.mp3",
-            "title": "Games and play",
-            "timestamp": "10:21",
-            "url": "/items/loc-tony-schwartz/286021/"
-        },
-        {
-            "filename": "Games-and-play_286021_005_00-11-13.mp3",
-            "title": "Games and play",
-            "timestamp": "11:13",
-            "url": "/items/loc-tony-schwartz/286021/"
-        },
-        {
-            "filename": "Games-and-play_286021_006_00-11-55.mp3",
-            "title": "Games and play",
-            "timestamp": "11:55",
-            "url": "/items/loc-tony-schwartz/286021/"
-        },
-        {
-            "filename": "Happiness-no-4_138179_001_00-00-02.mp3",
+            "id": "138179",
             "title": "Happiness no. 4",
-            "timestamp": "00:02",
-            "url": "/items/loc-tony-schwartz/138179/"
+            "url": "/items/loc-tony-schwartz/138179/",
+            "clips": [
+                {
+                    "filename": "Happiness-no-4_138179_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                }
+            ]
         },
         {
-            "filename": "Home-remedies_226475_001_00-05-46.mp3",
+            "id": "226475",
             "title": "Home remedies",
-            "timestamp": "05:46",
-            "url": "/items/loc-tony-schwartz/226475/"
+            "url": "/items/loc-tony-schwartz/226475/",
+            "clips": [
+                {
+                    "filename": "Home-remedies_226475_001_00-05-46",
+                    "timeStamp": "05:46",
+                    "start": 347000
+                },
+                {
+                    "filename": "Home-remedies_226475_002_00-25-38",
+                    "timeStamp": "25:38",
+                    "start": 1539000
+                },
+                {
+                    "filename": "Home-remedies_226475_003_00-26-09",
+                    "timeStamp": "26:09",
+                    "start": 1570000
+                },
+                {
+                    "filename": "Home-remedies_226475_004_00-26-25",
+                    "timeStamp": "26:25",
+                    "start": 1586000
+                },
+                {
+                    "filename": "Home-remedies_226475_005_00-27-03",
+                    "timeStamp": "27:03",
+                    "start": 1624000
+                },
+                {
+                    "filename": "Home-remedies_226475_006_00-28-45",
+                    "timeStamp": "28:45",
+                    "start": 1726000
+                }
+            ]
         },
         {
-            "filename": "Home-remedies_226475_002_00-25-38.mp3",
-            "title": "Home remedies",
-            "timestamp": "25:38",
-            "url": "/items/loc-tony-schwartz/226475/"
-        },
-        {
-            "filename": "Home-remedies_226475_003_00-26-09.mp3",
-            "title": "Home remedies",
-            "timestamp": "26:09",
-            "url": "/items/loc-tony-schwartz/226475/"
-        },
-        {
-            "filename": "Home-remedies_226475_004_00-26-25.mp3",
-            "title": "Home remedies",
-            "timestamp": "26:25",
-            "url": "/items/loc-tony-schwartz/226475/"
-        },
-        {
-            "filename": "Home-remedies_226475_005_00-27-03.mp3",
-            "title": "Home remedies",
-            "timestamp": "27:03",
-            "url": "/items/loc-tony-schwartz/226475/"
-        },
-        {
-            "filename": "Home-remedies_226475_006_00-28-45.mp3",
-            "title": "Home remedies",
-            "timestamp": "28:45",
-            "url": "/items/loc-tony-schwartz/226475/"
-        },
-        {
-            "filename": "How-do-you-read_123100_001_00-01-27.mp3",
+            "id": "123100",
             "title": "How do you read?",
-            "timestamp": "01:27",
-            "url": "/items/loc-tony-schwartz/123100/"
+            "url": "/items/loc-tony-schwartz/123100/",
+            "clips": [
+                {
+                    "filename": "How-do-you-read_123100_001_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "How-do-you-read_123100_002_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "How-do-you-read_123100_003_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "How-do-you-read_123100_004_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "How-do-you-read_123100_005_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                },
+                {
+                    "filename": "How-do-you-read_123100_006_00-02-48",
+                    "timeStamp": "02:48",
+                    "start": 169000
+                }
+            ]
         },
         {
-            "filename": "How-do-you-read_123100_002_00-01-42.mp3",
-            "title": "How do you read?",
-            "timestamp": "01:42",
-            "url": "/items/loc-tony-schwartz/123100/"
-        },
-        {
-            "filename": "How-do-you-read_123100_003_00-01-52.mp3",
-            "title": "How do you read?",
-            "timestamp": "01:52",
-            "url": "/items/loc-tony-schwartz/123100/"
-        },
-        {
-            "filename": "How-do-you-read_123100_004_00-02-05.mp3",
-            "title": "How do you read?",
-            "timestamp": "02:05",
-            "url": "/items/loc-tony-schwartz/123100/"
-        },
-        {
-            "filename": "How-do-you-read_123100_005_00-02-40.mp3",
-            "title": "How do you read?",
-            "timestamp": "02:40",
-            "url": "/items/loc-tony-schwartz/123100/"
-        },
-        {
-            "filename": "How-do-you-read_123100_006_00-02-48.mp3",
-            "title": "How do you read?",
-            "timestamp": "02:48",
-            "url": "/items/loc-tony-schwartz/123100/"
-        },
-        {
-            "filename": "Instant-information_1306665_001_00-01-01.mp3",
+            "id": "1306665",
             "title": "Instant information",
-            "timestamp": "01:01",
-            "url": "/items/loc-tony-schwartz/1306665/"
+            "url": "/items/loc-tony-schwartz/1306665/",
+            "clips": [
+                {
+                    "filename": "Instant-information_1306665_001_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Instant-information_1306665_002_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Instant-information_1306665_003_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                },
+                {
+                    "filename": "Instant-information_1306665_004_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                },
+                {
+                    "filename": "Instant-information_1306665_005_00-02-35",
+                    "timeStamp": "02:35",
+                    "start": 156000
+                }
+            ]
         },
         {
-            "filename": "Instant-information_1306665_002_00-01-33.mp3",
-            "title": "Instant information",
-            "timestamp": "01:33",
-            "url": "/items/loc-tony-schwartz/1306665/"
-        },
-        {
-            "filename": "Instant-information_1306665_003_00-01-41.mp3",
-            "title": "Instant information",
-            "timestamp": "01:41",
-            "url": "/items/loc-tony-schwartz/1306665/"
-        },
-        {
-            "filename": "Instant-information_1306665_004_00-02-29.mp3",
-            "title": "Instant information",
-            "timestamp": "02:29",
-            "url": "/items/loc-tony-schwartz/1306665/"
-        },
-        {
-            "filename": "Instant-information_1306665_005_00-02-35.mp3",
-            "title": "Instant information",
-            "timestamp": "02:35",
-            "url": "/items/loc-tony-schwartz/1306665/"
-        },
-        {
-            "filename": "Interviews-with-record-collectors_190565_001_00-02-58.mp3",
+            "id": "190565",
             "title": "Interviews with record collectors",
-            "timestamp": "02:58",
-            "url": "/items/loc-tony-schwartz/190565/"
+            "url": "/items/loc-tony-schwartz/190565/",
+            "clips": [
+                {
+                    "filename": "Interviews-with-record-collectors_190565_001_00-02-58",
+                    "timeStamp": "02:58",
+                    "start": 179000
+                },
+                {
+                    "filename": "Interviews-with-record-collectors_190565_002_00-05-25",
+                    "timeStamp": "05:25",
+                    "start": 326000
+                },
+                {
+                    "filename": "Interviews-with-record-collectors_190565_003_00-08-09",
+                    "timeStamp": "08:09",
+                    "start": 490000
+                },
+                {
+                    "filename": "Interviews-with-record-collectors_190565_004_00-09-14",
+                    "timeStamp": "09:14",
+                    "start": 555000
+                },
+                {
+                    "filename": "Interviews-with-record-collectors_190565_005_00-11-40",
+                    "timeStamp": "11:40",
+                    "start": 701000
+                },
+                {
+                    "filename": "Interviews-with-record-collectors_190565_006_00-12-46",
+                    "timeStamp": "12:46",
+                    "start": 767000
+                }
+            ]
         },
         {
-            "filename": "Interviews-with-record-collectors_190565_002_00-05-25.mp3",
-            "title": "Interviews with record collectors",
-            "timestamp": "05:25",
-            "url": "/items/loc-tony-schwartz/190565/"
-        },
-        {
-            "filename": "Interviews-with-record-collectors_190565_003_00-08-09.mp3",
-            "title": "Interviews with record collectors",
-            "timestamp": "08:09",
-            "url": "/items/loc-tony-schwartz/190565/"
-        },
-        {
-            "filename": "Interviews-with-record-collectors_190565_004_00-09-14.mp3",
-            "title": "Interviews with record collectors",
-            "timestamp": "09:14",
-            "url": "/items/loc-tony-schwartz/190565/"
-        },
-        {
-            "filename": "Interviews-with-record-collectors_190565_005_00-11-40.mp3",
-            "title": "Interviews with record collectors",
-            "timestamp": "11:40",
-            "url": "/items/loc-tony-schwartz/190565/"
-        },
-        {
-            "filename": "Interviews-with-record-collectors_190565_006_00-12-46.mp3",
-            "title": "Interviews with record collectors",
-            "timestamp": "12:46",
-            "url": "/items/loc-tony-schwartz/190565/"
-        },
-        {
-            "filename": "Its-a-boy_119929_001_00-01-49.mp3",
+            "id": "119929",
             "title": "It's a boy",
-            "timestamp": "01:49",
-            "url": "/items/loc-tony-schwartz/119929/"
+            "url": "/items/loc-tony-schwartz/119929/",
+            "clips": [
+                {
+                    "filename": "Its-a-boy_119929_001_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "Its-a-boy_119929_002_00-01-55",
+                    "timeStamp": "01:55",
+                    "start": 116000
+                },
+                {
+                    "filename": "Its-a-boy_119929_003_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Its-a-boy_119929_004_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                },
+                {
+                    "filename": "Its-a-boy_119929_005_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Its-a-boy_119929_006_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                }
+            ]
         },
         {
-            "filename": "Its-a-boy_119929_002_00-01-55.mp3",
-            "title": "It's a boy",
-            "timestamp": "01:55",
-            "url": "/items/loc-tony-schwartz/119929/"
-        },
-        {
-            "filename": "Its-a-boy_119929_003_00-02-03.mp3",
-            "title": "It's a boy",
-            "timestamp": "02:03",
-            "url": "/items/loc-tony-schwartz/119929/"
-        },
-        {
-            "filename": "Its-a-boy_119929_004_00-02-19.mp3",
-            "title": "It's a boy",
-            "timestamp": "02:19",
-            "url": "/items/loc-tony-schwartz/119929/"
-        },
-        {
-            "filename": "Its-a-boy_119929_005_00-02-23.mp3",
-            "title": "It's a boy",
-            "timestamp": "02:23",
-            "url": "/items/loc-tony-schwartz/119929/"
-        },
-        {
-            "filename": "Its-a-boy_119929_006_00-02-33.mp3",
-            "title": "It's a boy",
-            "timestamp": "02:33",
-            "url": "/items/loc-tony-schwartz/119929/"
-        },
-        {
-            "filename": "Listening-game-2_27755_001_00-00-59.mp3",
+            "id": "27755",
             "title": "Listening game #2",
-            "timestamp": "00:59",
-            "url": "/items/loc-tony-schwartz/27755/"
+            "url": "/items/loc-tony-schwartz/27755/",
+            "clips": [
+                {
+                    "filename": "Listening-game-2_27755_001_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Listening-game-2_27755_002_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Listening-game-2_27755_003_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "Listening-game-2_27755_004_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "Listening-game-2_27755_005_00-03-34",
+                    "timeStamp": "03:34",
+                    "start": 215000
+                },
+                {
+                    "filename": "Listening-game-2_27755_006_00-05-50",
+                    "timeStamp": "05:50",
+                    "start": 351000
+                }
+            ]
         },
         {
-            "filename": "Listening-game-2_27755_002_00-01-26.mp3",
-            "title": "Listening game #2",
-            "timestamp": "01:26",
-            "url": "/items/loc-tony-schwartz/27755/"
-        },
-        {
-            "filename": "Listening-game-2_27755_003_00-01-49.mp3",
-            "title": "Listening game #2",
-            "timestamp": "01:49",
-            "url": "/items/loc-tony-schwartz/27755/"
-        },
-        {
-            "filename": "Listening-game-2_27755_004_00-02-27.mp3",
-            "title": "Listening game #2",
-            "timestamp": "02:27",
-            "url": "/items/loc-tony-schwartz/27755/"
-        },
-        {
-            "filename": "Listening-game-2_27755_005_00-03-34.mp3",
-            "title": "Listening game #2",
-            "timestamp": "03:34",
-            "url": "/items/loc-tony-schwartz/27755/"
-        },
-        {
-            "filename": "Listening-game-2_27755_006_00-05-50.mp3",
-            "title": "Listening game #2",
-            "timestamp": "05:50",
-            "url": "/items/loc-tony-schwartz/27755/"
-        },
-        {
-            "filename": "Loops-open_27927_001_00-06-06.mp3",
+            "id": "27927",
             "title": "Loops (open)",
-            "timestamp": "06:06",
-            "url": "/items/loc-tony-schwartz/27927/"
+            "url": "/items/loc-tony-schwartz/27927/",
+            "clips": [
+                {
+                    "filename": "Loops-open_27927_001_00-06-06",
+                    "timeStamp": "06:06",
+                    "start": 367000
+                }
+            ]
         },
         {
-            "filename": "Mother-telling-stories-to-her-child_374023_001_00-05-50.mp3",
+            "id": "374023",
             "title": "Mother telling stories to her child",
-            "timestamp": "05:50",
-            "url": "/items/loc-tony-schwartz/374023/"
+            "url": "/items/loc-tony-schwartz/374023/",
+            "clips": [
+                {
+                    "filename": "Mother-telling-stories-to-her-child_374023_001_00-05-50",
+                    "timeStamp": "05:50",
+                    "start": 351000
+                }
+            ]
         },
         {
-            "filename": "Mothers-calling-children_345267_001_00-01-27.mp3",
+            "id": "345267",
             "title": "Mothers calling children",
-            "timestamp": "01:27",
-            "url": "/items/loc-tony-schwartz/345267/"
+            "url": "/items/loc-tony-schwartz/345267/",
+            "clips": [
+                {
+                    "filename": "Mothers-calling-children_345267_001_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "Mothers-calling-children_345267_002_00-04-46",
+                    "timeStamp": "04:46",
+                    "start": 287000
+                }
+            ]
         },
         {
-            "filename": "Mothers-calling-children_345267_002_00-04-46.mp3",
-            "title": "Mothers calling children",
-            "timestamp": "04:46",
-            "url": "/items/loc-tony-schwartz/345267/"
-        },
-        {
-            "filename": "Music-unusual-sounds_137222_001_00-02-32.mp3",
+            "id": "137222",
             "title": "Music, unusual sounds",
-            "timestamp": "02:32",
-            "url": "/items/loc-tony-schwartz/137222/"
+            "url": "/items/loc-tony-schwartz/137222/",
+            "clips": [
+                {
+                    "filename": "Music-unusual-sounds_137222_001_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Music-unusual-sounds_137222_002_00-14-40",
+                    "timeStamp": "14:40",
+                    "start": 881000
+                },
+                {
+                    "filename": "Music-unusual-sounds_137222_003_00-17-11",
+                    "timeStamp": "17:11",
+                    "start": 1032000
+                },
+                {
+                    "filename": "Music-unusual-sounds_137222_004_00-17-41",
+                    "timeStamp": "17:41",
+                    "start": 1062000
+                },
+                {
+                    "filename": "Music-unusual-sounds_137222_005_00-18-09",
+                    "timeStamp": "18:09",
+                    "start": 1090000
+                },
+                {
+                    "filename": "Music-unusual-sounds_137222_006_00-18-40",
+                    "timeStamp": "18:40",
+                    "start": 1121000
+                }
+            ]
         },
         {
-            "filename": "Music-unusual-sounds_137222_002_00-14-40.mp3",
-            "title": "Music, unusual sounds",
-            "timestamp": "14:40",
-            "url": "/items/loc-tony-schwartz/137222/"
-        },
-        {
-            "filename": "Music-unusual-sounds_137222_003_00-17-11.mp3",
-            "title": "Music, unusual sounds",
-            "timestamp": "17:11",
-            "url": "/items/loc-tony-schwartz/137222/"
-        },
-        {
-            "filename": "Music-unusual-sounds_137222_004_00-17-41.mp3",
-            "title": "Music, unusual sounds",
-            "timestamp": "17:41",
-            "url": "/items/loc-tony-schwartz/137222/"
-        },
-        {
-            "filename": "Music-unusual-sounds_137222_005_00-18-09.mp3",
-            "title": "Music, unusual sounds",
-            "timestamp": "18:09",
-            "url": "/items/loc-tony-schwartz/137222/"
-        },
-        {
-            "filename": "Music-unusual-sounds_137222_006_00-18-40.mp3",
-            "title": "Music, unusual sounds",
-            "timestamp": "18:40",
-            "url": "/items/loc-tony-schwartz/137222/"
-        },
-        {
-            "filename": "NY-enthusiasts-1979-04-07_246540_001_00-00-04.mp3",
+            "id": "246540",
             "title": "N.Y. enthusiasts, 1979-04-07",
-            "timestamp": "00:04",
-            "url": "/items/loc-tony-schwartz/246540/"
+            "url": "/items/loc-tony-schwartz/246540/",
+            "clips": [
+                {
+                    "filename": "NY-enthusiasts-1979-04-07_246540_001_00-00-04",
+                    "timeStamp": "00:04",
+                    "start": 5000
+                },
+                {
+                    "filename": "NY-enthusiasts-1979-04-07_246540_002_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                },
+                {
+                    "filename": "NY-enthusiasts-1979-04-07_246540_003_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "NY-enthusiasts-1979-04-07_246540_004_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "NY-enthusiasts-1979-04-07_246540_005_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                },
+                {
+                    "filename": "NY-enthusiasts-1979-04-07_246540_006_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                }
+            ]
         },
         {
-            "filename": "NY-enthusiasts-1979-04-07_246540_002_00-00-25.mp3",
-            "title": "N.Y. enthusiasts, 1979-04-07",
-            "timestamp": "00:25",
-            "url": "/items/loc-tony-schwartz/246540/"
-        },
-        {
-            "filename": "NY-enthusiasts-1979-04-07_246540_003_00-00-49.mp3",
-            "title": "N.Y. enthusiasts, 1979-04-07",
-            "timestamp": "00:49",
-            "url": "/items/loc-tony-schwartz/246540/"
-        },
-        {
-            "filename": "NY-enthusiasts-1979-04-07_246540_004_00-01-47.mp3",
-            "title": "N.Y. enthusiasts, 1979-04-07",
-            "timestamp": "01:47",
-            "url": "/items/loc-tony-schwartz/246540/"
-        },
-        {
-            "filename": "NY-enthusiasts-1979-04-07_246540_005_00-02-14.mp3",
-            "title": "N.Y. enthusiasts, 1979-04-07",
-            "timestamp": "02:14",
-            "url": "/items/loc-tony-schwartz/246540/"
-        },
-        {
-            "filename": "NY-enthusiasts-1979-04-07_246540_006_00-02-21.mp3",
-            "title": "N.Y. enthusiasts, 1979-04-07",
-            "timestamp": "02:21",
-            "url": "/items/loc-tony-schwartz/246540/"
-        },
-        {
-            "filename": "Naming-of-dogs_317164_001_00-00-34.mp3",
+            "id": "317164",
             "title": "Naming of dogs",
-            "timestamp": "00:34",
-            "url": "/items/loc-tony-schwartz/317164/"
+            "url": "/items/loc-tony-schwartz/317164/",
+            "clips": [
+                {
+                    "filename": "Naming-of-dogs_317164_001_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Naming-of-dogs_317164_002_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Naming-of-dogs_317164_003_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "Naming-of-dogs_317164_004_00-03-06",
+                    "timeStamp": "03:06",
+                    "start": 187000
+                },
+                {
+                    "filename": "Naming-of-dogs_317164_005_00-04-18",
+                    "timeStamp": "04:18",
+                    "start": 259000
+                },
+                {
+                    "filename": "Naming-of-dogs_317164_006_00-04-30",
+                    "timeStamp": "04:30",
+                    "start": 271000
+                }
+            ]
         },
         {
-            "filename": "Naming-of-dogs_317164_002_00-01-32.mp3",
-            "title": "Naming of dogs",
-            "timestamp": "01:32",
-            "url": "/items/loc-tony-schwartz/317164/"
-        },
-        {
-            "filename": "Naming-of-dogs_317164_003_00-02-06.mp3",
-            "title": "Naming of dogs",
-            "timestamp": "02:06",
-            "url": "/items/loc-tony-schwartz/317164/"
-        },
-        {
-            "filename": "Naming-of-dogs_317164_004_00-03-06.mp3",
-            "title": "Naming of dogs",
-            "timestamp": "03:06",
-            "url": "/items/loc-tony-schwartz/317164/"
-        },
-        {
-            "filename": "Naming-of-dogs_317164_005_00-04-18.mp3",
-            "title": "Naming of dogs",
-            "timestamp": "04:18",
-            "url": "/items/loc-tony-schwartz/317164/"
-        },
-        {
-            "filename": "Naming-of-dogs_317164_006_00-04-30.mp3",
-            "title": "Naming of dogs",
-            "timestamp": "04:30",
-            "url": "/items/loc-tony-schwartz/317164/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-1_190095_001_00-16-08.mp3",
+            "id": "190095",
             "title": "New York interviews (Reel 1)",
-            "timestamp": "16:08",
-            "url": "/items/loc-tony-schwartz/190095/"
+            "url": "/items/loc-tony-schwartz/190095/",
+            "clips": [
+                {
+                    "filename": "New-York-interviews-Reel-1_190095_001_00-16-08",
+                    "timeStamp": "16:08",
+                    "start": 969000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-1_190095_002_00-17-38",
+                    "timeStamp": "17:38",
+                    "start": 1059000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-1_190095_003_00-18-08",
+                    "timeStamp": "18:08",
+                    "start": 1089000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-1_190095_004_00-19-09",
+                    "timeStamp": "19:09",
+                    "start": 1150000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-1_190095_005_00-19-39",
+                    "timeStamp": "19:39",
+                    "start": 1180000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-1_190095_006_00-23-47",
+                    "timeStamp": "23:47",
+                    "start": 1428000
+                }
+            ]
         },
         {
-            "filename": "New-York-interviews-Reel-1_190095_002_00-17-38.mp3",
-            "title": "New York interviews (Reel 1)",
-            "timestamp": "17:38",
-            "url": "/items/loc-tony-schwartz/190095/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-1_190095_003_00-18-08.mp3",
-            "title": "New York interviews (Reel 1)",
-            "timestamp": "18:08",
-            "url": "/items/loc-tony-schwartz/190095/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-1_190095_004_00-19-09.mp3",
-            "title": "New York interviews (Reel 1)",
-            "timestamp": "19:09",
-            "url": "/items/loc-tony-schwartz/190095/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-1_190095_005_00-19-39.mp3",
-            "title": "New York interviews (Reel 1)",
-            "timestamp": "19:39",
-            "url": "/items/loc-tony-schwartz/190095/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-1_190095_006_00-23-47.mp3",
-            "title": "New York interviews (Reel 1)",
-            "timestamp": "23:47",
-            "url": "/items/loc-tony-schwartz/190095/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-2_190576_001_00-04-16.mp3",
+            "id": "190576",
             "title": "New York interviews (Reel 2)",
-            "timestamp": "04:16",
-            "url": "/items/loc-tony-schwartz/190576/"
+            "url": "/items/loc-tony-schwartz/190576/",
+            "clips": [
+                {
+                    "filename": "New-York-interviews-Reel-2_190576_001_00-04-16",
+                    "timeStamp": "04:16",
+                    "start": 257000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-2_190576_002_00-05-03",
+                    "timeStamp": "05:03",
+                    "start": 304000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-2_190576_003_00-06-33",
+                    "timeStamp": "06:33",
+                    "start": 394000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-2_190576_004_00-10-09",
+                    "timeStamp": "10:09",
+                    "start": 610000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-2_190576_005_00-11-34",
+                    "timeStamp": "11:34",
+                    "start": 695000
+                },
+                {
+                    "filename": "New-York-interviews-Reel-2_190576_006_00-12-04",
+                    "timeStamp": "12:04",
+                    "start": 725000
+                }
+            ]
         },
         {
-            "filename": "New-York-interviews-Reel-2_190576_002_00-05-03.mp3",
-            "title": "New York interviews (Reel 2)",
-            "timestamp": "05:03",
-            "url": "/items/loc-tony-schwartz/190576/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-2_190576_003_00-06-33.mp3",
-            "title": "New York interviews (Reel 2)",
-            "timestamp": "06:33",
-            "url": "/items/loc-tony-schwartz/190576/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-2_190576_004_00-10-09.mp3",
-            "title": "New York interviews (Reel 2)",
-            "timestamp": "10:09",
-            "url": "/items/loc-tony-schwartz/190576/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-2_190576_005_00-11-34.mp3",
-            "title": "New York interviews (Reel 2)",
-            "timestamp": "11:34",
-            "url": "/items/loc-tony-schwartz/190576/"
-        },
-        {
-            "filename": "New-York-interviews-Reel-2_190576_006_00-12-04.mp3",
-            "title": "New York interviews (Reel 2)",
-            "timestamp": "12:04",
-            "url": "/items/loc-tony-schwartz/190576/"
-        },
-        {
-            "filename": "Night-1963-02_135846_001_00-24-05.mp3",
+            "id": "135846",
             "title": "Night, 1963-02",
-            "timestamp": "24:05",
-            "url": "/items/loc-tony-schwartz/135846/"
+            "url": "/items/loc-tony-schwartz/135846/",
+            "clips": [
+                {
+                    "filename": "Night-1963-02_135846_001_00-24-05",
+                    "timeStamp": "24:05",
+                    "start": 1446000
+                },
+                {
+                    "filename": "Night-1963-02_135846_002_00-24-17",
+                    "timeStamp": "24:17",
+                    "start": 1458000
+                },
+                {
+                    "filename": "Night-1963-02_135846_003_00-24-50",
+                    "timeStamp": "24:50",
+                    "start": 1491000
+                },
+                {
+                    "filename": "Night-1963-02_135846_004_00-26-33",
+                    "timeStamp": "26:33",
+                    "start": 1594000
+                }
+            ]
         },
         {
-            "filename": "Night-1963-02_135846_002_00-24-17.mp3",
-            "title": "Night, 1963-02",
-            "timestamp": "24:17",
-            "url": "/items/loc-tony-schwartz/135846/"
-        },
-        {
-            "filename": "Night-1963-02_135846_003_00-24-50.mp3",
-            "title": "Night, 1963-02",
-            "timestamp": "24:50",
-            "url": "/items/loc-tony-schwartz/135846/"
-        },
-        {
-            "filename": "Night-1963-02_135846_004_00-26-33.mp3",
-            "title": "Night, 1963-02",
-            "timestamp": "26:33",
-            "url": "/items/loc-tony-schwartz/135846/"
-        },
-        {
-            "filename": "Old-auto-horns_121517_001_00-00-05.mp3",
+            "id": "121517",
             "title": "Old auto horns",
-            "timestamp": "00:05",
-            "url": "/items/loc-tony-schwartz/121517/"
+            "url": "/items/loc-tony-schwartz/121517/",
+            "clips": [
+                {
+                    "filename": "Old-auto-horns_121517_001_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                },
+                {
+                    "filename": "Old-auto-horns_121517_002_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "Old-auto-horns_121517_003_00-02-47",
+                    "timeStamp": "02:47",
+                    "start": 168000
+                },
+                {
+                    "filename": "Old-auto-horns_121517_004_00-04-38",
+                    "timeStamp": "04:38",
+                    "start": 279000
+                },
+                {
+                    "filename": "Old-auto-horns_121517_005_00-05-37",
+                    "timeStamp": "05:37",
+                    "start": 338000
+                },
+                {
+                    "filename": "Old-auto-horns_121517_006_00-06-08",
+                    "timeStamp": "06:08",
+                    "start": 369000
+                }
+            ]
         },
         {
-            "filename": "Old-auto-horns_121517_002_00-00-14.mp3",
-            "title": "Old auto horns",
-            "timestamp": "00:14",
-            "url": "/items/loc-tony-schwartz/121517/"
-        },
-        {
-            "filename": "Old-auto-horns_121517_003_00-02-47.mp3",
-            "title": "Old auto horns",
-            "timestamp": "02:47",
-            "url": "/items/loc-tony-schwartz/121517/"
-        },
-        {
-            "filename": "Old-auto-horns_121517_004_00-04-38.mp3",
-            "title": "Old auto horns",
-            "timestamp": "04:38",
-            "url": "/items/loc-tony-schwartz/121517/"
-        },
-        {
-            "filename": "Old-auto-horns_121517_005_00-05-37.mp3",
-            "title": "Old auto horns",
-            "timestamp": "05:37",
-            "url": "/items/loc-tony-schwartz/121517/"
-        },
-        {
-            "filename": "Old-auto-horns_121517_006_00-06-08.mp3",
-            "title": "Old auto horns",
-            "timestamp": "06:08",
-            "url": "/items/loc-tony-schwartz/121517/"
-        },
-        {
-            "filename": "Playground_348047_001_00-00-02.mp3",
+            "id": "348047",
             "title": "Playground",
-            "timestamp": "00:02",
-            "url": "/items/loc-tony-schwartz/348047/"
+            "url": "/items/loc-tony-schwartz/348047/",
+            "clips": [
+                {
+                    "filename": "Playground_348047_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Playground_348047_002_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "Playground_348047_003_00-03-46",
+                    "timeStamp": "03:46",
+                    "start": 227000
+                },
+                {
+                    "filename": "Playground_348047_004_00-10-10",
+                    "timeStamp": "10:10",
+                    "start": 611000
+                },
+                {
+                    "filename": "Playground_348047_005_00-12-34",
+                    "timeStamp": "12:34",
+                    "start": 755000
+                },
+                {
+                    "filename": "Playground_348047_006_00-13-31",
+                    "timeStamp": "13:31",
+                    "start": 812000
+                }
+            ]
         },
         {
-            "filename": "Playground_348047_002_00-00-19.mp3",
-            "title": "Playground",
-            "timestamp": "00:19",
-            "url": "/items/loc-tony-schwartz/348047/"
-        },
-        {
-            "filename": "Playground_348047_003_00-03-46.mp3",
-            "title": "Playground",
-            "timestamp": "03:46",
-            "url": "/items/loc-tony-schwartz/348047/"
-        },
-        {
-            "filename": "Playground_348047_004_00-10-10.mp3",
-            "title": "Playground",
-            "timestamp": "10:10",
-            "url": "/items/loc-tony-schwartz/348047/"
-        },
-        {
-            "filename": "Playground_348047_005_00-12-34.mp3",
-            "title": "Playground",
-            "timestamp": "12:34",
-            "url": "/items/loc-tony-schwartz/348047/"
-        },
-        {
-            "filename": "Playground_348047_006_00-13-31.mp3",
-            "title": "Playground",
-            "timestamp": "13:31",
-            "url": "/items/loc-tony-schwartz/348047/"
-        },
-        {
-            "filename": "Political-street-speakers-and-kids_347980_001_00-01-57.mp3",
+            "id": "347980",
             "title": "Political street speakers and kids",
-            "timestamp": "01:57",
-            "url": "/items/loc-tony-schwartz/347980/"
+            "url": "/items/loc-tony-schwartz/347980/",
+            "clips": [
+                {
+                    "filename": "Political-street-speakers-and-kids_347980_001_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                },
+                {
+                    "filename": "Political-street-speakers-and-kids_347980_002_00-02-16",
+                    "timeStamp": "02:16",
+                    "start": 137000
+                },
+                {
+                    "filename": "Political-street-speakers-and-kids_347980_003_00-02-25",
+                    "timeStamp": "02:25",
+                    "start": 146000
+                },
+                {
+                    "filename": "Political-street-speakers-and-kids_347980_004_00-04-47",
+                    "timeStamp": "04:47",
+                    "start": 288000
+                },
+                {
+                    "filename": "Political-street-speakers-and-kids_347980_005_00-04-59",
+                    "timeStamp": "04:59",
+                    "start": 300000
+                },
+                {
+                    "filename": "Political-street-speakers-and-kids_347980_006_00-05-10",
+                    "timeStamp": "05:10",
+                    "start": 311000
+                }
+            ]
         },
         {
-            "filename": "Political-street-speakers-and-kids_347980_002_00-02-16.mp3",
-            "title": "Political street speakers and kids",
-            "timestamp": "02:16",
-            "url": "/items/loc-tony-schwartz/347980/"
-        },
-        {
-            "filename": "Political-street-speakers-and-kids_347980_003_00-02-25.mp3",
-            "title": "Political street speakers and kids",
-            "timestamp": "02:25",
-            "url": "/items/loc-tony-schwartz/347980/"
-        },
-        {
-            "filename": "Political-street-speakers-and-kids_347980_004_00-04-47.mp3",
-            "title": "Political street speakers and kids",
-            "timestamp": "04:47",
-            "url": "/items/loc-tony-schwartz/347980/"
-        },
-        {
-            "filename": "Political-street-speakers-and-kids_347980_005_00-04-59.mp3",
-            "title": "Political street speakers and kids",
-            "timestamp": "04:59",
-            "url": "/items/loc-tony-schwartz/347980/"
-        },
-        {
-            "filename": "Political-street-speakers-and-kids_347980_006_00-05-10.mp3",
-            "title": "Political street speakers and kids",
-            "timestamp": "05:10",
-            "url": "/items/loc-tony-schwartz/347980/"
-        },
-        {
-            "filename": "Putney-demo-70--synth_135371_001_00-00-12.mp3",
+            "id": "135371",
             "title": "Putney demo 70 : synth",
-            "timestamp": "00:12",
-            "url": "/items/loc-tony-schwartz/135371/"
+            "url": "/items/loc-tony-schwartz/135371/",
+            "clips": [
+                {
+                    "filename": "Putney-demo-70--synth_135371_001_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "Putney-demo-70--synth_135371_002_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "Putney-demo-70--synth_135371_003_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "Putney-demo-70--synth_135371_004_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                },
+                {
+                    "filename": "Putney-demo-70--synth_135371_005_00-04-05",
+                    "timeStamp": "04:05",
+                    "start": 246000
+                },
+                {
+                    "filename": "Putney-demo-70--synth_135371_006_00-04-35",
+                    "timeStamp": "04:35",
+                    "start": 276000
+                }
+            ]
         },
         {
-            "filename": "Putney-demo-70--synth_135371_002_00-01-43.mp3",
-            "title": "Putney demo 70 : synth",
-            "timestamp": "01:43",
-            "url": "/items/loc-tony-schwartz/135371/"
-        },
-        {
-            "filename": "Putney-demo-70--synth_135371_003_00-02-13.mp3",
-            "title": "Putney demo 70 : synth",
-            "timestamp": "02:13",
-            "url": "/items/loc-tony-schwartz/135371/"
-        },
-        {
-            "filename": "Putney-demo-70--synth_135371_004_00-02-46.mp3",
-            "title": "Putney demo 70 : synth",
-            "timestamp": "02:46",
-            "url": "/items/loc-tony-schwartz/135371/"
-        },
-        {
-            "filename": "Putney-demo-70--synth_135371_005_00-04-05.mp3",
-            "title": "Putney demo 70 : synth",
-            "timestamp": "04:05",
-            "url": "/items/loc-tony-schwartz/135371/"
-        },
-        {
-            "filename": "Putney-demo-70--synth_135371_006_00-04-35.mp3",
-            "title": "Putney demo 70 : synth",
-            "timestamp": "04:35",
-            "url": "/items/loc-tony-schwartz/135371/"
-        },
-        {
-            "filename": "Rough-material-2_120536_001_00-12-28.mp3",
+            "id": "120536",
             "title": "Rough material #2",
-            "timestamp": "12:28",
-            "url": "/items/loc-tony-schwartz/120536/"
+            "url": "/items/loc-tony-schwartz/120536/",
+            "clips": [
+                {
+                    "filename": "Rough-material-2_120536_001_00-12-28",
+                    "timeStamp": "12:28",
+                    "start": 749000
+                },
+                {
+                    "filename": "Rough-material-2_120536_002_00-13-15",
+                    "timeStamp": "13:15",
+                    "start": 796000
+                },
+                {
+                    "filename": "Rough-material-2_120536_003_00-14-54",
+                    "timeStamp": "14:54",
+                    "start": 895000
+                },
+                {
+                    "filename": "Rough-material-2_120536_004_00-28-56",
+                    "timeStamp": "28:56",
+                    "start": 1737000
+                },
+                {
+                    "filename": "Rough-material-2_120536_005_00-29-02",
+                    "timeStamp": "29:02",
+                    "start": 1743000
+                },
+                {
+                    "filename": "Rough-material-2_120536_006_00-29-09",
+                    "timeStamp": "29:09",
+                    "start": 1750000
+                }
+            ]
         },
         {
-            "filename": "Rough-material-2_120536_002_00-13-15.mp3",
-            "title": "Rough material #2",
-            "timestamp": "13:15",
-            "url": "/items/loc-tony-schwartz/120536/"
-        },
-        {
-            "filename": "Rough-material-2_120536_003_00-14-54.mp3",
-            "title": "Rough material #2",
-            "timestamp": "14:54",
-            "url": "/items/loc-tony-schwartz/120536/"
-        },
-        {
-            "filename": "Rough-material-2_120536_004_00-28-56.mp3",
-            "title": "Rough material #2",
-            "timestamp": "28:56",
-            "url": "/items/loc-tony-schwartz/120536/"
-        },
-        {
-            "filename": "Rough-material-2_120536_005_00-29-02.mp3",
-            "title": "Rough material #2",
-            "timestamp": "29:02",
-            "url": "/items/loc-tony-schwartz/120536/"
-        },
-        {
-            "filename": "Rough-material-2_120536_006_00-29-09.mp3",
-            "title": "Rough material #2",
-            "timestamp": "29:09",
-            "url": "/items/loc-tony-schwartz/120536/"
-        },
-        {
-            "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_001_00-00-39.mp3",
+            "id": "154420",
             "title": "Rough material: Nancy time lapse growth portrait, children and God,",
-            "timestamp": "00:39",
-            "url": "/items/loc-tony-schwartz/154420/"
+            "url": "/items/loc-tony-schwartz/154420/",
+            "clips": [
+                {
+                    "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_002_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_003_00-04-58",
+                    "timeStamp": "04:58",
+                    "start": 299000
+                },
+                {
+                    "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_004_00-07-01",
+                    "timeStamp": "07:01",
+                    "start": 422000
+                },
+                {
+                    "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_005_00-11-28",
+                    "timeStamp": "11:28",
+                    "start": 689000
+                },
+                {
+                    "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_006_00-11-55",
+                    "timeStamp": "11:55",
+                    "start": 716000
+                }
+            ]
         },
         {
-            "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_002_00-01-45.mp3",
-            "title": "Rough material: Nancy time lapse growth portrait, children and God,",
-            "timestamp": "01:45",
-            "url": "/items/loc-tony-schwartz/154420/"
-        },
-        {
-            "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_003_00-04-58.mp3",
-            "title": "Rough material: Nancy time lapse growth portrait, children and God,",
-            "timestamp": "04:58",
-            "url": "/items/loc-tony-schwartz/154420/"
-        },
-        {
-            "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_004_00-07-01.mp3",
-            "title": "Rough material: Nancy time lapse growth portrait, children and God,",
-            "timestamp": "07:01",
-            "url": "/items/loc-tony-schwartz/154420/"
-        },
-        {
-            "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_005_00-11-28.mp3",
-            "title": "Rough material: Nancy time lapse growth portrait, children and God,",
-            "timestamp": "11:28",
-            "url": "/items/loc-tony-schwartz/154420/"
-        },
-        {
-            "filename": "Rough-material-Nancy-time-lapse-growth-portrait-children-and-God_154420_006_00-11-55.mp3",
-            "title": "Rough material: Nancy time lapse growth portrait, children and God,",
-            "timestamp": "11:55",
-            "url": "/items/loc-tony-schwartz/154420/"
-        },
-        {
-            "filename": "Santa-Claus_120499_001_00-02-18.mp3",
+            "id": "120499",
             "title": "Santa Claus",
-            "timestamp": "02:18",
-            "url": "/items/loc-tony-schwartz/120499/"
+            "url": "/items/loc-tony-schwartz/120499/",
+            "clips": [
+                {
+                    "filename": "Santa-Claus_120499_001_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                }
+            ]
         },
         {
-            "filename": "Santa-Claus-1960s_225471_001_00-03-44.mp3",
+            "id": "225471",
             "title": "Santa Claus, 1960s",
-            "timestamp": "03:44",
-            "url": "/items/loc-tony-schwartz/225471/"
+            "url": "/items/loc-tony-schwartz/225471/",
+            "clips": [
+                {
+                    "filename": "Santa-Claus-1960s_225471_001_00-03-44",
+                    "timeStamp": "03:44",
+                    "start": 225000
+                },
+                {
+                    "filename": "Santa-Claus-1960s_225471_002_00-05-37",
+                    "timeStamp": "05:37",
+                    "start": 338000
+                },
+                {
+                    "filename": "Santa-Claus-1960s_225471_003_00-07-40",
+                    "timeStamp": "07:40",
+                    "start": 461000
+                },
+                {
+                    "filename": "Santa-Claus-1960s_225471_004_00-07-56",
+                    "timeStamp": "07:56",
+                    "start": 477000
+                },
+                {
+                    "filename": "Santa-Claus-1960s_225471_005_00-08-31",
+                    "timeStamp": "08:31",
+                    "start": 512000
+                },
+                {
+                    "filename": "Santa-Claus-1960s_225471_006_00-08-40",
+                    "timeStamp": "08:40",
+                    "start": 521000
+                }
+            ]
         },
         {
-            "filename": "Santa-Claus-1960s_225471_002_00-05-37.mp3",
-            "title": "Santa Claus, 1960s",
-            "timestamp": "05:37",
-            "url": "/items/loc-tony-schwartz/225471/"
-        },
-        {
-            "filename": "Santa-Claus-1960s_225471_003_00-07-40.mp3",
-            "title": "Santa Claus, 1960s",
-            "timestamp": "07:40",
-            "url": "/items/loc-tony-schwartz/225471/"
-        },
-        {
-            "filename": "Santa-Claus-1960s_225471_004_00-07-56.mp3",
-            "title": "Santa Claus, 1960s",
-            "timestamp": "07:56",
-            "url": "/items/loc-tony-schwartz/225471/"
-        },
-        {
-            "filename": "Santa-Claus-1960s_225471_005_00-08-31.mp3",
-            "title": "Santa Claus, 1960s",
-            "timestamp": "08:31",
-            "url": "/items/loc-tony-schwartz/225471/"
-        },
-        {
-            "filename": "Santa-Claus-1960s_225471_006_00-08-40.mp3",
-            "title": "Santa Claus, 1960s",
-            "timestamp": "08:40",
-            "url": "/items/loc-tony-schwartz/225471/"
-        },
-        {
-            "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_001_00-04-34.mp3",
+            "id": "154791",
             "title": "Sounds from New York. Subway and Lincoln 1961-02-19",
-            "timestamp": "04:34",
-            "url": "/items/loc-tony-schwartz/154791/"
+            "url": "/items/loc-tony-schwartz/154791/",
+            "clips": [
+                {
+                    "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_001_00-04-34",
+                    "timeStamp": "04:34",
+                    "start": 275000
+                },
+                {
+                    "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_002_00-08-45",
+                    "timeStamp": "08:45",
+                    "start": 526000
+                },
+                {
+                    "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_003_00-11-39",
+                    "timeStamp": "11:39",
+                    "start": 700000
+                },
+                {
+                    "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_004_00-12-17",
+                    "timeStamp": "12:17",
+                    "start": 738000
+                },
+                {
+                    "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_005_00-12-54",
+                    "timeStamp": "12:54",
+                    "start": 775000
+                },
+                {
+                    "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_006_00-13-30",
+                    "timeStamp": "13:30",
+                    "start": 811000
+                }
+            ]
         },
         {
-            "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_002_00-08-45.mp3",
-            "title": "Sounds from New York. Subway and Lincoln 1961-02-19",
-            "timestamp": "08:45",
-            "url": "/items/loc-tony-schwartz/154791/"
-        },
-        {
-            "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_003_00-11-39.mp3",
-            "title": "Sounds from New York. Subway and Lincoln 1961-02-19",
-            "timestamp": "11:39",
-            "url": "/items/loc-tony-schwartz/154791/"
-        },
-        {
-            "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_004_00-12-17.mp3",
-            "title": "Sounds from New York. Subway and Lincoln 1961-02-19",
-            "timestamp": "12:17",
-            "url": "/items/loc-tony-schwartz/154791/"
-        },
-        {
-            "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_005_00-12-54.mp3",
-            "title": "Sounds from New York. Subway and Lincoln 1961-02-19",
-            "timestamp": "12:54",
-            "url": "/items/loc-tony-schwartz/154791/"
-        },
-        {
-            "filename": "Sounds-from-New-York-Subway-and-Lincoln-1961-02-19_154791_006_00-13-30.mp3",
-            "title": "Sounds from New York. Subway and Lincoln 1961-02-19",
-            "timestamp": "13:30",
-            "url": "/items/loc-tony-schwartz/154791/"
-        },
-        {
-            "filename": "Spoken-and-said-not-written-and-read_149076_001_00-01-40.mp3",
+            "id": "149076",
             "title": "Spoken and said, not written and read",
-            "timestamp": "01:40",
-            "url": "/items/loc-tony-schwartz/149076/"
+            "url": "/items/loc-tony-schwartz/149076/",
+            "clips": [
+                {
+                    "filename": "Spoken-and-said-not-written-and-read_149076_001_00-01-40",
+                    "timeStamp": "01:40",
+                    "start": 101000
+                },
+                {
+                    "filename": "Spoken-and-said-not-written-and-read_149076_002_00-01-48",
+                    "timeStamp": "01:48",
+                    "start": 109000
+                },
+                {
+                    "filename": "Spoken-and-said-not-written-and-read_149076_003_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                },
+                {
+                    "filename": "Spoken-and-said-not-written-and-read_149076_004_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                },
+                {
+                    "filename": "Spoken-and-said-not-written-and-read_149076_005_00-03-21",
+                    "timeStamp": "03:21",
+                    "start": 202000
+                },
+                {
+                    "filename": "Spoken-and-said-not-written-and-read_149076_006_00-03-54",
+                    "timeStamp": "03:54",
+                    "start": 235000
+                }
+            ]
         },
         {
-            "filename": "Spoken-and-said-not-written-and-read_149076_002_00-01-48.mp3",
-            "title": "Spoken and said, not written and read",
-            "timestamp": "01:48",
-            "url": "/items/loc-tony-schwartz/149076/"
-        },
-        {
-            "filename": "Spoken-and-said-not-written-and-read_149076_003_00-01-56.mp3",
-            "title": "Spoken and said, not written and read",
-            "timestamp": "01:56",
-            "url": "/items/loc-tony-schwartz/149076/"
-        },
-        {
-            "filename": "Spoken-and-said-not-written-and-read_149076_004_00-02-40.mp3",
-            "title": "Spoken and said, not written and read",
-            "timestamp": "02:40",
-            "url": "/items/loc-tony-schwartz/149076/"
-        },
-        {
-            "filename": "Spoken-and-said-not-written-and-read_149076_005_00-03-21.mp3",
-            "title": "Spoken and said, not written and read",
-            "timestamp": "03:21",
-            "url": "/items/loc-tony-schwartz/149076/"
-        },
-        {
-            "filename": "Spoken-and-said-not-written-and-read_149076_006_00-03-54.mp3",
-            "title": "Spoken and said, not written and read",
-            "timestamp": "03:54",
-            "url": "/items/loc-tony-schwartz/149076/"
-        },
-        {
-            "filename": "St-Patricks-parade_144941_001_00-01-11.mp3",
+            "id": "144941",
             "title": "St. Patrick's parade",
-            "timestamp": "01:11",
-            "url": "/items/loc-tony-schwartz/144941/"
+            "url": "/items/loc-tony-schwartz/144941/",
+            "clips": [
+                {
+                    "filename": "St-Patricks-parade_144941_001_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                },
+                {
+                    "filename": "St-Patricks-parade_144941_002_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "St-Patricks-parade_144941_003_00-03-10",
+                    "timeStamp": "03:10",
+                    "start": 191000
+                },
+                {
+                    "filename": "St-Patricks-parade_144941_004_00-03-29",
+                    "timeStamp": "03:29",
+                    "start": 210000
+                },
+                {
+                    "filename": "St-Patricks-parade_144941_005_00-03-34",
+                    "timeStamp": "03:34",
+                    "start": 215000
+                }
+            ]
         },
         {
-            "filename": "St-Patricks-parade_144941_002_00-01-50.mp3",
-            "title": "St. Patrick's parade",
-            "timestamp": "01:50",
-            "url": "/items/loc-tony-schwartz/144941/"
-        },
-        {
-            "filename": "St-Patricks-parade_144941_003_00-03-10.mp3",
-            "title": "St. Patrick's parade",
-            "timestamp": "03:10",
-            "url": "/items/loc-tony-schwartz/144941/"
-        },
-        {
-            "filename": "St-Patricks-parade_144941_004_00-03-29.mp3",
-            "title": "St. Patrick's parade",
-            "timestamp": "03:29",
-            "url": "/items/loc-tony-schwartz/144941/"
-        },
-        {
-            "filename": "St-Patricks-parade_144941_005_00-03-34.mp3",
-            "title": "St. Patrick's parade",
-            "timestamp": "03:34",
-            "url": "/items/loc-tony-schwartz/144941/"
-        },
-        {
-            "filename": "Stella-Adler--History-of-Yiddish-theater_188438_001_00-05-18.mp3",
+            "id": "188438",
             "title": "Stella Adler : History of Yiddish theater",
-            "timestamp": "05:18",
-            "url": "/items/loc-tony-schwartz/188438/"
+            "url": "/items/loc-tony-schwartz/188438/",
+            "clips": [
+                {
+                    "filename": "Stella-Adler--History-of-Yiddish-theater_188438_001_00-05-18",
+                    "timeStamp": "05:18",
+                    "start": 319000
+                },
+                {
+                    "filename": "Stella-Adler--History-of-Yiddish-theater_188438_002_00-06-19",
+                    "timeStamp": "06:19",
+                    "start": 380000
+                },
+                {
+                    "filename": "Stella-Adler--History-of-Yiddish-theater_188438_003_00-06-28",
+                    "timeStamp": "06:28",
+                    "start": 389000
+                },
+                {
+                    "filename": "Stella-Adler--History-of-Yiddish-theater_188438_004_00-08-31",
+                    "timeStamp": "08:31",
+                    "start": 512000
+                },
+                {
+                    "filename": "Stella-Adler--History-of-Yiddish-theater_188438_005_00-09-05",
+                    "timeStamp": "09:05",
+                    "start": 546000
+                },
+                {
+                    "filename": "Stella-Adler--History-of-Yiddish-theater_188438_006_00-10-24",
+                    "timeStamp": "10:24",
+                    "start": 625000
+                }
+            ]
         },
         {
-            "filename": "Stella-Adler--History-of-Yiddish-theater_188438_002_00-06-19.mp3",
-            "title": "Stella Adler : History of Yiddish theater",
-            "timestamp": "06:19",
-            "url": "/items/loc-tony-schwartz/188438/"
-        },
-        {
-            "filename": "Stella-Adler--History-of-Yiddish-theater_188438_003_00-06-28.mp3",
-            "title": "Stella Adler : History of Yiddish theater",
-            "timestamp": "06:28",
-            "url": "/items/loc-tony-schwartz/188438/"
-        },
-        {
-            "filename": "Stella-Adler--History-of-Yiddish-theater_188438_004_00-08-31.mp3",
-            "title": "Stella Adler : History of Yiddish theater",
-            "timestamp": "08:31",
-            "url": "/items/loc-tony-schwartz/188438/"
-        },
-        {
-            "filename": "Stella-Adler--History-of-Yiddish-theater_188438_005_00-09-05.mp3",
-            "title": "Stella Adler : History of Yiddish theater",
-            "timestamp": "09:05",
-            "url": "/items/loc-tony-schwartz/188438/"
-        },
-        {
-            "filename": "Stella-Adler--History-of-Yiddish-theater_188438_006_00-10-24.mp3",
-            "title": "Stella Adler : History of Yiddish theater",
-            "timestamp": "10:24",
-            "url": "/items/loc-tony-schwartz/188438/"
-        },
-        {
-            "filename": "Taxi-to-Harlem_122481_001_00-02-31.mp3",
+            "id": "122481",
             "title": "Taxi to Harlem",
-            "timestamp": "02:31",
-            "url": "/items/loc-tony-schwartz/122481/"
+            "url": "/items/loc-tony-schwartz/122481/",
+            "clips": [
+                {
+                    "filename": "Taxi-to-Harlem_122481_001_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Taxi-to-Harlem_122481_002_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                },
+                {
+                    "filename": "Taxi-to-Harlem_122481_003_00-04-01",
+                    "timeStamp": "04:01",
+                    "start": 242000
+                },
+                {
+                    "filename": "Taxi-to-Harlem_122481_004_00-04-31",
+                    "timeStamp": "04:31",
+                    "start": 272000
+                },
+                {
+                    "filename": "Taxi-to-Harlem_122481_005_00-05-03",
+                    "timeStamp": "05:03",
+                    "start": 304000
+                },
+                {
+                    "filename": "Taxi-to-Harlem_122481_006_00-05-22",
+                    "timeStamp": "05:22",
+                    "start": 323000
+                }
+            ]
         },
         {
-            "filename": "Taxi-to-Harlem_122481_002_00-02-45.mp3",
-            "title": "Taxi to Harlem",
-            "timestamp": "02:45",
-            "url": "/items/loc-tony-schwartz/122481/"
-        },
-        {
-            "filename": "Taxi-to-Harlem_122481_003_00-04-01.mp3",
-            "title": "Taxi to Harlem",
-            "timestamp": "04:01",
-            "url": "/items/loc-tony-schwartz/122481/"
-        },
-        {
-            "filename": "Taxi-to-Harlem_122481_004_00-04-31.mp3",
-            "title": "Taxi to Harlem",
-            "timestamp": "04:31",
-            "url": "/items/loc-tony-schwartz/122481/"
-        },
-        {
-            "filename": "Taxi-to-Harlem_122481_005_00-05-03.mp3",
-            "title": "Taxi to Harlem",
-            "timestamp": "05:03",
-            "url": "/items/loc-tony-schwartz/122481/"
-        },
-        {
-            "filename": "Taxi-to-Harlem_122481_006_00-05-22.mp3",
-            "title": "Taxi to Harlem",
-            "timestamp": "05:22",
-            "url": "/items/loc-tony-schwartz/122481/"
-        },
-        {
-            "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_001_00-01-47.mp3",
+            "id": "158021",
             "title": "Ted Carpenter and Tony Schwartz on museums 1968-06-09",
-            "timestamp": "01:47",
-            "url": "/items/loc-tony-schwartz/158021/"
+            "url": "/items/loc-tony-schwartz/158021/",
+            "clips": [
+                {
+                    "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_001_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_002_00-07-17",
+                    "timeStamp": "07:17",
+                    "start": 438000
+                },
+                {
+                    "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_003_00-27-16",
+                    "timeStamp": "27:16",
+                    "start": 1637000
+                },
+                {
+                    "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_004_00-29-15",
+                    "timeStamp": "29:15",
+                    "start": 1756000
+                },
+                {
+                    "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_005_00-29-26",
+                    "timeStamp": "29:26",
+                    "start": 1767000
+                },
+                {
+                    "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_006_00-34-44",
+                    "timeStamp": "34:44",
+                    "start": 2085000
+                }
+            ]
         },
         {
-            "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_002_00-07-17.mp3",
-            "title": "Ted Carpenter and Tony Schwartz on museums 1968-06-09",
-            "timestamp": "07:17",
-            "url": "/items/loc-tony-schwartz/158021/"
-        },
-        {
-            "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_003_00-27-16.mp3",
-            "title": "Ted Carpenter and Tony Schwartz on museums 1968-06-09",
-            "timestamp": "27:16",
-            "url": "/items/loc-tony-schwartz/158021/"
-        },
-        {
-            "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_004_00-29-15.mp3",
-            "title": "Ted Carpenter and Tony Schwartz on museums 1968-06-09",
-            "timestamp": "29:15",
-            "url": "/items/loc-tony-schwartz/158021/"
-        },
-        {
-            "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_005_00-29-26.mp3",
-            "title": "Ted Carpenter and Tony Schwartz on museums 1968-06-09",
-            "timestamp": "29:26",
-            "url": "/items/loc-tony-schwartz/158021/"
-        },
-        {
-            "filename": "Ted-Carpenter-and-Tony-Schwartz-on-museums-1968-06-09_158021_006_00-34-44.mp3",
-            "title": "Ted Carpenter and Tony Schwartz on museums 1968-06-09",
-            "timestamp": "34:44",
-            "url": "/items/loc-tony-schwartz/158021/"
-        },
-        {
-            "filename": "The-generation-gap_124546_001_00-00-19.mp3",
+            "id": "124546",
             "title": "The generation gap",
-            "timestamp": "00:19",
-            "url": "/items/loc-tony-schwartz/124546/"
+            "url": "/items/loc-tony-schwartz/124546/",
+            "clips": [
+                {
+                    "filename": "The-generation-gap_124546_001_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "The-generation-gap_124546_002_00-03-34",
+                    "timeStamp": "03:34",
+                    "start": 215000
+                },
+                {
+                    "filename": "The-generation-gap_124546_003_00-03-49",
+                    "timeStamp": "03:49",
+                    "start": 230000
+                }
+            ]
         },
         {
-            "filename": "The-generation-gap_124546_002_00-03-34.mp3",
-            "title": "The generation gap",
-            "timestamp": "03:34",
-            "url": "/items/loc-tony-schwartz/124546/"
-        },
-        {
-            "filename": "The-generation-gap_124546_003_00-03-49.mp3",
-            "title": "The generation gap",
-            "timestamp": "03:49",
-            "url": "/items/loc-tony-schwartz/124546/"
-        },
-        {
-            "filename": "The-value-of-being-a-Jew-today_70902_001_00-00-09.mp3",
+            "id": "70902",
             "title": "The value of being a Jew today",
-            "timestamp": "00:09",
-            "url": "/items/loc-tony-schwartz/70902/"
+            "url": "/items/loc-tony-schwartz/70902/",
+            "clips": [
+                {
+                    "filename": "The-value-of-being-a-Jew-today_70902_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "The-value-of-being-a-Jew-today_70902_002_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "The-value-of-being-a-Jew-today_70902_003_00-02-26",
+                    "timeStamp": "02:26",
+                    "start": 147000
+                },
+                {
+                    "filename": "The-value-of-being-a-Jew-today_70902_004_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                },
+                {
+                    "filename": "The-value-of-being-a-Jew-today_70902_005_00-03-27",
+                    "timeStamp": "03:27",
+                    "start": 208000
+                },
+                {
+                    "filename": "The-value-of-being-a-Jew-today_70902_006_00-03-48",
+                    "timeStamp": "03:48",
+                    "start": 229000
+                }
+            ]
         },
         {
-            "filename": "The-value-of-being-a-Jew-today_70902_002_00-02-13.mp3",
-            "title": "The value of being a Jew today",
-            "timestamp": "02:13",
-            "url": "/items/loc-tony-schwartz/70902/"
-        },
-        {
-            "filename": "The-value-of-being-a-Jew-today_70902_003_00-02-26.mp3",
-            "title": "The value of being a Jew today",
-            "timestamp": "02:26",
-            "url": "/items/loc-tony-schwartz/70902/"
-        },
-        {
-            "filename": "The-value-of-being-a-Jew-today_70902_004_00-02-43.mp3",
-            "title": "The value of being a Jew today",
-            "timestamp": "02:43",
-            "url": "/items/loc-tony-schwartz/70902/"
-        },
-        {
-            "filename": "The-value-of-being-a-Jew-today_70902_005_00-03-27.mp3",
-            "title": "The value of being a Jew today",
-            "timestamp": "03:27",
-            "url": "/items/loc-tony-schwartz/70902/"
-        },
-        {
-            "filename": "The-value-of-being-a-Jew-today_70902_006_00-03-48.mp3",
-            "title": "The value of being a Jew today",
-            "timestamp": "03:48",
-            "url": "/items/loc-tony-schwartz/70902/"
-        },
-        {
-            "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_001_00-04-02.mp3",
+            "id": "191870",
             "title": "Tony Schwartz discusses his agoraphobia with an unidentified man",
-            "timestamp": "04:02",
-            "url": "/items/loc-tony-schwartz/191870/"
+            "url": "/items/loc-tony-schwartz/191870/",
+            "clips": [
+                {
+                    "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_001_00-04-02",
+                    "timeStamp": "04:02",
+                    "start": 243000
+                },
+                {
+                    "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_002_00-04-56",
+                    "timeStamp": "04:56",
+                    "start": 297000
+                },
+                {
+                    "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_003_00-05-04",
+                    "timeStamp": "05:04",
+                    "start": 305000
+                },
+                {
+                    "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_004_00-06-35",
+                    "timeStamp": "06:35",
+                    "start": 396000
+                },
+                {
+                    "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_005_00-09-52",
+                    "timeStamp": "09:52",
+                    "start": 593000
+                },
+                {
+                    "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_006_00-18-20",
+                    "timeStamp": "18:20",
+                    "start": 1101000
+                }
+            ]
         },
         {
-            "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_002_00-04-56.mp3",
-            "title": "Tony Schwartz discusses his agoraphobia with an unidentified man",
-            "timestamp": "04:56",
-            "url": "/items/loc-tony-schwartz/191870/"
-        },
-        {
-            "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_003_00-05-04.mp3",
-            "title": "Tony Schwartz discusses his agoraphobia with an unidentified man",
-            "timestamp": "05:04",
-            "url": "/items/loc-tony-schwartz/191870/"
-        },
-        {
-            "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_004_00-06-35.mp3",
-            "title": "Tony Schwartz discusses his agoraphobia with an unidentified man",
-            "timestamp": "06:35",
-            "url": "/items/loc-tony-schwartz/191870/"
-        },
-        {
-            "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_005_00-09-52.mp3",
-            "title": "Tony Schwartz discusses his agoraphobia with an unidentified man",
-            "timestamp": "09:52",
-            "url": "/items/loc-tony-schwartz/191870/"
-        },
-        {
-            "filename": "Tony-Schwartz-discusses-his-agoraphobia-with-an-unidentified-man_191870_006_00-18-20.mp3",
-            "title": "Tony Schwartz discusses his agoraphobia with an unidentified man",
-            "timestamp": "18:20",
-            "url": "/items/loc-tony-schwartz/191870/"
-        },
-        {
-            "filename": "Traffic-in-New-York_119237_001_00-00-16.mp3",
+            "id": "119237",
             "title": "Traffic in New York",
-            "timestamp": "00:16",
-            "url": "/items/loc-tony-schwartz/119237/"
+            "url": "/items/loc-tony-schwartz/119237/",
+            "clips": [
+                {
+                    "filename": "Traffic-in-New-York_119237_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "Traffic-in-New-York_119237_002_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Traffic-in-New-York_119237_003_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "Traffic-in-New-York_119237_004_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Traffic-in-New-York_119237_005_00-03-05",
+                    "timeStamp": "03:05",
+                    "start": 186000
+                },
+                {
+                    "filename": "Traffic-in-New-York_119237_006_00-03-15",
+                    "timeStamp": "03:15",
+                    "start": 196000
+                }
+            ]
         },
         {
-            "filename": "Traffic-in-New-York_119237_002_00-01-00.mp3",
-            "title": "Traffic in New York",
-            "timestamp": "01:00",
-            "url": "/items/loc-tony-schwartz/119237/"
-        },
-        {
-            "filename": "Traffic-in-New-York_119237_003_00-02-13.mp3",
-            "title": "Traffic in New York",
-            "timestamp": "02:13",
-            "url": "/items/loc-tony-schwartz/119237/"
-        },
-        {
-            "filename": "Traffic-in-New-York_119237_004_00-02-23.mp3",
-            "title": "Traffic in New York",
-            "timestamp": "02:23",
-            "url": "/items/loc-tony-schwartz/119237/"
-        },
-        {
-            "filename": "Traffic-in-New-York_119237_005_00-03-05.mp3",
-            "title": "Traffic in New York",
-            "timestamp": "03:05",
-            "url": "/items/loc-tony-schwartz/119237/"
-        },
-        {
-            "filename": "Traffic-in-New-York_119237_006_00-03-15.mp3",
-            "title": "Traffic in New York",
-            "timestamp": "03:15",
-            "url": "/items/loc-tony-schwartz/119237/"
-        },
-        {
-            "filename": "Various-programs_67227_001_00-05-00.mp3",
+            "id": "67227",
             "title": "Various programs",
-            "timestamp": "05:00",
-            "url": "/items/loc-tony-schwartz/67227/"
+            "url": "/items/loc-tony-schwartz/67227/",
+            "clips": [
+                {
+                    "filename": "Various-programs_67227_001_00-05-00",
+                    "timeStamp": "05:00",
+                    "start": 301000
+                },
+                {
+                    "filename": "Various-programs_67227_002_00-06-30",
+                    "timeStamp": "06:30",
+                    "start": 391000
+                },
+                {
+                    "filename": "Various-programs_67227_003_00-06-42",
+                    "timeStamp": "06:42",
+                    "start": 403000
+                },
+                {
+                    "filename": "Various-programs_67227_004_00-08-38",
+                    "timeStamp": "08:38",
+                    "start": 519000
+                },
+                {
+                    "filename": "Various-programs_67227_005_00-09-08",
+                    "timeStamp": "09:08",
+                    "start": 549000
+                },
+                {
+                    "filename": "Various-programs_67227_006_00-10-39",
+                    "timeStamp": "10:39",
+                    "start": 640000
+                }
+            ]
         },
         {
-            "filename": "Various-programs_67227_002_00-06-30.mp3",
+            "id": "69823",
             "title": "Various programs",
-            "timestamp": "06:30",
-            "url": "/items/loc-tony-schwartz/67227/"
+            "url": "/items/loc-tony-schwartz/69823/",
+            "clips": [
+                {
+                    "filename": "Various-programs_69823_001_00-06-16",
+                    "timeStamp": "06:16",
+                    "start": 377000
+                },
+                {
+                    "filename": "Various-programs_69823_002_00-07-01",
+                    "timeStamp": "07:01",
+                    "start": 422000
+                },
+                {
+                    "filename": "Various-programs_69823_003_00-07-33",
+                    "timeStamp": "07:33",
+                    "start": 454000
+                },
+                {
+                    "filename": "Various-programs_69823_004_00-07-39",
+                    "timeStamp": "07:39",
+                    "start": 460000
+                },
+                {
+                    "filename": "Various-programs_69823_005_00-07-55",
+                    "timeStamp": "07:55",
+                    "start": 476000
+                },
+                {
+                    "filename": "Various-programs_69823_006_00-08-02",
+                    "timeStamp": "08:02",
+                    "start": 483000
+                }
+            ]
         },
         {
-            "filename": "Various-programs_67227_003_00-06-42.mp3",
+            "id": "71389",
             "title": "Various programs",
-            "timestamp": "06:42",
-            "url": "/items/loc-tony-schwartz/67227/"
+            "url": "/items/loc-tony-schwartz/71389/",
+            "clips": [
+                {
+                    "filename": "Various-programs_71389_001_00-00-58",
+                    "timeStamp": "00:58",
+                    "start": 59000
+                },
+                {
+                    "filename": "Various-programs_71389_002_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "Various-programs_71389_003_00-01-59",
+                    "timeStamp": "01:59",
+                    "start": 120000
+                },
+                {
+                    "filename": "Various-programs_71389_004_00-02-42",
+                    "timeStamp": "02:42",
+                    "start": 163000
+                },
+                {
+                    "filename": "Various-programs_71389_005_00-02-55",
+                    "timeStamp": "02:55",
+                    "start": 176000
+                },
+                {
+                    "filename": "Various-programs_71389_006_00-05-33",
+                    "timeStamp": "05:33",
+                    "start": 334000
+                }
+            ]
         },
         {
-            "filename": "Various-programs_67227_004_00-08-38.mp3",
-            "title": "Various programs",
-            "timestamp": "08:38",
-            "url": "/items/loc-tony-schwartz/67227/"
-        },
-        {
-            "filename": "Various-programs_67227_005_00-09-08.mp3",
-            "title": "Various programs",
-            "timestamp": "09:08",
-            "url": "/items/loc-tony-schwartz/67227/"
-        },
-        {
-            "filename": "Various-programs_67227_006_00-10-39.mp3",
-            "title": "Various programs",
-            "timestamp": "10:39",
-            "url": "/items/loc-tony-schwartz/67227/"
-        },
-        {
-            "filename": "Various-programs_69823_001_00-06-16.mp3",
-            "title": "Various programs",
-            "timestamp": "06:16",
-            "url": "/items/loc-tony-schwartz/69823/"
-        },
-        {
-            "filename": "Various-programs_69823_002_00-07-01.mp3",
-            "title": "Various programs",
-            "timestamp": "07:01",
-            "url": "/items/loc-tony-schwartz/69823/"
-        },
-        {
-            "filename": "Various-programs_69823_003_00-07-33.mp3",
-            "title": "Various programs",
-            "timestamp": "07:33",
-            "url": "/items/loc-tony-schwartz/69823/"
-        },
-        {
-            "filename": "Various-programs_69823_004_00-07-39.mp3",
-            "title": "Various programs",
-            "timestamp": "07:39",
-            "url": "/items/loc-tony-schwartz/69823/"
-        },
-        {
-            "filename": "Various-programs_69823_005_00-07-55.mp3",
-            "title": "Various programs",
-            "timestamp": "07:55",
-            "url": "/items/loc-tony-schwartz/69823/"
-        },
-        {
-            "filename": "Various-programs_69823_006_00-08-02.mp3",
-            "title": "Various programs",
-            "timestamp": "08:02",
-            "url": "/items/loc-tony-schwartz/69823/"
-        },
-        {
-            "filename": "Various-programs_71389_001_00-00-58.mp3",
-            "title": "Various programs",
-            "timestamp": "00:58",
-            "url": "/items/loc-tony-schwartz/71389/"
-        },
-        {
-            "filename": "Various-programs_71389_002_00-01-14.mp3",
-            "title": "Various programs",
-            "timestamp": "01:14",
-            "url": "/items/loc-tony-schwartz/71389/"
-        },
-        {
-            "filename": "Various-programs_71389_003_00-01-59.mp3",
-            "title": "Various programs",
-            "timestamp": "01:59",
-            "url": "/items/loc-tony-schwartz/71389/"
-        },
-        {
-            "filename": "Various-programs_71389_004_00-02-42.mp3",
-            "title": "Various programs",
-            "timestamp": "02:42",
-            "url": "/items/loc-tony-schwartz/71389/"
-        },
-        {
-            "filename": "Various-programs_71389_005_00-02-55.mp3",
-            "title": "Various programs",
-            "timestamp": "02:55",
-            "url": "/items/loc-tony-schwartz/71389/"
-        },
-        {
-            "filename": "Various-programs_71389_006_00-05-33.mp3",
-            "title": "Various programs",
-            "timestamp": "05:33",
-            "url": "/items/loc-tony-schwartz/71389/"
-        },
-        {
-            "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_001_00-00-03.mp3",
+            "id": "161031",
             "title": "Virgil Fox/organ : reel 2, 1963-02-12",
-            "timestamp": "00:03",
-            "url": "/items/loc-tony-schwartz/161031/"
+            "url": "/items/loc-tony-schwartz/161031/",
+            "clips": [
+                {
+                    "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_002_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_003_00-05-18",
+                    "timeStamp": "05:18",
+                    "start": 319000
+                },
+                {
+                    "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_004_00-06-16",
+                    "timeStamp": "06:16",
+                    "start": 377000
+                },
+                {
+                    "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_005_00-07-07",
+                    "timeStamp": "07:07",
+                    "start": 428000
+                },
+                {
+                    "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_006_00-09-48",
+                    "timeStamp": "09:48",
+                    "start": 589000
+                }
+            ]
         },
         {
-            "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_002_00-00-34.mp3",
-            "title": "Virgil Fox/organ : reel 2, 1963-02-12",
-            "timestamp": "00:34",
-            "url": "/items/loc-tony-schwartz/161031/"
-        },
-        {
-            "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_003_00-05-18.mp3",
-            "title": "Virgil Fox/organ : reel 2, 1963-02-12",
-            "timestamp": "05:18",
-            "url": "/items/loc-tony-schwartz/161031/"
-        },
-        {
-            "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_004_00-06-16.mp3",
-            "title": "Virgil Fox/organ : reel 2, 1963-02-12",
-            "timestamp": "06:16",
-            "url": "/items/loc-tony-schwartz/161031/"
-        },
-        {
-            "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_005_00-07-07.mp3",
-            "title": "Virgil Fox/organ : reel 2, 1963-02-12",
-            "timestamp": "07:07",
-            "url": "/items/loc-tony-schwartz/161031/"
-        },
-        {
-            "filename": "Virgil-Foxorgan--reel-2-1963-02-12_161031_006_00-09-48.mp3",
-            "title": "Virgil Fox/organ : reel 2, 1963-02-12",
-            "timestamp": "09:48",
-            "url": "/items/loc-tony-schwartz/161031/"
-        },
-        {
-            "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_001_00-01-39.mp3",
+            "id": "377448",
             "title": "Walden school, 1957-05-07 : children at school talking about various",
-            "timestamp": "01:39",
-            "url": "/items/loc-tony-schwartz/377448/"
+            "url": "/items/loc-tony-schwartz/377448/",
+            "clips": [
+                {
+                    "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_001_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_002_00-03-57",
+                    "timeStamp": "03:57",
+                    "start": 238000
+                },
+                {
+                    "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_003_00-04-30",
+                    "timeStamp": "04:30",
+                    "start": 271000
+                },
+                {
+                    "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_004_00-10-16",
+                    "timeStamp": "10:16",
+                    "start": 617000
+                },
+                {
+                    "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_005_00-16-22",
+                    "timeStamp": "16:22",
+                    "start": 983000
+                },
+                {
+                    "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_006_00-39-54",
+                    "timeStamp": "39:54",
+                    "start": 2395000
+                }
+            ]
         },
         {
-            "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_002_00-03-57.mp3",
-            "title": "Walden school, 1957-05-07 : children at school talking about various",
-            "timestamp": "03:57",
-            "url": "/items/loc-tony-schwartz/377448/"
-        },
-        {
-            "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_003_00-04-30.mp3",
-            "title": "Walden school, 1957-05-07 : children at school talking about various",
-            "timestamp": "04:30",
-            "url": "/items/loc-tony-schwartz/377448/"
-        },
-        {
-            "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_004_00-10-16.mp3",
-            "title": "Walden school, 1957-05-07 : children at school talking about various",
-            "timestamp": "10:16",
-            "url": "/items/loc-tony-schwartz/377448/"
-        },
-        {
-            "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_005_00-16-22.mp3",
-            "title": "Walden school, 1957-05-07 : children at school talking about various",
-            "timestamp": "16:22",
-            "url": "/items/loc-tony-schwartz/377448/"
-        },
-        {
-            "filename": "Walden-school-1957-05-07--children-at-school-talking-about-various_377448_006_00-39-54.mp3",
-            "title": "Walden school, 1957-05-07 : children at school talking about various",
-            "timestamp": "39:54",
-            "url": "/items/loc-tony-schwartz/377448/"
-        },
-        {
-            "filename": "Words--tone_120438_001_00-00-46.mp3",
+            "id": "120438",
             "title": "Words & tone",
-            "timestamp": "00:46",
-            "url": "/items/loc-tony-schwartz/120438/"
-        },
-        {
-            "filename": "Words--tone_120438_002_00-02-27.mp3",
-            "title": "Words & tone",
-            "timestamp": "02:27",
-            "url": "/items/loc-tony-schwartz/120438/"
-        },
-        {
-            "filename": "Words--tone_120438_003_00-02-34.mp3",
-            "title": "Words & tone",
-            "timestamp": "02:34",
-            "url": "/items/loc-tony-schwartz/120438/"
-        },
-        {
-            "filename": "Words--tone_120438_004_00-02-48.mp3",
-            "title": "Words & tone",
-            "timestamp": "02:48",
-            "url": "/items/loc-tony-schwartz/120438/"
-        },
-        {
-            "filename": "Words--tone_120438_005_00-02-53.mp3",
-            "title": "Words & tone",
-            "timestamp": "02:53",
-            "url": "/items/loc-tony-schwartz/120438/"
-        },
-        {
-            "filename": "Words--tone_120438_006_00-02-59.mp3",
-            "title": "Words & tone",
-            "timestamp": "02:59",
-            "url": "/items/loc-tony-schwartz/120438/"
+            "url": "/items/loc-tony-schwartz/120438/",
+            "clips": [
+                {
+                    "filename": "Words--tone_120438_001_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                },
+                {
+                    "filename": "Words--tone_120438_002_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "Words--tone_120438_003_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                },
+                {
+                    "filename": "Words--tone_120438_004_00-02-48",
+                    "timeStamp": "02:48",
+                    "start": 169000
+                },
+                {
+                    "filename": "Words--tone_120438_005_00-02-53",
+                    "timeStamp": "02:53",
+                    "start": 174000
+                },
+                {
+                    "filename": "Words--tone_120438_006_00-02-59",
+                    "timeStamp": "02:59",
+                    "start": 180000
+                }
+            ]
         }
     ],
     "segmentCount": 271,

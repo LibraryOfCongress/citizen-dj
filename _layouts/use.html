@@ -37,20 +37,22 @@
       <p>Click the files below to preview the audio segments:</p>
 
       <ul class="preview-list">
-        {% for clip in package.clips %}
-        <li>{{ clip.title }} (at {{ clip.timestamp }})
-          <div class="button-group">
-            <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}" class="button small toggle-play">play</a>
-
-            {% assign basenameSize = clip.filename | size | minus: 3 %}
-            <a href="{{ site.asset_url }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename | slice: 0, basenameSize }}wav" class="button small" download target="_blank">download</a>
-
-            {% if page.local_items %}
-            <a href="{{ clip.url }}" target="_blank" class="button small">view details</a>
-            {% else %}
-            <a href="{{ clip.url }}" target="_blank" class="button small">view original</a>
-            {% endif %}
-          </div>
+        {% for item in package.items %}
+        <li>
+          <h4>{{ item.title }}</h4>
+          <p><a href="{{ item.url }}" target="_blank" class="button small">view item details</a></p>
+          <ul>
+            {% for clip in item.clips %}
+            <li>
+              Excerpt starting at {{ clip.timeStamp }}
+              <div class="button-group">
+                <a href="{{ site.baseurl }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}.mp3" class="button small toggle-play">play</a>
+                <a href="{{ site.asset_url }}/audio/samplepacks/{{ page.uid }}/{{ clip.filename }}.wav" class="button small" download target="_blank">download</a>
+                <a href="{{ site.baseurl }}/{{ page.uid }}/remix/?itemId={{ item.id }}&itemStart={{ clip.start }}" class="button small">remix</a>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
         </li>
         {% endfor %}
       </ul>

@@ -13,468 +13,462 @@
             "comment": "Ideal for production"
         }
     ],
-    "clips": [
+    "clips": [],
+    "items": [
         {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_001_00-00-00.mp3",
+            "id": "00694051",
             "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/00694051/"
+            "url": "https://www.loc.gov/item/00694051/",
+            "clips": [
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_004_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_005_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_006_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_007_00-02-51",
+                    "timeStamp": "02:51",
+                    "start": 172000
+                },
+                {
+                    "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_008_00-03-21",
+                    "timeStamp": "03:21",
+                    "start": 202000
+                }
+            ]
         },
         {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_002_00-00-31.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "00:31",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_003_00-01-01.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "01:01",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_004_00-01-35.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "01:35",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_005_00-01-49.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "01:49",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_006_00-02-21.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "02:21",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_007_00-02-51.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "02:51",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "A-study-in-mimicry--vaudeville-sketch_00694051_008_00-03-21.mp3",
-            "title": "A study in mimicry : vaudeville sketch",
-            "timestamp": "03:21",
-            "url": "https://www.loc.gov/item/00694051/"
-        },
-        {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_001_00-00-00.mp3",
+            "id": "2018619095",
             "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/2018619095/"
+            "url": "https://www.loc.gov/item/2018619095/",
+            "clips": [
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
         },
         {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_002_00-00-30.mp3",
-            "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "00:30",
-            "url": "https://www.loc.gov/item/2018619095/"
-        },
-        {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_003_00-01-00.mp3",
-            "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "01:00",
-            "url": "https://www.loc.gov/item/2018619095/"
-        },
-        {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_004_00-01-30.mp3",
-            "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "01:30",
-            "url": "https://www.loc.gov/item/2018619095/"
-        },
-        {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_005_00-02-01.mp3",
-            "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "02:01",
-            "url": "https://www.loc.gov/item/2018619095/"
-        },
-        {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_006_00-02-31.mp3",
-            "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "02:31",
-            "url": "https://www.loc.gov/item/2018619095/"
-        },
-        {
-            "filename": "Good-bye-Broadway-hello-France--baritone-and-chorus-with-orchestra_2018619095_007_00-03-01.mp3",
-            "title": "Good-bye Broadway, hello France : baritone and chorus with orchestra",
-            "timestamp": "03:01",
-            "url": "https://www.loc.gov/item/2018619095/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_001_00-00-02.mp3",
+            "id": "00694068",
             "title": "Gunga Din",
-            "timestamp": "00:02",
-            "url": "https://www.loc.gov/item/00694068/"
+            "url": "https://www.loc.gov/item/00694068/",
+            "clips": [
+                {
+                    "filename": "Gunga-Din_00694068_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_003_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_004_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_005_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_006_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_007_00-03-32",
+                    "timeStamp": "03:32",
+                    "start": 213000
+                },
+                {
+                    "filename": "Gunga-Din_00694068_008_00-04-03",
+                    "timeStamp": "04:03",
+                    "start": 244000
+                }
+            ]
         },
         {
-            "filename": "Gunga-Din_00694068_002_00-00-32.mp3",
-            "title": "Gunga Din",
-            "timestamp": "00:32",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_003_00-01-02.mp3",
-            "title": "Gunga Din",
-            "timestamp": "01:02",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_004_00-02-02.mp3",
-            "title": "Gunga Din",
-            "timestamp": "02:02",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_005_00-02-32.mp3",
-            "title": "Gunga Din",
-            "timestamp": "02:32",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_006_00-03-02.mp3",
-            "title": "Gunga Din",
-            "timestamp": "03:02",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_007_00-03-32.mp3",
-            "title": "Gunga Din",
-            "timestamp": "03:32",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Gunga-Din_00694068_008_00-04-03.mp3",
-            "title": "Gunga Din",
-            "timestamp": "04:03",
-            "url": "https://www.loc.gov/item/00694068/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_001_00-00-00.mp3",
+            "id": "2018620420",
             "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/2018620420/"
+            "url": "https://www.loc.gov/item/2018620420/",
+            "clips": [
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_005_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_006_00-03-31",
+                    "timeStamp": "03:31",
+                    "start": 212000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_007_00-04-01",
+                    "timeStamp": "04:01",
+                    "start": 242000
+                },
+                {
+                    "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_008_00-04-31",
+                    "timeStamp": "04:31",
+                    "start": 272000
+                }
+            ]
         },
         {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_002_00-00-30.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "00:30",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_003_00-01-00.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "01:00",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_004_00-01-30.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "01:30",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_005_00-02-30.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "02:30",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_006_00-03-31.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "03:31",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_007_00-04-01.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "04:01",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "Happy-tho-married--monologue--Desperate-Desmond--drama--rehearsing-the-orchestra--vaudeville-specialty_2018620420_008_00-04-31.mp3",
-            "title": "Happy tho' married : monologue ; Desperate Desmond : drama : (rehearsing the orchestra) : vaudeville specialty",
-            "timestamp": "04:31",
-            "url": "https://www.loc.gov/item/2018620420/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_001_00-00-00.mp3",
+            "id": "2018620419",
             "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/2018620419/"
+            "url": "https://www.loc.gov/item/2018620419/",
+            "clips": [
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_005_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_007_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                },
+                {
+                    "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_008_00-03-32",
+                    "timeStamp": "03:32",
+                    "start": 213000
+                }
+            ]
         },
         {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_002_00-00-31.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "00:31",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_003_00-01-01.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "01:01",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_004_00-01-31.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "01:31",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_005_00-02-02.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "02:02",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_006_00-02-32.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "02:32",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_007_00-03-02.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "03:02",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "I-love-the-name-of-Mary--tenor-and-chorus-with-orchestra_2018620419_008_00-03-32.mp3",
-            "title": "I love the name of Mary : tenor and chorus with orchestra",
-            "timestamp": "03:32",
-            "url": "https://www.loc.gov/item/2018620419/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_001_00-00-00.mp3",
+            "id": "2018620417",
             "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/2018620417/"
+            "url": "https://www.loc.gov/item/2018620417/",
+            "clips": [
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_008_00-03-31",
+                    "timeStamp": "03:31",
+                    "start": 212000
+                }
+            ]
         },
         {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_002_00-00-30.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "00:30",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_003_00-01-00.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "01:00",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_004_00-01-30.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "01:30",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_005_00-02-01.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "02:01",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_006_00-02-31.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "02:31",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_007_00-03-01.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "03:01",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "In-Siam--Wars-of-the-world--NY-Hippodrome--tenor-and-chorus-orchestra-accompaniment_2018620417_008_00-03-31.mp3",
-            "title": "In Siam : Wars of the world : N.Y. Hippodrome : tenor and chorus, orchestra accompaniment",
-            "timestamp": "03:31",
-            "url": "https://www.loc.gov/item/2018620417/"
-        },
-        {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_001_00-00-05.mp3",
+            "id": "2018620416",
             "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "00:05",
-            "url": "https://www.loc.gov/item/2018620416/"
+            "url": "https://www.loc.gov/item/2018620416/",
+            "clips": [
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_001_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                },
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_002_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_003_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_004_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                },
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_005_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_006_00-02-36",
+                    "timeStamp": "02:36",
+                    "start": 157000
+                },
+                {
+                    "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_007_00-03-06",
+                    "timeStamp": "03:06",
+                    "start": 187000
+                }
+            ]
         },
         {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_002_00-00-35.mp3",
-            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "00:35",
-            "url": "https://www.loc.gov/item/2018620416/"
-        },
-        {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_003_00-01-06.mp3",
-            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "01:06",
-            "url": "https://www.loc.gov/item/2018620416/"
-        },
-        {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_004_00-01-36.mp3",
-            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "01:36",
-            "url": "https://www.loc.gov/item/2018620416/"
-        },
-        {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_005_00-02-06.mp3",
-            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "02:06",
-            "url": "https://www.loc.gov/item/2018620416/"
-        },
-        {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_006_00-02-36.mp3",
-            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "02:36",
-            "url": "https://www.loc.gov/item/2018620416/"
-        },
-        {
-            "filename": "Laughing-record--Henrys-music-lesson-Porters-on-a-Pullman-train_2018620416_007_00-03-06.mp3",
-            "title": "Laughing record : Henry's music lesson. Porters on a Pullman train",
-            "timestamp": "03:06",
-            "url": "https://www.loc.gov/item/2018620416/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_001_00-00-01.mp3",
+            "id": "2018620418",
             "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "00:01",
-            "url": "https://www.loc.gov/item/2018620418/"
+            "url": "https://www.loc.gov/item/2018620418/",
+            "clips": [
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_003_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_004_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_005_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_006_00-02-37",
+                    "timeStamp": "02:37",
+                    "start": 158000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_007_00-03-08",
+                    "timeStamp": "03:08",
+                    "start": 189000
+                },
+                {
+                    "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_008_00-03-39",
+                    "timeStamp": "03:39",
+                    "start": 220000
+                }
+            ]
         },
         {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_002_00-00-31.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "00:31",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_003_00-01-03.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "01:03",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_004_00-01-34.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "01:34",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_005_00-02-06.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "02:06",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_006_00-02-37.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "02:37",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_007_00-03-08.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "03:08",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Recollections-of-1861-65--trumpet-solo-with-orchestra-Loves-old-sweet-song--saxophone-with-orchestra_2018620418_008_00-03-39.mp3",
-            "title": "Recollections of 1861-65 : trumpet solo with orchestra. Love's old sweet song : saxophone with orchestra",
-            "timestamp": "03:39",
-            "url": "https://www.loc.gov/item/2018620418/"
-        },
-        {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_001_00-00-00.mp3",
+            "id": "2018620426",
             "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/2018620426/"
+            "url": "https://www.loc.gov/item/2018620426/",
+            "clips": [
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
         },
         {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_002_00-00-30.mp3",
-            "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "00:30",
-            "url": "https://www.loc.gov/item/2018620426/"
-        },
-        {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_003_00-01-00.mp3",
-            "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "01:00",
-            "url": "https://www.loc.gov/item/2018620426/"
-        },
-        {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_004_00-01-30.mp3",
-            "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "01:30",
-            "url": "https://www.loc.gov/item/2018620426/"
-        },
-        {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_005_00-02-00.mp3",
-            "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "02:00",
-            "url": "https://www.loc.gov/item/2018620426/"
-        },
-        {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_006_00-02-31.mp3",
-            "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "02:31",
-            "url": "https://www.loc.gov/item/2018620426/"
-        },
-        {
-            "filename": "Saxophone-sobs--saxophone-with-orchestra_2018620426_007_00-03-01.mp3",
-            "title": "Saxophone sobs : saxophone with orchestra",
-            "timestamp": "03:01",
-            "url": "https://www.loc.gov/item/2018620426/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_001_00-00-00.mp3",
+            "id": "2018620415",
             "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "00:00",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_002_00-00-30.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "00:30",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_003_00-01-00.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "01:00",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_004_00-01-31.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "01:31",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_005_00-02-01.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "02:01",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_006_00-02-31.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "02:31",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_007_00-03-01.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "03:01",
-            "url": "https://www.loc.gov/item/2018620415/"
-        },
-        {
-            "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_008_00-03-31.mp3",
-            "title": "The Arkansas traveler descriptive scene ; Flanagan's troubles in a restaurant : vaudeville specialty.",
-            "timestamp": "03:31",
-            "url": "https://www.loc.gov/item/2018620415/"
+            "url": "https://www.loc.gov/item/2018620415/",
+            "clips": [
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "The-Arkansas-traveler-descriptive-scene--Flanagans-troubles-in-a-restaurant--vaudeville-specialty_2018620415_008_00-03-31",
+                    "timeStamp": "03:31",
+                    "start": 212000
+                }
+            ]
         }
     ],
     "segmentCount": 77,

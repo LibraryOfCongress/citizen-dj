@@ -13,1596 +13,1878 @@
             "comment": "Ideal for production"
         }
     ],
-    "clips": [
+    "clips": [],
+    "items": [
         {
-            "filename": "Till-the-boys-come-home_00694067_001_00-00-03.mp3",
+            "id": "00694067",
             "title": "'Till the boys come home",
-            "timestamp": "00:03",
-            "url": "http://www.loc.gov/item/00694067/"
+            "url": "http://www.loc.gov/item/00694067/",
+            "clips": [
+                {
+                    "filename": "Till-the-boys-come-home_00694067_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Till-the-boys-come-home_00694067_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Till-the-boys-come-home_00694067_003_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Till-the-boys-come-home_00694067_004_00-03-51",
+                    "timeStamp": "03:51",
+                    "start": 232000
+                }
+            ]
         },
         {
-            "filename": "Till-the-boys-come-home_00694067_002_00-01-29.mp3",
-            "title": "'Till the boys come home",
-            "timestamp": "01:29",
-            "url": "http://www.loc.gov/item/00694067/"
-        },
-        {
-            "filename": "Till-the-boys-come-home_00694067_003_00-02-23.mp3",
-            "title": "'Till the boys come home",
-            "timestamp": "02:23",
-            "url": "http://www.loc.gov/item/00694067/"
-        },
-        {
-            "filename": "Till-the-boys-come-home_00694067_004_00-03-51.mp3",
-            "title": "'Till the boys come home",
-            "timestamp": "03:51",
-            "url": "http://www.loc.gov/item/00694067/"
-        },
-        {
-            "filename": "12th-Street-rag_00694040_001_00-00-30.mp3",
+            "id": "00694040",
             "title": "12th Street rag",
-            "timestamp": "00:30",
-            "url": "http://www.loc.gov/item/00694040/"
+            "url": "http://www.loc.gov/item/00694040/",
+            "clips": [
+                {
+                    "filename": "12th-Street-rag_00694040_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "12th-Street-rag_00694040_002_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "12th-Street-rag_00694040_003_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "12th-Street-rag_00694040_004_00-03-35",
+                    "timeStamp": "03:35",
+                    "start": 216000
+                }
+            ]
         },
         {
-            "filename": "12th-Street-rag_00694040_002_00-01-01.mp3",
-            "title": "12th Street rag",
-            "timestamp": "01:01",
-            "url": "http://www.loc.gov/item/00694040/"
-        },
-        {
-            "filename": "12th-Street-rag_00694040_003_00-01-47.mp3",
-            "title": "12th Street rag",
-            "timestamp": "01:47",
-            "url": "http://www.loc.gov/item/00694040/"
-        },
-        {
-            "filename": "12th-Street-rag_00694040_004_00-03-35.mp3",
-            "title": "12th Street rag",
-            "timestamp": "03:35",
-            "url": "http://www.loc.gov/item/00694040/"
-        },
-        {
-            "filename": "A-police-court-scene_00694079_001_00-00-14.mp3",
+            "id": "00694079",
             "title": "A police court scene",
-            "timestamp": "00:14",
-            "url": "http://www.loc.gov/item/00694079/"
+            "url": "http://www.loc.gov/item/00694079/",
+            "clips": [
+                {
+                    "filename": "A-police-court-scene_00694079_001_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "A-police-court-scene_00694079_002_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "A-police-court-scene_00694079_003_00-02-50",
+                    "timeStamp": "02:50",
+                    "start": 171000
+                },
+                {
+                    "filename": "A-police-court-scene_00694079_004_00-03-21",
+                    "timeStamp": "03:21",
+                    "start": 202000
+                }
+            ]
         },
         {
-            "filename": "A-police-court-scene_00694079_002_00-01-34.mp3",
-            "title": "A police court scene",
-            "timestamp": "01:34",
-            "url": "http://www.loc.gov/item/00694079/"
-        },
-        {
-            "filename": "A-police-court-scene_00694079_003_00-02-50.mp3",
-            "title": "A police court scene",
-            "timestamp": "02:50",
-            "url": "http://www.loc.gov/item/00694079/"
-        },
-        {
-            "filename": "A-police-court-scene_00694079_004_00-03-21.mp3",
-            "title": "A police court scene",
-            "timestamp": "03:21",
-            "url": "http://www.loc.gov/item/00694079/"
-        },
-        {
-            "filename": "A-visit-to-Reillys_00694082_001_00-00-33.mp3",
+            "id": "00694082",
             "title": "A visit to Reilly's",
-            "timestamp": "00:33",
-            "url": "http://www.loc.gov/item/00694082/"
+            "url": "http://www.loc.gov/item/00694082/",
+            "clips": [
+                {
+                    "filename": "A-visit-to-Reillys_00694082_001_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "A-visit-to-Reillys_00694082_002_00-02-57",
+                    "timeStamp": "02:57",
+                    "start": 178000
+                }
+            ]
         },
         {
-            "filename": "A-visit-to-Reillys_00694082_002_00-02-57.mp3",
-            "title": "A visit to Reilly's",
-            "timestamp": "02:57",
-            "url": "http://www.loc.gov/item/00694082/"
-        },
-        {
-            "filename": "Allahs-holiday_00694027_001_00-00-01.mp3",
+            "id": "00694027",
             "title": "Allah's holiday",
-            "timestamp": "00:01",
-            "url": "http://www.loc.gov/item/00694027/"
+            "url": "http://www.loc.gov/item/00694027/",
+            "clips": [
+                {
+                    "filename": "Allahs-holiday_00694027_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Allahs-holiday_00694027_002_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Allahs-holiday_00694027_003_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Allahs-holiday_00694027_004_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                }
+            ]
         },
         {
-            "filename": "Allahs-holiday_00694027_002_00-01-31.mp3",
-            "title": "Allah's holiday",
-            "timestamp": "01:31",
-            "url": "http://www.loc.gov/item/00694027/"
-        },
-        {
-            "filename": "Allahs-holiday_00694027_003_00-02-02.mp3",
-            "title": "Allah's holiday",
-            "timestamp": "02:02",
-            "url": "http://www.loc.gov/item/00694027/"
-        },
-        {
-            "filename": "Allahs-holiday_00694027_004_00-02-32.mp3",
-            "title": "Allah's holiday",
-            "timestamp": "02:32",
-            "url": "http://www.loc.gov/item/00694027/"
-        },
-        {
-            "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_001_00-01-02.mp3",
+            "id": "00694044",
             "title": "Are you from Dixie? ('cause I'm from Dixie, too)",
-            "timestamp": "01:02",
-            "url": "http://www.loc.gov/item/00694044/"
+            "url": "http://www.loc.gov/item/00694044/",
+            "clips": [
+                {
+                    "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_001_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_002_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_003_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_004_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                }
+            ]
         },
         {
-            "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_002_00-01-09.mp3",
-            "title": "Are you from Dixie? ('cause I'm from Dixie, too)",
-            "timestamp": "01:09",
-            "url": "http://www.loc.gov/item/00694044/"
-        },
-        {
-            "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_003_00-01-33.mp3",
-            "title": "Are you from Dixie? ('cause I'm from Dixie, too)",
-            "timestamp": "01:33",
-            "url": "http://www.loc.gov/item/00694044/"
-        },
-        {
-            "filename": "Are-you-from-Dixie-cause-Im-from-Dixie-too_00694044_004_00-01-39.mp3",
-            "title": "Are you from Dixie? ('cause I'm from Dixie, too)",
-            "timestamp": "01:39",
-            "url": "http://www.loc.gov/item/00694044/"
-        },
-        {
-            "filename": "At-the-ball-thats-all_00694045_001_00-00-02.mp3",
+            "id": "00694045",
             "title": "At the ball that's all",
-            "timestamp": "00:02",
-            "url": "http://www.loc.gov/item/00694045/"
+            "url": "http://www.loc.gov/item/00694045/",
+            "clips": [
+                {
+                    "filename": "At-the-ball-thats-all_00694045_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "At-the-ball-thats-all_00694045_002_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "At-the-ball-thats-all_00694045_003_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                },
+                {
+                    "filename": "At-the-ball-thats-all_00694045_004_00-03-30",
+                    "timeStamp": "03:30",
+                    "start": 211000
+                }
+            ]
         },
         {
-            "filename": "At-the-ball-thats-all_00694045_002_00-00-16.mp3",
-            "title": "At the ball that's all",
-            "timestamp": "00:16",
-            "url": "http://www.loc.gov/item/00694045/"
-        },
-        {
-            "filename": "At-the-ball-thats-all_00694045_003_00-01-28.mp3",
-            "title": "At the ball that's all",
-            "timestamp": "01:28",
-            "url": "http://www.loc.gov/item/00694045/"
-        },
-        {
-            "filename": "At-the-ball-thats-all_00694045_004_00-03-30.mp3",
-            "title": "At the ball that's all",
-            "timestamp": "03:30",
-            "url": "http://www.loc.gov/item/00694045/"
-        },
-        {
-            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_001_00-01-04.mp3",
+            "id": "00694074",
             "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
-            "timestamp": "01:04",
-            "url": "http://www.loc.gov/item/00694074/"
+            "url": "http://www.loc.gov/item/00694074/",
+            "clips": [
+                {
+                    "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_001_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_002_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_003_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                },
+                {
+                    "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_004_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                }
+            ]
         },
         {
-            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_002_00-01-14.mp3",
-            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
-            "timestamp": "01:14",
-            "url": "http://www.loc.gov/item/00694074/"
-        },
-        {
-            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_003_00-01-41.mp3",
-            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
-            "timestamp": "01:41",
-            "url": "http://www.loc.gov/item/00694074/"
-        },
-        {
-            "filename": "Backyard-conversation-between-Mrs-Reilly-and-Mrs-Finnegan_00694074_004_00-01-57.mp3",
-            "title": "Backyard conversation between Mrs. Reilly and Mrs. Finnegan",
-            "timestamp": "01:57",
-            "url": "http://www.loc.gov/item/00694074/"
-        },
-        {
-            "filename": "Beautiful-Ohio_00694046_001_00-00-00.mp3",
+            "id": "00694046",
             "title": "Beautiful Ohio",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694046/"
+            "url": "http://www.loc.gov/item/00694046/",
+            "clips": [
+                {
+                    "filename": "Beautiful-Ohio_00694046_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Beautiful-Ohio_00694046_002_00-02-04",
+                    "timeStamp": "02:04",
+                    "start": 125000
+                }
+            ]
         },
         {
-            "filename": "Beautiful-Ohio_00694046_002_00-02-04.mp3",
-            "title": "Beautiful Ohio",
-            "timestamp": "02:04",
-            "url": "http://www.loc.gov/item/00694046/"
-        },
-        {
-            "filename": "Caprice-Espagnol_00694091_001_00-00-41.mp3",
+            "id": "00694091",
             "title": "Caprice Espagnol",
-            "timestamp": "00:41",
-            "url": "http://www.loc.gov/item/00694091/"
+            "url": "http://www.loc.gov/item/00694091/",
+            "clips": [
+                {
+                    "filename": "Caprice-Espagnol_00694091_001_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                },
+                {
+                    "filename": "Caprice-Espagnol_00694091_002_00-01-22",
+                    "timeStamp": "01:22",
+                    "start": 83000
+                }
+            ]
         },
         {
-            "filename": "Caprice-Espagnol_00694091_002_00-01-22.mp3",
-            "title": "Caprice Espagnol",
-            "timestamp": "01:22",
-            "url": "http://www.loc.gov/item/00694091/"
-        },
-        {
-            "filename": "Carnival-of-Venice-variations_00694092_001_00-00-10.mp3",
+            "id": "00694092",
             "title": "Carnival of Venice--variations",
-            "timestamp": "00:10",
-            "url": "http://www.loc.gov/item/00694092/"
+            "url": "http://www.loc.gov/item/00694092/",
+            "clips": [
+                {
+                    "filename": "Carnival-of-Venice-variations_00694092_001_00-00-10",
+                    "timeStamp": "00:10",
+                    "start": 11000
+                },
+                {
+                    "filename": "Carnival-of-Venice-variations_00694092_002_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                },
+                {
+                    "filename": "Carnival-of-Venice-variations_00694092_003_00-03-49",
+                    "timeStamp": "03:49",
+                    "start": 230000
+                },
+                {
+                    "filename": "Carnival-of-Venice-variations_00694092_004_00-04-13",
+                    "timeStamp": "04:13",
+                    "start": 254000
+                }
+            ]
         },
         {
-            "filename": "Carnival-of-Venice-variations_00694092_002_00-01-15.mp3",
-            "title": "Carnival of Venice--variations",
-            "timestamp": "01:15",
-            "url": "http://www.loc.gov/item/00694092/"
-        },
-        {
-            "filename": "Carnival-of-Venice-variations_00694092_003_00-03-49.mp3",
-            "title": "Carnival of Venice--variations",
-            "timestamp": "03:49",
-            "url": "http://www.loc.gov/item/00694092/"
-        },
-        {
-            "filename": "Carnival-of-Venice-variations_00694092_004_00-04-13.mp3",
-            "title": "Carnival of Venice--variations",
-            "timestamp": "04:13",
-            "url": "http://www.loc.gov/item/00694092/"
-        },
-        {
-            "filename": "Carolina-rolling-stone_00694048_001_00-01-45.mp3",
+            "id": "00694048",
             "title": "Carolina rolling stone",
-            "timestamp": "01:45",
-            "url": "http://www.loc.gov/item/00694048/"
+            "url": "http://www.loc.gov/item/00694048/",
+            "clips": [
+                {
+                    "filename": "Carolina-rolling-stone_00694048_001_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "Carolina-rolling-stone_00694048_002_00-02-56",
+                    "timeStamp": "02:56",
+                    "start": 177000
+                },
+                {
+                    "filename": "Carolina-rolling-stone_00694048_003_00-03-33",
+                    "timeStamp": "03:33",
+                    "start": 214000
+                }
+            ]
         },
         {
-            "filename": "Carolina-rolling-stone_00694048_002_00-02-56.mp3",
-            "title": "Carolina rolling stone",
-            "timestamp": "02:56",
-            "url": "http://www.loc.gov/item/00694048/"
-        },
-        {
-            "filename": "Carolina-rolling-stone_00694048_003_00-03-33.mp3",
-            "title": "Carolina rolling stone",
-            "timestamp": "03:33",
-            "url": "http://www.loc.gov/item/00694048/"
-        },
-        {
-            "filename": "Cohen-on-his-honeymoon_00694076_001_00-00-06.mp3",
+            "id": "00694076",
             "title": "Cohen on his honeymoon",
-            "timestamp": "00:06",
-            "url": "http://www.loc.gov/item/00694076/"
+            "url": "http://www.loc.gov/item/00694076/",
+            "clips": [
+                {
+                    "filename": "Cohen-on-his-honeymoon_00694076_001_00-00-06",
+                    "timeStamp": "00:06",
+                    "start": 7000
+                }
+            ]
         },
         {
-            "filename": "Crazy-blues_00694049_001_00-00-09.mp3",
+            "id": "00694049",
             "title": "Crazy blues",
-            "timestamp": "00:09",
-            "url": "http://www.loc.gov/item/00694049/"
+            "url": "http://www.loc.gov/item/00694049/",
+            "clips": [
+                {
+                    "filename": "Crazy-blues_00694049_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Crazy-blues_00694049_002_00-00-28",
+                    "timeStamp": "00:28",
+                    "start": 29000
+                },
+                {
+                    "filename": "Crazy-blues_00694049_003_00-01-20",
+                    "timeStamp": "01:20",
+                    "start": 81000
+                },
+                {
+                    "filename": "Crazy-blues_00694049_004_00-02-57",
+                    "timeStamp": "02:57",
+                    "start": 178000
+                }
+            ]
         },
         {
-            "filename": "Crazy-blues_00694049_002_00-00-28.mp3",
-            "title": "Crazy blues",
-            "timestamp": "00:28",
-            "url": "http://www.loc.gov/item/00694049/"
-        },
-        {
-            "filename": "Crazy-blues_00694049_003_00-01-20.mp3",
-            "title": "Crazy blues",
-            "timestamp": "01:20",
-            "url": "http://www.loc.gov/item/00694049/"
-        },
-        {
-            "filename": "Crazy-blues_00694049_004_00-02-57.mp3",
-            "title": "Crazy blues",
-            "timestamp": "02:57",
-            "url": "http://www.loc.gov/item/00694049/"
-        },
-        {
-            "filename": "Die-Witwe-und-ihre-sieben-Maenner_00694084_001_00-02-37.mp3",
+            "id": "00694084",
             "title": "Die Witwe und ihre sieben Maenner",
-            "timestamp": "02:37",
-            "url": "http://www.loc.gov/item/00694084/"
+            "url": "http://www.loc.gov/item/00694084/",
+            "clips": [
+                {
+                    "filename": "Die-Witwe-und-ihre-sieben-Maenner_00694084_001_00-02-37",
+                    "timeStamp": "02:37",
+                    "start": 158000
+                },
+                {
+                    "filename": "Die-Witwe-und-ihre-sieben-Maenner_00694084_002_00-03-08",
+                    "timeStamp": "03:08",
+                    "start": 189000
+                }
+            ]
         },
         {
-            "filename": "Die-Witwe-und-ihre-sieben-Maenner_00694084_002_00-03-08.mp3",
-            "title": "Die Witwe und ihre sieben Maenner",
-            "timestamp": "03:08",
-            "url": "http://www.loc.gov/item/00694084/"
-        },
-        {
-            "filename": "Dinnie-Donohue-on-Prohibition_00694077_001_00-00-00.mp3",
+            "id": "00694077",
             "title": "Dinnie Donohue, on Prohibition",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694077/"
+            "url": "http://www.loc.gov/item/00694077/",
+            "clips": [
+                {
+                    "filename": "Dinnie-Donohue-on-Prohibition_00694077_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Dinnie-Donohue-on-Prohibition_00694077_002_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Dinnie-Donohue-on-Prohibition_00694077_003_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                },
+                {
+                    "filename": "Dinnie-Donohue-on-Prohibition_00694077_004_00-03-21",
+                    "timeStamp": "03:21",
+                    "start": 202000
+                }
+            ]
         },
         {
-            "filename": "Dinnie-Donohue-on-Prohibition_00694077_002_00-00-33.mp3",
-            "title": "Dinnie Donohue, on Prohibition",
-            "timestamp": "00:33",
-            "url": "http://www.loc.gov/item/00694077/"
-        },
-        {
-            "filename": "Dinnie-Donohue-on-Prohibition_00694077_003_00-02-10.mp3",
-            "title": "Dinnie Donohue, on Prohibition",
-            "timestamp": "02:10",
-            "url": "http://www.loc.gov/item/00694077/"
-        },
-        {
-            "filename": "Dinnie-Donohue-on-Prohibition_00694077_004_00-03-21.mp3",
-            "title": "Dinnie Donohue, on Prohibition",
-            "timestamp": "03:21",
-            "url": "http://www.loc.gov/item/00694077/"
-        },
-        {
-            "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_001_00-00-17.mp3",
+            "id": "00694050",
             "title": "Don't bite the hand that's feeding you",
-            "timestamp": "00:17",
-            "url": "http://www.loc.gov/item/00694050/"
+            "url": "http://www.loc.gov/item/00694050/",
+            "clips": [
+                {
+                    "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                },
+                {
+                    "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_002_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_003_00-02-07",
+                    "timeStamp": "02:07",
+                    "start": 128000
+                },
+                {
+                    "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_004_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                }
+            ]
         },
         {
-            "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_002_00-01-33.mp3",
-            "title": "Don't bite the hand that's feeding you",
-            "timestamp": "01:33",
-            "url": "http://www.loc.gov/item/00694050/"
-        },
-        {
-            "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_003_00-02-07.mp3",
-            "title": "Don't bite the hand that's feeding you",
-            "timestamp": "02:07",
-            "url": "http://www.loc.gov/item/00694050/"
-        },
-        {
-            "filename": "Dont-bite-the-hand-thats-feeding-you_00694050_004_00-02-27.mp3",
-            "title": "Don't bite the hand that's feeding you",
-            "timestamp": "02:27",
-            "url": "http://www.loc.gov/item/00694050/"
-        },
-        {
-            "filename": "Elegie_00694093_001_00-01-09.mp3",
+            "id": "00694093",
             "title": "Elegie",
-            "timestamp": "01:09",
-            "url": "http://www.loc.gov/item/00694093/"
+            "url": "http://www.loc.gov/item/00694093/",
+            "clips": [
+                {
+                    "filename": "Elegie_00694093_001_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "Elegie_00694093_002_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                },
+                {
+                    "filename": "Elegie_00694093_003_00-01-46",
+                    "timeStamp": "01:46",
+                    "start": 107000
+                },
+                {
+                    "filename": "Elegie_00694093_004_00-02-53",
+                    "timeStamp": "02:53",
+                    "start": 174000
+                }
+            ]
         },
         {
-            "filename": "Elegie_00694093_002_00-01-28.mp3",
-            "title": "Elegie",
-            "timestamp": "01:28",
-            "url": "http://www.loc.gov/item/00694093/"
-        },
-        {
-            "filename": "Elegie_00694093_003_00-01-46.mp3",
-            "title": "Elegie",
-            "timestamp": "01:46",
-            "url": "http://www.loc.gov/item/00694093/"
-        },
-        {
-            "filename": "Elegie_00694093_004_00-02-53.mp3",
-            "title": "Elegie",
-            "timestamp": "02:53",
-            "url": "http://www.loc.gov/item/00694093/"
-        },
-        {
-            "filename": "Fun-in-a-bakery-shop_00694005_001_00-00-10.mp3",
+            "id": "00694005",
             "title": "Fun in a bakery shop",
-            "timestamp": "00:10",
-            "url": "http://www.loc.gov/item/00694005/"
+            "url": "http://www.loc.gov/item/00694005/",
+            "clips": [
+                {
+                    "filename": "Fun-in-a-bakery-shop_00694005_001_00-00-10",
+                    "timeStamp": "00:10",
+                    "start": 11000
+                },
+                {
+                    "filename": "Fun-in-a-bakery-shop_00694005_002_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "Fun-in-a-bakery-shop_00694005_003_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                }
+            ]
         },
         {
-            "filename": "Fun-in-a-bakery-shop_00694005_002_00-00-40.mp3",
-            "title": "Fun in a bakery shop",
-            "timestamp": "00:40",
-            "url": "http://www.loc.gov/item/00694005/"
-        },
-        {
-            "filename": "Fun-in-a-bakery-shop_00694005_003_00-01-11.mp3",
-            "title": "Fun in a bakery shop",
-            "timestamp": "01:11",
-            "url": "http://www.loc.gov/item/00694005/"
-        },
-        {
-            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_001_00-00-01.mp3",
+            "id": "00694052",
             "title": "Gasoline Gus and his jitney bus",
-            "timestamp": "00:01",
-            "url": "http://www.loc.gov/item/00694052/"
+            "url": "http://www.loc.gov/item/00694052/",
+            "clips": [
+                {
+                    "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_002_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                },
+                {
+                    "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_003_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                },
+                {
+                    "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_004_00-02-16",
+                    "timeStamp": "02:16",
+                    "start": 137000
+                }
+            ]
         },
         {
-            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_002_00-00-17.mp3",
-            "title": "Gasoline Gus and his jitney bus",
-            "timestamp": "00:17",
-            "url": "http://www.loc.gov/item/00694052/"
-        },
-        {
-            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_003_00-01-15.mp3",
-            "title": "Gasoline Gus and his jitney bus",
-            "timestamp": "01:15",
-            "url": "http://www.loc.gov/item/00694052/"
-        },
-        {
-            "filename": "Gasoline-Gus-and-his-jitney-bus_00694052_004_00-02-16.mp3",
-            "title": "Gasoline Gus and his jitney bus",
-            "timestamp": "02:16",
-            "url": "http://www.loc.gov/item/00694052/"
-        },
-        {
-            "filename": "Give-a-man-a-horse-he-can-ride_00694053_001_00-02-36.mp3",
+            "id": "00694053",
             "title": "Give a man a horse he can ride",
-            "timestamp": "02:36",
-            "url": "http://www.loc.gov/item/00694053/"
+            "url": "http://www.loc.gov/item/00694053/",
+            "clips": [
+                {
+                    "filename": "Give-a-man-a-horse-he-can-ride_00694053_001_00-02-36",
+                    "timeStamp": "02:36",
+                    "start": 157000
+                },
+                {
+                    "filename": "Give-a-man-a-horse-he-can-ride_00694053_002_00-02-48",
+                    "timeStamp": "02:48",
+                    "start": 169000
+                },
+                {
+                    "filename": "Give-a-man-a-horse-he-can-ride_00694053_003_00-03-44",
+                    "timeStamp": "03:44",
+                    "start": 225000
+                },
+                {
+                    "filename": "Give-a-man-a-horse-he-can-ride_00694053_004_00-03-51",
+                    "timeStamp": "03:51",
+                    "start": 232000
+                }
+            ]
         },
         {
-            "filename": "Give-a-man-a-horse-he-can-ride_00694053_002_00-02-48.mp3",
-            "title": "Give a man a horse he can ride",
-            "timestamp": "02:48",
-            "url": "http://www.loc.gov/item/00694053/"
-        },
-        {
-            "filename": "Give-a-man-a-horse-he-can-ride_00694053_003_00-03-44.mp3",
-            "title": "Give a man a horse he can ride",
-            "timestamp": "03:44",
-            "url": "http://www.loc.gov/item/00694053/"
-        },
-        {
-            "filename": "Give-a-man-a-horse-he-can-ride_00694053_004_00-03-51.mp3",
-            "title": "Give a man a horse he can ride",
-            "timestamp": "03:51",
-            "url": "http://www.loc.gov/item/00694053/"
-        },
-        {
-            "filename": "Happy-tho-married_00694078_001_00-00-27.mp3",
+            "id": "00694078",
             "title": "Happy tho' married",
-            "timestamp": "00:27",
-            "url": "http://www.loc.gov/item/00694078/"
+            "url": "http://www.loc.gov/item/00694078/",
+            "clips": [
+                {
+                    "filename": "Happy-tho-married_00694078_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "Happy-tho-married_00694078_002_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Happy-tho-married_00694078_003_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Happy-tho-married_00694078_004_00-03-51",
+                    "timeStamp": "03:51",
+                    "start": 232000
+                }
+            ]
         },
         {
-            "filename": "Happy-tho-married_00694078_002_00-00-37.mp3",
-            "title": "Happy tho' married",
-            "timestamp": "00:37",
-            "url": "http://www.loc.gov/item/00694078/"
-        },
-        {
-            "filename": "Happy-tho-married_00694078_003_00-02-00.mp3",
-            "title": "Happy tho' married",
-            "timestamp": "02:00",
-            "url": "http://www.loc.gov/item/00694078/"
-        },
-        {
-            "filename": "Happy-tho-married_00694078_004_00-03-51.mp3",
-            "title": "Happy tho' married",
-            "timestamp": "03:51",
-            "url": "http://www.loc.gov/item/00694078/"
-        },
-        {
-            "filename": "Hungarian-rag_00694028_001_00-00-59.mp3",
+            "id": "00694028",
             "title": "Hungarian rag",
-            "timestamp": "00:59",
-            "url": "http://www.loc.gov/item/00694028/"
+            "url": "http://www.loc.gov/item/00694028/",
+            "clips": [
+                {
+                    "filename": "Hungarian-rag_00694028_001_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Hungarian-rag_00694028_002_00-01-58",
+                    "timeStamp": "01:58",
+                    "start": 119000
+                },
+                {
+                    "filename": "Hungarian-rag_00694028_003_00-03-03",
+                    "timeStamp": "03:03",
+                    "start": 184000
+                },
+                {
+                    "filename": "Hungarian-rag_00694028_004_00-03-15",
+                    "timeStamp": "03:15",
+                    "start": 196000
+                }
+            ]
         },
         {
-            "filename": "Hungarian-rag_00694028_002_00-01-58.mp3",
-            "title": "Hungarian rag",
-            "timestamp": "01:58",
-            "url": "http://www.loc.gov/item/00694028/"
-        },
-        {
-            "filename": "Hungarian-rag_00694028_003_00-03-03.mp3",
-            "title": "Hungarian rag",
-            "timestamp": "03:03",
-            "url": "http://www.loc.gov/item/00694028/"
-        },
-        {
-            "filename": "Hungarian-rag_00694028_004_00-03-15.mp3",
-            "title": "Hungarian rag",
-            "timestamp": "03:15",
-            "url": "http://www.loc.gov/item/00694028/"
-        },
-        {
-            "filename": "Im-forever-blowing-bubbles_00694054_001_00-00-00.mp3",
+            "id": "00694054",
             "title": "I'm forever blowing bubbles",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694054/"
+            "url": "http://www.loc.gov/item/00694054/",
+            "clips": [
+                {
+                    "filename": "Im-forever-blowing-bubbles_00694054_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Im-forever-blowing-bubbles_00694054_002_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                },
+                {
+                    "filename": "Im-forever-blowing-bubbles_00694054_003_00-02-11",
+                    "timeStamp": "02:11",
+                    "start": 132000
+                },
+                {
+                    "filename": "Im-forever-blowing-bubbles_00694054_004_00-03-39",
+                    "timeStamp": "03:39",
+                    "start": 220000
+                }
+            ]
         },
         {
-            "filename": "Im-forever-blowing-bubbles_00694054_002_00-01-12.mp3",
-            "title": "I'm forever blowing bubbles",
-            "timestamp": "01:12",
-            "url": "http://www.loc.gov/item/00694054/"
-        },
-        {
-            "filename": "Im-forever-blowing-bubbles_00694054_003_00-02-11.mp3",
-            "title": "I'm forever blowing bubbles",
-            "timestamp": "02:11",
-            "url": "http://www.loc.gov/item/00694054/"
-        },
-        {
-            "filename": "Im-forever-blowing-bubbles_00694054_004_00-03-39.mp3",
-            "title": "I'm forever blowing bubbles",
-            "timestamp": "03:39",
-            "url": "http://www.loc.gov/item/00694054/"
-        },
-        {
-            "filename": "Ive-been-floating-down-the-old-green-river_00694055_001_00-00-01.mp3",
+            "id": "00694055",
             "title": "I've been floating down the old green river",
-            "timestamp": "00:01",
-            "url": "http://www.loc.gov/item/00694055/"
+            "url": "http://www.loc.gov/item/00694055/",
+            "clips": [
+                {
+                    "filename": "Ive-been-floating-down-the-old-green-river_00694055_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Ive-been-floating-down-the-old-green-river_00694055_002_00-00-43",
+                    "timeStamp": "00:43",
+                    "start": 44000
+                },
+                {
+                    "filename": "Ive-been-floating-down-the-old-green-river_00694055_003_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Ive-been-floating-down-the-old-green-river_00694055_004_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
         },
         {
-            "filename": "Ive-been-floating-down-the-old-green-river_00694055_002_00-00-43.mp3",
-            "title": "I've been floating down the old green river",
-            "timestamp": "00:43",
-            "url": "http://www.loc.gov/item/00694055/"
-        },
-        {
-            "filename": "Ive-been-floating-down-the-old-green-river_00694055_003_00-01-29.mp3",
-            "title": "I've been floating down the old green river",
-            "timestamp": "01:29",
-            "url": "http://www.loc.gov/item/00694055/"
-        },
-        {
-            "filename": "Ive-been-floating-down-the-old-green-river_00694055_004_00-02-34.mp3",
-            "title": "I've been floating down the old green river",
-            "timestamp": "02:34",
-            "url": "http://www.loc.gov/item/00694055/"
-        },
-        {
-            "filename": "In-a-monastery-garden_00694029_001_00-01-17.mp3",
+            "id": "00694029",
             "title": "In a monastery garden",
-            "timestamp": "01:17",
-            "url": "http://www.loc.gov/item/00694029/"
+            "url": "http://www.loc.gov/item/00694029/",
+            "clips": [
+                {
+                    "filename": "In-a-monastery-garden_00694029_001_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "In-a-monastery-garden_00694029_002_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "In-a-monastery-garden_00694029_003_00-03-17",
+                    "timeStamp": "03:17",
+                    "start": 198000
+                }
+            ]
         },
         {
-            "filename": "In-a-monastery-garden_00694029_002_00-01-35.mp3",
-            "title": "In a monastery garden",
-            "timestamp": "01:35",
-            "url": "http://www.loc.gov/item/00694029/"
-        },
-        {
-            "filename": "In-a-monastery-garden_00694029_003_00-03-17.mp3",
-            "title": "In a monastery garden",
-            "timestamp": "03:17",
-            "url": "http://www.loc.gov/item/00694029/"
-        },
-        {
-            "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_001_00-00-00.mp3",
+            "id": "00694030",
             "title": "In my heart, on my mind all day long<\u00cfh[sound recording] ; I wonder if you still care for me",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694030/"
+            "url": "http://www.loc.gov/item/00694030/",
+            "clips": [
+                {
+                    "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_002_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_003_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                },
+                {
+                    "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_004_00-02-37",
+                    "timeStamp": "02:37",
+                    "start": 158000
+                }
+            ]
         },
         {
-            "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_002_00-01-06.mp3",
-            "title": "In my heart, on my mind all day long<\u00cfh[sound recording] ; I wonder if you still care for me",
-            "timestamp": "01:06",
-            "url": "http://www.loc.gov/item/00694030/"
-        },
-        {
-            "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_003_00-01-37.mp3",
-            "title": "In my heart, on my mind all day long<\u00cfh[sound recording] ; I wonder if you still care for me",
-            "timestamp": "01:37",
-            "url": "http://www.loc.gov/item/00694030/"
-        },
-        {
-            "filename": "In-my-heart-on-my-mind-all-day-longhsound-recording--I-wonder-if-you-still-care-for-me_00694030_004_00-02-37.mp3",
-            "title": "In my heart, on my mind all day long<\u00cfh[sound recording] ; I wonder if you still care for me",
-            "timestamp": "02:37",
-            "url": "http://www.loc.gov/item/00694030/"
-        },
-        {
-            "filename": "In-the-little-red-school-house_00694056_001_00-00-00.mp3",
+            "id": "00694056",
             "title": "In the little red school house",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694056/"
+            "url": "http://www.loc.gov/item/00694056/",
+            "clips": [
+                {
+                    "filename": "In-the-little-red-school-house_00694056_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Indiana_00694057_001_00-00-01.mp3",
+            "id": "00694057",
             "title": "Indiana",
-            "timestamp": "00:01",
-            "url": "http://www.loc.gov/item/00694057/"
+            "url": "http://www.loc.gov/item/00694057/",
+            "clips": [
+                {
+                    "filename": "Indiana_00694057_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Indiana_00694057_002_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                },
+                {
+                    "filename": "Indiana_00694057_003_00-02-38",
+                    "timeStamp": "02:38",
+                    "start": 159000
+                },
+                {
+                    "filename": "Indiana_00694057_004_00-02-44",
+                    "timeStamp": "02:44",
+                    "start": 165000
+                }
+            ]
         },
         {
-            "filename": "Indiana_00694057_002_00-00-47.mp3",
-            "title": "Indiana",
-            "timestamp": "00:47",
-            "url": "http://www.loc.gov/item/00694057/"
-        },
-        {
-            "filename": "Indiana_00694057_003_00-02-38.mp3",
-            "title": "Indiana",
-            "timestamp": "02:38",
-            "url": "http://www.loc.gov/item/00694057/"
-        },
-        {
-            "filename": "Indiana_00694057_004_00-02-44.mp3",
-            "title": "Indiana",
-            "timestamp": "02:44",
-            "url": "http://www.loc.gov/item/00694057/"
-        },
-        {
-            "filename": "Introduction-and-tarentelle_00694094_001_00-02-31.mp3",
+            "id": "00694094",
             "title": "Introduction and tarentelle",
-            "timestamp": "02:31",
-            "url": "http://www.loc.gov/item/00694094/"
+            "url": "http://www.loc.gov/item/00694094/",
+            "clips": [
+                {
+                    "filename": "Introduction-and-tarentelle_00694094_001_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Introduction-and-tarentelle_00694094_002_00-03-26",
+                    "timeStamp": "03:26",
+                    "start": 207000
+                },
+                {
+                    "filename": "Introduction-and-tarentelle_00694094_003_00-04-04",
+                    "timeStamp": "04:04",
+                    "start": 245000
+                },
+                {
+                    "filename": "Introduction-and-tarentelle_00694094_004_00-04-12",
+                    "timeStamp": "04:12",
+                    "start": 253000
+                }
+            ]
         },
         {
-            "filename": "Introduction-and-tarentelle_00694094_002_00-03-26.mp3",
-            "title": "Introduction and tarentelle",
-            "timestamp": "03:26",
-            "url": "http://www.loc.gov/item/00694094/"
-        },
-        {
-            "filename": "Introduction-and-tarentelle_00694094_003_00-04-04.mp3",
-            "title": "Introduction and tarentelle",
-            "timestamp": "04:04",
-            "url": "http://www.loc.gov/item/00694094/"
-        },
-        {
-            "filename": "Introduction-and-tarentelle_00694094_004_00-04-12.mp3",
-            "title": "Introduction and tarentelle",
-            "timestamp": "04:12",
-            "url": "http://www.loc.gov/item/00694094/"
-        },
-        {
-            "filename": "Kashmiri-song-Indian-love-lyrics_00694095_001_00-01-07.mp3",
+            "id": "00694095",
             "title": "Kashmiri song (Indian love lyrics)",
-            "timestamp": "01:07",
-            "url": "http://www.loc.gov/item/00694095/"
+            "url": "http://www.loc.gov/item/00694095/",
+            "clips": [
+                {
+                    "filename": "Kashmiri-song-Indian-love-lyrics_00694095_001_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                }
+            ]
         },
         {
-            "filename": "Kitten-on-the-keys_00694031_001_00-02-02.mp3",
+            "id": "00694031",
             "title": "Kitten on the keys",
-            "timestamp": "02:02",
-            "url": "http://www.loc.gov/item/00694031/"
+            "url": "http://www.loc.gov/item/00694031/",
+            "clips": [
+                {
+                    "filename": "Kitten-on-the-keys_00694031_001_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Kitten-on-the-keys_00694031_002_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Kitten-on-the-keys_00694031_003_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                },
+                {
+                    "filename": "Kitten-on-the-keys_00694031_004_00-03-09",
+                    "timeStamp": "03:09",
+                    "start": 190000
+                }
+            ]
         },
         {
-            "filename": "Kitten-on-the-keys_00694031_002_00-02-32.mp3",
-            "title": "Kitten on the keys",
-            "timestamp": "02:32",
-            "url": "http://www.loc.gov/item/00694031/"
-        },
-        {
-            "filename": "Kitten-on-the-keys_00694031_003_00-03-02.mp3",
-            "title": "Kitten on the keys",
-            "timestamp": "03:02",
-            "url": "http://www.loc.gov/item/00694031/"
-        },
-        {
-            "filename": "Kitten-on-the-keys_00694031_004_00-03-09.mp3",
-            "title": "Kitten on the keys",
-            "timestamp": "03:09",
-            "url": "http://www.loc.gov/item/00694031/"
-        },
-        {
-            "filename": "La-mamma-morta-Andrea-Chnier_00694096_001_00-03-12.mp3",
+            "id": "00694096",
             "title": "La mamma morta--Andrea Ch\u00e9nier",
-            "timestamp": "03:12",
-            "url": "http://www.loc.gov/item/00694096/"
+            "url": "http://www.loc.gov/item/00694096/",
+            "clips": [
+                {
+                    "filename": "La-mamma-morta-Andrea-Chnier_00694096_001_00-03-12",
+                    "timeStamp": "03:12",
+                    "start": 193000
+                },
+                {
+                    "filename": "La-mamma-morta-Andrea-Chnier_00694096_002_00-03-32",
+                    "timeStamp": "03:32",
+                    "start": 213000
+                },
+                {
+                    "filename": "La-mamma-morta-Andrea-Chnier_00694096_003_00-03-59",
+                    "timeStamp": "03:59",
+                    "start": 240000
+                },
+                {
+                    "filename": "La-mamma-morta-Andrea-Chnier_00694096_004_00-04-08",
+                    "timeStamp": "04:08",
+                    "start": 249000
+                }
+            ]
         },
         {
-            "filename": "La-mamma-morta-Andrea-Chnier_00694096_002_00-03-32.mp3",
-            "title": "La mamma morta--Andrea Ch\u00e9nier",
-            "timestamp": "03:32",
-            "url": "http://www.loc.gov/item/00694096/"
-        },
-        {
-            "filename": "La-mamma-morta-Andrea-Chnier_00694096_003_00-03-59.mp3",
-            "title": "La mamma morta--Andrea Ch\u00e9nier",
-            "timestamp": "03:59",
-            "url": "http://www.loc.gov/item/00694096/"
-        },
-        {
-            "filename": "La-mamma-morta-Andrea-Chnier_00694096_004_00-04-08.mp3",
-            "title": "La mamma morta--Andrea Ch\u00e9nier",
-            "timestamp": "04:08",
-            "url": "http://www.loc.gov/item/00694096/"
-        },
-        {
-            "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_001_00-02-24.mp3",
+            "id": "00694090",
             "title": "La sonnambula. Ah! non credia mirarti",
-            "timestamp": "02:24",
-            "url": "http://www.loc.gov/item/00694090/"
+            "url": "http://www.loc.gov/item/00694090/",
+            "clips": [
+                {
+                    "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_001_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                },
+                {
+                    "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_002_00-02-52",
+                    "timeStamp": "02:52",
+                    "start": 173000
+                },
+                {
+                    "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_003_00-03-18",
+                    "timeStamp": "03:18",
+                    "start": 199000
+                },
+                {
+                    "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_004_00-03-42",
+                    "timeStamp": "03:42",
+                    "start": 223000
+                }
+            ]
         },
         {
-            "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_002_00-02-52.mp3",
-            "title": "La sonnambula. Ah! non credia mirarti",
-            "timestamp": "02:52",
-            "url": "http://www.loc.gov/item/00694090/"
-        },
-        {
-            "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_003_00-03-18.mp3",
-            "title": "La sonnambula. Ah! non credia mirarti",
-            "timestamp": "03:18",
-            "url": "http://www.loc.gov/item/00694090/"
-        },
-        {
-            "filename": "La-sonnambula-Ah-non-credia-mirarti_00694090_004_00-03-42.mp3",
-            "title": "La sonnambula. Ah! non credia mirarti",
-            "timestamp": "03:42",
-            "url": "http://www.loc.gov/item/00694090/"
-        },
-        {
-            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_001_00-00-29.mp3",
+            "id": "00694059",
             "title": "Lorraine (My beautiful Alsace-Lorraine)",
-            "timestamp": "00:29",
-            "url": "http://www.loc.gov/item/00694059/"
+            "url": "http://www.loc.gov/item/00694059/",
+            "clips": [
+                {
+                    "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_001_00-00-29",
+                    "timeStamp": "00:29",
+                    "start": 30000
+                },
+                {
+                    "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_002_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                },
+                {
+                    "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_003_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_004_00-02-54",
+                    "timeStamp": "02:54",
+                    "start": 175000
+                }
+            ]
         },
         {
-            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_002_00-01-41.mp3",
-            "title": "Lorraine (My beautiful Alsace-Lorraine)",
-            "timestamp": "01:41",
-            "url": "http://www.loc.gov/item/00694059/"
-        },
-        {
-            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_003_00-02-05.mp3",
-            "title": "Lorraine (My beautiful Alsace-Lorraine)",
-            "timestamp": "02:05",
-            "url": "http://www.loc.gov/item/00694059/"
-        },
-        {
-            "filename": "Lorraine-My-beautiful-Alsace-Lorraine_00694059_004_00-02-54.mp3",
-            "title": "Lorraine (My beautiful Alsace-Lorraine)",
-            "timestamp": "02:54",
-            "url": "http://www.loc.gov/item/00694059/"
-        },
-        {
-            "filename": "Love-here-is-my-heart_00694060_001_00-01-13.mp3",
+            "id": "00694060",
             "title": "Love, here is my heart",
-            "timestamp": "01:13",
-            "url": "http://www.loc.gov/item/00694060/"
+            "url": "http://www.loc.gov/item/00694060/",
+            "clips": [
+                {
+                    "filename": "Love-here-is-my-heart_00694060_001_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "Love-here-is-my-heart_00694060_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Love-here-is-my-heart_00694060_003_00-02-25",
+                    "timeStamp": "02:25",
+                    "start": 146000
+                },
+                {
+                    "filename": "Love-here-is-my-heart_00694060_004_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                }
+            ]
         },
         {
-            "filename": "Love-here-is-my-heart_00694060_002_00-01-30.mp3",
-            "title": "Love, here is my heart",
-            "timestamp": "01:30",
-            "url": "http://www.loc.gov/item/00694060/"
-        },
-        {
-            "filename": "Love-here-is-my-heart_00694060_003_00-02-25.mp3",
-            "title": "Love, here is my heart",
-            "timestamp": "02:25",
-            "url": "http://www.loc.gov/item/00694060/"
-        },
-        {
-            "filename": "Love-here-is-my-heart_00694060_004_00-02-30.mp3",
-            "title": "Love, here is my heart",
-            "timestamp": "02:30",
-            "url": "http://www.loc.gov/item/00694060/"
-        },
-        {
-            "filename": "Madelon-Ill-be-true-to-the-whole-regiment_00694061_001_00-01-40.mp3",
+            "id": "00694061",
             "title": "Madelon (I'll be true to the whole regiment)",
-            "timestamp": "01:40",
-            "url": "http://www.loc.gov/item/00694061/"
+            "url": "http://www.loc.gov/item/00694061/",
+            "clips": [
+                {
+                    "filename": "Madelon-Ill-be-true-to-the-whole-regiment_00694061_001_00-01-40",
+                    "timeStamp": "01:40",
+                    "start": 101000
+                }
+            ]
         },
         {
-            "filename": "Medley-of-Southern-airs_00694032_001_00-00-34.mp3",
+            "id": "00694032",
             "title": "Medley of Southern airs",
-            "timestamp": "00:34",
-            "url": "http://www.loc.gov/item/00694032/"
+            "url": "http://www.loc.gov/item/00694032/",
+            "clips": [
+                {
+                    "filename": "Medley-of-Southern-airs_00694032_001_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Medley-of-Southern-airs_00694032_002_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Medley-of-Southern-airs_00694032_003_00-01-46",
+                    "timeStamp": "01:46",
+                    "start": 107000
+                }
+            ]
         },
         {
-            "filename": "Medley-of-Southern-airs_00694032_002_00-01-17.mp3",
-            "title": "Medley of Southern airs",
-            "timestamp": "01:17",
-            "url": "http://www.loc.gov/item/00694032/"
-        },
-        {
-            "filename": "Medley-of-Southern-airs_00694032_003_00-01-46.mp3",
-            "title": "Medley of Southern airs",
-            "timestamp": "01:46",
-            "url": "http://www.loc.gov/item/00694032/"
-        },
-        {
-            "filename": "Mister-Gallagher-and-Mister-Shean_00694062_001_00-01-35.mp3",
+            "id": "00694062",
             "title": "Mister Gallagher and Mister Shean",
-            "timestamp": "01:35",
-            "url": "http://www.loc.gov/item/00694062/"
+            "url": "http://www.loc.gov/item/00694062/",
+            "clips": [
+                {
+                    "filename": "Mister-Gallagher-and-Mister-Shean_00694062_001_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                }
+            ]
         },
         {
-            "filename": "My-mothers-rosary_00694063_001_00-01-10.mp3",
+            "id": "00694063",
             "title": "My mother's rosary",
-            "timestamp": "01:10",
-            "url": "http://www.loc.gov/item/00694063/"
+            "url": "http://www.loc.gov/item/00694063/",
+            "clips": [
+                {
+                    "filename": "My-mothers-rosary_00694063_001_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "My-mothers-rosary_00694063_002_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "My-mothers-rosary_00694063_003_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                },
+                {
+                    "filename": "My-mothers-rosary_00694063_004_00-04-00",
+                    "timeStamp": "04:00",
+                    "start": 241000
+                }
+            ]
         },
         {
-            "filename": "My-mothers-rosary_00694063_002_00-02-01.mp3",
-            "title": "My mother's rosary",
-            "timestamp": "02:01",
-            "url": "http://www.loc.gov/item/00694063/"
-        },
-        {
-            "filename": "My-mothers-rosary_00694063_003_00-02-46.mp3",
-            "title": "My mother's rosary",
-            "timestamp": "02:46",
-            "url": "http://www.loc.gov/item/00694063/"
-        },
-        {
-            "filename": "My-mothers-rosary_00694063_004_00-04-00.mp3",
-            "title": "My mother's rosary",
-            "timestamp": "04:00",
-            "url": "http://www.loc.gov/item/00694063/"
-        },
-        {
-            "filename": "Myona-Hawaiian-waltz_00694033_001_00-01-19.mp3",
+            "id": "00694033",
             "title": "Myona-Hawaiian waltz",
-            "timestamp": "01:19",
-            "url": "http://www.loc.gov/item/00694033/"
+            "url": "http://www.loc.gov/item/00694033/",
+            "clips": [
+                {
+                    "filename": "Myona-Hawaiian-waltz_00694033_001_00-01-19",
+                    "timeStamp": "01:19",
+                    "start": 80000
+                },
+                {
+                    "filename": "Myona-Hawaiian-waltz_00694033_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Myona-Hawaiian-waltz_00694033_003_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                },
+                {
+                    "filename": "Myona-Hawaiian-waltz_00694033_004_00-02-59",
+                    "timeStamp": "02:59",
+                    "start": 180000
+                }
+            ]
         },
         {
-            "filename": "Myona-Hawaiian-waltz_00694033_002_00-01-29.mp3",
-            "title": "Myona-Hawaiian waltz",
-            "timestamp": "01:29",
-            "url": "http://www.loc.gov/item/00694033/"
-        },
-        {
-            "filename": "Myona-Hawaiian-waltz_00694033_003_00-02-29.mp3",
-            "title": "Myona-Hawaiian waltz",
-            "timestamp": "02:29",
-            "url": "http://www.loc.gov/item/00694033/"
-        },
-        {
-            "filename": "Myona-Hawaiian-waltz_00694033_004_00-02-59.mp3",
-            "title": "Myona-Hawaiian waltz",
-            "timestamp": "02:59",
-            "url": "http://www.loc.gov/item/00694033/"
-        },
-        {
-            "filename": "Night-time-in-Little-Italy_00694034_001_00-00-30.mp3",
+            "id": "00694034",
             "title": "Night time in Little Italy",
-            "timestamp": "00:30",
-            "url": "http://www.loc.gov/item/00694034/"
+            "url": "http://www.loc.gov/item/00694034/",
+            "clips": [
+                {
+                    "filename": "Night-time-in-Little-Italy_00694034_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Night-time-in-Little-Italy_00694034_002_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                }
+            ]
         },
         {
-            "filename": "Night-time-in-Little-Italy_00694034_002_00-02-18.mp3",
-            "title": "Night time in Little Italy",
-            "timestamp": "02:18",
-            "url": "http://www.loc.gov/item/00694034/"
-        },
-        {
-            "filename": "O-patria-mia-Ada_00694097_001_00-01-35.mp3",
+            "id": "00694097",
             "title": "O patria mia A\u00efda",
-            "timestamp": "01:35",
-            "url": "http://www.loc.gov/item/00694097/"
+            "url": "http://www.loc.gov/item/00694097/",
+            "clips": [
+                {
+                    "filename": "O-patria-mia-Ada_00694097_001_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "O-patria-mia-Ada_00694097_002_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "O-patria-mia-Ada_00694097_003_00-01-58",
+                    "timeStamp": "01:58",
+                    "start": 119000
+                },
+                {
+                    "filename": "O-patria-mia-Ada_00694097_004_00-02-54",
+                    "timeStamp": "02:54",
+                    "start": 175000
+                }
+            ]
         },
         {
-            "filename": "O-patria-mia-Ada_00694097_002_00-01-52.mp3",
-            "title": "O patria mia A\u00efda",
-            "timestamp": "01:52",
-            "url": "http://www.loc.gov/item/00694097/"
-        },
-        {
-            "filename": "O-patria-mia-Ada_00694097_003_00-01-58.mp3",
-            "title": "O patria mia A\u00efda",
-            "timestamp": "01:58",
-            "url": "http://www.loc.gov/item/00694097/"
-        },
-        {
-            "filename": "O-patria-mia-Ada_00694097_004_00-02-54.mp3",
-            "title": "O patria mia A\u00efda",
-            "timestamp": "02:54",
-            "url": "http://www.loc.gov/item/00694097/"
-        },
-        {
-            "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_001_00-00-01.mp3",
+            "id": "00694086",
             "title": "Oi ya nestchastay (malo Russkaya piesnia)",
-            "timestamp": "00:01",
-            "url": "http://www.loc.gov/item/00694086/"
+            "url": "http://www.loc.gov/item/00694086/",
+            "clips": [
+                {
+                    "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_002_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                },
+                {
+                    "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_003_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                },
+                {
+                    "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_004_00-03-04",
+                    "timeStamp": "03:04",
+                    "start": 185000
+                }
+            ]
         },
         {
-            "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_002_00-00-25.mp3",
-            "title": "Oi ya nestchastay (malo Russkaya piesnia)",
-            "timestamp": "00:25",
-            "url": "http://www.loc.gov/item/00694086/"
-        },
-        {
-            "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_003_00-02-33.mp3",
-            "title": "Oi ya nestchastay (malo Russkaya piesnia)",
-            "timestamp": "02:33",
-            "url": "http://www.loc.gov/item/00694086/"
-        },
-        {
-            "filename": "Oi-ya-nestchastay-malo-Russkaya-piesnia_00694086_004_00-03-04.mp3",
-            "title": "Oi ya nestchastay (malo Russkaya piesnia)",
-            "timestamp": "03:04",
-            "url": "http://www.loc.gov/item/00694086/"
-        },
-        {
-            "filename": "Old-pal-Why-dont-you-answer-me_00694035_001_00-00-12.mp3",
+            "id": "00694035",
             "title": "Old pal (Why don't you answer me?)",
-            "timestamp": "00:12",
-            "url": "http://www.loc.gov/item/00694035/"
+            "url": "http://www.loc.gov/item/00694035/",
+            "clips": [
+                {
+                    "filename": "Old-pal-Why-dont-you-answer-me_00694035_001_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "Old-pal-Why-dont-you-answer-me_00694035_002_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "Old-pal-Why-dont-you-answer-me_00694035_003_00-00-53",
+                    "timeStamp": "00:53",
+                    "start": 54000
+                },
+                {
+                    "filename": "Old-pal-Why-dont-you-answer-me_00694035_004_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                }
+            ]
         },
         {
-            "filename": "Old-pal-Why-dont-you-answer-me_00694035_002_00-00-42.mp3",
-            "title": "Old pal (Why don't you answer me?)",
-            "timestamp": "00:42",
-            "url": "http://www.loc.gov/item/00694035/"
-        },
-        {
-            "filename": "Old-pal-Why-dont-you-answer-me_00694035_003_00-00-53.mp3",
-            "title": "Old pal (Why don't you answer me?)",
-            "timestamp": "00:53",
-            "url": "http://www.loc.gov/item/00694035/"
-        },
-        {
-            "filename": "Old-pal-Why-dont-you-answer-me_00694035_004_00-01-34.mp3",
-            "title": "Old pal (Why don't you answer me?)",
-            "timestamp": "01:34",
-            "url": "http://www.loc.gov/item/00694035/"
-        },
-        {
-            "filename": "Omar-Rabbi-Elozor_00694089_001_00-01-10.mp3",
+            "id": "00694089",
             "title": "Omar Rabbi Elozor",
-            "timestamp": "01:10",
-            "url": "http://www.loc.gov/item/00694089/"
+            "url": "http://www.loc.gov/item/00694089/",
+            "clips": [
+                {
+                    "filename": "Omar-Rabbi-Elozor_00694089_001_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "Omar-Rabbi-Elozor_00694089_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Omar-Rabbi-Elozor_00694089_003_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Omar-Rabbi-Elozor_00694089_004_00-03-29",
+                    "timeStamp": "03:29",
+                    "start": 210000
+                }
+            ]
         },
         {
-            "filename": "Omar-Rabbi-Elozor_00694089_002_00-01-29.mp3",
-            "title": "Omar Rabbi Elozor",
-            "timestamp": "01:29",
-            "url": "http://www.loc.gov/item/00694089/"
-        },
-        {
-            "filename": "Omar-Rabbi-Elozor_00694089_003_00-02-01.mp3",
-            "title": "Omar Rabbi Elozor",
-            "timestamp": "02:01",
-            "url": "http://www.loc.gov/item/00694089/"
-        },
-        {
-            "filename": "Omar-Rabbi-Elozor_00694089_004_00-03-29.mp3",
-            "title": "Omar Rabbi Elozor",
-            "timestamp": "03:29",
-            "url": "http://www.loc.gov/item/00694089/"
-        },
-        {
-            "filename": "Onward-Christian-soldiers_00694103_001_00-00-00.mp3",
+            "id": "00694103",
             "title": "Onward, Christian soldiers!",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694103/"
+            "url": "http://www.loc.gov/item/00694103/",
+            "clips": [
+                {
+                    "filename": "Onward-Christian-soldiers_00694103_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Onward-Christian-soldiers_00694103_002_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "Onward-Christian-soldiers_00694103_003_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "Onward-Christian-soldiers_00694103_004_00-03-00",
+                    "timeStamp": "03:00",
+                    "start": 181000
+                }
+            ]
         },
         {
-            "filename": "Onward-Christian-soldiers_00694103_002_00-01-27.mp3",
-            "title": "Onward, Christian soldiers!",
-            "timestamp": "01:27",
-            "url": "http://www.loc.gov/item/00694103/"
-        },
-        {
-            "filename": "Onward-Christian-soldiers_00694103_003_00-01-39.mp3",
-            "title": "Onward, Christian soldiers!",
-            "timestamp": "01:39",
-            "url": "http://www.loc.gov/item/00694103/"
-        },
-        {
-            "filename": "Onward-Christian-soldiers_00694103_004_00-03-00.mp3",
-            "title": "Onward, Christian soldiers!",
-            "timestamp": "03:00",
-            "url": "http://www.loc.gov/item/00694103/"
-        },
-        {
-            "filename": "Palace-of-Electricity_00694264_001_00-01-09.mp3",
+            "id": "00694264",
             "title": "Palace of Electricity",
-            "timestamp": "01:09",
-            "url": "http://www.loc.gov/item/00694264/"
+            "url": "http://www.loc.gov/item/00694264/",
+            "clips": [
+                {
+                    "filename": "Palace-of-Electricity_00694264_001_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                }
+            ]
         },
         {
-            "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_001_00-00-16.mp3",
+            "id": "00694088",
             "title": "Polka Warszawska \"wiszniaczka\" Warsaw polka",
-            "timestamp": "00:16",
-            "url": "http://www.loc.gov/item/00694088/"
+            "url": "http://www.loc.gov/item/00694088/",
+            "clips": [
+                {
+                    "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_002_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_003_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                },
+                {
+                    "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_004_00-02-04",
+                    "timeStamp": "02:04",
+                    "start": 125000
+                }
+            ]
         },
         {
-            "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_002_00-01-33.mp3",
-            "title": "Polka Warszawska \"wiszniaczka\" Warsaw polka",
-            "timestamp": "01:33",
-            "url": "http://www.loc.gov/item/00694088/"
-        },
-        {
-            "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_003_00-01-56.mp3",
-            "title": "Polka Warszawska \"wiszniaczka\" Warsaw polka",
-            "timestamp": "01:56",
-            "url": "http://www.loc.gov/item/00694088/"
-        },
-        {
-            "filename": "Polka-Warszawska-wiszniaczka-Warsaw-polka_00694088_004_00-02-04.mp3",
-            "title": "Polka Warszawska \"wiszniaczka\" Warsaw polka",
-            "timestamp": "02:04",
-            "url": "http://www.loc.gov/item/00694088/"
-        },
-        {
-            "filename": "Polski-taniec_00694087_001_00-00-14.mp3",
+            "id": "00694087",
             "title": "Polski taniec",
-            "timestamp": "00:14",
-            "url": "http://www.loc.gov/item/00694087/"
+            "url": "http://www.loc.gov/item/00694087/",
+            "clips": [
+                {
+                    "filename": "Polski-taniec_00694087_001_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "Polski-taniec_00694087_002_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "Polski-taniec_00694087_003_00-01-22",
+                    "timeStamp": "01:22",
+                    "start": 83000
+                },
+                {
+                    "filename": "Polski-taniec_00694087_004_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                }
+            ]
         },
         {
-            "filename": "Polski-taniec_00694087_002_00-01-10.mp3",
-            "title": "Polski taniec",
-            "timestamp": "01:10",
-            "url": "http://www.loc.gov/item/00694087/"
-        },
-        {
-            "filename": "Polski-taniec_00694087_003_00-01-22.mp3",
-            "title": "Polski taniec",
-            "timestamp": "01:22",
-            "url": "http://www.loc.gov/item/00694087/"
-        },
-        {
-            "filename": "Polski-taniec_00694087_004_00-02-23.mp3",
-            "title": "Polski taniec",
-            "timestamp": "02:23",
-            "url": "http://www.loc.gov/item/00694087/"
-        },
-        {
-            "filename": "Poor-butterfly_00694036_001_00-00-22.mp3",
+            "id": "00694036",
             "title": "Poor butterfly",
-            "timestamp": "00:22",
-            "url": "http://www.loc.gov/item/00694036/"
+            "url": "http://www.loc.gov/item/00694036/",
+            "clips": [
+                {
+                    "filename": "Poor-butterfly_00694036_001_00-00-22",
+                    "timeStamp": "00:22",
+                    "start": 23000
+                },
+                {
+                    "filename": "Poor-butterfly_00694036_002_00-00-52",
+                    "timeStamp": "00:52",
+                    "start": 53000
+                },
+                {
+                    "filename": "Poor-butterfly_00694036_003_00-01-23",
+                    "timeStamp": "01:23",
+                    "start": 84000
+                },
+                {
+                    "filename": "Poor-butterfly_00694036_004_00-02-53",
+                    "timeStamp": "02:53",
+                    "start": 174000
+                }
+            ]
         },
         {
-            "filename": "Poor-butterfly_00694036_002_00-00-52.mp3",
-            "title": "Poor butterfly",
-            "timestamp": "00:52",
-            "url": "http://www.loc.gov/item/00694036/"
-        },
-        {
-            "filename": "Poor-butterfly_00694036_003_00-01-23.mp3",
-            "title": "Poor butterfly",
-            "timestamp": "01:23",
-            "url": "http://www.loc.gov/item/00694036/"
-        },
-        {
-            "filename": "Poor-butterfly_00694036_004_00-02-53.mp3",
-            "title": "Poor butterfly",
-            "timestamp": "02:53",
-            "url": "http://www.loc.gov/item/00694036/"
-        },
-        {
-            "filename": "Prelude-in-C-sharp-minor-op-3_00694098_001_00-01-43.mp3",
+            "id": "00694098",
             "title": "Prelude in C sharp minor op. 3",
-            "timestamp": "01:43",
-            "url": "http://www.loc.gov/item/00694098/"
+            "url": "http://www.loc.gov/item/00694098/",
+            "clips": [
+                {
+                    "filename": "Prelude-in-C-sharp-minor-op-3_00694098_001_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "Prelude-in-C-sharp-minor-op-3_00694098_002_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "Prelude-in-C-sharp-minor-op-3_00694098_003_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Prelude-in-C-sharp-minor-op-3_00694098_004_00-02-53",
+                    "timeStamp": "02:53",
+                    "start": 174000
+                }
+            ]
         },
         {
-            "filename": "Prelude-in-C-sharp-minor-op-3_00694098_002_00-01-52.mp3",
-            "title": "Prelude in C sharp minor op. 3",
-            "timestamp": "01:52",
-            "url": "http://www.loc.gov/item/00694098/"
-        },
-        {
-            "filename": "Prelude-in-C-sharp-minor-op-3_00694098_003_00-02-23.mp3",
-            "title": "Prelude in C sharp minor op. 3",
-            "timestamp": "02:23",
-            "url": "http://www.loc.gov/item/00694098/"
-        },
-        {
-            "filename": "Prelude-in-C-sharp-minor-op-3_00694098_004_00-02-53.mp3",
-            "title": "Prelude in C sharp minor op. 3",
-            "timestamp": "02:53",
-            "url": "http://www.loc.gov/item/00694098/"
-        },
-        {
-            "filename": "Quand-ero-paggio_00694099_001_00-01-01.mp3",
+            "id": "00694099",
             "title": "Quand' ero paggio",
-            "timestamp": "01:01",
-            "url": "http://www.loc.gov/item/00694099/"
+            "url": "http://www.loc.gov/item/00694099/",
+            "clips": [
+                {
+                    "filename": "Quand-ero-paggio_00694099_001_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Quand-ero-paggio_00694099_002_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "Quand-ero-paggio_00694099_003_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "Quand-ero-paggio_00694099_004_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                }
+            ]
         },
         {
-            "filename": "Quand-ero-paggio_00694099_002_00-01-45.mp3",
-            "title": "Quand' ero paggio",
-            "timestamp": "01:45",
-            "url": "http://www.loc.gov/item/00694099/"
-        },
-        {
-            "filename": "Quand-ero-paggio_00694099_003_00-01-52.mp3",
-            "title": "Quand' ero paggio",
-            "timestamp": "01:52",
-            "url": "http://www.loc.gov/item/00694099/"
-        },
-        {
-            "filename": "Quand-ero-paggio_00694099_004_00-02-22.mp3",
-            "title": "Quand' ero paggio",
-            "timestamp": "02:22",
-            "url": "http://www.loc.gov/item/00694099/"
-        },
-        {
-            "filename": "Santa-Claus-hides-in-your-phonograph_00694071_001_00-02-15.mp3",
+            "id": "00694071",
             "title": "Santa Claus hides in your phonograph",
-            "timestamp": "02:15",
-            "url": "http://www.loc.gov/item/00694071/"
+            "url": "http://www.loc.gov/item/00694071/",
+            "clips": [
+                {
+                    "filename": "Santa-Claus-hides-in-your-phonograph_00694071_001_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "Santa-Claus-hides-in-your-phonograph_00694071_002_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                },
+                {
+                    "filename": "Santa-Claus-hides-in-your-phonograph_00694071_003_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
         },
         {
-            "filename": "Santa-Claus-hides-in-your-phonograph_00694071_002_00-02-46.mp3",
-            "title": "Santa Claus hides in your phonograph",
-            "timestamp": "02:46",
-            "url": "http://www.loc.gov/item/00694071/"
-        },
-        {
-            "filename": "Santa-Claus-hides-in-your-phonograph_00694071_003_00-03-01.mp3",
-            "title": "Santa Claus hides in your phonograph",
-            "timestamp": "03:01",
-            "url": "http://www.loc.gov/item/00694071/"
-        },
-        {
-            "filename": "Save-a-little-dram-for-me_00694064_001_00-01-40.mp3",
+            "id": "00694064",
             "title": "Save a little dram for me",
-            "timestamp": "01:40",
-            "url": "http://www.loc.gov/item/00694064/"
+            "url": "http://www.loc.gov/item/00694064/",
+            "clips": [
+                {
+                    "filename": "Save-a-little-dram-for-me_00694064_001_00-01-40",
+                    "timeStamp": "01:40",
+                    "start": 101000
+                },
+                {
+                    "filename": "Save-a-little-dram-for-me_00694064_002_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                },
+                {
+                    "filename": "Save-a-little-dram-for-me_00694064_003_00-03-14",
+                    "timeStamp": "03:14",
+                    "start": 195000
+                }
+            ]
         },
         {
-            "filename": "Save-a-little-dram-for-me_00694064_002_00-02-40.mp3",
-            "title": "Save a little dram for me",
-            "timestamp": "02:40",
-            "url": "http://www.loc.gov/item/00694064/"
-        },
-        {
-            "filename": "Save-a-little-dram-for-me_00694064_003_00-03-14.mp3",
-            "title": "Save a little dram for me",
-            "timestamp": "03:14",
-            "url": "http://www.loc.gov/item/00694064/"
-        },
-        {
-            "filename": "Second-Hungarian-rhapsodie-part-I_00694100_001_00-00-04.mp3",
+            "id": "00694100",
             "title": "Second Hungarian rhapsodie, part I",
-            "timestamp": "00:04",
-            "url": "http://www.loc.gov/item/00694100/"
+            "url": "http://www.loc.gov/item/00694100/",
+            "clips": [
+                {
+                    "filename": "Second-Hungarian-rhapsodie-part-I_00694100_001_00-00-04",
+                    "timeStamp": "00:04",
+                    "start": 5000
+                },
+                {
+                    "filename": "Second-Hungarian-rhapsodie-part-I_00694100_002_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Second-Hungarian-rhapsodie-part-I_00694100_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Second-Hungarian-rhapsodie-part-I_00694100_004_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                }
+            ]
         },
         {
-            "filename": "Second-Hungarian-rhapsodie-part-I_00694100_002_00-00-09.mp3",
-            "title": "Second Hungarian rhapsodie, part I",
-            "timestamp": "00:09",
-            "url": "http://www.loc.gov/item/00694100/"
-        },
-        {
-            "filename": "Second-Hungarian-rhapsodie-part-I_00694100_003_00-00-37.mp3",
-            "title": "Second Hungarian rhapsodie, part I",
-            "timestamp": "00:37",
-            "url": "http://www.loc.gov/item/00694100/"
-        },
-        {
-            "filename": "Second-Hungarian-rhapsodie-part-I_00694100_004_00-01-56.mp3",
-            "title": "Second Hungarian rhapsodie, part I",
-            "timestamp": "01:56",
-            "url": "http://www.loc.gov/item/00694100/"
-        },
-        {
-            "filename": "Spanish-rhapsody_00694037_001_00-00-11.mp3",
+            "id": "00694037",
             "title": "Spanish rhapsody",
-            "timestamp": "00:11",
-            "url": "http://www.loc.gov/item/00694037/"
+            "url": "http://www.loc.gov/item/00694037/",
+            "clips": [
+                {
+                    "filename": "Spanish-rhapsody_00694037_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "Spanish-rhapsody_00694037_002_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                },
+                {
+                    "filename": "Spanish-rhapsody_00694037_003_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "Spanish-rhapsody_00694037_004_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                }
+            ]
         },
         {
-            "filename": "Spanish-rhapsody_00694037_002_00-00-55.mp3",
-            "title": "Spanish rhapsody",
-            "timestamp": "00:55",
-            "url": "http://www.loc.gov/item/00694037/"
-        },
-        {
-            "filename": "Spanish-rhapsody_00694037_003_00-02-13.mp3",
-            "title": "Spanish rhapsody",
-            "timestamp": "02:13",
-            "url": "http://www.loc.gov/item/00694037/"
-        },
-        {
-            "filename": "Spanish-rhapsody_00694037_004_00-02-45.mp3",
-            "title": "Spanish rhapsody",
-            "timestamp": "02:45",
-            "url": "http://www.loc.gov/item/00694037/"
-        },
-        {
-            "filename": "Tancuj-tancuj_00694085_001_00-01-42.mp3",
+            "id": "00694085",
             "title": "Tancuj, tancuj",
-            "timestamp": "01:42",
-            "url": "http://www.loc.gov/item/00694085/"
+            "url": "http://www.loc.gov/item/00694085/",
+            "clips": [
+                {
+                    "filename": "Tancuj-tancuj_00694085_001_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                }
+            ]
         },
         {
-            "filename": "That-tumble-down-shack-in-Athlone_00694065_001_00-02-35.mp3",
+            "id": "00694065",
             "title": "That tumble-down shack in Athlone",
-            "timestamp": "02:35",
-            "url": "http://www.loc.gov/item/00694065/"
+            "url": "http://www.loc.gov/item/00694065/",
+            "clips": [
+                {
+                    "filename": "That-tumble-down-shack-in-Athlone_00694065_001_00-02-35",
+                    "timeStamp": "02:35",
+                    "start": 156000
+                },
+                {
+                    "filename": "That-tumble-down-shack-in-Athlone_00694065_002_00-03-10",
+                    "timeStamp": "03:10",
+                    "start": 191000
+                }
+            ]
         },
         {
-            "filename": "That-tumble-down-shack-in-Athlone_00694065_002_00-03-10.mp3",
-            "title": "That tumble-down shack in Athlone",
-            "timestamp": "03:10",
-            "url": "http://www.loc.gov/item/00694065/"
-        },
-        {
-            "filename": "The-US-Field-Artillery-march_00694042_001_00-00-31.mp3",
+            "id": "00694042",
             "title": "The U.S. Field Artillery march",
-            "timestamp": "00:31",
-            "url": "http://www.loc.gov/item/00694042/"
+            "url": "http://www.loc.gov/item/00694042/",
+            "clips": [
+                {
+                    "filename": "The-US-Field-Artillery-march_00694042_001_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "The-US-Field-Artillery-march_00694042_002_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "The-US-Field-Artillery-march_00694042_003_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                },
+                {
+                    "filename": "The-US-Field-Artillery-march_00694042_004_00-03-11",
+                    "timeStamp": "03:11",
+                    "start": 192000
+                }
+            ]
         },
         {
-            "filename": "The-US-Field-Artillery-march_00694042_002_00-01-02.mp3",
-            "title": "The U.S. Field Artillery march",
-            "timestamp": "01:02",
-            "url": "http://www.loc.gov/item/00694042/"
-        },
-        {
-            "filename": "The-US-Field-Artillery-march_00694042_003_00-02-40.mp3",
-            "title": "The U.S. Field Artillery march",
-            "timestamp": "02:40",
-            "url": "http://www.loc.gov/item/00694042/"
-        },
-        {
-            "filename": "The-US-Field-Artillery-march_00694042_004_00-03-11.mp3",
-            "title": "The U.S. Field Artillery march",
-            "timestamp": "03:11",
-            "url": "http://www.loc.gov/item/00694042/"
-        },
-        {
-            "filename": "The-aba-daba-honeymoon_00694043_001_00-00-53.mp3",
+            "id": "00694043",
             "title": "The aba daba honeymoon",
-            "timestamp": "00:53",
-            "url": "http://www.loc.gov/item/00694043/"
+            "url": "http://www.loc.gov/item/00694043/",
+            "clips": [
+                {
+                    "filename": "The-aba-daba-honeymoon_00694043_001_00-00-53",
+                    "timeStamp": "00:53",
+                    "start": 54000
+                },
+                {
+                    "filename": "The-aba-daba-honeymoon_00694043_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "The-aba-daba-honeymoon_00694043_003_00-02-49",
+                    "timeStamp": "02:49",
+                    "start": 170000
+                },
+                {
+                    "filename": "The-aba-daba-honeymoon_00694043_004_00-03-00",
+                    "timeStamp": "03:00",
+                    "start": 181000
+                }
+            ]
         },
         {
-            "filename": "The-aba-daba-honeymoon_00694043_002_00-01-30.mp3",
-            "title": "The aba daba honeymoon",
-            "timestamp": "01:30",
-            "url": "http://www.loc.gov/item/00694043/"
-        },
-        {
-            "filename": "The-aba-daba-honeymoon_00694043_003_00-02-49.mp3",
-            "title": "The aba daba honeymoon",
-            "timestamp": "02:49",
-            "url": "http://www.loc.gov/item/00694043/"
-        },
-        {
-            "filename": "The-aba-daba-honeymoon_00694043_004_00-03-00.mp3",
-            "title": "The aba daba honeymoon",
-            "timestamp": "03:00",
-            "url": "http://www.loc.gov/item/00694043/"
-        },
-        {
-            "filename": "The-band-festival-at-Plum-Center_00694075_001_00-01-10.mp3",
+            "id": "00694075",
             "title": "The band festival at Plum Center",
-            "timestamp": "01:10",
-            "url": "http://www.loc.gov/item/00694075/"
+            "url": "http://www.loc.gov/item/00694075/",
+            "clips": [
+                {
+                    "filename": "The-band-festival-at-Plum-Center_00694075_001_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "The-band-festival-at-Plum-Center_00694075_002_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                },
+                {
+                    "filename": "The-band-festival-at-Plum-Center_00694075_003_00-03-28",
+                    "timeStamp": "03:28",
+                    "start": 209000
+                },
+                {
+                    "filename": "The-band-festival-at-Plum-Center_00694075_004_00-03-55",
+                    "timeStamp": "03:55",
+                    "start": 236000
+                }
+            ]
         },
         {
-            "filename": "The-band-festival-at-Plum-Center_00694075_002_00-02-43.mp3",
-            "title": "The band festival at Plum Center",
-            "timestamp": "02:43",
-            "url": "http://www.loc.gov/item/00694075/"
-        },
-        {
-            "filename": "The-band-festival-at-Plum-Center_00694075_003_00-03-28.mp3",
-            "title": "The band festival at Plum Center",
-            "timestamp": "03:28",
-            "url": "http://www.loc.gov/item/00694075/"
-        },
-        {
-            "filename": "The-band-festival-at-Plum-Center_00694075_004_00-03-55.mp3",
-            "title": "The band festival at Plum Center",
-            "timestamp": "03:55",
-            "url": "http://www.loc.gov/item/00694075/"
-        },
-        {
-            "filename": "The-bells-of-St-Marys_00694047_001_00-00-45.mp3",
+            "id": "00694047",
             "title": "The bells of St. Mary's",
-            "timestamp": "00:45",
-            "url": "http://www.loc.gov/item/00694047/"
+            "url": "http://www.loc.gov/item/00694047/",
+            "clips": [
+                {
+                    "filename": "The-bells-of-St-Marys_00694047_001_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "The-bells-of-St-Marys_00694047_002_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "The-bells-of-St-Marys_00694047_003_00-02-36",
+                    "timeStamp": "02:36",
+                    "start": 157000
+                },
+                {
+                    "filename": "The-bells-of-St-Marys_00694047_004_00-03-41",
+                    "timeStamp": "03:41",
+                    "start": 222000
+                }
+            ]
         },
         {
-            "filename": "The-bells-of-St-Marys_00694047_002_00-00-59.mp3",
-            "title": "The bells of St. Mary's",
-            "timestamp": "00:59",
-            "url": "http://www.loc.gov/item/00694047/"
-        },
-        {
-            "filename": "The-bells-of-St-Marys_00694047_003_00-02-36.mp3",
-            "title": "The bells of St. Mary's",
-            "timestamp": "02:36",
-            "url": "http://www.loc.gov/item/00694047/"
-        },
-        {
-            "filename": "The-bells-of-St-Marys_00694047_004_00-03-41.mp3",
-            "title": "The bells of St. Mary's",
-            "timestamp": "03:41",
-            "url": "http://www.loc.gov/item/00694047/"
-        },
-        {
-            "filename": "The-church-in-the-wildwood_00694102_001_00-01-06.mp3",
+            "id": "00694102",
             "title": "The church in the wildwood",
-            "timestamp": "01:06",
-            "url": "http://www.loc.gov/item/00694102/"
+            "url": "http://www.loc.gov/item/00694102/",
+            "clips": [
+                {
+                    "filename": "The-church-in-the-wildwood_00694102_001_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "The-church-in-the-wildwood_00694102_002_00-03-55",
+                    "timeStamp": "03:55",
+                    "start": 236000
+                }
+            ]
         },
         {
-            "filename": "The-church-in-the-wildwood_00694102_002_00-03-55.mp3",
-            "title": "The church in the wildwood",
-            "timestamp": "03:55",
-            "url": "http://www.loc.gov/item/00694102/"
-        },
-        {
-            "filename": "The-enchanted-drawing_00694004_001_00-00-11.mp3",
+            "id": "00694004",
             "title": "The enchanted drawing",
-            "timestamp": "00:11",
-            "url": "http://www.loc.gov/item/00694004/"
+            "url": "http://www.loc.gov/item/00694004/",
+            "clips": [
+                {
+                    "filename": "The-enchanted-drawing_00694004_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "The-enchanted-drawing_00694004_002_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                },
+                {
+                    "filename": "The-enchanted-drawing_00694004_003_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                }
+            ]
         },
         {
-            "filename": "The-enchanted-drawing_00694004_002_00-00-41.mp3",
-            "title": "The enchanted drawing",
-            "timestamp": "00:41",
-            "url": "http://www.loc.gov/item/00694004/"
-        },
-        {
-            "filename": "The-enchanted-drawing_00694004_003_00-01-11.mp3",
-            "title": "The enchanted drawing",
-            "timestamp": "01:11",
-            "url": "http://www.loc.gov/item/00694004/"
-        },
-        {
-            "filename": "The-preacher-and-the-bear_00694107_001_00-00-43.mp3",
+            "id": "00694107",
             "title": "The preacher and the bear",
-            "timestamp": "00:43",
-            "url": "http://www.loc.gov/item/00694107/"
+            "url": "http://www.loc.gov/item/00694107/",
+            "clips": [
+                {
+                    "filename": "The-preacher-and-the-bear_00694107_001_00-00-43",
+                    "timeStamp": "00:43",
+                    "start": 44000
+                },
+                {
+                    "filename": "The-preacher-and-the-bear_00694107_002_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "The-preacher-and-the-bear_00694107_003_00-03-52",
+                    "timeStamp": "03:52",
+                    "start": 233000
+                },
+                {
+                    "filename": "The-preacher-and-the-bear_00694107_004_00-04-08",
+                    "timeStamp": "04:08",
+                    "start": 249000
+                }
+            ]
         },
         {
-            "filename": "The-preacher-and-the-bear_00694107_002_00-01-03.mp3",
-            "title": "The preacher and the bear",
-            "timestamp": "01:03",
-            "url": "http://www.loc.gov/item/00694107/"
-        },
-        {
-            "filename": "The-preacher-and-the-bear_00694107_003_00-03-52.mp3",
-            "title": "The preacher and the bear",
-            "timestamp": "03:52",
-            "url": "http://www.loc.gov/item/00694107/"
-        },
-        {
-            "filename": "The-preacher-and-the-bear_00694107_004_00-04-08.mp3",
-            "title": "The preacher and the bear",
-            "timestamp": "04:08",
-            "url": "http://www.loc.gov/item/00694107/"
-        },
-        {
-            "filename": "The-raggedy-man_00694070_001_00-02-10.mp3",
+            "id": "00694070",
             "title": "The raggedy man",
-            "timestamp": "02:10",
-            "url": "http://www.loc.gov/item/00694070/"
+            "url": "http://www.loc.gov/item/00694070/",
+            "clips": [
+                {
+                    "filename": "The-raggedy-man_00694070_001_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                },
+                {
+                    "filename": "The-raggedy-man_00694070_002_00-03-15",
+                    "timeStamp": "03:15",
+                    "start": 196000
+                }
+            ]
         },
         {
-            "filename": "The-raggedy-man_00694070_002_00-03-15.mp3",
-            "title": "The raggedy man",
-            "timestamp": "03:15",
-            "url": "http://www.loc.gov/item/00694070/"
-        },
-        {
-            "filename": "The-shop-girl_00694080_001_00-00-27.mp3",
+            "id": "00694080",
             "title": "The shop girl",
-            "timestamp": "00:27",
-            "url": "http://www.loc.gov/item/00694080/"
+            "url": "http://www.loc.gov/item/00694080/",
+            "clips": [
+                {
+                    "filename": "The-shop-girl_00694080_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "The-shop-girl_00694080_002_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                },
+                {
+                    "filename": "The-shop-girl_00694080_003_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                },
+                {
+                    "filename": "The-shop-girl_00694080_004_00-03-47",
+                    "timeStamp": "03:47",
+                    "start": 228000
+                }
+            ]
         },
         {
-            "filename": "The-shop-girl_00694080_002_00-02-10.mp3",
-            "title": "The shop girl",
-            "timestamp": "02:10",
-            "url": "http://www.loc.gov/item/00694080/"
-        },
-        {
-            "filename": "The-shop-girl_00694080_003_00-02-30.mp3",
-            "title": "The shop girl",
-            "timestamp": "02:30",
-            "url": "http://www.loc.gov/item/00694080/"
-        },
-        {
-            "filename": "The-shop-girl_00694080_004_00-03-47.mp3",
-            "title": "The shop girl",
-            "timestamp": "03:47",
-            "url": "http://www.loc.gov/item/00694080/"
-        },
-        {
-            "filename": "The-stars-and-stripes-forever-march_00694038_001_00-01-15.mp3",
+            "id": "00694038",
             "title": "The stars and stripes forever march",
-            "timestamp": "01:15",
-            "url": "http://www.loc.gov/item/00694038/"
+            "url": "http://www.loc.gov/item/00694038/",
+            "clips": [
+                {
+                    "filename": "The-stars-and-stripes-forever-march_00694038_001_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                },
+                {
+                    "filename": "The-stars-and-stripes-forever-march_00694038_002_00-01-55",
+                    "timeStamp": "01:55",
+                    "start": 116000
+                },
+                {
+                    "filename": "The-stars-and-stripes-forever-march_00694038_003_00-02-25",
+                    "timeStamp": "02:25",
+                    "start": 146000
+                },
+                {
+                    "filename": "The-stars-and-stripes-forever-march_00694038_004_00-02-56",
+                    "timeStamp": "02:56",
+                    "start": 177000
+                }
+            ]
         },
         {
-            "filename": "The-stars-and-stripes-forever-march_00694038_002_00-01-55.mp3",
-            "title": "The stars and stripes forever march",
-            "timestamp": "01:55",
-            "url": "http://www.loc.gov/item/00694038/"
-        },
-        {
-            "filename": "The-stars-and-stripes-forever-march_00694038_003_00-02-25.mp3",
-            "title": "The stars and stripes forever march",
-            "timestamp": "02:25",
-            "url": "http://www.loc.gov/item/00694038/"
-        },
-        {
-            "filename": "The-stars-and-stripes-forever-march_00694038_004_00-02-56.mp3",
-            "title": "The stars and stripes forever march",
-            "timestamp": "02:56",
-            "url": "http://www.loc.gov/item/00694038/"
-        },
-        {
-            "filename": "The-three-bears_00694073_001_00-03-01.mp3",
+            "id": "00694073",
             "title": "The three bears",
-            "timestamp": "03:01",
-            "url": "http://www.loc.gov/item/00694073/"
+            "url": "http://www.loc.gov/item/00694073/",
+            "clips": [
+                {
+                    "filename": "The-three-bears_00694073_001_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "The-three-bears_00694073_002_00-03-28",
+                    "timeStamp": "03:28",
+                    "start": 209000
+                }
+            ]
         },
         {
-            "filename": "The-three-bears_00694073_002_00-03-28.mp3",
-            "title": "The three bears",
-            "timestamp": "03:28",
-            "url": "http://www.loc.gov/item/00694073/"
-        },
-        {
-            "filename": "The-trumpet-shall-sound-Messiah_00694104_001_00-00-33.mp3",
+            "id": "00694104",
             "title": "The trumpet shall sound--Messiah",
-            "timestamp": "00:33",
-            "url": "http://www.loc.gov/item/00694104/"
+            "url": "http://www.loc.gov/item/00694104/",
+            "clips": [
+                {
+                    "filename": "The-trumpet-shall-sound-Messiah_00694104_001_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "The-trumpet-shall-sound-Messiah_00694104_002_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "The-trumpet-shall-sound-Messiah_00694104_003_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                },
+                {
+                    "filename": "The-trumpet-shall-sound-Messiah_00694104_004_00-02-38",
+                    "timeStamp": "02:38",
+                    "start": 159000
+                }
+            ]
         },
         {
-            "filename": "The-trumpet-shall-sound-Messiah_00694104_002_00-01-03.mp3",
-            "title": "The trumpet shall sound--Messiah",
-            "timestamp": "01:03",
-            "url": "http://www.loc.gov/item/00694104/"
-        },
-        {
-            "filename": "The-trumpet-shall-sound-Messiah_00694104_003_00-02-30.mp3",
-            "title": "The trumpet shall sound--Messiah",
-            "timestamp": "02:30",
-            "url": "http://www.loc.gov/item/00694104/"
-        },
-        {
-            "filename": "The-trumpet-shall-sound-Messiah_00694104_004_00-02-38.mp3",
-            "title": "The trumpet shall sound--Messiah",
-            "timestamp": "02:38",
-            "url": "http://www.loc.gov/item/00694104/"
-        },
-        {
-            "filename": "The-twenty-third-Psalm_00694105_001_00-00-00.mp3",
+            "id": "00694105",
             "title": "The twenty-third Psalm",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694105/"
+            "url": "http://www.loc.gov/item/00694105/",
+            "clips": [
+                {
+                    "filename": "The-twenty-third-Psalm_00694105_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-twenty-third-Psalm_00694105_002_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "The-twenty-third-Psalm_00694105_003_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                },
+                {
+                    "filename": "The-twenty-third-Psalm_00694105_004_00-03-36",
+                    "timeStamp": "03:36",
+                    "start": 217000
+                }
+            ]
         },
         {
-            "filename": "The-twenty-third-Psalm_00694105_002_00-01-43.mp3",
-            "title": "The twenty-third Psalm",
-            "timestamp": "01:43",
-            "url": "http://www.loc.gov/item/00694105/"
-        },
-        {
-            "filename": "The-twenty-third-Psalm_00694105_003_00-02-45.mp3",
-            "title": "The twenty-third Psalm",
-            "timestamp": "02:45",
-            "url": "http://www.loc.gov/item/00694105/"
-        },
-        {
-            "filename": "The-twenty-third-Psalm_00694105_004_00-03-36.mp3",
-            "title": "The twenty-third Psalm",
-            "timestamp": "03:36",
-            "url": "http://www.loc.gov/item/00694105/"
-        },
-        {
-            "filename": "Theres-a-long-long-trail_00694066_001_00-00-01.mp3",
+            "id": "00694066",
             "title": "There's a long, long trail",
-            "timestamp": "00:01",
-            "url": "http://www.loc.gov/item/00694066/"
+            "url": "http://www.loc.gov/item/00694066/",
+            "clips": [
+                {
+                    "filename": "Theres-a-long-long-trail_00694066_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Theres-a-long-long-trail_00694066_002_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Theres-a-long-long-trail_00694066_003_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                },
+                {
+                    "filename": "Theres-a-long-long-trail_00694066_004_00-03-31",
+                    "timeStamp": "03:31",
+                    "start": 212000
+                }
+            ]
         },
         {
-            "filename": "Theres-a-long-long-trail_00694066_002_00-00-33.mp3",
-            "title": "There's a long, long trail",
-            "timestamp": "00:33",
-            "url": "http://www.loc.gov/item/00694066/"
-        },
-        {
-            "filename": "Theres-a-long-long-trail_00694066_003_00-01-15.mp3",
-            "title": "There's a long, long trail",
-            "timestamp": "01:15",
-            "url": "http://www.loc.gov/item/00694066/"
-        },
-        {
-            "filename": "Theres-a-long-long-trail_00694066_004_00-03-31.mp3",
-            "title": "There's a long, long trail",
-            "timestamp": "03:31",
-            "url": "http://www.loc.gov/item/00694066/"
-        },
-        {
-            "filename": "True-to-the-flag-march_00694039_001_00-01-05.mp3",
+            "id": "00694039",
             "title": "True to the flag march",
-            "timestamp": "01:05",
-            "url": "http://www.loc.gov/item/00694039/"
+            "url": "http://www.loc.gov/item/00694039/",
+            "clips": [
+                {
+                    "filename": "True-to-the-flag-march_00694039_001_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "True-to-the-flag-march_00694039_002_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                },
+                {
+                    "filename": "True-to-the-flag-march_00694039_003_00-02-51",
+                    "timeStamp": "02:51",
+                    "start": 172000
+                }
+            ]
         },
         {
-            "filename": "True-to-the-flag-march_00694039_002_00-02-43.mp3",
-            "title": "True to the flag march",
-            "timestamp": "02:43",
-            "url": "http://www.loc.gov/item/00694039/"
-        },
-        {
-            "filename": "True-to-the-flag-march_00694039_003_00-02-51.mp3",
-            "title": "True to the flag march",
-            "timestamp": "02:51",
-            "url": "http://www.loc.gov/item/00694039/"
-        },
-        {
-            "filename": "Umbrellas-to-mend_00694041_001_00-00-30.mp3",
+            "id": "00694041",
             "title": "Umbrellas to mend",
-            "timestamp": "00:30",
-            "url": "http://www.loc.gov/item/00694041/"
+            "url": "http://www.loc.gov/item/00694041/",
+            "clips": [
+                {
+                    "filename": "Umbrellas-to-mend_00694041_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Umbrellas-to-mend_00694041_002_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Umbrellas-to-mend_00694041_003_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "Umbrellas-to-mend_00694041_004_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                }
+            ]
         },
         {
-            "filename": "Umbrellas-to-mend_00694041_002_00-01-00.mp3",
-            "title": "Umbrellas to mend",
-            "timestamp": "01:00",
-            "url": "http://www.loc.gov/item/00694041/"
-        },
-        {
-            "filename": "Umbrellas-to-mend_00694041_003_00-01-45.mp3",
-            "title": "Umbrellas to mend",
-            "timestamp": "01:45",
-            "url": "http://www.loc.gov/item/00694041/"
-        },
-        {
-            "filename": "Umbrellas-to-mend_00694041_004_00-01-50.mp3",
-            "title": "Umbrellas to mend",
-            "timestamp": "01:50",
-            "url": "http://www.loc.gov/item/00694041/"
-        },
-        {
-            "filename": "Uncle-Josh-buys-an-automobile_00694081_001_00-01-29.mp3",
+            "id": "00694081",
             "title": "Uncle Josh buys an automobile",
-            "timestamp": "01:29",
-            "url": "http://www.loc.gov/item/00694081/"
+            "url": "http://www.loc.gov/item/00694081/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-buys-an-automobile_00694081_001_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Uncle-Josh-buys-an-automobile_00694081_002_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                },
+                {
+                    "filename": "Uncle-Josh-buys-an-automobile_00694081_003_00-03-36",
+                    "timeStamp": "03:36",
+                    "start": 217000
+                },
+                {
+                    "filename": "Uncle-Josh-buys-an-automobile_00694081_004_00-04-07",
+                    "timeStamp": "04:07",
+                    "start": 248000
+                }
+            ]
         },
         {
-            "filename": "Uncle-Josh-buys-an-automobile_00694081_002_00-02-29.mp3",
-            "title": "Uncle Josh buys an automobile",
-            "timestamp": "02:29",
-            "url": "http://www.loc.gov/item/00694081/"
-        },
-        {
-            "filename": "Uncle-Josh-buys-an-automobile_00694081_003_00-03-36.mp3",
-            "title": "Uncle Josh buys an automobile",
-            "timestamp": "03:36",
-            "url": "http://www.loc.gov/item/00694081/"
-        },
-        {
-            "filename": "Uncle-Josh-buys-an-automobile_00694081_004_00-04-07.mp3",
-            "title": "Uncle Josh buys an automobile",
-            "timestamp": "04:07",
-            "url": "http://www.loc.gov/item/00694081/"
-        },
-        {
-            "filename": "Vesti-la-giubba-I-pagliacci_00694101_001_00-01-06.mp3",
+            "id": "00694101",
             "title": "Vesti la giubba I pagliacci",
-            "timestamp": "01:06",
-            "url": "http://www.loc.gov/item/00694101/"
+            "url": "http://www.loc.gov/item/00694101/",
+            "clips": [
+                {
+                    "filename": "Vesti-la-giubba-I-pagliacci_00694101_001_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "Vesti-la-giubba-I-pagliacci_00694101_002_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "Vesti-la-giubba-I-pagliacci_00694101_003_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Vesti-la-giubba-I-pagliacci_00694101_004_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                }
+            ]
         },
         {
-            "filename": "Vesti-la-giubba-I-pagliacci_00694101_002_00-01-43.mp3",
-            "title": "Vesti la giubba I pagliacci",
-            "timestamp": "01:43",
-            "url": "http://www.loc.gov/item/00694101/"
-        },
-        {
-            "filename": "Vesti-la-giubba-I-pagliacci_00694101_003_00-02-01.mp3",
-            "title": "Vesti la giubba I pagliacci",
-            "timestamp": "02:01",
-            "url": "http://www.loc.gov/item/00694101/"
-        },
-        {
-            "filename": "Vesti-la-giubba-I-pagliacci_00694101_004_00-02-12.mp3",
-            "title": "Vesti la giubba I pagliacci",
-            "timestamp": "02:12",
-            "url": "http://www.loc.gov/item/00694101/"
-        },
-        {
-            "filename": "When-the-roll-is-called-up-yonder_00694106_001_00-00-00.mp3",
+            "id": "00694106",
             "title": "When the roll is called up yonder",
-            "timestamp": "00:00",
-            "url": "http://www.loc.gov/item/00694106/"
-        },
-        {
-            "filename": "When-the-roll-is-called-up-yonder_00694106_002_00-00-51.mp3",
-            "title": "When the roll is called up yonder",
-            "timestamp": "00:51",
-            "url": "http://www.loc.gov/item/00694106/"
-        },
-        {
-            "filename": "When-the-roll-is-called-up-yonder_00694106_003_00-01-57.mp3",
-            "title": "When the roll is called up yonder",
-            "timestamp": "01:57",
-            "url": "http://www.loc.gov/item/00694106/"
-        },
-        {
-            "filename": "When-the-roll-is-called-up-yonder_00694106_004_00-03-08.mp3",
-            "title": "When the roll is called up yonder",
-            "timestamp": "03:08",
-            "url": "http://www.loc.gov/item/00694106/"
+            "url": "http://www.loc.gov/item/00694106/",
+            "clips": [
+                {
+                    "filename": "When-the-roll-is-called-up-yonder_00694106_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "When-the-roll-is-called-up-yonder_00694106_002_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "When-the-roll-is-called-up-yonder_00694106_003_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                },
+                {
+                    "filename": "When-the-roll-is-called-up-yonder_00694106_004_00-03-08",
+                    "timeStamp": "03:08",
+                    "start": 189000
+                }
+            ]
         }
     ],
     "segmentCount": 265,

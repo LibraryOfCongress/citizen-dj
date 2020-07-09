@@ -13,1560 +13,1925 @@
             "comment": "Ideal for production"
         }
     ],
-    "clips": [
+    "clips": [],
+    "items": [
         {
-            "filename": "Who-Is-The-Weavers-Bonnie-The-Devils-Nine-Questions_2011121111_001_00-02-21.mp3",
+            "id": "2011121111",
             "title": "(Who Is The Weaver\u2019s Bonnie) The Devil\u2019s Nine Questions",
-            "timestamp": "02:21",
-            "url": "/items/loc-musicbox/2011121111/"
+            "url": "/items/loc-musicbox/2011121111/",
+            "clips": [
+                {
+                    "filename": "Who-Is-The-Weavers-Bonnie-The-Devils-Nine-Questions_2011121111_001_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "Who-Is-The-Weavers-Bonnie-The-Devils-Nine-Questions_2011121111_002_00-03-27",
+                    "timeStamp": "03:27",
+                    "start": 208000
+                },
+                {
+                    "filename": "Who-Is-The-Weavers-Bonnie-The-Devils-Nine-Questions_2011121111_003_00-03-39",
+                    "timeStamp": "03:39",
+                    "start": 220000
+                }
+            ]
         },
         {
-            "filename": "Who-Is-The-Weavers-Bonnie-The-Devils-Nine-Questions_2011121111_002_00-03-27.mp3",
-            "title": "(Who Is The Weaver\u2019s Bonnie) The Devil\u2019s Nine Questions",
-            "timestamp": "03:27",
-            "url": "/items/loc-musicbox/2011121111/"
-        },
-        {
-            "filename": "Who-Is-The-Weavers-Bonnie-The-Devils-Nine-Questions_2011121111_003_00-03-39.mp3",
-            "title": "(Who Is The Weaver\u2019s Bonnie) The Devil\u2019s Nine Questions",
-            "timestamp": "03:39",
-            "url": "/items/loc-musicbox/2011121111/"
-        },
-        {
-            "filename": "1-Miss-Maxwell-2-Miss-Gordon-3Island-Boy-4-Saint-Anns-Reel_2012041908_001_00-08-14.mp3",
+            "id": "2012041908",
             "title": "1. Miss Maxwell, 2. Miss Gordon, 3.Island Boy, 4. Saint Ann's Reel",
-            "timestamp": "08:14",
-            "url": "/items/loc-musicbox/2012041908/"
+            "url": "/items/loc-musicbox/2012041908/",
+            "clips": [
+                {
+                    "filename": "1-Miss-Maxwell-2-Miss-Gordon-3Island-Boy-4-Saint-Anns-Reel_2012041908_001_00-08-14",
+                    "timeStamp": "08:14",
+                    "start": 495000
+                },
+                {
+                    "filename": "1-Miss-Maxwell-2-Miss-Gordon-3Island-Boy-4-Saint-Anns-Reel_2012041908_002_00-11-23",
+                    "timeStamp": "11:23",
+                    "start": 684000
+                },
+                {
+                    "filename": "1-Miss-Maxwell-2-Miss-Gordon-3Island-Boy-4-Saint-Anns-Reel_2012041908_003_00-11-53",
+                    "timeStamp": "11:53",
+                    "start": 714000
+                }
+            ]
         },
         {
-            "filename": "1-Miss-Maxwell-2-Miss-Gordon-3Island-Boy-4-Saint-Anns-Reel_2012041908_002_00-11-23.mp3",
-            "title": "1. Miss Maxwell, 2. Miss Gordon, 3.Island Boy, 4. Saint Ann's Reel",
-            "timestamp": "11:23",
-            "url": "/items/loc-musicbox/2012041908/"
+            "id": "DR000252",
+            "title": "73",
+            "url": "/items/loc-musicbox/DR000252/",
+            "clips": [
+                {
+                    "filename": "73_DR000252_001_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "73_DR000252_002_00-01-44",
+                    "timeStamp": "01:44",
+                    "start": 105000
+                },
+                {
+                    "filename": "73_DR000252_003_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                }
+            ]
         },
         {
-            "filename": "1-Miss-Maxwell-2-Miss-Gordon-3Island-Boy-4-Saint-Anns-Reel_2012041908_003_00-11-53.mp3",
-            "title": "1. Miss Maxwell, 2. Miss Gordon, 3.Island Boy, 4. Saint Ann's Reel",
-            "timestamp": "11:53",
-            "url": "/items/loc-musicbox/2012041908/"
-        },
-        {
-            "filename": "73_DR000252_001_00-00-44.mp3",
-            "title": 73,
-            "timestamp": "00:44",
-            "url": "/items/loc-musicbox/DR000252/"
-        },
-        {
-            "filename": "73_DR000252_002_00-01-44.mp3",
-            "title": 73,
-            "timestamp": "01:44",
-            "url": "/items/loc-musicbox/DR000252/"
-        },
-        {
-            "filename": "73_DR000252_003_00-02-14.mp3",
-            "title": 73,
-            "timestamp": "02:14",
-            "url": "/items/loc-musicbox/DR000252/"
-        },
-        {
-            "filename": "A-Whole-Heap-of-Little-Horses_2011121113_001_00-00-36.mp3",
+            "id": "2011121113",
             "title": "A Whole Heap of Little Horses",
-            "timestamp": "00:36",
-            "url": "/items/loc-musicbox/2011121113/"
+            "url": "/items/loc-musicbox/2011121113/",
+            "clips": [
+                {
+                    "filename": "A-Whole-Heap-of-Little-Horses_2011121113_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "A-Whole-Heap-of-Little-Horses_2011121113_002_00-00-53",
+                    "timeStamp": "00:53",
+                    "start": 54000
+                },
+                {
+                    "filename": "A-Whole-Heap-of-Little-Horses_2011121113_003_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                }
+            ]
         },
         {
-            "filename": "A-Whole-Heap-of-Little-Horses_2011121113_002_00-00-53.mp3",
-            "title": "A Whole Heap of Little Horses",
-            "timestamp": "00:53",
-            "url": "/items/loc-musicbox/2011121113/"
-        },
-        {
-            "filename": "A-Whole-Heap-of-Little-Horses_2011121113_003_00-01-28.mp3",
-            "title": "A Whole Heap of Little Horses",
-            "timestamp": "01:28",
-            "url": "/items/loc-musicbox/2011121113/"
-        },
-        {
-            "filename": "Alberta_DR000174_001_00-00-26.mp3",
+            "id": "DR000174",
             "title": "Alberta",
-            "timestamp": "00:26",
-            "url": "/items/loc-musicbox/DR000174/"
+            "url": "/items/loc-musicbox/DR000174/",
+            "clips": [
+                {
+                    "filename": "Alberta_DR000174_001_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "Alberta_DR000174_002_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Alberta_DR000174_003_00-03-27",
+                    "timeStamp": "03:27",
+                    "start": 208000
+                }
+            ]
         },
         {
-            "filename": "Alberta_DR000174_002_00-01-26.mp3",
+            "id": "DR000256",
             "title": "Alberta",
-            "timestamp": "01:26",
-            "url": "/items/loc-musicbox/DR000174/"
+            "url": "/items/loc-musicbox/DR000256/",
+            "clips": [
+                {
+                    "filename": "Alberta_DR000256_001_00-00-06",
+                    "timeStamp": "00:06",
+                    "start": 7000
+                },
+                {
+                    "filename": "Alberta_DR000256_002_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "Alberta_DR000256_003_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                }
+            ]
         },
         {
-            "filename": "Alberta_DR000174_003_00-03-27.mp3",
-            "title": "Alberta",
-            "timestamp": "03:27",
-            "url": "/items/loc-musicbox/DR000174/"
-        },
-        {
-            "filename": "Alberta_DR000256_001_00-00-06.mp3",
-            "title": "Alberta",
-            "timestamp": "00:06",
-            "url": "/items/loc-musicbox/DR000256/"
-        },
-        {
-            "filename": "Alberta_DR000256_002_00-01-06.mp3",
-            "title": "Alberta",
-            "timestamp": "01:06",
-            "url": "/items/loc-musicbox/DR000256/"
-        },
-        {
-            "filename": "Alberta_DR000256_003_00-01-37.mp3",
-            "title": "Alberta",
-            "timestamp": "01:37",
-            "url": "/items/loc-musicbox/DR000256/"
-        },
-        {
-            "filename": "Banjo-Pickin-Girl_2011121106_001_00-01-13.mp3",
+            "id": "2011121106",
             "title": "Banjo Pickin\u2019 Girl",
-            "timestamp": "01:13",
-            "url": "/items/loc-musicbox/2011121106/"
+            "url": "/items/loc-musicbox/2011121106/",
+            "clips": [
+                {
+                    "filename": "Banjo-Pickin-Girl_2011121106_001_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "Banjo-Pickin-Girl_2011121106_002_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Banjo-Pickin-Girl_2011121106_003_00-04-18",
+                    "timeStamp": "04:18",
+                    "start": 259000
+                }
+            ]
         },
         {
-            "filename": "Banjo-Pickin-Girl_2011121106_002_00-01-33.mp3",
-            "title": "Banjo Pickin\u2019 Girl",
-            "timestamp": "01:33",
-            "url": "/items/loc-musicbox/2011121106/"
-        },
-        {
-            "filename": "Banjo-Pickin-Girl_2011121106_003_00-04-18.mp3",
-            "title": "Banjo Pickin\u2019 Girl",
-            "timestamp": "04:18",
-            "url": "/items/loc-musicbox/2011121106/"
-        },
-        {
-            "filename": "Bile-Them-Cabbage-Down_20100917223616_001_00-00-34.mp3",
+            "id": "20100917223616",
             "title": "Bile Them Cabbage Down",
-            "timestamp": "00:34",
-            "url": "/items/loc-musicbox/20100917223616/"
+            "url": "/items/loc-musicbox/20100917223616/",
+            "clips": [
+                {
+                    "filename": "Bile-Them-Cabbage-Down_20100917223616_001_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Bile-Them-Cabbage-Down_20100917223616_002_00-02-04",
+                    "timeStamp": "02:04",
+                    "start": 125000
+                },
+                {
+                    "filename": "Bile-Them-Cabbage-Down_20100917223616_003_00-04-05",
+                    "timeStamp": "04:05",
+                    "start": 246000
+                }
+            ]
         },
         {
-            "filename": "Bile-Them-Cabbage-Down_20100917223616_002_00-02-04.mp3",
-            "title": "Bile Them Cabbage Down",
-            "timestamp": "02:04",
-            "url": "/items/loc-musicbox/20100917223616/"
-        },
-        {
-            "filename": "Bile-Them-Cabbage-Down_20100917223616_003_00-04-05.mp3",
-            "title": "Bile Them Cabbage Down",
-            "timestamp": "04:05",
-            "url": "/items/loc-musicbox/20100917223616/"
-        },
-        {
-            "filename": "Bill-Cheatham_20100919171553_001_00-00-16.mp3",
+            "id": "20100919171553",
             "title": "Bill Cheatham",
-            "timestamp": "00:16",
-            "url": "/items/loc-musicbox/20100919171553/"
+            "url": "/items/loc-musicbox/20100919171553/",
+            "clips": [
+                {
+                    "filename": "Bill-Cheatham_20100919171553_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "Bill-Cheatham_20100919171553_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Bill-Cheatham_20100919171553_003_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
         },
         {
-            "filename": "Bill-Cheatham_20100919171553_002_00-00-30.mp3",
-            "title": "Bill Cheatham",
-            "timestamp": "00:30",
-            "url": "/items/loc-musicbox/20100919171553/"
-        },
-        {
-            "filename": "Bill-Cheatham_20100919171553_003_00-02-00.mp3",
-            "title": "Bill Cheatham",
-            "timestamp": "02:00",
-            "url": "/items/loc-musicbox/20100919171553/"
-        },
-        {
-            "filename": "Bosco-Stomp_DR000181_001_00-02-35.mp3",
+            "id": "DR000181",
             "title": "Bosco Stomp",
-            "timestamp": "02:35",
-            "url": "/items/loc-musicbox/DR000181/"
+            "url": "/items/loc-musicbox/DR000181/",
+            "clips": [
+                {
+                    "filename": "Bosco-Stomp_DR000181_001_00-02-35",
+                    "timeStamp": "02:35",
+                    "start": 156000
+                },
+                {
+                    "filename": "Bosco-Stomp_DR000181_002_00-03-20",
+                    "timeStamp": "03:20",
+                    "start": 201000
+                },
+                {
+                    "filename": "Bosco-Stomp_DR000181_003_00-04-50",
+                    "timeStamp": "04:50",
+                    "start": 291000
+                }
+            ]
         },
         {
-            "filename": "Bosco-Stomp_DR000181_002_00-03-20.mp3",
+            "id": "DR000259",
             "title": "Bosco Stomp",
-            "timestamp": "03:20",
-            "url": "/items/loc-musicbox/DR000181/"
+            "url": "/items/loc-musicbox/DR000259/",
+            "clips": [
+                {
+                    "filename": "Bosco-Stomp_DR000259_001_00-01-22",
+                    "timeStamp": "01:22",
+                    "start": 83000
+                },
+                {
+                    "filename": "Bosco-Stomp_DR000259_002_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Bosco-Stomp_DR000259_003_00-03-23",
+                    "timeStamp": "03:23",
+                    "start": 204000
+                }
+            ]
         },
         {
-            "filename": "Bosco-Stomp_DR000181_003_00-04-50.mp3",
-            "title": "Bosco Stomp",
-            "timestamp": "04:50",
-            "url": "/items/loc-musicbox/DR000181/"
-        },
-        {
-            "filename": "Bosco-Stomp_DR000259_001_00-01-22.mp3",
-            "title": "Bosco Stomp",
-            "timestamp": "01:22",
-            "url": "/items/loc-musicbox/DR000259/"
-        },
-        {
-            "filename": "Bosco-Stomp_DR000259_002_00-02-23.mp3",
-            "title": "Bosco Stomp",
-            "timestamp": "02:23",
-            "url": "/items/loc-musicbox/DR000259/"
-        },
-        {
-            "filename": "Bosco-Stomp_DR000259_003_00-03-23.mp3",
-            "title": "Bosco Stomp",
-            "timestamp": "03:23",
-            "url": "/items/loc-musicbox/DR000259/"
-        },
-        {
-            "filename": "Brazilian-Tune_DR001442_001_00-00-00.mp3",
+            "id": "DR001442",
             "title": "Brazilian Tune",
-            "timestamp": "00:00",
-            "url": "/items/loc-musicbox/DR001442/"
+            "url": "/items/loc-musicbox/DR001442/",
+            "clips": [
+                {
+                    "filename": "Brazilian-Tune_DR001442_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Brazilian-Tune_DR001442_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Brazilian-Tune_DR001442_003_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
         },
         {
-            "filename": "Brazilian-Tune_DR001442_002_00-00-30.mp3",
-            "title": "Brazilian Tune",
-            "timestamp": "00:30",
-            "url": "/items/loc-musicbox/DR001442/"
-        },
-        {
-            "filename": "Brazilian-Tune_DR001442_003_00-01-30.mp3",
-            "title": "Brazilian Tune",
-            "timestamp": "01:30",
-            "url": "/items/loc-musicbox/DR001442/"
-        },
-        {
-            "filename": "British-Field-March_2012041905_001_00-02-15.mp3",
+            "id": "2012041905",
             "title": "British Field March",
-            "timestamp": "02:15",
-            "url": "/items/loc-musicbox/2012041905/"
+            "url": "/items/loc-musicbox/2012041905/",
+            "clips": [
+                {
+                    "filename": "British-Field-March_2012041905_001_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "British-Field-March_2012041905_002_00-03-16",
+                    "timeStamp": "03:16",
+                    "start": 197000
+                },
+                {
+                    "filename": "British-Field-March_2012041905_003_00-03-46",
+                    "timeStamp": "03:46",
+                    "start": 227000
+                }
+            ]
         },
         {
-            "filename": "British-Field-March_2012041905_002_00-03-16.mp3",
-            "title": "British Field March",
-            "timestamp": "03:16",
-            "url": "/items/loc-musicbox/2012041905/"
-        },
-        {
-            "filename": "British-Field-March_2012041905_003_00-03-46.mp3",
-            "title": "British Field March",
-            "timestamp": "03:46",
-            "url": "/items/loc-musicbox/2012041905/"
-        },
-        {
-            "filename": "Bull-Doze-Blues_2012081025_001_00-01-24.mp3",
+            "id": "2012081025",
             "title": "Bull Doze Blues",
-            "timestamp": "01:24",
-            "url": "/items/loc-musicbox/2012081025/"
+            "url": "/items/loc-musicbox/2012081025/",
+            "clips": [
+                {
+                    "filename": "Bull-Doze-Blues_2012081025_001_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                },
+                {
+                    "filename": "Bull-Doze-Blues_2012081025_002_00-02-58",
+                    "timeStamp": "02:58",
+                    "start": 179000
+                },
+                {
+                    "filename": "Bull-Doze-Blues_2012081025_003_00-04-07",
+                    "timeStamp": "04:07",
+                    "start": 248000
+                }
+            ]
         },
         {
-            "filename": "Bull-Doze-Blues_2012081025_002_00-02-58.mp3",
-            "title": "Bull Doze Blues",
-            "timestamp": "02:58",
-            "url": "/items/loc-musicbox/2012081025/"
-        },
-        {
-            "filename": "Bull-Doze-Blues_2012081025_003_00-04-07.mp3",
-            "title": "Bull Doze Blues",
-            "timestamp": "04:07",
-            "url": "/items/loc-musicbox/2012081025/"
-        },
-        {
-            "filename": "Cant-Get-The-Stuff_DR001437_001_00-02-14.mp3",
+            "id": "DR001437",
             "title": "Can\u2019t Get The Stuff",
-            "timestamp": "02:14",
-            "url": "/items/loc-musicbox/DR001437/"
+            "url": "/items/loc-musicbox/DR001437/",
+            "clips": [
+                {
+                    "filename": "Cant-Get-The-Stuff_DR001437_001_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                }
+            ]
         },
         {
-            "filename": "Chaple-Hill-Serenade-aka-Green-Willis_2012041904_001_00-00-24.mp3",
+            "id": "2012041904",
             "title": "Chaple Hill Serenade (aka Green Willis)",
-            "timestamp": "00:24",
-            "url": "/items/loc-musicbox/2012041904/"
+            "url": "/items/loc-musicbox/2012041904/",
+            "clips": [
+                {
+                    "filename": "Chaple-Hill-Serenade-aka-Green-Willis_2012041904_001_00-00-24",
+                    "timeStamp": "00:24",
+                    "start": 25000
+                },
+                {
+                    "filename": "Chaple-Hill-Serenade-aka-Green-Willis_2012041904_002_00-03-42",
+                    "timeStamp": "03:42",
+                    "start": 223000
+                },
+                {
+                    "filename": "Chaple-Hill-Serenade-aka-Green-Willis_2012041904_003_00-04-12",
+                    "timeStamp": "04:12",
+                    "start": 253000
+                }
+            ]
         },
         {
-            "filename": "Chaple-Hill-Serenade-aka-Green-Willis_2012041904_002_00-03-42.mp3",
-            "title": "Chaple Hill Serenade (aka Green Willis)",
-            "timestamp": "03:42",
-            "url": "/items/loc-musicbox/2012041904/"
-        },
-        {
-            "filename": "Chaple-Hill-Serenade-aka-Green-Willis_2012041904_003_00-04-12.mp3",
-            "title": "Chaple Hill Serenade (aka Green Willis)",
-            "timestamp": "04:12",
-            "url": "/items/loc-musicbox/2012041904/"
-        },
-        {
-            "filename": "Chicken-Coupe_DR000164_001_00-01-09.mp3",
+            "id": "DR000164",
             "title": "Chicken Coupe",
-            "timestamp": "01:09",
-            "url": "/items/loc-musicbox/DR000164/"
+            "url": "/items/loc-musicbox/DR000164/",
+            "clips": [
+                {
+                    "filename": "Chicken-Coupe_DR000164_001_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "Chicken-Coupe_DR000164_002_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Chicken-Coupe_DR000164_003_00-03-09",
+                    "timeStamp": "03:09",
+                    "start": 190000
+                }
+            ]
         },
         {
-            "filename": "Chicken-Coupe_DR000164_002_00-02-09.mp3",
-            "title": "Chicken Coupe",
-            "timestamp": "02:09",
-            "url": "/items/loc-musicbox/DR000164/"
-        },
-        {
-            "filename": "Chicken-Coupe_DR000164_003_00-03-09.mp3",
-            "title": "Chicken Coupe",
-            "timestamp": "03:09",
-            "url": "/items/loc-musicbox/DR000164/"
-        },
-        {
-            "filename": "Cotton-Eyed-Joe_20100917222547_001_00-01-12.mp3",
+            "id": "20100917222547",
             "title": "Cotton Eyed Joe",
-            "timestamp": "01:12",
-            "url": "/items/loc-musicbox/20100917222547/"
+            "url": "/items/loc-musicbox/20100917222547/",
+            "clips": [
+                {
+                    "filename": "Cotton-Eyed-Joe_20100917222547_001_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                },
+                {
+                    "filename": "Cotton-Eyed-Joe_20100917222547_002_00-03-31",
+                    "timeStamp": "03:31",
+                    "start": 212000
+                },
+                {
+                    "filename": "Cotton-Eyed-Joe_20100917222547_003_00-04-01",
+                    "timeStamp": "04:01",
+                    "start": 242000
+                }
+            ]
         },
         {
-            "filename": "Cotton-Eyed-Joe_20100917222547_002_00-03-31.mp3",
-            "title": "Cotton Eyed Joe",
-            "timestamp": "03:31",
-            "url": "/items/loc-musicbox/20100917222547/"
-        },
-        {
-            "filename": "Cotton-Eyed-Joe_20100917222547_003_00-04-01.mp3",
-            "title": "Cotton Eyed Joe",
-            "timestamp": "04:01",
-            "url": "/items/loc-musicbox/20100917222547/"
-        },
-        {
-            "filename": "Creole-Stomp_DR000170_001_00-00-40.mp3",
+            "id": "DR000170",
             "title": "Creole Stomp",
-            "timestamp": "00:40",
-            "url": "/items/loc-musicbox/DR000170/"
+            "url": "/items/loc-musicbox/DR000170/",
+            "clips": [
+                {
+                    "filename": "Creole-Stomp_DR000170_001_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "Creole-Stomp_DR000170_002_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                },
+                {
+                    "filename": "Creole-Stomp_DR000170_003_00-03-10",
+                    "timeStamp": "03:10",
+                    "start": 191000
+                }
+            ]
         },
         {
-            "filename": "Creole-Stomp_DR000170_002_00-02-10.mp3",
+            "id": "DR000249",
             "title": "Creole Stomp",
-            "timestamp": "02:10",
-            "url": "/items/loc-musicbox/DR000170/"
+            "url": "/items/loc-musicbox/DR000249/",
+            "clips": [
+                {
+                    "filename": "Creole-Stomp_DR000249_001_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "Creole-Stomp_DR000249_002_00-02-16",
+                    "timeStamp": "02:16",
+                    "start": 137000
+                },
+                {
+                    "filename": "Creole-Stomp_DR000249_003_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                }
+            ]
         },
         {
-            "filename": "Creole-Stomp_DR000170_003_00-03-10.mp3",
-            "title": "Creole Stomp",
-            "timestamp": "03:10",
-            "url": "/items/loc-musicbox/DR000170/"
-        },
-        {
-            "filename": "Creole-Stomp_DR000249_001_00-00-45.mp3",
-            "title": "Creole Stomp",
-            "timestamp": "00:45",
-            "url": "/items/loc-musicbox/DR000249/"
-        },
-        {
-            "filename": "Creole-Stomp_DR000249_002_00-02-16.mp3",
-            "title": "Creole Stomp",
-            "timestamp": "02:16",
-            "url": "/items/loc-musicbox/DR000249/"
-        },
-        {
-            "filename": "Creole-Stomp_DR000249_003_00-02-46.mp3",
-            "title": "Creole Stomp",
-            "timestamp": "02:46",
-            "url": "/items/loc-musicbox/DR000249/"
-        },
-        {
-            "filename": "Darling-Corey_20100918183941_001_00-01-35.mp3",
+            "id": "20100918183941",
             "title": "Darling Corey",
-            "timestamp": "01:35",
-            "url": "/items/loc-musicbox/20100918183941/"
+            "url": "/items/loc-musicbox/20100918183941/",
+            "clips": [
+                {
+                    "filename": "Darling-Corey_20100918183941_001_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Darling-Corey_20100918183941_002_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                },
+                {
+                    "filename": "Darling-Corey_20100918183941_003_00-03-16",
+                    "timeStamp": "03:16",
+                    "start": 197000
+                }
+            ]
         },
         {
-            "filename": "Darling-Corey_20100918183941_002_00-02-46.mp3",
-            "title": "Darling Corey",
-            "timestamp": "02:46",
-            "url": "/items/loc-musicbox/20100918183941/"
-        },
-        {
-            "filename": "Darling-Corey_20100918183941_003_00-03-16.mp3",
-            "title": "Darling Corey",
-            "timestamp": "03:16",
-            "url": "/items/loc-musicbox/20100918183941/"
-        },
-        {
-            "filename": "Dont-This-Road-Look-Rough-And-Rocky_20100929200525_001_00-00-46.mp3",
+            "id": "20100929200525",
             "title": "Don't This Road Look Rough And Rocky",
-            "timestamp": "00:46",
-            "url": "/items/loc-musicbox/20100929200525/"
+            "url": "/items/loc-musicbox/20100929200525/",
+            "clips": [
+                {
+                    "filename": "Dont-This-Road-Look-Rough-And-Rocky_20100929200525_001_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                },
+                {
+                    "filename": "Dont-This-Road-Look-Rough-And-Rocky_20100929200525_002_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Dont-This-Road-Look-Rough-And-Rocky_20100929200525_003_00-03-04",
+                    "timeStamp": "03:04",
+                    "start": 185000
+                }
+            ]
         },
         {
-            "filename": "Dont-This-Road-Look-Rough-And-Rocky_20100929200525_002_00-01-05.mp3",
-            "title": "Don't This Road Look Rough And Rocky",
-            "timestamp": "01:05",
-            "url": "/items/loc-musicbox/20100929200525/"
-        },
-        {
-            "filename": "Dont-This-Road-Look-Rough-And-Rocky_20100929200525_003_00-03-04.mp3",
-            "title": "Don't This Road Look Rough And Rocky",
-            "timestamp": "03:04",
-            "url": "/items/loc-musicbox/20100929200525/"
-        },
-        {
-            "filename": "Drunk-Mans-Blues_2012011453_001_00-03-59.mp3",
+            "id": "2012011453",
             "title": "Drunk Man\u2019s Blues",
-            "timestamp": "03:59",
-            "url": "/items/loc-musicbox/2012011453/"
+            "url": "/items/loc-musicbox/2012011453/",
+            "clips": [
+                {
+                    "filename": "Drunk-Mans-Blues_2012011453_001_00-03-59",
+                    "timeStamp": "03:59",
+                    "start": 240000
+                },
+                {
+                    "filename": "Drunk-Mans-Blues_2012011453_002_00-04-59",
+                    "timeStamp": "04:59",
+                    "start": 300000
+                },
+                {
+                    "filename": "Drunk-Mans-Blues_2012011453_003_00-06-00",
+                    "timeStamp": "06:00",
+                    "start": 361000
+                }
+            ]
         },
         {
-            "filename": "Drunk-Mans-Blues_2012011453_002_00-04-59.mp3",
-            "title": "Drunk Man\u2019s Blues",
-            "timestamp": "04:59",
-            "url": "/items/loc-musicbox/2012011453/"
-        },
-        {
-            "filename": "Drunk-Mans-Blues_2012011453_003_00-06-00.mp3",
-            "title": "Drunk Man\u2019s Blues",
-            "timestamp": "06:00",
-            "url": "/items/loc-musicbox/2012011453/"
-        },
-        {
-            "filename": "Echos-of-the-Ozarks_DR001117_001_00-01-24.mp3",
+            "id": "DR001117",
             "title": "Echos of the Ozarks",
-            "timestamp": "01:24",
-            "url": "/items/loc-musicbox/DR001117/"
+            "url": "/items/loc-musicbox/DR001117/",
+            "clips": [
+                {
+                    "filename": "Echos-of-the-Ozarks_DR001117_001_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                },
+                {
+                    "filename": "Echos-of-the-Ozarks_DR001117_002_00-01-54",
+                    "timeStamp": "01:54",
+                    "start": 115000
+                }
+            ]
         },
         {
-            "filename": "Echos-of-the-Ozarks_DR001117_002_00-01-54.mp3",
-            "title": "Echos of the Ozarks",
-            "timestamp": "01:54",
-            "url": "/items/loc-musicbox/DR001117/"
-        },
-        {
-            "filename": "Faded-Love_20100917225432_001_00-00-59.mp3",
+            "id": "20100917225432",
             "title": "Faded Love",
-            "timestamp": "00:59",
-            "url": "/items/loc-musicbox/20100917225432/"
+            "url": "/items/loc-musicbox/20100917225432/",
+            "clips": [
+                {
+                    "filename": "Faded-Love_20100917225432_001_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Faded-Love_20100917225432_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Faded-Love_20100917225432_003_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
         },
         {
-            "filename": "Faded-Love_20100917225432_002_00-01-30.mp3",
-            "title": "Faded Love",
-            "timestamp": "01:30",
-            "url": "/items/loc-musicbox/20100917225432/"
-        },
-        {
-            "filename": "Faded-Love_20100917225432_003_00-03-01.mp3",
-            "title": "Faded Love",
-            "timestamp": "03:01",
-            "url": "/items/loc-musicbox/20100917225432/"
-        },
-        {
-            "filename": "Fire-On-The-Mountain-aka-Granny-Will-Your-Dog-Bite_2012041902_001_00-03-19.mp3",
+            "id": "2012041902",
             "title": "Fire On The Mountain (aka Granny Will Your Dog Bite)",
-            "timestamp": "03:19",
-            "url": "/items/loc-musicbox/2012041902/"
+            "url": "/items/loc-musicbox/2012041902/",
+            "clips": [
+                {
+                    "filename": "Fire-On-The-Mountain-aka-Granny-Will-Your-Dog-Bite_2012041902_001_00-03-19",
+                    "timeStamp": "03:19",
+                    "start": 200000
+                },
+                {
+                    "filename": "Fire-On-The-Mountain-aka-Granny-Will-Your-Dog-Bite_2012041902_002_00-03-49",
+                    "timeStamp": "03:49",
+                    "start": 230000
+                },
+                {
+                    "filename": "Fire-On-The-Mountain-aka-Granny-Will-Your-Dog-Bite_2012041902_003_00-04-49",
+                    "timeStamp": "04:49",
+                    "start": 290000
+                }
+            ]
         },
         {
-            "filename": "Fire-On-The-Mountain-aka-Granny-Will-Your-Dog-Bite_2012041902_002_00-03-49.mp3",
-            "title": "Fire On The Mountain (aka Granny Will Your Dog Bite)",
-            "timestamp": "03:49",
-            "url": "/items/loc-musicbox/2012041902/"
-        },
-        {
-            "filename": "Fire-On-The-Mountain-aka-Granny-Will-Your-Dog-Bite_2012041902_003_00-04-49.mp3",
-            "title": "Fire On The Mountain (aka Granny Will Your Dog Bite)",
-            "timestamp": "04:49",
-            "url": "/items/loc-musicbox/2012041902/"
-        },
-        {
-            "filename": "Fourth-of-July_2012011328_001_00-01-26.mp3",
+            "id": "2012011328",
             "title": "Fourth of July",
-            "timestamp": "01:26",
-            "url": "/items/loc-musicbox/2012011328/"
+            "url": "/items/loc-musicbox/2012011328/",
+            "clips": [
+                {
+                    "filename": "Fourth-of-July_2012011328_001_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Fourth-of-July_2012011328_002_00-02-56",
+                    "timeStamp": "02:56",
+                    "start": 177000
+                },
+                {
+                    "filename": "Fourth-of-July_2012011328_003_00-04-27",
+                    "timeStamp": "04:27",
+                    "start": 268000
+                }
+            ]
         },
         {
-            "filename": "Fourth-of-July_2012011328_002_00-02-56.mp3",
-            "title": "Fourth of July",
-            "timestamp": "02:56",
-            "url": "/items/loc-musicbox/2012011328/"
-        },
-        {
-            "filename": "Fourth-of-July_2012011328_003_00-04-27.mp3",
-            "title": "Fourth of July",
-            "timestamp": "04:27",
-            "url": "/items/loc-musicbox/2012011328/"
-        },
-        {
-            "filename": "G-Rag_2012011325_001_00-01-07.mp3",
+            "id": "2012011325",
             "title": "G Rag",
-            "timestamp": "01:07",
-            "url": "/items/loc-musicbox/2012011325/"
+            "url": "/items/loc-musicbox/2012011325/",
+            "clips": [
+                {
+                    "filename": "G-Rag_2012011325_001_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                },
+                {
+                    "filename": "G-Rag_2012011325_002_00-02-38",
+                    "timeStamp": "02:38",
+                    "start": 159000
+                },
+                {
+                    "filename": "G-Rag_2012011325_003_00-03-38",
+                    "timeStamp": "03:38",
+                    "start": 219000
+                }
+            ]
         },
         {
-            "filename": "G-Rag_2012011325_002_00-02-38.mp3",
-            "title": "G Rag",
-            "timestamp": "02:38",
-            "url": "/items/loc-musicbox/2012011325/"
-        },
-        {
-            "filename": "G-Rag_2012011325_003_00-03-38.mp3",
-            "title": "G Rag",
-            "timestamp": "03:38",
-            "url": "/items/loc-musicbox/2012011325/"
-        },
-        {
-            "filename": "Green-Icey-Mountain_20100929202651_001_00-01-59.mp3",
+            "id": "20100929202651",
             "title": "Green Icey Mountain",
-            "timestamp": "01:59",
-            "url": "/items/loc-musicbox/20100929202651/"
+            "url": "/items/loc-musicbox/20100929202651/",
+            "clips": [
+                {
+                    "filename": "Green-Icey-Mountain_20100929202651_001_00-01-59",
+                    "timeStamp": "01:59",
+                    "start": 120000
+                },
+                {
+                    "filename": "Green-Icey-Mountain_20100929202651_002_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                },
+                {
+                    "filename": "Green-Icey-Mountain_20100929202651_003_00-04-01",
+                    "timeStamp": "04:01",
+                    "start": 242000
+                }
+            ]
         },
         {
-            "filename": "Green-Icey-Mountain_20100929202651_002_00-02-30.mp3",
-            "title": "Green Icey Mountain",
-            "timestamp": "02:30",
-            "url": "/items/loc-musicbox/20100929202651/"
-        },
-        {
-            "filename": "Green-Icey-Mountain_20100929202651_003_00-04-01.mp3",
-            "title": "Green Icey Mountain",
-            "timestamp": "04:01",
-            "url": "/items/loc-musicbox/20100929202651/"
-        },
-        {
-            "filename": "Grey-Eagle_DR001112_001_00-04-22.mp3",
+            "id": "DR001112",
             "title": "Grey Eagle",
-            "timestamp": "04:22",
-            "url": "/items/loc-musicbox/DR001112/"
+            "url": "/items/loc-musicbox/DR001112/",
+            "clips": [
+                {
+                    "filename": "Grey-Eagle_DR001112_001_00-04-22",
+                    "timeStamp": "04:22",
+                    "start": 263000
+                },
+                {
+                    "filename": "Grey-Eagle_DR001112_002_00-04-52",
+                    "timeStamp": "04:52",
+                    "start": 293000
+                },
+                {
+                    "filename": "Grey-Eagle_DR001112_003_00-05-53",
+                    "timeStamp": "05:53",
+                    "start": 354000
+                }
+            ]
         },
         {
-            "filename": "Grey-Eagle_DR001112_002_00-04-52.mp3",
-            "title": "Grey Eagle",
-            "timestamp": "04:52",
-            "url": "/items/loc-musicbox/DR001112/"
-        },
-        {
-            "filename": "Grey-Eagle_DR001112_003_00-05-53.mp3",
-            "title": "Grey Eagle",
-            "timestamp": "05:53",
-            "url": "/items/loc-musicbox/DR001112/"
-        },
-        {
-            "filename": "Half-Past-Four_DR000673_001_00-01-04.mp3",
+            "id": "DR000673",
             "title": "Half Past Four",
-            "timestamp": "01:04",
-            "url": "/items/loc-musicbox/DR000673/"
+            "url": "/items/loc-musicbox/DR000673/",
+            "clips": [
+                {
+                    "filename": "Half-Past-Four_DR000673_001_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Half-Past-Four_DR000673_002_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "Half-Past-Four_DR000673_003_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
         },
         {
-            "filename": "Half-Past-Four_DR000673_002_00-01-34.mp3",
-            "title": "Half Past Four",
-            "timestamp": "01:34",
-            "url": "/items/loc-musicbox/DR000673/"
-        },
-        {
-            "filename": "Half-Past-Four_DR000673_003_00-02-34.mp3",
-            "title": "Half Past Four",
-            "timestamp": "02:34",
-            "url": "/items/loc-musicbox/DR000673/"
-        },
-        {
-            "filename": "Henry-Reeds-Breakdown_2012041910_001_00-02-19.mp3",
+            "id": "2012041910",
             "title": "Henry Reed's Breakdown",
-            "timestamp": "02:19",
-            "url": "/items/loc-musicbox/2012041910/"
+            "url": "/items/loc-musicbox/2012041910/",
+            "clips": [
+                {
+                    "filename": "Henry-Reeds-Breakdown_2012041910_001_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                },
+                {
+                    "filename": "Henry-Reeds-Breakdown_2012041910_002_00-02-49",
+                    "timeStamp": "02:49",
+                    "start": 170000
+                },
+                {
+                    "filename": "Henry-Reeds-Breakdown_2012041910_003_00-03-19",
+                    "timeStamp": "03:19",
+                    "start": 200000
+                }
+            ]
         },
         {
-            "filename": "Henry-Reeds-Breakdown_2012041910_002_00-02-49.mp3",
-            "title": "Henry Reed's Breakdown",
-            "timestamp": "02:49",
-            "url": "/items/loc-musicbox/2012041910/"
-        },
-        {
-            "filename": "Henry-Reeds-Breakdown_2012041910_003_00-03-19.mp3",
-            "title": "Henry Reed's Breakdown",
-            "timestamp": "03:19",
-            "url": "/items/loc-musicbox/2012041910/"
-        },
-        {
-            "filename": "High-Society_DR001435_001_00-01-50.mp3",
+            "id": "DR001435",
             "title": "High Society",
-            "timestamp": "01:50",
-            "url": "/items/loc-musicbox/DR001435/"
+            "url": "/items/loc-musicbox/DR001435/",
+            "clips": [
+                {
+                    "filename": "High-Society_DR001435_001_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "High-Society_DR001435_002_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "High-Society_DR001435_003_00-02-51",
+                    "timeStamp": "02:51",
+                    "start": 172000
+                }
+            ]
         },
         {
-            "filename": "High-Society_DR001435_002_00-02-21.mp3",
-            "title": "High Society",
-            "timestamp": "02:21",
-            "url": "/items/loc-musicbox/DR001435/"
-        },
-        {
-            "filename": "High-Society_DR001435_003_00-02-51.mp3",
-            "title": "High Society",
-            "timestamp": "02:51",
-            "url": "/items/loc-musicbox/DR001435/"
-        },
-        {
-            "filename": "High-Yellow-from-Mr-Hypes_2012041906_001_00-02-20.mp3",
+            "id": "2012041906",
             "title": "High Yellow (from Mr. Hypes)",
-            "timestamp": "02:20",
-            "url": "/items/loc-musicbox/2012041906/"
+            "url": "/items/loc-musicbox/2012041906/",
+            "clips": [
+                {
+                    "filename": "High-Yellow-from-Mr-Hypes_2012041906_001_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                },
+                {
+                    "filename": "High-Yellow-from-Mr-Hypes_2012041906_002_00-02-50",
+                    "timeStamp": "02:50",
+                    "start": 171000
+                },
+                {
+                    "filename": "High-Yellow-from-Mr-Hypes_2012041906_003_00-04-20",
+                    "timeStamp": "04:20",
+                    "start": 261000
+                }
+            ]
         },
         {
-            "filename": "High-Yellow-from-Mr-Hypes_2012041906_002_00-02-50.mp3",
-            "title": "High Yellow (from Mr. Hypes)",
-            "timestamp": "02:50",
-            "url": "/items/loc-musicbox/2012041906/"
-        },
-        {
-            "filename": "High-Yellow-from-Mr-Hypes_2012041906_003_00-04-20.mp3",
-            "title": "High Yellow (from Mr. Hypes)",
-            "timestamp": "04:20",
-            "url": "/items/loc-musicbox/2012041906/"
-        },
-        {
-            "filename": "Ill-Fly-Away_20100919165839_001_00-00-27.mp3",
+            "id": "20100919165839",
             "title": "I'll Fly Away",
-            "timestamp": "00:27",
-            "url": "/items/loc-musicbox/20100919165839/"
+            "url": "/items/loc-musicbox/20100919165839/",
+            "clips": [
+                {
+                    "filename": "Ill-Fly-Away_20100919165839_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "Ill-Fly-Away_20100919165839_002_00-02-28",
+                    "timeStamp": "02:28",
+                    "start": 149000
+                },
+                {
+                    "filename": "Ill-Fly-Away_20100919165839_003_00-02-58",
+                    "timeStamp": "02:58",
+                    "start": 179000
+                }
+            ]
         },
         {
-            "filename": "Ill-Fly-Away_20100919165839_002_00-02-28.mp3",
-            "title": "I'll Fly Away",
-            "timestamp": "02:28",
-            "url": "/items/loc-musicbox/20100919165839/"
-        },
-        {
-            "filename": "Ill-Fly-Away_20100919165839_003_00-02-58.mp3",
-            "title": "I'll Fly Away",
-            "timestamp": "02:58",
-            "url": "/items/loc-musicbox/20100919165839/"
-        },
-        {
-            "filename": "Ida-Red_2011121107_001_00-02-10.mp3",
+            "id": "2011121107",
             "title": "Ida Red",
-            "timestamp": "02:10",
-            "url": "/items/loc-musicbox/2011121107/"
+            "url": "/items/loc-musicbox/2011121107/",
+            "clips": [
+                {
+                    "filename": "Ida-Red_2011121107_001_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                },
+                {
+                    "filename": "Ida-Red_2011121107_002_00-02-41",
+                    "timeStamp": "02:41",
+                    "start": 162000
+                },
+                {
+                    "filename": "Ida-Red_2011121107_003_00-03-41",
+                    "timeStamp": "03:41",
+                    "start": 222000
+                }
+            ]
         },
         {
-            "filename": "Ida-Red_2011121107_002_00-02-41.mp3",
-            "title": "Ida Red",
-            "timestamp": "02:41",
-            "url": "/items/loc-musicbox/2011121107/"
-        },
-        {
-            "filename": "Ida-Red_2011121107_003_00-03-41.mp3",
-            "title": "Ida Red",
-            "timestamp": "03:41",
-            "url": "/items/loc-musicbox/2011121107/"
-        },
-        {
-            "filename": "Jack-Websters-Reel_2012041909_001_00-00-10.mp3",
+            "id": "2012041909",
             "title": "Jack Webster's Reel",
-            "timestamp": "00:10",
-            "url": "/items/loc-musicbox/2012041909/"
+            "url": "/items/loc-musicbox/2012041909/",
+            "clips": [
+                {
+                    "filename": "Jack-Websters-Reel_2012041909_001_00-00-10",
+                    "timeStamp": "00:10",
+                    "start": 11000
+                },
+                {
+                    "filename": "Jack-Websters-Reel_2012041909_002_00-00-15",
+                    "timeStamp": "00:15",
+                    "start": 16000
+                },
+                {
+                    "filename": "Jack-Websters-Reel_2012041909_003_00-04-40",
+                    "timeStamp": "04:40",
+                    "start": 281000
+                }
+            ]
         },
         {
-            "filename": "Jack-Websters-Reel_2012041909_002_00-00-15.mp3",
-            "title": "Jack Webster's Reel",
-            "timestamp": "00:15",
-            "url": "/items/loc-musicbox/2012041909/"
-        },
-        {
-            "filename": "Jack-Websters-Reel_2012041909_003_00-04-40.mp3",
-            "title": "Jack Webster's Reel",
-            "timestamp": "04:40",
-            "url": "/items/loc-musicbox/2012041909/"
-        },
-        {
-            "filename": "John-Browns-Dream_20100929211337_001_00-00-19.mp3",
+            "id": "20100929211337",
             "title": "John Brown's Dream",
-            "timestamp": "00:19",
-            "url": "/items/loc-musicbox/20100929211337/"
+            "url": "/items/loc-musicbox/20100929211337/",
+            "clips": [
+                {
+                    "filename": "John-Browns-Dream_20100929211337_001_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "John-Browns-Dream_20100929211337_002_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "John-Browns-Dream_20100929211337_003_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                }
+            ]
         },
         {
-            "filename": "John-Browns-Dream_20100929211337_002_00-00-49.mp3",
-            "title": "John Brown's Dream",
-            "timestamp": "00:49",
-            "url": "/items/loc-musicbox/20100929211337/"
-        },
-        {
-            "filename": "John-Browns-Dream_20100929211337_003_00-02-20.mp3",
-            "title": "John Brown's Dream",
-            "timestamp": "02:20",
-            "url": "/items/loc-musicbox/20100929211337/"
-        },
-        {
-            "filename": "John-Henry_20100917180605_001_00-00-41.mp3",
+            "id": "20100917180605",
             "title": "John Henry",
-            "timestamp": "00:41",
-            "url": "/items/loc-musicbox/20100917180605/"
+            "url": "/items/loc-musicbox/20100917180605/",
+            "clips": [
+                {
+                    "filename": "John-Henry_20100917180605_001_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                },
+                {
+                    "filename": "John-Henry_20100917180605_002_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                },
+                {
+                    "filename": "John-Henry_20100917180605_003_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                }
+            ]
         },
         {
-            "filename": "John-Henry_20100917180605_002_00-01-12.mp3",
+            "id": "20100919173141",
             "title": "John Henry",
-            "timestamp": "01:12",
-            "url": "/items/loc-musicbox/20100917180605/"
+            "url": "/items/loc-musicbox/20100919173141/",
+            "clips": [
+                {
+                    "filename": "John-Henry_20100919173141_001_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                },
+                {
+                    "filename": "John-Henry_20100919173141_002_00-02-11",
+                    "timeStamp": "02:11",
+                    "start": 132000
+                },
+                {
+                    "filename": "John-Henry_20100919173141_003_00-02-41",
+                    "timeStamp": "02:41",
+                    "start": 162000
+                }
+            ]
         },
         {
-            "filename": "John-Henry_20100917180605_003_00-02-12.mp3",
-            "title": "John Henry",
-            "timestamp": "02:12",
-            "url": "/items/loc-musicbox/20100917180605/"
-        },
-        {
-            "filename": "John-Henry_20100919173141_001_00-01-41.mp3",
-            "title": "John Henry",
-            "timestamp": "01:41",
-            "url": "/items/loc-musicbox/20100919173141/"
-        },
-        {
-            "filename": "John-Henry_20100919173141_002_00-02-11.mp3",
-            "title": "John Henry",
-            "timestamp": "02:11",
-            "url": "/items/loc-musicbox/20100919173141/"
-        },
-        {
-            "filename": "John-Henry_20100919173141_003_00-02-41.mp3",
-            "title": "John Henry",
-            "timestamp": "02:41",
-            "url": "/items/loc-musicbox/20100919173141/"
-        },
-        {
-            "filename": "June-Apple_20100929210733_001_00-00-37.mp3",
+            "id": "20100929210733",
             "title": "June Apple",
-            "timestamp": "00:37",
-            "url": "/items/loc-musicbox/20100929210733/"
+            "url": "/items/loc-musicbox/20100929210733/",
+            "clips": [
+                {
+                    "filename": "June-Apple_20100929210733_001_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "June-Apple_20100929210733_002_00-00-52",
+                    "timeStamp": "00:52",
+                    "start": 53000
+                },
+                {
+                    "filename": "June-Apple_20100929210733_003_00-03-53",
+                    "timeStamp": "03:53",
+                    "start": 234000
+                }
+            ]
         },
         {
-            "filename": "June-Apple_20100929210733_002_00-00-52.mp3",
-            "title": "June Apple",
-            "timestamp": "00:52",
-            "url": "/items/loc-musicbox/20100929210733/"
-        },
-        {
-            "filename": "June-Apple_20100929210733_003_00-03-53.mp3",
-            "title": "June Apple",
-            "timestamp": "03:53",
-            "url": "/items/loc-musicbox/20100929210733/"
-        },
-        {
-            "filename": "Keep-The-Skillet-Good-And-Greasy_20100917231403_001_00-00-42.mp3",
+            "id": "20100917231403",
             "title": "Keep The Skillet Good And Greasy",
-            "timestamp": "00:42",
-            "url": "/items/loc-musicbox/20100917231403/"
+            "url": "/items/loc-musicbox/20100917231403/",
+            "clips": [
+                {
+                    "filename": "Keep-The-Skillet-Good-And-Greasy_20100917231403_001_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                }
+            ]
         },
         {
-            "filename": "Land-of-Calypso_DR001443_001_00-00-47.mp3",
+            "id": "DR001443",
             "title": "Land of Calypso",
-            "timestamp": "00:47",
-            "url": "/items/loc-musicbox/DR001443/"
+            "url": "/items/loc-musicbox/DR001443/",
+            "clips": [
+                {
+                    "filename": "Land-of-Calypso_DR001443_001_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                },
+                {
+                    "filename": "Land-of-Calypso_DR001443_002_00-01-48",
+                    "timeStamp": "01:48",
+                    "start": 109000
+                },
+                {
+                    "filename": "Land-of-Calypso_DR001443_003_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                }
+            ]
         },
         {
-            "filename": "Land-of-Calypso_DR001443_002_00-01-48.mp3",
-            "title": "Land of Calypso",
-            "timestamp": "01:48",
-            "url": "/items/loc-musicbox/DR001443/"
-        },
-        {
-            "filename": "Land-of-Calypso_DR001443_003_00-02-18.mp3",
-            "title": "Land of Calypso",
-            "timestamp": "02:18",
-            "url": "/items/loc-musicbox/DR001443/"
-        },
-        {
-            "filename": "Liberty_20100929200154_001_00-01-17.mp3",
+            "id": "20100929200154",
             "title": "Liberty",
-            "timestamp": "01:17",
-            "url": "/items/loc-musicbox/20100929200154/"
+            "url": "/items/loc-musicbox/20100929200154/",
+            "clips": [
+                {
+                    "filename": "Liberty_20100929200154_001_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Liberty_20100929200154_002_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "Liberty_20100929200154_003_00-02-47",
+                    "timeStamp": "02:47",
+                    "start": 168000
+                }
+            ]
         },
         {
-            "filename": "Liberty_20100929200154_002_00-01-47.mp3",
-            "title": "Liberty",
-            "timestamp": "01:47",
-            "url": "/items/loc-musicbox/20100929200154/"
-        },
-        {
-            "filename": "Liberty_20100929200154_003_00-02-47.mp3",
-            "title": "Liberty",
-            "timestamp": "02:47",
-            "url": "/items/loc-musicbox/20100929200154/"
-        },
-        {
-            "filename": "Little-Maggie_20100919171130_001_00-00-22.mp3",
+            "id": "20100919171130",
             "title": "Little Maggie",
-            "timestamp": "00:22",
-            "url": "/items/loc-musicbox/20100919171130/"
+            "url": "/items/loc-musicbox/20100919171130/",
+            "clips": [
+                {
+                    "filename": "Little-Maggie_20100919171130_001_00-00-22",
+                    "timeStamp": "00:22",
+                    "start": 23000
+                },
+                {
+                    "filename": "Little-Maggie_20100919171130_002_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Little-Maggie_20100919171130_003_00-03-25",
+                    "timeStamp": "03:25",
+                    "start": 206000
+                }
+            ]
         },
         {
-            "filename": "Little-Maggie_20100919171130_002_00-01-01.mp3",
-            "title": "Little Maggie",
-            "timestamp": "01:01",
-            "url": "/items/loc-musicbox/20100919171130/"
-        },
-        {
-            "filename": "Little-Maggie_20100919171130_003_00-03-25.mp3",
-            "title": "Little Maggie",
-            "timestamp": "03:25",
-            "url": "/items/loc-musicbox/20100919171130/"
-        },
-        {
-            "filename": "Liza-Jane_2011121110_001_00-01-13.mp3",
+            "id": "2011121110",
             "title": "Liza Jane",
-            "timestamp": "01:13",
-            "url": "/items/loc-musicbox/2011121110/"
+            "url": "/items/loc-musicbox/2011121110/",
+            "clips": [
+                {
+                    "filename": "Liza-Jane_2011121110_001_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "Liza-Jane_2011121110_002_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "Liza-Jane_2011121110_003_00-03-14",
+                    "timeStamp": "03:14",
+                    "start": 195000
+                }
+            ]
         },
         {
-            "filename": "Liza-Jane_2011121110_002_00-02-13.mp3",
-            "title": "Liza Jane",
-            "timestamp": "02:13",
-            "url": "/items/loc-musicbox/2011121110/"
-        },
-        {
-            "filename": "Liza-Jane_2011121110_003_00-03-14.mp3",
-            "title": "Liza Jane",
-            "timestamp": "03:14",
-            "url": "/items/loc-musicbox/2011121110/"
-        },
-        {
-            "filename": "Longue-Pointe_DR000159_001_00-01-04.mp3",
+            "id": "DR000159",
             "title": "Longue Pointe",
-            "timestamp": "01:04",
-            "url": "/items/loc-musicbox/DR000159/"
+            "url": "/items/loc-musicbox/DR000159/",
+            "clips": [
+                {
+                    "filename": "Longue-Pointe_DR000159_001_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Longue-Pointe_DR000159_002_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "Longue-Pointe_DR000159_003_00-03-35",
+                    "timeStamp": "03:35",
+                    "start": 216000
+                }
+            ]
         },
         {
-            "filename": "Longue-Pointe_DR000159_002_00-01-34.mp3",
-            "title": "Longue Pointe",
-            "timestamp": "01:34",
-            "url": "/items/loc-musicbox/DR000159/"
-        },
-        {
-            "filename": "Longue-Pointe_DR000159_003_00-03-35.mp3",
-            "title": "Longue Pointe",
-            "timestamp": "03:35",
-            "url": "/items/loc-musicbox/DR000159/"
-        },
-        {
-            "filename": "Longue-Pointe-2-Step_DR000254_001_00-01-27.mp3",
+            "id": "DR000254",
             "title": "Longue Pointe 2 Step",
-            "timestamp": "01:27",
-            "url": "/items/loc-musicbox/DR000254/"
+            "url": "/items/loc-musicbox/DR000254/",
+            "clips": [
+                {
+                    "filename": "Longue-Pointe-2-Step_DR000254_001_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "Longue-Pointe-2-Step_DR000254_002_00-02-28",
+                    "timeStamp": "02:28",
+                    "start": 149000
+                }
+            ]
         },
         {
-            "filename": "Longue-Pointe-2-Step_DR000254_002_00-02-28.mp3",
-            "title": "Longue Pointe 2 Step",
-            "timestamp": "02:28",
-            "url": "/items/loc-musicbox/DR000254/"
-        },
-        {
-            "filename": "Lorena_20100929204929_001_00-02-28.mp3",
+            "id": "20100929204929",
             "title": "Lorena",
-            "timestamp": "02:28",
-            "url": "/items/loc-musicbox/20100929204929/"
+            "url": "/items/loc-musicbox/20100929204929/",
+            "clips": [
+                {
+                    "filename": "Lorena_20100929204929_001_00-02-28",
+                    "timeStamp": "02:28",
+                    "start": 149000
+                },
+                {
+                    "filename": "Lorena_20100929204929_002_00-03-27",
+                    "timeStamp": "03:27",
+                    "start": 208000
+                },
+                {
+                    "filename": "Lorena_20100929204929_003_00-04-57",
+                    "timeStamp": "04:57",
+                    "start": 298000
+                }
+            ]
         },
         {
-            "filename": "Lorena_20100929204929_002_00-03-27.mp3",
-            "title": "Lorena",
-            "timestamp": "03:27",
-            "url": "/items/loc-musicbox/20100929204929/"
-        },
-        {
-            "filename": "Lorena_20100929204929_003_00-04-57.mp3",
-            "title": "Lorena",
-            "timestamp": "04:57",
-            "url": "/items/loc-musicbox/20100929204929/"
-        },
-        {
-            "filename": "Madam-Eteinne_DR000171_001_00-02-56.mp3",
+            "id": "DR000171",
             "title": "Madam Eteinne",
-            "timestamp": "02:56",
-            "url": "/items/loc-musicbox/DR000171/"
+            "url": "/items/loc-musicbox/DR000171/",
+            "clips": [
+                {
+                    "filename": "Madam-Eteinne_DR000171_001_00-02-56",
+                    "timeStamp": "02:56",
+                    "start": 177000
+                },
+                {
+                    "filename": "Madam-Eteinne_DR000171_002_00-03-26",
+                    "timeStamp": "03:26",
+                    "start": 207000
+                },
+                {
+                    "filename": "Madam-Eteinne_DR000171_003_00-03-56",
+                    "timeStamp": "03:56",
+                    "start": 237000
+                }
+            ]
         },
         {
-            "filename": "Madam-Eteinne_DR000171_002_00-03-26.mp3",
-            "title": "Madam Eteinne",
-            "timestamp": "03:26",
-            "url": "/items/loc-musicbox/DR000171/"
-        },
-        {
-            "filename": "Madam-Eteinne_DR000171_003_00-03-56.mp3",
-            "title": "Madam Eteinne",
-            "timestamp": "03:56",
-            "url": "/items/loc-musicbox/DR000171/"
-        },
-        {
-            "filename": "Mamma-Rosan_DR000167_001_00-00-46.mp3",
+            "id": "DR000167",
             "title": "Mamma Rosan",
-            "timestamp": "00:46",
-            "url": "/items/loc-musicbox/DR000167/"
+            "url": "/items/loc-musicbox/DR000167/",
+            "clips": [
+                {
+                    "filename": "Mamma-Rosan_DR000167_001_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                },
+                {
+                    "filename": "Mamma-Rosan_DR000167_002_00-02-16",
+                    "timeStamp": "02:16",
+                    "start": 137000
+                },
+                {
+                    "filename": "Mamma-Rosan_DR000167_003_00-03-47",
+                    "timeStamp": "03:47",
+                    "start": 228000
+                }
+            ]
         },
         {
-            "filename": "Mamma-Rosan_DR000167_002_00-02-16.mp3",
-            "title": "Mamma Rosan",
-            "timestamp": "02:16",
-            "url": "/items/loc-musicbox/DR000167/"
-        },
-        {
-            "filename": "Mamma-Rosan_DR000167_003_00-03-47.mp3",
-            "title": "Mamma Rosan",
-            "timestamp": "03:47",
-            "url": "/items/loc-musicbox/DR000167/"
-        },
-        {
-            "filename": "Martha-Campbell_20100929201628_001_00-03-20.mp3",
+            "id": "20100929201628",
             "title": "Martha Campbell",
-            "timestamp": "03:20",
-            "url": "/items/loc-musicbox/20100929201628/"
+            "url": "/items/loc-musicbox/20100929201628/",
+            "clips": [
+                {
+                    "filename": "Martha-Campbell_20100929201628_001_00-03-20",
+                    "timeStamp": "03:20",
+                    "start": 201000
+                },
+                {
+                    "filename": "Martha-Campbell_20100929201628_002_00-03-50",
+                    "timeStamp": "03:50",
+                    "start": 231000
+                },
+                {
+                    "filename": "Martha-Campbell_20100929201628_003_00-05-51",
+                    "timeStamp": "05:51",
+                    "start": 352000
+                }
+            ]
         },
         {
-            "filename": "Martha-Campbell_20100929201628_002_00-03-50.mp3",
-            "title": "Martha Campbell",
-            "timestamp": "03:50",
-            "url": "/items/loc-musicbox/20100929201628/"
-        },
-        {
-            "filename": "Martha-Campbell_20100929201628_003_00-05-51.mp3",
-            "title": "Martha Campbell",
-            "timestamp": "05:51",
-            "url": "/items/loc-musicbox/20100929201628/"
-        },
-        {
-            "filename": "Marys-Dream_DR000423_001_00-02-30.mp3",
+            "id": "DR000423",
             "title": "Mary's Dream",
-            "timestamp": "02:30",
-            "url": "/items/loc-musicbox/DR000423/"
+            "url": "/items/loc-musicbox/DR000423/",
+            "clips": [
+                {
+                    "filename": "Marys-Dream_DR000423_001_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                },
+                {
+                    "filename": "Marys-Dream_DR000423_002_00-04-11",
+                    "timeStamp": "04:11",
+                    "start": 252000
+                },
+                {
+                    "filename": "Marys-Dream_DR000423_003_00-05-20",
+                    "timeStamp": "05:20",
+                    "start": 321000
+                }
+            ]
         },
         {
-            "filename": "Marys-Dream_DR000423_002_00-04-11.mp3",
-            "title": "Mary's Dream",
-            "timestamp": "04:11",
-            "url": "/items/loc-musicbox/DR000423/"
-        },
-        {
-            "filename": "Marys-Dream_DR000423_003_00-05-20.mp3",
-            "title": "Mary's Dream",
-            "timestamp": "05:20",
-            "url": "/items/loc-musicbox/DR000423/"
-        },
-        {
-            "filename": "Medley-The-Riverboats-Gone_DR000078_001_00-01-26.mp3",
+            "id": "DR000078",
             "title": "Medley - The Riverboat's Gone",
-            "timestamp": "01:26",
-            "url": "/items/loc-musicbox/DR000078/"
+            "url": "/items/loc-musicbox/DR000078/",
+            "clips": [
+                {
+                    "filename": "Medley-The-Riverboats-Gone_DR000078_001_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Medley-The-Riverboats-Gone_DR000078_002_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                },
+                {
+                    "filename": "Medley-The-Riverboats-Gone_DR000078_003_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                }
+            ]
         },
         {
-            "filename": "Medley-The-Riverboats-Gone_DR000078_002_00-01-37.mp3",
-            "title": "Medley - The Riverboat's Gone",
-            "timestamp": "01:37",
-            "url": "/items/loc-musicbox/DR000078/"
-        },
-        {
-            "filename": "Medley-The-Riverboats-Gone_DR000078_003_00-02-43.mp3",
-            "title": "Medley - The Riverboat's Gone",
-            "timestamp": "02:43",
-            "url": "/items/loc-musicbox/DR000078/"
-        },
-        {
-            "filename": "Midnight-On-The-Water_20100929203227_001_00-06-18.mp3",
+            "id": "20100929203227",
             "title": "Midnight On The Water",
-            "timestamp": "06:18",
-            "url": "/items/loc-musicbox/20100929203227/"
+            "url": "/items/loc-musicbox/20100929203227/",
+            "clips": [
+                {
+                    "filename": "Midnight-On-The-Water_20100929203227_001_00-06-18",
+                    "timeStamp": "06:18",
+                    "start": 379000
+                },
+                {
+                    "filename": "Midnight-On-The-Water_20100929203227_002_00-06-49",
+                    "timeStamp": "06:49",
+                    "start": 410000
+                },
+                {
+                    "filename": "Midnight-On-The-Water_20100929203227_003_00-07-19",
+                    "timeStamp": "07:19",
+                    "start": 440000
+                }
+            ]
         },
         {
-            "filename": "Midnight-On-The-Water_20100929203227_002_00-06-49.mp3",
-            "title": "Midnight On The Water",
-            "timestamp": "06:49",
-            "url": "/items/loc-musicbox/20100929203227/"
-        },
-        {
-            "filename": "Midnight-On-The-Water_20100929203227_003_00-07-19.mp3",
-            "title": "Midnight On The Water",
-            "timestamp": "07:19",
-            "url": "/items/loc-musicbox/20100929203227/"
-        },
-        {
-            "filename": "Moulin_DR000169_001_00-00-23.mp3",
+            "id": "DR000169",
             "title": "Moulin",
-            "timestamp": "00:23",
-            "url": "/items/loc-musicbox/DR000169/"
+            "url": "/items/loc-musicbox/DR000169/",
+            "clips": [
+                {
+                    "filename": "Moulin_DR000169_001_00-00-23",
+                    "timeStamp": "00:23",
+                    "start": 24000
+                },
+                {
+                    "filename": "Moulin_DR000169_002_00-01-54",
+                    "timeStamp": "01:54",
+                    "start": 115000
+                },
+                {
+                    "filename": "Moulin_DR000169_003_00-03-55",
+                    "timeStamp": "03:55",
+                    "start": 236000
+                }
+            ]
         },
         {
-            "filename": "Moulin_DR000169_002_00-01-54.mp3",
-            "title": "Moulin",
-            "timestamp": "01:54",
-            "url": "/items/loc-musicbox/DR000169/"
-        },
-        {
-            "filename": "Moulin_DR000169_003_00-03-55.mp3",
-            "title": "Moulin",
-            "timestamp": "03:55",
-            "url": "/items/loc-musicbox/DR000169/"
-        },
-        {
-            "filename": "Mrs-McLeod-aka-Hop-Light-Ladies_2012041901_001_00-03-00.mp3",
+            "id": "2012041901",
             "title": "Mrs. McLeod (aka Hop Light Ladies)",
-            "timestamp": "03:00",
-            "url": "/items/loc-musicbox/2012041901/"
+            "url": "/items/loc-musicbox/2012041901/",
+            "clips": [
+                {
+                    "filename": "Mrs-McLeod-aka-Hop-Light-Ladies_2012041901_001_00-03-00",
+                    "timeStamp": "03:00",
+                    "start": 181000
+                },
+                {
+                    "filename": "Mrs-McLeod-aka-Hop-Light-Ladies_2012041901_002_00-04-14",
+                    "timeStamp": "04:14",
+                    "start": 255000
+                },
+                {
+                    "filename": "Mrs-McLeod-aka-Hop-Light-Ladies_2012041901_003_00-05-14",
+                    "timeStamp": "05:14",
+                    "start": 315000
+                }
+            ]
         },
         {
-            "filename": "Mrs-McLeod-aka-Hop-Light-Ladies_2012041901_002_00-04-14.mp3",
-            "title": "Mrs. McLeod (aka Hop Light Ladies)",
-            "timestamp": "04:14",
-            "url": "/items/loc-musicbox/2012041901/"
-        },
-        {
-            "filename": "Mrs-McLeod-aka-Hop-Light-Ladies_2012041901_003_00-05-14.mp3",
-            "title": "Mrs. McLeod (aka Hop Light Ladies)",
-            "timestamp": "05:14",
-            "url": "/items/loc-musicbox/2012041901/"
-        },
-        {
-            "filename": "Needle-Case_20100929195217_001_00-00-32.mp3",
+            "id": "20100929195217",
             "title": "Needle Case",
-            "timestamp": "00:32",
-            "url": "/items/loc-musicbox/20100929195217/"
+            "url": "/items/loc-musicbox/20100929195217/",
+            "clips": [
+                {
+                    "filename": "Needle-Case_20100929195217_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Needle-Case_20100929195217_002_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Needle-Case_20100929195217_003_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                }
+            ]
         },
         {
-            "filename": "Needle-Case_20100929195217_002_00-01-02.mp3",
-            "title": "Needle Case",
-            "timestamp": "01:02",
-            "url": "/items/loc-musicbox/20100929195217/"
-        },
-        {
-            "filename": "Needle-Case_20100929195217_003_00-01-33.mp3",
-            "title": "Needle Case",
-            "timestamp": "01:33",
-            "url": "/items/loc-musicbox/20100929195217/"
-        },
-        {
-            "filename": "Old-Buzzard_DR000237_001_00-00-59.mp3",
+            "id": "DR000237",
             "title": "Old Buzzard",
-            "timestamp": "00:59",
-            "url": "/items/loc-musicbox/DR000237/"
+            "url": "/items/loc-musicbox/DR000237/",
+            "clips": [
+                {
+                    "filename": "Old-Buzzard_DR000237_001_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Old-Buzzard_DR000237_002_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Old-Buzzard_DR000237_003_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                }
+            ]
         },
         {
-            "filename": "Old-Buzzard_DR000237_002_00-02-00.mp3",
-            "title": "Old Buzzard",
-            "timestamp": "02:00",
-            "url": "/items/loc-musicbox/DR000237/"
-        },
-        {
-            "filename": "Old-Buzzard_DR000237_003_00-02-30.mp3",
-            "title": "Old Buzzard",
-            "timestamp": "02:30",
-            "url": "/items/loc-musicbox/DR000237/"
-        },
-        {
-            "filename": "Old-Kimball_2011121105_001_00-02-24.mp3",
+            "id": "2011121105",
             "title": "Old Kimball",
-            "timestamp": "02:24",
-            "url": "/items/loc-musicbox/2011121105/"
+            "url": "/items/loc-musicbox/2011121105/",
+            "clips": [
+                {
+                    "filename": "Old-Kimball_2011121105_001_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                },
+                {
+                    "filename": "Old-Kimball_2011121105_002_00-02-54",
+                    "timeStamp": "02:54",
+                    "start": 175000
+                },
+                {
+                    "filename": "Old-Kimball_2011121105_003_00-03-24",
+                    "timeStamp": "03:24",
+                    "start": 205000
+                }
+            ]
         },
         {
-            "filename": "Old-Kimball_2011121105_002_00-02-54.mp3",
-            "title": "Old Kimball",
-            "timestamp": "02:54",
-            "url": "/items/loc-musicbox/2011121105/"
-        },
-        {
-            "filename": "Old-Kimball_2011121105_003_00-03-24.mp3",
-            "title": "Old Kimball",
-            "timestamp": "03:24",
-            "url": "/items/loc-musicbox/2011121105/"
-        },
-        {
-            "filename": "Play-Dixie-For-Me_DR000304_001_00-02-00.mp3",
+            "id": "DR000304",
             "title": "Play Dixie For Me",
-            "timestamp": "02:00",
-            "url": "/items/loc-musicbox/DR000304/"
+            "url": "/items/loc-musicbox/DR000304/",
+            "clips": [
+                {
+                    "filename": "Play-Dixie-For-Me_DR000304_001_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
         },
         {
-            "filename": "Popcorn_DR000165_001_00-01-18.mp3",
+            "id": "DR000165",
             "title": "Popcorn",
-            "timestamp": "01:18",
-            "url": "/items/loc-musicbox/DR000165/"
+            "url": "/items/loc-musicbox/DR000165/",
+            "clips": [
+                {
+                    "filename": "Popcorn_DR000165_001_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                },
+                {
+                    "filename": "Popcorn_DR000165_002_00-02-49",
+                    "timeStamp": "02:49",
+                    "start": 170000
+                },
+                {
+                    "filename": "Popcorn_DR000165_003_00-04-19",
+                    "timeStamp": "04:19",
+                    "start": 260000
+                }
+            ]
         },
         {
-            "filename": "Popcorn_DR000165_002_00-02-49.mp3",
-            "title": "Popcorn",
-            "timestamp": "02:49",
-            "url": "/items/loc-musicbox/DR000165/"
-        },
-        {
-            "filename": "Popcorn_DR000165_003_00-04-19.mp3",
-            "title": "Popcorn",
-            "timestamp": "04:19",
-            "url": "/items/loc-musicbox/DR000165/"
-        },
-        {
-            "filename": "Ragged-Bill_2012041907_001_00-01-40.mp3",
+            "id": "2012041907",
             "title": "Ragged Bill",
-            "timestamp": "01:40",
-            "url": "/items/loc-musicbox/2012041907/"
+            "url": "/items/loc-musicbox/2012041907/",
+            "clips": [
+                {
+                    "filename": "Ragged-Bill_2012041907_001_00-01-40",
+                    "timeStamp": "01:40",
+                    "start": 101000
+                },
+                {
+                    "filename": "Ragged-Bill_2012041907_002_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                },
+                {
+                    "filename": "Ragged-Bill_2012041907_003_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                }
+            ]
         },
         {
-            "filename": "Ragged-Bill_2012041907_002_00-02-10.mp3",
-            "title": "Ragged Bill",
-            "timestamp": "02:10",
-            "url": "/items/loc-musicbox/2012041907/"
-        },
-        {
-            "filename": "Ragged-Bill_2012041907_003_00-02-40.mp3",
-            "title": "Ragged Bill",
-            "timestamp": "02:40",
-            "url": "/items/loc-musicbox/2012041907/"
-        },
-        {
-            "filename": "Rattlesnake-Bit-The-Babay-and-Shortnin-Bread_DR000241_001_00-00-08.mp3",
+            "id": "DR000241",
             "title": "Rattlesnake Bit The Babay and Shortnin' Bread",
-            "timestamp": "00:08",
-            "url": "/items/loc-musicbox/DR000241/"
+            "url": "/items/loc-musicbox/DR000241/",
+            "clips": [
+                {
+                    "filename": "Rattlesnake-Bit-The-Babay-and-Shortnin-Bread_DR000241_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "Rattlesnake-Bit-The-Babay-and-Shortnin-Bread_DR000241_002_00-00-38",
+                    "timeStamp": "00:38",
+                    "start": 39000
+                },
+                {
+                    "filename": "Rattlesnake-Bit-The-Babay-and-Shortnin-Bread_DR000241_003_00-01-08",
+                    "timeStamp": "01:08",
+                    "start": 69000
+                }
+            ]
         },
         {
-            "filename": "Rattlesnake-Bit-The-Babay-and-Shortnin-Bread_DR000241_002_00-00-38.mp3",
-            "title": "Rattlesnake Bit The Babay and Shortnin' Bread",
-            "timestamp": "00:38",
-            "url": "/items/loc-musicbox/DR000241/"
-        },
-        {
-            "filename": "Rattlesnake-Bit-The-Babay-and-Shortnin-Bread_DR000241_003_00-01-08.mp3",
-            "title": "Rattlesnake Bit The Babay and Shortnin' Bread",
-            "timestamp": "01:08",
-            "url": "/items/loc-musicbox/DR000241/"
-        },
-        {
-            "filename": "Richmond-Blues_2012081041_001_00-01-12.mp3",
+            "id": "2012081041",
             "title": "Richmond Blues",
-            "timestamp": "01:12",
-            "url": "/items/loc-musicbox/2012081041/"
+            "url": "/items/loc-musicbox/2012081041/",
+            "clips": [
+                {
+                    "filename": "Richmond-Blues_2012081041_001_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                },
+                {
+                    "filename": "Richmond-Blues_2012081041_002_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                },
+                {
+                    "filename": "Richmond-Blues_2012081041_003_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                }
+            ]
         },
         {
-            "filename": "Richmond-Blues_2012081041_002_00-01-25.mp3",
-            "title": "Richmond Blues",
-            "timestamp": "01:25",
-            "url": "/items/loc-musicbox/2012081041/"
-        },
-        {
-            "filename": "Richmond-Blues_2012081041_003_00-02-29.mp3",
-            "title": "Richmond Blues",
-            "timestamp": "02:29",
-            "url": "/items/loc-musicbox/2012081041/"
-        },
-        {
-            "filename": "Rocking-Chair-Blues_DR001434_001_00-00-20.mp3",
+            "id": "DR001434",
             "title": "Rocking Chair Blues",
-            "timestamp": "00:20",
-            "url": "/items/loc-musicbox/DR001434/"
+            "url": "/items/loc-musicbox/DR001434/",
+            "clips": [
+                {
+                    "filename": "Rocking-Chair-Blues_DR001434_001_00-00-20",
+                    "timeStamp": "00:20",
+                    "start": 21000
+                },
+                {
+                    "filename": "Rocking-Chair-Blues_DR001434_002_00-01-20",
+                    "timeStamp": "01:20",
+                    "start": 81000
+                },
+                {
+                    "filename": "Rocking-Chair-Blues_DR001434_003_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                }
+            ]
         },
         {
-            "filename": "Rocking-Chair-Blues_DR001434_002_00-01-20.mp3",
-            "title": "Rocking Chair Blues",
-            "timestamp": "01:20",
-            "url": "/items/loc-musicbox/DR001434/"
-        },
-        {
-            "filename": "Rocking-Chair-Blues_DR001434_003_00-02-20.mp3",
-            "title": "Rocking Chair Blues",
-            "timestamp": "02:20",
-            "url": "/items/loc-musicbox/DR001434/"
-        },
-        {
-            "filename": "Rocky-Mountain-Goat-aka-New-Rigged-Ship-Hornpipe_2012041903_001_00-01-16.mp3",
+            "id": "2012041903",
             "title": "Rocky Mountain Goat (aka New Rigged Ship Hornpipe)",
-            "timestamp": "01:16",
-            "url": "/items/loc-musicbox/2012041903/"
+            "url": "/items/loc-musicbox/2012041903/",
+            "clips": [
+                {
+                    "filename": "Rocky-Mountain-Goat-aka-New-Rigged-Ship-Hornpipe_2012041903_001_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Rocky-Mountain-Goat-aka-New-Rigged-Ship-Hornpipe_2012041903_002_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                },
+                {
+                    "filename": "Rocky-Mountain-Goat-aka-New-Rigged-Ship-Hornpipe_2012041903_003_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                }
+            ]
         },
         {
-            "filename": "Rocky-Mountain-Goat-aka-New-Rigged-Ship-Hornpipe_2012041903_002_00-01-25.mp3",
-            "title": "Rocky Mountain Goat (aka New Rigged Ship Hornpipe)",
-            "timestamp": "01:25",
-            "url": "/items/loc-musicbox/2012041903/"
-        },
-        {
-            "filename": "Rocky-Mountain-Goat-aka-New-Rigged-Ship-Hornpipe_2012041903_003_00-02-06.mp3",
-            "title": "Rocky Mountain Goat (aka New Rigged Ship Hornpipe)",
-            "timestamp": "02:06",
-            "url": "/items/loc-musicbox/2012041903/"
-        },
-        {
-            "filename": "Ruben_DR000179_001_00-00-17.mp3",
+            "id": "DR000179",
             "title": "Ruben",
-            "timestamp": "00:17",
-            "url": "/items/loc-musicbox/DR000179/"
+            "url": "/items/loc-musicbox/DR000179/",
+            "clips": [
+                {
+                    "filename": "Ruben_DR000179_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                },
+                {
+                    "filename": "Ruben_DR000179_002_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Ruben_DR000179_003_00-03-17",
+                    "timeStamp": "03:17",
+                    "start": 198000
+                }
+            ]
         },
         {
-            "filename": "Ruben_DR000179_002_00-01-17.mp3",
-            "title": "Ruben",
-            "timestamp": "01:17",
-            "url": "/items/loc-musicbox/DR000179/"
-        },
-        {
-            "filename": "Ruben_DR000179_003_00-03-17.mp3",
-            "title": "Ruben",
-            "timestamp": "03:17",
-            "url": "/items/loc-musicbox/DR000179/"
-        },
-        {
-            "filename": "Rubens-Train_DR000257_001_00-00-53.mp3",
+            "id": "DR000257",
             "title": "Ruben's Train",
-            "timestamp": "00:53",
-            "url": "/items/loc-musicbox/DR000257/"
+            "url": "/items/loc-musicbox/DR000257/",
+            "clips": [
+                {
+                    "filename": "Rubens-Train_DR000257_001_00-00-53",
+                    "timeStamp": "00:53",
+                    "start": 54000
+                },
+                {
+                    "filename": "Rubens-Train_DR000257_002_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                },
+                {
+                    "filename": "Rubens-Train_DR000257_003_00-03-54",
+                    "timeStamp": "03:54",
+                    "start": 235000
+                }
+            ]
         },
         {
-            "filename": "Rubens-Train_DR000257_002_00-02-24.mp3",
-            "title": "Ruben's Train",
-            "timestamp": "02:24",
-            "url": "/items/loc-musicbox/DR000257/"
-        },
-        {
-            "filename": "Rubens-Train_DR000257_003_00-03-54.mp3",
-            "title": "Ruben's Train",
-            "timestamp": "03:54",
-            "url": "/items/loc-musicbox/DR000257/"
-        },
-        {
-            "filename": "Saddle-Old-Kate_DR001116_001_00-03-44.mp3",
+            "id": "DR001116",
             "title": "Saddle Old Kate",
-            "timestamp": "03:44",
-            "url": "/items/loc-musicbox/DR001116/"
+            "url": "/items/loc-musicbox/DR001116/",
+            "clips": [
+                {
+                    "filename": "Saddle-Old-Kate_DR001116_001_00-03-44",
+                    "timeStamp": "03:44",
+                    "start": 225000
+                },
+                {
+                    "filename": "Saddle-Old-Kate_DR001116_002_00-04-14",
+                    "timeStamp": "04:14",
+                    "start": 255000
+                },
+                {
+                    "filename": "Saddle-Old-Kate_DR001116_003_00-05-14",
+                    "timeStamp": "05:14",
+                    "start": 315000
+                }
+            ]
         },
         {
-            "filename": "Saddle-Old-Kate_DR001116_002_00-04-14.mp3",
-            "title": "Saddle Old Kate",
-            "timestamp": "04:14",
-            "url": "/items/loc-musicbox/DR001116/"
-        },
-        {
-            "filename": "Saddle-Old-Kate_DR001116_003_00-05-14.mp3",
-            "title": "Saddle Old Kate",
-            "timestamp": "05:14",
-            "url": "/items/loc-musicbox/DR001116/"
-        },
-        {
-            "filename": "Sally-Ann_20100917230439_001_00-01-23.mp3",
+            "id": "20100917230439",
             "title": "Sally Ann",
-            "timestamp": "01:23",
-            "url": "/items/loc-musicbox/20100917230439/"
+            "url": "/items/loc-musicbox/20100917230439/",
+            "clips": [
+                {
+                    "filename": "Sally-Ann_20100917230439_001_00-01-23",
+                    "timeStamp": "01:23",
+                    "start": 84000
+                },
+                {
+                    "filename": "Sally-Ann_20100917230439_002_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                },
+                {
+                    "filename": "Sally-Ann_20100917230439_003_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                }
+            ]
         },
         {
-            "filename": "Sally-Ann_20100917230439_002_00-01-53.mp3",
-            "title": "Sally Ann",
-            "timestamp": "01:53",
-            "url": "/items/loc-musicbox/20100917230439/"
-        },
-        {
-            "filename": "Sally-Ann_20100917230439_003_00-02-23.mp3",
-            "title": "Sally Ann",
-            "timestamp": "02:23",
-            "url": "/items/loc-musicbox/20100917230439/"
-        },
-        {
-            "filename": "Salt-Creek_20100919171944_001_00-00-39.mp3",
+            "id": "20100919171944",
             "title": "Salt Creek",
-            "timestamp": "00:39",
-            "url": "/items/loc-musicbox/20100919171944/"
+            "url": "/items/loc-musicbox/20100919171944/",
+            "clips": [
+                {
+                    "filename": "Salt-Creek_20100919171944_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Salt-Creek_20100919171944_002_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Salt-Creek_20100919171944_003_00-06-03",
+                    "timeStamp": "06:03",
+                    "start": 364000
+                }
+            ]
         },
         {
-            "filename": "Salt-Creek_20100919171944_002_00-02-02.mp3",
-            "title": "Salt Creek",
-            "timestamp": "02:02",
-            "url": "/items/loc-musicbox/20100919171944/"
-        },
-        {
-            "filename": "Salt-Creek_20100919171944_003_00-06-03.mp3",
-            "title": "Salt Creek",
-            "timestamp": "06:03",
-            "url": "/items/loc-musicbox/20100919171944/"
-        },
-        {
-            "filename": "She-Never_DR001438_001_00-00-32.mp3",
+            "id": "DR001438",
             "title": "She Never",
-            "timestamp": "00:32",
-            "url": "/items/loc-musicbox/DR001438/"
+            "url": "/items/loc-musicbox/DR001438/",
+            "clips": [
+                {
+                    "filename": "She-Never_DR001438_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "She-Never_DR001438_002_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                },
+                {
+                    "filename": "She-Never_DR001438_003_00-03-25",
+                    "timeStamp": "03:25",
+                    "start": 206000
+                }
+            ]
         },
         {
-            "filename": "She-Never_DR001438_002_00-01-36.mp3",
-            "title": "She Never",
-            "timestamp": "01:36",
-            "url": "/items/loc-musicbox/DR001438/"
-        },
-        {
-            "filename": "She-Never_DR001438_003_00-03-25.mp3",
-            "title": "She Never",
-            "timestamp": "03:25",
-            "url": "/items/loc-musicbox/DR001438/"
-        },
-        {
-            "filename": "Slim-Gal_2012011326_001_00-02-45.mp3",
+            "id": "2012011326",
             "title": "Slim Gal",
-            "timestamp": "02:45",
-            "url": "/items/loc-musicbox/2012011326/"
+            "url": "/items/loc-musicbox/2012011326/",
+            "clips": [
+                {
+                    "filename": "Slim-Gal_2012011326_001_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                },
+                {
+                    "filename": "Slim-Gal_2012011326_002_00-03-15",
+                    "timeStamp": "03:15",
+                    "start": 196000
+                },
+                {
+                    "filename": "Slim-Gal_2012011326_003_00-03-45",
+                    "timeStamp": "03:45",
+                    "start": 226000
+                }
+            ]
         },
         {
-            "filename": "Slim-Gal_2012011326_002_00-03-15.mp3",
-            "title": "Slim Gal",
-            "timestamp": "03:15",
-            "url": "/items/loc-musicbox/2012011326/"
-        },
-        {
-            "filename": "Slim-Gal_2012011326_003_00-03-45.mp3",
-            "title": "Slim Gal",
-            "timestamp": "03:45",
-            "url": "/items/loc-musicbox/2012011326/"
-        },
-        {
-            "filename": "Suitcase-Breakdown_DR001445_001_00-00-35.mp3",
+            "id": "DR001445",
             "title": "Suitcase Breakdown",
-            "timestamp": "00:35",
-            "url": "/items/loc-musicbox/DR001445/"
+            "url": "/items/loc-musicbox/DR001445/",
+            "clips": [
+                {
+                    "filename": "Suitcase-Breakdown_DR001445_001_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "Suitcase-Breakdown_DR001445_002_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                },
+                {
+                    "filename": "Suitcase-Breakdown_DR001445_003_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                }
+            ]
         },
         {
-            "filename": "Suitcase-Breakdown_DR001445_002_00-01-36.mp3",
-            "title": "Suitcase Breakdown",
-            "timestamp": "01:36",
-            "url": "/items/loc-musicbox/DR001445/"
-        },
-        {
-            "filename": "Suitcase-Breakdown_DR001445_003_00-02-06.mp3",
-            "title": "Suitcase Breakdown",
-            "timestamp": "02:06",
-            "url": "/items/loc-musicbox/DR001445/"
-        },
-        {
-            "filename": "Tadoussac--Lindbergh_DR000074_001_00-03-26.mp3",
+            "id": "DR000074",
             "title": "Tadoussac & Lindbergh",
-            "timestamp": "03:26",
-            "url": "/items/loc-musicbox/DR000074/"
+            "url": "/items/loc-musicbox/DR000074/",
+            "clips": [
+                {
+                    "filename": "Tadoussac--Lindbergh_DR000074_001_00-03-26",
+                    "timeStamp": "03:26",
+                    "start": 207000
+                },
+                {
+                    "filename": "Tadoussac--Lindbergh_DR000074_002_00-03-37",
+                    "timeStamp": "03:37",
+                    "start": 218000
+                },
+                {
+                    "filename": "Tadoussac--Lindbergh_DR000074_003_00-03-48",
+                    "timeStamp": "03:48",
+                    "start": 229000
+                }
+            ]
         },
         {
-            "filename": "Tadoussac--Lindbergh_DR000074_002_00-03-37.mp3",
-            "title": "Tadoussac & Lindbergh",
-            "timestamp": "03:37",
-            "url": "/items/loc-musicbox/DR000074/"
-        },
-        {
-            "filename": "Tadoussac--Lindbergh_DR000074_003_00-03-48.mp3",
-            "title": "Tadoussac & Lindbergh",
-            "timestamp": "03:48",
-            "url": "/items/loc-musicbox/DR000074/"
-        },
-        {
-            "filename": "Tapping-That-Thing_DR001425_001_00-00-29.mp3",
+            "id": "DR001425",
             "title": "Tapping That Thing",
-            "timestamp": "00:29",
-            "url": "/items/loc-musicbox/DR001425/"
+            "url": "/items/loc-musicbox/DR001425/",
+            "clips": [
+                {
+                    "filename": "Tapping-That-Thing_DR001425_001_00-00-29",
+                    "timeStamp": "00:29",
+                    "start": 30000
+                },
+                {
+                    "filename": "Tapping-That-Thing_DR001425_002_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Tapping-That-Thing_DR001425_003_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                }
+            ]
         },
         {
-            "filename": "Tapping-That-Thing_DR001425_002_00-00-59.mp3",
-            "title": "Tapping That Thing",
-            "timestamp": "00:59",
-            "url": "/items/loc-musicbox/DR001425/"
-        },
-        {
-            "filename": "Tapping-That-Thing_DR001425_003_00-02-30.mp3",
-            "title": "Tapping That Thing",
-            "timestamp": "02:30",
-            "url": "/items/loc-musicbox/DR001425/"
-        },
-        {
-            "filename": "Temperence-Reel_20100919164830_001_00-00-15.mp3",
+            "id": "20100919164830",
             "title": "Temperence Reel",
-            "timestamp": "00:15",
-            "url": "/items/loc-musicbox/20100919164830/"
+            "url": "/items/loc-musicbox/20100919164830/",
+            "clips": [
+                {
+                    "filename": "Temperence-Reel_20100919164830_001_00-00-15",
+                    "timeStamp": "00:15",
+                    "start": 16000
+                },
+                {
+                    "filename": "Temperence-Reel_20100919164830_002_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "Temperence-Reel_20100919164830_003_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                }
+            ]
         },
         {
-            "filename": "Temperence-Reel_20100919164830_002_00-00-45.mp3",
-            "title": "Temperence Reel",
-            "timestamp": "00:45",
-            "url": "/items/loc-musicbox/20100919164830/"
-        },
-        {
-            "filename": "Temperence-Reel_20100919164830_003_00-01-45.mp3",
-            "title": "Temperence Reel",
-            "timestamp": "01:45",
-            "url": "/items/loc-musicbox/20100919164830/"
-        },
-        {
-            "filename": "Tennessee-Wagoner_DR000070_001_00-00-36.mp3",
+            "id": "DR000070",
             "title": "Tennessee Wagoner",
-            "timestamp": "00:36",
-            "url": "/items/loc-musicbox/DR000070/"
+            "url": "/items/loc-musicbox/DR000070/",
+            "clips": [
+                {
+                    "filename": "Tennessee-Wagoner_DR000070_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Tennessee-Wagoner_DR000070_002_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "Tennessee-Wagoner_DR000070_003_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                }
+            ]
         },
         {
-            "filename": "Tennessee-Wagoner_DR000070_002_00-01-06.mp3",
-            "title": "Tennessee Wagoner",
-            "timestamp": "01:06",
-            "url": "/items/loc-musicbox/DR000070/"
-        },
-        {
-            "filename": "Tennessee-Wagoner_DR000070_003_00-02-06.mp3",
-            "title": "Tennessee Wagoner",
-            "timestamp": "02:06",
-            "url": "/items/loc-musicbox/DR000070/"
-        },
-        {
-            "filename": "Texas-Twist_DR001431_001_00-02-15.mp3",
+            "id": "DR001431",
             "title": "Texas Twist",
-            "timestamp": "02:15",
-            "url": "/items/loc-musicbox/DR001431/"
+            "url": "/items/loc-musicbox/DR001431/",
+            "clips": [
+                {
+                    "filename": "Texas-Twist_DR001431_001_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "Texas-Twist_DR001431_002_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                },
+                {
+                    "filename": "Texas-Twist_DR001431_003_00-04-06",
+                    "timeStamp": "04:06",
+                    "start": 247000
+                }
+            ]
         },
         {
-            "filename": "Texas-Twist_DR001431_002_00-02-45.mp3",
-            "title": "Texas Twist",
-            "timestamp": "02:45",
-            "url": "/items/loc-musicbox/DR001431/"
-        },
-        {
-            "filename": "Texas-Twist_DR001431_003_00-04-06.mp3",
-            "title": "Texas Twist",
-            "timestamp": "04:06",
-            "url": "/items/loc-musicbox/DR001431/"
-        },
-        {
-            "filename": "Thats-The-Way-You-Feel_20100917225903_001_00-01-36.mp3",
+            "id": "20100917225903",
             "title": "That's The Way You Feel",
-            "timestamp": "01:36",
-            "url": "/items/loc-musicbox/20100917225903/"
+            "url": "/items/loc-musicbox/20100917225903/",
+            "clips": [
+                {
+                    "filename": "Thats-The-Way-You-Feel_20100917225903_001_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                },
+                {
+                    "filename": "Thats-The-Way-You-Feel_20100917225903_002_00-02-07",
+                    "timeStamp": "02:07",
+                    "start": 128000
+                },
+                {
+                    "filename": "Thats-The-Way-You-Feel_20100917225903_003_00-03-07",
+                    "timeStamp": "03:07",
+                    "start": 188000
+                }
+            ]
         },
         {
-            "filename": "Thats-The-Way-You-Feel_20100917225903_002_00-02-07.mp3",
-            "title": "That's The Way You Feel",
-            "timestamp": "02:07",
-            "url": "/items/loc-musicbox/20100917225903/"
-        },
-        {
-            "filename": "Thats-The-Way-You-Feel_20100917225903_003_00-03-07.mp3",
-            "title": "That's The Way You Feel",
-            "timestamp": "03:07",
-            "url": "/items/loc-musicbox/20100917225903/"
-        },
-        {
-            "filename": "The-Amadee-Two-Step_DR000172_001_00-00-47.mp3",
+            "id": "DR000172",
             "title": "The Amadee Two Step",
-            "timestamp": "00:47",
-            "url": "/items/loc-musicbox/DR000172/"
+            "url": "/items/loc-musicbox/DR000172/",
+            "clips": [
+                {
+                    "filename": "The-Amadee-Two-Step_DR000172_001_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                },
+                {
+                    "filename": "The-Amadee-Two-Step_DR000172_002_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                },
+                {
+                    "filename": "The-Amadee-Two-Step_DR000172_003_00-03-47",
+                    "timeStamp": "03:47",
+                    "start": 228000
+                }
+            ]
         },
         {
-            "filename": "The-Amadee-Two-Step_DR000172_002_00-02-17.mp3",
-            "title": "The Amadee Two Step",
-            "timestamp": "02:17",
-            "url": "/items/loc-musicbox/DR000172/"
-        },
-        {
-            "filename": "The-Amadee-Two-Step_DR000172_003_00-03-47.mp3",
-            "title": "The Amadee Two Step",
-            "timestamp": "03:47",
-            "url": "/items/loc-musicbox/DR000172/"
-        },
-        {
-            "filename": "The-Ballad-of-Lord-Bateman-and-the-Turkish-Lady_2011121109_001_00-01-17.mp3",
+            "id": "2011121109",
             "title": "The Ballad of Lord Bateman and the Turkish Lady",
-            "timestamp": "01:17",
-            "url": "/items/loc-musicbox/2011121109/"
+            "url": "/items/loc-musicbox/2011121109/",
+            "clips": [
+                {
+                    "filename": "The-Ballad-of-Lord-Bateman-and-the-Turkish-Lady_2011121109_001_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "The-Ballad-of-Lord-Bateman-and-the-Turkish-Lady_2011121109_002_00-02-07",
+                    "timeStamp": "02:07",
+                    "start": 128000
+                },
+                {
+                    "filename": "The-Ballad-of-Lord-Bateman-and-the-Turkish-Lady_2011121109_003_00-03-25",
+                    "timeStamp": "03:25",
+                    "start": 206000
+                }
+            ]
         },
         {
-            "filename": "The-Ballad-of-Lord-Bateman-and-the-Turkish-Lady_2011121109_002_00-02-07.mp3",
-            "title": "The Ballad of Lord Bateman and the Turkish Lady",
-            "timestamp": "02:07",
-            "url": "/items/loc-musicbox/2011121109/"
-        },
-        {
-            "filename": "The-Ballad-of-Lord-Bateman-and-the-Turkish-Lady_2011121109_003_00-03-25.mp3",
-            "title": "The Ballad of Lord Bateman and the Turkish Lady",
-            "timestamp": "03:25",
-            "url": "/items/loc-musicbox/2011121109/"
-        },
-        {
-            "filename": "The-Highlanders-Farewell_2011121103_001_00-01-50.mp3",
+            "id": "2011121103",
             "title": "The Highlander\u2019s Farewell",
-            "timestamp": "01:50",
-            "url": "/items/loc-musicbox/2011121103/"
+            "url": "/items/loc-musicbox/2011121103/",
+            "clips": [
+                {
+                    "filename": "The-Highlanders-Farewell_2011121103_001_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "The-Highlanders-Farewell_2011121103_002_00-03-21",
+                    "timeStamp": "03:21",
+                    "start": 202000
+                },
+                {
+                    "filename": "The-Highlanders-Farewell_2011121103_003_00-03-51",
+                    "timeStamp": "03:51",
+                    "start": 232000
+                }
+            ]
         },
         {
-            "filename": "The-Highlanders-Farewell_2011121103_002_00-03-21.mp3",
-            "title": "The Highlander\u2019s Farewell",
-            "timestamp": "03:21",
-            "url": "/items/loc-musicbox/2011121103/"
-        },
-        {
-            "filename": "The-Highlanders-Farewell_2011121103_003_00-03-51.mp3",
-            "title": "The Highlander\u2019s Farewell",
-            "timestamp": "03:51",
-            "url": "/items/loc-musicbox/2011121103/"
-        },
-        {
-            "filename": "The-Sky-Boat-Song_DR000440_001_00-00-32.mp3",
+            "id": "DR000440",
             "title": "The Sky Boat Song",
-            "timestamp": "00:32",
-            "url": "/items/loc-musicbox/DR000440/"
+            "url": "/items/loc-musicbox/DR000440/",
+            "clips": [
+                {
+                    "filename": "The-Sky-Boat-Song_DR000440_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "The-Sky-Boat-Song_DR000440_002_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "The-Sky-Boat-Song_DR000440_003_00-02-39",
+                    "timeStamp": "02:39",
+                    "start": 160000
+                }
+            ]
         },
         {
-            "filename": "The-Sky-Boat-Song_DR000440_002_00-02-32.mp3",
-            "title": "The Sky Boat Song",
-            "timestamp": "02:32",
-            "url": "/items/loc-musicbox/DR000440/"
-        },
-        {
-            "filename": "The-Sky-Boat-Song_DR000440_003_00-02-39.mp3",
-            "title": "The Sky Boat Song",
-            "timestamp": "02:39",
-            "url": "/items/loc-musicbox/DR000440/"
-        },
-        {
-            "filename": "Whiskey-Before-Breakfast_20100929194858_001_00-00-26.mp3",
+            "id": "20100929194858",
             "title": "Whiskey Before Breakfast",
-            "timestamp": "00:26",
-            "url": "/items/loc-musicbox/20100929194858/"
+            "url": "/items/loc-musicbox/20100929194858/",
+            "clips": [
+                {
+                    "filename": "Whiskey-Before-Breakfast_20100929194858_001_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "Whiskey-Before-Breakfast_20100929194858_002_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Whiskey-Before-Breakfast_20100929194858_003_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                }
+            ]
         },
         {
-            "filename": "Whiskey-Before-Breakfast_20100929194858_002_00-01-26.mp3",
-            "title": "Whiskey Before Breakfast",
-            "timestamp": "01:26",
-            "url": "/items/loc-musicbox/20100929194858/"
-        },
-        {
-            "filename": "Whiskey-Before-Breakfast_20100929194858_003_00-01-56.mp3",
-            "title": "Whiskey Before Breakfast",
-            "timestamp": "01:56",
-            "url": "/items/loc-musicbox/20100929194858/"
-        },
-        {
-            "filename": "Wild-Bill-Jones_20100917183733_001_00-01-48.mp3",
+            "id": "20100917183733",
             "title": "Wild Bill Jones",
-            "timestamp": "01:48",
-            "url": "/items/loc-musicbox/20100917183733/"
+            "url": "/items/loc-musicbox/20100917183733/",
+            "clips": [
+                {
+                    "filename": "Wild-Bill-Jones_20100917183733_001_00-01-48",
+                    "timeStamp": "01:48",
+                    "start": 109000
+                },
+                {
+                    "filename": "Wild-Bill-Jones_20100917183733_002_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                },
+                {
+                    "filename": "Wild-Bill-Jones_20100917183733_003_00-03-18",
+                    "timeStamp": "03:18",
+                    "start": 199000
+                }
+            ]
         },
         {
-            "filename": "Wild-Bill-Jones_20100917183733_002_00-02-18.mp3",
-            "title": "Wild Bill Jones",
-            "timestamp": "02:18",
-            "url": "/items/loc-musicbox/20100917183733/"
-        },
-        {
-            "filename": "Wild-Bill-Jones_20100917183733_003_00-03-18.mp3",
-            "title": "Wild Bill Jones",
-            "timestamp": "03:18",
-            "url": "/items/loc-musicbox/20100917183733/"
-        },
-        {
-            "filename": "William-Gagnon_DR000067_001_00-00-09.mp3",
+            "id": "DR000067",
             "title": "William Gagnon",
-            "timestamp": "00:09",
-            "url": "/items/loc-musicbox/DR000067/"
+            "url": "/items/loc-musicbox/DR000067/",
+            "clips": [
+                {
+                    "filename": "William-Gagnon_DR000067_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "William-Gagnon_DR000067_002_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "William-Gagnon_DR000067_003_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                }
+            ]
         },
         {
-            "filename": "William-Gagnon_DR000067_002_00-00-39.mp3",
-            "title": "William Gagnon",
-            "timestamp": "00:39",
-            "url": "/items/loc-musicbox/DR000067/"
-        },
-        {
-            "filename": "William-Gagnon_DR000067_003_00-00-47.mp3",
-            "title": "William Gagnon",
-            "timestamp": "00:47",
-            "url": "/items/loc-musicbox/DR000067/"
-        },
-        {
-            "filename": "Wouldnt-Mind-Workin-From-Sun-To-Sun_2011121108_001_00-01-05.mp3",
+            "id": "2011121108",
             "title": "Wouldn\u2019t Mind Workin\u2019 From Sun To Sun",
-            "timestamp": "01:05",
-            "url": "/items/loc-musicbox/2011121108/"
-        },
-        {
-            "filename": "Wouldnt-Mind-Workin-From-Sun-To-Sun_2011121108_002_00-01-32.mp3",
-            "title": "Wouldn\u2019t Mind Workin\u2019 From Sun To Sun",
-            "timestamp": "01:32",
-            "url": "/items/loc-musicbox/2011121108/"
-        },
-        {
-            "filename": "Wouldnt-Mind-Workin-From-Sun-To-Sun_2011121108_003_00-01-52.mp3",
-            "title": "Wouldn\u2019t Mind Workin\u2019 From Sun To Sun",
-            "timestamp": "01:52",
-            "url": "/items/loc-musicbox/2011121108/"
+            "url": "/items/loc-musicbox/2011121108/",
+            "clips": [
+                {
+                    "filename": "Wouldnt-Mind-Workin-From-Sun-To-Sun_2011121108_001_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Wouldnt-Mind-Workin-From-Sun-To-Sun_2011121108_002_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Wouldnt-Mind-Workin-From-Sun-To-Sun_2011121108_003_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                }
+            ]
         }
     ],
     "segmentCount": 259,

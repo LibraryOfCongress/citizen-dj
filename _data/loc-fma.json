@@ -13,1596 +13,2256 @@
             "comment": "Ideal for production"
         }
     ],
-    "clips": [
+    "clips": [],
+    "items": [
         {
-            "filename": "2670_fma-164754_001_00-03-37.mp3",
-            "title": 2670,
-            "timestamp": "03:37",
-            "url": "/items/loc-fma/fma-164754/"
+            "id": "fma-164754",
+            "title": "2670",
+            "url": "/items/loc-fma/fma-164754/",
+            "clips": [
+                {
+                    "filename": "2670_fma-164754_001_00-03-37",
+                    "timeStamp": "03:37",
+                    "start": 218000
+                }
+            ]
         },
         {
-            "filename": "2671_fma-164755_001_00-00-02.mp3",
-            "title": 2671,
-            "timestamp": "00:02",
-            "url": "/items/loc-fma/fma-164755/"
+            "id": "fma-164755",
+            "title": "2671",
+            "url": "/items/loc-fma/fma-164755/",
+            "clips": [
+                {
+                    "filename": "2671_fma-164755_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                }
+            ]
         },
         {
-            "filename": "A-Christmas-adventure-Part-2_fma-184032_001_00-00-08.mp3",
+            "id": "fma-184032",
             "title": "A Christmas adventure (Part 2)",
-            "timestamp": "00:08",
-            "url": "/items/loc-fma/fma-184032/"
+            "url": "/items/loc-fma/fma-184032/",
+            "clips": [
+                {
+                    "filename": "A-Christmas-adventure-Part-2_fma-184032_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                }
+            ]
         },
         {
-            "filename": "A-Good-Start_fma-182157_001_00-00-02.mp3",
+            "id": "fma-182157",
             "title": "A Good Start",
-            "timestamp": "00:02",
-            "url": "/items/loc-fma/fma-182157/"
+            "url": "/items/loc-fma/fma-182157/",
+            "clips": [
+                {
+                    "filename": "A-Good-Start_fma-182157_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "A-Good-Start_fma-182157_002_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "A-Good-Start_fma-182157_003_00-00-18",
+                    "timeStamp": "00:18",
+                    "start": 19000
+                }
+            ]
         },
         {
-            "filename": "A-Good-Start_fma-182157_002_00-00-07.mp3",
-            "title": "A Good Start",
-            "timestamp": "00:07",
-            "url": "/items/loc-fma/fma-182157/"
-        },
-        {
-            "filename": "A-Good-Start_fma-182157_003_00-00-18.mp3",
-            "title": "A Good Start",
-            "timestamp": "00:18",
-            "url": "/items/loc-fma/fma-182157/"
-        },
-        {
-            "filename": "A-weird-mechanism_fma-162973_001_00-00-47.mp3",
+            "id": "fma-162973",
             "title": "A weird mechanism",
-            "timestamp": "00:47",
-            "url": "/items/loc-fma/fma-162973/"
+            "url": "/items/loc-fma/fma-162973/",
+            "clips": [
+                {
+                    "filename": "A-weird-mechanism_fma-162973_001_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                }
+            ]
         },
         {
-            "filename": "Action-Decisive-Move_fma-155584_001_00-02-30.mp3",
+            "id": "fma-155584",
             "title": "Action Decisive Move",
-            "timestamp": "02:30",
-            "url": "/items/loc-fma/fma-155584/"
+            "url": "/items/loc-fma/fma-155584/",
+            "clips": [
+                {
+                    "filename": "Action-Decisive-Move_fma-155584_001_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                }
+            ]
         },
         {
-            "filename": "Adventures-with-Paddy_fma-174838_001_00-07-01.mp3",
+            "id": "fma-174838",
             "title": "Adventures with Paddy",
-            "timestamp": "07:01",
-            "url": "/items/loc-fma/fma-174838/"
+            "url": "/items/loc-fma/fma-174838/",
+            "clips": [
+                {
+                    "filename": "Adventures-with-Paddy_fma-174838_001_00-07-01",
+                    "timeStamp": "07:01",
+                    "start": 422000
+                },
+                {
+                    "filename": "Adventures-with-Paddy_fma-174838_002_00-07-31",
+                    "timeStamp": "07:31",
+                    "start": 452000
+                }
+            ]
         },
         {
-            "filename": "Adventures-with-Paddy_fma-174838_002_00-07-31.mp3",
-            "title": "Adventures with Paddy",
-            "timestamp": "07:31",
-            "url": "/items/loc-fma/fma-174838/"
-        },
-        {
-            "filename": "Aimer-les-fourmis_fma-140809_001_00-01-39.mp3",
+            "id": "fma-140809",
             "title": "Aimer les fourmis",
-            "timestamp": "01:39",
-            "url": "/items/loc-fma/fma-140809/"
+            "url": "/items/loc-fma/fma-140809/",
+            "clips": [
+                {
+                    "filename": "Aimer-les-fourmis_fma-140809_001_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "Aimer-les-fourmis_fma-140809_002_00-02-08",
+                    "timeStamp": "02:08",
+                    "start": 129000
+                }
+            ]
         },
         {
-            "filename": "Aimer-les-fourmis_fma-140809_002_00-02-08.mp3",
-            "title": "Aimer les fourmis",
-            "timestamp": "02:08",
-            "url": "/items/loc-fma/fma-140809/"
-        },
-        {
-            "filename": "Allegro-Can-Bro-Beethoven-Symphony-No5_fma-116584_001_00-00-00.mp3",
+            "id": "fma-116584",
             "title": "Allegro Can Bro (Beethoven Symphony No.5)",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-116584/"
+            "url": "/items/loc-fma/fma-116584/",
+            "clips": [
+                {
+                    "filename": "Allegro-Can-Bro-Beethoven-Symphony-No5_fma-116584_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Ambiant-Point-Of-No-Return_fma-155586_001_00-01-06.mp3",
+            "id": "fma-155586",
             "title": "Ambiant Point Of No Return",
-            "timestamp": "01:06",
-            "url": "/items/loc-fma/fma-155586/"
+            "url": "/items/loc-fma/fma-155586/",
+            "clips": [
+                {
+                    "filename": "Ambiant-Point-Of-No-Return_fma-155586_001_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                }
+            ]
         },
         {
-            "filename": "Ancient-Heavy-Tech-Donjon_fma-158398_001_00-01-33.mp3",
+            "id": "fma-158398",
             "title": "Ancient Heavy Tech Donjon",
-            "timestamp": "01:33",
-            "url": "/items/loc-fma/fma-158398/"
+            "url": "/items/loc-fma/fma-158398/",
+            "clips": [
+                {
+                    "filename": "Ancient-Heavy-Tech-Donjon_fma-158398_001_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                }
+            ]
         },
         {
-            "filename": "Ancient-Heavy-Tech-Donjon_fma-161691_001_00-01-33.mp3",
+            "id": "fma-161691",
             "title": "Ancient Heavy Tech Donjon",
-            "timestamp": "01:33",
-            "url": "/items/loc-fma/fma-161691/"
+            "url": "/items/loc-fma/fma-161691/",
+            "clips": [
+                {
+                    "filename": "Ancient-Heavy-Tech-Donjon_fma-161691_001_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                }
+            ]
         },
         {
-            "filename": "Asturiass-Hole_fma-157343_001_00-02-17.mp3",
+            "id": "fma-157343",
             "title": "Asturiass Hole",
-            "timestamp": "02:17",
-            "url": "/items/loc-fma/fma-157343/"
+            "url": "/items/loc-fma/fma-157343/",
+            "clips": [
+                {
+                    "filename": "Asturiass-Hole_fma-157343_001_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                }
+            ]
         },
         {
-            "filename": "Bad-Guys-HQ_fma-165235_001_00-01-10.mp3",
+            "id": "fma-165235",
             "title": "Bad Guys HQ",
-            "timestamp": "01:10",
-            "url": "/items/loc-fma/fma-165235/"
+            "url": "/items/loc-fma/fma-165235/",
+            "clips": [
+                {
+                    "filename": "Bad-Guys-HQ_fma-165235_001_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                }
+            ]
         },
         {
-            "filename": "Beach_fma-178536_001_00-00-17.mp3",
+            "id": "fma-178536",
             "title": "Beach",
-            "timestamp": "00:17",
-            "url": "/items/loc-fma/fma-178536/"
+            "url": "/items/loc-fma/fma-178536/",
+            "clips": [
+                {
+                    "filename": "Beach_fma-178536_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                }
+            ]
         },
         {
-            "filename": "Belano_fma-151412_001_00-00-45.mp3",
+            "id": "fma-151412",
             "title": "Belano",
-            "timestamp": "00:45",
-            "url": "/items/loc-fma/fma-151412/"
+            "url": "/items/loc-fma/fma-151412/",
+            "clips": [
+                {
+                    "filename": "Belano_fma-151412_001_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "Belano_fma-151412_002_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                }
+            ]
         },
         {
-            "filename": "Belano_fma-151412_002_00-01-45.mp3",
-            "title": "Belano",
-            "timestamp": "01:45",
-            "url": "/items/loc-fma/fma-151412/"
-        },
-        {
-            "filename": "Bleu-Matinal_fma-156848_001_00-02-34.mp3",
+            "id": "fma-156848",
             "title": "Bleu Matinal",
-            "timestamp": "02:34",
-            "url": "/items/loc-fma/fma-156848/"
+            "url": "/items/loc-fma/fma-156848/",
+            "clips": [
+                {
+                    "filename": "Bleu-Matinal_fma-156848_001_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                },
+                {
+                    "filename": "Bleu-Matinal_fma-156848_002_00-03-04",
+                    "timeStamp": "03:04",
+                    "start": 185000
+                },
+                {
+                    "filename": "Bleu-Matinal_fma-156848_003_00-03-34",
+                    "timeStamp": "03:34",
+                    "start": 215000
+                }
+            ]
         },
         {
-            "filename": "Bleu-Matinal_fma-156848_002_00-03-04.mp3",
-            "title": "Bleu Matinal",
-            "timestamp": "03:04",
-            "url": "/items/loc-fma/fma-156848/"
-        },
-        {
-            "filename": "Bleu-Matinal_fma-156848_003_00-03-34.mp3",
-            "title": "Bleu Matinal",
-            "timestamp": "03:34",
-            "url": "/items/loc-fma/fma-156848/"
-        },
-        {
-            "filename": "Castle-in-the-cloud_fma-174212_001_00-00-00.mp3",
+            "id": "fma-174212",
             "title": "Castle in the cloud",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-174212/"
+            "url": "/items/loc-fma/fma-174212/",
+            "clips": [
+                {
+                    "filename": "Castle-in-the-cloud_fma-174212_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Castle-in-the-cloud_fma-174212_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Castle-in-the-cloud_fma-174212_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                }
+            ]
         },
         {
-            "filename": "Castle-in-the-cloud_fma-174212_002_00-00-30.mp3",
-            "title": "Castle in the cloud",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-174212/"
-        },
-        {
-            "filename": "Castle-in-the-cloud_fma-174212_003_00-01-00.mp3",
-            "title": "Castle in the cloud",
-            "timestamp": "01:00",
-            "url": "/items/loc-fma/fma-174212/"
-        },
-        {
-            "filename": "Childhood-scene_fma-153138_001_00-01-18.mp3",
+            "id": "fma-153138",
             "title": "Childhood scene",
-            "timestamp": "01:18",
-            "url": "/items/loc-fma/fma-153138/"
+            "url": "/items/loc-fma/fma-153138/",
+            "clips": [
+                {
+                    "filename": "Childhood-scene_fma-153138_001_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                }
+            ]
         },
         {
-            "filename": "Chillin-Poupi_fma-169768_001_00-00-27.mp3",
+            "id": "fma-169768",
             "title": "Chillin' Poupi",
-            "timestamp": "00:27",
-            "url": "/items/loc-fma/fma-169768/"
+            "url": "/items/loc-fma/fma-169768/",
+            "clips": [
+                {
+                    "filename": "Chillin-Poupi_fma-169768_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "Chillin-Poupi_fma-169768_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                }
+            ]
         },
         {
-            "filename": "Chillin-Poupi_fma-169768_002_00-00-31.mp3",
-            "title": "Chillin' Poupi",
-            "timestamp": "00:31",
-            "url": "/items/loc-fma/fma-169768/"
-        },
-        {
-            "filename": "Chocolate-Valley_fma-169769_001_00-01-05.mp3",
+            "id": "fma-169769",
             "title": "Chocolate Valley",
-            "timestamp": "01:05",
-            "url": "/items/loc-fma/fma-169769/"
+            "url": "/items/loc-fma/fma-169769/",
+            "clips": [
+                {
+                    "filename": "Chocolate-Valley_fma-169769_001_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                }
+            ]
         },
         {
-            "filename": "Christmas-lights_fma-182248_001_00-00-00.mp3",
+            "id": "fma-182248",
             "title": "Christmas lights",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-182248/"
+            "url": "/items/loc-fma/fma-182248/",
+            "clips": [
+                {
+                    "filename": "Christmas-lights_fma-182248_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Christmas-lights_fma-182248_002_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                }
+            ]
         },
         {
-            "filename": "Christmas-lights_fma-182248_002_00-00-42.mp3",
-            "title": "Christmas lights",
-            "timestamp": "00:42",
-            "url": "/items/loc-fma/fma-182248/"
-        },
-        {
-            "filename": "City_fma-174834_001_00-01-41.mp3",
+            "id": "fma-174834",
             "title": "City",
-            "timestamp": "01:41",
-            "url": "/items/loc-fma/fma-174834/"
+            "url": "/items/loc-fma/fma-174834/",
+            "clips": [
+                {
+                    "filename": "City_fma-174834_001_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                }
+            ]
         },
         {
-            "filename": "Clavier-1_fma-182140_001_00-00-17.mp3",
+            "id": "fma-182140",
             "title": "Clavier 1",
-            "timestamp": "00:17",
-            "url": "/items/loc-fma/fma-182140/"
+            "url": "/items/loc-fma/fma-182140/",
+            "clips": [
+                {
+                    "filename": "Clavier-1_fma-182140_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                }
+            ]
         },
         {
-            "filename": "Creation-is-like-that_fma-156729_001_00-00-00.mp3",
+            "id": "fma-156729",
             "title": "Creation is like that",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-156729/"
+            "url": "/items/loc-fma/fma-156729/",
+            "clips": [
+                {
+                    "filename": "Creation-is-like-that_fma-156729_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Creation-is-like-that_fma-156729_002_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                },
+                {
+                    "filename": "Creation-is-like-that_fma-156729_003_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                }
+            ]
         },
         {
-            "filename": "Creation-is-like-that_fma-156729_002_00-00-47.mp3",
-            "title": "Creation is like that",
-            "timestamp": "00:47",
-            "url": "/items/loc-fma/fma-156729/"
-        },
-        {
-            "filename": "Creation-is-like-that_fma-156729_003_00-01-18.mp3",
-            "title": "Creation is like that",
-            "timestamp": "01:18",
-            "url": "/items/loc-fma/fma-156729/"
-        },
-        {
-            "filename": "Dans-Dumbledore_fma-158484_001_00-00-33.mp3",
+            "id": "fma-158484",
             "title": "Dans Dumbledore",
-            "timestamp": "00:33",
-            "url": "/items/loc-fma/fma-158484/"
+            "url": "/items/loc-fma/fma-158484/",
+            "clips": [
+                {
+                    "filename": "Dans-Dumbledore_fma-158484_001_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                }
+            ]
         },
         {
-            "filename": "Dans-lascenseur_fma-157781_001_00-00-03.mp3",
+            "id": "fma-157781",
             "title": "Dans l'ascenseur",
-            "timestamp": "00:03",
-            "url": "/items/loc-fma/fma-157781/"
+            "url": "/items/loc-fma/fma-157781/",
+            "clips": [
+                {
+                    "filename": "Dans-lascenseur_fma-157781_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Dans-lascenseur_fma-157781_002_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                }
+            ]
         },
         {
-            "filename": "Dans-lascenseur_fma-157781_002_00-02-03.mp3",
-            "title": "Dans l'ascenseur",
-            "timestamp": "02:03",
-            "url": "/items/loc-fma/fma-157781/"
-        },
-        {
-            "filename": "Dans-la-chambre-dHenri_fma-178770_001_00-00-46.mp3",
+            "id": "fma-178770",
             "title": "Dans la chambre d'Henri",
-            "timestamp": "00:46",
-            "url": "/items/loc-fma/fma-178770/"
+            "url": "/items/loc-fma/fma-178770/",
+            "clips": [
+                {
+                    "filename": "Dans-la-chambre-dHenri_fma-178770_001_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                },
+                {
+                    "filename": "Dans-la-chambre-dHenri_fma-178770_002_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Dans-la-chambre-dHenri_fma-178770_003_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                },
+                {
+                    "filename": "Dans-la-chambre-dHenri_fma-178770_004_00-02-47",
+                    "timeStamp": "02:47",
+                    "start": 168000
+                }
+            ]
         },
         {
-            "filename": "Dans-la-chambre-dHenri_fma-178770_002_00-01-16.mp3",
-            "title": "Dans la chambre d'Henri",
-            "timestamp": "01:16",
-            "url": "/items/loc-fma/fma-178770/"
-        },
-        {
-            "filename": "Dans-la-chambre-dHenri_fma-178770_003_00-02-17.mp3",
-            "title": "Dans la chambre d'Henri",
-            "timestamp": "02:17",
-            "url": "/items/loc-fma/fma-178770/"
-        },
-        {
-            "filename": "Dans-la-chambre-dHenri_fma-178770_004_00-02-47.mp3",
-            "title": "Dans la chambre d'Henri",
-            "timestamp": "02:47",
-            "url": "/items/loc-fma/fma-178770/"
-        },
-        {
-            "filename": "Dans-la-messe-sans-le-sang-du-christ_fma-178769_001_00-00-00.mp3",
+            "id": "fma-178769",
             "title": "Dans la messe sans le sang du christ",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-178769/"
+            "url": "/items/loc-fma/fma-178769/",
+            "clips": [
+                {
+                    "filename": "Dans-la-messe-sans-le-sang-du-christ_fma-178769_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Dans-la-messe-sans-le-sang-du-christ_fma-178769_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Dans-la-messe-sans-le-sang-du-christ_fma-178769_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                }
+            ]
         },
         {
-            "filename": "Dans-la-messe-sans-le-sang-du-christ_fma-178769_002_00-00-30.mp3",
-            "title": "Dans la messe sans le sang du christ",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-178769/"
-        },
-        {
-            "filename": "Dans-la-messe-sans-le-sang-du-christ_fma-178769_003_00-01-00.mp3",
-            "title": "Dans la messe sans le sang du christ",
-            "timestamp": "01:00",
-            "url": "/items/loc-fma/fma-178769/"
-        },
-        {
-            "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_001_00-00-01.mp3",
+            "id": "fma-178774",
             "title": "Dans la tristesse du regard de l'enfant qui a fait tomber sa glace par terre",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-178774/"
+            "url": "/items/loc-fma/fma-178774/",
+            "clips": [
+                {
+                    "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_002_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_003_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_004_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_005_00-01-58",
+                    "timeStamp": "01:58",
+                    "start": 119000
+                }
+            ]
         },
         {
-            "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_002_00-00-35.mp3",
-            "title": "Dans la tristesse du regard de l'enfant qui a fait tomber sa glace par terre",
-            "timestamp": "00:35",
-            "url": "/items/loc-fma/fma-178774/"
-        },
-        {
-            "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_003_00-01-05.mp3",
-            "title": "Dans la tristesse du regard de l'enfant qui a fait tomber sa glace par terre",
-            "timestamp": "01:05",
-            "url": "/items/loc-fma/fma-178774/"
-        },
-        {
-            "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_004_00-01-29.mp3",
-            "title": "Dans la tristesse du regard de l'enfant qui a fait tomber sa glace par terre",
-            "timestamp": "01:29",
-            "url": "/items/loc-fma/fma-178774/"
-        },
-        {
-            "filename": "Dans-la-tristesse-du-regard-de-lenfant-qui-a-fait-tomber-sa-glace-par-terre_fma-178774_005_00-01-58.mp3",
-            "title": "Dans la tristesse du regard de l'enfant qui a fait tomber sa glace par terre",
-            "timestamp": "01:58",
-            "url": "/items/loc-fma/fma-178774/"
-        },
-        {
-            "filename": "Dans-le-love_fma-158487_001_00-02-32.mp3",
+            "id": "fma-158487",
             "title": "Dans le love",
-            "timestamp": "02:32",
-            "url": "/items/loc-fma/fma-158487/"
+            "url": "/items/loc-fma/fma-158487/",
+            "clips": [
+                {
+                    "filename": "Dans-le-love_fma-158487_001_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Dans-le-love_fma-158487_002_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                }
+            ]
         },
         {
-            "filename": "Dans-le-love_fma-158487_002_00-03-02.mp3",
-            "title": "Dans le love",
-            "timestamp": "03:02",
-            "url": "/items/loc-fma/fma-158487/"
-        },
-        {
-            "filename": "Dans-les-dauphins-sur-la-plage_fma-157779_001_00-02-34.mp3",
+            "id": "fma-157779",
             "title": "Dans les dauphins sur la plage",
-            "timestamp": "02:34",
-            "url": "/items/loc-fma/fma-157779/"
+            "url": "/items/loc-fma/fma-157779/",
+            "clips": [
+                {
+                    "filename": "Dans-les-dauphins-sur-la-plage_fma-157779_001_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
         },
         {
-            "filename": "Dia_fma-170754_001_00-04-17.mp3",
+            "id": "fma-170754",
             "title": "Dia",
-            "timestamp": "04:17",
-            "url": "/items/loc-fma/fma-170754/"
+            "url": "/items/loc-fma/fma-170754/",
+            "clips": [
+                {
+                    "filename": "Dia_fma-170754_001_00-04-17",
+                    "timeStamp": "04:17",
+                    "start": 258000
+                }
+            ]
         },
         {
-            "filename": "Disco-Cat_fma-169734_001_00-00-30.mp3",
+            "id": "fma-169734",
             "title": "Disco Cat",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-169734/"
+            "url": "/items/loc-fma/fma-169734/",
+            "clips": [
+                {
+                    "filename": "Disco-Cat_fma-169734_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                }
+            ]
         },
         {
-            "filename": "Dreaming-of-you_fma-145627_001_00-00-01.mp3",
+            "id": "fma-145627",
             "title": "Dreaming of you",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-145627/"
+            "url": "/items/loc-fma/fma-145627/",
+            "clips": [
+                {
+                    "filename": "Dreaming-of-you_fma-145627_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                }
+            ]
         },
         {
-            "filename": "Every-myths-are-true-stories_fma-155163_001_00-00-40.mp3",
+            "id": "fma-155163",
             "title": "Every myths are true stories",
-            "timestamp": "00:40",
-            "url": "/items/loc-fma/fma-155163/"
+            "url": "/items/loc-fma/fma-155163/",
+            "clips": [
+                {
+                    "filename": "Every-myths-are-true-stories_fma-155163_001_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "Every-myths-are-true-stories_fma-155163_002_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "Every-myths-are-true-stories_fma-155163_003_00-02-53",
+                    "timeStamp": "02:53",
+                    "start": 174000
+                }
+            ]
         },
         {
-            "filename": "Every-myths-are-true-stories_fma-155163_002_00-02-27.mp3",
-            "title": "Every myths are true stories",
-            "timestamp": "02:27",
-            "url": "/items/loc-fma/fma-155163/"
-        },
-        {
-            "filename": "Every-myths-are-true-stories_fma-155163_003_00-02-53.mp3",
-            "title": "Every myths are true stories",
-            "timestamp": "02:53",
-            "url": "/items/loc-fma/fma-155163/"
-        },
-        {
-            "filename": "Fading-road_fma-174826_001_00-07-20.mp3",
+            "id": "fma-174826",
             "title": "Fading road",
-            "timestamp": "07:20",
-            "url": "/items/loc-fma/fma-174826/"
+            "url": "/items/loc-fma/fma-174826/",
+            "clips": [
+                {
+                    "filename": "Fading-road_fma-174826_001_00-07-20",
+                    "timeStamp": "07:20",
+                    "start": 441000
+                }
+            ]
         },
         {
-            "filename": "Father-Green_fma-175116_001_00-00-00.mp3",
+            "id": "fma-175116",
             "title": "Father Green",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-175116/"
+            "url": "/items/loc-fma/fma-175116/",
+            "clips": [
+                {
+                    "filename": "Father-Green_fma-175116_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Fleurs-qui-se-dandinent-dans-les-petits-animaux_fma-164995_001_00-00-06.mp3",
+            "id": "fma-164995",
             "title": "Fleurs qui se dandinent dans les petits animaux",
-            "timestamp": "00:06",
-            "url": "/items/loc-fma/fma-164995/"
+            "url": "/items/loc-fma/fma-164995/",
+            "clips": [
+                {
+                    "filename": "Fleurs-qui-se-dandinent-dans-les-petits-animaux_fma-164995_001_00-00-06",
+                    "timeStamp": "00:06",
+                    "start": 7000
+                },
+                {
+                    "filename": "Fleurs-qui-se-dandinent-dans-les-petits-animaux_fma-164995_002_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                },
+                {
+                    "filename": "Fleurs-qui-se-dandinent-dans-les-petits-animaux_fma-164995_003_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
         },
         {
-            "filename": "Fleurs-qui-se-dandinent-dans-les-petits-animaux_fma-164995_002_00-00-21.mp3",
-            "title": "Fleurs qui se dandinent dans les petits animaux",
-            "timestamp": "00:21",
-            "url": "/items/loc-fma/fma-164995/"
-        },
-        {
-            "filename": "Fleurs-qui-se-dandinent-dans-les-petits-animaux_fma-164995_003_00-02-00.mp3",
-            "title": "Fleurs qui se dandinent dans les petits animaux",
-            "timestamp": "02:00",
-            "url": "/items/loc-fma/fma-164995/"
-        },
-        {
-            "filename": "Forgotten_fma-166066_001_00-01-03.mp3",
+            "id": "fma-166066",
             "title": "Forgotten",
-            "timestamp": "01:03",
-            "url": "/items/loc-fma/fma-166066/"
+            "url": "/items/loc-fma/fma-166066/",
+            "clips": [
+                {
+                    "filename": "Forgotten_fma-166066_001_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                }
+            ]
         },
         {
-            "filename": "Free-To-Use-13_fma-152622_001_00-00-02.mp3",
+            "id": "fma-152622",
             "title": "Free To Use 13",
-            "timestamp": "00:02",
-            "url": "/items/loc-fma/fma-152622/"
+            "url": "/items/loc-fma/fma-152622/",
+            "clips": [
+                {
+                    "filename": "Free-To-Use-13_fma-152622_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Free-To-Use-13_fma-152622_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Free-To-Use-13_fma-152622_003_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Free-To-Use-13_fma-152622_004_00-02-55",
+                    "timeStamp": "02:55",
+                    "start": 176000
+                }
+            ]
         },
         {
-            "filename": "Free-To-Use-13_fma-152622_002_00-00-32.mp3",
-            "title": "Free To Use 13",
-            "timestamp": "00:32",
-            "url": "/items/loc-fma/fma-152622/"
-        },
-        {
-            "filename": "Free-To-Use-13_fma-152622_003_00-01-32.mp3",
-            "title": "Free To Use 13",
-            "timestamp": "01:32",
-            "url": "/items/loc-fma/fma-152622/"
-        },
-        {
-            "filename": "Free-To-Use-13_fma-152622_004_00-02-55.mp3",
-            "title": "Free To Use 13",
-            "timestamp": "02:55",
-            "url": "/items/loc-fma/fma-152622/"
-        },
-        {
-            "filename": "Free-To-Use-9_fma-152618_001_00-01-54.mp3",
+            "id": "fma-152618",
             "title": "Free To Use 9",
-            "timestamp": "01:54",
-            "url": "/items/loc-fma/fma-152618/"
+            "url": "/items/loc-fma/fma-152618/",
+            "clips": [
+                {
+                    "filename": "Free-To-Use-9_fma-152618_001_00-01-54",
+                    "timeStamp": "01:54",
+                    "start": 115000
+                },
+                {
+                    "filename": "Free-To-Use-9_fma-152618_002_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                }
+            ]
         },
         {
-            "filename": "Free-To-Use-9_fma-152618_002_00-02-24.mp3",
-            "title": "Free To Use 9",
-            "timestamp": "02:24",
-            "url": "/items/loc-fma/fma-152618/"
-        },
-        {
-            "filename": "Frog-In-The-Well_fma-39182_001_00-00-06.mp3",
+            "id": "fma-39182",
             "title": "Frog In The Well",
-            "timestamp": "00:06",
-            "url": "/items/loc-fma/fma-39182/"
+            "url": "/items/loc-fma/fma-39182/",
+            "clips": [
+                {
+                    "filename": "Frog-In-The-Well_fma-39182_001_00-00-06",
+                    "timeStamp": "00:06",
+                    "start": 7000
+                },
+                {
+                    "filename": "Frog-In-The-Well_fma-39182_002_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                }
+            ]
         },
         {
-            "filename": "Frog-In-The-Well_fma-39182_002_00-00-37.mp3",
-            "title": "Frog In The Well",
-            "timestamp": "00:37",
-            "url": "/items/loc-fma/fma-39182/"
-        },
-        {
-            "filename": "Frozen-Jungle_fma-145626_001_00-00-17.mp3",
+            "id": "fma-145626",
             "title": "Frozen Jungle",
-            "timestamp": "00:17",
-            "url": "/items/loc-fma/fma-145626/"
+            "url": "/items/loc-fma/fma-145626/",
+            "clips": [
+                {
+                    "filename": "Frozen-Jungle_fma-145626_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                },
+                {
+                    "filename": "Frozen-Jungle_fma-145626_002_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Frozen-Jungle_fma-145626_003_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                },
+                {
+                    "filename": "Frozen-Jungle_fma-145626_004_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Frozen-Jungle_fma-145626_005_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Frozen-Jungle_fma-145626_006_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                }
+            ]
         },
         {
-            "filename": "Frozen-Jungle_fma-145626_002_00-00-34.mp3",
-            "title": "Frozen Jungle",
-            "timestamp": "00:34",
-            "url": "/items/loc-fma/fma-145626/"
-        },
-        {
-            "filename": "Frozen-Jungle_fma-145626_003_00-01-25.mp3",
-            "title": "Frozen Jungle",
-            "timestamp": "01:25",
-            "url": "/items/loc-fma/fma-145626/"
-        },
-        {
-            "filename": "Frozen-Jungle_fma-145626_004_00-02-02.mp3",
-            "title": "Frozen Jungle",
-            "timestamp": "02:02",
-            "url": "/items/loc-fma/fma-145626/"
-        },
-        {
-            "filename": "Frozen-Jungle_fma-145626_005_00-02-09.mp3",
-            "title": "Frozen Jungle",
-            "timestamp": "02:09",
-            "url": "/items/loc-fma/fma-145626/"
-        },
-        {
-            "filename": "Frozen-Jungle_fma-145626_006_00-02-19.mp3",
-            "title": "Frozen Jungle",
-            "timestamp": "02:19",
-            "url": "/items/loc-fma/fma-145626/"
-        },
-        {
-            "filename": "Ghosts_fma-166071_001_00-02-01.mp3",
+            "id": "fma-166071",
             "title": "Ghosts",
-            "timestamp": "02:01",
-            "url": "/items/loc-fma/fma-166071/"
+            "url": "/items/loc-fma/fma-166071/",
+            "clips": [
+                {
+                    "filename": "Ghosts_fma-166071_001_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                }
+            ]
         },
         {
-            "filename": "Gnome--PromenadePictures-at-an-ExhibitionMussorgsky_fma-117298_001_00-01-04.mp3",
+            "id": "fma-117298",
             "title": "Gnome & Promenade/Pictures at an Exhibition/Mussorgsky",
-            "timestamp": "01:04",
-            "url": "/items/loc-fma/fma-117298/"
+            "url": "/items/loc-fma/fma-117298/",
+            "clips": [
+                {
+                    "filename": "Gnome--PromenadePictures-at-an-ExhibitionMussorgsky_fma-117298_001_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Gnome--PromenadePictures-at-an-ExhibitionMussorgsky_fma-117298_002_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                }
+            ]
         },
         {
-            "filename": "Gnome--PromenadePictures-at-an-ExhibitionMussorgsky_fma-117298_002_00-01-34.mp3",
-            "title": "Gnome & Promenade/Pictures at an Exhibition/Mussorgsky",
-            "timestamp": "01:34",
-            "url": "/items/loc-fma/fma-117298/"
-        },
-        {
-            "filename": "Guitare-2_fma-182139_001_00-00-16.mp3",
+            "id": "fma-182139",
             "title": "Guitare 2",
-            "timestamp": "00:16",
-            "url": "/items/loc-fma/fma-182139/"
+            "url": "/items/loc-fma/fma-182139/",
+            "clips": [
+                {
+                    "filename": "Guitare-2_fma-182139_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                }
+            ]
         },
         {
-            "filename": "Hand-Pain_fma-163404_001_00-00-18.mp3",
+            "id": "fma-163404",
             "title": "Hand Pain",
-            "timestamp": "00:18",
-            "url": "/items/loc-fma/fma-163404/"
+            "url": "/items/loc-fma/fma-163404/",
+            "clips": [
+                {
+                    "filename": "Hand-Pain_fma-163404_001_00-00-18",
+                    "timeStamp": "00:18",
+                    "start": 19000
+                },
+                {
+                    "filename": "Hand-Pain_fma-163404_002_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "Hand-Pain_fma-163404_003_00-01-19",
+                    "timeStamp": "01:19",
+                    "start": 80000
+                },
+                {
+                    "filename": "Hand-Pain_fma-163404_004_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "Hand-Pain_fma-163404_005_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                }
+            ]
         },
         {
-            "filename": "Hand-Pain_fma-163404_002_00-00-48.mp3",
-            "title": "Hand Pain",
-            "timestamp": "00:48",
-            "url": "/items/loc-fma/fma-163404/"
-        },
-        {
-            "filename": "Hand-Pain_fma-163404_003_00-01-19.mp3",
-            "title": "Hand Pain",
-            "timestamp": "01:19",
-            "url": "/items/loc-fma/fma-163404/"
-        },
-        {
-            "filename": "Hand-Pain_fma-163404_004_00-01-50.mp3",
-            "title": "Hand Pain",
-            "timestamp": "01:50",
-            "url": "/items/loc-fma/fma-163404/"
-        },
-        {
-            "filename": "Hand-Pain_fma-163404_005_00-02-21.mp3",
-            "title": "Hand Pain",
-            "timestamp": "02:21",
-            "url": "/items/loc-fma/fma-163404/"
-        },
-        {
-            "filename": "Heimito_fma-151435_001_00-03-04.mp3",
+            "id": "fma-151435",
             "title": "Heimito",
-            "timestamp": "03:04",
-            "url": "/items/loc-fma/fma-151435/"
+            "url": "/items/loc-fma/fma-151435/",
+            "clips": [
+                {
+                    "filename": "Heimito_fma-151435_001_00-03-04",
+                    "timeStamp": "03:04",
+                    "start": 185000
+                }
+            ]
         },
         {
-            "filename": "Home_fma-178534_001_00-00-00.mp3",
+            "id": "fma-178534",
             "title": "Home",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-178534/"
+            "url": "/items/loc-fma/fma-178534/",
+            "clips": [
+                {
+                    "filename": "Home_fma-178534_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Home_fma-178534_002_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                },
+                {
+                    "filename": "Home_fma-178534_003_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Home_fma-178534_004_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                }
+            ]
         },
         {
-            "filename": "Home_fma-178534_002_00-00-05.mp3",
-            "title": "Home",
-            "timestamp": "00:05",
-            "url": "/items/loc-fma/fma-178534/"
-        },
-        {
-            "filename": "Home_fma-178534_003_00-00-36.mp3",
-            "title": "Home",
-            "timestamp": "00:36",
-            "url": "/items/loc-fma/fma-178534/"
-        },
-        {
-            "filename": "Home_fma-178534_004_00-00-45.mp3",
-            "title": "Home",
-            "timestamp": "00:45",
-            "url": "/items/loc-fma/fma-178534/"
-        },
-        {
-            "filename": "How-to-evade-a-place-with-no-wall_fma-153142_001_00-00-03.mp3",
+            "id": "fma-153142",
             "title": "How to evade a place with no wall",
-            "timestamp": "00:03",
-            "url": "/items/loc-fma/fma-153142/"
+            "url": "/items/loc-fma/fma-153142/",
+            "clips": [
+                {
+                    "filename": "How-to-evade-a-place-with-no-wall_fma-153142_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "How-to-evade-a-place-with-no-wall_fma-153142_002_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                }
+            ]
         },
         {
-            "filename": "How-to-evade-a-place-with-no-wall_fma-153142_002_00-00-19.mp3",
-            "title": "How to evade a place with no wall",
-            "timestamp": "00:19",
-            "url": "/items/loc-fma/fma-153142/"
-        },
-        {
-            "filename": "I-need-a-heroc-figure-main-character-theme_fma-158401_001_00-02-49.mp3",
+            "id": "fma-158401",
             "title": "I need a hero\u00efc figure (main character theme)",
-            "timestamp": "02:49",
-            "url": "/items/loc-fma/fma-158401/"
+            "url": "/items/loc-fma/fma-158401/",
+            "clips": [
+                {
+                    "filename": "I-need-a-heroc-figure-main-character-theme_fma-158401_001_00-02-49",
+                    "timeStamp": "02:49",
+                    "start": 170000
+                }
+            ]
         },
         {
-            "filename": "IM-A-WATERMELON_fma-162430_001_00-00-53.mp3",
+            "id": "fma-162430",
             "title": "I'M A WATERMELON",
-            "timestamp": "00:53",
-            "url": "/items/loc-fma/fma-162430/"
+            "url": "/items/loc-fma/fma-162430/",
+            "clips": [
+                {
+                    "filename": "IM-A-WATERMELON_fma-162430_001_00-00-53",
+                    "timeStamp": "00:53",
+                    "start": 54000
+                }
+            ]
         },
         {
-            "filename": "Ice-Cream-with-you_fma-164281_001_00-00-00.mp3",
+            "id": "fma-164281",
             "title": "Ice Cream with you",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-164281/"
+            "url": "/items/loc-fma/fma-164281/",
+            "clips": [
+                {
+                    "filename": "Ice-Cream-with-you_fma-164281_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Ice-Cream-with-you_fma-164281_002_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "Ice-Cream-with-you_fma-164281_003_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "Ice-Cream-with-you_fma-164281_004_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Ice-Cream-with-you_fma-164281_005_00-02-26",
+                    "timeStamp": "02:26",
+                    "start": 147000
+                }
+            ]
         },
         {
-            "filename": "Ice-Cream-with-you_fma-164281_002_00-00-12.mp3",
-            "title": "Ice Cream with you",
-            "timestamp": "00:12",
-            "url": "/items/loc-fma/fma-164281/"
-        },
-        {
-            "filename": "Ice-Cream-with-you_fma-164281_003_00-01-03.mp3",
-            "title": "Ice Cream with you",
-            "timestamp": "01:03",
-            "url": "/items/loc-fma/fma-164281/"
-        },
-        {
-            "filename": "Ice-Cream-with-you_fma-164281_004_00-01-35.mp3",
-            "title": "Ice Cream with you",
-            "timestamp": "01:35",
-            "url": "/items/loc-fma/fma-164281/"
-        },
-        {
-            "filename": "Ice-Cream-with-you_fma-164281_005_00-02-26.mp3",
-            "title": "Ice Cream with you",
-            "timestamp": "02:26",
-            "url": "/items/loc-fma/fma-164281/"
-        },
-        {
-            "filename": "Ils-apparaissaient-la-nuit_fma-159854_001_00-03-21.mp3",
+            "id": "fma-159854",
             "title": "Ils apparaissaient la nuit",
-            "timestamp": "03:21",
-            "url": "/items/loc-fma/fma-159854/"
+            "url": "/items/loc-fma/fma-159854/",
+            "clips": [
+                {
+                    "filename": "Ils-apparaissaient-la-nuit_fma-159854_001_00-03-21",
+                    "timeStamp": "03:21",
+                    "start": 202000
+                },
+                {
+                    "filename": "Ils-apparaissaient-la-nuit_fma-159854_002_00-03-51",
+                    "timeStamp": "03:51",
+                    "start": 232000
+                },
+                {
+                    "filename": "Ils-apparaissaient-la-nuit_fma-159854_003_00-04-22",
+                    "timeStamp": "04:22",
+                    "start": 263000
+                },
+                {
+                    "filename": "Ils-apparaissaient-la-nuit_fma-159854_004_00-04-52",
+                    "timeStamp": "04:52",
+                    "start": 293000
+                }
+            ]
         },
         {
-            "filename": "Ils-apparaissaient-la-nuit_fma-159854_002_00-03-51.mp3",
-            "title": "Ils apparaissaient la nuit",
-            "timestamp": "03:51",
-            "url": "/items/loc-fma/fma-159854/"
-        },
-        {
-            "filename": "Ils-apparaissaient-la-nuit_fma-159854_003_00-04-22.mp3",
-            "title": "Ils apparaissaient la nuit",
-            "timestamp": "04:22",
-            "url": "/items/loc-fma/fma-159854/"
-        },
-        {
-            "filename": "Ils-apparaissaient-la-nuit_fma-159854_004_00-04-52.mp3",
-            "title": "Ils apparaissaient la nuit",
-            "timestamp": "04:52",
-            "url": "/items/loc-fma/fma-159854/"
-        },
-        {
-            "filename": "Insideoutworld_fma-174894_001_00-04-54.mp3",
+            "id": "fma-174894",
             "title": "Insideoutworld",
-            "timestamp": "04:54",
-            "url": "/items/loc-fma/fma-174894/"
+            "url": "/items/loc-fma/fma-174894/",
+            "clips": [
+                {
+                    "filename": "Insideoutworld_fma-174894_001_00-04-54",
+                    "timeStamp": "04:54",
+                    "start": 295000
+                },
+                {
+                    "filename": "Insideoutworld_fma-174894_002_00-08-08",
+                    "timeStamp": "08:08",
+                    "start": 489000
+                },
+                {
+                    "filename": "Insideoutworld_fma-174894_003_00-08-41",
+                    "timeStamp": "08:41",
+                    "start": 522000
+                }
+            ]
         },
         {
-            "filename": "Insideoutworld_fma-174894_002_00-08-08.mp3",
-            "title": "Insideoutworld",
-            "timestamp": "08:08",
-            "url": "/items/loc-fma/fma-174894/"
-        },
-        {
-            "filename": "Insideoutworld_fma-174894_003_00-08-41.mp3",
-            "title": "Insideoutworld",
-            "timestamp": "08:41",
-            "url": "/items/loc-fma/fma-174894/"
-        },
-        {
-            "filename": "Interview-in-a-pub_fma-163724_001_00-00-36.mp3",
+            "id": "fma-163724",
             "title": "Interview in a pub",
-            "timestamp": "00:36",
-            "url": "/items/loc-fma/fma-163724/"
+            "url": "/items/loc-fma/fma-163724/",
+            "clips": [
+                {
+                    "filename": "Interview-in-a-pub_fma-163724_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Interview-in-a-pub_fma-163724_002_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                }
+            ]
         },
         {
-            "filename": "Interview-in-a-pub_fma-163724_002_00-01-28.mp3",
-            "title": "Interview in a pub",
-            "timestamp": "01:28",
-            "url": "/items/loc-fma/fma-163724/"
-        },
-        {
-            "filename": "Invention-No-8-Collage-Sans-Gloves-Latex-Gloves-Thin-Gloves-Ski-Gloves-Mittens-Boxing-Gloves_fma-116204_001_00-00-25.mp3",
+            "id": "fma-116204",
             "title": "Invention No. 8 Collage - Sans Gloves, Latex Gloves, Thin Gloves, Ski Gloves, Mittens, Boxing Gloves",
-            "timestamp": "00:25",
-            "url": "/items/loc-fma/fma-116204/"
+            "url": "/items/loc-fma/fma-116204/",
+            "clips": [
+                {
+                    "filename": "Invention-No-8-Collage-Sans-Gloves-Latex-Gloves-Thin-Gloves-Ski-Gloves-Mittens-Boxing-Gloves_fma-116204_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                }
+            ]
         },
         {
-            "filename": "Inversions-Part-1_fma-174637_001_00-00-00.mp3",
+            "id": "fma-174637",
             "title": "Inversions - Part 1",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-174637/"
+            "url": "/items/loc-fma/fma-174637/",
+            "clips": [
+                {
+                    "filename": "Inversions-Part-1_fma-174637_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Inversions-Part-2_fma-174638_001_00-00-00.mp3",
+            "id": "fma-174638",
             "title": "Inversions - Part 2",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-174638/"
+            "url": "/items/loc-fma/fma-174638/",
+            "clips": [
+                {
+                    "filename": "Inversions-Part-2_fma-174638_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Inversions-Part-2_fma-174638_002_00-13-45",
+                    "timeStamp": "13:45",
+                    "start": 826000
+                },
+                {
+                    "filename": "Inversions-Part-2_fma-174638_003_00-14-19",
+                    "timeStamp": "14:19",
+                    "start": 860000
+                },
+                {
+                    "filename": "Inversions-Part-2_fma-174638_004_00-14-25",
+                    "timeStamp": "14:25",
+                    "start": 866000
+                },
+                {
+                    "filename": "Inversions-Part-2_fma-174638_005_00-14-56",
+                    "timeStamp": "14:56",
+                    "start": 897000
+                },
+                {
+                    "filename": "Inversions-Part-2_fma-174638_006_00-15-26",
+                    "timeStamp": "15:26",
+                    "start": 927000
+                },
+                {
+                    "filename": "Inversions-Part-2_fma-174638_007_00-15-56",
+                    "timeStamp": "15:56",
+                    "start": 957000
+                }
+            ]
         },
         {
-            "filename": "Inversions-Part-2_fma-174638_002_00-13-45.mp3",
-            "title": "Inversions - Part 2",
-            "timestamp": "13:45",
-            "url": "/items/loc-fma/fma-174638/"
-        },
-        {
-            "filename": "Inversions-Part-2_fma-174638_003_00-14-19.mp3",
-            "title": "Inversions - Part 2",
-            "timestamp": "14:19",
-            "url": "/items/loc-fma/fma-174638/"
-        },
-        {
-            "filename": "Inversions-Part-2_fma-174638_004_00-14-25.mp3",
-            "title": "Inversions - Part 2",
-            "timestamp": "14:25",
-            "url": "/items/loc-fma/fma-174638/"
-        },
-        {
-            "filename": "Inversions-Part-2_fma-174638_005_00-14-56.mp3",
-            "title": "Inversions - Part 2",
-            "timestamp": "14:56",
-            "url": "/items/loc-fma/fma-174638/"
-        },
-        {
-            "filename": "Inversions-Part-2_fma-174638_006_00-15-26.mp3",
-            "title": "Inversions - Part 2",
-            "timestamp": "15:26",
-            "url": "/items/loc-fma/fma-174638/"
-        },
-        {
-            "filename": "Inversions-Part-2_fma-174638_007_00-15-56.mp3",
-            "title": "Inversions - Part 2",
-            "timestamp": "15:56",
-            "url": "/items/loc-fma/fma-174638/"
-        },
-        {
-            "filename": "Iyanetha_fma-180708_001_00-02-31.mp3",
+            "id": "fma-180708",
             "title": "Iyanetha",
-            "timestamp": "02:31",
-            "url": "/items/loc-fma/fma-180708/"
+            "url": "/items/loc-fma/fma-180708/",
+            "clips": [
+                {
+                    "filename": "Iyanetha_fma-180708_001_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                }
+            ]
         },
         {
-            "filename": "Jenifer-The-Game_fma-169746_001_00-00-30.mp3",
+            "id": "fma-169746",
             "title": "Jenifer The Game",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-169746/"
+            "url": "/items/loc-fma/fma-169746/",
+            "clips": [
+                {
+                    "filename": "Jenifer-The-Game_fma-169746_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                }
+            ]
         },
         {
-            "filename": "Kyle-of-Durness_fma-175350_001_00-01-00.mp3",
+            "id": "fma-175350",
             "title": "Kyle of Durness",
-            "timestamp": "01:00",
-            "url": "/items/loc-fma/fma-175350/"
+            "url": "/items/loc-fma/fma-175350/",
+            "clips": [
+                {
+                    "filename": "Kyle-of-Durness_fma-175350_001_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Kyle-of-Durness_fma-175350_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Kyle-of-Durness_fma-175350_003_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
         },
         {
-            "filename": "Kyle-of-Durness_fma-175350_002_00-01-30.mp3",
-            "title": "Kyle of Durness",
-            "timestamp": "01:30",
-            "url": "/items/loc-fma/fma-175350/"
-        },
-        {
-            "filename": "Kyle-of-Durness_fma-175350_003_00-02-00.mp3",
-            "title": "Kyle of Durness",
-            "timestamp": "02:00",
-            "url": "/items/loc-fma/fma-175350/"
-        },
-        {
-            "filename": "La-crpe-du-chien_fma-164756_001_00-00-19.mp3",
+            "id": "fma-164756",
             "title": "La cr\u00eape du chien",
-            "timestamp": "00:19",
-            "url": "/items/loc-fma/fma-164756/"
+            "url": "/items/loc-fma/fma-164756/",
+            "clips": [
+                {
+                    "filename": "La-crpe-du-chien_fma-164756_001_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "La-crpe-du-chien_fma-164756_002_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                }
+            ]
         },
         {
-            "filename": "La-crpe-du-chien_fma-164756_002_00-00-35.mp3",
-            "title": "La cr\u00eape du chien",
-            "timestamp": "00:35",
-            "url": "/items/loc-fma/fma-164756/"
-        },
-        {
-            "filename": "La-cuillre-de-chagrin_fma-163495_001_00-05-27.mp3",
+            "id": "fma-163495",
             "title": "La cuill\u00e8re de chagrin",
-            "timestamp": "05:27",
-            "url": "/items/loc-fma/fma-163495/"
+            "url": "/items/loc-fma/fma-163495/",
+            "clips": [
+                {
+                    "filename": "La-cuillre-de-chagrin_fma-163495_001_00-05-27",
+                    "timeStamp": "05:27",
+                    "start": 328000
+                }
+            ]
         },
         {
-            "filename": "La-montagne_fma-140395_001_00-03-04.mp3",
+            "id": "fma-140395",
             "title": "La montagne",
-            "timestamp": "03:04",
-            "url": "/items/loc-fma/fma-140395/"
+            "url": "/items/loc-fma/fma-140395/",
+            "clips": [
+                {
+                    "filename": "La-montagne_fma-140395_001_00-03-04",
+                    "timeStamp": "03:04",
+                    "start": 185000
+                }
+            ]
         },
         {
-            "filename": "Land-of-comestible-people_fma-169767_001_00-01-27.mp3",
+            "id": "fma-169767",
             "title": "Land of comestible people",
-            "timestamp": "01:27",
-            "url": "/items/loc-fma/fma-169767/"
+            "url": "/items/loc-fma/fma-169767/",
+            "clips": [
+                {
+                    "filename": "Land-of-comestible-people_fma-169767_001_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "Land-of-comestible-people_fma-169767_002_00-02-10",
+                    "timeStamp": "02:10",
+                    "start": 131000
+                }
+            ]
         },
         {
-            "filename": "Land-of-comestible-people_fma-169767_002_00-02-10.mp3",
-            "title": "Land of comestible people",
-            "timestamp": "02:10",
-            "url": "/items/loc-fma/fma-169767/"
-        },
-        {
-            "filename": "Le-Convive-des-dernires-ftes_fma-163492_001_00-04-03.mp3",
+            "id": "fma-163492",
             "title": "Le Convive des derni\u00e8res f\u00eates",
-            "timestamp": "04:03",
-            "url": "/items/loc-fma/fma-163492/"
+            "url": "/items/loc-fma/fma-163492/",
+            "clips": [
+                {
+                    "filename": "Le-Convive-des-dernires-ftes_fma-163492_001_00-04-03",
+                    "timeStamp": "04:03",
+                    "start": 244000
+                }
+            ]
         },
         {
-            "filename": "Le-vent-et-laveugle_fma-161683_001_00-00-51.mp3",
+            "id": "fma-161683",
             "title": "Le vent et l'aveugle",
-            "timestamp": "00:51",
-            "url": "/items/loc-fma/fma-161683/"
+            "url": "/items/loc-fma/fma-161683/",
+            "clips": [
+                {
+                    "filename": "Le-vent-et-laveugle_fma-161683_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "Le-vent-et-laveugle_fma-161683_002_00-01-21",
+                    "timeStamp": "01:21",
+                    "start": 82000
+                },
+                {
+                    "filename": "Le-vent-et-laveugle_fma-161683_003_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                }
+            ]
         },
         {
-            "filename": "Le-vent-et-laveugle_fma-161683_002_00-01-21.mp3",
-            "title": "Le vent et l'aveugle",
-            "timestamp": "01:21",
-            "url": "/items/loc-fma/fma-161683/"
-        },
-        {
-            "filename": "Le-vent-et-laveugle_fma-161683_003_00-02-22.mp3",
-            "title": "Le vent et l'aveugle",
-            "timestamp": "02:22",
-            "url": "/items/loc-fma/fma-161683/"
-        },
-        {
-            "filename": "Le-vent-et-laveugle_fma-145864_001_00-00-21.mp3",
+            "id": "fma-145864",
             "title": "Le vent et l\u2019aveugle",
-            "timestamp": "00:21",
-            "url": "/items/loc-fma/fma-145864/"
+            "url": "/items/loc-fma/fma-145864/",
+            "clips": [
+                {
+                    "filename": "Le-vent-et-laveugle_fma-145864_001_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                },
+                {
+                    "filename": "Le-vent-et-laveugle_fma-145864_002_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "Le-vent-et-laveugle_fma-145864_003_00-01-21",
+                    "timeStamp": "01:21",
+                    "start": 82000
+                },
+                {
+                    "filename": "Le-vent-et-laveugle_fma-145864_004_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                }
+            ]
         },
         {
-            "filename": "Le-vent-et-laveugle_fma-145864_002_00-00-51.mp3",
-            "title": "Le vent et l\u2019aveugle",
-            "timestamp": "00:51",
-            "url": "/items/loc-fma/fma-145864/"
-        },
-        {
-            "filename": "Le-vent-et-laveugle_fma-145864_003_00-01-21.mp3",
-            "title": "Le vent et l\u2019aveugle",
-            "timestamp": "01:21",
-            "url": "/items/loc-fma/fma-145864/"
-        },
-        {
-            "filename": "Le-vent-et-laveugle_fma-145864_004_00-02-22.mp3",
-            "title": "Le vent et l\u2019aveugle",
-            "timestamp": "02:22",
-            "url": "/items/loc-fma/fma-145864/"
-        },
-        {
-            "filename": "Lima_fma-151421_001_00-03-05.mp3",
+            "id": "fma-151421",
             "title": "Lima",
-            "timestamp": "03:05",
-            "url": "/items/loc-fma/fma-151421/"
+            "url": "/items/loc-fma/fma-151421/",
+            "clips": [
+                {
+                    "filename": "Lima_fma-151421_001_00-03-05",
+                    "timeStamp": "03:05",
+                    "start": 186000
+                },
+                {
+                    "filename": "Lima_fma-151421_002_00-03-44",
+                    "timeStamp": "03:44",
+                    "start": 225000
+                },
+                {
+                    "filename": "Lima_fma-151421_003_00-04-00",
+                    "timeStamp": "04:00",
+                    "start": 241000
+                },
+                {
+                    "filename": "Lima_fma-151421_004_00-04-32",
+                    "timeStamp": "04:32",
+                    "start": 273000
+                }
+            ]
         },
         {
-            "filename": "Lima_fma-151421_002_00-03-44.mp3",
-            "title": "Lima",
-            "timestamp": "03:44",
-            "url": "/items/loc-fma/fma-151421/"
-        },
-        {
-            "filename": "Lima_fma-151421_003_00-04-00.mp3",
-            "title": "Lima",
-            "timestamp": "04:00",
-            "url": "/items/loc-fma/fma-151421/"
-        },
-        {
-            "filename": "Lima_fma-151421_004_00-04-32.mp3",
-            "title": "Lima",
-            "timestamp": "04:32",
-            "url": "/items/loc-fma/fma-151421/"
-        },
-        {
-            "filename": "Listening_fma-162970_001_00-00-13.mp3",
+            "id": "fma-162970",
             "title": "Listening",
-            "timestamp": "00:13",
-            "url": "/items/loc-fma/fma-162970/"
+            "url": "/items/loc-fma/fma-162970/",
+            "clips": [
+                {
+                    "filename": "Listening_fma-162970_001_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "Listening_fma-162970_002_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                },
+                {
+                    "filename": "Listening_fma-162970_003_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Listening_fma-162970_004_00-01-22",
+                    "timeStamp": "01:22",
+                    "start": 83000
+                },
+                {
+                    "filename": "Listening_fma-162970_005_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                }
+            ]
         },
         {
-            "filename": "Listening_fma-162970_002_00-00-41.mp3",
-            "title": "Listening",
-            "timestamp": "00:41",
-            "url": "/items/loc-fma/fma-162970/"
-        },
-        {
-            "filename": "Listening_fma-162970_003_00-01-04.mp3",
-            "title": "Listening",
-            "timestamp": "01:04",
-            "url": "/items/loc-fma/fma-162970/"
-        },
-        {
-            "filename": "Listening_fma-162970_004_00-01-22.mp3",
-            "title": "Listening",
-            "timestamp": "01:22",
-            "url": "/items/loc-fma/fma-162970/"
-        },
-        {
-            "filename": "Listening_fma-162970_005_00-01-35.mp3",
-            "title": "Listening",
-            "timestamp": "01:35",
-            "url": "/items/loc-fma/fma-162970/"
-        },
-        {
-            "filename": "Lost-in-the-city_fma-174215_001_00-00-00.mp3",
+            "id": "fma-174215",
             "title": "Lost in the city",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-174215/"
+            "url": "/items/loc-fma/fma-174215/",
+            "clips": [
+                {
+                    "filename": "Lost-in-the-city_fma-174215_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Love-Train_fma-164279_001_00-00-30.mp3",
+            "id": "fma-164279",
             "title": "Love Train",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-164279/"
+            "url": "/items/loc-fma/fma-164279/",
+            "clips": [
+                {
+                    "filename": "Love-Train_fma-164279_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Love-Train_fma-164279_002_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Love-Train_fma-164279_003_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
         },
         {
-            "filename": "Love-Train_fma-164279_002_00-01-00.mp3",
-            "title": "Love Train",
-            "timestamp": "01:00",
-            "url": "/items/loc-fma/fma-164279/"
-        },
-        {
-            "filename": "Love-Train_fma-164279_003_00-01-30.mp3",
-            "title": "Love Train",
-            "timestamp": "01:30",
-            "url": "/items/loc-fma/fma-164279/"
-        },
-        {
-            "filename": "Lupe_fma-151430_001_00-00-08.mp3",
+            "id": "fma-151430",
             "title": "Lupe",
-            "timestamp": "00:08",
-            "url": "/items/loc-fma/fma-151430/"
+            "url": "/items/loc-fma/fma-151430/",
+            "clips": [
+                {
+                    "filename": "Lupe_fma-151430_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "Lupe_fma-151430_002_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                },
+                {
+                    "filename": "Lupe_fma-151430_003_00-02-48",
+                    "timeStamp": "02:48",
+                    "start": 169000
+                },
+                {
+                    "filename": "Lupe_fma-151430_004_00-03-48",
+                    "timeStamp": "03:48",
+                    "start": 229000
+                }
+            ]
         },
         {
-            "filename": "Lupe_fma-151430_002_00-02-18.mp3",
+            "id": "fma-172605",
             "title": "Lupe",
-            "timestamp": "02:18",
-            "url": "/items/loc-fma/fma-151430/"
+            "url": "/items/loc-fma/fma-172605/",
+            "clips": [
+                {
+                    "filename": "Lupe_fma-172605_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "Lupe_fma-172605_002_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                },
+                {
+                    "filename": "Lupe_fma-172605_003_00-02-48",
+                    "timeStamp": "02:48",
+                    "start": 169000
+                },
+                {
+                    "filename": "Lupe_fma-172605_004_00-03-48",
+                    "timeStamp": "03:48",
+                    "start": 229000
+                }
+            ]
         },
         {
-            "filename": "Lupe_fma-151430_003_00-02-48.mp3",
-            "title": "Lupe",
-            "timestamp": "02:48",
-            "url": "/items/loc-fma/fma-151430/"
-        },
-        {
-            "filename": "Lupe_fma-151430_004_00-03-48.mp3",
-            "title": "Lupe",
-            "timestamp": "03:48",
-            "url": "/items/loc-fma/fma-151430/"
-        },
-        {
-            "filename": "Lupe_fma-172605_001_00-00-08.mp3",
-            "title": "Lupe",
-            "timestamp": "00:08",
-            "url": "/items/loc-fma/fma-172605/"
-        },
-        {
-            "filename": "Lupe_fma-172605_002_00-02-18.mp3",
-            "title": "Lupe",
-            "timestamp": "02:18",
-            "url": "/items/loc-fma/fma-172605/"
-        },
-        {
-            "filename": "Lupe_fma-172605_003_00-02-48.mp3",
-            "title": "Lupe",
-            "timestamp": "02:48",
-            "url": "/items/loc-fma/fma-172605/"
-        },
-        {
-            "filename": "Lupe_fma-172605_004_00-03-48.mp3",
-            "title": "Lupe",
-            "timestamp": "03:48",
-            "url": "/items/loc-fma/fma-172605/"
-        },
-        {
-            "filename": "Mall_fma-178535_001_00-00-39.mp3",
+            "id": "fma-178535",
             "title": "Mall",
-            "timestamp": "00:39",
-            "url": "/items/loc-fma/fma-178535/"
+            "url": "/items/loc-fma/fma-178535/",
+            "clips": [
+                {
+                    "filename": "Mall_fma-178535_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                }
+            ]
         },
         {
-            "filename": "Medusa_fma-161439_001_00-00-45.mp3",
+            "id": "fma-161439",
             "title": "Medusa",
-            "timestamp": "00:45",
-            "url": "/items/loc-fma/fma-161439/"
+            "url": "/items/loc-fma/fma-161439/",
+            "clips": [
+                {
+                    "filename": "Medusa_fma-161439_001_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                }
+            ]
         },
         {
-            "filename": "Mens-plsen-koger-While-the-Sausage-Is-Cooking_fma-113945_001_00-00-07.mp3",
+            "id": "fma-113945",
             "title": "Mens p\u00f8lsen koger (While the Sausage Is Cooking)",
-            "timestamp": "00:07",
-            "url": "/items/loc-fma/fma-113945/"
+            "url": "/items/loc-fma/fma-113945/",
+            "clips": [
+                {
+                    "filename": "Mens-plsen-koger-While-the-Sausage-Is-Cooking_fma-113945_001_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                }
+            ]
         },
         {
-            "filename": "Mushrooms_fma-178531_001_00-00-01.mp3",
+            "id": "fma-178531",
             "title": "Mushrooms",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-178531/"
+            "url": "/items/loc-fma/fma-178531/",
+            "clips": [
+                {
+                    "filename": "Mushrooms_fma-178531_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Mushrooms_fma-178531_002_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "Mushrooms_fma-178531_003_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                }
+            ]
         },
         {
-            "filename": "Mushrooms_fma-178531_002_00-00-08.mp3",
-            "title": "Mushrooms",
-            "timestamp": "00:08",
-            "url": "/items/loc-fma/fma-178531/"
-        },
-        {
-            "filename": "Mushrooms_fma-178531_003_00-00-40.mp3",
-            "title": "Mushrooms",
-            "timestamp": "00:40",
-            "url": "/items/loc-fma/fma-178531/"
-        },
-        {
-            "filename": "N_fma-169176_001_00-01-15.mp3",
+            "id": "fma-169176",
             "title": "N",
-            "timestamp": "01:15",
-            "url": "/items/loc-fma/fma-169176/"
+            "url": "/items/loc-fma/fma-169176/",
+            "clips": [
+                {
+                    "filename": "N_fma-169176_001_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                }
+            ]
         },
         {
-            "filename": "No-need-to_fma-152642_001_00-00-27.mp3",
+            "id": "fma-152642",
             "title": "No need to",
-            "timestamp": "00:27",
-            "url": "/items/loc-fma/fma-152642/"
+            "url": "/items/loc-fma/fma-152642/",
+            "clips": [
+                {
+                    "filename": "No-need-to_fma-152642_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                }
+            ]
         },
         {
-            "filename": "No-room-at-the-inn_fma-184555_001_00-00-00.mp3",
+            "id": "fma-184555",
             "title": "No room at the inn",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-184555/"
+            "url": "/items/loc-fma/fma-184555/",
+            "clips": [
+                {
+                    "filename": "No-room-at-the-inn_fma-184555_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "No-room-at-the-inn_fma-184555_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                }
+            ]
         },
         {
-            "filename": "No-room-at-the-inn_fma-184555_002_00-00-30.mp3",
-            "title": "No room at the inn",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-184555/"
-        },
-        {
-            "filename": "Old-artefact-to-destroy-the-patriarchy-hidden-somewhere_fma-163730_001_00-00-00.mp3",
+            "id": "fma-163730",
             "title": "Old artefact to destroy the patriarchy hidden somewhere",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-163730/"
+            "url": "/items/loc-fma/fma-163730/",
+            "clips": [
+                {
+                    "filename": "Old-artefact-to-destroy-the-patriarchy-hidden-somewhere_fma-163730_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "On-the-road-looking-at-your-feet_fma-152300_001_00-00-45.mp3",
+            "id": "fma-152300",
             "title": "On the road, looking at your feet",
-            "timestamp": "00:45",
-            "url": "/items/loc-fma/fma-152300/"
+            "url": "/items/loc-fma/fma-152300/",
+            "clips": [
+                {
+                    "filename": "On-the-road-looking-at-your-feet_fma-152300_001_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                }
+            ]
         },
         {
-            "filename": "Pas-de-repos_fma-140834_001_00-05-23.mp3",
+            "id": "fma-140834",
             "title": "Pas de repos",
-            "timestamp": "05:23",
-            "url": "/items/loc-fma/fma-140834/"
+            "url": "/items/loc-fma/fma-140834/",
+            "clips": [
+                {
+                    "filename": "Pas-de-repos_fma-140834_001_00-05-23",
+                    "timeStamp": "05:23",
+                    "start": 324000
+                }
+            ]
         },
         {
-            "filename": "Pela-Divina_fma-151413_001_00-00-24.mp3",
+            "id": "fma-151413",
             "title": "Pela Divina",
-            "timestamp": "00:24",
-            "url": "/items/loc-fma/fma-151413/"
+            "url": "/items/loc-fma/fma-151413/",
+            "clips": [
+                {
+                    "filename": "Pela-Divina_fma-151413_001_00-00-24",
+                    "timeStamp": "00:24",
+                    "start": 25000
+                }
+            ]
         },
         {
-            "filename": "Play-the-game_fma-182159_001_00-02-34.mp3",
+            "id": "fma-182159",
             "title": "Play the game",
-            "timestamp": "02:34",
-            "url": "/items/loc-fma/fma-182159/"
+            "url": "/items/loc-fma/fma-182159/",
+            "clips": [
+                {
+                    "filename": "Play-the-game_fma-182159_001_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
         },
         {
-            "filename": "Poupi-Great-Adventures--The-Arcade-Game_fma-169747_001_00-00-01.mp3",
+            "id": "fma-169747",
             "title": "Poupi Great Adventures : The Arcade Game",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-169747/"
+            "url": "/items/loc-fma/fma-169747/",
+            "clips": [
+                {
+                    "filename": "Poupi-Great-Adventures--The-Arcade-Game_fma-169747_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Poupi-Great-Adventures--The-Arcade-Game_fma-169747_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Poupi-Great-Adventures--The-Arcade-Game_fma-169747_003_00-00-58",
+                    "timeStamp": "00:58",
+                    "start": 59000
+                }
+            ]
         },
         {
-            "filename": "Poupi-Great-Adventures--The-Arcade-Game_fma-169747_002_00-00-31.mp3",
-            "title": "Poupi Great Adventures : The Arcade Game",
-            "timestamp": "00:31",
-            "url": "/items/loc-fma/fma-169747/"
-        },
-        {
-            "filename": "Poupi-Great-Adventures--The-Arcade-Game_fma-169747_003_00-00-58.mp3",
-            "title": "Poupi Great Adventures : The Arcade Game",
-            "timestamp": "00:58",
-            "url": "/items/loc-fma/fma-169747/"
-        },
-        {
-            "filename": "Puzzle_fma-142247_001_00-02-50.mp3",
+            "id": "fma-142247",
             "title": "Puzzle",
-            "timestamp": "02:50",
-            "url": "/items/loc-fma/fma-142247/"
+            "url": "/items/loc-fma/fma-142247/",
+            "clips": [
+                {
+                    "filename": "Puzzle_fma-142247_001_00-02-50",
+                    "timeStamp": "02:50",
+                    "start": 171000
+                }
+            ]
         },
         {
-            "filename": "Quand-nous-partirons_fma-140832_001_00-10-01.mp3",
+            "id": "fma-140832",
             "title": "Quand nous partirons",
-            "timestamp": "10:01",
-            "url": "/items/loc-fma/fma-140832/"
+            "url": "/items/loc-fma/fma-140832/",
+            "clips": [
+                {
+                    "filename": "Quand-nous-partirons_fma-140832_001_00-10-01",
+                    "timeStamp": "10:01",
+                    "start": 602000
+                }
+            ]
         },
         {
-            "filename": "Quiet-Saturday_fma-169775_001_00-00-17.mp3",
+            "id": "fma-169775",
             "title": "Quiet Saturday",
-            "timestamp": "00:17",
-            "url": "/items/loc-fma/fma-169775/"
+            "url": "/items/loc-fma/fma-169775/",
+            "clips": [
+                {
+                    "filename": "Quiet-Saturday_fma-169775_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                },
+                {
+                    "filename": "Quiet-Saturday_fma-169775_002_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Quiet-Saturday_fma-169775_003_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                }
+            ]
         },
         {
-            "filename": "Quiet-Saturday_fma-169775_002_00-00-36.mp3",
-            "title": "Quiet Saturday",
-            "timestamp": "00:36",
-            "url": "/items/loc-fma/fma-169775/"
-        },
-        {
-            "filename": "Quiet-Saturday_fma-169775_003_00-01-06.mp3",
-            "title": "Quiet Saturday",
-            "timestamp": "01:06",
-            "url": "/items/loc-fma/fma-169775/"
-        },
-        {
-            "filename": "Rimsky-Champagne-Aeroplane-A-fantasia-on-the-Song-of-the-Indian-Guest-by-Rimsky-Korsakov_fma-117105_001_00-01-09.mp3",
+            "id": "fma-117105",
             "title": "Rimsky Champagne Aeroplane (A fantasia on the Song of the Indian Guest by Rimsky-Korsakov)",
-            "timestamp": "01:09",
-            "url": "/items/loc-fma/fma-117105/"
+            "url": "/items/loc-fma/fma-117105/",
+            "clips": [
+                {
+                    "filename": "Rimsky-Champagne-Aeroplane-A-fantasia-on-the-Song-of-the-Indian-Guest-by-Rimsky-Korsakov_fma-117105_001_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "Rimsky-Champagne-Aeroplane-A-fantasia-on-the-Song-of-the-Indian-Guest-by-Rimsky-Korsakov_fma-117105_002_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                }
+            ]
         },
         {
-            "filename": "Rimsky-Champagne-Aeroplane-A-fantasia-on-the-Song-of-the-Indian-Guest-by-Rimsky-Korsakov_fma-117105_002_00-02-03.mp3",
-            "title": "Rimsky Champagne Aeroplane (A fantasia on the Song of the Indian Guest by Rimsky-Korsakov)",
-            "timestamp": "02:03",
-            "url": "/items/loc-fma/fma-117105/"
-        },
-        {
-            "filename": "Rising-Danger_fma-166064_001_00-00-40.mp3",
+            "id": "fma-166064",
             "title": "Rising Danger",
-            "timestamp": "00:40",
-            "url": "/items/loc-fma/fma-166064/"
+            "url": "/items/loc-fma/fma-166064/",
+            "clips": [
+                {
+                    "filename": "Rising-Danger_fma-166064_001_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                }
+            ]
         },
         {
-            "filename": "Rising-Danger-Alternative-Version_fma-166083_001_00-01-36.mp3",
+            "id": "fma-166083",
             "title": "Rising Danger [Alternative Version]",
-            "timestamp": "01:36",
-            "url": "/items/loc-fma/fma-166083/"
+            "url": "/items/loc-fma/fma-166083/",
+            "clips": [
+                {
+                    "filename": "Rising-Danger-Alternative-Version_fma-166083_001_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                }
+            ]
         },
         {
-            "filename": "SUPERMERCADO-TIBETANO_fma-115687_001_00-03-39.mp3",
+            "id": "fma-115687",
             "title": "SUPERMERCADO TIBETANO",
-            "timestamp": "03:39",
-            "url": "/items/loc-fma/fma-115687/"
+            "url": "/items/loc-fma/fma-115687/",
+            "clips": [
+                {
+                    "filename": "SUPERMERCADO-TIBETANO_fma-115687_001_00-03-39",
+                    "timeStamp": "03:39",
+                    "start": 220000
+                }
+            ]
         },
         {
-            "filename": "Saint-Wave_fma-155369_001_00-05-05.mp3",
+            "id": "fma-155369",
             "title": "Saint Wave",
-            "timestamp": "05:05",
-            "url": "/items/loc-fma/fma-155369/"
+            "url": "/items/loc-fma/fma-155369/",
+            "clips": [
+                {
+                    "filename": "Saint-Wave_fma-155369_001_00-05-05",
+                    "timeStamp": "05:05",
+                    "start": 306000
+                }
+            ]
         },
         {
-            "filename": "Saint-Wave_fma-161721_001_00-05-05.mp3",
+            "id": "fma-161721",
             "title": "Saint Wave",
-            "timestamp": "05:05",
-            "url": "/items/loc-fma/fma-161721/"
+            "url": "/items/loc-fma/fma-161721/",
+            "clips": [
+                {
+                    "filename": "Saint-Wave_fma-161721_001_00-05-05",
+                    "timeStamp": "05:05",
+                    "start": 306000
+                }
+            ]
         },
         {
-            "filename": "Shut-up-the-mermaid-is-talking_fma-163289_001_00-00-00.mp3",
+            "id": "fma-163289",
             "title": "Shut up, the mermaid is talking",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-163289/"
+            "url": "/items/loc-fma/fma-163289/",
+            "clips": [
+                {
+                    "filename": "Shut-up-the-mermaid-is-talking_fma-163289_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Shut-up-the-mermaid-is-talking_fma-163289_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Shut-up-the-mermaid-is-talking_fma-163289_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                }
+            ]
         },
         {
-            "filename": "Shut-up-the-mermaid-is-talking_fma-163289_002_00-00-30.mp3",
-            "title": "Shut up, the mermaid is talking",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-163289/"
-        },
-        {
-            "filename": "Shut-up-the-mermaid-is-talking_fma-163289_003_00-01-01.mp3",
-            "title": "Shut up, the mermaid is talking",
-            "timestamp": "01:01",
-            "url": "/items/loc-fma/fma-163289/"
-        },
-        {
-            "filename": "Siamo-Tutti-Antifascisti_fma-157346_001_00-03-47.mp3",
+            "id": "fma-157346",
             "title": "Siamo Tutti Antifascisti",
-            "timestamp": "03:47",
-            "url": "/items/loc-fma/fma-157346/"
+            "url": "/items/loc-fma/fma-157346/",
+            "clips": [
+                {
+                    "filename": "Siamo-Tutti-Antifascisti_fma-157346_001_00-03-47",
+                    "timeStamp": "03:47",
+                    "start": 228000
+                },
+                {
+                    "filename": "Siamo-Tutti-Antifascisti_fma-157346_002_00-04-18",
+                    "timeStamp": "04:18",
+                    "start": 259000
+                }
+            ]
         },
         {
-            "filename": "Siamo-Tutti-Antifascisti_fma-157346_002_00-04-18.mp3",
-            "title": "Siamo Tutti Antifascisti",
-            "timestamp": "04:18",
-            "url": "/items/loc-fma/fma-157346/"
-        },
-        {
-            "filename": "Sky-6--But-No_fma-145791_001_00-04-07.mp3",
+            "id": "fma-145791",
             "title": "Sky 6 : But No",
-            "timestamp": "04:07",
-            "url": "/items/loc-fma/fma-145791/"
+            "url": "/items/loc-fma/fma-145791/",
+            "clips": [
+                {
+                    "filename": "Sky-6--But-No_fma-145791_001_00-04-07",
+                    "timeStamp": "04:07",
+                    "start": 248000
+                }
+            ]
         },
         {
-            "filename": "Skysand_fma-152645_001_00-00-00.mp3",
+            "id": "fma-152645",
             "title": "Skysand",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-152645/"
+            "url": "/items/loc-fma/fma-152645/",
+            "clips": [
+                {
+                    "filename": "Skysand_fma-152645_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Sounds-effects-kit_fma-161715_001_00-07-14.mp3",
+            "id": "fma-161715",
             "title": "Sounds effects kit",
-            "timestamp": "07:14",
-            "url": "/items/loc-fma/fma-161715/"
+            "url": "/items/loc-fma/fma-161715/",
+            "clips": [
+                {
+                    "filename": "Sounds-effects-kit_fma-161715_001_00-07-14",
+                    "timeStamp": "07:14",
+                    "start": 435000
+                }
+            ]
         },
         {
-            "filename": "Soundtrack_fma-178532_001_00-00-52.mp3",
+            "id": "fma-178532",
             "title": "Soundtrack",
-            "timestamp": "00:52",
-            "url": "/items/loc-fma/fma-178532/"
+            "url": "/items/loc-fma/fma-178532/",
+            "clips": [
+                {
+                    "filename": "Soundtrack_fma-178532_001_00-00-52",
+                    "timeStamp": "00:52",
+                    "start": 53000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_002_00-01-23",
+                    "timeStamp": "01:23",
+                    "start": 84000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_003_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_004_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_005_00-03-28",
+                    "timeStamp": "03:28",
+                    "start": 209000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_006_00-04-29",
+                    "timeStamp": "04:29",
+                    "start": 270000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_007_00-04-59",
+                    "timeStamp": "04:59",
+                    "start": 300000
+                },
+                {
+                    "filename": "Soundtrack_fma-178532_008_00-05-29",
+                    "timeStamp": "05:29",
+                    "start": 330000
+                }
+            ]
         },
         {
-            "filename": "Soundtrack_fma-178532_002_00-01-23.mp3",
-            "title": "Soundtrack",
-            "timestamp": "01:23",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Soundtrack_fma-178532_003_00-01-53.mp3",
-            "title": "Soundtrack",
-            "timestamp": "01:53",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Soundtrack_fma-178532_004_00-02-23.mp3",
-            "title": "Soundtrack",
-            "timestamp": "02:23",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Soundtrack_fma-178532_005_00-03-28.mp3",
-            "title": "Soundtrack",
-            "timestamp": "03:28",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Soundtrack_fma-178532_006_00-04-29.mp3",
-            "title": "Soundtrack",
-            "timestamp": "04:29",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Soundtrack_fma-178532_007_00-04-59.mp3",
-            "title": "Soundtrack",
-            "timestamp": "04:59",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Soundtrack_fma-178532_008_00-05-29.mp3",
-            "title": "Soundtrack",
-            "timestamp": "05:29",
-            "url": "/items/loc-fma/fma-178532/"
-        },
-        {
-            "filename": "Standing_fma-171985_001_00-00-00.mp3",
+            "id": "fma-171985",
             "title": "Standing",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-171985/"
+            "url": "/items/loc-fma/fma-171985/",
+            "clips": [
+                {
+                    "filename": "Standing_fma-171985_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "Stay-Quiet_fma-152299_001_00-01-28.mp3",
+            "id": "fma-152299",
             "title": "Stay Quiet",
-            "timestamp": "01:28",
-            "url": "/items/loc-fma/fma-152299/"
+            "url": "/items/loc-fma/fma-152299/",
+            "clips": [
+                {
+                    "filename": "Stay-Quiet_fma-152299_001_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                }
+            ]
         },
         {
-            "filename": "Stephen-Katz_fma-175342_001_00-05-26.mp3",
+            "id": "fma-175342",
             "title": "Stephen Katz",
-            "timestamp": "05:26",
-            "url": "/items/loc-fma/fma-175342/"
+            "url": "/items/loc-fma/fma-175342/",
+            "clips": [
+                {
+                    "filename": "Stephen-Katz_fma-175342_001_00-05-26",
+                    "timeStamp": "05:26",
+                    "start": 327000
+                }
+            ]
         },
         {
-            "filename": "Sub----_fma-165916_001_00-03-17.mp3",
+            "id": "fma-165916",
             "title": "Sub/_/_/_/ _/",
-            "timestamp": "03:17",
-            "url": "/items/loc-fma/fma-165916/"
+            "url": "/items/loc-fma/fma-165916/",
+            "clips": [
+                {
+                    "filename": "Sub----_fma-165916_001_00-03-17",
+                    "timeStamp": "03:17",
+                    "start": 198000
+                }
+            ]
         },
         {
-            "filename": "Sub----_fma-172595_001_00-03-17.mp3",
+            "id": "fma-172595",
             "title": "Sub/_/_/_/_/",
-            "timestamp": "03:17",
-            "url": "/items/loc-fma/fma-172595/"
+            "url": "/items/loc-fma/fma-172595/",
+            "clips": [
+                {
+                    "filename": "Sub----_fma-172595_001_00-03-17",
+                    "timeStamp": "03:17",
+                    "start": 198000
+                }
+            ]
         },
         {
-            "filename": "Tas-compris-le-dlire_fma-158960_001_00-00-00.mp3",
+            "id": "fma-158960",
             "title": "T'as compris le d\u00e9lire",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-158960/"
+            "url": "/items/loc-fma/fma-158960/",
+            "clips": [
+                {
+                    "filename": "Tas-compris-le-dlire_fma-158960_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         },
         {
-            "filename": "The-Army-Of-You_fma-155374_001_00-00-01.mp3",
+            "id": "fma-155374",
             "title": "The Army Of You",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-155374/"
+            "url": "/items/loc-fma/fma-155374/",
+            "clips": [
+                {
+                    "filename": "The-Army-Of-You_fma-155374_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                }
+            ]
         },
         {
-            "filename": "The-Call-of-the-Polar-Star_fma-115766_001_00-00-01.mp3",
+            "id": "fma-115766",
             "title": "The Call of the Polar Star",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-115766/"
+            "url": "/items/loc-fma/fma-115766/",
+            "clips": [
+                {
+                    "filename": "The-Call-of-the-Polar-Star_fma-115766_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "The-Call-of-the-Polar-Star_fma-115766_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "The-Call-of-the-Polar-Star_fma-115766_003_00-03-45",
+                    "timeStamp": "03:45",
+                    "start": 226000
+                },
+                {
+                    "filename": "The-Call-of-the-Polar-Star_fma-115766_004_00-04-15",
+                    "timeStamp": "04:15",
+                    "start": 256000
+                }
+            ]
         },
         {
-            "filename": "The-Call-of-the-Polar-Star_fma-115766_002_00-00-31.mp3",
-            "title": "The Call of the Polar Star",
-            "timestamp": "00:31",
-            "url": "/items/loc-fma/fma-115766/"
-        },
-        {
-            "filename": "The-Call-of-the-Polar-Star_fma-115766_003_00-03-45.mp3",
-            "title": "The Call of the Polar Star",
-            "timestamp": "03:45",
-            "url": "/items/loc-fma/fma-115766/"
-        },
-        {
-            "filename": "The-Call-of-the-Polar-Star_fma-115766_004_00-04-15.mp3",
-            "title": "The Call of the Polar Star",
-            "timestamp": "04:15",
-            "url": "/items/loc-fma/fma-115766/"
-        },
-        {
-            "filename": "The-Evil-Plan_fma-164389_001_00-01-07.mp3",
+            "id": "fma-164389",
             "title": "The Evil Plan",
-            "timestamp": "01:07",
-            "url": "/items/loc-fma/fma-164389/"
+            "url": "/items/loc-fma/fma-164389/",
+            "clips": [
+                {
+                    "filename": "The-Evil-Plan_fma-164389_001_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                }
+            ]
         },
         {
-            "filename": "The-place-that-never-get-old_fma-153144_001_00-00-01.mp3",
+            "id": "fma-153144",
             "title": "The place that never get old",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-153144/"
+            "url": "/items/loc-fma/fma-153144/",
+            "clips": [
+                {
+                    "filename": "The-place-that-never-get-old_fma-153144_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "The-place-that-never-get-old_fma-153144_002_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                },
+                {
+                    "filename": "The-place-that-never-get-old_fma-153144_003_00-00-50",
+                    "timeStamp": "00:50",
+                    "start": 51000
+                },
+                {
+                    "filename": "The-place-that-never-get-old_fma-153144_004_00-01-20",
+                    "timeStamp": "01:20",
+                    "start": 81000
+                },
+                {
+                    "filename": "The-place-that-never-get-old_fma-153144_005_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                }
+            ]
         },
         {
-            "filename": "The-place-that-never-get-old_fma-153144_002_00-00-25.mp3",
-            "title": "The place that never get old",
-            "timestamp": "00:25",
-            "url": "/items/loc-fma/fma-153144/"
-        },
-        {
-            "filename": "The-place-that-never-get-old_fma-153144_003_00-00-50.mp3",
-            "title": "The place that never get old",
-            "timestamp": "00:50",
-            "url": "/items/loc-fma/fma-153144/"
-        },
-        {
-            "filename": "The-place-that-never-get-old_fma-153144_004_00-01-20.mp3",
-            "title": "The place that never get old",
-            "timestamp": "01:20",
-            "url": "/items/loc-fma/fma-153144/"
-        },
-        {
-            "filename": "The-place-that-never-get-old_fma-153144_005_00-01-50.mp3",
-            "title": "The place that never get old",
-            "timestamp": "01:50",
-            "url": "/items/loc-fma/fma-153144/"
-        },
-        {
-            "filename": "The-sickness_fma-162988_001_00-00-00.mp3",
+            "id": "fma-162988",
             "title": "The sickness",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-162988/"
+            "url": "/items/loc-fma/fma-162988/",
+            "clips": [
+                {
+                    "filename": "The-sickness_fma-162988_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-sickness_fma-162988_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
         },
         {
-            "filename": "The-sickness_fma-162988_002_00-01-30.mp3",
-            "title": "The sickness",
-            "timestamp": "01:30",
-            "url": "/items/loc-fma/fma-162988/"
-        },
-        {
-            "filename": "The-star-of-Bethlehem_fma-184562_001_00-00-41.mp3",
+            "id": "fma-184562",
             "title": "The star of Bethlehem",
-            "timestamp": "00:41",
-            "url": "/items/loc-fma/fma-184562/"
+            "url": "/items/loc-fma/fma-184562/",
+            "clips": [
+                {
+                    "filename": "The-star-of-Bethlehem_fma-184562_001_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                }
+            ]
         },
         {
-            "filename": "This-is-happening_fma-169784_001_00-00-08.mp3",
+            "id": "fma-169784",
             "title": "This is happening",
-            "timestamp": "00:08",
-            "url": "/items/loc-fma/fma-169784/"
+            "url": "/items/loc-fma/fma-169784/",
+            "clips": [
+                {
+                    "filename": "This-is-happening_fma-169784_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                }
+            ]
         },
         {
-            "filename": "Time-to-go-to-space-now-_fma-169742_001_00-00-36.mp3",
+            "id": "fma-169742",
             "title": "Time to go to space now !!",
-            "timestamp": "00:36",
-            "url": "/items/loc-fma/fma-169742/"
+            "url": "/items/loc-fma/fma-169742/",
+            "clips": [
+                {
+                    "filename": "Time-to-go-to-space-now-_fma-169742_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                }
+            ]
         },
         {
-            "filename": "To-dream-a-super-market_fma-148283_001_00-03-32.mp3",
+            "id": "fma-148283",
             "title": "To dream a super market",
-            "timestamp": "03:32",
-            "url": "/items/loc-fma/fma-148283/"
+            "url": "/items/loc-fma/fma-148283/",
+            "clips": [
+                {
+                    "filename": "To-dream-a-super-market_fma-148283_001_00-03-32",
+                    "timeStamp": "03:32",
+                    "start": 213000
+                },
+                {
+                    "filename": "To-dream-a-super-market_fma-148283_002_00-03-40",
+                    "timeStamp": "03:40",
+                    "start": 221000
+                },
+                {
+                    "filename": "To-dream-a-super-market_fma-148283_003_00-03-47",
+                    "timeStamp": "03:47",
+                    "start": 228000
+                },
+                {
+                    "filename": "To-dream-a-super-market_fma-148283_004_00-03-55",
+                    "timeStamp": "03:55",
+                    "start": 236000
+                },
+                {
+                    "filename": "To-dream-a-super-market_fma-148283_005_00-04-10",
+                    "timeStamp": "04:10",
+                    "start": 251000
+                }
+            ]
         },
         {
-            "filename": "To-dream-a-super-market_fma-148283_002_00-03-40.mp3",
-            "title": "To dream a super market",
-            "timestamp": "03:40",
-            "url": "/items/loc-fma/fma-148283/"
-        },
-        {
-            "filename": "To-dream-a-super-market_fma-148283_003_00-03-47.mp3",
-            "title": "To dream a super market",
-            "timestamp": "03:47",
-            "url": "/items/loc-fma/fma-148283/"
-        },
-        {
-            "filename": "To-dream-a-super-market_fma-148283_004_00-03-55.mp3",
-            "title": "To dream a super market",
-            "timestamp": "03:55",
-            "url": "/items/loc-fma/fma-148283/"
-        },
-        {
-            "filename": "To-dream-a-super-market_fma-148283_005_00-04-10.mp3",
-            "title": "To dream a super market",
-            "timestamp": "04:10",
-            "url": "/items/loc-fma/fma-148283/"
-        },
-        {
-            "filename": "To-run-in-an-elevator-in-a-dream-in-a-fiction-in-space_fma-156735_001_00-00-30.mp3",
+            "id": "fma-156735",
             "title": "To run in an elevator in a dream in a fiction in space",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-156735/"
+            "url": "/items/loc-fma/fma-156735/",
+            "clips": [
+                {
+                    "filename": "To-run-in-an-elevator-in-a-dream-in-a-fiction-in-space_fma-156735_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "To-run-in-an-elevator-in-a-dream-in-a-fiction-in-space_fma-156735_002_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                }
+            ]
         },
         {
-            "filename": "To-run-in-an-elevator-in-a-dream-in-a-fiction-in-space_fma-156735_002_00-00-44.mp3",
-            "title": "To run in an elevator in a dream in a fiction in space",
-            "timestamp": "00:44",
-            "url": "/items/loc-fma/fma-156735/"
-        },
-        {
-            "filename": "Trystan_fma-127644_001_00-00-36.mp3",
+            "id": "fma-127644",
             "title": "Trystan",
-            "timestamp": "00:36",
-            "url": "/items/loc-fma/fma-127644/"
+            "url": "/items/loc-fma/fma-127644/",
+            "clips": [
+                {
+                    "filename": "Trystan_fma-127644_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Trystan_fma-127644_002_00-02-07",
+                    "timeStamp": "02:07",
+                    "start": 128000
+                }
+            ]
         },
         {
-            "filename": "Trystan_fma-127644_002_00-02-07.mp3",
+            "id": "fma-154800",
             "title": "Trystan",
-            "timestamp": "02:07",
-            "url": "/items/loc-fma/fma-127644/"
+            "url": "/items/loc-fma/fma-154800/",
+            "clips": [
+                {
+                    "filename": "Trystan_fma-154800_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Trystan_fma-154800_002_00-02-07",
+                    "timeStamp": "02:07",
+                    "start": 128000
+                }
+            ]
         },
         {
-            "filename": "Trystan_fma-154800_001_00-00-36.mp3",
-            "title": "Trystan",
-            "timestamp": "00:36",
-            "url": "/items/loc-fma/fma-154800/"
-        },
-        {
-            "filename": "Trystan_fma-154800_002_00-02-07.mp3",
-            "title": "Trystan",
-            "timestamp": "02:07",
-            "url": "/items/loc-fma/fma-154800/"
-        },
-        {
-            "filename": "Tu-nas-pas-de-non_fma-148271_001_00-00-57.mp3",
+            "id": "fma-148271",
             "title": "Tu n'as pas de non",
-            "timestamp": "00:57",
-            "url": "/items/loc-fma/fma-148271/"
+            "url": "/items/loc-fma/fma-148271/",
+            "clips": [
+                {
+                    "filename": "Tu-nas-pas-de-non_fma-148271_001_00-00-57",
+                    "timeStamp": "00:57",
+                    "start": 58000
+                }
+            ]
         },
         {
-            "filename": "Une-Paquerette-Pour-Toi_fma-156847_001_00-00-00.mp3",
+            "id": "fma-156847",
             "title": "Une Paquerette Pour Toi",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-156847/"
+            "url": "/items/loc-fma/fma-156847/",
+            "clips": [
+                {
+                    "filename": "Une-Paquerette-Pour-Toi_fma-156847_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Une-Paquerette-Pour-Toi_fma-156847_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Une-Paquerette-Pour-Toi_fma-156847_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Une-Paquerette-Pour-Toi_fma-156847_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Une-Paquerette-Pour-Toi_fma-156847_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                }
+            ]
         },
         {
-            "filename": "Une-Paquerette-Pour-Toi_fma-156847_002_00-00-30.mp3",
-            "title": "Une Paquerette Pour Toi",
-            "timestamp": "00:30",
-            "url": "/items/loc-fma/fma-156847/"
-        },
-        {
-            "filename": "Une-Paquerette-Pour-Toi_fma-156847_003_00-01-00.mp3",
-            "title": "Une Paquerette Pour Toi",
-            "timestamp": "01:00",
-            "url": "/items/loc-fma/fma-156847/"
-        },
-        {
-            "filename": "Une-Paquerette-Pour-Toi_fma-156847_004_00-01-31.mp3",
-            "title": "Une Paquerette Pour Toi",
-            "timestamp": "01:31",
-            "url": "/items/loc-fma/fma-156847/"
-        },
-        {
-            "filename": "Une-Paquerette-Pour-Toi_fma-156847_005_00-02-01.mp3",
-            "title": "Une Paquerette Pour Toi",
-            "timestamp": "02:01",
-            "url": "/items/loc-fma/fma-156847/"
-        },
-        {
-            "filename": "Variatio-4-a-1-Clav_fma-65678_001_00-00-25.mp3",
+            "id": "fma-65678",
             "title": "Variatio 4 a 1 Clav.",
-            "timestamp": "00:25",
-            "url": "/items/loc-fma/fma-65678/"
+            "url": "/items/loc-fma/fma-65678/",
+            "clips": [
+                {
+                    "filename": "Variatio-4-a-1-Clav_fma-65678_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                }
+            ]
         },
         {
-            "filename": "Viville-qui-court-vite_fma-154810_001_00-00-01.mp3",
+            "id": "fma-154810",
             "title": "Viville qui court vite",
-            "timestamp": "00:01",
-            "url": "/items/loc-fma/fma-154810/"
+            "url": "/items/loc-fma/fma-154810/",
+            "clips": [
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_002_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_003_00-00-20",
+                    "timeStamp": "00:20",
+                    "start": 21000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_004_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_005_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_006_00-00-38",
+                    "timeStamp": "00:38",
+                    "start": 39000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_007_00-00-58",
+                    "timeStamp": "00:58",
+                    "start": 59000
+                },
+                {
+                    "filename": "Viville-qui-court-vite_fma-154810_008_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                }
+            ]
         },
         {
-            "filename": "Viville-qui-court-vite_fma-154810_002_00-00-09.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "00:09",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "Viville-qui-court-vite_fma-154810_003_00-00-20.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "00:20",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "Viville-qui-court-vite_fma-154810_004_00-00-27.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "00:27",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "Viville-qui-court-vite_fma-154810_005_00-00-33.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "00:33",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "Viville-qui-court-vite_fma-154810_006_00-00-38.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "00:38",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "Viville-qui-court-vite_fma-154810_007_00-00-58.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "00:58",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "Viville-qui-court-vite_fma-154810_008_00-01-06.mp3",
-            "title": "Viville qui court vite",
-            "timestamp": "01:06",
-            "url": "/items/loc-fma/fma-154810/"
-        },
-        {
-            "filename": "You-yourself-and-the-main-character_fma-153146_001_00-00-34.mp3",
+            "id": "fma-153146",
             "title": "You, yourself and the main character",
-            "timestamp": "00:34",
-            "url": "/items/loc-fma/fma-153146/"
+            "url": "/items/loc-fma/fma-153146/",
+            "clips": [
+                {
+                    "filename": "You-yourself-and-the-main-character_fma-153146_001_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                }
+            ]
         },
         {
-            "filename": "dont-make-a-mark-leave-a-mark_fma-115249_001_00-00-08.mp3",
+            "id": "fma-115249",
             "title": "dont make a mark leave a mark",
-            "timestamp": "00:08",
-            "url": "/items/loc-fma/fma-115249/"
+            "url": "/items/loc-fma/fma-115249/",
+            "clips": [
+                {
+                    "filename": "dont-make-a-mark-leave-a-mark_fma-115249_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                }
+            ]
         },
         {
-            "filename": "fame-for-orchestra-oboa-and-basson_fma-114562_001_00-00-02.mp3",
+            "id": "fma-114562",
             "title": "fame for orchestra oboa and basson",
-            "timestamp": "00:02",
-            "url": "/items/loc-fma/fma-114562/"
+            "url": "/items/loc-fma/fma-114562/",
+            "clips": [
+                {
+                    "filename": "fame-for-orchestra-oboa-and-basson_fma-114562_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                }
+            ]
         },
         {
-            "filename": "le_fma-169454_001_00-01-01.mp3",
+            "id": "fma-169454",
             "title": "le",
-            "timestamp": "01:01",
-            "url": "/items/loc-fma/fma-169454/"
+            "url": "/items/loc-fma/fma-169454/",
+            "clips": [
+                {
+                    "filename": "le_fma-169454_001_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "le_fma-169454_002_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "le_fma-169454_003_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                }
+            ]
         },
         {
-            "filename": "le_fma-169454_002_00-01-50.mp3",
-            "title": "le",
-            "timestamp": "01:50",
-            "url": "/items/loc-fma/fma-169454/"
-        },
-        {
-            "filename": "le_fma-169454_003_00-02-20.mp3",
-            "title": "le",
-            "timestamp": "02:20",
-            "url": "/items/loc-fma/fma-169454/"
-        },
-        {
-            "filename": "mania_fma-114772_001_00-00-05.mp3",
+            "id": "fma-114772",
             "title": "mania",
-            "timestamp": "00:05",
-            "url": "/items/loc-fma/fma-114772/"
+            "url": "/items/loc-fma/fma-114772/",
+            "clips": [
+                {
+                    "filename": "mania_fma-114772_001_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                }
+            ]
         },
         {
-            "filename": "qpfeouuuuuuuuuuuuuuuuuuuuuuu_fma-158961_001_00-00-00.mp3",
+            "id": "fma-158961",
             "title": "qpfeouuuuuuuuuuuuuuuuuuuuuuu",
-            "timestamp": "00:00",
-            "url": "/items/loc-fma/fma-158961/"
+            "url": "/items/loc-fma/fma-158961/",
+            "clips": [
+                {
+                    "filename": "qpfeouuuuuuuuuuuuuuuuuuuuuuu_fma-158961_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
         }
     ],
     "segmentCount": 265,
