@@ -1,24 +1,31 @@
 
 {% assign siteCollections = site.use | sort:"sequence" %}
+{% assign pageId = page.uid %}
+{% if page.collectionUid %}
+  {% assign pageId = page.collectionUid %}
+{% endif %}
 
 <div class="collection-header">
   <nav>
     <ul>
       <li class="selected-collection">
         <h2>Collection:</h2>
-        <button class="tab submenu-link" aria-haspopup="true" aria-expanded="false" aria-controls="collection-select"><span>{{ page.title }}</span><span class="arrow">▼</span></button>
+        <button class="tab submenu-link" aria-haspopup="true" aria-expanded="false" aria-controls="collection-select">
+          <span>{% if page.collectionTitle %}{{ page.collectionTitle }}{% else %}{{ page.title }}{% endif %}</span>
+          <span class="arrow">▼</span>
+        </button>
         <ul id="collection-select" class="submenu">
           {% for c in siteCollections %}
             {% if c.active > 0 %}
-            <li><a href="{{ c.collection_base_url }}{{ page.layout }}/" {% if page.uid == c.uid %}class="active"{% endif %}>{{ c.title }}</a></li>
+            <li><a href="{{ c.collection_base_url }}{{ page.layout }}/" {% if pageId == c.uid %}class="active"{% endif %}>{{ c.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
       </li>
       <li class="collection-links">
-        <a href="{{ site.baseurl }}/{{ page.uid }}/explore/" class="button{% if page.layout == 'explore' %} active{% endif %}">Explore</a>
-        <a href="{{ site.baseurl }}/{{ page.uid }}/remix/" class="button{% if page.layout == 'remix' %} active{% endif %}">Remix</a>
-        <a href="{{ site.baseurl }}/{{ page.uid }}/use/" class="button{% if page.layout == 'use' %} active{% endif %}">Browse &amp; download</a>
+        <a href="{{ site.baseurl }}/{{ pageId }}/explore/" class="button{% if page.layout == 'explore' %} active{% endif %}">Explore</a>
+        <a href="{{ site.baseurl }}/{{ pageId }}/remix/" class="button{% if page.layout == 'remix' %} active{% endif %}">Remix</a>
+        <a href="{{ site.baseurl }}/{{ pageId }}/use/" class="button{% if page.layout == 'use' %} active{% endif %}">Browse &amp; download</a>
       </li>
     </ul>
   </nav>

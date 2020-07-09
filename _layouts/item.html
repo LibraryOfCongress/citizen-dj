@@ -3,6 +3,7 @@
 <div class="wrapper item {{ page.uid }}">
 
   {% include header.html %}
+  {% include collection_header.html %}
 
   <main class="container">
     <h2>{{ page.title }}</h2>
@@ -12,6 +13,13 @@
     {% if page.stream_url %}
       <audio src="{{ site.asset_url }}{{ page.stream_url }}" controls crossorigin="anonymous"></audio>
     {% endif %}
+
+    <p>
+      {% if page.stream_url %}
+      <a href="{{ site.asset_url }}{{ page.stream_url }}" target="_blank" download class="button small">Download audio</a>
+      {% endif %}
+      <a href="{{ site.baseurl }}/{{ page.collectionUid }}/remix/?itemId={{ page.uid }}" class="button small">Remix this</a>
+    </p>
 
     {% if page.summary %}
       <p>{{ page.summary }}</p>
@@ -36,5 +44,15 @@
   </main>
 
 </div>
+
+<script src="{{ site.baseurl }}/js/vendor/jquery-3.4.1.min.js"></script>
+<script src="{{ site.baseurl }}/js/vendor/underscore-1.9.1.min.js"></script>
+<script>
+  var CONFIG = {
+    'baseUrl': '{{ site.baseurl }}',
+    'uid': '{{ page.uid }}'
+  };
+</script>
+<script src="{{ site.baseurl }}/js/ui.js"></script>
 
 {% include foot.html %}
