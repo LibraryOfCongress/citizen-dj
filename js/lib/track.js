@@ -140,6 +140,7 @@ var Track = (function() {
     this.$settingsParent = this.opt.$settingsParent;
     this.$settingsDialog = this.$settingsParent.find('.dialog');
 
+    if (this.isMuted) this.mute();
   };
 
   Track.prototype.mute = function(){
