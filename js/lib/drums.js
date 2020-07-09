@@ -11,6 +11,7 @@ var Drums = (function() {
       "patternsFile": "/data/drum_patterns.json",
       "audioDir": "/audio/drum_machines/",
       "gain": -12,
+      "beforeChange": function(){},
       "onChange": function(){},
       "onDataLoaded": function(){},
       "drumName": false,
@@ -169,12 +170,14 @@ var Drums = (function() {
   };
 
   Drums.prototype.onChangeDrum = function(index){
+    this.opt.beforeChange();
     this.drumIndex = index;
     this.loadTrackData();
     this.opt.onChange();
   };
 
   Drums.prototype.onChangePattern = function(index){
+    this.opt.beforeChange();
     this.patternIndex = index;
     this.loadTrackData();
     this.opt.onChange();

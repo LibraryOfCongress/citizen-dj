@@ -466,6 +466,15 @@ var Sequencer = (function() {
     delete this.tracks[key];
   };
 
+  Sequencer.prototype.resetSolo = function(){
+    _.each(this.tracks, function(track, key){
+      if (track.isSolo){
+        track.$soloButton.trigger('click');
+        return false;
+      }
+    });
+  };
+
   Sequencer.prototype.setBPM = function(bpm, fromUser){
     bpm = parseInt(''+bpm);
     this.secondsPerSubd = 60.0 / bpm / this.opt.subdivision;

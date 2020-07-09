@@ -18,6 +18,7 @@ var Collections = (function() {
       "sampleItemKey": "sourceFilename",
       "itemKey": "filename",
       "gain": -3,
+      "beforeChange": function(){},
       "onChange": function(){},
       "onDataLoaded": function(){},
       "itemId": false,
@@ -207,6 +208,7 @@ var Collections = (function() {
   };
 
   Collections.prototype.onItemChange = function(index){
+    this.opt.beforeChange();
     this.itemIndex = index;
     this.item = this.items[this.itemIndex];
     this.sampleIndex = _.random(0, this.item.samples.length-1);
@@ -349,6 +351,7 @@ var Collections = (function() {
   };
 
   Collections.prototype.randomizePhrase = function(){
+    this.opt.beforeChange();
     var sample = this.item.samples[this.sampleIndex];
     var phrases = this.item.phrases;
     if (phrases.length <= 1) {
@@ -372,6 +375,7 @@ var Collections = (function() {
   };
 
   Collections.prototype.randomizePhraseSample = function(){
+    this.opt.beforeChange();
     var sample = this.item.samples[this.sampleIndex];
     var sampleCandidates = _.where(this.item.samples, {phrase: sample.phrase});
 
@@ -383,6 +387,7 @@ var Collections = (function() {
   };
 
   Collections.prototype.randomizeSample = function(){
+    this.opt.beforeChange();
     this.sampleIndex = _.random(this.item.samples.length-1);
     this.loadTrackData();
     this.renderSource();
@@ -493,6 +498,7 @@ var Collections = (function() {
 
   // step through the phrases of the current item
   Collections.prototype.stepPhrase = function(amount){
+    this.opt.beforeChange();
     var sample = this.item.samples[this.sampleIndex];
     var phrases = this.item.phrases;
     var phraseIndex = _.indexOf(phrases, sample.phrase);
@@ -519,6 +525,7 @@ var Collections = (function() {
 
   // step through the samples of the current phrase
   Collections.prototype.stepPhraseSample = function(amount){
+    this.opt.beforeChange();
     var sample = this.item.samples[this.sampleIndex];
     var sampleCandidates = _.where(this.item.samples, {phrase: sample.phrase});
 
@@ -539,6 +546,7 @@ var Collections = (function() {
 
   // step through the samples of the current item
   Collections.prototype.stepSample = function(amount){
+    this.opt.beforeChange();
     var sample = this.item.samples[this.sampleIndex];
     var sampleCandidates = this.item.samples;
 

@@ -22,6 +22,8 @@ var RemixApp = (function() {
   RemixApp.prototype.init = function(){
     var _this = this;
 
+    // console.log($.param({e: '9-._~:/?#[]@!$&()*+,;='}));
+
     // Tone.context.latencyHint = 'playback'; // prioritize sustained feedback; https://github.com/Tonejs/Tone.js/wiki/Performance
     // try {
     //   this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
@@ -37,14 +39,16 @@ var RemixApp = (function() {
     this.drums = new Drums({
       "parent": _this.opt.el,
       "urlVarMap": _this.opt.urlVarMap,
-      "onChange": function(){ _this.onChangeDrums(); }
+      "onChange": function(){ _this.onChangeDrums(); },
+      "beforeChange": function(){ _this.beforeChange(); }
     });
 
     this.collections = new Collections({
       "parent": _this.opt.el,
       "urlVarMap": _this.opt.urlVarMap,
       "assetUrl": _this.opt.assetUrl,
-      "onChange": function(){ _this.onChangeCollections(); }
+      "onChange": function(){ _this.onChangeCollections(); },
+      "beforeChange": function(){ _this.beforeChange(); }
     });
 
     var $loading = $('.loading');
@@ -57,6 +61,10 @@ var RemixApp = (function() {
       $loading.removeClass('active');
       _this.onLoad();
     });
+  };
+
+  RemixApp.prototype.beforeChange = function(){
+    this.sequencer.resetSolo();
   };
 
   RemixApp.prototype.loadListeners = function(){
