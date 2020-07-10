@@ -12,7 +12,9 @@ var RemixApp = (function() {
         "drumId": "d",
         "patternId": "p",
         "patternEdits": "e",
-        "trackEdits": "t"
+        "gainEdits": "g",
+        "clipStartEdits": "t",
+        "clipDurEdits": "r"
       }
     };
     this.opt = _.extend({}, defaults, config);
@@ -91,7 +93,7 @@ var RemixApp = (function() {
     var tracks = _.extend({}, this.drums.tracks, this.collections.tracks);
 
     // delay the change trigger so we're not constantly updating URL with a new bpm
-    var onChange = _.debounce(function(){ _this.updateURL(); }, 1000);
+    var onChange = _.debounce(function(){ _this.updateURL(true); }, 1000);
 
     this.sequencer = new Sequencer({
       "el": _this.opt.el,

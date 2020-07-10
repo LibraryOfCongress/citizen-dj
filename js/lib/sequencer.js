@@ -172,6 +172,23 @@ var Sequencer = (function() {
     });
   };
 
+  Sequencer.prototype.loadEdits = function(){
+    var _this = this;
+
+    if (this.opt.patternEdits && this.opt.patternEdits.length) this.loadPatternEdits(this.opt.patternEdits);
+
+    _.each([
+        ['gainEdits', 'gain', 'float'],
+        ['clipStartEdits', 'clipStart', 'float'],
+        ['clipDurEdits', 'clipDur', 'float']
+      ], function(p){
+      var inputKey = p[0];
+      var prop = p[1];
+      var valueType = p[2];
+      if (_.has(_this.opt, inputKey) && _this.opt[inputKey].length) _this.loadTrackEdits(_this.opt[inputKey], prop, valueType);
+    });
+  };
+
   Sequencer.prototype.loadListeners = function(){
     var _this = this;
 
@@ -266,6 +283,7 @@ var Sequencer = (function() {
     trackKeys.sort();
     var patternEdits = Track.stringToTrackPatternEdits(patternEditsString);
     _.each(patternEdits, function(p){
+      if (p.index < 0 || p.index >= trackKeys.length) return false;
       var key = trackKeys[p.index];
       var $track = $('.track[data-track="'+key+'"]').first();
       if (!$track.length) return;
@@ -309,6 +327,11 @@ var Sequencer = (function() {
     return playerPromises;
   };
 
+  Sequencer.prototype.loadTemplate = function(el, className){
+    var $template = $(el).first().clone();
+    return _.template($template.html());
+  };
+
   Sequencer.prototype.loadTracks = function(tracks, type){
     var _this = this;
     var trackPromises = [];
@@ -318,9 +341,18 @@ var Sequencer = (function() {
     return trackPromises;
   };
 
-  Sequencer.prototype.loadTemplate = function(el, className){
-    var $template = $(el).first().clone();
-    return _.template($template.html());
+  Sequencer.prototype.loadTrackEdits = function(editString, property, valueType){
+    var _this = this;
+    var tracks = this.tracks;
+    var trackKeys = _.keys(tracks);
+    trackKeys.sort();
+    var edits = Track.stringToTrackEdits(editString, valueType);
+    _.each(edits, function(p){
+      if (p.index < 0 || p.index >= trackKeys.length) return false;
+      var key = trackKeys[p.index];
+      var track = tracks[key];
+      track.updateSetting(property, p.editedValue);
+    });
   };
 
   Sequencer.prototype.loadUI = function(){
@@ -339,6 +371,7 @@ var Sequencer = (function() {
     var value = parseFloat($input.val());
     var $target = $($input.attr('data-target'));
     this.tracks[this.currentTrack].updateSetting(property, value, $target);
+    this.opt.onChange();
   };
 
   Sequencer.prototype.onChangeBeat = function($checkbox, fromUser){
@@ -391,10 +424,7 @@ var Sequencer = (function() {
       _this.onStep(time, col);
     }, this.subdArr, this.subdStr).start(0);
 
-    if (_this.opt.patternEdits && _this.opt.patternEdits.length) {
-      this.loadPatternEdits(this.opt.patternEdits);
-    }
-
+    this.loadEdits();
     this.loadListeners();
   };
 
@@ -509,6 +539,18 @@ var Sequencer = (function() {
     // add pattern edits if there are any
     var patternEditsString = Track.trackPatternEditsToString(this.tracks);
     if (patternEditsString.length > 0) data.patternEdits = patternEditsString;
+
+    // add volume edits if there are any
+    var gainEditsString = Track.trackEditsToString(this.tracks, 'gain');
+    if (gainEditsString.length > 0) data.gainEdits = gainEditsString;
+
+    // add clip start edits if there are any
+    var clipStartEditsString = Track.trackEditsToString(this.tracks, 'clipStart');
+    if (clipStartEditsString.length > 0) data.clipStartEdits = clipStartEditsString;
+
+    // add clip duration edits if there are any
+    var clipDurEditsString = Track.trackEditsToString(this.tracks, 'clipDur');
+    if (clipDurEditsString.length > 0) data.clipDurEdits = clipDurEditsString;
 
     // return bpm if not default
     if (this.bpm !== this.defaultBPM) {

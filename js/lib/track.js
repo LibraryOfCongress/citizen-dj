@@ -27,6 +27,21 @@ var Track = (function() {
     this.init();
   }
 
+  Track.stringToTrackEdits = function(string, valueType){
+    var patternEdits = string.split("!");
+    patternEdits = _.map(patternEdits, function(p){
+      var parts = p.split("_");
+      var editedValue = parts[1];
+      if (valueType==="float") editedValue = parseFloat(editedValue);
+      else if (valueType==="int") editedValue = parseInt(editedValue);
+      return {
+        "index": parseInt(parts[0]),
+        "editedValue": editedValue
+      }
+    });
+    return patternEdits;
+  };
+
   Track.stringToTrackPatternEdits = function(string){
     var patternEdits = string.split("!");
     patternEdits = _.map(patternEdits, function(p){
@@ -37,7 +52,26 @@ var Track = (function() {
       }
     });
     return patternEdits;
-  }
+  };
+
+  Track.trackEditsToString = function(tracks, property){
+    var editString = "";
+    var trackKeys = _.keys(tracks);
+    trackKeys.sort();
+    // add pattern edits if there are any
+    var trackEdits = _.map(trackKeys, function(key, i){
+      return {
+        "editedValue": tracks[key].getEditedValue(property),
+        "index": i
+      };
+    });
+    trackEdits = _.filter(trackEdits, function(t){ return t.editedValue !== false; });
+    if (trackEdits.length > 0) {
+      trackEdits = _.map(trackEdits, function(t){ return t.index + "_" + t.editedValue});
+      editString = trackEdits.join("!");
+    }
+    return editString;
+  };
 
   Track.trackPatternEditsToString = function(tracks){
     var patternString = "";
@@ -56,7 +90,7 @@ var Track = (function() {
       patternString = trackPatternEdits.join("!");
     }
     return patternString;
-  }
+  };
 
   Track.prototype.init = function(){
     var _this = this;
@@ -70,6 +104,13 @@ var Track = (function() {
     if (this.opt.sourceStart !== false) {
        this.opt.sourceStartFormatted = MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3);
     }
+
+    // for keep track of edits to volume/clip
+    this.originalValues = {
+      'gain': this.opt.gain,
+      'clipStart': this.opt.clipStart,
+      'clipDur': this.opt.clipDur
+    };
 
     this.loaded = false;
     this.isMuted = false;
@@ -85,6 +126,11 @@ var Track = (function() {
     this.loaded = false;
     this.player.dispose();
     this.$el.remove();
+  };
+
+  Track.prototype.getEditedValue = function(property){
+    if (!_.has(this.opt, property) || !_.has(this.originalValues, property) || this.opt[property]===this.originalValues[property]) return false;
+    return this.opt[property];
   };
 
   Track.prototype.load = function(){
@@ -168,6 +214,7 @@ var Track = (function() {
     this.opt.duration = dur;
     if (this.opt.clipDur <= 0) {
       this.opt.clipDur = +dur.toFixed(3);
+      this.originalValues.clipDur = this.opt.clipDur;
     }
     this.loadPromise.resolve();
   };
@@ -332,7 +379,7 @@ var Track = (function() {
   Track.prototype.updateSetting = function(property, value, $target) {
     // console.log("update", property, value);
     this.opt[property] = value;
-    $target.text(value);
+    $target && $target.text(value);
     if (property==="clipStart" || property==="clipDur") this.onChangeClip();
     else if (property==="gain") this.setGain(value);
     else if (property==="reverb") this.setReverb(value);
