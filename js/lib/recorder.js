@@ -17,6 +17,9 @@ var AudioRecorder = (function() {
     this.prevUrl = false;
     this.recorder = false;
 
+    this.recordStartTime = false;
+    this.isRecording = false;
+
     if (this.destination) {
 
       var mimeType = 'audio/wav';
@@ -33,6 +36,13 @@ var AudioRecorder = (function() {
     }
 
     this.loadListeners();
+  };
+
+  AudioRecorder.prototype.isActiveRecording = function(){
+    if (this.recordStartTime === false) return false;
+    var now = new Date().getTime();
+    var delta = now - this.recordStartTime; // account for any delay
+    return (this.isRecording && delta > 10);
   };
 
   AudioRecorder.prototype.loadListeners = function(){
@@ -55,6 +65,8 @@ var AudioRecorder = (function() {
   };
 
   AudioRecorder.prototype.recordStart = function(){
+    this.recordStartTime = new Date().getTime();
+    this.isRecording = true;
     this.$recordButtons.addClass('active');
     this.$recordButtons.text('Stop recording');
     this.recorder.startRecording();
@@ -64,6 +76,9 @@ var AudioRecorder = (function() {
     var _this = this;
     this.$recordButtons.removeClass('active');
     this.$recordButtons.text('Record');
+
+    this.recordStartTime = false;
+    this.isRecording = false;
 
     this.isSaving = true;
     this.recorder.stopRecording(function() {

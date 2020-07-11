@@ -11,8 +11,9 @@
       <ul class="controls">
         <li><button class="toggle-play inverted">Play</button></li>
         <li class="slider-item"><label for="tempo">BPM:</label> <input id="tempo" type="range" min="60" max="180" value="120" class="slider bpm-input inverted" /> <span class="bpm-text value-text ">120</span></li>
-        <li><button class="download-pattern inverted">Download pattern</button></li>
-        <li><button class="share-pattern inverted">Share pattern</button></li>
+        <li><button class="download-pattern inverted" title="Download the current track loop as .wav file">Download pattern</button></li>
+        <li><button class="record-audio inverted" title="Record audio until you press stop">Record</button></li>
+        <li><button class="share-pattern inverted">Share</button></li>
       </ul>
     </nav>
 
@@ -184,13 +185,13 @@
   };
 </script>
 <script src="{{ site.baseurl }}/js/vendor/tone-13.8.25.min.js"></script>
-<!-- <script src="{{ site.baseurl }}/js/vendor/RecordRTC.min.js"></script> -->
+<script src="{{ site.baseurl }}/js/vendor/RecordRTC.min.js"></script>
 <script src="{{ site.baseurl }}/js/lib/util.js"></script>
 <script src="{{ site.baseurl }}/js/lib/collections.js"></script>
 <script src="{{ site.baseurl }}/js/lib/drums.js"></script>
 <script src="{{ site.baseurl }}/js/lib/track.js"></script>
 <script src="{{ site.baseurl }}/js/lib/sequencer.js"></script>
-<!-- <script src="{{ site.baseurl }}/js/lib/recorder.js"></script> -->
+<script src="{{ site.baseurl }}/js/lib/recorder.js"></script>
 <script>
   var CONFIG = {
     'baseUrl': '{{ site.baseurl }}',

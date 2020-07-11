@@ -27,13 +27,14 @@ var RemixApp = (function() {
     // console.log($.param({e: '9-._~:/?#[]@!$&()*+,;='}));
 
     // Tone.context.latencyHint = 'playback'; // prioritize sustained feedback; https://github.com/Tonejs/Tone.js/wiki/Performance
-    // try {
-    //   this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
-    // } catch(e) {
-    //   console.log('Recording not supported');
-    //   this.recordingStreamDestination = false;
-    // }
     this.recordingStreamDestination = false;
+    try {
+      this.recordingStreamDestination = Tone.context.createMediaStreamDestination();
+    } catch(e) {
+      console.log('Recording not supported');
+      this.recordingStreamDestination = false;
+    }
+
 
     var q = Util.queryParams();
     this.hasQuery = !_.isEmpty(q);
@@ -100,13 +101,14 @@ var RemixApp = (function() {
       "urlVarMap": _this.opt.urlVarMap,
       "tracks": tracks,
       "onChange": onChange,
-      "recordingStreamDestination": this.recordingStreamDestination
+      "recordingStreamDestination": this.recordingStreamDestination,
+      "recorder": this.recorder
     });
   };
 
   RemixApp.prototype.onLoad = function(){
+    this.loadRecorder();
     this.loadSequencer();
-    //this.loadRecorder();
     if (!this.hasQuery) this.updateURL(true);
     this.loadListeners();
   };

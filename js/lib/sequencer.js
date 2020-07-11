@@ -10,7 +10,8 @@ var Sequencer = (function() {
       'bpm': 90,
       'swing': 0.5, // between -0.5 and 0.5
       'onChange': function(){},
-      'recordingStreamDestination': false
+      'recordingStreamDestination': false,
+      'recorder': false
     };
     this.defaultBPM = defaults.bpm;
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
@@ -29,6 +30,7 @@ var Sequencer = (function() {
     this.subdStr = this.opt.subdivision + 'n';
     this.subdArr = _.times(this.opt.subdivision, function(n){ return n; });
     this.playing = false;
+    this.recorder = this.opt.recorder;
 
     this.loadUI();
 
@@ -389,9 +391,11 @@ var Sequencer = (function() {
   };
 
   Sequencer.prototype.onClickRecord = function($button){
-    var isActive = $button.hasClass('active');
+    if (this.recorder === false) return;
 
-    if (isActive && this.playing) {
+    var isRecording = this.recorder.isActiveRecording();
+    // auto-stop recording
+    if (isRecording && this.playing) {
       this.playing = false;
       this.stop();
     }
