@@ -4,6 +4,8 @@
 
 The Citizen DJ project invites the public to make hip hop music using the Library’s public audio and moving image collections. By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
 
+[Preview Citizen DJ here](https://citizen-dj.labs.loc.gov/)
+
 ## Use cases
 
 This document is for people with software development experience who are interested in:
