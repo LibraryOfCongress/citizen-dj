@@ -229,33 +229,33 @@ var ExploreApp = (function() {
     });
 
     // listen for mouse events
-    var $doc = $(document);
-    var mousedown = false;
-    $doc.on("mousedown", function(e){
-      if (touching || !started) return;
-      e.preventDefault();
-      mousedown = true;
-      // _this.listening = true;
-    });
-    $doc.on("mouseup", function(e){
-      if (touching || !started) return;
-      mousedown = false;
-      _this.listening = false;
-    });
-    $doc.on("mousemove", function(e){
-      if (touching || !started) return;
-      this.anchorX = e.pageX;
-      this.anchorY = e.pageY;
-      if (mousedown) _this.listening = true;
-      if (_this.listening) {
-        _this.pointerX = e.pageX;
-        _this.pointerY = e.pageY;
-      }
-    });
-    $doc.on("click", function(e){
-      if (touching || !started) return;
-      _this.play(e.pageX, e.pageY, true);
-    });
+    // var $doc = $(document);
+    // var mousedown = false;
+    // $doc.on("mousedown", function(e){
+    //   if (touching || !started) return;
+    //   e.preventDefault();
+    //   mousedown = true;
+    //   // _this.listening = true;
+    // });
+    // $doc.on("mouseup", function(e){
+    //   if (touching || !started) return;
+    //   mousedown = false;
+    //   _this.listening = false;
+    // });
+    // $doc.on("mousemove", function(e){
+    //   if (touching || !started) return;
+    //   this.anchorX = e.pageX;
+    //   this.anchorY = e.pageY;
+    //   if (mousedown) _this.listening = true;
+    //   if (_this.listening) {
+    //     _this.pointerX = e.pageX;
+    //     _this.pointerY = e.pageY;
+    //   }
+    // });
+    // $doc.on("click", function(e){
+    //   if (touching || !started) return;
+    //   _this.play(e.pageX, e.pageY, true);
+    // });
 
     // listen to mousewheel
     $(window).on('wheel', function(e){
@@ -596,6 +596,8 @@ var ExploreApp = (function() {
         html += '<h2 title="'+title+'">' + title + '</h2>';
         if (item.contributors.length)
           html += '<p>' + item.contributors + '</p>';
+        else
+          html += '<p>&nbsp;</p>';
       html += '</div>';
       var remixUrl = this.opt.baseUrl + '/' + this.opt.uid + '/remix/?itemId=' + item.itemId + '&itemStart=' + spriteItem.sourceStart;
       var buttonText = this.localItems ? 'View more details' : 'View on '+item.provider;
