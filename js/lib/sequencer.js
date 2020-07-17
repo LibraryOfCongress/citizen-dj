@@ -247,7 +247,7 @@ var Sequencer = (function() {
 
     $('main').on('click', '.play-audio', function(e){
       e.preventDefault();
-      _this.playAudio($(this).attr('href'));
+      _this.playAudio($(this).attr('href'), $(this));
     });
 
     $('body').on('click', '.download-track-audio', function(e){
@@ -459,13 +459,34 @@ var Sequencer = (function() {
     }, 10);
   };
 
-  Sequencer.prototype.playAudio = function(url){
-    if (url !== this.currentPlayerUrl) {
+  Sequencer.prototype.playAudio = function(url, $el){
+    var isPlaying = false;
+
+    // update element text
+    var playText = 'Play';
+    var stopText = 'Stop';
+    if ($el && $el.hasClass('playing')) {
+      isPlaying = true;
+      $el.removeClass('playing');
+      var originalPlayText = $el.attr('data-original-text');
+      if (originalPlayText) playText = originalPlayText;
+      $el.text(playText);
+    } else if ($el) {
+      $el.addClass('playing');
+      var originalText = $el.text();
+      $el.attr('data-original-text', originalText);
+      $el.text(stopText);
+    }
+
+    if (isPlaying) {
+      this.currentPlayer && this.currentPlayer.stop();
+    } else if (!isPlaying && url !== this.currentPlayerUrl) {
       this.currentPlayerUrl = url;
       this.currentPlayer = new Tone.Player(url).toMaster();
       //play as soon as the buffer is loaded
+      this.currentPlayer.loop = true;
       this.currentPlayer.autostart = true;
-    } else {
+    } else if (!isPlaying) {
       this.currentPlayer.start();
     }
   };
