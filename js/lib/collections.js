@@ -143,7 +143,7 @@ var Collections = (function() {
         "$parent": _this.$el,
         "pattern": trackPatterns[i],
         "url": sample.phraseFilename,
-        "downloadUrl": sample.downloadUrl,
+        // "downloadUrl": sample.downloadUrl,
         "title": _this.item.title,
         "sourceStart": sample.phraseStart,
         "phraseDownloadUrl": sample.phraseDownloadFilename,
@@ -243,10 +243,11 @@ var Collections = (function() {
     var assetUrl = this.opt.assetUrl;
     var samples = _.map(sampledata.items, function(sample){
       var sampleObj = _.object(sampleHeadings, sample);
-      if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
+      // if (Number.isInteger(sampleObj.id)) sampleObj.id = MathUtil.pad(sampleObj.id, padLength);
+      sampleObj.id = sampleObj.sourceFilename + '-' + sampleObj.sourceStart;
       sampleObj.title = 'starting at ' + MathUtil.secondsToString(sampleObj.sourceStart/1000.0, 3);
-      sampleObj.url = _this.opt.baseUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.mp3';
-      sampleObj.downloadUrl = assetUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.wav';
+      // sampleObj.url = _this.opt.baseUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.mp3';
+      // sampleObj.downloadUrl = assetUrl + _this.opt.audioDir + _this.opt.uid + '/' + sampleObj.id + '.wav';
       if (sampledata.groups) {
         _.each(sampledata.groups, function(groupList, key){
           sampleObj[key] = groupList[sampleObj[key]];

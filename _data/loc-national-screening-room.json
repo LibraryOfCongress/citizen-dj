@@ -3,13 +3,13 @@
         {
             "filename": "loc.gov_national-screening-room_mp3.zip",
             "label": "Download in 192 Kbps .mp3 format",
-            "size": "96.8mb",
+            "size": "101.3mb",
             "comment": "Ideal if you would just like to preview and browse this collection"
         },
         {
             "filename": "loc.gov_national-screening-room_wav.zip",
             "label": "Download in 16-bit .wav format",
-            "size": "447.8mb",
+            "size": "482.2mb",
             "comment": "Ideal for production"
         }
     ],
@@ -26,139 +26,59 @@
                     "start": 31000
                 },
                 {
-                    "filename": "A-better-America_2001642615_002_00-01-01",
-                    "timeStamp": "01:01",
-                    "start": 62000
-                },
-                {
-                    "filename": "A-better-America_2001642615_003_00-01-18",
-                    "timeStamp": "01:18",
-                    "start": 79000
-                },
-                {
-                    "filename": "A-better-America_2001642615_004_00-01-50",
-                    "timeStamp": "01:50",
-                    "start": 111000
-                },
-                {
-                    "filename": "A-better-America_2001642615_005_00-02-05",
-                    "timeStamp": "02:05",
-                    "start": 126000
-                },
-                {
-                    "filename": "A-better-America_2001642615_006_00-02-36",
+                    "filename": "A-better-America_2001642615_002_00-02-36",
                     "timeStamp": "02:36",
                     "start": 157000
                 },
                 {
-                    "filename": "A-better-America_2001642615_007_00-02-48",
-                    "timeStamp": "02:48",
-                    "start": 169000
-                },
-                {
-                    "filename": "A-better-America_2001642615_008_00-02-55",
-                    "timeStamp": "02:55",
-                    "start": 176000
-                },
-                {
-                    "filename": "A-better-America_2001642615_009_00-03-05",
+                    "filename": "A-better-America_2001642615_003_00-03-05",
                     "timeStamp": "03:05",
                     "start": 186000
                 },
                 {
-                    "filename": "A-better-America_2001642615_010_00-03-14",
+                    "filename": "A-better-America_2001642615_004_00-03-14",
                     "timeStamp": "03:14",
                     "start": 195000
                 },
                 {
-                    "filename": "A-better-America_2001642615_011_00-03-38",
+                    "filename": "A-better-America_2001642615_005_00-03-38",
                     "timeStamp": "03:38",
                     "start": 219000
                 },
                 {
-                    "filename": "A-better-America_2001642615_012_00-03-54",
-                    "timeStamp": "03:54",
-                    "start": 235000
-                },
-                {
-                    "filename": "A-better-America_2001642615_013_00-04-18",
+                    "filename": "A-better-America_2001642615_006_00-04-18",
                     "timeStamp": "04:18",
                     "start": 259000
                 },
                 {
-                    "filename": "A-better-America_2001642615_014_00-04-31",
+                    "filename": "A-better-America_2001642615_007_00-04-31",
                     "timeStamp": "04:31",
                     "start": 272000
                 },
                 {
-                    "filename": "A-better-America_2001642615_015_00-05-00",
-                    "timeStamp": "05:00",
-                    "start": 301000
-                },
-                {
-                    "filename": "A-better-America_2001642615_016_00-05-09",
+                    "filename": "A-better-America_2001642615_008_00-05-09",
                     "timeStamp": "05:09",
                     "start": 310000
                 },
                 {
-                    "filename": "A-better-America_2001642615_017_00-05-24",
-                    "timeStamp": "05:24",
-                    "start": 325000
-                },
-                {
-                    "filename": "A-better-America_2001642615_018_00-05-37",
-                    "timeStamp": "05:37",
-                    "start": 338000
-                },
-                {
-                    "filename": "A-better-America_2001642615_019_00-06-04",
-                    "timeStamp": "06:04",
-                    "start": 365000
-                },
-                {
-                    "filename": "A-better-America_2001642615_020_00-06-15",
-                    "timeStamp": "06:15",
-                    "start": 376000
-                },
-                {
-                    "filename": "A-better-America_2001642615_021_00-06-40",
-                    "timeStamp": "06:40",
-                    "start": 401000
-                },
-                {
-                    "filename": "A-better-America_2001642615_022_00-07-10",
+                    "filename": "A-better-America_2001642615_009_00-07-10",
                     "timeStamp": "07:10",
                     "start": 431000
                 },
                 {
-                    "filename": "A-better-America_2001642615_023_00-07-24",
+                    "filename": "A-better-America_2001642615_010_00-07-24",
                     "timeStamp": "07:24",
                     "start": 445000
                 },
                 {
-                    "filename": "A-better-America_2001642615_024_00-07-38",
-                    "timeStamp": "07:38",
-                    "start": 459000
-                },
-                {
-                    "filename": "A-better-America_2001642615_025_00-08-04",
+                    "filename": "A-better-America_2001642615_011_00-08-04",
                     "timeStamp": "08:04",
                     "start": 485000
                 },
                 {
-                    "filename": "A-better-America_2001642615_026_00-08-14",
-                    "timeStamp": "08:14",
-                    "start": 495000
-                },
-                {
-                    "filename": "A-better-America_2001642615_027_00-08-54",
+                    "filename": "A-better-America_2001642615_012_00-08-54",
                     "timeStamp": "08:54",
                     "start": 535000
-                },
-                {
-                    "filename": "A-better-America_2001642615_028_00-09-11",
-                    "timeStamp": "09:11",
-                    "start": 552000
                 }
             ]
         },
@@ -178,134 +98,54 @@
                     "start": 54000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_003_00-01-26",
-                    "timeStamp": "01:26",
-                    "start": 87000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_004_00-01-46",
-                    "timeStamp": "01:46",
-                    "start": 107000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_005_00-01-56",
-                    "timeStamp": "01:56",
-                    "start": 117000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_006_00-02-05",
-                    "timeStamp": "02:05",
-                    "start": 126000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_007_00-02-35",
+                    "filename": "A-better-New-York_2001642607_003_00-02-35",
                     "timeStamp": "02:35",
                     "start": 156000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_008_00-03-03",
+                    "filename": "A-better-New-York_2001642607_004_00-03-03",
                     "timeStamp": "03:03",
                     "start": 184000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_009_00-03-34",
+                    "filename": "A-better-New-York_2001642607_005_00-03-34",
                     "timeStamp": "03:34",
                     "start": 215000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_010_00-03-52",
+                    "filename": "A-better-New-York_2001642607_006_00-03-52",
                     "timeStamp": "03:52",
                     "start": 233000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_011_00-04-27",
+                    "filename": "A-better-New-York_2001642607_007_00-04-27",
                     "timeStamp": "04:27",
                     "start": 268000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_012_00-04-57",
-                    "timeStamp": "04:57",
-                    "start": 298000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_013_00-05-28",
-                    "timeStamp": "05:28",
-                    "start": 329000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_014_00-06-01",
-                    "timeStamp": "06:01",
-                    "start": 362000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_015_00-06-49",
+                    "filename": "A-better-New-York_2001642607_008_00-06-49",
                     "timeStamp": "06:49",
                     "start": 410000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_016_00-06-56",
-                    "timeStamp": "06:56",
-                    "start": 417000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_017_00-07-25",
-                    "timeStamp": "07:25",
-                    "start": 446000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_018_00-07-38",
+                    "filename": "A-better-New-York_2001642607_009_00-07-38",
                     "timeStamp": "07:38",
                     "start": 459000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_019_00-08-02",
+                    "filename": "A-better-New-York_2001642607_010_00-08-02",
                     "timeStamp": "08:02",
                     "start": 483000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_020_00-08-18",
-                    "timeStamp": "08:18",
-                    "start": 499000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_021_00-08-46",
-                    "timeStamp": "08:46",
-                    "start": 527000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_022_00-09-38",
-                    "timeStamp": "09:38",
-                    "start": 579000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_023_00-10-09",
-                    "timeStamp": "10:09",
-                    "start": 610000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_024_00-10-21",
-                    "timeStamp": "10:21",
-                    "start": 622000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_025_00-10-51",
+                    "filename": "A-better-New-York_2001642607_011_00-10-51",
                     "timeStamp": "10:51",
                     "start": 652000
                 },
                 {
-                    "filename": "A-better-New-York_2001642607_026_00-11-00",
+                    "filename": "A-better-New-York_2001642607_012_00-11-00",
                     "timeStamp": "11:00",
                     "start": 661000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_027_00-11-31",
-                    "timeStamp": "11:31",
-                    "start": 692000
-                },
-                {
-                    "filename": "A-better-New-York_2001642607_028_00-12-01",
-                    "timeStamp": "12:01",
-                    "start": 722000
                 }
             ]
         },
@@ -320,137 +160,57 @@
                     "start": 41000
                 },
                 {
-                    "filename": "About-faces_2001642585_002_00-00-54",
-                    "timeStamp": "00:54",
-                    "start": 55000
-                },
-                {
-                    "filename": "About-faces_2001642585_003_00-01-52",
-                    "timeStamp": "01:52",
-                    "start": 113000
-                },
-                {
-                    "filename": "About-faces_2001642585_004_00-02-20",
+                    "filename": "About-faces_2001642585_002_00-02-20",
                     "timeStamp": "02:20",
                     "start": 141000
                 },
                 {
-                    "filename": "About-faces_2001642585_005_00-02-28",
+                    "filename": "About-faces_2001642585_003_00-02-28",
                     "timeStamp": "02:28",
                     "start": 149000
                 },
                 {
-                    "filename": "About-faces_2001642585_006_00-02-39",
+                    "filename": "About-faces_2001642585_004_00-02-39",
                     "timeStamp": "02:39",
                     "start": 160000
                 },
                 {
-                    "filename": "About-faces_2001642585_007_00-03-18",
-                    "timeStamp": "03:18",
-                    "start": 199000
-                },
-                {
-                    "filename": "About-faces_2001642585_008_00-03-32",
+                    "filename": "About-faces_2001642585_005_00-03-32",
                     "timeStamp": "03:32",
                     "start": 213000
                 },
                 {
-                    "filename": "About-faces_2001642585_009_00-03-43",
-                    "timeStamp": "03:43",
-                    "start": 224000
-                },
-                {
-                    "filename": "About-faces_2001642585_010_00-04-01",
-                    "timeStamp": "04:01",
-                    "start": 242000
-                },
-                {
-                    "filename": "About-faces_2001642585_011_00-04-16",
+                    "filename": "About-faces_2001642585_006_00-04-16",
                     "timeStamp": "04:16",
                     "start": 257000
                 },
                 {
-                    "filename": "About-faces_2001642585_012_00-04-35",
-                    "timeStamp": "04:35",
-                    "start": 276000
-                },
-                {
-                    "filename": "About-faces_2001642585_013_00-04-55",
-                    "timeStamp": "04:55",
-                    "start": 296000
-                },
-                {
-                    "filename": "About-faces_2001642585_014_00-05-03",
-                    "timeStamp": "05:03",
-                    "start": 304000
-                },
-                {
-                    "filename": "About-faces_2001642585_015_00-05-37",
-                    "timeStamp": "05:37",
-                    "start": 338000
-                },
-                {
-                    "filename": "About-faces_2001642585_016_00-06-09",
+                    "filename": "About-faces_2001642585_007_00-06-09",
                     "timeStamp": "06:09",
                     "start": 370000
                 },
                 {
-                    "filename": "About-faces_2001642585_017_00-06-14",
-                    "timeStamp": "06:14",
-                    "start": 375000
-                },
-                {
-                    "filename": "About-faces_2001642585_018_00-06-22",
-                    "timeStamp": "06:22",
-                    "start": 383000
-                },
-                {
-                    "filename": "About-faces_2001642585_019_00-06-32",
-                    "timeStamp": "06:32",
-                    "start": 393000
-                },
-                {
-                    "filename": "About-faces_2001642585_020_00-06-50",
-                    "timeStamp": "06:50",
-                    "start": 411000
-                },
-                {
-                    "filename": "About-faces_2001642585_021_00-07-47",
+                    "filename": "About-faces_2001642585_008_00-07-47",
                     "timeStamp": "07:47",
                     "start": 468000
                 },
                 {
-                    "filename": "About-faces_2001642585_022_00-08-00",
+                    "filename": "About-faces_2001642585_009_00-08-00",
                     "timeStamp": "08:00",
                     "start": 481000
                 },
                 {
-                    "filename": "About-faces_2001642585_023_00-08-05",
+                    "filename": "About-faces_2001642585_010_00-08-05",
                     "timeStamp": "08:05",
                     "start": 486000
                 },
                 {
-                    "filename": "About-faces_2001642585_024_00-08-41",
-                    "timeStamp": "08:41",
-                    "start": 522000
-                },
-                {
-                    "filename": "About-faces_2001642585_025_00-09-15",
-                    "timeStamp": "09:15",
-                    "start": 556000
-                },
-                {
-                    "filename": "About-faces_2001642585_026_00-09-44",
-                    "timeStamp": "09:44",
-                    "start": 585000
-                },
-                {
-                    "filename": "About-faces_2001642585_027_00-09-55",
+                    "filename": "About-faces_2001642585_011_00-09-55",
                     "timeStamp": "09:55",
                     "start": 596000
                 },
                 {
-                    "filename": "About-faces_2001642585_028_00-10-49",
+                    "filename": "About-faces_2001642585_012_00-10-49",
                     "timeStamp": "10:49",
                     "start": 650000
                 }
@@ -494,87 +254,57 @@
                     "start": 47000
                 },
                 {
-                    "filename": "Bomber_2001642620_002_00-01-10",
-                    "timeStamp": "01:10",
-                    "start": 71000
-                },
-                {
-                    "filename": "Bomber_2001642620_003_00-02-39",
+                    "filename": "Bomber_2001642620_002_00-02-39",
                     "timeStamp": "02:39",
                     "start": 160000
                 },
                 {
-                    "filename": "Bomber_2001642620_004_00-03-09",
+                    "filename": "Bomber_2001642620_003_00-03-09",
                     "timeStamp": "03:09",
                     "start": 190000
                 },
                 {
-                    "filename": "Bomber_2001642620_005_00-03-16",
+                    "filename": "Bomber_2001642620_004_00-03-16",
                     "timeStamp": "03:16",
                     "start": 197000
                 },
                 {
-                    "filename": "Bomber_2001642620_006_00-03-46",
+                    "filename": "Bomber_2001642620_005_00-03-46",
                     "timeStamp": "03:46",
                     "start": 227000
                 },
                 {
-                    "filename": "Bomber_2001642620_007_00-04-10",
+                    "filename": "Bomber_2001642620_006_00-04-10",
                     "timeStamp": "04:10",
                     "start": 251000
                 },
                 {
-                    "filename": "Bomber_2001642620_008_00-04-19",
-                    "timeStamp": "04:19",
-                    "start": 260000
-                },
-                {
-                    "filename": "Bomber_2001642620_009_00-04-30",
-                    "timeStamp": "04:30",
-                    "start": 271000
-                },
-                {
-                    "filename": "Bomber_2001642620_010_00-04-42",
+                    "filename": "Bomber_2001642620_007_00-04-42",
                     "timeStamp": "04:42",
                     "start": 283000
                 },
                 {
-                    "filename": "Bomber_2001642620_011_00-05-12",
+                    "filename": "Bomber_2001642620_008_00-05-12",
                     "timeStamp": "05:12",
                     "start": 313000
                 },
                 {
-                    "filename": "Bomber_2001642620_012_00-05-32",
-                    "timeStamp": "05:32",
-                    "start": 333000
-                },
-                {
-                    "filename": "Bomber_2001642620_013_00-06-02",
+                    "filename": "Bomber_2001642620_009_00-06-02",
                     "timeStamp": "06:02",
                     "start": 363000
                 },
                 {
-                    "filename": "Bomber_2001642620_014_00-06-37",
-                    "timeStamp": "06:37",
-                    "start": 398000
-                },
-                {
-                    "filename": "Bomber_2001642620_015_00-06-55",
+                    "filename": "Bomber_2001642620_010_00-06-55",
                     "timeStamp": "06:55",
                     "start": 416000
                 },
                 {
-                    "filename": "Bomber_2001642620_016_00-07-19",
+                    "filename": "Bomber_2001642620_011_00-07-19",
                     "timeStamp": "07:19",
                     "start": 440000
                 },
                 {
-                    "filename": "Bomber_2001642620_017_00-08-39",
-                    "timeStamp": "08:39",
-                    "start": 520000
-                },
-                {
-                    "filename": "Bomber_2001642620_018_00-09-51",
+                    "filename": "Bomber_2001642620_012_00-09-51",
                     "timeStamp": "09:51",
                     "start": 592000
                 }
@@ -586,134 +316,565 @@
             "url": "http://www.loc.gov/item/2001642629/",
             "clips": [
                 {
-                    "filename": "Carry-the-fight_2001642629_001_00-00-10",
-                    "timeStamp": "00:10",
-                    "start": 11000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_002_00-00-40",
+                    "filename": "Carry-the-fight_2001642629_001_00-00-40",
                     "timeStamp": "00:40",
                     "start": 41000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_003_00-00-54",
+                    "filename": "Carry-the-fight_2001642629_002_00-00-54",
                     "timeStamp": "00:54",
                     "start": 55000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_004_00-01-09",
+                    "filename": "Carry-the-fight_2001642629_003_00-01-09",
                     "timeStamp": "01:09",
                     "start": 70000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_005_00-01-29",
+                    "filename": "Carry-the-fight_2001642629_004_00-01-29",
                     "timeStamp": "01:29",
                     "start": 90000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_006_00-01-45",
-                    "timeStamp": "01:45",
-                    "start": 106000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_007_00-02-14",
-                    "timeStamp": "02:14",
-                    "start": 135000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_008_00-02-33",
+                    "filename": "Carry-the-fight_2001642629_005_00-02-33",
                     "timeStamp": "02:33",
                     "start": 154000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_009_00-03-04",
+                    "filename": "Carry-the-fight_2001642629_006_00-03-04",
                     "timeStamp": "03:04",
                     "start": 185000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_010_00-03-44",
+                    "filename": "Carry-the-fight_2001642629_007_00-03-44",
                     "timeStamp": "03:44",
                     "start": 225000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_011_00-03-49",
+                    "filename": "Carry-the-fight_2001642629_008_00-03-49",
                     "timeStamp": "03:49",
                     "start": 230000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_012_00-03-56",
-                    "timeStamp": "03:56",
-                    "start": 237000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_013_00-04-09",
-                    "timeStamp": "04:09",
-                    "start": 250000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_014_00-04-19",
-                    "timeStamp": "04:19",
-                    "start": 260000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_015_00-05-00",
-                    "timeStamp": "05:00",
-                    "start": 301000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_016_00-05-14",
-                    "timeStamp": "05:14",
-                    "start": 315000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_017_00-05-46",
-                    "timeStamp": "05:46",
-                    "start": 347000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_018_00-05-59",
-                    "timeStamp": "05:59",
-                    "start": 360000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_019_00-06-18",
+                    "filename": "Carry-the-fight_2001642629_009_00-06-18",
                     "timeStamp": "06:18",
                     "start": 379000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_020_00-06-42",
+                    "filename": "Carry-the-fight_2001642629_010_00-06-42",
                     "timeStamp": "06:42",
                     "start": 403000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_021_00-07-11",
-                    "timeStamp": "07:11",
-                    "start": 432000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_022_00-07-32",
-                    "timeStamp": "07:32",
-                    "start": 453000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_023_00-07-41",
+                    "filename": "Carry-the-fight_2001642629_011_00-07-41",
                     "timeStamp": "07:41",
                     "start": 462000
                 },
                 {
-                    "filename": "Carry-the-fight_2001642629_024_00-07-59",
-                    "timeStamp": "07:59",
-                    "start": 480000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_025_00-08-04",
-                    "timeStamp": "08:04",
-                    "start": 485000
-                },
-                {
-                    "filename": "Carry-the-fight_2001642629_026_00-08-29",
+                    "filename": "Carry-the-fight_2001642629_012_00-08-29",
                     "timeStamp": "08:29",
                     "start": 510000
+                }
+            ]
+        },
+        {
+            "id": "mbrs01964101",
+            "title": "Communism.",
+            "url": "http://www.loc.gov/item/mbrs01964101/",
+            "clips": [
+                {
+                    "filename": "Communism_mbrs01964101_001_00-05-58",
+                    "timeStamp": "05:58",
+                    "start": 359000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_002_00-12-38",
+                    "timeStamp": "12:38",
+                    "start": 759000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_003_00-14-49",
+                    "timeStamp": "14:49",
+                    "start": 890000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_004_00-15-22",
+                    "timeStamp": "15:22",
+                    "start": 923000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_005_00-15-30",
+                    "timeStamp": "15:30",
+                    "start": 931000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_006_00-16-01",
+                    "timeStamp": "16:01",
+                    "start": 962000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_007_00-17-16",
+                    "timeStamp": "17:16",
+                    "start": 1037000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_008_00-18-19",
+                    "timeStamp": "18:19",
+                    "start": 1100000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_009_00-24-59",
+                    "timeStamp": "24:59",
+                    "start": 1500000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_010_00-28-31",
+                    "timeStamp": "28:31",
+                    "start": 1712000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_011_00-29-10",
+                    "timeStamp": "29:10",
+                    "start": 1751000
+                },
+                {
+                    "filename": "Communism_mbrs01964101_012_00-30-23",
+                    "timeStamp": "30:23",
+                    "start": 1824000
+                }
+            ]
+        },
+        {
+            "id": "2020600729",
+            "title": "Film communique. No. 4",
+            "url": "http://www.loc.gov/item/2020600729/",
+            "clips": [
+                {
+                    "filename": "Film-communique-No-4_2020600729_001_00-00-43",
+                    "timeStamp": "00:43",
+                    "start": 44000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_002_00-00-50",
+                    "timeStamp": "00:50",
+                    "start": 51000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_003_00-00-57",
+                    "timeStamp": "00:57",
+                    "start": 58000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_004_00-01-40",
+                    "timeStamp": "01:40",
+                    "start": 101000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_005_00-03-18",
+                    "timeStamp": "03:18",
+                    "start": 199000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_006_00-03-49",
+                    "timeStamp": "03:49",
+                    "start": 230000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_007_00-08-30",
+                    "timeStamp": "08:30",
+                    "start": 511000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_008_00-08-49",
+                    "timeStamp": "08:49",
+                    "start": 530000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_009_00-09-16",
+                    "timeStamp": "09:16",
+                    "start": 557000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_010_00-13-55",
+                    "timeStamp": "13:55",
+                    "start": 836000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_011_00-14-17",
+                    "timeStamp": "14:17",
+                    "start": 858000
+                },
+                {
+                    "filename": "Film-communique-No-4_2020600729_012_00-14-54",
+                    "timeStamp": "14:54",
+                    "start": 895000
+                }
+            ]
+        },
+        {
+            "id": "mbrs01840194",
+            "title": "For Health and Happiness",
+            "url": "http://www.loc.gov/item/mbrs01840194/",
+            "clips": [
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_001_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_002_00-01-46",
+                    "timeStamp": "01:46",
+                    "start": 107000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_003_00-03-37",
+                    "timeStamp": "03:37",
+                    "start": 218000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_004_00-03-56",
+                    "timeStamp": "03:56",
+                    "start": 237000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_005_00-04-05",
+                    "timeStamp": "04:05",
+                    "start": 246000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_006_00-04-27",
+                    "timeStamp": "04:27",
+                    "start": 268000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_007_00-05-08",
+                    "timeStamp": "05:08",
+                    "start": 309000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_008_00-05-38",
+                    "timeStamp": "05:38",
+                    "start": 339000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_009_00-05-58",
+                    "timeStamp": "05:58",
+                    "start": 359000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_010_00-08-45",
+                    "timeStamp": "08:45",
+                    "start": 526000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_011_00-09-45",
+                    "timeStamp": "09:45",
+                    "start": 586000
+                },
+                {
+                    "filename": "For-Health-and-Happiness_mbrs01840194_012_00-10-52",
+                    "timeStamp": "10:52",
+                    "start": 653000
+                }
+            ]
+        },
+        {
+            "id": "2020600701",
+            "title": "Henry Browne, farmer",
+            "url": "http://www.loc.gov/item/2020600701/",
+            "clips": [
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_001_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_002_00-03-27",
+                    "timeStamp": "03:27",
+                    "start": 208000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_003_00-04-12",
+                    "timeStamp": "04:12",
+                    "start": 253000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_004_00-06-07",
+                    "timeStamp": "06:07",
+                    "start": 368000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_005_00-06-32",
+                    "timeStamp": "06:32",
+                    "start": 393000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_006_00-07-02",
+                    "timeStamp": "07:02",
+                    "start": 423000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_007_00-07-52",
+                    "timeStamp": "07:52",
+                    "start": 473000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_008_00-08-22",
+                    "timeStamp": "08:22",
+                    "start": 503000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_009_00-08-59",
+                    "timeStamp": "08:59",
+                    "start": 540000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_010_00-09-08",
+                    "timeStamp": "09:08",
+                    "start": 549000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_011_00-10-20",
+                    "timeStamp": "10:20",
+                    "start": 621000
+                },
+                {
+                    "filename": "Henry-Browne-farmer_2020600701_012_00-10-29",
+                    "timeStamp": "10:29",
+                    "start": 630000
+                }
+            ]
+        },
+        {
+            "id": "2020600704",
+            "title": "Negro colleges in war time",
+            "url": "http://www.loc.gov/item/2020600704/",
+            "clips": [
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_002_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_003_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_004_00-01-55",
+                    "timeStamp": "01:55",
+                    "start": 116000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_005_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_008_00-03-07",
+                    "timeStamp": "03:07",
+                    "start": 188000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_009_00-04-27",
+                    "timeStamp": "04:27",
+                    "start": 268000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_010_00-04-47",
+                    "timeStamp": "04:47",
+                    "start": 288000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_011_00-05-41",
+                    "timeStamp": "05:41",
+                    "start": 342000
+                },
+                {
+                    "filename": "Negro-colleges-in-war-time_2020600704_012_00-05-56",
+                    "timeStamp": "05:56",
+                    "start": 357000
+                }
+            ]
+        },
+        {
+            "id": "mbrs02319804",
+            "title": "The Atom Comes to Town",
+            "url": "http://www.loc.gov/item/mbrs02319804/",
+            "clips": [
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_001_00-07-48",
+                    "timeStamp": "07:48",
+                    "start": 469000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_002_00-08-23",
+                    "timeStamp": "08:23",
+                    "start": 504000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_003_00-09-25",
+                    "timeStamp": "09:25",
+                    "start": 566000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_004_00-11-49",
+                    "timeStamp": "11:49",
+                    "start": 710000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_005_00-16-53",
+                    "timeStamp": "16:53",
+                    "start": 1014000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_006_00-17-07",
+                    "timeStamp": "17:07",
+                    "start": 1028000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_007_00-17-26",
+                    "timeStamp": "17:26",
+                    "start": 1047000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_008_00-19-33",
+                    "timeStamp": "19:33",
+                    "start": 1174000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_009_00-26-36",
+                    "timeStamp": "26:36",
+                    "start": 1597000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_010_00-28-14",
+                    "timeStamp": "28:14",
+                    "start": 1695000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_011_00-28-33",
+                    "timeStamp": "28:33",
+                    "start": 1714000
+                },
+                {
+                    "filename": "The-Atom-Comes-to-Town_mbrs02319804_012_00-29-28",
+                    "timeStamp": "29:28",
+                    "start": 1769000
+                }
+            ]
+        },
+        {
+            "id": "mbrs00009301",
+            "title": "The Memphis Belle: A Story of a Flying Fortress",
+            "url": "http://www.loc.gov/item/mbrs00009301/",
+            "clips": [
+                {
+                    "filename": "The-Memphis-Belle-A-Story-of-a-Flying-Fortress_mbrs00009301_001_00-12-17",
+                    "timeStamp": "12:17",
+                    "start": 738000
+                },
+                {
+                    "filename": "The-Memphis-Belle-A-Story-of-a-Flying-Fortress_mbrs00009301_002_00-15-02",
+                    "timeStamp": "15:02",
+                    "start": 903000
+                },
+                {
+                    "filename": "The-Memphis-Belle-A-Story-of-a-Flying-Fortress_mbrs00009301_003_00-26-15",
+                    "timeStamp": "26:15",
+                    "start": 1576000
+                },
+                {
+                    "filename": "The-Memphis-Belle-A-Story-of-a-Flying-Fortress_mbrs00009301_004_00-34-09",
+                    "timeStamp": "34:09",
+                    "start": 2050000
+                },
+                {
+                    "filename": "The-Memphis-Belle-A-Story-of-a-Flying-Fortress_mbrs00009301_005_00-39-52",
+                    "timeStamp": "39:52",
+                    "start": 2393000
+                }
+            ]
+        },
+        {
+            "id": "2018601440",
+            "title": "The adventures of Junior Raindrop",
+            "url": "http://www.loc.gov/item/2018601440/",
+            "clips": [
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_001_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_002_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_003_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_004_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_005_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_006_00-05-09",
+                    "timeStamp": "05:09",
+                    "start": 310000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_007_00-05-35",
+                    "timeStamp": "05:35",
+                    "start": 336000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_008_00-06-31",
+                    "timeStamp": "06:31",
+                    "start": 392000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_009_00-06-50",
+                    "timeStamp": "06:50",
+                    "start": 411000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_010_00-06-59",
+                    "timeStamp": "06:59",
+                    "start": 420000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_011_00-07-17",
+                    "timeStamp": "07:17",
+                    "start": 438000
+                },
+                {
+                    "filename": "The-adventures-of-Junior-Raindrop_2018601440_012_00-07-34",
+                    "timeStamp": "07:34",
+                    "start": 455000
                 }
             ]
         },
@@ -728,139 +889,59 @@
                     "start": 1000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_002_00-00-59",
-                    "timeStamp": "00:59",
-                    "start": 60000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_003_00-01-38",
+                    "filename": "The-arm-behind-the-Army_2001642592_002_00-01-38",
                     "timeStamp": "01:38",
                     "start": 99000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_004_00-01-48",
-                    "timeStamp": "01:48",
-                    "start": 109000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_005_00-02-01",
-                    "timeStamp": "02:01",
-                    "start": 122000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_006_00-02-17",
+                    "filename": "The-arm-behind-the-Army_2001642592_003_00-02-17",
                     "timeStamp": "02:17",
                     "start": 138000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_007_00-02-35",
+                    "filename": "The-arm-behind-the-Army_2001642592_004_00-02-35",
                     "timeStamp": "02:35",
                     "start": 156000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_008_00-03-08",
-                    "timeStamp": "03:08",
-                    "start": 189000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_009_00-03-43",
+                    "filename": "The-arm-behind-the-Army_2001642592_005_00-03-43",
                     "timeStamp": "03:43",
                     "start": 224000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_010_00-03-59",
-                    "timeStamp": "03:59",
-                    "start": 240000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_011_00-04-25",
-                    "timeStamp": "04:25",
-                    "start": 266000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_012_00-05-09",
+                    "filename": "The-arm-behind-the-Army_2001642592_006_00-05-09",
                     "timeStamp": "05:09",
                     "start": 310000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_013_00-05-16",
+                    "filename": "The-arm-behind-the-Army_2001642592_007_00-05-16",
                     "timeStamp": "05:16",
                     "start": 317000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_014_00-05-40",
-                    "timeStamp": "05:40",
-                    "start": 341000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_015_00-05-50",
-                    "timeStamp": "05:50",
-                    "start": 351000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_016_00-06-19",
+                    "filename": "The-arm-behind-the-Army_2001642592_008_00-06-19",
                     "timeStamp": "06:19",
                     "start": 380000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_017_00-06-25",
-                    "timeStamp": "06:25",
-                    "start": 386000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_018_00-06-35",
-                    "timeStamp": "06:35",
-                    "start": 396000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_019_00-06-42",
-                    "timeStamp": "06:42",
-                    "start": 403000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_020_00-06-54",
+                    "filename": "The-arm-behind-the-Army_2001642592_009_00-06-54",
                     "timeStamp": "06:54",
                     "start": 415000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_021_00-07-21",
-                    "timeStamp": "07:21",
-                    "start": 442000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_022_00-07-55",
+                    "filename": "The-arm-behind-the-Army_2001642592_010_00-07-55",
                     "timeStamp": "07:55",
                     "start": 476000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_023_00-08-32",
-                    "timeStamp": "08:32",
-                    "start": 513000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_024_00-08-48",
+                    "filename": "The-arm-behind-the-Army_2001642592_011_00-08-48",
                     "timeStamp": "08:48",
                     "start": 529000
                 },
                 {
-                    "filename": "The-arm-behind-the-Army_2001642592_025_00-09-25",
-                    "timeStamp": "09:25",
-                    "start": 566000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_026_00-09-41",
+                    "filename": "The-arm-behind-the-Army_2001642592_012_00-09-41",
                     "timeStamp": "09:41",
                     "start": 582000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_027_00-10-00",
-                    "timeStamp": "10:00",
-                    "start": 601000
-                },
-                {
-                    "filename": "The-arm-behind-the-Army_2001642592_028_00-10-09",
-                    "timeStamp": "10:09",
-                    "start": 610000
                 }
             ]
         },
@@ -875,144 +956,198 @@
                     "start": 31000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_002_00-00-56",
-                    "timeStamp": "00:56",
-                    "start": 57000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_003_00-01-26",
+                    "filename": "The-calls-that-cure_2001642627_002_00-01-26",
                     "timeStamp": "01:26",
                     "start": 87000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_004_00-01-41",
+                    "filename": "The-calls-that-cure_2001642627_003_00-01-41",
                     "timeStamp": "01:41",
                     "start": 102000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_005_00-01-54",
+                    "filename": "The-calls-that-cure_2001642627_004_00-01-54",
                     "timeStamp": "01:54",
                     "start": 115000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_006_00-02-33",
-                    "timeStamp": "02:33",
-                    "start": 154000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_007_00-02-44",
-                    "timeStamp": "02:44",
-                    "start": 165000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_008_00-02-57",
+                    "filename": "The-calls-that-cure_2001642627_005_00-02-57",
                     "timeStamp": "02:57",
                     "start": 178000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_009_00-03-03",
-                    "timeStamp": "03:03",
-                    "start": 184000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_010_00-03-17",
-                    "timeStamp": "03:17",
-                    "start": 198000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_011_00-03-28",
-                    "timeStamp": "03:28",
-                    "start": 209000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_012_00-04-35",
+                    "filename": "The-calls-that-cure_2001642627_006_00-04-35",
                     "timeStamp": "04:35",
                     "start": 276000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_013_00-04-42",
-                    "timeStamp": "04:42",
-                    "start": 283000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_014_00-04-54",
+                    "filename": "The-calls-that-cure_2001642627_007_00-04-54",
                     "timeStamp": "04:54",
                     "start": 295000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_015_00-05-19",
+                    "filename": "The-calls-that-cure_2001642627_008_00-05-19",
                     "timeStamp": "05:19",
                     "start": 320000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_016_00-07-06",
-                    "timeStamp": "07:06",
-                    "start": 427000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_017_00-07-10",
-                    "timeStamp": "07:10",
-                    "start": 431000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_018_00-07-40",
-                    "timeStamp": "07:40",
-                    "start": 461000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_019_00-07-59",
-                    "timeStamp": "07:59",
-                    "start": 480000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_020_00-08-41",
-                    "timeStamp": "08:41",
-                    "start": 522000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_021_00-09-15",
-                    "timeStamp": "09:15",
-                    "start": 556000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_022_00-09-25",
-                    "timeStamp": "09:25",
-                    "start": 566000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_023_00-09-39",
-                    "timeStamp": "09:39",
-                    "start": 580000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_024_00-09-51",
+                    "filename": "The-calls-that-cure_2001642627_009_00-09-51",
                     "timeStamp": "09:51",
                     "start": 592000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_025_00-09-57",
+                    "filename": "The-calls-that-cure_2001642627_010_00-09-57",
                     "timeStamp": "09:57",
                     "start": 598000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_026_00-10-10",
-                    "timeStamp": "10:10",
-                    "start": 611000
-                },
-                {
-                    "filename": "The-calls-that-cure_2001642627_027_00-10-30",
+                    "filename": "The-calls-that-cure_2001642627_011_00-10-30",
                     "timeStamp": "10:30",
                     "start": 631000
                 },
                 {
-                    "filename": "The-calls-that-cure_2001642627_028_00-11-07",
+                    "filename": "The-calls-that-cure_2001642627_012_00-11-07",
                     "timeStamp": "11:07",
                     "start": 668000
                 }
             ]
+        },
+        {
+            "id": "2007640253",
+            "title": "The river",
+            "url": "http://www.loc.gov/item/2007640253/",
+            "clips": [
+                {
+                    "filename": "The-river_2007640253_001_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "The-river_2007640253_002_00-05-07",
+                    "timeStamp": "05:07",
+                    "start": 308000
+                },
+                {
+                    "filename": "The-river_2007640253_003_00-06-47",
+                    "timeStamp": "06:47",
+                    "start": 408000
+                },
+                {
+                    "filename": "The-river_2007640253_004_00-07-18",
+                    "timeStamp": "07:18",
+                    "start": 439000
+                },
+                {
+                    "filename": "The-river_2007640253_005_00-09-40",
+                    "timeStamp": "09:40",
+                    "start": 581000
+                },
+                {
+                    "filename": "The-river_2007640253_006_00-10-10",
+                    "timeStamp": "10:10",
+                    "start": 611000
+                },
+                {
+                    "filename": "The-river_2007640253_007_00-10-47",
+                    "timeStamp": "10:47",
+                    "start": 648000
+                },
+                {
+                    "filename": "The-river_2007640253_008_00-11-36",
+                    "timeStamp": "11:36",
+                    "start": 697000
+                },
+                {
+                    "filename": "The-river_2007640253_009_00-13-07",
+                    "timeStamp": "13:07",
+                    "start": 788000
+                },
+                {
+                    "filename": "The-river_2007640253_010_00-15-43",
+                    "timeStamp": "15:43",
+                    "start": 944000
+                },
+                {
+                    "filename": "The-river_2007640253_011_00-30-25",
+                    "timeStamp": "30:25",
+                    "start": 1826000
+                },
+                {
+                    "filename": "The-river_2007640253_012_00-31-17",
+                    "timeStamp": "31:17",
+                    "start": 1878000
+                }
+            ]
+        },
+        {
+            "id": "2020600703",
+            "title": "When work is done",
+            "url": "http://www.loc.gov/item/2020600703/",
+            "clips": [
+                {
+                    "filename": "When-work-is-done_2020600703_001_00-01-22",
+                    "timeStamp": "01:22",
+                    "start": 83000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_002_00-01-46",
+                    "timeStamp": "01:46",
+                    "start": 107000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_003_00-01-54",
+                    "timeStamp": "01:54",
+                    "start": 115000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_004_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_005_00-03-36",
+                    "timeStamp": "03:36",
+                    "start": 217000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_006_00-04-11",
+                    "timeStamp": "04:11",
+                    "start": 252000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_007_00-04-34",
+                    "timeStamp": "04:34",
+                    "start": 275000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_008_00-05-54",
+                    "timeStamp": "05:54",
+                    "start": 355000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_009_00-06-00",
+                    "timeStamp": "06:00",
+                    "start": 361000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_010_00-06-57",
+                    "timeStamp": "06:57",
+                    "start": 418000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_011_00-08-11",
+                    "timeStamp": "08:11",
+                    "start": 492000
+                },
+                {
+                    "filename": "When-work-is-done_2020600703_012_00-08-38",
+                    "timeStamp": "08:38",
+                    "start": 519000
+                }
+            ]
         }
     ],
-    "segmentCount": 188,
+    "segmentCount": 201,
     "oneshotCount": 4096,
-    "totalCount": 4284
+    "totalCount": 4297
 }
