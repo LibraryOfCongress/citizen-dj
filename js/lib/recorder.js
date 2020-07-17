@@ -83,7 +83,7 @@ var AudioRecorder = (function() {
     this.isSaving = true;
     this.recorder.stopRecording(function() {
       var blob = _this.recorder.getBlob();
-      invokeSaveAsDialog(blob);
+      AudioUtils.downloadBlob(blob);
       _this.isSaving = false;
     });
   };

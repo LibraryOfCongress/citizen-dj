@@ -56,6 +56,12 @@
     return dateTime;
   };
 
+  Util.uniqueString = function(prefix){
+    prefix = prefix || '';
+    var dt = new Date().getTime();
+    return ''+prefix+dt;
+  };
+
 })();
 
 
@@ -257,6 +263,19 @@
     var blob = new window.Blob([ new DataView(wav) ], {
       type: 'audio/wav'
     });
+
+    AudioUtils.downloadBlob(blob, filename);
+  };
+
+  AudioUtils.downloadBlob = function(blob, filename){
+    filename = filename || 'citizen_dj_audio_clip_' + Util.uniqueString() + '.wav';
+
+    // for internet explorer
+    if (window.navigator && window.navigator.msSaveOrOpenBlob) {
+      window.navigator.msSaveOrOpenBlob(blob, filename);
+      return;
+    }
+
     var url = window.URL.createObjectURL(blob);
     var anchorId = 'invisibleBufferAchnor';
     var anchor = document.getElementById(anchorId);
@@ -264,10 +283,10 @@
       var anchor = document.createElement('a')
       document.body.appendChild(anchor);
       anchor.id = anchorId;
-      anchor.style = 'display: none';
+      anchor.style = 'position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap;';
     }
     anchor.href = url;
-    anchor.download = filename || 'citizen_dj_audio_clip.wav';
+    anchor.download = filename;
     anchor.click();
     window.URL.revokeObjectURL(url);
   };
