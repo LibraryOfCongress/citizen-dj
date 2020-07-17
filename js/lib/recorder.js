@@ -24,7 +24,7 @@ var AudioRecorder = (function() {
 
       var mimeType = 'audio/wav';
       var recorderType = MediaStreamRecorder;
-      if (!MediaRecorder.isTypeSupported(mimeType)){
+      if (typeof MediaRecorder === 'undefined' || !MediaRecorder.isTypeSupported(mimeType)){
         recorderType = StereoAudioRecorder;
       }
 
