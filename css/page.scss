@@ -10,11 +10,12 @@ h2 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2.4rem;
   margin: 2rem 0 0;
+  line-height: 1.2;
 }
 h2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-top: 4rem;
   line-height: 1.2;
 }
@@ -180,6 +181,13 @@ hr {
   width: 66.67%;
   height: auto;
   display: inline-block;
+}
+
+.guide img {
+  border: 1px solid #aaa;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 600px) {
