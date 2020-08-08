@@ -14,7 +14,8 @@ var RemixApp = (function() {
         "patternEdits": "e",
         "gainEdits": "g",
         "clipStartEdits": "t",
-        "clipDurEdits": "r"
+        "clipDurEdits": "r",
+        "addDrumTracks": "a"
       }
     };
     this.opt = _.extend({}, defaults, config);
@@ -42,7 +43,7 @@ var RemixApp = (function() {
     this.drums = new Drums({
       "parent": _this.opt.el,
       "urlVarMap": _this.opt.urlVarMap,
-      "onChange": function(){ _this.onChangeDrums(); },
+      "onChange": function(retainEdits){ _this.onChangeDrums(retainEdits); },
       "beforeChange": function(){ _this.beforeChange(); }
     });
 
@@ -50,7 +51,7 @@ var RemixApp = (function() {
       "parent": _this.opt.el,
       "urlVarMap": _this.opt.urlVarMap,
       "assetUrl": _this.opt.assetUrl,
-      "onChange": function(){ _this.onChangeCollections(); },
+      "onChange": function(retainEdits){ _this.onChangeCollections(retainEdits); },
       "beforeChange": function(){ _this.beforeChange(); }
     });
 
@@ -113,24 +114,25 @@ var RemixApp = (function() {
     this.loadListeners();
   };
 
-  RemixApp.prototype.onChangeDrums = function(){
-    this.updateSequencer(this.drums.tracks, "drum");
+  RemixApp.prototype.onChangeDrums = function(retainEdits){
+    this.updateSequencer(this.drums.tracks, "drum", retainEdits);
   };
 
-  RemixApp.prototype.onChangeCollections = function(){
-    this.updateSequencer(this.collections.tracks, "collection");
+  RemixApp.prototype.onChangeCollections = function(retainEdits){
+    this.updateSequencer(this.collections.tracks, "collection", retainEdits);
   };
 
   RemixApp.prototype.reloadFromUrl = function(){
-    this.drums.reloadFromUrl();
-    this.collections.reloadFromUrl();
-    this.sequencer.update(this.drums.tracks, "drum");
-    this.sequencer.update(this.collections.tracks, "collection");
-    this.sequencer.reloadFromUrl();
+    window.location.reload();
+    // this.drums.reloadFromUrl();
+    // this.collections.reloadFromUrl();
+    // this.sequencer.update(this.drums.tracks, "drum");
+    // this.sequencer.update(this.collections.tracks, "collection");
+    // this.sequencer.reloadFromUrl();
   };
 
-  RemixApp.prototype.updateSequencer = function(tracks, type){
-    this.sequencer.update(tracks, type);
+  RemixApp.prototype.updateSequencer = function(tracks, type, retainEdits){
+    this.sequencer.update(tracks, type, false, retainEdits);
     this.updateURL();
   };
 
@@ -138,7 +140,6 @@ var RemixApp = (function() {
     var data = _.extend({}, this.sequencer.toJSON(), this.collections.toJSON(), this.drums.toJSON());
     data = Util.mapVars(data, this.opt.urlVarMap);
     var urlEncoded = $.param(data);
-    // console.log(urlEncoded);
 
     if (window.history.pushState) {
       var baseUrl = window.location.href.split('?')[0];
@@ -151,6 +152,7 @@ var RemixApp = (function() {
         if (newUrl === currentUrl) return;
       }
 
+      window.historyInitiated = true;
       if (replace===true) window.history.replaceState(data, '', newUrl);
       else window.history.pushState(data, '', newUrl);
     }

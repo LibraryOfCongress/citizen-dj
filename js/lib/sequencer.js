@@ -55,7 +55,7 @@ var Sequencer = (function() {
     this.setBPM(this.opt.bpm);
   };
 
-  Sequencer.prototype.addTrack = function(id, track, type){
+  Sequencer.prototype.addTrack = function(id, track, type, retainEdits){
     var promise;
     var _this = this;
 
@@ -70,7 +70,7 @@ var Sequencer = (function() {
     track.buffer = this.players[track.url].buffer.get();
 
     if (_.contains(this.trackIds[type], id)) {
-      promise = this.tracks[id].update(track);
+      promise = this.tracks[id].update(track, retainEdits);
     } else {
       this.tracks[id] = new Track(track);
       promise = this.tracks[id].load();
@@ -334,11 +334,11 @@ var Sequencer = (function() {
     return _.template($template.html());
   };
 
-  Sequencer.prototype.loadTracks = function(tracks, type){
+  Sequencer.prototype.loadTracks = function(tracks, type, retainEdits){
     var _this = this;
     var trackPromises = [];
     _.each(tracks, function(props, key) {
-      trackPromises.push(_this.addTrack(key, props, type));
+      trackPromises.push(_this.addTrack(key, _.clone(props), type, retainEdits));
     });
     return trackPromises;
   };
@@ -501,20 +501,6 @@ var Sequencer = (function() {
     track.playClip('+0.001');
   };
 
-  Sequencer.prototype.reloadFromUrl = function(){
-    var _this = this;
-    var q = Util.queryParams();
-
-    var bpm = q.bpm ? parseInt(''+q.bpm) : this.defaultBPM;
-    if (bpm !== this.bpm) {
-      this.setBPM(bpm);
-    }
-
-    if (q.patternEdits && q.patternEdits.length) {
-      this.loadPatternEdits(q.patternEdits);
-    }
-  };
-
   Sequencer.prototype.removeTrack = function(key, type){
     this.trackIds[type] = _.without(this.trackIds[type], key);
     this.tracks[key].destroy();
@@ -585,7 +571,7 @@ var Sequencer = (function() {
     return data;
   };
 
-  Sequencer.prototype.update = function(tracks, type, isUnion){
+  Sequencer.prototype.update = function(tracks, type, isUnion, retainEdits){
     var _this = this;
     if (!isUnion) {
       var removeIds = _.difference(this.trackIds[type], _.keys(tracks));
@@ -598,7 +584,7 @@ var Sequencer = (function() {
     $.when.apply(null, playerPromises).done(function() {
       console.log('Loaded all players');
 
-      var trackPromises = _this.loadTracks(tracks, type);
+      var trackPromises = _this.loadTracks(tracks, type, retainEdits);
       $.when.apply(null, trackPromises).done(function() {
         console.log('Loaded all tracks');
         _this.onTrackUpdateLoaded();

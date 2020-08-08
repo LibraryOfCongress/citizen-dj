@@ -17,7 +17,8 @@ var Drums = (function() {
       "drumName": false,
       "patternName": false,
       "drumId": false,
-      "patternId": false
+      "patternId": false,
+      "addDrumTracks": false
     };
     var globalConfig = typeof CONFIG !== 'undefined' ? CONFIG : {};
     var q = Util.queryParams();
@@ -37,6 +38,47 @@ var Drums = (function() {
   Drums.prototype.init = function(){
     this.$parent = $(this.opt.parent);
     this.$el = $(this.opt.el);
+    this.$newDrumSelect = $('#select-new-drum');
+    this.addedTracks = [];
+  };
+
+  Drums.prototype.addDrumTrack = function(){
+    var instrument = this.$newDrumSelect.val();
+    var track = this.instrumentToTrack(instrument);
+    if (track === false) return;
+
+    // remove option from select
+    var $option = this.$newDrumSelect.find('[value="'+instrument+'"]').first();
+    $option.remove();
+
+    track.sequence = _.max(_.pluck(this.tracks, 'sequence')) + 1;
+    this.addedTracks.push(track);
+    this.tracks[instrument] = _.clone(track);
+    this.opt.onChange(true);
+  };
+
+  Drums.prototype.instrumentToTrack = function(instrument, existingTrack){
+    var drum = this.drums[this.drumIndex];
+    var bestInstrument = selectInstrument(drum.instruments, instrument);
+    if (bestInstrument === false) return false;
+
+    var sequence = existingTrack ? existingTrack.sequence : 1;
+    var pattern = existingTrack ? existingTrack.pattern : _.times(16, function(n){ return 0; });
+    var gain = existingTrack ? existingTrack.gain : this.opt.gain;
+    var url = this.opt.baseUrl + this.opt.audioDir + bestInstrument.filename;
+    var title = this.patternKey[bestInstrument.instrument] + " (" + drum.name + " drum machine)";
+    var track = {
+      "id": instrument,
+      "$parent": this.$el,
+      "pattern": pattern,
+      "url": url,
+      "title": title,
+      "trackType": "drum",
+      "typeLabel": "Drum",
+      "sequence": sequence,
+      "gain": gain
+    };
+    return track;
   };
 
   Drums.prototype.load = function(){
@@ -72,6 +114,11 @@ var Drums = (function() {
 
     $('.randomize-drum').on('click', function(e){
       _this.randomize();
+    });
+
+    $('.add-drum-form').on('submit', function(e){
+      e.preventDefault();
+      _this.addDrumTrack();
     });
 
     // $('.prev-drum').on('click', function(e){
@@ -112,26 +159,17 @@ var Drums = (function() {
           tracks[instrument].pattern[col] = 1;
         // otherwise init track
         } else {
-          var bestInstrument = selectInstrument(drum.instruments, instrument);
-          if (bestInstrument !== false) {
-            var pattern = _.times(16, function(n){ return 0; });
-            pattern[col] = 1;
-            var url = _this.opt.baseUrl + _this.opt.audioDir + bestInstrument.filename;
-            var title = _this.patternKey[bestInstrument.instrument] + " (" + drum.name + " drum machine)";
-            tracks[instrument] = {
-              "id": instrument,
-              "$parent": _this.$el,
-              "pattern": pattern,
-              "url": url,
-              "title": title,
-              "trackType": "drum",
-              "typeLabel": "Drum",
-              "sequence": 1,
-              "gain": _this.opt.gain
-            };
+          var newTrack = _this.instrumentToTrack(instrument);
+          if (newTrack !== false) {
+            newTrack.pattern[col] = 1;
+            tracks[instrument] = newTrack;
           }
         }
       });
+    });
+
+    _.each(this.addedTracks, function(track){
+      tracks[track.id] = _.clone(track);
     });
 
     _.each(_.keys(tracks), function(key, i){
@@ -139,6 +177,9 @@ var Drums = (function() {
     });
 
     this.tracks = tracks;
+
+    // update drum select
+    this.updateDrumSelect();
   };
 
   Drums.prototype.loadUI = function(){
@@ -172,13 +213,14 @@ var Drums = (function() {
   Drums.prototype.onChangeDrum = function(index){
     this.opt.beforeChange();
     this.drumIndex = index;
-    this.loadTrackData();
-    this.opt.onChange();
+    this.updateTrackData();
+    this.opt.onChange(true);
   };
 
   Drums.prototype.onChangePattern = function(index){
     this.opt.beforeChange();
     this.patternIndex = index;
+    this.addedTracks = [];
     this.loadTrackData();
     this.opt.onChange();
   };
@@ -233,45 +275,16 @@ var Drums = (function() {
       foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.id === _this.opt.patternId); });
     }
     if (foundPIndex >= 0) this.patternIndex = foundPIndex;
+
+    // parse added tracks
+    if (this.opt.addDrumTracks !== false) {
+      this.addedTracks = this.stringToTrackAdds(this.opt.addDrumTracks);
+    }
   };
 
   Drums.prototype.randomize = function(){
     var patternIndex = _.random(0, this.patterns.length-1);
     this.$patternSelect.val(""+patternIndex).trigger('change');
-  };
-
-  Drums.prototype.reloadFromUrl = function(){
-    var q = Util.queryParams();
-    var changed = false;
-    var foundIndex = -1;
-
-    if (q.drumName !== undefined) {
-      foundIndex = _.findIndex(this.drums, function(drum){ return (drum.name === q.drumName); });
-    } else if (q.drumId !== undefined) {
-      foundIndex = _.findIndex(this.drums, function(drum){ return (drum.id === q.drumId); });
-    }
-    if (foundIndex >= 0) {
-      this.drumIndex = foundIndex;
-      this.$drumSelect.val(""+foundIndex);
-      changed = true;
-    }
-
-    var foundPIndex = -1;
-    if (q.patternName !== undefined) {
-      foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.name === q.patternName); });
-    } else if (q.patternId !== undefined) {
-      foundPIndex = _.findIndex(this.patterns, function(pattern){ return (pattern.id === q.patternId); });
-    }
-    if (foundPIndex >= 0) {
-      this.patternIndex = foundPIndex;
-      this.$patternSelect.val(""+foundPIndex);
-      changed = true;
-    }
-
-    if (!changed) return;
-
-    this.loadTrackData();
-    // this.opt.onChange();
   };
 
   // step through the bars of the current pattern group
@@ -281,12 +294,60 @@ var Drums = (function() {
     this.$patternSelect.val(""+index).trigger('change');
   };
 
+  Drums.prototype.stringToTrackAdds = function(string){
+    var _this = this;
+    var instruments = string.split('-');
+    var tracks = _.map(instruments, function(instrument){
+      return _this.instrumentToTrack(instrument);
+    });
+    tracks = _.filter(tracks, function(track) { return track !== false; });
+    return tracks;
+  };
+
   Drums.prototype.toJSON = function(){
     var data = {
       "drumId": this.drums[this.drumIndex].id,
       "patternId": this.patterns[this.patternIndex].id
     };
+
+    // add clip duration edits if there are any
+    var addedDrumsString = this.trackAddsToString(this.addedTracks);
+    if (this.addedTracks.length > 0 && addedDrumsString.length > 0) data.addDrumTracks = addedDrumsString;
+
     return data;
+  };
+
+  Drums.prototype.trackAddsToString = function(tracks){
+    var instruments = _.pluck(tracks, 'id');
+    instruments.sort();
+    return instruments.join('-');
+  };
+
+  Drums.prototype.updateDrumSelect = function(){
+    // update drum select
+    var instrumentsUsed = _.keys(this.tracks);
+    var drum = this.drums[this.drumIndex];
+    var patternKey = this.patternKey;
+    var html = '';
+    _.each(drum.instruments, function(entry){
+      var instrument = entry.instrument;
+      if (_.indexOf(instrumentsUsed, instrument) < 0) {
+        html += '<option value="'+instrument+'">'+patternKey[instrument]+'</option>';
+      }
+    });
+    this.$newDrumSelect.html(html);
+  };
+
+  Drums.prototype.updateTrackData = function(){
+    var _this = this;
+
+    var tracks = _.mapObject(this.tracks, function(track){
+      var mappedTrack = _this.instrumentToTrack(track.id, track);
+      return mappedTrack;
+    });
+    this.tracks = _.omit(tracks, function(track, key) { return track === false; });
+
+    this.updateDrumSelect();
   };
 
   return Drums;

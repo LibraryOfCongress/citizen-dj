@@ -335,7 +335,7 @@ var Track = (function() {
     this.$soloButton.removeClass('active');
   };
 
-  Track.prototype.update = function(track){
+  Track.prototype.update = function(track, retainEdits){
     var _this = this;
 
     // extend track options
@@ -344,7 +344,7 @@ var Track = (function() {
        this.opt.sourceStartFormatted = MathUtil.secondsToString(this.opt.sourceStart + this.opt.clipStart, 3);
     }
 
-    if (track.pattern) {
+    if (track.pattern && retainEdits !== true) {
       this.pattern = track.pattern;
       this.originalPattern = this.pattern.slice(0);
       this.patternEdits = [];

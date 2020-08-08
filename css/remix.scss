@@ -381,6 +381,20 @@ select.select-drum {
   border-color: var(--secondary-color);
 }
 
+.add-drum-form {
+  display: flex;
+  align-items: center;
+}
+.add-drum-form > * {
+  margin-right: 0.25rem;
+}
+.add-drum-form button {
+  height: auto;
+  line-height: 1;
+  padding: 0.4rem 0.4rem;
+  margin: 0;
+}
+
 .templates,
 .template {
   display: none;

@@ -55,7 +55,7 @@ var AudioRecorder = (function() {
 
   AudioRecorder.prototype.onRecordAudio = function($el){
     if (!this.recorder) {
-      alert("Your current browser does not support recording. Please try Firefox, Chrome, or Safari.")
+      alert("Your current browser does not support recording. Please try a desktop browser version of Firefox, Chrome, or Safari.")
       return;
     }
 
