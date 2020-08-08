@@ -149,6 +149,7 @@ header h1 {
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
   white-space: nowrap;
+  line-height: $headerHeight;
 }
 header h1 small {
   color: var(--secondary-light-color);
