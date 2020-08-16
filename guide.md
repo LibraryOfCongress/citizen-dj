@@ -11,6 +11,10 @@ This guide is made for anyone who is interested in making music by sampling exis
 
 This guide is built on top of the Library’s [Understanding Copyright guide](https://www.loc.gov/legal/understanding-copyright/), with a special focus on AV materials and music production.  It is recommended that you read the Library’s [guide](https://www.loc.gov/legal/understanding-copyright/) as an introduction to copyright.
 
+## Copyright status of audio on Citizen DJ
+
+Note that **all the audio that you find on the Citizen DJ website is free to use from a copyright perspective**. And all audio found on this website should contain a statement of how you can use it and why it is free to use. This guide talks generally about audio material that you may find outside of Citizen DJ, on main the Library of Congress website, and beyond. Additionally, the [ethics of digital sampling](#ethical-considerations) is relevant to all audio material include those found on Citizen DJ.
+
 ## Copyright checklist
 
 In order to use a sound recording for free without permission, you need to look at the copyright of (1) **the sound recording** itself, and (2) **underlying compositions** or texts, such as song composition and lyrics.

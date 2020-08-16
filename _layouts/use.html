@@ -28,6 +28,12 @@
 
       <p>{{ page.rights }}</p>
 
+      {% if page.rights_explanation %}
+        <h3><a name="rights-explanation"></a>Why is this free to use?</h3>
+
+        <p>{{ page.rights_explanation }}</p>
+      {% endif %}
+
       <h3><a name="credit"></a>Suggested credit line</h3>
 
       <p>Citizen DJ Project, {{ page.credit }}</p>

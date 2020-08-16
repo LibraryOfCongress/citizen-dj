@@ -71,6 +71,10 @@
         <dt>How can it be used?</dt>
         <dd>{{ page.item_rights }}</dd>
         <dd>Also see this <a href="{{ site.baseurl }}/guide/">detailed guide</a> covering the copyright and ethical considerations of digital sampling of audio and video materials.</dd>
+        {% if page.rights_explanation %}
+          <dt>Why is this free to use?</dt>
+          <dd>{{ page.rights_explanation }}</dd>
+        {% endif %}
         <a id="access-options" name="access-options"></a>
         <div id="item-access"></div>
         <div class="source">
