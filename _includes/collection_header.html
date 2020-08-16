@@ -4,6 +4,10 @@
 {% if page.collectionUid %}
   {% assign pageId = page.collectionUid %}
 {% endif %}
+{% assign pageLayout = page.layout %}
+{% if pageLayout == 'item' %}
+  {% assign pageLayout = 'use' %}
+{% endif %}
 
 <div class="collection-header">
   <nav>
@@ -17,7 +21,7 @@
         <ul id="collection-select" class="submenu">
           {% for c in siteCollections %}
             {% if c.active > 0 %}
-            <li><a href="{{ c.collection_base_url }}{{ page.layout }}/" {% if pageId == c.uid %}class="active"{% endif %}>{{ c.title }}</a></li>
+            <li><a href="{{ c.collection_base_url }}{{ pageLayout }}/" {% if pageId == c.uid %}class="active"{% endif %}>{{ c.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
