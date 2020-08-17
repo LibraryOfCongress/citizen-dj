@@ -57,6 +57,11 @@ var Drums = (function() {
     this.opt.onChange(true);
   };
 
+  Drums.prototype.getTitle = function(){
+    var pattern = this.patterns[this.patternIndex];
+    return pattern ? pattern.name : '';
+  };
+
   Drums.prototype.instrumentToTrack = function(instrument, existingTrack){
     var drum = this.drums[this.drumIndex];
     var bestInstrument = selectInstrument(drum.instruments, instrument);

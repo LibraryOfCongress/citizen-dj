@@ -45,6 +45,10 @@ var Collections = (function() {
     this.$el = $(this.opt.el);
   };
 
+  Collections.prototype.getTitle = function(){
+    return this.item ? this.item.titleNoYear : '';
+  };
+
   Collections.prototype.load = function(){
     var _this = this;
     var deferred = $.Deferred();

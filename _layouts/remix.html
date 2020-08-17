@@ -14,6 +14,10 @@
         <li><button class="download-pattern inverted" title="Download the current track loop as .wav file">Download pattern</button></li>
         <li><button class="record-audio inverted" title="Record audio until you press stop">Record</button></li>
         <li><button class="share-pattern inverted">Share</button></li>
+        <li>
+          <button class="fav-button inverted" title="Add this pattern to favorites" data-on="Unsave pattern">Save pattern</button>
+          <button class="fav-count-button inverted" title="show favorites">0</button>
+        </li>
       </ul>
     </nav>
 
@@ -92,6 +96,16 @@
 
 <div id="modal-track-settings" class="dialog-wrapper">
   <div role="dialog" class="dialog" aria-labelledby="modal-track-settings-label" aria-modal="true"></div>
+</div>
+
+<div id="modal-favs" class="dialog-wrapper">
+  <div role="dialog" class="dialog" aria-labelledby="modal-favs-label" aria-modal="true">
+    <h2 id="modal-favs-label">Your saved patterns</h2>
+    <ul id="favs-list" class="favs-list"></ul>
+    <div class="dialog-form-actions">
+      <button class="dialog-close-button">Close</button>
+    </div>
+  </div>
 </div>
 
 {% raw %}
@@ -198,6 +212,7 @@
 <script src="{{ site.baseurl }}/js/lib/util.js"></script>
 <script src="{{ site.baseurl }}/js/lib/collections.js"></script>
 <script src="{{ site.baseurl }}/js/lib/drums.js"></script>
+<script src="{{ site.baseurl }}/js/lib/favorites.js"></script>
 <script src="{{ site.baseurl }}/js/lib/track.js"></script>
 <script src="{{ site.baseurl }}/js/lib/sequencer.js"></script>
 <script src="{{ site.baseurl }}/js/lib/recorder.js"></script>
