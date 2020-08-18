@@ -13,7 +13,7 @@ The Citizen DJ project invites the public to make hip hop music using the free-t
 
 The concept of Citizen DJ is grounded in hip hop culture which is composed of five elements: DJ-ing, MC-ing, B-boy/girling, Graffiti, and Knowledge. The last element refers to knowledge of history and knowledge of self. As the legendary [KRS-One](https://en.wikipedia.org/wiki/KRS-One) puts it, "Knowing where YOU come from helps to show YOU where YOU are going. Once you know where you come from you then know what to learn." We hope Citizen DJ can be a resource for Knowledge, encouraging the use of cultural heritage materials as a medium of self-expression and historical interrogation.
 
-It is also important to highlight the origins of hip hop. There's a lot of depth to this history, but a key thing to know is that it started in the Bronx, New York during the early 70's as a medium of [protest](https://www.youtube.com/watch?v=8PaoLy7PHwk), [empowerment](https://www.youtube.com/watch?v=Z9iYBtnckio), and [documentation](https://www.youtube.com/watch?v=PobrSpMwKk4) by young Black and Latinx communities that were neglected politically and institutionally. While hip hop has grown exponentially over the decades and has become a bridge between communities of all colors and backgrounds, it remains a tool for social change and amplifying voices of underserved communities of color. By making the materials and tools of Citizen DJ available for free and online, we hope to provide at least one more public resource for those who want to make music in the spirit of hip hop's foundational values, as [Afrika Bambaataa](https://en.wikipedia.org/wiki/Afrika_Bambaataa) the "Godfather of Hip Hop" puts it, "Peace, Love, Unity, and Having Fun."
+It is also important to highlight the origins of hip hop. There's a lot of depth to this history, but a key thing to know is that it started in the Bronx, New York during the early 70's as a medium of [protest](https://www.youtube.com/watch?v=8PaoLy7PHwk), [empowerment](https://www.youtube.com/watch?v=Z9iYBtnckio), and [documentation](https://www.youtube.com/watch?v=PobrSpMwKk4) by young Black and Latinx communities that were neglected politically and institutionally. While hip hop has grown exponentially over the decades and has become a bridge between communities of all colors and backgrounds, it remains a tool for social change and amplifying voices of underserved communities of color. By making the materials and tools of Citizen DJ available for free and online, we hope to provide at least one more public resource for those who want to make music in the spirit of hip hop's foundational values.
 
 ### Why the DJ?
 
@@ -25,7 +25,7 @@ I believe if there was **a simple way to discover and access free-to-use audio a
 
 ### Why the Library of Congress?
 
-The Library of Congress is our nation's de facto library and houses over 3 million sound recordings. In the early days of hip hop especially, DJs' reputation and knowledge were built on the size and diversity of their record collections. They would spend their time checking record stores, flea markets, or thrift shops, searching for the most obscure sounds from all sorts of genres and eras of music and spoken word; this phenomenon was called "crate digging." A goal of this project is to identify what is in our shared and collective "crate" of sonic culture and history as citizens of the United States.
+The Library of Congress is our nation's de facto library and houses over 3 million sound recordings. In the early days of hip hop especially, DJs' reputation and knowledge were built on the size and diversity of their record collections. They would spend their time checking record stores, flea markets, or thrift shops, searching for the most obscure sounds from all sorts of genres and eras of music and spoken word; this phenomenon was called "crate digging." A goal of this project is to identify what is in our shared and collective "crate" of sonic culture and history as citizens of the United States (or the World since these sounds are free to use outside of the U.S.)
 
 The [U.S. Copyright Office](https://www.copyright.gov/) is also part of the Library of Congress. Since a goal of this project is to identify audio and video material that is free to use without restriction, it is meaningful if it is done within the Library of Congress since they are the authorities on copyright in the United States. In this way, the general public can feel confident that the audio and video materials that they find as a part of this project can be used however they want, for free, and without restriction.
 
@@ -68,7 +68,7 @@ Lastly, a large focus of this project will be to provide [an accessible and user
 
 ### How will you deal with the ethics of digital sampling?
 
-In addition to providing a guide to copyright law as it relates to digital sampling for music production, I will also provide a [guide to the ethics]({{ site.baseurl }}/guide/#ethics) of digital sampling from cultural materials. This is particularly relevant to materials such as field recordings and oral histories where the performers or subjects in the source material would benefit from attribution, compensation, context, and a generally respectful approach to creative re-use.
+In addition to providing a guide to copyright law as it relates to digital sampling for music production, I will also provide a [guide to the ethics]({{ site.baseurl }}/guide/#ethical-considerations) of digital sampling from cultural materials. This is particularly relevant to materials such as field recordings and oral histories where the performers or subjects in the source material would benefit from attribution, compensation, context, and a generally respectful approach to creative re-use.
 
 ### How do you select/create the audio clips?
 
@@ -102,8 +102,10 @@ This website is primarily an audio discovery tool, so the music production funct
 That said, there are a few ways to save and download audio that you find on this website:
 
 1. When "remixing" a collection, a unique URL will be generated when you select a new sequence. You can save that URL for future reference
-2. Also on the "remix" page, there is a "record" button that allows you to record the current sequence until you stop recording. A .wav file will automatically be saved to your computer.
-3. All the sounds that you here can be directly downloaded to your computer. This includes individual clips (downloadable via the download icon) and bulk downloads if you click on the "Browse &amp; download" button for any given collection.
+2. Also on the "remix" page, you can click "Download pattern" which will save the current pattern as .wav file that you can seamlessly loop in your own music production software.
+3. Also on the "remix" page, there is a "record" button that allows you to record the current sequence until you stop recording. A .wav file will automatically be saved to your computer.
+4. Also on the "remix" page, there is a button "Save pattern" which will save the current pattern in your browser that you can come back to later. These saved patterns will continue to be available on your browser as long as you don't manually clear your browser data.
+5. All the sounds that you here can be directly downloaded to your computer. This includes individual clips (downloadable via the download icon) and bulk downloads if you click on the "Browse &amp; download" button for any given collection.
 
 ### Can I share my music through your project?
 
