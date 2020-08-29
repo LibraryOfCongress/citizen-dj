@@ -19,11 +19,11 @@ h2 {
   margin-top: 4rem;
   line-height: 1.2;
 }
-h1 ~ h2 {
+h1 + h2 {
   margin-top: 0;
 }
 h3 {
-  margin: 4rem 0 1rem;
+  margin: 2rem 0 1rem;
 }
 
 p {
