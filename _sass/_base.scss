@@ -31,7 +31,7 @@ $headerHeight: 30px;
 
 body {
   font-size: 18px;
-  font-family: 'Alegreya', serif;
+  font-family: sans-serif;
   color: var(--darkest-color);
   background: var(--lightest-color);
   line-height: 1.8;
@@ -147,7 +147,7 @@ header a.active:hover {
 header h1 {
   margin: 0;
   font-size: 1.1rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   white-space: nowrap;
   line-height: $headerHeight;
 }
@@ -259,23 +259,23 @@ blockquote {
   }
 }
 
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/alegreya-regular-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/alegreya-bold-webfont.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Alegreya';
-  src: url('../fonts/Alegreya/alegreya-italic-webfont.woff2') format('woff2');
-  font-weight: normal;
-  font-style: italic;
-}
+// @font-face {
+//   font-family: 'Alegreya';
+//   src: url('../fonts/Alegreya/alegreya-regular-webfont.woff2') format('woff2');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'Alegreya';
+//   src: url('../fonts/Alegreya/alegreya-bold-webfont.woff2') format('woff2');
+//   font-weight: 700;
+//   font-style: normal;
+// }
+//
+// @font-face {
+//   font-family: 'Alegreya';
+//   src: url('../fonts/Alegreya/alegreya-italic-webfont.woff2') format('woff2');
+//   font-weight: normal;
+//   font-style: italic;
+// }
