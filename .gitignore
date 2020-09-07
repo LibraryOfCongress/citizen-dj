@@ -17,3 +17,10 @@ _site/
 s3_website.yml
 samplepacks/*
 !samplepacks/.keep
+_collections/*
+_explore/*
+!_explore/.keep
+_remix/*
+!_remix/.keep
+_use/*
+!_use/.keep
