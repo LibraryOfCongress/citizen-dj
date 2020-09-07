@@ -13,82 +13,21 @@ This document is for people with software development experience who are interes
 - Extending the functionality of this app for their own use
 - Creating their own instance of this app using their own content
 
-There are two parts to this document: (1) the client-facing web app and interface, and (2) the computer scripts required for generating media files (audio files, images) that can be used in the app. These two components are more or less independent, so for example, if you just want to use your own content without changing the functionality, you will only have to make minimal changes to the app.
-
-## The app
-
-The app is a very simple front-end web application built with Javascript, HTML, and CSS. [Jekyll](https://jekyllrb.com/) is used to manage content and generate the static front-end website. To make changes and run the app locally you will need to install Ruby and Jekyll:
-
-1. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) - directions vary depending on your operating system
-2. Install bundler and jekyll: `gem install bundler jekyll`
-3. Clone this repository: `git clone https://github.com/LibraryOfCongress/citizen-dj.git`
-4. The audio files are not included in this repository; to download them:
-    - Download the zipped audio files here _(coming soon)_
-    - Unzip and copy the files to the `./citizen-dj/` folder
-5. To run the app locally, run:
-
-    ```
-    cd citizen-dj
-    bundle exec jekyll serve
-    ```
-
-6. This generates a folder called `_site/`, which contains the app's static files that can be uploaded to a server
-7. Any change you make to the app should automatically be updated in `_site/`
-8. Visit [localhost:4000](http://localhost:4000/)
-
-### Customizing the content and style
-
-This is more or less a basic [Jekyll](https://jekyllrb.com/) static website, so you can refer to the Jekyll documentation for how the content is organized. Some key areas of note:
-
-1. You need to update [_config.yml](https://github.com/LibraryOfCongress/citizen-dj/blob/master/_config.yml) with your own settings
-2. The different types of page layouts can be found in [_layouts/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/_layouts) which have their associated stylesheet in [css/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/css) and javascript files in [js/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/js)
-3. Each collection has three discrete interfaces: "explore", "remix", and "use".  So each collection has one page per app found in `_explore/`, `_remix/`, and `_use/` respectively. The next section covers how to add a new collection
-
 ## Creating a new collection
 
 For this walkthrough, I will use the following use-case: using this app for your own audio collections. In this case, there's some small tweaks you'll have to do to the app first:
 
-1. First, you will have to remove existing content in the app. You can skip this step if you just want to add a collection to the existing set of collections. Otherwise, you can clear everything by running the following Python script:
+1. Copy the folder `/_sample_collections/` and rename to `/_collections/`.
+
+2. To start, you must create a config markdown file for each of your collections. In this example we'll use the [Variety Stage collection](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/).  A sample config markdown file can be found in the newly created `/collections/` folder. You can leave this as-is for now, but you can rename/edit to fit your own collections; one markdown file per collection.
+
+3. Then run the following command to generate the other necessary pages for the collections in the `/collections/` directory:
 
    ```
-   python3 reset_collections.py
+   python3 sync_collections.py -dir "_collections"
    ```
 
-2. Now add a markdown file for your new collection in the folder `./use/`.  In this example we'll use the [Variety Stage collection](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/) and call it `variety-stage.md`.  The file should follow the following format:
-
-   ```
-   ---
-   layout: use
-   id: "variety-stage"
-   title: "Variety Stage Sound Recordings and Motion Pictures"
-   description: "The 61 motion pictures in the Variety Stage Sound Recordings and Motion Pictures include animal acts, burlesque, dance, comic sketches, dramatic excerpts, dramatic sketches, physical culture acts, and tableaus. The films represented date from copyrights of 1897 to 1920. Although not actually filmed on a theatrical stage, they sought to recreate the atmosphere of a theater performance by showing the types of vaudeville acts and performers that were popular at the time."
-   rights: "The works in this collection have been identified to be in the public domain and are free to use and reuse without restriction. You can copy, modify, distribute and perform the works, even for commercial purposes, all without asking permission. Attribution is recommended but not required."
-   item_rights: "This work has been identified to be in the public domain and is free to use and reuse without restriction. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. Attribution is recommended but not required."
-   credit: "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division."
-   collection_base_url: "/variety-stage/"
-   permalink: "/variety-stage/use/"
-   image_url: "/img/thumbnails/loc-variety-stage.png"
-   source: "Library of Congress"
-   source_url: "https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/about-this-collection/"
-   provider: "loc.gov"
-   uid: "variety-stage"
-   subjects:
-     - Music
-     - Sketches
-   sequence: 1
-   active: 1
-   ---
-   ```
-
-   Note, `sequence` determines the order of appearance in the app, and `active` flag enables/disables a collection
-
-3. Then run the following command to generate the other necessary pages for this collection:
-
-   ```
-   python3 sync_collections.py -overwrite
-   ```
-
-   This will create the necessary collections files in `_explore/` and `_remix/`. Alternatively, you can create these manually. If so, you will need to update the `layout` and `permalink` fields
+   This will create the necessary collections files in `_explore/`, `_remix/`, and `_use/` directories. Alternatively, you can create these manually. If so, you will need to update the `layout` and `permalink` fields.
 
 ## Processing a new collection
 
@@ -455,3 +394,11 @@ bundle exec jekyll serve
 ```
 
 This will generate a static website with your new collection in the `_site` folder which you can view at `localhost:4000`
+
+## Customizing the content and style
+
+This is more or less a basic [Jekyll](https://jekyllrb.com/) static website, so you can refer to the Jekyll documentation for how the content is organized. Some key areas of note:
+
+1. You need to update [_config.yml](https://github.com/LibraryOfCongress/citizen-dj/blob/master/_config.yml) with your own settings
+2. The different types of page layouts can be found in [_layouts/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/_layouts) which have their associated stylesheet in [css/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/css) and javascript files in [js/](https://github.com/LibraryOfCongress/citizen-dj/tree/master/js)
+3. Each collection has three discrete interfaces: "explore", "remix", and "use".  So each collection has one page per app found in `_explore/`, `_remix/`, and `_use/` respectively. The next section covers how to add a new collection

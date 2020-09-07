@@ -8,21 +8,19 @@ import sys
 
 # input
 parser = argparse.ArgumentParser()
-parser.add_argument("-ref", dest="REFERENCE_DIR", default="use", help="Directory of collections to use as reference")
-parser.add_argument("-sync", dest="SYNC_TO", default="remix,explore", help="Directories to sync to")
-parser.add_argument("-overwrite", dest="OVERWRITE", action="store_true", help="Overwrite existing?")
+parser.add_argument("-dir", dest="REFERENCE_DIR", default="_sample_collections", help="Directory of collections to use as reference")
+parser.add_argument("-sync", dest="SYNC_TO", default="use,remix,explore", help="Directories to sync to")
 a = parser.parse_args()
 
-files = glob.glob("_"+a.REFERENCE_DIR+"/*.md")
+files = glob.glob(a.REFERENCE_DIR+"/*.md")
 syncDirs = [{"name": name, "dir": "_"+name+"/"} for name in a.SYNC_TO.strip().split(",")]
 
-# remove existing files if we are cleaning
-if a.OVERWRITE:
-    for d in syncDirs:
-        dir = d["dir"]
-        removeFiles = glob.glob(dir+"*.md")
-        for rfn in removeFiles:
-            os.remove(rfn)
+# remove existing files
+for d in syncDirs:
+    dir = d["dir"]
+    removeFiles = glob.glob(dir+"*.md")
+    for rfn in removeFiles:
+        os.remove(rfn)
 
 # make sure directories exist
 for d in syncDirs:
@@ -43,13 +41,11 @@ for fn in files:
     basename = os.path.basename(fn)
     uid = basename[:-3]
     findStrings = [
-        "/"+uid+"/"+a.REFERENCE_DIR+"/",
-        "layout: "+a.REFERENCE_DIR
+        "/"+uid+"/layout/",
+        "layout: layout"
     ]
     for d in syncDirs:
         syncFn = d["dir"] + basename
-        if not a.OVERWRITE and os.path.isfile(syncFn):
-            continue
         replaceStrings = [
             "/"+uid+"/"+d["name"]+"/",
             "layout: "+d["name"]

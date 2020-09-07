@@ -1,5 +1,5 @@
 ---
-layout: use
+layout: layout
 id: "loc-fma"
 title: "Free Music Archive"
 description: "Free Music Archive is a website devoted to distribution and curation of rights-free music. The Library of Congress has archived this website as part of its Web Cultures Web Archive, which includes sites documenting the creation and sharing of emergent cultural traditions on the web."
@@ -8,7 +8,7 @@ rights_explanation: "Most music and recordings in the Free Music Archive are not
 item_rights: "This work has been dedicated to the public domain by its creator, thus is free to use and reuse without restriction. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. Attribution is recommended but not required."
 credit: "Free Music Archive archived website at the Library of Congress, Web Archives Division."
 collection_base_url: "/loc-fma/"
-permalink: "/loc-fma/use/"
+permalink: "/loc-fma/layout/"
 image_url: "/img/thumbnails/loc-fma.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/item/lcwaN0026492/"

@@ -24,3 +24,5 @@ _remix/*
 !_remix/.keep
 _use/*
 !_use/.keep
+_items/*
+!_items/.keep

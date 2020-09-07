@@ -1,5 +1,5 @@
 ---
-layout: use
+layout: layout
 id: "loc-joe-smith"
 title: "The Joe Smith Collection"
 description: "More than 25 years ago, retired music executive Joe Smith accomplished a Herculean feat—he got more than 200 celebrated singers, musicians and industry icons to talk about their lives, music, experiences and contemporaries. In 2012 Smith donated this treasure trove of unedited sound recordings to the nation's library."
@@ -8,7 +8,7 @@ rights_explanation: "Joe Smith, the copyright holder of this collection, donated
 item_rights: "This sound recording is free to use and reuse with proper attribution to the copyright owner, Joe Smith. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission, as long as you clearly give proper attribution."
 credit: "Joe Smith Collection at the Library of Congress, Motion Picture, Broadcasting and Recorded Sound Division."
 collection_base_url: "/loc-joe-smith/"
-permalink: "/loc-joe-smith/use/"
+permalink: "/loc-joe-smith/layout/"
 image_url: "/img/thumbnails/loc-joe-smith.png"
 source: "Library of Congress"
 source_url: "https://www.loc.gov/collections/joe-smith/about-this-collection/"
