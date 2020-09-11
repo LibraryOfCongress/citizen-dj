@@ -16,10 +16,12 @@
   justify-content: flex-start;
   flex-direction: column;
   height: 100vh;
+  background: var(--dark-color);
 }
 main {
   flex-grow: 1;
   position: relative;
+  margin-bottom: 45px; // account for buttons
 }
 .app {
   position: absolute;
@@ -96,7 +98,13 @@ main {
 .item-info .item-buttons {
   position: absolute;
   top: -40px;
-  right: 1rem;
+  right: 0;
+}
+.item-buttons .button {
+  font-weight: bold;
+  margin: 0 0.5rem 0 0;
+  height: 30px;
+  line-height: 30px;
 }
 
 .filters {

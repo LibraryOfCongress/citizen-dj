@@ -602,14 +602,14 @@ var ExploreApp = (function() {
       var remixUrl = this.opt.baseUrl + '/' + this.opt.uid + '/remix/?itemId=' + item.itemId + '&itemStart=' + spriteItem.sourceStart;
       var buttonText = this.localItems ? 'View more details' : 'View on '+item.provider;
       html += '<div class="item-buttons">';
-        html += '<a href="'+remixUrl+'" class="button inverted">Remix this</a>';
+        html += '<a href="'+remixUrl+'" class="button small inverted">Remix this</a>';
         if (phraseFilename) {
-          html += '<a href="'+phraseFilename+'" class="button inverted toggle-play">Play in context</a>';
+          html += '<a href="'+phraseFilename+'" class="button small inverted toggle-play">Play in context</a>';
         }
         if (phraseDownloadFilename) {
-          html += '<a href="'+phraseDownloadFilename+'" class="button inverted" download target="_blank">Download</a>';
+          html += '<a href="'+phraseDownloadFilename+'" class="button small inverted" download target="_blank">Download</a>';
         }
-        html += '<a href="'+item.url+'" target="_blank" class="button inverted">'+buttonText+'</a>';
+        html += '<a href="'+item.url+'" target="_blank" class="button small inverted">'+buttonText+'</a>';
       html += '</div>';
     }
     this.$itemInfo.html(html);
