@@ -215,7 +215,10 @@ select option {
 }
 .dialog .input-row label {
   font-size: 1.2rem;
+  min-width: 120px;
   width: 120px;
+  white-space: nowrap;
+  overflow: visible;
 }
 .dialog .input-row input {
   margin-right: 1rem;
@@ -231,6 +234,10 @@ select option {
 .value-text {
   font-weight: bold;
   font-size: 1.5rem;
+  width: 50px;
+  min-width: 50px;
+  white-space: nowrap;
+  overflow: visible;
 }
 .dialog-form-actions {
   text-align: right;
