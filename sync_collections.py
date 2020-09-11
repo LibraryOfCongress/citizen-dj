@@ -8,7 +8,7 @@ import sys
 
 # input
 parser = argparse.ArgumentParser()
-parser.add_argument("-dir", dest="REFERENCE_DIR", default="_sample_collections", help="Directory of collections to use as reference")
+parser.add_argument("-dir", dest="REFERENCE_DIR", default="_collections", help="Directory of collections to use as reference")
 parser.add_argument("-sync", dest="SYNC_TO", default="use,remix,explore", help="Directories to sync to")
 a = parser.parse_args()
 

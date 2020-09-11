@@ -1,7 +1,5 @@
 # Citizen DJ
 
-**This app is currently under major construction; please check back in late 2020**
-
 The Citizen DJ project invites the public to make hip hop music using the Library’s public audio and moving image collections. By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
 
 [Preview Citizen DJ here](https://citizen-dj.labs.loc.gov/)
@@ -13,11 +11,48 @@ This document is for people with software development experience who are interes
 - Extending the functionality of this app for their own use
 - Creating their own instance of this app using their own content
 
+
+## Creating a new project
+
+**This process is currently under major (re)construction; please email me at hello@brianfoo.com if you intend to use this for your own audio collections, and I will let you know when this is ready.**
+
+1. Fork this repository to your own account via the button on the top-right corner of this repository
+2. Clone the new repository to your local environment, e.g.
+
+   ```
+   git clone https://github.com/YOUR-USERNAME/citizen-dj.git
+   ```
+
+3. To keep up-to-date with the Citizen DJ core codebase, add
+
+   ```
+   git remote add upstream https://github.com/LibraryOfCongress/citizen-dj.git
+   ```
+
+   Now to check for new changes without automatically merging, you can run:
+
+   ```
+   git fetch upstream
+   ```
+
+   Now you can selectively merge the changes from the upstream repository. For more information, check out this [guide to syncing forks](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+
+4. Now run the following Python script ***(coming soon)*** that will reset the application to a boilerplate (it will remove the default Library of Congress collections and content)
+
+
+   ```
+   python3 reset_to_boilerplate.py
+   ```
+
+## Configuring your new project
+
+***(coming soon)***
+
 ## Creating a new collection
 
 For this walkthrough, I will use the following use-case: using this app for your own audio collections. In this case, there's some small tweaks you'll have to do to the app first:
 
-1. Copy the folder `/_sample_collections/` and rename to `/_collections/`.
+1. Copy the folder `/_sample_app/_collections/` and copy to `/_collections/`.
 
 2. To start, you must create a config markdown file for each of your collections. In this example we'll use the [Variety Stage collection](https://www.loc.gov/collections/variety-stage-sound-recordings-and-motion-pictures/).  A sample config markdown file can be found in the newly created `/collections/` folder. You can leave this as-is for now, but you can rename/edit to fit your own collections; one markdown file per collection.
 
