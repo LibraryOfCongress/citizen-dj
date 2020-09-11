@@ -68,7 +68,7 @@ For this walkthrough, I will use the following use-case: using this app for your
 
 The next steps will go through a (long) series of scripts that process audio from loc.gov.
 
-These scripts are maintained in a [separate open-source code repository](https://github.com/beefoo/media-tools).
+These scripts are maintained in a [separate open-source code repository](https://github.com/beefoo/media-tools). ***I intend to move the relevant scripts into this repository in the near future***
 
 - [Install requirements](https://github.com/beefoo/media-tools#requirements). To complete the full workflow, the core libraries needed are:
     - [Python](https://www.python.org/) (I have developed this using 3.6)
