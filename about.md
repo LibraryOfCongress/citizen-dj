@@ -85,15 +85,27 @@ My name is [Brian Foo](https://brianfoo.com/) and I have worked in libraries and
 
 In terms of my relationship to hip-hop, I was an active breakdancer (b-boy) for about 15 years and continue to dance whenever I can. From a young age, I have always been drawn to the culture and different artforms of hip hop (dj-ing, mc-ing, breakdancing/b-boy-ing, graffiti.) I particularly connect to the idea of individual expression through the mixing and collaging of disparate sources.
 
+### Who made this project possible?
+
+Many, many Library of Congress staff from many different parts of the Library:
+
+- [LC Labs](https://labs.loc.gov/) - facilitated and [hosted my residency](https://labs.loc.gov/about/opportunities/innovator-in-residence-program)
+- Office of the General Counsel - copyright advising
+- [American Folklife Center](https://www.loc.gov/folklife/) - content curation and research, project advising, and community outreach
+- [Motion Picture, Broadcasting and Recorded Sound Division (MBRS)](https://www.loc.gov/rr/mopic/) - content curation and research
+- [Web Archiving Team](https://www.loc.gov/programs/web-archiving/about-this-program/) - content curation, technical support
+- Design and Development Teams - technical support, user research and testing
+- Office of Communications - outreach
+
 ### What is the timeline of this project?
 
-This project will run for one year from September 2019 to September 2020. An official launch is expected in the summer of 2020.
+This experimental project ran for one year from September 2019 to September 2020. The website will be maintained for at least 3 years and you can follow [LC Labs](https://labs.loc.gov/) for further updates.
 
 ### How can I give feedback?
 
 You can follow the instructions on the [feedback page]({{ site.baseurl }}/feedback/) for sending feedback for this project.
 
-For press inquiries and collaborations, please contact me at {{ site.email }}.
+For press inquiries and collaborations, please contact {{ site.email }}.
 
 ### How can I save music created on this website?
 
@@ -109,7 +121,7 @@ That said, there are a few ways to save and download audio that you find on this
 
 ### Can I share my music through your project?
 
-Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email me at {{ site.email }} or tweet [@Librarycongress](https://twitter.com/librarycongress/) or [@LC_Labs](https://twitter.com/LC_Labs)
+Yes! We would like to showcase new music that this project helped make possible. It is also beneficial for the Library of Congress to know how projects like this can make an impact. You can email {{ site.email }} or tweet [@Librarycongress](https://twitter.com/librarycongress/) or [@LC_Labs](https://twitter.com/LC_Labs)
 
 ### If I make new music using sounds from this website, what can I do with it?
 

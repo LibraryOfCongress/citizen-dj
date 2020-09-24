@@ -14,7 +14,7 @@ This document is for people with software development experience who are interes
 
 ## Creating a new project
 
-**This process is currently under major (re)construction; please email me at hello@brianfoo.com if you intend to use this for your own audio collections, and I will let you know when this is ready.**
+**This process is currently under major (re)construction; please email LC-Labs@loc.gov if you intend to use this for your own audio collections, and I will let you know when this is ready.**
 
 1. Fork this repository to your own account via the button on the top-right corner of this repository
 2. Clone the new repository to your local environment, e.g.
