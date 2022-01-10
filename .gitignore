@@ -14,6 +14,6 @@ audio/items/*
 .jekyll-metadata
 Gemfile.lock
 _site/
-s3_website.yml
+s3_website*.yml
 samplepacks/*
 !samplepacks/.keep

@@ -1,0 +1,1888 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_national-jukebox-folk-songs_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "212.1mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_national-jukebox-folk-songs_wav.zip",
+            "label": "Download in 16-bit .wav format",
+            "size": "1.2gb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [],
+    "items": [
+        {
+            "id": "jukebox-247928",
+            "title": "'Turkey in de straw' medley",
+            "url": "http://www.loc.gov/item/jukebox-247928/",
+            "clips": [
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-247928_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-247928_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-247928_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-247928_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-247928_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422467",
+            "title": "'Turkey in de straw' medley",
+            "url": "http://www.loc.gov/item/jukebox-422467/",
+            "clips": [
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_002_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_003_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_004_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_005_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_006_00-01-46",
+                    "timeStamp": "01:46",
+                    "start": 107000
+                },
+                {
+                    "filename": "Turkey-in-de-straw-medley_jukebox-422467_007_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122399",
+            "title": "Al fresco : Intermezzo",
+            "url": "http://www.loc.gov/item/jukebox-122399/",
+            "clips": [
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_002_00-00-28",
+                    "timeStamp": "00:28",
+                    "start": 29000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_003_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_004_00-00-53",
+                    "timeStamp": "00:53",
+                    "start": 54000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_004_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_005_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_005_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_006_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_006_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Al-fresco--Intermezzo_jukebox-122399_007_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-260123",
+            "title": "Carnival of Venice",
+            "url": "http://www.loc.gov/item/jukebox-260123/",
+            "clips": [
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_002_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_003_00-00-52",
+                    "timeStamp": "00:52",
+                    "start": 53000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_004_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_005_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_006_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_006_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_007_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "Carnival-of-Venice_jukebox-260123_008_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-275412",
+            "title": "Come unto these yellow sands",
+            "url": "http://www.loc.gov/item/jukebox-275412/",
+            "clips": [
+                {
+                    "filename": "Come-unto-these-yellow-sands_jukebox-275412_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Come-unto-these-yellow-sands_jukebox-275412_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Come-unto-these-yellow-sands_jukebox-275412_003_00-01-19",
+                    "timeStamp": "01:19",
+                    "start": 80000
+                },
+                {
+                    "filename": "Come-unto-these-yellow-sands_jukebox-275412_004_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "Come-unto-these-yellow-sands_jukebox-275412_005_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-123798",
+            "title": "Devil's dream reel",
+            "url": "http://www.loc.gov/item/jukebox-123798/",
+            "clips": [
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_005_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_006_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_007_00-02-08",
+                    "timeStamp": "02:08",
+                    "start": 129000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-123798_008_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-41434",
+            "title": "Devil's dream reel",
+            "url": "http://www.loc.gov/item/jukebox-41434/",
+            "clips": [
+                {
+                    "filename": "Devils-dream-reel_jukebox-41434_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-41434_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-41434_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-41434_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-41434_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Devils-dream-reel_jukebox-41434_006_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-37450",
+            "title": "Dixie girl",
+            "url": "http://www.loc.gov/item/jukebox-37450/",
+            "clips": [
+                {
+                    "filename": "Dixie-girl_jukebox-37450_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Dixie-girl_jukebox-37450_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Dixie-girl_jukebox-37450_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Dixie-girl_jukebox-37450_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Dixie-girl_jukebox-37450_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-421901",
+            "title": "Dreaming",
+            "url": "http://www.loc.gov/item/jukebox-421901/",
+            "clips": [
+                {
+                    "filename": "Dreaming_jukebox-421901_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_002_00-00-15",
+                    "timeStamp": "00:15",
+                    "start": 16000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_003_00-00-50",
+                    "timeStamp": "00:50",
+                    "start": 51000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_004_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_005_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_006_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_007_00-02-11",
+                    "timeStamp": "02:11",
+                    "start": 132000
+                },
+                {
+                    "filename": "Dreaming_jukebox-421901_008_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-12147",
+            "title": "Duke of Marlborough",
+            "url": "http://www.loc.gov/item/jukebox-12147/",
+            "clips": [
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_002_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_002_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_003_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_003_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_004_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_004_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_005_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_005_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_006_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_006_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_007_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "Duke-of-Marlborough_jukebox-12147_008_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-132438",
+            "title": "Garland of old-fashioned roses",
+            "url": "http://www.loc.gov/item/jukebox-132438/",
+            "clips": [
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_001_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_002_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_002_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_003_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_003_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_004_00-00-59",
+                    "timeStamp": "00:59",
+                    "start": 60000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_004_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_005_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_005_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_006_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_006_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_007_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "Garland-of-old-fashioned-roses_jukebox-132438_008_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422372",
+            "title": "Home, sweet home",
+            "url": "http://www.loc.gov/item/jukebox-422372/",
+            "clips": [
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_001_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_002_00-00-43",
+                    "timeStamp": "00:43",
+                    "start": 44000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_003_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_004_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_005_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_005_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_006_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_006_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_007_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                },
+                {
+                    "filename": "Home-sweet-home_jukebox-422372_008_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-13796",
+            "title": "Hornpipe",
+            "url": "http://www.loc.gov/item/jukebox-13796/",
+            "clips": [
+                {
+                    "filename": "Hornpipe_jukebox-13796_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Hornpipe_jukebox-13796_002_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "Hornpipe_jukebox-13796_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Hornpipe_jukebox-13796_004_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Hornpipe_jukebox-13796_005_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Hornpipe_jukebox-13796_006_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                },
+                {
+                    "filename": "Hornpipe_jukebox-13796_007_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-132941",
+            "title": "I'm going back to Carolina",
+            "url": "http://www.loc.gov/item/jukebox-132941/",
+            "clips": [
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_002_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_003_00-00-28",
+                    "timeStamp": "00:28",
+                    "start": 29000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_004_00-00-58",
+                    "timeStamp": "00:58",
+                    "start": 59000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_005_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_006_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_006_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_007_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                },
+                {
+                    "filename": "Im-going-back-to-Carolina_jukebox-132941_008_00-02-49",
+                    "timeStamp": "02:49",
+                    "start": 170000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422259",
+            "title": "In the gloaming",
+            "url": "http://www.loc.gov/item/jukebox-422259/",
+            "clips": [
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_003_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_004_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_005_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_006_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_007_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "In-the-gloaming_jukebox-422259_008_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-19929",
+            "title": "In the sweet long ago",
+            "url": "http://www.loc.gov/item/jukebox-19929/",
+            "clips": [
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_002_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_002_00-00-38",
+                    "timeStamp": "00:38",
+                    "start": 39000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_003_00-00-38",
+                    "timeStamp": "00:38",
+                    "start": 39000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_003_00-01-08",
+                    "timeStamp": "01:08",
+                    "start": 69000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_004_00-01-08",
+                    "timeStamp": "01:08",
+                    "start": 69000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_004_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_005_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_005_00-02-35",
+                    "timeStamp": "02:35",
+                    "start": 156000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_006_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_006_00-02-58",
+                    "timeStamp": "02:58",
+                    "start": 179000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_007_00-02-35",
+                    "timeStamp": "02:35",
+                    "start": 156000
+                },
+                {
+                    "filename": "In-the-sweet-long-ago_jukebox-19929_008_00-02-58",
+                    "timeStamp": "02:58",
+                    "start": 179000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-118699",
+            "title": "Keep off the grass",
+            "url": "http://www.loc.gov/item/jukebox-118699/",
+            "clips": [
+                {
+                    "filename": "Keep-off-the-grass_jukebox-118699_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Keep-off-the-grass_jukebox-118699_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Keep-off-the-grass_jukebox-118699_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Keep-off-the-grass_jukebox-118699_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-28465",
+            "title": "Lamplighter's hornpipe",
+            "url": "http://www.loc.gov/item/jukebox-28465/",
+            "clips": [
+                {
+                    "filename": "Lamplighters-hornpipe_jukebox-28465_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Lamplighters-hornpipe_jukebox-28465_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Lamplighters-hornpipe_jukebox-28465_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Lamplighters-hornpipe_jukebox-28465_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Lamplighters-hornpipe_jukebox-28465_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Lamplighters-hornpipe_jukebox-28465_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-42053",
+            "title": "Laughing rag",
+            "url": "http://www.loc.gov/item/jukebox-42053/",
+            "clips": [
+                {
+                    "filename": "Laughing-rag_jukebox-42053_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Laughing-rag_jukebox-42053_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Laughing-rag_jukebox-42053_003_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "Laughing-rag_jukebox-42053_004_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Laughing-rag_jukebox-42053_005_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126588",
+            "title": "Manzanillo",
+            "url": "http://www.loc.gov/item/jukebox-126588/",
+            "clips": [
+                {
+                    "filename": "Manzanillo_jukebox-126588_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Manzanillo_jukebox-126588_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Manzanillo_jukebox-126588_003_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "Manzanillo_jukebox-126588_004_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                },
+                {
+                    "filename": "Manzanillo_jukebox-126588_005_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "Manzanillo_jukebox-126588_006_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422524",
+            "title": "Medley of favorite reels",
+            "url": "http://www.loc.gov/item/jukebox-422524/",
+            "clips": [
+                {
+                    "filename": "Medley-of-favorite-reels_jukebox-422524_001_00-01-41",
+                    "timeStamp": "01:41",
+                    "start": 102000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-248482",
+            "title": "Medley of old-time reels",
+            "url": "http://www.loc.gov/item/jukebox-248482/",
+            "clips": [
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_004_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_005_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_006_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "Medley-of-old-time-reels_jukebox-248482_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-260194",
+            "title": "Morris dance : Laudnum bunches",
+            "url": "http://www.loc.gov/item/jukebox-260194/",
+            "clips": [
+                {
+                    "filename": "Morris-dance--Laudnum-bunches_jukebox-260194_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Morris-dance--Laudnum-bunches_jukebox-260194_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Morris-dance--Laudnum-bunches_jukebox-260194_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Morris-dance--Laudnum-bunches_jukebox-260194_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Morris-dance--Laudnum-bunches_jukebox-260194_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Morris-dance--Laudnum-bunches_jukebox-260194_006_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11696",
+            "title": "Old black Joe",
+            "url": "http://www.loc.gov/item/jukebox-11696/",
+            "clips": [
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_002_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_003_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_004_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_004_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_005_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_005_00-01-51",
+                    "timeStamp": "01:51",
+                    "start": 112000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_006_00-01-44",
+                    "timeStamp": "01:44",
+                    "start": 105000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_006_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_007_00-01-51",
+                    "timeStamp": "01:51",
+                    "start": 112000
+                },
+                {
+                    "filename": "Old-black-Joe_jukebox-11696_008_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11695",
+            "title": "Old folks at home",
+            "url": "http://www.loc.gov/item/jukebox-11695/",
+            "clips": [
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_003_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_004_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_005_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_006_00-01-55",
+                    "timeStamp": "01:55",
+                    "start": 116000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_006_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Old-folks-at-home_jukebox-11695_007_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127835",
+            "title": "Polka scherzo",
+            "url": "http://www.loc.gov/item/jukebox-127835/",
+            "clips": [
+                {
+                    "filename": "Polka-scherzo_jukebox-127835_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Polka-scherzo_jukebox-127835_002_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "Polka-scherzo_jukebox-127835_003_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "Polka-scherzo_jukebox-127835_004_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "Polka-scherzo_jukebox-127835_005_00-01-44",
+                    "timeStamp": "01:44",
+                    "start": 105000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122577",
+            "title": "Roll on, silver moon",
+            "url": "http://www.loc.gov/item/jukebox-122577/",
+            "clips": [
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_002_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_003_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_004_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_005_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_005_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_006_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_006_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_007_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                },
+                {
+                    "filename": "Roll-on-silver-moon_jukebox-122577_008_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126352",
+            "title": "Standard o' the braes o' mar",
+            "url": "http://www.loc.gov/item/jukebox-126352/",
+            "clips": [
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_001_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_004_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_005_00-01-19",
+                    "timeStamp": "01:19",
+                    "start": 80000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_006_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_007_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Standard-o-the-braes-o-mar_jukebox-126352_008_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126586",
+            "title": "Sweet memories",
+            "url": "http://www.loc.gov/item/jukebox-126586/",
+            "clips": [
+                {
+                    "filename": "Sweet-memories_jukebox-126586_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Sweet-memories_jukebox-126586_002_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "Sweet-memories_jukebox-126586_003_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "Sweet-memories_jukebox-126586_004_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                },
+                {
+                    "filename": "Sweet-memories_jukebox-126586_005_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "Sweet-memories_jukebox-126586_006_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                },
+                {
+                    "filename": "Sweet-memories_jukebox-126586_007_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-10784",
+            "title": "The airs sung by Ophelia",
+            "url": "http://www.loc.gov/item/jukebox-10784/",
+            "clips": [
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_003_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_004_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_005_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_005_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_006_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_006_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_007_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "The-airs-sung-by-Ophelia_jukebox-10784_008_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-29402",
+            "title": "The haymakers",
+            "url": "http://www.loc.gov/item/jukebox-29402/",
+            "clips": [
+                {
+                    "filename": "The-haymakers_jukebox-29402_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "The-haymakers_jukebox-29402_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "The-haymakers_jukebox-29402_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "The-haymakers_jukebox-29402_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "The-haymakers_jukebox-29402_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "The-haymakers_jukebox-29402_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "The-haymakers_jukebox-29402_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-5370",
+            "title": "The old oaken bucket",
+            "url": "http://www.loc.gov/item/jukebox-5370/",
+            "clips": [
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_001_00-00-24",
+                    "timeStamp": "00:24",
+                    "start": 25000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_002_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_002_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_003_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_003_00-00-54",
+                    "timeStamp": "00:54",
+                    "start": 55000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_004_00-00-54",
+                    "timeStamp": "00:54",
+                    "start": 55000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_004_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_005_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_005_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_006_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_006_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_007_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "The-old-oaken-bucket_jukebox-5370_008_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11937",
+            "title": "War song of the Normans",
+            "url": "http://www.loc.gov/item/jukebox-11937/",
+            "clips": [
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_003_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_004_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_004_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_005_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_005_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_006_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_006_00-03-03",
+                    "timeStamp": "03:03",
+                    "start": 184000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_007_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                },
+                {
+                    "filename": "War-song-of-the-Normans_jukebox-11937_008_00-03-03",
+                    "timeStamp": "03:03",
+                    "start": 184000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-259688",
+            "title": "West lawn polka",
+            "url": "http://www.loc.gov/item/jukebox-259688/",
+            "clips": [
+                {
+                    "filename": "West-lawn-polka_jukebox-259688_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "West-lawn-polka_jukebox-259688_002_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "West-lawn-polka_jukebox-259688_003_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "West-lawn-polka_jukebox-259688_004_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "West-lawn-polka_jukebox-259688_005_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "West-lawn-polka_jukebox-259688_006_00-02-40",
+                    "timeStamp": "02:40",
+                    "start": 161000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-12146",
+            "title": "When that I was a little tiny boy",
+            "url": "http://www.loc.gov/item/jukebox-12146/",
+            "clips": [
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_001_00-00-04",
+                    "timeStamp": "00:04",
+                    "start": 5000
+                },
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_002_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_003_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_004_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_005_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_006_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "When-that-I-was-a-little-tiny-boy_jukebox-12146_007_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-14786",
+            "title": "When they ring the golden bells for you and me",
+            "url": "http://www.loc.gov/item/jukebox-14786/",
+            "clips": [
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_002_00-00-28",
+                    "timeStamp": "00:28",
+                    "start": 29000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_002_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_003_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_003_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_004_00-01-18",
+                    "timeStamp": "01:18",
+                    "start": 79000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_004_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_005_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_005_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_006_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_006_00-01-55",
+                    "timeStamp": "01:55",
+                    "start": 116000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_007_00-01-55",
+                    "timeStamp": "01:55",
+                    "start": 116000
+                },
+                {
+                    "filename": "When-they-ring-the-golden-bells-for-you-and-me_jukebox-14786_008_00-02-08",
+                    "timeStamp": "02:08",
+                    "start": 129000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122269",
+            "title": "When you and I were young, Maggie",
+            "url": "http://www.loc.gov/item/jukebox-122269/",
+            "clips": [
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_001_00-00-15",
+                    "timeStamp": "00:15",
+                    "start": 16000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_002_00-00-24",
+                    "timeStamp": "00:24",
+                    "start": 25000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_003_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_004_00-00-45",
+                    "timeStamp": "00:45",
+                    "start": 46000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_004_00-01-20",
+                    "timeStamp": "01:20",
+                    "start": 81000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_005_00-01-20",
+                    "timeStamp": "01:20",
+                    "start": 81000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_005_00-02-11",
+                    "timeStamp": "02:11",
+                    "start": 132000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_006_00-02-11",
+                    "timeStamp": "02:11",
+                    "start": 132000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_006_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_007_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-122269_008_00-03-18",
+                    "timeStamp": "03:18",
+                    "start": 199000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127728",
+            "title": "When you and I were young, Maggie",
+            "url": "http://www.loc.gov/item/jukebox-127728/",
+            "clips": [
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_001_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_002_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_002_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_003_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_003_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_004_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_004_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_005_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_005_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_006_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_006_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_007_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                },
+                {
+                    "filename": "When-you-and-I-were-young-Maggie_jukebox-127728_008_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                }
+            ]
+        }
+    ],
+    "segmentCount": 393,
+    "oneshotCount": 6197,
+    "totalCount": 6590
+}

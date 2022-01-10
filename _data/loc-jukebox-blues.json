@@ -1,0 +1,1840 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_national-jukebox-blues_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "250.8mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_national-jukebox-blues_wav.zip",
+            "label": "Download in 16-bit .wav format",
+            "size": "1.5gb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [],
+    "items": [
+        {
+            "id": "jukebox-19795",
+            "title": "'Joe Turner blues' medley",
+            "url": "http://www.loc.gov/item/jukebox-19795/",
+            "clips": [
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_002_00-00-04",
+                    "timeStamp": "00:04",
+                    "start": 5000
+                },
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_003_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_004_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_005_00-01-38",
+                    "timeStamp": "01:38",
+                    "start": 99000
+                },
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_006_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Joe-Turner-blues-medley_jukebox-19795_007_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-31525",
+            "title": "A good man is hard to find",
+            "url": "http://www.loc.gov/item/jukebox-31525/",
+            "clips": [
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_002_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_003_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_004_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_005_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_005_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_006_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_006_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                },
+                {
+                    "filename": "A-good-man-is-hard-to-find_jukebox-31525_007_00-02-22",
+                    "timeStamp": "02:22",
+                    "start": 143000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-33747",
+            "title": "Bell hop blues",
+            "url": "http://www.loc.gov/item/jukebox-33747/",
+            "clips": [
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_002_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_003_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_004_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_005_00-01-59",
+                    "timeStamp": "01:59",
+                    "start": 120000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_006_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_006_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "Bell-hop-blues_jukebox-33747_007_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-12779",
+            "title": "Blame it on the blues",
+            "url": "http://www.loc.gov/item/jukebox-12779/",
+            "clips": [
+                {
+                    "filename": "Blame-it-on-the-blues_jukebox-12779_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Blame-it-on-the-blues_jukebox-12779_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Blame-it-on-the-blues_jukebox-12779_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Blame-it-on-the-blues_jukebox-12779_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Blame-it-on-the-blues_jukebox-12779_005_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "Blame-it-on-the-blues_jukebox-12779_006_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-33694",
+            "title": "Blues (My naughty sweetie gives to me)",
+            "url": "http://www.loc.gov/item/jukebox-33694/",
+            "clips": [
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_003_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_004_00-00-56",
+                    "timeStamp": "00:56",
+                    "start": 57000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_005_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_006_00-01-36",
+                    "timeStamp": "01:36",
+                    "start": 97000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_006_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "Blues-My-naughty-sweetie-gives-to-me_jukebox-33694_007_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-185940",
+            "title": "Bluin' the blues",
+            "url": "http://www.loc.gov/item/jukebox-185940/",
+            "clips": [
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_006_00-03-06",
+                    "timeStamp": "03:06",
+                    "start": 187000
+                },
+                {
+                    "filename": "Bluin-the-blues_jukebox-185940_007_00-03-06",
+                    "timeStamp": "03:06",
+                    "start": 187000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-43156",
+            "title": "Bow wow blues",
+            "url": "http://www.loc.gov/item/jukebox-43156/",
+            "clips": [
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_003_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_004_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_005_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_006_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                },
+                {
+                    "filename": "Bow-wow-blues_jukebox-43156_007_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-186705",
+            "title": "Bull frog blues",
+            "url": "http://www.loc.gov/item/jukebox-186705/",
+            "clips": [
+                {
+                    "filename": "Bull-frog-blues_jukebox-186705_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Bull-frog-blues_jukebox-186705_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Bull-frog-blues_jukebox-186705_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Bull-frog-blues_jukebox-186705_004_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-15538",
+            "title": "Chinese blues",
+            "url": "http://www.loc.gov/item/jukebox-15538/",
+            "clips": [
+                {
+                    "filename": "Chinese-blues_jukebox-15538_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Chinese-blues_jukebox-15538_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Chinese-blues_jukebox-15538_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Chinese-blues_jukebox-15538_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Chinese-blues_jukebox-15538_005_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Chinese-blues_jukebox-15538_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Chinese-blues_jukebox-15538_007_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-29613",
+            "title": "Clarinet marmalade blues",
+            "url": "http://www.loc.gov/item/jukebox-29613/",
+            "clips": [
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_003_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_004_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_005_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_006_00-02-04",
+                    "timeStamp": "02:04",
+                    "start": 125000
+                },
+                {
+                    "filename": "Clarinet-marmalade-blues_jukebox-29613_007_00-02-35",
+                    "timeStamp": "02:35",
+                    "start": 156000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-188857",
+            "title": "Crazy blues",
+            "url": "http://www.loc.gov/item/jukebox-188857/",
+            "clips": [
+                {
+                    "filename": "Crazy-blues_jukebox-188857_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Crazy-blues_jukebox-188857_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Crazy-blues_jukebox-188857_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Crazy-blues_jukebox-188857_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Crazy-blues_jukebox-188857_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Crazy-blues_jukebox-188857_005_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Crazy-blues_jukebox-188857_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-41616",
+            "title": "Dangerous blues",
+            "url": "http://www.loc.gov/item/jukebox-41616/",
+            "clips": [
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_004_00-01-34",
+                    "timeStamp": "01:34",
+                    "start": 95000
+                },
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_004_00-02-04",
+                    "timeStamp": "02:04",
+                    "start": 125000
+                },
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_005_00-02-04",
+                    "timeStamp": "02:04",
+                    "start": 125000
+                },
+                {
+                    "filename": "Dangerous-blues_jukebox-41616_006_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-37616",
+            "title": "Dardanella blues",
+            "url": "http://www.loc.gov/item/jukebox-37616/",
+            "clips": [
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_003_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_004_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_005_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                },
+                {
+                    "filename": "Dardanella-blues_jukebox-37616_007_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-27181",
+            "title": "Everybody's crazy 'bout the doggone blues, but I'm happy",
+            "url": "http://www.loc.gov/item/jukebox-27181/",
+            "clips": [
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_002_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_003_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_004_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_004_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_005_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_005_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_006_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_006_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                },
+                {
+                    "filename": "Everybodys-crazy-bout-the-doggone-blues-but-Im-happy_jukebox-27181_007_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-42414",
+            "title": "Gypsy blues",
+            "url": "http://www.loc.gov/item/jukebox-42414/",
+            "clips": [
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_006_00-02-30",
+                    "timeStamp": "02:30",
+                    "start": 151000
+                },
+                {
+                    "filename": "Gypsy-blues_jukebox-42414_007_00-03-00",
+                    "timeStamp": "03:00",
+                    "start": 181000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-19406",
+            "title": "Hesitation blues",
+            "url": "http://www.loc.gov/item/jukebox-19406/",
+            "clips": [
+                {
+                    "filename": "Hesitation-blues_jukebox-19406_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Hesitation-blues_jukebox-19406_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Hesitation-blues_jukebox-19406_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Hesitation-blues_jukebox-19406_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Hesitation-blues_jukebox-19406_004_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-39384",
+            "title": "Home again blues",
+            "url": "http://www.loc.gov/item/jukebox-39384/",
+            "clips": [
+                {
+                    "filename": "Home-again-blues_jukebox-39384_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-39384_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-39384_003_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-39384_004_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-39384_005_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-39384_006_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-40650",
+            "title": "Home again blues",
+            "url": "http://www.loc.gov/item/jukebox-40650/",
+            "clips": [
+                {
+                    "filename": "Home-again-blues_jukebox-40650_001_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_002_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_003_00-01-08",
+                    "timeStamp": "01:08",
+                    "start": 69000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_004_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_004_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_005_00-01-56",
+                    "timeStamp": "01:56",
+                    "start": 117000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_006_00-02-26",
+                    "timeStamp": "02:26",
+                    "start": 147000
+                },
+                {
+                    "filename": "Home-again-blues_jukebox-40650_007_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-37619",
+            "title": "I've got the A-B-C-D blues",
+            "url": "http://www.loc.gov/item/jukebox-37619/",
+            "clips": [
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_002_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_004_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_005_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_005_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_006_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_006_00-02-25",
+                    "timeStamp": "02:25",
+                    "start": 146000
+                },
+                {
+                    "filename": "Ive-got-the-A-B-C-D-blues_jukebox-37619_007_00-02-25",
+                    "timeStamp": "02:25",
+                    "start": 146000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-40212",
+            "title": "Jazz me blues",
+            "url": "http://www.loc.gov/item/jukebox-40212/",
+            "clips": [
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_006_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "Jazz-me-blues_jukebox-40212_007_00-02-45",
+                    "timeStamp": "02:45",
+                    "start": 166000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129897",
+            "title": "Jolly jingles",
+            "url": "http://www.loc.gov/item/jukebox-129897/",
+            "clips": [
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_002_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_002_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_003_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_003_00-01-48",
+                    "timeStamp": "01:48",
+                    "start": 109000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_004_00-01-48",
+                    "timeStamp": "01:48",
+                    "start": 109000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_004_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_005_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_005_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_006_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_006_00-03-53",
+                    "timeStamp": "03:53",
+                    "start": 234000
+                },
+                {
+                    "filename": "Jolly-jingles_jukebox-129897_007_00-03-53",
+                    "timeStamp": "03:53",
+                    "start": 234000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-19478",
+            "title": "Kansas City blues",
+            "url": "http://www.loc.gov/item/jukebox-19478/",
+            "clips": [
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_004_00-01-08",
+                    "timeStamp": "01:08",
+                    "start": 69000
+                },
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_005_00-01-38",
+                    "timeStamp": "01:38",
+                    "start": 99000
+                },
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_006_00-02-08",
+                    "timeStamp": "02:08",
+                    "start": 129000
+                },
+                {
+                    "filename": "Kansas-City-blues_jukebox-19478_007_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-186254",
+            "title": "Livery stable blues",
+            "url": "http://www.loc.gov/item/jukebox-186254/",
+            "clips": [
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_001_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_002_00-01-23",
+                    "timeStamp": "01:23",
+                    "start": 84000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_003_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_004_00-01-23",
+                    "timeStamp": "01:23",
+                    "start": 84000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_005_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_006_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Livery-stable-blues_jukebox-186254_007_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-19693",
+            "title": "Money blues",
+            "url": "http://www.loc.gov/item/jukebox-19693/",
+            "clips": [
+                {
+                    "filename": "Money-blues_jukebox-19693_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Money-blues_jukebox-19693_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Money-blues_jukebox-19693_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Money-blues_jukebox-19693_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Money-blues_jukebox-19693_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-185943",
+            "title": "Mournin' blues",
+            "url": "http://www.loc.gov/item/jukebox-185943/",
+            "clips": [
+                {
+                    "filename": "Mournin-blues_jukebox-185943_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Mournin-blues_jukebox-185943_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Mournin-blues_jukebox-185943_003_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "Mournin-blues_jukebox-185943_004_00-01-19",
+                    "timeStamp": "01:19",
+                    "start": 80000
+                },
+                {
+                    "filename": "Mournin-blues_jukebox-185943_005_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "Mournin-blues_jukebox-185943_006_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Mournin-blues_jukebox-185943_007_00-02-37",
+                    "timeStamp": "02:37",
+                    "start": 158000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-19337",
+            "title": "Paradise blues",
+            "url": "http://www.loc.gov/item/jukebox-19337/",
+            "clips": [
+                {
+                    "filename": "Paradise-blues_jukebox-19337_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_002_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_003_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_004_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_005_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_006_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_006_00-02-47",
+                    "timeStamp": "02:47",
+                    "start": 168000
+                },
+                {
+                    "filename": "Paradise-blues_jukebox-19337_007_00-02-47",
+                    "timeStamp": "02:47",
+                    "start": 168000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-38055",
+            "title": "Railroad blues",
+            "url": "http://www.loc.gov/item/jukebox-38055/",
+            "clips": [
+                {
+                    "filename": "Railroad-blues_jukebox-38055_001_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                },
+                {
+                    "filename": "Railroad-blues_jukebox-38055_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Railroad-blues_jukebox-38055_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "Railroad-blues_jukebox-38055_004_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Railroad-blues_jukebox-38055_005_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Railroad-blues_jukebox-38055_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-32102",
+            "title": "Rainy day blues",
+            "url": "http://www.loc.gov/item/jukebox-32102/",
+            "clips": [
+                {
+                    "filename": "Rainy-day-blues_jukebox-32102_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Rainy-day-blues_jukebox-32102_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Rainy-day-blues_jukebox-32102_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Rainy-day-blues_jukebox-32102_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Rainy-day-blues_jukebox-32102_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Rainy-day-blues_jukebox-32102_006_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-41561",
+            "title": "Royal Garden blues",
+            "url": "http://www.loc.gov/item/jukebox-41561/",
+            "clips": [
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_003_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Royal-Garden-blues_jukebox-41561_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-41556",
+            "title": "St. Louis blues",
+            "url": "http://www.loc.gov/item/jukebox-41556/",
+            "clips": [
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_005_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_006_00-02-21",
+                    "timeStamp": "02:21",
+                    "start": 142000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_006_00-02-51",
+                    "timeStamp": "02:51",
+                    "start": 172000
+                },
+                {
+                    "filename": "St-Louis-blues_jukebox-41556_007_00-02-51",
+                    "timeStamp": "02:51",
+                    "start": 172000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-37702",
+            "title": "The Broadway blues",
+            "url": "http://www.loc.gov/item/jukebox-37702/",
+            "clips": [
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_002_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_003_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_003_00-00-56",
+                    "timeStamp": "00:56",
+                    "start": 57000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_004_00-00-56",
+                    "timeStamp": "00:56",
+                    "start": 57000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_004_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_005_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_005_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_006_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_006_00-01-38",
+                    "timeStamp": "01:38",
+                    "start": 99000
+                },
+                {
+                    "filename": "The-Broadway-blues_jukebox-37702_007_00-01-38",
+                    "timeStamp": "01:38",
+                    "start": 99000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-17426",
+            "title": "The Honolulu blues",
+            "url": "http://www.loc.gov/item/jukebox-17426/",
+            "clips": [
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_002_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_003_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_003_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_004_00-00-44",
+                    "timeStamp": "00:44",
+                    "start": 45000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_004_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_005_00-01-14",
+                    "timeStamp": "01:14",
+                    "start": 75000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_005_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_006_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "The-Honolulu-blues_jukebox-17426_007_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11226",
+            "title": "The Memphis blues",
+            "url": "http://www.loc.gov/item/jukebox-11226/",
+            "clips": [
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_002_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_002_00-00-57",
+                    "timeStamp": "00:57",
+                    "start": 58000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_003_00-00-57",
+                    "timeStamp": "00:57",
+                    "start": 58000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_003_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_004_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_004_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_005_00-01-45",
+                    "timeStamp": "01:45",
+                    "start": 106000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_005_00-02-16",
+                    "timeStamp": "02:16",
+                    "start": 137000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_006_00-02-16",
+                    "timeStamp": "02:16",
+                    "start": 137000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_006_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-11226_007_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-275361",
+            "title": "The Memphis blues",
+            "url": "http://www.loc.gov/item/jukebox-275361/",
+            "clips": [
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_003_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_004_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_005_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_006_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_006_00-02-36",
+                    "timeStamp": "02:36",
+                    "start": 157000
+                },
+                {
+                    "filename": "The-Memphis-blues_jukebox-275361_007_00-02-36",
+                    "timeStamp": "02:36",
+                    "start": 157000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-185601",
+            "title": "The alcoholic blues",
+            "url": "http://www.loc.gov/item/jukebox-185601/",
+            "clips": [
+                {
+                    "filename": "The-alcoholic-blues_jukebox-185601_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-185601_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-185601_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-185601_004_00-01-23",
+                    "timeStamp": "01:23",
+                    "start": 84000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-185601_005_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-185601_006_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-31396",
+            "title": "The alcoholic blues",
+            "url": "http://www.loc.gov/item/jukebox-31396/",
+            "clips": [
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_005_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "The-alcoholic-blues_jukebox-31396_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-42639",
+            "title": "Wabash blues",
+            "url": "http://www.loc.gov/item/jukebox-42639/",
+            "clips": [
+                {
+                    "filename": "Wabash-blues_jukebox-42639_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_001_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_002_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_002_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_003_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_003_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_004_00-01-13",
+                    "timeStamp": "01:13",
+                    "start": 74000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_005_00-01-43",
+                    "timeStamp": "01:43",
+                    "start": 104000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_006_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42639_007_00-02-44",
+                    "timeStamp": "02:44",
+                    "start": 165000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-42642",
+            "title": "Wabash blues",
+            "url": "http://www.loc.gov/item/jukebox-42642/",
+            "clips": [
+                {
+                    "filename": "Wabash-blues_jukebox-42642_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_002_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_003_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_004_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_005_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_005_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_006_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_006_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                },
+                {
+                    "filename": "Wabash-blues_jukebox-42642_007_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-37802",
+            "title": "Wang-wang blues",
+            "url": "http://www.loc.gov/item/jukebox-37802/",
+            "clips": [
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_003_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_004_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_004_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_005_00-02-00",
+                    "timeStamp": "02:00",
+                    "start": 121000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_005_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_006_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_006_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                },
+                {
+                    "filename": "Wang-wang-blues_jukebox-37802_007_00-03-01",
+                    "timeStamp": "03:01",
+                    "start": 182000
+                }
+            ]
+        }
+    ],
+    "segmentCount": 371,
+    "oneshotCount": 5942,
+    "totalCount": 6313
+}

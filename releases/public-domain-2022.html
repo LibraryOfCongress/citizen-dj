@@ -1,85 +1,71 @@
 ---
-layout: page
+layout: custom
 uid: public-domain-2022
 title: Public Domain Audio Release 2022
 permalink: "/public-domain-2022/"
 ---
 
-<style type="text/css">
-.countdown-wrapper {
-  text-align: center;
-}
-#countdown {
-  background: var(--secondary-light-color);
-  padding: 0.2rem 0.4rem;
-  margin-top: 1rem;
-  display: inline-block;
-}
-</style>
+<main>
+  <div class="container {{ page.uid }}">
 
-<img src="{{ site.baseurl }}/img/public_domain_audio_2022_banner.jpg" class="page-banner-image" alt="A grid of album covers representing the audio contained 2022 public domain release" />
-<p class="caption">Album covers of <a href="https://www.loc.gov/collections/national-jukebox/?all=True&dates=1800%2F1922&st=grid" target="_blank">pre-1923 records from the National Jukebox collection</a>.</p>
+    {% include notice.html %}
 
-<h1>Thousands of public domain sound recordings coming in 2022</h1>
+    <img src="{{ site.baseurl }}/img/public_domain_audio_2022_banner.jpg" class="page-banner-image" alt="A grid of album covers representing the audio contained 2022 public domain release" />
+    <p class="caption">Album covers of <a href="https://www.loc.gov/collections/national-jukebox/?all=True&dates=1800%2F1922&st=grid" target="_blank">pre-1923 records from the National Jukebox collection</a>.</p>
 
-<div class="countdown-wrapper">
-  <h2 id="countdown"></h2>
+    <h1>Thousands of public domain sound recordings added to Citizen DJ in 2022!</h1>
+
+    <p>Under the <a href="https://www.copyright.gov/music-modernization/" target="_blank">Music Modernization Act</a> of 2018 (see section 1401 <a href="https://www.copyright.gov/legislation/2018_mma_amendments.pdf" target="_blank">in the bill</a>), all sound recordings published before <strong>January 1, 1923</strong> entered the public domain on <strong>January 1, 2022</strong>. This means that <a href="https://www.loc.gov/collections/national-jukebox/?dates=1800/1922" target="_blank">thousands of sound recordings</a> from the Library of Congress are now free to use and reuse in Citizen DJ. Furthermore, for each year between 2023 and 2046, recordings older than 100 years will enter the public domain. After 2046 we will need to wait 10 years for pre-1956 recordings to enter the public domain under current law.</p>
+
+    <p>This is significant because until 2022, no sound recording has entered the public domain due to copyright expiration. This is because before February 15, 1972, sound recordings (unlike most other material like sheet music, photography, and books) weren't protected by federal copyright law. They were protected by state law, which means that they were protected indefinitely. And prior to this bill, the vast majority of sound recordings would not have entered the public domain due to copyright expiration until 2067.</p>
+
+    <h2>What was added to Citizen DJ in 2022?</h2>
+
+    <p>
+    Now in its twelfth year, <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank">the National Jukebox</a> has grown to over 16,000 early 20th Century recordings from the Victor, Columbia and Harmony labels. The recordings on the National Jukebox date from 1900 to 1925 and, under the Music Modernization Act, all sound recordings published prior to 1923 have entered the public domain effective on January 1, 2022.
+    </p>
+
+    <p>
+    The staff of the Library of Congress <a href="https://www.loc.gov/programs/audio-visual-conservation/about-this-program/" target="_blank">National Audio-Visual Conservation Center (NAVCC)</a>, along with <a href="https://labs.loc.gov/" target="_blank">LC Labs</a> and Citizen DJ developer, <a href="https://brianfoo.com/" target="_blank">Brian Foo</a>, have selected thousands of recordings for the initial launch of National Jukebox content on the Citizen DJ platform. The selected works come from the collections of the Library of Congress and span a variety of genres from classical and opera, to early jazz and blues, humorous songs, spoken word and even some yodeling. Made in the United States between 1900 and 1921, these recordings represent the vastly diverse and intensely creative artists who played a part in shaping the nation's recorded sound history and whose legacy lives on through these rare and valuable cultural treasures.
+    </p>
+
+    <p>
+    The NAVCC is proud to contribute content to Citizen DJ in order to increase access to these important recordings. The Library of Congress continues to inspire creativity and raise awareness of the historical recordings in its custody through encouraging creators around the globe to reuse and repurpose these unique audio materials in the creation of new works.
+    </p>
+
+    <h3>Are all the National Jukebox recordings available on Citizen DJ?</h3>
+
+    <p>No, some recordings were excluded from Citizen DJ due to copyright limitations or ethical concerns. Furthermore, a subset of the remaining recordings were <a href="/about/#how-do-you-selectcreate-the-audio-clips">selected based on their their music-making potential</a>, with preferences with those recordings that are sufficiently loud, have less noise, and have a clear musical pitch. If you cannot find a specific National Jukebox recording on Citizen DJ, you can still <a href="https://www.loc.gov/collections/national-jukebox/?dates=1800/1922" target="_blank">access those recordings directly on the Library's website</a>.</p>
+
+    <h2>Remix the new collections!</h2>
+
+  </div>
+
+  {% assign pages = site.use | sort:"sequence" %}
+  <div class="collections">
+    {% for p in pages %}
+      {% if p.active > 0 and p.sequence < 30 and p.sequence >= 20 %}
+      <div class="collection">
+        {% if p.image_url %}
+        <img src="{{ p.image_url }}" alt="A grid of clips representing the audio contained in this collection: {{ p.title }}" />
+        {% endif %}
+        <h3>{{ p.title }}</h3>
+        {% if p.subjects %}
+        <p class="subjects"><em>{{ p.subjects | array_to_sentence_string }}</em></p>
+        {% endif %}
+        <p class="description">{{ p.description }}</p>
+        <p class="collection-buttons">
+          <a href="{{ p.collection_base_url }}explore/" class="button">Explore</a>
+          <a href="{{ p.collection_base_url }}remix/" class="button">Remix</a>
+          <a href="{{ p.collection_base_url }}use/" class="button">Browse &amp; download</a>
+        </p>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</main>
+
+<div class="container">
+  {% include footer.html %}
 </div>
-
-<p>Under the <a href="https://www.copyright.gov/music-modernization/" target="_blank">Music Modernization Act</a> of 2018 (see section 1401 <a href="https://www.copyright.gov/legislation/2018_mma_amendments.pdf" target="_blank">in the bill</a>), all sound recordings published before <strong>January 1, 1923</strong> will enter the public domain on <strong>January 1, 2022</strong>. This means that <a href="https://www.loc.gov/collections/national-jukebox/?dates=1800/1922" target="_blank">over 10,000 sound recordings</a> from the Library of Congress will be free to use and reuse in Citizen DJ. Furthermore, for each year between 2023 and 2046, recordings older than 100 years will enter the public domain. After 2046 we will need to wait 10 years for pre-1956 recordings to enter the public domain under current law.</p>
-
-<p>This is significant because until 2022, no sound recording has entered the public domain due to copyright expiration. This is because before February 15, 1972, sound recordings (unlike most other material like sheet music, photography, and books) weren't protected by federal copyright law. They were protected by state law, which means that they were protected indefinitely. And prior to this bill, the vast majority of sound recordings would not have entered the public domain due to copyright expiration until 2067.</p>
-
-<h2>What will be released in 2022?</h2>
-
-<p>Most significantly, the majority of recordings in the Library's <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank">National Jukebox collection</a> will enter the public domain. The Jukebox includes more than 10,000 acoustical recordings made by the Victor Talking Machine Company between 1901 and 1925 and are now owned by Sony Music Entertainment. The collection contains a mixture of popular music of that era (blues, ragtime, jazz, folk) and spoken word such as comedic skits, speeches, and readings. To get a sense of how much material this is, it would take approximately 20 continuous days to listen to the Jukebox material that will be available to use and reuse in 2022.</p>
-
-<p>Until 2022, feel free to <a href="https://www.loc.gov/collections/national-jukebox/?dates=1800/1922" target="_blank">browse and stream these recordings</a> and imagine what new work you can make once they become free to use and reuse.</p>
-
-<p><strong>Check back here on January 1, 2022!</strong></p>
-
-<script>
-function calcDateDiff(date1,date2) {
-  var diff = Math.floor(date1.getTime() - date2.getTime());
-  var secs = Math.floor(diff/1000);
-  var mins = Math.floor(secs/60);
-  var hours = Math.floor(mins/60);
-  var days = Math.floor(hours/24);
-  var months = Math.floor(days/31);
-  var years = Math.floor(months/12);
-  months=Math.floor(months%12);
-  days = Math.floor(days%31);
-  hours = Math.floor(hours%24);
-  mins = Math.floor(mins%60);
-  secs = Math.floor(secs%60);
-  var message = "";
-  if(days <= 0 && months <= 0 && years <= 0){
-    message += secs + " sec ";
-    message += mins + " min ";
-    message += hours + " hours ";
-  } else {
-
-    if(years > 0){
-      message += years + " year ";
-    }
-    if(months > 1){
-      message += months + " months ";
-    } else if (month > 0) {
-      message += months + " month";
-    }
-    if (days > 1) {
-      message += days + " days";
-    } else if (days > 0) {
-      message += days + " day";
-    }
-  }
-  return message
-}
-var later = new Date(2022, 1, 1, 0, 0, 0, 0);
-var now = new Date();
-var text = calcDateDiff(later, now) + ' left';
-if (now < later) {
-  var el = document.getElementById('countdown');
-  el.textContent = text;
-}
-</script>

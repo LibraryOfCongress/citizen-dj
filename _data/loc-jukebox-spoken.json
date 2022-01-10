@@ -1,0 +1,2564 @@
+{
+    "packages": [
+        {
+            "filename": "loc.gov_national-jukebox-spoken_mp3.zip",
+            "label": "Download in 192 Kbps .mp3 format",
+            "size": "161.0mb",
+            "comment": "Ideal if you would just like to preview and browse this collection"
+        },
+        {
+            "filename": "loc.gov_national-jukebox-spoken_wav.zip",
+            "label": "Download in 16-bit .wav format",
+            "size": "876.4mb",
+            "comment": "Ideal for production"
+        }
+    ],
+    "clips": [],
+    "items": [
+        {
+            "id": "jukebox-294814",
+            "title": "23rd Psalm",
+            "url": "http://www.loc.gov/item/jukebox-294814/",
+            "clips": [
+                {
+                    "filename": "23rd-Psalm_jukebox-294814_001_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "23rd-Psalm_jukebox-294814_001_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                },
+                {
+                    "filename": "23rd-Psalm_jukebox-294814_002_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129840",
+            "title": "A bit of drama",
+            "url": "http://www.loc.gov/item/jukebox-129840/",
+            "clips": [
+                {
+                    "filename": "A-bit-of-drama_jukebox-129840_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "A-bit-of-drama_jukebox-129840_002_00-00-56",
+                    "timeStamp": "00:56",
+                    "start": 57000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-424768",
+            "title": "A bunch of nonsense",
+            "url": "http://www.loc.gov/item/jukebox-424768/",
+            "clips": [
+                {
+                    "filename": "A-bunch-of-nonsense_jukebox-424768_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "A-bunch-of-nonsense_jukebox-424768_002_00-00-47",
+                    "timeStamp": "00:47",
+                    "start": 48000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126645",
+            "title": "A busy week at Pun'kin Centre",
+            "url": "http://www.loc.gov/item/jukebox-126645/",
+            "clips": [
+                {
+                    "filename": "A-busy-week-at-Punkin-Centre_jukebox-126645_001_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                },
+                {
+                    "filename": "A-busy-week-at-Punkin-Centre_jukebox-126645_002_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-12379",
+            "title": "A father of 36",
+            "url": "http://www.loc.gov/item/jukebox-12379/",
+            "clips": [
+                {
+                    "filename": "A-father-of-36_jukebox-12379_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "A-father-of-36_jukebox-12379_001_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                },
+                {
+                    "filename": "A-father-of-36_jukebox-12379_002_00-01-28",
+                    "timeStamp": "01:28",
+                    "start": 89000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422591",
+            "title": "A matrimonial chat",
+            "url": "http://www.loc.gov/item/jukebox-422591/",
+            "clips": [
+                {
+                    "filename": "A-matrimonial-chat_jukebox-422591_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "A-matrimonial-chat_jukebox-422591_002_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-133788",
+            "title": "A new cure for drinking",
+            "url": "http://www.loc.gov/item/jukebox-133788/",
+            "clips": [
+                {
+                    "filename": "A-new-cure-for-drinking_jukebox-133788_001_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "A-new-cure-for-drinking_jukebox-133788_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "A-new-cure-for-drinking_jukebox-133788_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-19374",
+            "title": "A psalm of life",
+            "url": "http://www.loc.gov/item/jukebox-19374/",
+            "clips": [
+                {
+                    "filename": "A-psalm-of-life_jukebox-19374_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "A-psalm-of-life_jukebox-19374_002_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-239076",
+            "title": "A record for the children",
+            "url": "http://www.loc.gov/item/jukebox-239076/",
+            "clips": [
+                {
+                    "filename": "A-record-for-the-children_jukebox-239076_001_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                },
+                {
+                    "filename": "A-record-for-the-children_jukebox-239076_001_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                },
+                {
+                    "filename": "A-record-for-the-children_jukebox-239076_002_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-120494",
+            "title": "A rheumatism cure in Jayville Centre",
+            "url": "http://www.loc.gov/item/jukebox-120494/",
+            "clips": [
+                {
+                    "filename": "A-rheumatism-cure-in-Jayville-Centre_jukebox-120494_001_00-00-57",
+                    "timeStamp": "00:57",
+                    "start": 58000
+                },
+                {
+                    "filename": "A-rheumatism-cure-in-Jayville-Centre_jukebox-120494_001_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                },
+                {
+                    "filename": "A-rheumatism-cure-in-Jayville-Centre_jukebox-120494_002_00-01-47",
+                    "timeStamp": "01:47",
+                    "start": 108000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-131628",
+            "title": "A rural argument",
+            "url": "http://www.loc.gov/item/jukebox-131628/",
+            "clips": [
+                {
+                    "filename": "A-rural-argument_jukebox-131628_001_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "A-rural-argument_jukebox-131628_002_00-02-43",
+                    "timeStamp": "02:43",
+                    "start": 164000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-242062",
+            "title": "A talk on trousers",
+            "url": "http://www.loc.gov/item/jukebox-242062/",
+            "clips": [
+                {
+                    "filename": "A-talk-on-trousers_jukebox-242062_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-285503",
+            "title": "A talk on trousers",
+            "url": "http://www.loc.gov/item/jukebox-285503/",
+            "clips": [
+                {
+                    "filename": "A-talk-on-trousers_jukebox-285503_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "A-talk-on-trousers_jukebox-285503_001_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "A-talk-on-trousers_jukebox-285503_002_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129844",
+            "title": "Adventures in a department store",
+            "url": "http://www.loc.gov/item/jukebox-129844/",
+            "clips": [
+                {
+                    "filename": "Adventures-in-a-department-store_jukebox-129844_001_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Adventures-in-a-department-store_jukebox-129844_002_00-01-53",
+                    "timeStamp": "01:53",
+                    "start": 114000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-131695",
+            "title": "All public plunderers look alike to me",
+            "url": "http://www.loc.gov/item/jukebox-131695/",
+            "clips": [
+                {
+                    "filename": "All-public-plunderers-look-alike-to-me_jukebox-131695_001_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "All-public-plunderers-look-alike-to-me_jukebox-131695_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127266",
+            "title": "An Irish-Dutch argument",
+            "url": "http://www.loc.gov/item/jukebox-127266/",
+            "clips": [
+                {
+                    "filename": "An-Irish-Dutch-argument_jukebox-127266_001_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                },
+                {
+                    "filename": "An-Irish-Dutch-argument_jukebox-127266_001_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "An-Irish-Dutch-argument_jukebox-127266_002_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126522",
+            "title": "An ideal republic",
+            "url": "http://www.loc.gov/item/jukebox-126522/",
+            "clips": [
+                {
+                    "filename": "An-ideal-republic_jukebox-126522_001_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "An-ideal-republic_jukebox-126522_001_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "An-ideal-republic_jukebox-126522_002_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-130605",
+            "title": "An old sweetheart of mine",
+            "url": "http://www.loc.gov/item/jukebox-130605/",
+            "clips": [
+                {
+                    "filename": "An-old-sweetheart-of-mine_jukebox-130605_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "An-old-sweetheart-of-mine_jukebox-130605_002_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-130614",
+            "title": "Antony's address over the body of Caesar",
+            "url": "http://www.loc.gov/item/jukebox-130614/",
+            "clips": [
+                {
+                    "filename": "Antonys-address-over-the-body-of-Caesar_jukebox-130614_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                },
+                {
+                    "filename": "Antonys-address-over-the-body-of-Caesar_jukebox-130614_002_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-130615",
+            "title": "Antony's address over the body of Caesar",
+            "url": "http://www.loc.gov/item/jukebox-130615/",
+            "clips": [
+                {
+                    "filename": "Antonys-address-over-the-body-of-Caesar_jukebox-130615_001_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126868",
+            "title": "Are you sincere?",
+            "url": "http://www.loc.gov/item/jukebox-126868/",
+            "clips": [
+                {
+                    "filename": "Are-you-sincere_jukebox-126868_001_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "Are-you-sincere_jukebox-126868_002_00-02-14",
+                    "timeStamp": "02:14",
+                    "start": 135000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-12950",
+            "title": "At the county fair",
+            "url": "http://www.loc.gov/item/jukebox-12950/",
+            "clips": [
+                {
+                    "filename": "At-the-county-fair_jukebox-12950_001_00-00-50",
+                    "timeStamp": "00:50",
+                    "start": 51000
+                },
+                {
+                    "filename": "At-the-county-fair_jukebox-12950_001_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "At-the-county-fair_jukebox-12950_002_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422593",
+            "title": "At the village post office",
+            "url": "http://www.loc.gov/item/jukebox-422593/",
+            "clips": [
+                {
+                    "filename": "At-the-village-post-office_jukebox-422593_001_00-00-06",
+                    "timeStamp": "00:06",
+                    "start": 7000
+                },
+                {
+                    "filename": "At-the-village-post-office_jukebox-422593_002_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-243944",
+            "title": "Auction sale of a music store",
+            "url": "http://www.loc.gov/item/jukebox-243944/",
+            "clips": [
+                {
+                    "filename": "Auction-sale-of-a-music-store_jukebox-243944_001_00-00-20",
+                    "timeStamp": "00:20",
+                    "start": 21000
+                },
+                {
+                    "filename": "Auction-sale-of-a-music-store_jukebox-243944_002_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-267403",
+            "title": "Auction sale of a toy store",
+            "url": "http://www.loc.gov/item/jukebox-267403/",
+            "clips": [
+                {
+                    "filename": "Auction-sale-of-a-toy-store_jukebox-267403_001_00-00-43",
+                    "timeStamp": "00:43",
+                    "start": 44000
+                },
+                {
+                    "filename": "Auction-sale-of-a-toy-store_jukebox-267403_002_00-00-50",
+                    "timeStamp": "00:50",
+                    "start": 51000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-128186",
+            "title": "Banjo song",
+            "url": "http://www.loc.gov/item/jukebox-128186/",
+            "clips": [
+                {
+                    "filename": "Banjo-song_jukebox-128186_001_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Banjo-song_jukebox-128186_001_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                },
+                {
+                    "filename": "Banjo-song_jukebox-128186_002_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-260336",
+            "title": "Barbara Frietchie",
+            "url": "http://www.loc.gov/item/jukebox-260336/",
+            "clips": [
+                {
+                    "filename": "Barbara-Frietchie_jukebox-260336_001_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "Barbara-Frietchie_jukebox-260336_002_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-250009",
+            "title": "Becky and Izzy",
+            "url": "http://www.loc.gov/item/jukebox-250009/",
+            "clips": [
+                {
+                    "filename": "Becky-and-Izzy_jukebox-250009_001_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                },
+                {
+                    "filename": "Becky-and-Izzy_jukebox-250009_001_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                },
+                {
+                    "filename": "Becky-and-Izzy_jukebox-250009_002_00-02-19",
+                    "timeStamp": "02:19",
+                    "start": 140000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-131807",
+            "title": "Benedick's idea of a wife",
+            "url": "http://www.loc.gov/item/jukebox-131807/",
+            "clips": [
+                {
+                    "filename": "Benedicks-idea-of-a-wife_jukebox-131807_001_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-15737",
+            "title": "Bible reading : Luke 2",
+            "url": "http://www.loc.gov/item/jukebox-15737/",
+            "clips": [
+                {
+                    "filename": "Bible-reading--Luke-2_jukebox-15737_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Bible-reading--Luke-2_jukebox-15737_002_00-02-28",
+                    "timeStamp": "02:28",
+                    "start": 149000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422373",
+            "title": "Casey at the bat",
+            "url": "http://www.loc.gov/item/jukebox-422373/",
+            "clips": [
+                {
+                    "filename": "Casey-at-the-bat_jukebox-422373_001_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Casey-at-the-bat_jukebox-422373_002_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127159",
+            "title": "Charge of the Light Brigade",
+            "url": "http://www.loc.gov/item/jukebox-127159/",
+            "clips": [
+                {
+                    "filename": "Charge-of-the-Light-Brigade_jukebox-127159_001_00-01-32",
+                    "timeStamp": "01:32",
+                    "start": 93000
+                },
+                {
+                    "filename": "Charge-of-the-Light-Brigade_jukebox-127159_002_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-244551",
+            "title": "Clancey's prize waltz contest",
+            "url": "http://www.loc.gov/item/jukebox-244551/",
+            "clips": [
+                {
+                    "filename": "Clanceys-prize-waltz-contest_jukebox-244551_001_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                },
+                {
+                    "filename": "Clanceys-prize-waltz-contest_jukebox-244551_002_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422435",
+            "title": "Closing time in a country grocery",
+            "url": "http://www.loc.gov/item/jukebox-422435/",
+            "clips": [
+                {
+                    "filename": "Closing-time-in-a-country-grocery_jukebox-422435_001_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                },
+                {
+                    "filename": "Closing-time-in-a-country-grocery_jukebox-422435_002_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-119170",
+            "title": "Closing time in a country grocery store",
+            "url": "http://www.loc.gov/item/jukebox-119170/",
+            "clips": [
+                {
+                    "filename": "Closing-time-in-a-country-grocery-store_jukebox-119170_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Closing-time-in-a-country-grocery-store_jukebox-119170_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126597",
+            "title": "Democratic policy prevents restoration of prosperity",
+            "url": "http://www.loc.gov/item/jukebox-126597/",
+            "clips": [
+                {
+                    "filename": "Democratic-policy-prevents-restoration-of-prosperity_jukebox-126597_001_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "Democratic-policy-prevents-restoration-of-prosperity_jukebox-126597_001_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "Democratic-policy-prevents-restoration-of-prosperity_jukebox-126597_002_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127356",
+            "title": "Experiences in the show business",
+            "url": "http://www.loc.gov/item/jukebox-127356/",
+            "clips": [
+                {
+                    "filename": "Experiences-in-the-show-business_jukebox-127356_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                },
+                {
+                    "filename": "Experiences-in-the-show-business_jukebox-127356_002_00-02-25",
+                    "timeStamp": "02:25",
+                    "start": 146000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126863",
+            "title": "Farewell address to the Navy",
+            "url": "http://www.loc.gov/item/jukebox-126863/",
+            "clips": [
+                {
+                    "filename": "Farewell-address-to-the-Navy_jukebox-126863_001_00-00-42",
+                    "timeStamp": "00:42",
+                    "start": 43000
+                },
+                {
+                    "filename": "Farewell-address-to-the-Navy_jukebox-126863_001_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                },
+                {
+                    "filename": "Farewell-address-to-the-Navy_jukebox-126863_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127359",
+            "title": "Father as a scientist",
+            "url": "http://www.loc.gov/item/jukebox-127359/",
+            "clips": [
+                {
+                    "filename": "Father-as-a-scientist_jukebox-127359_001_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "Father-as-a-scientist_jukebox-127359_002_00-02-20",
+                    "timeStamp": "02:20",
+                    "start": 141000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127606",
+            "title": "Fourth of July in Jayville Center",
+            "url": "http://www.loc.gov/item/jukebox-127606/",
+            "clips": [
+                {
+                    "filename": "Fourth-of-July-in-Jayville-Center_jukebox-127606_001_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "Fourth-of-July-in-Jayville-Center_jukebox-127606_001_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                },
+                {
+                    "filename": "Fourth-of-July-in-Jayville-Center_jukebox-127606_002_00-01-12",
+                    "timeStamp": "01:12",
+                    "start": 73000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-248353",
+            "title": "Fritz and Louisa",
+            "url": "http://www.loc.gov/item/jukebox-248353/",
+            "clips": [
+                {
+                    "filename": "Fritz-and-Louisa_jukebox-248353_001_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                },
+                {
+                    "filename": "Fritz-and-Louisa_jukebox-248353_002_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422473",
+            "title": "Fritz and Louisa",
+            "url": "http://www.loc.gov/item/jukebox-422473/",
+            "clips": [
+                {
+                    "filename": "Fritz-and-Louisa_jukebox-422473_001_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                },
+                {
+                    "filename": "Fritz-and-Louisa_jukebox-422473_001_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                },
+                {
+                    "filename": "Fritz-and-Louisa_jukebox-422473_002_00-01-16",
+                    "timeStamp": "01:16",
+                    "start": 77000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126606",
+            "title": "Functions of the next administration",
+            "url": "http://www.loc.gov/item/jukebox-126606/",
+            "clips": [
+                {
+                    "filename": "Functions-of-the-next-administration_jukebox-126606_001_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Functions-of-the-next-administration_jukebox-126606_002_00-03-04",
+                    "timeStamp": "03:04",
+                    "start": 185000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-131806",
+            "title": "Hamlet on friendship",
+            "url": "http://www.loc.gov/item/jukebox-131806/",
+            "clips": [
+                {
+                    "filename": "Hamlet-on-friendship_jukebox-131806_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Hamlet-on-friendship_jukebox-131806_002_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-130613",
+            "title": "Hamlet's soliloquy",
+            "url": "http://www.loc.gov/item/jukebox-130613/",
+            "clips": [
+                {
+                    "filename": "Hamlets-soliloquy_jukebox-130613_001_00-01-03",
+                    "timeStamp": "01:03",
+                    "start": 64000
+                },
+                {
+                    "filename": "Hamlets-soliloquy_jukebox-130613_002_00-01-21",
+                    "timeStamp": "01:21",
+                    "start": 82000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-424772",
+            "title": "Hilda loses her job",
+            "url": "http://www.loc.gov/item/jukebox-424772/",
+            "clips": [
+                {
+                    "filename": "Hilda-loses-her-job_jukebox-424772_001_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "Hilda-loses-her-job_jukebox-424772_002_00-01-58",
+                    "timeStamp": "01:58",
+                    "start": 119000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127388",
+            "title": "Hortense at sea",
+            "url": "http://www.loc.gov/item/jukebox-127388/",
+            "clips": [
+                {
+                    "filename": "Hortense-at-sea_jukebox-127388_001_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "Hortense-at-sea_jukebox-127388_001_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                },
+                {
+                    "filename": "Hortense-at-sea_jukebox-127388_002_00-01-57",
+                    "timeStamp": "01:57",
+                    "start": 118000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129843",
+            "title": "How Columbus discovered America",
+            "url": "http://www.loc.gov/item/jukebox-129843/",
+            "clips": [
+                {
+                    "filename": "How-Columbus-discovered-America_jukebox-129843_001_00-01-35",
+                    "timeStamp": "01:35",
+                    "start": 96000
+                },
+                {
+                    "filename": "How-Columbus-discovered-America_jukebox-129843_002_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127358",
+            "title": "How Mother made the soup",
+            "url": "http://www.loc.gov/item/jukebox-127358/",
+            "clips": [
+                {
+                    "filename": "How-Mother-made-the-soup_jukebox-127358_001_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "How-Mother-made-the-soup_jukebox-127358_002_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-421857",
+            "title": "Immortality",
+            "url": "http://www.loc.gov/item/jukebox-421857/",
+            "clips": [
+                {
+                    "filename": "Immortality_jukebox-421857_001_00-00-29",
+                    "timeStamp": "00:29",
+                    "start": 30000
+                },
+                {
+                    "filename": "Immortality_jukebox-421857_002_00-00-58",
+                    "timeStamp": "00:58",
+                    "start": 59000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-120495",
+            "title": "In a country blacksmith shop",
+            "url": "http://www.loc.gov/item/jukebox-120495/",
+            "clips": [
+                {
+                    "filename": "In-a-country-blacksmith-shop_jukebox-120495_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "In-a-country-blacksmith-shop_jukebox-120495_002_00-00-34",
+                    "timeStamp": "00:34",
+                    "start": 35000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126600",
+            "title": "Irish humor",
+            "url": "http://www.loc.gov/item/jukebox-126600/",
+            "clips": [
+                {
+                    "filename": "Irish-humor_jukebox-126600_001_00-01-58",
+                    "timeStamp": "01:58",
+                    "start": 119000
+                },
+                {
+                    "filename": "Irish-humor_jukebox-126600_001_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                },
+                {
+                    "filename": "Irish-humor_jukebox-126600_002_00-02-23",
+                    "timeStamp": "02:23",
+                    "start": 144000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-40226",
+            "title": "Irish stories",
+            "url": "http://www.loc.gov/item/jukebox-40226/",
+            "clips": [
+                {
+                    "filename": "Irish-stories_jukebox-40226_001_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-128435",
+            "title": "Irish wit",
+            "url": "http://www.loc.gov/item/jukebox-128435/",
+            "clips": [
+                {
+                    "filename": "Irish-wit_jukebox-128435_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Irish-wit_jukebox-128435_001_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                },
+                {
+                    "filename": "Irish-wit_jukebox-128435_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122939",
+            "title": "Jim Bludsoe",
+            "url": "http://www.loc.gov/item/jukebox-122939/",
+            "clips": [
+                {
+                    "filename": "Jim-Bludsoe_jukebox-122939_001_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422485",
+            "title": "Jim Bludsoe",
+            "url": "http://www.loc.gov/item/jukebox-422485/",
+            "clips": [
+                {
+                    "filename": "Jim-Bludsoe_jukebox-422485_001_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-5388",
+            "title": "Jim Lawson's horse trade",
+            "url": "http://www.loc.gov/item/jukebox-5388/",
+            "clips": [
+                {
+                    "filename": "Jim-Lawsons-horse-trade_jukebox-5388_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-248564",
+            "title": "Jimmie and Maggie at the Hippodrome",
+            "url": "http://www.loc.gov/item/jukebox-248564/",
+            "clips": [
+                {
+                    "filename": "Chimmie-and-Maggie-at-the-Hippodrome_jukebox-248564_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "Jimmie-and-Maggie-at-the-Hippodrome_jukebox-248564_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "Jimmie-and-Maggie-at-the-Hippodrome_jukebox-248564_002_00-02-46",
+                    "timeStamp": "02:46",
+                    "start": 167000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-250324",
+            "title": "Jimmie and Maggie in nickel-land",
+            "url": "http://www.loc.gov/item/jukebox-250324/",
+            "clips": [
+                {
+                    "filename": "Jimmie-and-Maggie-in-nickel-land_jukebox-250324_001_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "Jimmie-and-Maggie-in-nickel-land_jukebox-250324_002_00-02-01",
+                    "timeStamp": "02:01",
+                    "start": 122000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-421833",
+            "title": "Krausmeyer's birthday party",
+            "url": "http://www.loc.gov/item/jukebox-421833/",
+            "clips": [
+                {
+                    "filename": "Krausmeyers-birthday-party_jukebox-421833_001_00-00-55",
+                    "timeStamp": "00:55",
+                    "start": 56000
+                },
+                {
+                    "filename": "Krausmeyers-birthday-party_jukebox-421833_002_00-02-38",
+                    "timeStamp": "02:38",
+                    "start": 159000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126598",
+            "title": "Labor and its rights",
+            "url": "http://www.loc.gov/item/jukebox-126598/",
+            "clips": [
+                {
+                    "filename": "Labor-and-its-rights_jukebox-126598_001_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Labor-and-its-rights_jukebox-126598_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122956",
+            "title": "Lasca",
+            "url": "http://www.loc.gov/item/jukebox-122956/",
+            "clips": [
+                {
+                    "filename": "Lasca_jukebox-122956_001_00-00-28",
+                    "timeStamp": "00:28",
+                    "start": 29000
+                },
+                {
+                    "filename": "Lasca_jukebox-122956_002_00-00-40",
+                    "timeStamp": "00:40",
+                    "start": 41000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-248976",
+            "title": "Lasca",
+            "url": "http://www.loc.gov/item/jukebox-248976/",
+            "clips": [
+                {
+                    "filename": "Lasca_jukebox-248976_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Lasca_jukebox-248976_001_00-03-44",
+                    "timeStamp": "03:44",
+                    "start": 225000
+                },
+                {
+                    "filename": "Lasca_jukebox-248976_002_00-03-44",
+                    "timeStamp": "03:44",
+                    "start": 225000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122787",
+            "title": "Mandy and her man",
+            "url": "http://www.loc.gov/item/jukebox-122787/",
+            "clips": [
+                {
+                    "filename": "Mandy-and-her-man_jukebox-122787_001_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                },
+                {
+                    "filename": "Mandy-and-her-man_jukebox-122787_002_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-17486",
+            "title": "Micawber",
+            "url": "http://www.loc.gov/item/jukebox-17486/",
+            "clips": [
+                {
+                    "filename": "Micawber_jukebox-17486_001_00-00-10",
+                    "timeStamp": "00:10",
+                    "start": 11000
+                },
+                {
+                    "filename": "Micawber_jukebox-17486_001_00-01-44",
+                    "timeStamp": "01:44",
+                    "start": 105000
+                },
+                {
+                    "filename": "Micawber_jukebox-17486_002_00-01-44",
+                    "timeStamp": "01:44",
+                    "start": 105000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-32653",
+            "title": "Mrs. Rastus Johnson's joy ride",
+            "url": "http://www.loc.gov/item/jukebox-32653/",
+            "clips": [
+                {
+                    "filename": "Mrs-Rastus-Johnsons-joy-ride_jukebox-32653_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Mrs-Rastus-Johnsons-joy-ride_jukebox-32653_002_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422910",
+            "title": "Muggsy's dream",
+            "url": "http://www.loc.gov/item/jukebox-422910/",
+            "clips": [
+                {
+                    "filename": "Muggsys-dream_jukebox-422910_001_00-02-15",
+                    "timeStamp": "02:15",
+                    "start": 136000
+                },
+                {
+                    "filename": "Muggsys-dream_jukebox-422910_002_00-02-31",
+                    "timeStamp": "02:31",
+                    "start": 152000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127039",
+            "title": "Non merci",
+            "url": "http://www.loc.gov/item/jukebox-127039/",
+            "clips": [
+                {
+                    "filename": "Non-merci_jukebox-127039_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126623",
+            "title": "O'Brien's automobile",
+            "url": "http://www.loc.gov/item/jukebox-126623/",
+            "clips": [
+                {
+                    "filename": "OBriens-automobile_jukebox-126623_001_00-00-35",
+                    "timeStamp": "00:35",
+                    "start": 36000
+                },
+                {
+                    "filename": "OBriens-automobile_jukebox-126623_002_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-18515",
+            "title": "Old country fiddler at the telephone",
+            "url": "http://www.loc.gov/item/jukebox-18515/",
+            "clips": [
+                {
+                    "filename": "Old-country-fiddler-at-the-telephone_jukebox-18515_001_00-02-41",
+                    "timeStamp": "02:41",
+                    "start": 162000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11891",
+            "title": "Old country fiddler in New York",
+            "url": "http://www.loc.gov/item/jukebox-11891/",
+            "clips": [
+                {
+                    "filename": "Old-country-fiddler-in-New-York_jukebox-11891_001_00-00-05",
+                    "timeStamp": "00:05",
+                    "start": 6000
+                },
+                {
+                    "filename": "Old-country-fiddler-in-New-York_jukebox-11891_002_00-00-24",
+                    "timeStamp": "00:24",
+                    "start": 25000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-32999",
+            "title": "Opera at Pun'kin Centre",
+            "url": "http://www.loc.gov/item/jukebox-32999/",
+            "clips": [
+                {
+                    "filename": "Opera-at-Punkin-Centre_jukebox-32999_001_00-01-24",
+                    "timeStamp": "01:24",
+                    "start": 85000
+                },
+                {
+                    "filename": "Opera-at-Punkin-Centre_jukebox-32999_002_00-02-08",
+                    "timeStamp": "02:08",
+                    "start": 129000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-421872",
+            "title": "Our boarding house",
+            "url": "http://www.loc.gov/item/jukebox-421872/",
+            "clips": [
+                {
+                    "filename": "Our-boarding-house_jukebox-421872_001_00-00-12",
+                    "timeStamp": "00:12",
+                    "start": 13000
+                },
+                {
+                    "filename": "Our-boarding-house_jukebox-421872_002_00-02-34",
+                    "timeStamp": "02:34",
+                    "start": 155000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126602",
+            "title": "Our foreign dependencies : Porto Rico, Cuba and the Philippines",
+            "url": "http://www.loc.gov/item/jukebox-126602/",
+            "clips": [
+                {
+                    "filename": "Our-foreign-dependencies--Porto-Rico-Cuba-and-the-Philippines_jukebox-126602_001_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "Our-foreign-dependencies--Porto-Rico-Cuba-and-the-Philippines_jukebox-126602_002_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-17420",
+            "title": "Paul Revere's ride",
+            "url": "http://www.loc.gov/item/jukebox-17420/",
+            "clips": [
+                {
+                    "filename": "Paul-Reveres-ride_jukebox-17420_001_00-01-02",
+                    "timeStamp": "01:02",
+                    "start": 63000
+                },
+                {
+                    "filename": "Paul-Reveres-ride_jukebox-17420_002_00-01-07",
+                    "timeStamp": "01:07",
+                    "start": 68000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-123124",
+            "title": "Peaches and cream",
+            "url": "http://www.loc.gov/item/jukebox-123124/",
+            "clips": [
+                {
+                    "filename": "Peaches-and-cream_jukebox-123124_001_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-18511",
+            "title": "Plain old kitchen chap",
+            "url": "http://www.loc.gov/item/jukebox-18511/",
+            "clips": [
+                {
+                    "filename": "Plain-old-kitchen-chap_jukebox-18511_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Plain-old-kitchen-chap_jukebox-18511_002_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126595",
+            "title": "Postal savings banks versus enforced insurance of deposits",
+            "url": "http://www.loc.gov/item/jukebox-126595/",
+            "clips": [
+                {
+                    "filename": "Postal-savings-banks-versus-enforced-insurance-of-deposits_jukebox-126595_001_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "Postal-savings-banks-versus-enforced-insurance-of-deposits_jukebox-126595_001_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                },
+                {
+                    "filename": "Postal-savings-banks-versus-enforced-insurance-of-deposits_jukebox-126595_002_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126584",
+            "title": "Publication of campaign contributions",
+            "url": "http://www.loc.gov/item/jukebox-126584/",
+            "clips": [
+                {
+                    "filename": "Publication-of-campaign-contributions_jukebox-126584_001_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "Publication-of-campaign-contributions_jukebox-126584_001_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "Publication-of-campaign-contributions_jukebox-126584_002_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-133546",
+            "title": "Recessional",
+            "url": "http://www.loc.gov/item/jukebox-133546/",
+            "clips": [
+                {
+                    "filename": "Recessional_jukebox-133546_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "Recessional_jukebox-133546_002_00-00-32",
+                    "timeStamp": "00:32",
+                    "start": 33000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126596",
+            "title": "Rights and progress of the Negro",
+            "url": "http://www.loc.gov/item/jukebox-126596/",
+            "clips": [
+                {
+                    "filename": "Rights-and-progress-of-the-Negro_jukebox-126596_001_00-01-00",
+                    "timeStamp": "01:00",
+                    "start": 61000
+                },
+                {
+                    "filename": "Rights-and-progress-of-the-Negro_jukebox-126596_002_00-01-30",
+                    "timeStamp": "01:30",
+                    "start": 91000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-249770",
+            "title": "Rosie and Rudolph at the skating rink",
+            "url": "http://www.loc.gov/item/jukebox-249770/",
+            "clips": [
+                {
+                    "filename": "Rosie-and-Rudolph-at-the-skating-rink_jukebox-249770_001_00-02-03",
+                    "timeStamp": "02:03",
+                    "start": 124000
+                },
+                {
+                    "filename": "Rosie-and-Rudolph-at-the-skating-rink_jukebox-249770_001_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                },
+                {
+                    "filename": "Rosie-and-Rudolph-at-the-skating-rink_jukebox-249770_002_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129857",
+            "title": "Seated 'round an oil stove",
+            "url": "http://www.loc.gov/item/jukebox-129857/",
+            "clips": [
+                {
+                    "filename": "Seated-round-an-oil-stove_jukebox-129857_001_00-00-07",
+                    "timeStamp": "00:07",
+                    "start": 8000
+                },
+                {
+                    "filename": "Seated-round-an-oil-stove_jukebox-129857_002_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-250856",
+            "title": "Si and Sis",
+            "url": "http://www.loc.gov/item/jukebox-250856/",
+            "clips": [
+                {
+                    "filename": "Si-and-Sis_jukebox-250856_001_00-02-28",
+                    "timeStamp": "02:28",
+                    "start": 149000
+                },
+                {
+                    "filename": "Si-and-Sis_jukebox-250856_002_00-02-56",
+                    "timeStamp": "02:56",
+                    "start": 177000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-131805",
+            "title": "Strike upon the bell",
+            "url": "http://www.loc.gov/item/jukebox-131805/",
+            "clips": [
+                {
+                    "filename": "Strike-upon-the-bell_jukebox-131805_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "Strike-upon-the-bell_jukebox-131805_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "Strike-upon-the-bell_jukebox-131805_002_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-12100",
+            "title": "The Pineville band",
+            "url": "http://www.loc.gov/item/jukebox-12100/",
+            "clips": [
+                {
+                    "filename": "The-Pineville-band_jukebox-12100_001_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                },
+                {
+                    "filename": "The-Pineville-band_jukebox-12100_001_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                },
+                {
+                    "filename": "The-Pineville-band_jukebox-12100_002_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126592",
+            "title": "The Republican Party stands by Mr. Roosevelt",
+            "url": "http://www.loc.gov/item/jukebox-126592/",
+            "clips": [
+                {
+                    "filename": "The-Republican-Party-stands-by-Mr-Roosevelt_jukebox-126592_001_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "The-Republican-Party-stands-by-Mr-Roosevelt_jukebox-126592_002_00-02-32",
+                    "timeStamp": "02:32",
+                    "start": 153000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-213287",
+            "title": "The bouncer at the blazing rag",
+            "url": "http://www.loc.gov/item/jukebox-213287/",
+            "clips": [
+                {
+                    "filename": "The-bouncer-at-the-blazing-rag_jukebox-213287_001_00-00-52",
+                    "timeStamp": "00:52",
+                    "start": 53000
+                },
+                {
+                    "filename": "The-bouncer-at-the-blazing-rag_jukebox-213287_001_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "The-bouncer-at-the-blazing-rag_jukebox-213287_002_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-245555",
+            "title": "The boy and the cheese",
+            "url": "http://www.loc.gov/item/jukebox-245555/",
+            "clips": [
+                {
+                    "filename": "The-boy-and-the-cheese_jukebox-245555_001_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "The-boy-and-the-cheese_jukebox-245555_001_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                },
+                {
+                    "filename": "The-boy-and-the-cheese_jukebox-245555_002_00-01-42",
+                    "timeStamp": "01:42",
+                    "start": 103000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-247575",
+            "title": "The boy and the cheese",
+            "url": "http://www.loc.gov/item/jukebox-247575/",
+            "clips": [
+                {
+                    "filename": "The-boy-and-the-cheese_jukebox-247575_001_00-00-15",
+                    "timeStamp": "00:15",
+                    "start": 16000
+                },
+                {
+                    "filename": "The-boy-and-the-cheese_jukebox-247575_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126644",
+            "title": "The county fair at Pun'kin Centre",
+            "url": "http://www.loc.gov/item/jukebox-126644/",
+            "clips": [
+                {
+                    "filename": "The-county-fair-at-Punkin-Centre_jukebox-126644_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "The-county-fair-at-Punkin-Centre_jukebox-126644_001_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "The-county-fair-at-Punkin-Centre_jukebox-126644_002_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-260235",
+            "title": "The duke's speech",
+            "url": "http://www.loc.gov/item/jukebox-260235/",
+            "clips": [
+                {
+                    "filename": "The-dukes-speech_jukebox-260235_001_00-01-49",
+                    "timeStamp": "01:49",
+                    "start": 110000
+                },
+                {
+                    "filename": "The-dukes-speech_jukebox-260235_002_00-03-35",
+                    "timeStamp": "03:35",
+                    "start": 216000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126601",
+            "title": "The effect of proposed jury trial in contempt cases (as proposed by the Democratic platform)",
+            "url": "http://www.loc.gov/item/jukebox-126601/",
+            "clips": [
+                {
+                    "filename": "The-effect-of-proposed-jury-trial-in-contempt-cases-as-proposed-by-the-Democratic-platform_jukebox-126601_001_00-00-48",
+                    "timeStamp": "00:48",
+                    "start": 49000
+                },
+                {
+                    "filename": "The-effect-of-proposed-jury-trial-in-contempt-cases-as-proposed-by-the-Democratic-platform_jukebox-126601_001_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                },
+                {
+                    "filename": "The-effect-of-proposed-jury-trial-in-contempt-cases-as-proposed-by-the-Democratic-platform_jukebox-126601_002_00-01-05",
+                    "timeStamp": "01:05",
+                    "start": 66000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-121986",
+            "title": "The fair fisher and her catch",
+            "url": "http://www.loc.gov/item/jukebox-121986/",
+            "clips": [
+                {
+                    "filename": "The-fair-fisher-and-her-catch_jukebox-121986_001_00-02-26",
+                    "timeStamp": "02:26",
+                    "start": 147000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126599",
+            "title": "The farmer and the Republican Party",
+            "url": "http://www.loc.gov/item/jukebox-126599/",
+            "clips": [
+                {
+                    "filename": "The-farmer-and-the-Republican-Party_jukebox-126599_001_00-00-27",
+                    "timeStamp": "00:27",
+                    "start": 28000
+                },
+                {
+                    "filename": "The-farmer-and-the-Republican-Party_jukebox-126599_001_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                },
+                {
+                    "filename": "The-farmer-and-the-Republican-Party_jukebox-126599_002_00-00-37",
+                    "timeStamp": "00:37",
+                    "start": 38000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-4659",
+            "title": "The first rehearsal of the huskin' bee",
+            "url": "http://www.loc.gov/item/jukebox-4659/",
+            "clips": [
+                {
+                    "filename": "The-first-rehearsal-of-the-huskin-bee_jukebox-4659_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127607",
+            "title": "The girl in the trolley",
+            "url": "http://www.loc.gov/item/jukebox-127607/",
+            "clips": [
+                {
+                    "filename": "The-girl-in-the-trolley_jukebox-127607_001_00-01-10",
+                    "timeStamp": "01:10",
+                    "start": 71000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-122113",
+            "title": "The golden wedding",
+            "url": "http://www.loc.gov/item/jukebox-122113/",
+            "clips": [
+                {
+                    "filename": "The-golden-wedding_jukebox-122113_001_00-01-17",
+                    "timeStamp": "01:17",
+                    "start": 78000
+                },
+                {
+                    "filename": "The-golden-wedding_jukebox-122113_002_00-02-28",
+                    "timeStamp": "02:28",
+                    "start": 149000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422472",
+            "title": "The golden wedding",
+            "url": "http://www.loc.gov/item/jukebox-422472/",
+            "clips": [
+                {
+                    "filename": "The-golden-wedding_jukebox-422472_001_00-00-33",
+                    "timeStamp": "00:33",
+                    "start": 34000
+                },
+                {
+                    "filename": "The-golden-wedding_jukebox-422472_001_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                },
+                {
+                    "filename": "The-golden-wedding_jukebox-422472_002_00-00-39",
+                    "timeStamp": "00:39",
+                    "start": 40000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-248924",
+            "title": "The jokesmiths",
+            "url": "http://www.loc.gov/item/jukebox-248924/",
+            "clips": [
+                {
+                    "filename": "The-jokesmiths_jukebox-248924_001_00-00-04",
+                    "timeStamp": "00:04",
+                    "start": 5000
+                },
+                {
+                    "filename": "The-jokesmiths_jukebox-248924_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "The-jokesmiths_jukebox-248924_002_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-133684",
+            "title": "The man with the hoe",
+            "url": "http://www.loc.gov/item/jukebox-133684/",
+            "clips": [
+                {
+                    "filename": "The-man-with-the-hoe_jukebox-133684_001_00-00-09",
+                    "timeStamp": "00:09",
+                    "start": 10000
+                },
+                {
+                    "filename": "The-man-with-the-hoe_jukebox-133684_001_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                },
+                {
+                    "filename": "The-man-with-the-hoe_jukebox-133684_002_00-00-14",
+                    "timeStamp": "00:14",
+                    "start": 15000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-189186",
+            "title": "The old country fiddler on astronomy",
+            "url": "http://www.loc.gov/item/jukebox-189186/",
+            "clips": [
+                {
+                    "filename": "The-old-country-fiddler-on-astronomy_jukebox-189186_001_00-00-10",
+                    "timeStamp": "00:10",
+                    "start": 11000
+                },
+                {
+                    "filename": "The-old-country-fiddler-on-astronomy_jukebox-189186_002_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-15337",
+            "title": "The old country fiddler on the school board",
+            "url": "http://www.loc.gov/item/jukebox-15337/",
+            "clips": [
+                {
+                    "filename": "The-old-country-fiddler-on-the-school-board_jukebox-15337_001_00-01-09",
+                    "timeStamp": "01:09",
+                    "start": 70000
+                },
+                {
+                    "filename": "The-old-country-fiddler-on-the-school-board_jukebox-15337_001_00-03-23",
+                    "timeStamp": "03:23",
+                    "start": 204000
+                },
+                {
+                    "filename": "The-old-country-fiddler-on-the-school-board_jukebox-15337_002_00-03-23",
+                    "timeStamp": "03:23",
+                    "start": 204000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129842",
+            "title": "The old jokes",
+            "url": "http://www.loc.gov/item/jukebox-129842/",
+            "clips": [
+                {
+                    "filename": "The-old-jokes_jukebox-129842_001_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "The-old-jokes_jukebox-129842_002_00-00-21",
+                    "timeStamp": "00:21",
+                    "start": 22000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-241422",
+            "title": "The passing of a circus parade",
+            "url": "http://www.loc.gov/item/jukebox-241422/",
+            "clips": [
+                {
+                    "filename": "The-passing-of-a-circus-parade_jukebox-241422_001_00-01-01",
+                    "timeStamp": "01:01",
+                    "start": 62000
+                },
+                {
+                    "filename": "The-passing-of-a-circus-parade_jukebox-241422_001_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                },
+                {
+                    "filename": "The-passing-of-a-circus-parade_jukebox-241422_002_00-01-31",
+                    "timeStamp": "01:31",
+                    "start": 92000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129942",
+            "title": "The piano tuner",
+            "url": "http://www.loc.gov/item/jukebox-129942/",
+            "clips": [
+                {
+                    "filename": "The-piano-tuner_jukebox-129942_001_00-02-09",
+                    "timeStamp": "02:09",
+                    "start": 130000
+                },
+                {
+                    "filename": "The-piano-tuner_jukebox-129942_002_00-03-06",
+                    "timeStamp": "03:06",
+                    "start": 187000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-245562",
+            "title": "The robin",
+            "url": "http://www.loc.gov/item/jukebox-245562/",
+            "clips": [
+                {
+                    "filename": "The-robin_jukebox-245562_001_00-02-18",
+                    "timeStamp": "02:18",
+                    "start": 139000
+                },
+                {
+                    "filename": "The-robin_jukebox-245562_001_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "The-robin_jukebox-245562_002_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-135242",
+            "title": "The servant girls",
+            "url": "http://www.loc.gov/item/jukebox-135242/",
+            "clips": [
+                {
+                    "filename": "The-servant-girls_jukebox-135242_001_00-02-33",
+                    "timeStamp": "02:33",
+                    "start": 154000
+                },
+                {
+                    "filename": "The-servant-girls_jukebox-135242_001_00-03-12",
+                    "timeStamp": "03:12",
+                    "start": 193000
+                },
+                {
+                    "filename": "The-servant-girls_jukebox-135242_002_00-03-12",
+                    "timeStamp": "03:12",
+                    "start": 193000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-424776",
+            "title": "The seven ages of man",
+            "url": "http://www.loc.gov/item/jukebox-424776/",
+            "clips": [
+                {
+                    "filename": "The-seven-ages-of-man_jukebox-424776_001_00-00-38",
+                    "timeStamp": "00:38",
+                    "start": 39000
+                },
+                {
+                    "filename": "The-seven-ages-of-man_jukebox-424776_002_00-00-52",
+                    "timeStamp": "00:52",
+                    "start": 53000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-18513",
+            "title": "The stock in the 'tie-up'",
+            "url": "http://www.loc.gov/item/jukebox-18513/",
+            "clips": [
+                {
+                    "filename": "The-stock-in-the-tie-up_jukebox-18513_001_00-01-26",
+                    "timeStamp": "01:26",
+                    "start": 87000
+                },
+                {
+                    "filename": "The-stock-in-the-tie-up_jukebox-18513_002_00-02-05",
+                    "timeStamp": "02:05",
+                    "start": 126000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-128074",
+            "title": "The tale of the cheese",
+            "url": "http://www.loc.gov/item/jukebox-128074/",
+            "clips": [
+                {
+                    "filename": "The-tale-of-the-cheese_jukebox-128074_001_00-00-54",
+                    "timeStamp": "00:54",
+                    "start": 55000
+                },
+                {
+                    "filename": "The-tale-of-the-cheese_jukebox-128074_002_00-01-06",
+                    "timeStamp": "01:06",
+                    "start": 67000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-16299",
+            "title": "The tar baby",
+            "url": "http://www.loc.gov/item/jukebox-16299/",
+            "clips": [
+                {
+                    "filename": "The-tar-baby_jukebox-16299_001_00-02-13",
+                    "timeStamp": "02:13",
+                    "start": 134000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-130348",
+            "title": "The village barber",
+            "url": "http://www.loc.gov/item/jukebox-130348/",
+            "clips": [
+                {
+                    "filename": "The-village-barber_jukebox-130348_001_00-02-27",
+                    "timeStamp": "02:27",
+                    "start": 148000
+                },
+                {
+                    "filename": "The-village-barber_jukebox-130348_002_00-03-15",
+                    "timeStamp": "03:15",
+                    "start": 196000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11741",
+            "title": "The village blacksmith",
+            "url": "http://www.loc.gov/item/jukebox-11741/",
+            "clips": [
+                {
+                    "filename": "The-village-blacksmith_jukebox-11741_001_00-00-19",
+                    "timeStamp": "00:19",
+                    "start": 20000
+                },
+                {
+                    "filename": "The-village-blacksmith_jukebox-11741_002_00-00-41",
+                    "timeStamp": "00:41",
+                    "start": 42000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-13509",
+            "title": "The village gossips",
+            "url": "http://www.loc.gov/item/jukebox-13509/",
+            "clips": [
+                {
+                    "filename": "The-village-gossips_jukebox-13509_001_00-01-11",
+                    "timeStamp": "01:11",
+                    "start": 72000
+                },
+                {
+                    "filename": "The-village-gossips_jukebox-13509_002_00-01-39",
+                    "timeStamp": "01:39",
+                    "start": 100000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-260340",
+            "title": "The water mill",
+            "url": "http://www.loc.gov/item/jukebox-260340/",
+            "clips": [
+                {
+                    "filename": "The-water-mill_jukebox-260340_001_00-00-46",
+                    "timeStamp": "00:46",
+                    "start": 47000
+                },
+                {
+                    "filename": "The-water-mill_jukebox-260340_002_00-01-20",
+                    "timeStamp": "01:20",
+                    "start": 81000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422526",
+            "title": "The wedding of Uncle Josh and Aunt Nancy",
+            "url": "http://www.loc.gov/item/jukebox-422526/",
+            "clips": [
+                {
+                    "filename": "The-wedding-of-Uncle-Josh-and-Aunt-Nancy_jukebox-422526_001_00-00-23",
+                    "timeStamp": "00:23",
+                    "start": 24000
+                },
+                {
+                    "filename": "The-wedding-of-Uncle-Josh-and-Aunt-Nancy_jukebox-422526_001_00-00-54",
+                    "timeStamp": "00:54",
+                    "start": 55000
+                },
+                {
+                    "filename": "The-wedding-of-Uncle-Josh-and-Aunt-Nancy_jukebox-422526_002_00-00-54",
+                    "timeStamp": "00:54",
+                    "start": 55000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-127609",
+            "title": "There is a happyland",
+            "url": "http://www.loc.gov/item/jukebox-127609/",
+            "clips": [
+                {
+                    "filename": "There-is-a-happyland_jukebox-127609_001_00-01-15",
+                    "timeStamp": "01:15",
+                    "start": 76000
+                },
+                {
+                    "filename": "There-is-a-happyland_jukebox-127609_002_00-02-29",
+                    "timeStamp": "02:29",
+                    "start": 150000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-16258",
+            "title": "To my dog",
+            "url": "http://www.loc.gov/item/jukebox-16258/",
+            "clips": [
+                {
+                    "filename": "To-my-dog_jukebox-16258_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-186790",
+            "title": "Too much dog",
+            "url": "http://www.loc.gov/item/jukebox-186790/",
+            "clips": [
+                {
+                    "filename": "Too-much-dog_jukebox-186790_001_00-00-22",
+                    "timeStamp": "00:22",
+                    "start": 23000
+                },
+                {
+                    "filename": "Too-much-dog_jukebox-186790_001_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                },
+                {
+                    "filename": "Too-much-dog_jukebox-186790_002_00-01-37",
+                    "timeStamp": "01:37",
+                    "start": 98000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-129937",
+            "title": "Two rubes swapping horses",
+            "url": "http://www.loc.gov/item/jukebox-129937/",
+            "clips": [
+                {
+                    "filename": "Two-rubes-swapping-horses_jukebox-129937_001_00-02-24",
+                    "timeStamp": "02:24",
+                    "start": 145000
+                },
+                {
+                    "filename": "Two-rubes-swapping-horses_jukebox-129937_002_00-03-02",
+                    "timeStamp": "03:02",
+                    "start": 183000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-32817",
+            "title": "Uncle Josh and Aunt Nancy put up the kitchen stove",
+            "url": "http://www.loc.gov/item/jukebox-32817/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-and-Aunt-Nancy-put-up-the-kitchen-stove_jukebox-32817_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Uncle-Josh-and-Aunt-Nancy-put-up-the-kitchen-stove_jukebox-32817_001_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                },
+                {
+                    "filename": "Uncle-Josh-and-Aunt-Nancy-put-up-the-kitchen-stove_jukebox-32817_002_00-00-31",
+                    "timeStamp": "00:31",
+                    "start": 32000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-118605",
+            "title": "Uncle Josh and the fire department",
+            "url": "http://www.loc.gov/item/jukebox-118605/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-and-the-fire-department_jukebox-118605_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Uncle-Josh-and-the-fire-department_jukebox-118605_002_00-01-29",
+                    "timeStamp": "01:29",
+                    "start": 90000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-118607",
+            "title": "Uncle Josh and the fire department",
+            "url": "http://www.loc.gov/item/jukebox-118607/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-and-the-fire-department_jukebox-118607_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Uncle-Josh-and-the-fire-department_jukebox-118607_002_00-01-52",
+                    "timeStamp": "01:52",
+                    "start": 113000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-32993",
+            "title": "Uncle Josh and the honey bees",
+            "url": "http://www.loc.gov/item/jukebox-32993/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-and-the-honey-bees_jukebox-32993_001_00-00-02",
+                    "timeStamp": "00:02",
+                    "start": 3000
+                },
+                {
+                    "filename": "Uncle-Josh-and-the-honey-bees_jukebox-32993_002_00-02-17",
+                    "timeStamp": "02:17",
+                    "start": 138000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-124257",
+            "title": "Uncle Josh at the roller skating rink",
+            "url": "http://www.loc.gov/item/jukebox-124257/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-at-the-roller-skating-rink_jukebox-124257_001_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                },
+                {
+                    "filename": "Uncle-Josh-at-the-roller-skating-rink_jukebox-124257_002_00-01-50",
+                    "timeStamp": "01:50",
+                    "start": 111000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-33423",
+            "title": "Uncle Josh buys a Victrola",
+            "url": "http://www.loc.gov/item/jukebox-33423/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-buys-a-Victrola_jukebox-33423_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Uncle-Josh-buys-a-Victrola_jukebox-33423_002_00-00-58",
+                    "timeStamp": "00:58",
+                    "start": 59000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-13503",
+            "title": "Uncle Josh buys an automobile",
+            "url": "http://www.loc.gov/item/jukebox-13503/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-buys-an-automobile_jukebox-13503_001_00-00-03",
+                    "timeStamp": "00:03",
+                    "start": 4000
+                },
+                {
+                    "filename": "Uncle-Josh-buys-an-automobile_jukebox-13503_002_00-00-13",
+                    "timeStamp": "00:13",
+                    "start": 14000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-118613",
+            "title": "Uncle Josh in an automobile",
+            "url": "http://www.loc.gov/item/jukebox-118613/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-in-an-automobile_jukebox-118613_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Uncle-Josh-in-an-automobile_jukebox-118613_002_00-00-26",
+                    "timeStamp": "00:26",
+                    "start": 27000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-124341",
+            "title": "Uncle Josh in society",
+            "url": "http://www.loc.gov/item/jukebox-124341/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-in-society_jukebox-124341_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Uncle-Josh-in-society_jukebox-124341_001_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                },
+                {
+                    "filename": "Uncle-Josh-in-society_jukebox-124341_002_00-02-02",
+                    "timeStamp": "02:02",
+                    "start": 123000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-32996",
+            "title": "Uncle Josh in the cafeteria",
+            "url": "http://www.loc.gov/item/jukebox-32996/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-in-the-cafeteria_jukebox-32996_001_00-00-00",
+                    "timeStamp": "00:00",
+                    "start": 1000
+                },
+                {
+                    "filename": "Uncle-Josh-in-the-cafeteria_jukebox-32996_002_00-00-30",
+                    "timeStamp": "00:30",
+                    "start": 31000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-118611",
+            "title": "Uncle Josh on an automobile",
+            "url": "http://www.loc.gov/item/jukebox-118611/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-on-an-automobile_jukebox-118611_001_00-00-25",
+                    "timeStamp": "00:25",
+                    "start": 26000
+                },
+                {
+                    "filename": "Uncle-Josh-on-an-automobile_jukebox-118611_002_00-01-33",
+                    "timeStamp": "01:33",
+                    "start": 94000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422599",
+            "title": "Uncle Josh on an automobile",
+            "url": "http://www.loc.gov/item/jukebox-422599/",
+            "clips": [
+                {
+                    "filename": "Uncle-Josh-on-an-automobile_jukebox-422599_001_00-02-06",
+                    "timeStamp": "02:06",
+                    "start": 127000
+                },
+                {
+                    "filename": "Uncle-Josh-on-an-automobile_jukebox-422599_002_00-02-11",
+                    "timeStamp": "02:11",
+                    "start": 132000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-422247",
+            "title": "Uncle Josh's second visit to the metropolis",
+            "url": "http://www.loc.gov/item/jukebox-422247/",
+            "clips": [
+                {
+                    "filename": "Uncle-Joshs-second-visit-to-the-metropolis_jukebox-422247_001_00-00-49",
+                    "timeStamp": "00:49",
+                    "start": 50000
+                },
+                {
+                    "filename": "Uncle-Joshs-second-visit-to-the-metropolis_jukebox-422247_001_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                },
+                {
+                    "filename": "Uncle-Joshs-second-visit-to-the-metropolis_jukebox-422247_002_00-01-25",
+                    "timeStamp": "01:25",
+                    "start": 86000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-124356",
+            "title": "Uncle Josh's trip to Coney Island",
+            "url": "http://www.loc.gov/item/jukebox-124356/",
+            "clips": [
+                {
+                    "filename": "Uncle-Joshs-trip-to-Coney-Island_jukebox-124356_001_00-00-16",
+                    "timeStamp": "00:16",
+                    "start": 17000
+                },
+                {
+                    "filename": "Uncle-Joshs-trip-to-Coney-Island_jukebox-124356_001_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                },
+                {
+                    "filename": "Uncle-Joshs-trip-to-Coney-Island_jukebox-124356_002_00-02-12",
+                    "timeStamp": "02:12",
+                    "start": 133000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-124357",
+            "title": "Uncle Josh's trip to Coney Island",
+            "url": "http://www.loc.gov/item/jukebox-124357/",
+            "clips": [
+                {
+                    "filename": "Uncle-Joshs-trip-to-Coney-Island_jukebox-124357_001_00-00-51",
+                    "timeStamp": "00:51",
+                    "start": 52000
+                },
+                {
+                    "filename": "Uncle-Joshs-trip-to-Coney-Island_jukebox-124357_002_00-01-04",
+                    "timeStamp": "01:04",
+                    "start": 65000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-17485",
+            "title": "Uriah Heep",
+            "url": "http://www.loc.gov/item/jukebox-17485/",
+            "clips": [
+                {
+                    "filename": "Uriah-Heep_jukebox-17485_001_00-00-17",
+                    "timeStamp": "00:17",
+                    "start": 18000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-11893",
+            "title": "Violin mimicry",
+            "url": "http://www.loc.gov/item/jukebox-11893/",
+            "clips": [
+                {
+                    "filename": "Violin-mimicry_jukebox-11893_001_00-00-08",
+                    "timeStamp": "00:08",
+                    "start": 9000
+                },
+                {
+                    "filename": "Violin-mimicry_jukebox-11893_002_00-00-56",
+                    "timeStamp": "00:56",
+                    "start": 57000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-133404",
+            "title": "Washington's farewell address (Sept. 19, 1796)",
+            "url": "http://www.loc.gov/item/jukebox-133404/",
+            "clips": [
+                {
+                    "filename": "Washingtons-farewell-address-Sept-19-1796_jukebox-133404_001_00-00-01",
+                    "timeStamp": "00:01",
+                    "start": 2000
+                },
+                {
+                    "filename": "Washingtons-farewell-address-Sept-19-1796_jukebox-133404_001_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                },
+                {
+                    "filename": "Washingtons-farewell-address-Sept-19-1796_jukebox-133404_002_00-00-36",
+                    "timeStamp": "00:36",
+                    "start": 37000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-133405",
+            "title": "Webster's reply to Hayne",
+            "url": "http://www.loc.gov/item/jukebox-133405/",
+            "clips": [
+                {
+                    "filename": "Websters-reply-to-Hayne_jukebox-133405_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "Websters-reply-to-Hayne_jukebox-133405_002_00-01-27",
+                    "timeStamp": "01:27",
+                    "start": 88000
+                }
+            ]
+        },
+        {
+            "id": "jukebox-126604",
+            "title": "What constitutes an unlawful trust",
+            "url": "http://www.loc.gov/item/jukebox-126604/",
+            "clips": [
+                {
+                    "filename": "What-constitutes-an-unlawful-trust_jukebox-126604_001_00-00-11",
+                    "timeStamp": "00:11",
+                    "start": 12000
+                },
+                {
+                    "filename": "What-constitutes-an-unlawful-trust_jukebox-126604_002_00-00-18",
+                    "timeStamp": "00:18",
+                    "start": 19000
+                }
+            ]
+        }
+    ],
+    "segmentCount": 455,
+    "oneshotCount": 7182,
+    "totalCount": 7637
+}
