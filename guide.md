@@ -147,7 +147,8 @@ If you are sampling from field recordings or culturally sensitive material, it i
 5. Did the performers get compensated?
 6. Did the collector receive permission to record and share the performers' work?
 7. What would the original performer/creator think if your derivative work?
-8. Consider the history of cultural appropriation
+8. If you are sampling from a culture that is not your own, does it come from a place of respect or capitalization? How do you acknowledge that culture? What do you add to it?
+9. If the original recording contains offensive or insensitive material, does your new work perpetuate or interrogate the offensive or insensitive content?
 
 ### Further reading
 
