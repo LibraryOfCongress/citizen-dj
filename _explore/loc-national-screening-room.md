@@ -17,5 +17,7 @@ uid: "loc-national-screening-room"
 subjects:
   - Government film
 sequence: 19
+content_warning: 0
+year_added: 2020
 active: 1
 ---

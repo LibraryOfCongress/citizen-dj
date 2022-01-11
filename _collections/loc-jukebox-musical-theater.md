@@ -18,5 +18,7 @@ subjects:
   - Music
   - Theater
 sequence: 25
+content_warning: 1
+year_added: 2022
 active: 1
 ---

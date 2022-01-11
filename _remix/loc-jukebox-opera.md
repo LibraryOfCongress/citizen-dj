@@ -17,5 +17,7 @@ uid: "loc-jukebox-opera"
 subjects:
   - Opera
 sequence: 24
+content_warning: 1
+year_added: 2022
 active: 1
 ---

@@ -17,5 +17,7 @@ uid: "loc-jukebox-folk-songs"
 subjects:
   - Music
 sequence: 23
+content_warning: 1
+year_added: 2022
 active: 1
 ---

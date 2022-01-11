@@ -26,7 +26,7 @@ permalink: "/public-domain-2022/"
     </p>
 
     <p>
-    The staff of the Library of Congress <a href="https://www.loc.gov/programs/audio-visual-conservation/about-this-program/" target="_blank">National Audio-Visual Conservation Center (NAVCC)</a>, along with <a href="https://labs.loc.gov/" target="_blank">LC Labs</a> and Citizen DJ developer, <a href="https://brianfoo.com/" target="_blank">Brian Foo</a>, have selected thousands of recordings for the initial launch of National Jukebox content on the Citizen DJ platform. The selected works come from the collections of the Library of Congress and span a variety of genres from classical and opera, to early jazz and blues, humorous songs, spoken word and even some yodeling. Made in the United States between 1900 and 1921, these recordings represent the vastly diverse and intensely creative artists who played a part in shaping the nation's recorded sound history and whose legacy lives on through these rare and valuable cultural treasures.
+    The staff of the Library of Congress <a href="https://www.loc.gov/programs/audio-visual-conservation/about-this-program/" target="_blank">National Audio-Visual Conservation Center (NAVCC)</a>, along with <a href="https://labs.loc.gov/" target="_blank">LC Labs</a> and Citizen DJ developer, <a href="https://brianfoo.com/" target="_blank">Brian Foo</a>, have selected thousands of audio samples for the initial launch of National Jukebox content on the Citizen DJ platform. The selected works come from the collections of the Library of Congress and span a variety of genres from classical and opera, to early jazz and blues, humorous songs, spoken word and even some yodeling. Made in the United States between 1900 and 1921, these recordings represent the vastly diverse and intensely creative artists who played a part in shaping the nation's recorded sound history and whose legacy lives on through these rare and valuable cultural treasures.
     </p>
 
     <p>
@@ -37,6 +37,12 @@ permalink: "/public-domain-2022/"
 
     <p>No, some recordings were excluded from Citizen DJ due to copyright limitations or ethical concerns. Furthermore, a subset of the remaining recordings were <a href="/about/#how-do-you-selectcreate-the-audio-clips">selected based on their their music-making potential</a>, with preferences with those recordings that are sufficiently loud, have less noise, and have a clear musical pitch. If you cannot find a specific National Jukebox recording on Citizen DJ, you can still <a href="https://www.loc.gov/collections/national-jukebox/?dates=1800/1922" target="_blank">access those recordings directly on the Library's website</a>.</p>
 
+    <h3>A note about this historical content</h3>
+
+    <p>These selections are presented as part of the record of the past. They are historical recordings which reflect the language, attitudes, perspectives, and beliefs of different times. The Library of Congress does not endorse the views expressed in these recordings, which may contain content offensive to users.</p>
+
+    <p>If you discover such content, you may <a href="/feedback/">report it here</a>. If you are an artist, scholar, or concerned citizen, you are encouraged to interrogate this content rather than perpetuate it.</p>
+
     <h2>Remix the new collections!</h2>
 
   </div>
@@ -44,7 +50,7 @@ permalink: "/public-domain-2022/"
   {% assign pages = site.use | sort:"sequence" %}
   <div class="collections">
     {% for p in pages %}
-      {% if p.active > 0 and p.sequence < 30 and p.sequence >= 20 %}
+      {% if p.active > 0 and p.year_added == 2022 %}
       <div class="collection">
         {% if p.image_url %}
         <img src="{{ p.image_url }}" alt="A grid of clips representing the audio contained in this collection: {{ p.title }}" />

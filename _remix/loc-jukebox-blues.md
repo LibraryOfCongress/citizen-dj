@@ -17,5 +17,7 @@ uid: "loc-jukebox-blues"
 subjects:
   - Music
 sequence: 21
+content_warning: 1
+year_added: 2022
 active: 1
 ---

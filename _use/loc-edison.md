@@ -18,5 +18,7 @@ subjects:
   - Music
   - Spoken word
 sequence: 10
+content_warning: 0
+year_added: 2020
 active: 1
 ---

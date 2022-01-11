@@ -17,5 +17,7 @@ uid: "loc-jukebox-spoken"
 subjects:
   - Spoken word
 sequence: 26
+content_warning: 1
+year_added: 2022
 active: 0
 ---

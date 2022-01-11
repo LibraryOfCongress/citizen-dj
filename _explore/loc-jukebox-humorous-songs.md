@@ -18,5 +18,7 @@ subjects:
   - Songs
   - Humor
 sequence: 28
+content_warning: 1
+year_added: 2022
 active: 0
 ---

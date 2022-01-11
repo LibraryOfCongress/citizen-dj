@@ -17,5 +17,7 @@ uid: "loc-jukebox-jazz"
 subjects:
   - Music
 sequence: 22
+content_warning: 1
+year_added: 2022
 active: 1
 ---

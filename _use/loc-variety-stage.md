@@ -18,5 +18,7 @@ subjects:
   - Music
   - Sketches
 sequence: 11
+content_warning: 0
+year_added: 2020
 active: 1
 ---

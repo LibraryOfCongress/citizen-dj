@@ -18,5 +18,7 @@ uid: "loc-musicbox"
 subjects:
   - Music
 sequence: 14
+content_warning: 0
+year_added: 2020
 active: 1
 ---

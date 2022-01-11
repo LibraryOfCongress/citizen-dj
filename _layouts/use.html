@@ -10,6 +10,12 @@
 
       <p>{{ page.description }}</p>
 
+      {% if page.content_warning > 0 %}
+        <div class="notice">
+          <p><strong>Content warning:</strong> These selections are presented as part of the record of the past. They are historical recordings which reflect the language, attitudes, perspectives, and beliefs of different times. The Library of Congress does not endorse the views expressed in these recordings, which may contain content offensive to users.</p>
+        </div>
+      {% endif %}
+
       <p><a href="{{ page.source_url }}" target="_blank" class="button">View this collection on the {{ page.source }} website</a></p>
 
       <h3><a name="download"></a>Download files in bulk</h3>

@@ -19,5 +19,7 @@ subjects:
   - Oral histories
   - Speeches
 sequence: 18
+content_warning: 0
+year_added: 2020
 active: 1
 ---

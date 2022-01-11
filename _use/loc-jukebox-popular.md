@@ -17,5 +17,7 @@ uid: "loc-jukebox-popular"
 subjects:
   - Music
 sequence: 29
+content_warning: 1
+year_added: 2022
 active: 1
 ---

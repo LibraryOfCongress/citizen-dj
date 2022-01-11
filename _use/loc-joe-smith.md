@@ -17,5 +17,7 @@ uid: "loc-joe-smith"
 subjects:
   - Interviews
 sequence: 12
+content_warning: 0
+year_added: 2020
 active: 1
 ---

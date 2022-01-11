@@ -18,5 +18,7 @@ uid: "loc-fma"
 subjects:
   - Music
 sequence: 13
+content_warning: 0
+year_added: 2020
 active: 1
 ---
