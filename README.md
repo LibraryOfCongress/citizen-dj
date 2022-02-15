@@ -135,7 +135,7 @@ And compile the items into a .csv file:
 
 ```
 python3 ingesters/loc/collect_metadata.py \
-  -in "output/variety-stage/items/%s.json" \
+  -in "output/variety-stage/items/*.json" \
   -out "output/variety-stage/items.csv"
 ```
 
