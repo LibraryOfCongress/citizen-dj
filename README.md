@@ -1,5 +1,7 @@
 # Citizen DJ
 
+<i>This project is an experiment and there is no active development and/or maintenance of the codebase. Fork at your own risk! In the unlikely event that there are further updates, the LC Labs team will announce it through our communication channels. Sign up for our listserv on labs.loc.gov, follow us on Twitter @LC_Labs, and watch #CitizenDJ. </i>
+
 The Citizen DJ project invites the public to make hip hop music using the Library’s public audio and moving image collections. By embedding these materials in hip hop music, listeners can discover items in the Library's vast collections that they likely would never have known existed.
 
 [Preview Citizen DJ here](https://citizen-dj.labs.loc.gov/)
