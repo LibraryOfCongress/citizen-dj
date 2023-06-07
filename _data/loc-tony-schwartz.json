@@ -3,13 +3,13 @@
         {
             "filename": "loc.gov_tony-schwartz_mp3.zip",
             "label": "Download in 192 Kbps .mp3 format",
-            "size": "102.7mb",
+            "size": "103.4mb",
             "comment": "Ideal if you would just like to preview and browse this collection"
         },
         {
             "filename": "loc.gov_tony-schwartz_wav.zip",
             "label": "Download in 16-bit .wav format",
-            "size": "628.6mb",
+            "size": "632.3mb",
             "comment": "Ideal for production"
         }
     ],
@@ -123,18 +123,6 @@
                     "filename": "Announcer-Process_214052_006_00-02-36",
                     "timeStamp": "02:36",
                     "start": 157000
-                }
-            ]
-        },
-        {
-            "id": "243111",
-            "title": "Anton Schwartz interviews Tony Schwartz, 1988-12-25",
-            "url": "/items/loc-tony-schwartz/243111/",
-            "clips": [
-                {
-                    "filename": "Anton-Schwartz-interviews-Tony-Schwartz-1988-12-25_243111_001_01-03-16",
-                    "timeStamp": "01:03:16",
-                    "start": 3797000
                 }
             ]
         },
@@ -1748,6 +1736,6 @@
         }
     ],
     "segmentCount": 272,
-    "oneshotCount": 4096,
-    "totalCount": 4368
+    "oneshotCount": 4169,
+    "totalCount": 4441
 }
